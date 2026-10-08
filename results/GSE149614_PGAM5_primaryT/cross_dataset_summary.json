@@ -1,0 +1,26 @@
+{
+  "shared_upregulated": 76,
+  "top20": [
+    "CENPK",
+    "MYBL2",
+    "ATAD2",
+    "DONSON",
+    "FEN1",
+    "ASF1B",
+    "TUBG1",
+    "TUSC3",
+    "FAM114A1",
+    "TOP2A",
+    "NUSAP1",
+    "GGH",
+    "POC1A",
+    "HCFC1",
+    "MPP6",
+    "OAF",
+    "CENPH",
+    "CENPM",
+    "RRM2",
+    "HES6"
+  ],
+  "note": "Both independently thresholded pooled-cell exploratory lists; annotation differs between datasets; not definitive validation."
+}

@@ -1,0 +1,9 @@
+{
+  "source_cells": 71915,
+  "primary_T_samples": 10,
+  "primary_T_cells": 34414,
+  "primary_T_myeloid_cells": 8209,
+  "all_sites_myeloid_cells": 15947,
+  "genes": 25712,
+  "myeloid_nnz": 28992029
+}
