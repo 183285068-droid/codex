@@ -1,0 +1,3 @@
+endpoint,eligible_patients,high,low,excluded,independent_chi_square,independent_p,source_groups_unchanged,all_risk_counts_match,exported_KM_curve_recomputed
+OS,363,108,255,8,14.6880927867833,0.0001268451407660712,True,True,True
+PFI,364,109,255,7,23.397586255934417,1.317437416297603e-06,True,True,True

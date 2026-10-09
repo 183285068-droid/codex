@@ -1,0 +1,30 @@
+{
+  "input_hashes": {
+    "/workspace/codex/results/GSE151530_only_TCGA_PGAM5_deconvolution/TCGA_LIHC_PGAM5_macrophage_estimates.csv": {
+      "sha256": "7653a1b751adddea442272606b5da1f4fe9e5983745e1a6196564e23834d518a",
+      "bytes": 39101
+    },
+    "/workspace/codex/results/GSE151530_only_TCGA_PGAM5_deconvolution/locked_reference_manifest.json": {
+      "sha256": "b341665fe4700085a0669e3ed2e4491323bd5e890eb0790d6bb5597a7b0d0de0",
+      "bytes": 11194
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA_CDR_mirror_survival.csv.gz": {
+      "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0",
+      "bytes": 101104
+    }
+  },
+  "expression_and_clinical_sources": {
+    "access_date": "2026-10-09",
+    "expression_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1536nnn/GSM1536837/suppl/GSM1536837_06_01_15_TCGA_24.tumor_Rsubread_FeatureCounts.txt.gz",
+    "sample_type_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62944/suppl/GSE62944_06_01_15_TCGA_24_CancerType_Samples.txt.gz",
+    "expression_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+    "survival_repository": "https://github.com/openbiox/UCSCXenaShiny",
+    "survival_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+    "survival_file": "data/tcga_surv.rda",
+    "survival_origin_from_source_script": "Xena Toil TCGA_survival_data; DOI https://doi.org/10.1016/j.cell.2018.02.052",
+    "source_kind": "Public TCGA reprocessing mirror and curated clinical mirror, not fresh GDC extraction",
+    "signature_source_commit": "bdec8f03667aa755fe9303b1567cddd22ca1231c",
+    "network_limit": "Xena/GDC direct domains returned proxy403; legitimate NCBI/GitHub mirrors used"
+  },
+  "estimate_source_commit": "aa9e46b6bf217e90007bab62f2b8b70598c0ab05"
+}

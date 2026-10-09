@@ -1,0 +1,6 @@
+{
+  "patients": 371,
+  "Spearman_rho": 0.36842589977591944,
+  "p": 2.2684839985845566e-13,
+  "interpretation": "Bulk association only; does not establish PGAM5 specificity or macrophage state identity"
+}

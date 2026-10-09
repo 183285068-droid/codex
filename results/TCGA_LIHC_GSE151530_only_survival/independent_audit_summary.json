@@ -1,0 +1,9 @@
+{
+  "source115High256Low_groups_preserved": true,
+  "endpoints_independently_checked": 2,
+  "all_exported_KM_values_checked": true,
+  "all_exported_risk_table_values_checked": true,
+  "two_logrank_p_and_BH_q_recomputed": true,
+  "PFS_available": false,
+  "status": "Passed checked scope; exploratory reference is not validated infiltration"
+}

@@ -1,0 +1,14 @@
+{
+  "task": "Survival association of latest GSE151530-only reference NNLS target estimates, not earlier joint-reference or candidate30/31 scores",
+  "estimate_source": "results/GSE151530_only_TCGA_PGAM5_deconvolution/TCGA_LIHC_PGAM5_macrophage_estimates.csv",
+  "source_commit": "aa9e46b6bf217e90007bab62f2b8b70598c0ab05",
+  "reference": "GSE151530-only gene selection and donor-equal means;50targetcandidates,700referencegenes14components,636measurablebulkgenes46measurabletargetgenes; source passed computational audit but failed internal scientific diagnostic",
+  "grouping": "Frozen cohort-wide median over371primarypatients=0;High>0 (115),Low=0 (256). Same group/cutpoint for both endpoints; no outcome-optimized threshold or random splitting of zeros",
+  "clinical_source": "Previously verified TCGA-CDR/Xena survival mirror, openbiox/UCSCXenaShiny data/tcga_surv.rda commit e012e4a3e77702863dc639bfc8ee23c8e48e3231; source Toil TCGA_survival_data attributed to Liu Cell2018 DOI10.1016/j.cell.2018.02.052",
+  "join": "Verify all8endpoint records agree for patient sample aliases, then retain primary01 alias and merge one-to-one; normal/recurrent aliases not independent patients",
+  "endpoints": "OS and PFI events/times in days. PFI is progression-free interval, not independently defined PFS. PFS unavailable; no relabeling",
+  "eligibility": "Nonmissing finite time>0 and event binary0/1; report endpoint-specific exclusions",
+  "statistics": "KM95%CI,censor marks,risktables; two-sided unweighted logrank; univariate Cox high/lowHR95%CI and rank-transformed PH diagnostic;BH across2primarylogrankpvalues; independent logrank riskset and product-limit KM computations",
+  "interpretation": "High vs low exploratory relative mixture coefficient, operationally nonzero vs zero. Zero estimate does not establish absence of cells. Reference unvalidated, no calibrated cellular infiltration or causal claim; no stage/purity/age covariate adjustment or independent survival cohort",
+  "user_confirmed_grouping": "Latest user explicitly confirms115nonzero vs256zero, no redefinition"
+}

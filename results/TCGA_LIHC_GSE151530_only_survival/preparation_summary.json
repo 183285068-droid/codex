@@ -1,0 +1,10 @@
+{
+  "patients": 371,
+  "score_median": 0.0,
+  "high_patients": 115,
+  "low_patients": 256,
+  "survival_matched": 369,
+  "survival_unmatched": 2,
+  "reference_source": "GSE151530-only latest reference",
+  "PFS_available": false
+}

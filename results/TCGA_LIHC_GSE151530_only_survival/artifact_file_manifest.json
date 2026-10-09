@@ -1,0 +1,118 @@
+{
+  "estimate_PGAM5_association.json": {
+    "bytes": 203,
+    "sha256": "b66b139d86dc32e376ede1cf6c268ab66a3885af1680296949830500d992d41f"
+  },
+  "requirements.txt": {
+    "bytes": 113,
+    "sha256": "f05206913c005caadfbb47acad28fb01fbef643b35b1968061f87cef2a8fad1f"
+  },
+  "audit.log": {
+    "bytes": 343,
+    "sha256": "e5e6f133fcaa7162d8d42662084442782dbb110fa76521d0b66ad2f11d02611c"
+  },
+  "analyze_survival.py": {
+    "bytes": 7646,
+    "sha256": "6fae2535ae52d427f6bccc074ff6db7098259495f8da026cadf3d240a918d43d"
+  },
+  "KM_OS.png": {
+    "bytes": 174420,
+    "sha256": "6e9037fe3570b155965dc0b6d228a973788a8659e205baa6ec44652a65f50d9a"
+  },
+  "KM_OS.pdf": {
+    "bytes": 30724,
+    "sha256": "62b5c99d400f7e7693c9fd129f3693d17a84c4f99580b890c8d02834d3022276"
+  },
+  "source_provenance.json": {
+    "bytes": 1800,
+    "sha256": "f3191bf6a3289d5d3f718f9820214916640c105a90c844a5b9a83dcb3fd5ad57"
+  },
+  "preparation_summary.json": {
+    "bytes": 228,
+    "sha256": "91f47c2dd0b13193f5c98f55b4c0b76cd89af11b6f30979141ef03c3d8331bab"
+  },
+  "independent_logrank_risk_sets.csv": {
+    "bytes": 16457,
+    "sha256": "d06c7bdcee12158073cac3aec6617c5fdc3742fccaf00cef651a5bf3405dba15"
+  },
+  "KM_PFI.pdf": {
+    "bytes": 31441,
+    "sha256": "ff5c9bdd8cc14138f94faadb129754ea87116c616570284ad8c7342a22e2e1c6"
+  },
+  "clinical_alias_consistency_audit.csv": {
+    "bytes": 28660,
+    "sha256": "6637123ede6f222701f67f2169c20ebe60380a423b00b44ce4458e8f5876b605"
+  },
+  "implementation_checks.json": {
+    "bytes": 376,
+    "sha256": "c927cae04f68b0a504b1cd0cdeca06e896a43f24bce8b3348d9c19fb323d4293"
+  },
+  "patient_scores_survival_join.csv": {
+    "bytes": 61038,
+    "sha256": "b4510587ba3ca1451d68a8b2657cb3dbbacac8aa535eb71959cdebc93c5a7b79"
+  },
+  "protocol.json": {
+    "bytes": 2088,
+    "sha256": "dfb353d13070c11d39c7e09d751a188509a258032527d173171a3d758cc22315"
+  },
+  "PFI_analysis_patients.csv": {
+    "bytes": 13078,
+    "sha256": "a04d97ba05b62f6b95cb27fa5054403c3f8ce56ef77c91a4b7f964dcb123e17d"
+  },
+  "KM_curve_values.csv": {
+    "bytes": 47230,
+    "sha256": "cde1b198ac17b998d9fbad91d8f60b47dbc5a983178277ffb89d160c652e0faa"
+  },
+  "endpoint_excluded_patients.csv": {
+    "bytes": 1356,
+    "sha256": "8dde3aa81b22299dfda744955412da4e946284302d687bd3c7c78ce0f760e7ab"
+  },
+  "audit_report.py": {
+    "bytes": 8307,
+    "sha256": "18970996bba91f4850262ef9940ef1d781c80f61596dfbd14e5f62038fdb8515"
+  },
+  "patient_scores.csv": {
+    "bytes": 38816,
+    "sha256": "80ae788594975f1fa25f747107c9dd2cec8bf84a766b1ce39f9c24ca316818cc"
+  },
+  "prepare_survival.py": {
+    "bytes": 4254,
+    "sha256": "fca017b5cc9f45785fd25d350e233ff462ce6b56c72108ba661589665e2ec78a"
+  },
+  "survival_statistics.csv": {
+    "bytes": 813,
+    "sha256": "8657522b303298b8d808f31145953a01d46fd512480242ce1e3a6c4e3ef5917c"
+  },
+  "independent_endpoint_checks.csv": {
+    "bytes": 302,
+    "sha256": "695e50ac323402378b8aab29f2e897212297731369f9f697f7e73cd2420ea2c4"
+  },
+  "environment_versions.json": {
+    "bytes": 187,
+    "sha256": "9a20abcca16fd0175a79cab938a8bfc79e54a885610e18fee269b7e8ed82f7eb"
+  },
+  "analysis.log": {
+    "bytes": 1023,
+    "sha256": "ea9d6da5a4a8bb5de35421233509c9d61e9583de5d6f09946d125cbdec56c8d3"
+  },
+  "independent_audit_summary.json": {
+    "bytes": 342,
+    "sha256": "4cdc9c327990ac9e31d27f7e0003cb51254ce4651f87c05d2060a82f994fac13"
+  },
+  "KM_PFI.png": {
+    "bytes": 177258,
+    "sha256": "01bfd8c90c065afb5524b86c23bba4835a5d1337e30def7bc6dab827c1979b54"
+  },
+  "KM_numbers_at_risk.csv": {
+    "bytes": 470,
+    "sha256": "375fbe3285878c721dfded49aa08e9d7090d1c3b9d5a50679e746f2de282048b"
+  },
+  "README.md": {
+    "bytes": 3921,
+    "sha256": "72551d325e168aa6f79ea44ac7005a268be41cdb3484d3cd6c03e4ec9ccdeac6"
+  },
+  "OS_analysis_patients.csv": {
+    "bytes": 13088,
+    "sha256": "deb30ae912fd2a18db78f25fe07d84aaa336e04c3696c59cad793f1d2153ad81"
+  }
+}

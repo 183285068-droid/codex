@@ -1,0 +1,9 @@
+{
+  "independent_logrank_tests": 2,
+  "logrank_agreement": true,
+  "all_group_KM_steps_checked": true,
+  "score_group_cutpoint": "single outcome-blind global median of NNLS target mixture coefficient",
+  "PFS_available": false,
+  "PFI_available": true,
+  "status": "Passed within scope; GSE151530-only reference failed internal diagnostic; abundance specificity unvalidated"
+}
