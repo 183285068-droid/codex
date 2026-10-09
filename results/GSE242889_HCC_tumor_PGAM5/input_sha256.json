@@ -1,0 +1,26 @@
+{
+  "GSM7774399_1T_C21.tar.gz": {
+    "bytes": 128030720,
+    "sha256": "621bdde122790cee0cfc81eb92667527c2bcc93ee0a3f19af79c7763a2cb0899"
+  },
+  "GSM7774400_2T_C24.tar.gz": {
+    "bytes": 218931200,
+    "sha256": "a3fd2f4fd4c27917590acba4b5b06d0000fa0d90d7d10b5b81bad6213bcdd46d"
+  },
+  "GSM7774401_3T_C25.tar.gz": {
+    "bytes": 169615360,
+    "sha256": "49395c41f313c8168057aa9f78e95a1b6f2dc502be761c6ff0438e7acf3e6603"
+  },
+  "GSM7774402_4T_C29.tar.gz": {
+    "bytes": 212858880,
+    "sha256": "6d1a35c6f9af19451ff1bbad957fbd0e047b6df6d6ea455068681d28c97858cd"
+  },
+  "GSM7774403_5T_C36.tar.gz": {
+    "bytes": 153528320,
+    "sha256": "68496f5bb733a4e922d01a5d03b4888e7337950e102f85cc21aa13296f10f0df"
+  },
+  "GSE242889_family.soft.gz": {
+    "bytes": 4077,
+    "sha256": "a309d7e78f90ae2f0a5a840a72f679f43ae420684bc120826aebcfce22a75b42"
+  }
+}
