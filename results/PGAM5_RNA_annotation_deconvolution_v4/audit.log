@@ -1,0 +1,7 @@
+{
+  "raw_count_cell_annotations_checked": 100,
+  "independent_bounded_solver_cases": 48,
+  "exact_reference_mixtures_checked": 20,
+  "validation_summary_rows_checked": 92,
+  "status": "PASSED within checked implementation scope; biological validity separate"
+}

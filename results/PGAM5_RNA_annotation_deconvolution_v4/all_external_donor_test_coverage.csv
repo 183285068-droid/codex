@@ -1,0 +1,17 @@
+dataset,donor,target_cells,undetected_macrophages,tumor_epithelial_proxy_cells,T_NK_cells,complete_mixture_eligible,note
+GSE189903,GSE189903:1H,4,80,685,9728,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE189903,GSE189903:2H,4,64,325,13473,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE189903,GSE189903:3H,6,327,122,8527,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE189903,GSE189903:4H,71,2911,375,3634,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE242889,GSE242889:1,11,674,0,918,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE242889,GSE242889:2,34,508,0,29,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE242889,GSE242889:3,12,696,683,145,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE242889,GSE242889:4,22,844,0,135,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE242889,GSE242889:5,23,1166,0,153,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:10,47,577,13,1139,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:11,203,2235,28,1794,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:5,121,1942,2,2267,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:6,175,2658,57,572,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:7,165,2124,3,33,False,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:8,47,1338,458,6844,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage
+GSE202642,GSE202642:9,110,393,271,3534,True,No inferred epithelial group does not establish biological absence; conservative annotation limits coverage

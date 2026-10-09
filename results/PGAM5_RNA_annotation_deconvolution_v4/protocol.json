@@ -1,0 +1,25 @@
+{
+  "target": "Marker-consistent macrophage AND raw symbol-summed PGAM5 >0; zero is RNA undetected, not protein negative",
+  "training": [
+    "GSE151530",
+    "GSE149614"
+  ],
+  "external_primary": [
+    "GSE189903",
+    "GSE242889"
+  ],
+  "external_supplementary": "GSE202642 seven HCC sample proxies, not verified seven independent patients",
+  "configuration": "Reuse discovery-selected donor_equal_50 reference, no external feature/config tuning. Fixed NNLS and nonnegative ridge alpha=.01, no solver selected from external performance. Internal LODO fixed config is diagnostic, previous nested NNLS analysis remains authoritative for tuning-adjusted internal performance",
+  "annotation": "Existing marker-consistent macrophages retained for all five cohorts. For242/202 other cells annotate existing broad clusters using PGAM5-free lineage markers; unresolved cells retained as Unknown_other. Previously used full-data graphs may contain PGAM5; they do not define target membership. No new ambient/doublet correction",
+  "mixtures": "2000 cells sampled with replacement; total macrophage fraction .25; target cell fractions0/.005/.01/.02/.05, two repeats per donor. 50% tumor/epithelial proxy,25% remaining lineages; if unavailable donor excluded",
+  "units": "equal_RNA_cell_fraction is equalized cell CP10k mixture, an idealized cell fraction, not native bulk. pooled_count_RNA_fraction truth is observed library-count contribution, not calibrated tissue cell fraction",
+  "gates": {
+    "standard_MAE_pp_max": 1,
+    "standard_Pearson_min": 0.7,
+    "zero_target_p95_percent_max": 0.5,
+    "primary_external_donors_min_each": 3,
+    "primary_external_Monocyte_DC_testable_donors_min_each": 2
+  },
+  "additional_limits": "All cohorts explored previously; retrospective tests. Repeats not biological independent replicates. Passing computational gates still requires bulk platform/abundance-unit calibration and orthogonal biological confirmation before confirmed TCGA cellular abundance. No sequencing-depth matching/covariates, no patient-paired DE",
+  "feature_availability": "Frozen training features are intersected with external measured gene symbols; no missing gene imputed as expression zero in fitting. Require >=95% frozen feature coverage. This availability adaptation uses no expression/outcome tuning."
+}

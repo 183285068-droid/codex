@@ -1,0 +1,40 @@
+Sufficient statistics (35, 19, 15923) shared genes 15923
+Qualified internal ['GSE149614:HCC01', 'GSE149614:HCC02', 'GSE149614:HCC03', 'GSE149614:HCC04', 'GSE149614:HCC05', 'GSE149614:HCC06', 'GSE149614:HCC07', 'GSE149614:HCC08', 'GSE149614:HCC10', 'GSE151530:H08', 'GSE151530:H68', 'GSE151530:H70', 'GSE151530:H72', 'GSE151530:H73'] external ['GSE189903:3H', 'GSE189903:4H']
+Prepared GSE242889 19872 {'Unknown_other': 11104, 'Macrophage': 3990, 'T_NK': 1380, 'Mixed_APC': 1156, 'Tumor_hepatocyte': 683, 'DC_enriched': 549, 'Monocyte_enriched': 527, 'Plasma': 398, 'Mast': 85}
+Prepared GSE202642 56719 {'Unknown_other': 17768, 'T_NK': 16183, 'Macrophage': 12135, 'Endothelial': 4609, 'DC_enriched': 3058, 'Mixed_APC': 1327, 'Tumor_hepatocyte': 832, 'B': 581, 'Plasma': 226}
+Eligible joint_discovery ['GSE149614:HCC01', 'GSE149614:HCC02', 'GSE149614:HCC03', 'GSE149614:HCC04', 'GSE149614:HCC05', 'GSE149614:HCC06', 'GSE149614:HCC07', 'GSE149614:HCC08', 'GSE149614:HCC10', 'GSE151530:H08', 'GSE151530:H68', 'GSE151530:H70', 'GSE151530:H72', 'GSE151530:H73']
+Tested joint_discovery GSE149614:HCC01 28
+Tested joint_discovery GSE149614:HCC02 28
+Tested joint_discovery GSE149614:HCC03 28
+Tested joint_discovery GSE149614:HCC04 28
+Tested joint_discovery GSE149614:HCC05 28
+Tested joint_discovery GSE149614:HCC06 32
+Tested joint_discovery GSE149614:HCC07 24
+Tested joint_discovery GSE149614:HCC08 28
+Tested joint_discovery GSE149614:HCC10 32
+Tested joint_discovery GSE151530:H08 28
+Tested joint_discovery GSE151530:H68 32
+Tested joint_discovery GSE151530:H70 28
+Tested joint_discovery GSE151530:H72 28
+Tested joint_discovery GSE151530:H73 40
+Eligible GSE189903 ['GSE189903:3H', 'GSE189903:4H']
+Tested GSE189903 GSE189903:3H 36
+Tested GSE189903 GSE189903:4H 36
+Eligible GSE242889 ['GSE242889:3']
+Tested GSE242889 GSE242889:3 40
+Eligible GSE202642 ['GSE202642:11', 'GSE202642:6', 'GSE202642:8', 'GSE202642:9']
+Tested GSE202642 GSE202642:11 32
+Tested GSE202642 GSE202642:6 32
+Tested GSE202642 GSE202642:8 36
+Tested GSE202642 GSE202642:9 32
+{
+  "operational_RNA_annotation_created": true,
+  "solver_external_gates": {
+    "NNLS": false,
+    "nonnegative_ridge_alpha0.01": false
+  },
+  "reference_validated_for_TCGA_cellular_abundance": false,
+  "TCGA_NOT_RUN": true,
+  "limits": "All cohorts explored previously; retrospective tests. Repeats not biological independent replicates. Passing computational gates still requires bulk platform/abundance-unit calibration and orthogonal biological confirmation before confirmed TCGA cellular abundance. No sequencing-depth matching/covariates, no patient-paired DE",
+  "interpretation": "Annotation labels raw RNA detection, not a validated protein-positive subtype. No actual TCGA patient abundance generated."
+}

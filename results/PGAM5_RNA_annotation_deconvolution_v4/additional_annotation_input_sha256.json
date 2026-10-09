@@ -1,0 +1,18 @@
+{
+  "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE242889_macrophage_state_metadata.csv.gz": {
+    "bytes": 223920,
+    "sha256": "50757624b7434c199fa04822ae5229839a9d33bfb562848176dc7dad0cb97943"
+  },
+  "/workspace/scratch/GSE242889/all_tumor_normalized_clustered.h5ad": {
+    "bytes": 126294625,
+    "sha256": "695540952c357ff233068f3e5d8ec745d0af99e0096358a83019de9f8a60b40b"
+  },
+  "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE202642_macrophage_state_metadata.csv.gz": {
+    "bytes": 685872,
+    "sha256": "6899b23ee332bb32f5f6bc1994dda6bcabfcf0fc0db59b3e29dfbd7ae5720768"
+  },
+  "/workspace/scratch/GSE202642/all_library_normalized_clustered.h5ad": {
+    "bytes": 429504509,
+    "sha256": "74a1a2b33857be44c2b0963babb96577c038cd267319f1104aa08114057eadcc"
+  }
+}

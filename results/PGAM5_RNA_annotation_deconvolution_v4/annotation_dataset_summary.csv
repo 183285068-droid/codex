@@ -1,0 +1,6 @@
+dataset,QC_HCC_cells,macrophages,PGAM5_detected_macrophages,PGAM5_undetected_macrophages,donor_units,donor_unit_caveat
+GSE151530,44776,3493,161,3332,25,previous author/inferred patient labels
+GSE149614,34414,7448,197,7251,10,previous author/inferred patient labels
+GSE189903,44287,3467,85,3382,4,previous author/inferred patient labels
+GSE242889,19872,3990,102,3888,5,previous author/inferred patient labels
+GSE202642,56719,12135,868,11267,7,sample proxies
