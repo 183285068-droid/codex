@@ -1,0 +1,24 @@
+Parsed 5000 genes
+Parsed 10000 genes
+Parsed 15000 genes
+Parsed 20000 genes
+{
+  "unique_primary_patients": 371,
+  "whole_gene_rows": 23368,
+  "reference_genes_original": 700,
+  "reference_genes_used": 636,
+  "reference_genes_missing": 64,
+  "measured_feature_coverage": 0.9085714285714286,
+  "reference_components": 14,
+  "score_median": 0.0,
+  "cutpoint_percent": 0.0,
+  "high_patients": 115,
+  "low_patients": 256,
+  "exact_zero_target_estimates": 256,
+  "median_tied_patients": 256,
+  "min_target_fraction": 0.0,
+  "max_target_fraction": 0.3341626174925049,
+  "independent_solver_cases": 19,
+  "TCGA_application_authorized_despite_failed_reference_validation": true,
+  "interpretation": "Exploratory relative mixture coefficients, not calibrated cell infiltration abundance"
+}

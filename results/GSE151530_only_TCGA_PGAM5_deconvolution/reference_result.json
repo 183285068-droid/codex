@@ -1,0 +1,11 @@
+{
+  "internal_diagnostic_passed": false,
+  "testable_donors": 5,
+  "reference_genes": 700,
+  "reference_components": 14,
+  "target_signature_candidates": 50,
+  "strict_upregulated_candidates": 559,
+  "GSE151530_only_training": true,
+  "TCGA_exploratory_application_explicitly_authorized": true,
+  "not_a_validated_cell_abundance_reference": true
+}

@@ -1,0 +1,9 @@
+{
+  "training_GEO": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151530",
+  "training_input_preparation": "Prior within-dataset harmonized151530 processing: results/PGAM5_joint_myeloid_reference_v2/reannotate_myeloid.py and frozen annotation rules. No other GSE counts read for current gene screening or reference means",
+  "TCGA_expression_URL": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1536nnn/GSM1536837/suppl/GSM1536837_06_01_15_TCGA_24.tumor_Rsubread_FeatureCounts.txt.gz",
+  "TCGA_expression_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+  "TCGA_sample_selection": "Same outcome-blind primary01 aliquots from prior TCGA30 analysis; no clinical outcomes read for training or estimates",
+  "reference_feature_selection_only": "GSE151530",
+  "raw_inputs_hash_file": "source_sha256.json"
+}

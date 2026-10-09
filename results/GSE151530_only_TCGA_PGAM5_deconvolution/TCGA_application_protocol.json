@@ -1,0 +1,8 @@
+{
+  "reference_training": "GSE151530 only; locked_reference_manifest.json was saved before TCGA matching",
+  "expression": "Previous GSE62944 TCGA24 raw counts, all23368gene sum denominator, linear CP10k; same371primary01patients, outcome-blind sample selection",
+  "solver": "Primary NNLS with preserved training rowRMS scale and all supported components jointly fitted; normalize coefficients by sum. Fixed nonnegative ridge alpha=.01 sensitivity, no outcome selection",
+  "gene_matching": "Exact frozen training symbols measured inbulk; missing genes omitted from reference andbulk, never expression-zero imputed. No TCGA expression/survival used for discovery or gene ranking",
+  "output": "Relative target/totalmacrophage coefficients and target proportion within modeled macrophage coefficients. None calibrated tissue cell percentages. Median group is descriptive only; no new survival tests requested or performed in this turn",
+  "authorization": "User explicitly directs GSE151530-only candidate reference to TCGA; diagnostics do not veto exploratory application, limitations stay visible"
+}

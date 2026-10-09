@@ -1,0 +1,11 @@
+unit,scenario,donors,mixtures,MAE_pp,Pearson_r,zero_target_p95_percent
+equal_RNA_cell_fraction,cycling_zero,5,10,2.4794660233394543,,4.706031916893433
+equal_RNA_cell_fraction,standard,5,50,2.016412942330978,0.06022036452308878,3.913577846179919
+equal_RNA_cell_fraction,zero_DC_enriched,1,2,1.7158749314331458,,1.8666701433854227
+equal_RNA_cell_fraction,zero_Monocyte_enriched,2,4,1.2670533922677856,,2.5306547003862994
+equal_RNA_cell_fraction,zero_pDC,1,2,3.3558640959832298,,3.388261781613502
+pooled_count_RNA_fraction,cycling_zero,5,10,2.9136421282177194,,7.239372179927515
+pooled_count_RNA_fraction,standard,5,50,2.731557280481586,0.04487427998519159,7.297080689490675
+pooled_count_RNA_fraction,zero_DC_enriched,1,2,1.4622877933536738,,1.5243394794300702
+pooled_count_RNA_fraction,zero_Monocyte_enriched,2,4,0.6773940807149206,,1.2618188523804152
+pooled_count_RNA_fraction,zero_pDC,1,2,2.1746624297774906,,2.2518817158071194

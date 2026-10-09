@@ -1,0 +1,13 @@
+{
+  "training_input_dataset_verified": "GSE151530 only",
+  "target_DE_independent_gene_tests": 70,
+  "all18661_BH_qvalues_recomputed": true,
+  "reference_mean_groups_reconstructed": 14,
+  "exact_reference_mixtures_checked": 20,
+  "independent_TCGA_raw_patients": 8,
+  "independent_TCGA_gene_values": 5088,
+  "all371_CP10k_target_coefficients_groups_checked": true,
+  "independent_bounded_solver_cases": 19,
+  "internal_summary_rows_recomputed": 10,
+  "status": "Passed checked implementation scope; scientific diagnostic remains failed"
+}

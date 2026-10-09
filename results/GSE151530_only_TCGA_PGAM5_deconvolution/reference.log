@@ -1,0 +1,41 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Locked 700 reference genes 14 groups; target candidate genes 50
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Internal leave-donor-out finished GSE151530:H08
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Internal leave-donor-out finished GSE151530:H68
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Internal leave-donor-out finished GSE151530:H70
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Internal leave-donor-out finished GSE151530:H72
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:496: RuntimeWarning: invalid value encountered in divide
+  scores = (
+Internal leave-donor-out finished GSE151530:H73
+{
+  "internal_diagnostic_passed": false,
+  "testable_donors": 5,
+  "reference_genes": 700,
+  "reference_components": 14,
+  "target_signature_candidates": 50,
+  "strict_upregulated_candidates": 559,
+  "GSE151530_only_training": true,
+  "TCGA_exploratory_application_explicitly_authorized": true,
+  "not_a_validated_cell_abundance_reference": true
+}

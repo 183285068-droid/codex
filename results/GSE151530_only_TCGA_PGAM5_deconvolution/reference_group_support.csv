@@ -1,0 +1,15 @@
+reference_group,cells,donors,fine_groups_merged
+B,1826,21,B;Cycling_B
+CAF,1523,23,CAF;Cycling_CAF
+Cycling_TAM_PGAM5_undetected,257,10,Cycling_TAM_PGAM5_undetected
+Cycling_T_NK,514,22,Cycling_T_NK
+Cycling_Tumor_hepatocyte,2564,15,Cycling_Tumor_hepatocyte
+DC_enriched,733,18,DC_enriched
+Endothelial,2290,24,Cycling_Endothelial;Endothelial
+Monocyte_enriched,588,17,Monocyte_enriched
+TAM_PGAM5_detected,161,11,TAM_PGAM5_detected
+TAM_PGAM5_undetected,3075,20,TAM_PGAM5_undetected
+T_NK,18142,25,T_NK
+Tumor_hepatocyte,11210,22,Tumor_hepatocyte
+Unknown_other,1807,22,Unknown_other
+pDC,86,8,pDC

@@ -1,0 +1,14 @@
+{
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE151530_harmonized_counts_QC.h5ad": {
+    "bytes": 195442076,
+    "sha256": "c074b15d58b1abde326336a6ad2bb997ca3fef2d94b8eb3067e669cbda91f190"
+  },
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA24_tumor_featurecounts.txt.gz": {
+    "bytes": 307951450,
+    "sha256": "16820a7da5fe7c4db3938edf42d355682863b37030a5a8496f8a9b03ddacc96e"
+  },
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/RNA_aliquot_selection.csv": {
+    "bytes": 24761,
+    "sha256": "5cb8b4c2ba908c9a308c366fcf1e1a3088692be96db79a6739187668747bdc6c"
+  }
+}

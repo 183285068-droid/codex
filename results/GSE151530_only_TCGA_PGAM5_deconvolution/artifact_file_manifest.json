@@ -1,0 +1,202 @@
+{
+  "requirements.txt": {
+    "bytes": 111,
+    "sha256": "798bf170d8ae28f2a335ae41874830d1ae8a929de16b070bc8e160c36e1d2544"
+  },
+  "reference_bulk_gene_coverage.csv": {
+    "bytes": 11642,
+    "sha256": "66f0c57bed4941230465912920624173e9675d24029a00c47578378902df05d4"
+  },
+  "audit.log": {
+    "bytes": 539,
+    "sha256": "72d6bbab67d474d4a1350744e62d3e12e443f0d76ff64b491bf81f72adf66b11"
+  },
+  "independent_reference_mean_checks.csv": {
+    "bytes": 655,
+    "sha256": "e6f849dab952fc041a2acdf1d9134567d954809f09a5583b312081b7b9b7f19c"
+  },
+  "USED_EXPLORATORY_REFERENCE_CP10k.tsv": {
+    "bytes": 166725,
+    "sha256": "980f2c32262867d915c0757b4bcf1d1090ba02d327e60edac67f45768ec038c5"
+  },
+  "source_provenance.json": {
+    "bytes": 832,
+    "sha256": "32e7e46713c6867180d43261f69916e6b5088f8a5be15b955550068bb2f9d746"
+  },
+  "implementation_audit.json": {
+    "bytes": 538,
+    "sha256": "90a6aac2d09798821e4170224092ffd3393f31c70d53bc5c488cae2ffac665df"
+  },
+  "build_reference.py": {
+    "bytes": 13600,
+    "sha256": "8a13a01e30d8a53e841e9cafca47cfc66df4a2cf24ac000bff9c132ae933c34f"
+  },
+  "internal_validation_predictions.csv": {
+    "bytes": 14295,
+    "sha256": "19f5d501cf904e9944a1eb352d180aa3fc4d25e4ac07575615e2e849031d0a8c"
+  },
+  "independent_bounded_solver_checks.csv": {
+    "bytes": 1069,
+    "sha256": "d56680c5800797dc058e0450b256c2a28126b452d54e7cd6e98ffc552e057e33"
+  },
+  "GSE151530_target_candidate_signature.csv": {
+    "bytes": 12396,
+    "sha256": "e71ef2c1815b670b3939c35b0f5dba1ce10e24353615ae38d72d5b8c571cb65f"
+  },
+  "selected_patient_reference_gene_CP10k.csv.gz": {
+    "bytes": 1847880,
+    "sha256": "83d5d3b9015932cc739270f8f9b05d842377681a510aa5f0da060dc1ba2a5bae"
+  },
+  "GSE151530_target_signature_genes.txt": {
+    "bytes": 316,
+    "sha256": "8060a7a58728bef7bc443f9c99df0f042fd0cf62e2a949d7797722c87dd771d2"
+  },
+  "missing_reference_genes.csv": {
+    "bytes": 548,
+    "sha256": "c18291a9143ad8a68cb2652ae71036c9531406531a2c7e3b00a1e574c2a5df4d"
+  },
+  "preparation_summary.json": {
+    "bytes": 703,
+    "sha256": "aea536fba919ebd88961788f5142dccc1047cf81f16434a616295d6e78c6b4d1"
+  },
+  "GSE151530_macrophage_DE_full.csv": {
+    "bytes": 2398698,
+    "sha256": "e87e635278158bce0ec56c6e46d5db295e9f59020e2f30351acc8dc1ecc26bf0"
+  },
+  "reference_row_scales.csv": {
+    "bytes": 17852,
+    "sha256": "5933a0497543d51dc4038e7ad00bf56cb6832040c7a939ed066006349298533f"
+  },
+  "GSE151530_target_signature_with_TCGA_coverage.csv": {
+    "bytes": 13437,
+    "sha256": "ee64ac1bc1e6414e7ef25f093dff4a83af79a237c2e30c09c9418a2b2145819a"
+  },
+  "TCGA_LIHC_PGAM5_macrophage_estimates.csv": {
+    "bytes": 39101,
+    "sha256": "7653a1b751adddea442272606b5da1f4fe9e5983745e1a6196564e23834d518a"
+  },
+  "reference_group_support.csv": {
+    "bytes": 586,
+    "sha256": "5562127a28ee1ac0820204df646eeaf9dfb6c69dad57c74b96e8a321959ff1bc"
+  },
+  "all_reference_component_estimates.csv": {
+    "bytes": 38806,
+    "sha256": "9aa47509da030d898632714a94a39568a599edf589c47ea7b2a5aea394bbcf31"
+  },
+  "exact_reference_recovery_checks.csv": {
+    "bytes": 977,
+    "sha256": "6788ec503d9fb71251de9e176f80a861d0f6e76e91088ee97dc1dbd0d479b03b"
+  },
+  "reference.log": {
+    "bytes": 2842,
+    "sha256": "9d8aeccc59c75834eaf0754e6489d6655a670b3f6896c2c5fe7582c5eb6b5a24"
+  },
+  "protocol.json": {
+    "bytes": 2862,
+    "sha256": "8983934b40e2ff241ee21ba59a4a4acc40d46b0c4bf5ebdcfd9407d51de067da"
+  },
+  "selected_gene_evidence.csv": {
+    "bytes": 77832,
+    "sha256": "5cbba590e0143f5a58a9ab50b43ad84631d4c98577d010a6e65c426e58602c2d"
+  },
+  "used_reference_row_scales.csv": {
+    "bytes": 15881,
+    "sha256": "3f6aebcaece1d9e7f09d6a0a6e0d6a80f5fbf2907f9058e906908255fec97b99"
+  },
+  "sample_fit_diagnostics.csv": {
+    "bytes": 30468,
+    "sha256": "1aad854767b3931568af64fccdbceed9925df59d00c3bd7056c899b22f624611"
+  },
+  "TCGA_available_target_signature_genes.txt": {
+    "bytes": 273,
+    "sha256": "6223fc93ecdee56c798621062dc1678ed45564064d6f817491603275625b66dd"
+  },
+  "audit_report.py": {
+    "bytes": 15415,
+    "sha256": "63e6649ca0abf94f6e360126464ad9c8cccc68a35035ddd80827111d61c63761"
+  },
+  "TCGA.log": {
+    "bytes": 779,
+    "sha256": "5d6ee0ab625ca13d435850eaec7b1aff6507f9ef49a4498386f895d7ef820824"
+  },
+  "TCGA_estimate_distribution.pdf": {
+    "bytes": 15470,
+    "sha256": "56535bd5d8473e43f49d3436af2ce43359dd0a3503ed5f8ae62e5597e0e05a49"
+  },
+  "TCGA_application_protocol.json": {
+    "bytes": 1101,
+    "sha256": "f2d22e44ebdda6f5f3e9715b85864161def7a84f487aadafc9c415045c4fb238"
+  },
+  "reference_result.json": {
+    "bytes": 347,
+    "sha256": "b9f770f0325ff95348a51eb5fef9aa4498218d4e5865a95bbcd5a068dba5621b"
+  },
+  "source_sha256.json": {
+    "bytes": 591,
+    "sha256": "f8df7398bdc63d7d3ee060b0b1ed2421ddb3499bf6f407af5c1e3e4ad21e86e1"
+  },
+  "environment_versions.json": {
+    "bytes": 185,
+    "sha256": "55b19fd1bafdec52974bfefea147ac0ec2d16eca2e25745be24c51ef8b23571a"
+  },
+  "internal_fold_training_features.csv": {
+    "bytes": 2139,
+    "sha256": "42a8fc17ea25d926892ade1ff48f7d6c708369ebfcba81646050226f637cddf5"
+  },
+  "independent_DE_checks.csv": {
+    "bytes": 7106,
+    "sha256": "57b7393b80bb864d6dc392002585bd7dec336b09ff3929f0a7ffae07592c2291"
+  },
+  "source_exploratory_reference.tsv": {
+    "bytes": 183248,
+    "sha256": "6cef93fa36c1a0945a6c0b41d35b306e855040433de2119e1316cb53347b3a9b"
+  },
+  "internal_donor_test_coverage.csv": {
+    "bytes": 853,
+    "sha256": "3446556b1981d9f9564df0d363e0429ea59cf4044dc2c05afb4e1aeffb6ae936"
+  },
+  "GSE151530_training_cell_annotation.csv.gz": {
+    "bytes": 1461891,
+    "sha256": "8e2126c68bf7b13f057483af2916b5ab1ba1d646cf2f0cc028d1a692097ad8d1"
+  },
+  "README.md": {
+    "bytes": 6290,
+    "sha256": "1962e91bf45ac3dc207e77f31dab27066c06a5ccf0fc9d37de743e639574bc13"
+  },
+  "source_reference_row_scales.csv": {
+    "bytes": 17625,
+    "sha256": "00c230d833c70215bfa7839cd14e6162c991c79849f4f6605471b38a8ff055b4"
+  },
+  "locked_reference_manifest.json": {
+    "bytes": 11194,
+    "sha256": "b341665fe4700085a0669e3ed2e4491323bd5e890eb0790d6bb5597a7b0d0de0"
+  },
+  "GSE151530_strict_upregulated_candidates.csv": {
+    "bytes": 75391,
+    "sha256": "f54aa86411d655bb0acc07a1333a1787c4ab81750730fb1a97781067f21df1c1"
+  },
+  "TCGA_estimate_distribution.png": {
+    "bytes": 52809,
+    "sha256": "6500cdf660574be6afc31ff529fc51c65e504103076b447056480f4ec9624285"
+  },
+  "apply_TCGA.py": {
+    "bytes": 6706,
+    "sha256": "117773b4c3e039d7660de9ae193e0e94e9fafe52a9d7e6d50418ec2d9dc24890"
+  },
+  "selected_patient_reference_gene_counts.csv.gz": {
+    "bytes": 470504,
+    "sha256": "d5e62ab0a0baa16c72f6b0c5a7931a5861ed48bcc8dece825072c237c6bf3fb1"
+  },
+  "GSE151530_ONLY_EXPLORATORY_REFERENCE_CP10k.tsv": {
+    "bytes": 193000,
+    "sha256": "b3e115a136f8183deed550dcb27cc06e51ddbbc0f3dfc77a4edbf0693296fc37"
+  },
+  "internal_validation_summary.csv": {
+    "bytes": 928,
+    "sha256": "825b8bcfb268e989fd8ee32b3af1e4de2f383fc2d8fd0aefc5c12f424d49b4b6"
+  },
+  "ridge_sensitivity_component_estimates.csv": {
+    "bytes": 38794,
+    "sha256": "ed0794c50d083058a4ca7bb4069a1e81a2adc647b9d14089bbf5e978df0bcbb7"
+  }
+}
