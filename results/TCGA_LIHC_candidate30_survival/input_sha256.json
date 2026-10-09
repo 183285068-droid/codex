@@ -1,0 +1,18 @@
+{
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA24_tumor_featurecounts.txt.gz": {
+    "bytes": 307951450,
+    "sha256": "16820a7da5fe7c4db3938edf42d355682863b37030a5a8496f8a9b03ddacc96e"
+  },
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/cancer_types.txt.gz": {
+    "bytes": 73327,
+    "sha256": "c916806c0dd46e9b91fc4a2abdb7d9f67ef7a652d04ba815b94a03556d992f99"
+  },
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/UCSCXenaShiny_source/data/tcga_surv.rda": {
+    "bytes": 76102,
+    "sha256": "91ac51a7e22f24d67ee3fddd3a73bd265bb8928ce16d7e22e41b83aad1ef82c1"
+  },
+  "/workspace/codex/results/PGAM5_state_adjustment_v3/EXPLORATORY_30_gene_macrophage_program_NOT_VALIDATED.csv": {
+    "bytes": 3147,
+    "sha256": "f0ab97f01437bc0e08eb2b1fb80801d7377edf9fdfe188a979055aeaaad83de7"
+  }
+}

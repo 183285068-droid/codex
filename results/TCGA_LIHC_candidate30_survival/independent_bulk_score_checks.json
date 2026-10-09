@@ -1,0 +1,7 @@
+{
+  "patients_checked": 371,
+  "genes_checked": 30,
+  "max_absolute_score_error": 7.771561172376096e-16,
+  "global_median_grouping_checked": true,
+  "status": "Passed"
+}

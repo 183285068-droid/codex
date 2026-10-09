@@ -1,0 +1,13 @@
+{
+  "access_date": "2026-10-09",
+  "expression_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1536nnn/GSM1536837/suppl/GSM1536837_06_01_15_TCGA_24.tumor_Rsubread_FeatureCounts.txt.gz",
+  "sample_type_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62944/suppl/GSE62944_06_01_15_TCGA_24_CancerType_Samples.txt.gz",
+  "expression_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+  "survival_repository": "https://github.com/openbiox/UCSCXenaShiny",
+  "survival_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+  "survival_file": "data/tcga_surv.rda",
+  "survival_origin_from_source_script": "Xena Toil TCGA_survival_data; DOI https://doi.org/10.1016/j.cell.2018.02.052",
+  "source_kind": "Public TCGA reprocessing mirror and curated clinical mirror, not fresh GDC extraction",
+  "signature_source_commit": "bdec8f03667aa755fe9303b1567cddd22ca1231c",
+  "network_limit": "Xena/GDC direct domains returned proxy403; legitimate NCBI/GitHub mirrors used"
+}

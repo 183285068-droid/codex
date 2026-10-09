@@ -1,0 +1,13 @@
+{
+  "GEO_gene_rows": 23368,
+  "GEO_all_tumor_RNA_aliquots": 9264,
+  "LIHC_RNA_aliquots": 374,
+  "LIHC_primary_aliquots": 371,
+  "unique_primary_patients": 371,
+  "30_signature_genes_present": true,
+  "score_median": -0.0337544771679322,
+  "high_patients": 185,
+  "low_patients": 186,
+  "survival_matched": 369,
+  "survival_unmatched": 2
+}

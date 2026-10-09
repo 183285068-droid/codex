@@ -1,0 +1,178 @@
+{
+  "selected_patient_log2_CPM_plus1.csv": {
+    "bytes": 213745,
+    "sha256": "d9c6ef2a1818840bb597d1b1e02928eab6dd79badecc022f36edf4d101f06951"
+  },
+  "analyze_survival.py": {
+    "bytes": 7500,
+    "sha256": "01207e699bb127c29d2177812645402b567f5e733afb783a6c66ec597b62d649"
+  },
+  "report_and_audit.py": {
+    "bytes": 9248,
+    "sha256": "b1a40070f71d09b8327228ed591d54a67c68631aa516c7a649cd7016cd0a5482"
+  },
+  "selected_patient_31_gene_counts.csv": {
+    "bytes": 87867,
+    "sha256": "667ccaac2fb10f573ad41860d0197e12dca5ab0220799ccf8b2de99595fcf0c5"
+  },
+  "RNA_aliquot_selection.csv": {
+    "bytes": 24761,
+    "sha256": "5cb8b4c2ba908c9a308c366fcf1e1a3088692be96db79a6739187668747bdc6c"
+  },
+  "KM_OS.png": {
+    "bytes": 169237,
+    "sha256": "48018a4094ce338023b606d46ae5623b4cde93335bc8505b01e8ab515510f3c0"
+  },
+  "KM_OS.pdf": {
+    "bytes": 30405,
+    "sha256": "7de538326ab1e9de9dfd99a4b3dd1688d36cf0398bed106cf15517fbc7ef9113"
+  },
+  "source_provenance.json": {
+    "bytes": 991,
+    "sha256": "6b23a343840ea275b4eb55c350d503a27d002068cdfc14a1b4518531d5abaacc"
+  },
+  "independent_bulk_score_checks.json": {
+    "bytes": 169,
+    "sha256": "180b0d5f41a65939942cd7105a3b553ac2bdbac61fdb96f142ac4b1ed2765dd6"
+  },
+  "clinical_sample_duplicates_audit.csv": {
+    "bytes": 28660,
+    "sha256": "6637123ede6f222701f67f2169c20ebe60380a423b00b44ce4458e8f5876b605"
+  },
+  "TCGA_CDR_mirror_survival.csv.gz": {
+    "bytes": 101104,
+    "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0"
+  },
+  "score_PGAM5_association.json": {
+    "bytes": 202,
+    "sha256": "469c609722c69a74109bdd4331090b0ebfee454c3ba1fdb8dfad168870f95720"
+  },
+  "preparation_summary.json": {
+    "bytes": 338,
+    "sha256": "0002670f0659862d89f38fc580c2630264e55868b4f102a47936d3ede70872ca"
+  },
+  "independent_logrank_risk_sets.csv": {
+    "bytes": 16390,
+    "sha256": "5f11b96f933c517c6cd85e2c678f311d92922f8747db1adb5dc8929b4d9328b3"
+  },
+  "GSE62944_ftp_listing.html": {
+    "bytes": 1651,
+    "sha256": "f7cd5c48da06cf22f77f1ed3dbfe9373a0b69a664b3a99bef8013b61de57ca15"
+  },
+  "KM_PFI.pdf": {
+    "bytes": 31038,
+    "sha256": "b4470bc5bc6ceda1598e6f3fbf16680ed0979a0d35e62b518a13dac02790d057"
+  },
+  "implementation_checks.json": {
+    "bytes": 284,
+    "sha256": "f0669301cc30aa2939d76213c0347e97b4409f7b07665eb8097f98e3ec2c62d7"
+  },
+  "patient_scores_survival_join.csv": {
+    "bytes": 57701,
+    "sha256": "6adf1f04a085ae62332b2d62064809b857f4c6f685b30cec30250bdb227cbbce"
+  },
+  "protocol.json": {
+    "bytes": 2014,
+    "sha256": "6d731779fe4413f3a05469ac484f488f026a94938231adc3bba2975f36fec80c"
+  },
+  "PFI_analysis_patients.csv": {
+    "bytes": 17128,
+    "sha256": "b31b6d37f2291413dcf46953d8c04a9e716ef88f03f2b49097384701c41ec19c"
+  },
+  "bulk_score_parameters.csv": {
+    "bytes": 1941,
+    "sha256": "296def37bd63d9af3658417b5309abc9e7c7892ef0feab6922bf80450ff8b56e"
+  },
+  "KM_curve_values.csv": {
+    "bytes": 47806,
+    "sha256": "1b5488eae7bea076c9ddcaf52431758d09f788382049cd6eaeb632ac4df7ec8c"
+  },
+  "LIHC_all_aliquot_31_gene_counts.csv": {
+    "bytes": 94537,
+    "sha256": "d8faea862f934d56239a27c802d3a25d2934929a09dc60407542da9150c8a019"
+  },
+  "endpoint_excluded_patients.csv": {
+    "bytes": 1353,
+    "sha256": "5469da9492ef1392c9f3007cfdee22f6c12a6ea9b51b951af0d13c006854947d"
+  },
+  "patient_scores.csv": {
+    "bytes": 35479,
+    "sha256": "ab204ee0f4d00fa1cd99a57749f6b4765f47beb8e928c63e6b24e1836c4a0998"
+  },
+  "cancer_types.txt.gz": {
+    "bytes": 73327,
+    "sha256": "c916806c0dd46e9b91fc4a2abdb7d9f67ef7a652d04ba815b94a03556d992f99"
+  },
+  "survival_statistics.csv": {
+    "bytes": 824,
+    "sha256": "7b04fb207b3707bcb60be450ed2637404fb6779c6f8661787e89fc6fe19f4c2e"
+  },
+  "filelist.txt": {
+    "bytes": 997,
+    "sha256": "c0717936165dd69b0ae72a0746d9a9f25d02b9ea1061dfa7d499f19bf18759b6"
+  },
+  "environment_versions.json": {
+    "bytes": 187,
+    "sha256": "9a20abcca16fd0175a79cab938a8bfc79e54a885610e18fee269b7e8ed82f7eb"
+  },
+  "survival_analysis.log": {
+    "bytes": 1014,
+    "sha256": "5024aff547d2a21243b15c9ed0cfd9e256d6cdcb31f1617f05bab8339695c49e"
+  },
+  "prepare.py": {
+    "bytes": 6104,
+    "sha256": "b2bffbb4893019ef153cd18ce5c1d1caca00c3f848cffb782f7a9e197e635d89"
+  },
+  "selected_patient_30_gene_zscores.csv": {
+    "bytes": 223701,
+    "sha256": "0c16cd7a403e558dbf21400fe6db2ec0f33f11ca7dc261aedb338b80183c1456"
+  },
+  "signature_30_genes.csv": {
+    "bytes": 3144,
+    "sha256": "bc088f1071cc58f8dd4e74f6fc1b2194daff6a405c7786a28faef0da25e7e7d6"
+  },
+  "KM_PFI.png": {
+    "bytes": 168737,
+    "sha256": "374cf2ea0a9f8783a155497c5edcdbaf34d465284ee2e4d37cc835261a0a7bc9"
+  },
+  "KM_numbers_at_risk.csv": {
+    "bytes": 471,
+    "sha256": "c3694ba57439f972e461a30aec7eca1a0a3d78e824648b3a4d4b47bcc94aac8b"
+  },
+  "README.md": {
+    "bytes": 5204,
+    "sha256": "0827e7ce4c9348bb4b40aebe2c8fba220571fa21a5e5a56aa88c1475e829923e"
+  },
+  "input_sha256.json": {
+    "bytes": 809,
+    "sha256": "709ecc5c404526779f5284d370bb20e2b1f0514d3a5e421db52c6a64e9f5e39b"
+  },
+  "OS_analysis_patients.csv": {
+    "bytes": 17138,
+    "sha256": "4571f06d06b045c60431bd4ce595a212fa101ca7a43d95caf39e5d0a296f03bb"
+  },
+  "preparation.log": {
+    "bytes": 459,
+    "sha256": "f540063a9d0e82a345b77537000b0d00e33ca386a6903e5e9696447b6683066c"
+  },
+  "source_metadata/TCGA_CDR_mirror_survival.csv.gz": {
+    "bytes": 101104,
+    "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0"
+  },
+  "source_metadata/tcga_surv_mirror.rda": {
+    "bytes": 76102,
+    "sha256": "91ac51a7e22f24d67ee3fddd3a73bd265bb8928ce16d7e22e41b83aad1ef82c1"
+  },
+  "source_metadata/UCSCXenaShiny_survival_collection.R": {
+    "bytes": 10211,
+    "sha256": "1b22bd4526077af499703bdc0c5a96c104126ca8bea228152a207869c7904b40"
+  },
+  "source_metadata/tcga_surv_source_documentation.Rd": {
+    "bytes": 313,
+    "sha256": "be174f20c84ba5bacab9634f4cf79bb3dd3e04dcc45f0bd208b06dd21517f39a"
+  },
+  "source_metadata/GSE62944_cancer_type_sample_map.txt.gz": {
+    "bytes": 73327,
+    "sha256": "c916806c0dd46e9b91fc4a2abdb7d9f67ef7a652d04ba815b94a03556d992f99"
+  }
+}
