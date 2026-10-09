@@ -1,0 +1,92 @@
+from pathlib import Path
+import json,hashlib,shutil,zipfile,importlib.metadata as im
+import pandas as pd
+R=Path(__file__).resolve().parent
+s=json.loads((R/'analysis_summary.json').read_text());mapping=pd.read_csv(R/'sample_mapping_verified.csv')
+paths=[R/('GSE202642_'+n) for n in ['matrix.mtx.gz','features.tsv.gz','barcodes.tsv.gz','family.soft.gz']]
+for _,row in mapping.iterrows():
+ paths.append(R/(row.SRX+'.xml'))
+ paths.extend(R/f'{row.SRR}_reads_{i}.json' for i in [1,100001])
+hashes={}
+for p in paths:
+ h=hashlib.sha256()
+ with p.open('rb') as f:
+  for b in iter(lambda:f.read(4*1024*1024),b''):h.update(b)
+ hashes[p.name]={'bytes':p.stat().st_size,'sha256':h.hexdigest()}
+(R/'input_sha256.json').write_text(json.dumps(hashes,indent=2))
+(R/'environment_versions.txt').write_text('\n'.join(f'{p}=={im.version(p)}' for p in ['numpy','pandas','scipy','anndata','scanpy','igraph','statsmodels','matplotlib','nbformat','nbclient','ipykernel','threadpoolctl'])+'\n')
+text=f'''# GSE202642：7个HCC肿瘤样本PGAM5检出相关巨噬细胞候选
+
+纳入GSM6127499–GSM6127505的7个HCC肿瘤样本；排除GSM6127506–GSM6127509的4个癌旁肝组织样本。
+
+原始肿瘤细胞 **{s['source_tumor_cells']:,}** 个，基本QC后 **{s['QC_tumor_cells']:,}** 个。识别 **{s['QC_inferred_macrophages']:,}** 个推定C1Q高表达巨噬细胞，PGAM5原始RNA计数>0为 **{s['PGAM5_positive_cells']:,}** 个，=0为 **{s['PGAM5_undetected_cells']:,}** 个。7个样本均贡献两组细胞，未进行患者配对或测序深度调整。
+
+FDR<0.05、|近似log2FC|≥1、至少一组检出率≥10%，获得 **39个上调候选、0个下调候选**（不计定义基因PGAM5；39个Ensembl行对应39个唯一基因符号）。前10个按FDR排序：**LMNB1、TCF19、PCLAF、MKI67、IGHG4、ANLN、WEE1、TK1、BIRC5、CENPK**。多个候选与细胞周期/增殖相关，但未做正式富集分析，不能据此认定PGAM5特异功能。
+
+## 样本映射经过原始读段核实
+
+GEO样本列表顺序不能直接作为合并矩阵的样本顺序。矩阵仅有barcode后缀1–11，未随附作者样本映射。通过每个GSM的SRX元数据选取包含原始10x R1文件的一个SRR；分别读取spot 1–1000、100001–101000两批，各1000个读段。提取28bp技术读段中前16bp细胞barcode，与全部11套后缀barcode集合匹配，未做barcode纠错。
+
+每批主匹配后缀至少100次、至少为第二高后缀匹配次数的10倍；两批均指向同一后缀，11个样本得到11个唯一后缀。本次主匹配次数范围456–858/1000。结果为**肿瘤后缀5–11、癌旁后缀1–4**，与直接按GEO顺序推断不同。
+
+|GSM|样本|组织|矩阵后缀|
+|---|---|---|---|
+'''
+for _,row in mapping.iterrows():text+=f'|{row.GSM}|{row.sample_name}|{"HCC肿瘤" if row.tissue=="HCC_tumor" else "癌旁肝组织"}|{row.library_suffix}|\n'
+text+='''
+这是独立条形码证据支持的经验映射，不是作者提供的映射文件。sample_mapping_verified.csv包含每批对全部11个后缀的匹配数量；sample_mapping_read_barcode_evidence.csv.gz保存22,000个原始16bp barcode、spot及SRR编号。notebook从这些barcode和官方barcode集合独立重算所有匹配数量。resolve_sample_mapping.py可重新获取公共SRA读段并复核。仅读取小批片段，没有下载完整FASTQ。input_sha256.json保存官方输入、SRX XML和使用的API原始JSON哈希；API原始JSON不打包，可按脚本重新获取。
+
+## 细胞注释与差异分析
+
+GEO未提供作者逐细胞类型注释。全11个样本QC细胞用于探索性身份注释，按10,000计数标准化+log1p；2000个Seurat高变基因中排除PGAM5，30PC、15近邻、igraph Leiden resolution=1、随机种子0。按目标基因无关marker检查选取cluster **8、9、10、23、26**：C1QA/B/C检出率各≥75%、CSF1R≥60%、TYROBP≥90%、CD1C<40%、FCN1<50%。CD1C/FCER1A高的cluster22及髓系marker不一致的混合cluster19/20/21未纳入。**仅上述cluster中的肿瘤细胞进入差异分析，癌旁细胞仅参与全局身份聚类。** 所有cluster marker数值和纳入决定均可查看。
+
+这是marker推定、偏C1Q高表达的巨噬细胞群，不等同于作者原始注释，也不保证覆盖C1Q低表达的巨噬细胞。阈值是目标基因无关marker审查后的探索性定义，不能称为预先验证的分类器。
+
+- QC：检出基因≥500、MT-*线粒体计数比例<20%；实际feature有13个MT-*行。
+- PGAM5原始计数>0定义RNA检出，=0为RNA未检出，不等同于蛋白阴性。
+- 合并所有选定肿瘤巨噬细胞，再标准化至每细胞10,000+log1p，Wilcoxon校正ties，对全部36,601个feature作BH校正。
+- FDR<0.05、|Scanpy近似log2FC|≥1、至少一组检出率≥10%。
+- 不进行患者配对、深度匹配或患者/样本/测序深度协变量校正。
+- PGAM5保留在完整表和含PGAM5筛选表；上/下调候选表排除PGAM5。核糖体和线粒体基因保留。
+- log2FC基于平均log表达回变换，不是标准化算术均值之比；保留的mean_10k列便于检查两种统计量差别。
+- 每个Ensembl源行独立保留，不按重复基因符号合并。39个候选符号无重复。
+
+## 解释限制和源数据一致性
+
+候选只能作为PGAM5 RNA检出相关的探索性结果，不能认定已验证的signature、患者间重复性或因果机制。未调整样本/亚型/测序深度效应；细胞层面的FDR不等于患者层面的统计证据。
+
+推定巨噬细胞内存在ALB RNA背景，PGAM5检出/未检出组ALB检出率约78.6%/79.4%，部分cluster接近100%。未区分环境RNA、吞噬RNA或双细胞，未做环境RNA或双细胞校正。IGHG4和IL7R等跨谱系转录本候选也需要谨慎复核。
+
+GEO processing字段列出Assembly:mm10，但实际feature为人类ENSG基因，包含人类PGAM5及13个MT-*基因；本分析使用真实上传feature，不将此误标解释为小鼠。上传矩阵含115,732个细胞、36,601个feature，与GEO摘要/文章部分总数不同，所有统计分母按实际矩阵及核实的样本范围计算。计数完整、正整数，feature ID和barcode唯一。
+
+## 文件、复核和复现
+
+主要表格：full_DE.csv为全部feature，DE_including_PGAM5.csv为满足条件且保留PGAM5的筛选表，upregulated.csv/downregulated.csv为候选，top20_upregulated.csv为前20；PGAM5_by_sample.csv为每样本分组数。另含样本映射及条形码证据、全部cluster marker/纳入决定、巨噬细胞/全细胞元数据、已执行notebook、PNG/PDF、代码、哈希和依赖版本。
+
+notebook复核HCC范围、QC、marker-cluster归属、原始PGAM5分组、全部候选集合及BH校正；从原始计数用SciPy独立重算前10候选秩检验p值及近似log2FC；独立重算全部22批barcode匹配数量。notebook已执行，三张PNG已视觉检查；未单独验证完整notebook网页GUI布局。
+
+ZIP和仓库不含大体积原始matrix或计数h5ad；保留小体积官方feature/barcode/SOFT输入。按environment_versions.txt安装依赖，在同一目录依次运行：
+
+```bash
+python download_sources.py
+python resolve_sample_mapping.py
+python prepare_all_libraries.py
+python analyze_PGAM5.py
+python build_notebook.py
+```
+
+download_sources.py下载到临时文件完成后改名，已有文件跳过并提示核对哈希；中断留下的.download可被重新下载覆盖。resolve_sample_mapping.py需要访问NCBI www主机上的EUtils及Traces read接口，缓存原始XML/JSON以避免重复请求。prepare_all_libraries.py需要足够内存读取约6.7亿字节gzip矩阵并对约8.7万QC细胞聚类；建议至少16GB内存。
+
+来源：[GEO GSE202642](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202642)、[官方family SOFT](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202642/soft/GSE202642_family.soft.gz)、[Cell Discovery原始论文](https://doi.org/10.1038/s41421-023-00529-z)，PMID36878933。原论文T编号与GEO顺序并不完全一致，本分析以可核验GSM/原始样本名称及SRR条形码匹配为准。
+'''
+(R/'结果说明.md').write_text(text)
+D=Path('/workspace/codex/results/GSE202642_HCC_tumor_PGAM5');D.mkdir(parents=True,exist_ok=True)
+names=['analysis_summary.json','all_cell_metadata_before_QC.csv.gz','all_library_QC_cluster_metadata.csv.gz','macrophage_analysis_metadata.csv.gz','global_cluster_marker_QA.csv','cluster_annotation_decisions.csv','TAM_marker_QA.csv','PGAM5_by_sample.csv','sample_mapping_verified.csv','sample_mapping_read_barcode_evidence.csv.gz','independent_calculation_checks.csv','input_sha256.json','environment_versions.txt','download_sources.py','resolve_sample_mapping.py','prepare_all_libraries.py','analyze_PGAM5.py','build_notebook.py','package_results.py','GEO_series_record.txt','GSE202642_features.tsv.gz','GSE202642_barcodes.tsv.gz','GSE202642_family.soft.gz','GSE202642_HCC_tumor_PGAM5_analysis.ipynb','结果说明.md']
+names.extend(p.name for p in list(R.glob('GSE202642_HCC_tumor_PGAM5*.csv'))+list(R.glob('*.png'))+list(R.glob('*.pdf'))+list(R.glob('SRX*.xml')))
+for name in set(names):shutil.copy2(R/name,D/name)
+zp=D/'GSE202642_HCC_tumor_PGAM5_results.zip'
+with zipfile.ZipFile(zp,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+ for p in sorted(D.iterdir()):
+  if p.is_file() and p!=zp:z.write(p,p.name)
+with zipfile.ZipFile(zp) as z:assert z.testzip() is None
+print(json.dumps({'files':len(list(D.iterdir())),'ZIP_MiB':zp.stat().st_size/1024**2},indent=2))
