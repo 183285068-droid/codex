@@ -1,0 +1,36 @@
+{
+  "dataset": "GSE151530",
+  "QC_cells": 44776,
+  "genes_after_symbol_merge": 18661,
+  "duplicate_gene_rows_merged": 6,
+  "donors": 25,
+  "PGAM5_positive_TAM": 180,
+  "coarse_groups": {
+    "T_NK": 16930,
+    "Tumor_hepatocyte": 13086,
+    "Unknown_other": 5126,
+    "TAM": 4494,
+    "Endothelial": 2290,
+    "B": 1826,
+    "CAF": 1024
+  },
+  "fine_groups": {
+    "T_NK": 16479,
+    "Tumor_hepatocyte": 10553,
+    "Unknown_other": 5126,
+    "TAM_PGAM5_undetected": 4025,
+    "Cycling_Tumor_hepatocyte": 2533,
+    "Endothelial": 2255,
+    "B": 1771,
+    "CAF": 1005,
+    "Cycling_T_NK": 451,
+    "Cycling_TAM_PGAM5_undetected": 289,
+    "TAM_PGAM5_detected": 180,
+    "Cycling_B": 55,
+    "Cycling_Endothelial": 35,
+    "Cycling_CAF": 19
+  },
+  "cycling_definition": "At least 2 of MKI67/TOP2A/UBE2C/CENPF/CDK1/BIRC5 detected; competitor subdivision only, exploratory and not independently validated labels",
+  "scope": "HCC primary tumor; GSE151530 original author HCC/TAM labels; GSE149614 T-ending primary tumors, prior marker-inferred macrophage clusters retained",
+  "limits": "GSE151530 coarse labels lack separately annotated NK/DC/monocyte/hepatocyte classes; Unknown preserved. GSE149614 Hepatocyte includes tumor/hepatocyte-like cells, Other_myeloid is not identified in discovery reference. Fine groups are exploratory marker-defined, not author subtypes."
+}

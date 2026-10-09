@@ -1,0 +1,23 @@
+{
+  "target": "Prior definition retained: author/inferred TAM with raw PGAM5 count >0; count=0 is RNA nondetection, not protein-negative subtype",
+  "discovery": "GSE151530 HCC tumors only, all available author cell types",
+  "external": "GSE149614 primary T-ending tumors, prior inferred macrophage labels; external expression and performance never used to select features/configuration",
+  "feature_selection": "All shared symbols; merge duplicated gene symbols by summing raw counts. Exclude MT-/RPL/RPS genes from deconvolution feature selection only; previous DE tables unchanged. Select informative class contrasts solely from training donors",
+  "competitors": "Coarse author labels plus fixed descriptive cycling splits (2/6 detected); low-count cycling groups fall back to parent. Unknown retained; external Other_myeloid treated as an unrepresented challenge, not relabelled as known DC",
+  "internal_validation": "Nested donor-held-out: select configuration using inner training-donor tests, refit without outer donor, then evaluate independent outer-donor sampled mixtures. Fixed fold/configuration choices; no feature discovery on outer/external expressions",
+  "mixtures": "2000 cells sampled within donor with replacement. Target fractions 0,0.5,1,2,5%, constant total TAM25%; diverse competing cell proportions; explicit zero-target cycling and unrepresented-myeloid challenges. Equal-RNA CP10K averages and pooled-count RNA-weighted mixtures tested. Cell library size is NOT validated biological RNA content",
+  "candidate_configurations": ["pooled_50", "donor_equal_50", "donor_equal_100"],
+  "algorithm": "Local linear nonnegative least squares (NNLS), all model components fitted simultaneously; per-gene training-only scaling. No CIBERSORTx/MuSiC/BayesPrism service or executable invoked",
+  "predeclared_gate": {
+    "minimum_external_donors": 5,
+    "standard_equal_RNA_MAE_percentage_points_max": 1.0,
+    "standard_equal_RNA_Pearson_min": 0.7,
+    "standard_zero_target_p95_percent_max": 0.5,
+    "cycling_zero_target_p95_percent_max": 0.5,
+    "unrepresented_myeloid_zero_target_p95_percent_max": 0.5,
+    "standard_pooled_count_RNA_MAE_percentage_points_max": 1.0,
+    "standard_pooled_count_RNA_Pearson_min": 0.7
+  },
+  "TCGA_gate": "Do not generate or interpret TCGA-LIHC abundance using a reference that fails validation. Even a numerical pass requires platform-compatible bulk/reference units and proper abundance denominator before TCGA application",
+  "sensitivity": "Final locked configuration evaluated with and without defining PGAM5 gene and with versus without cycling competitors; sensitivity results do not re-tune main configuration"
+}

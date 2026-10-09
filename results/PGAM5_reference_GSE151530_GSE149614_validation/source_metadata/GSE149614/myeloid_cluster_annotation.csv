@@ -1,0 +1,15 @@
+cluster,included_macrophage_cluster,annotation
+5,True,C1Q/CD68 macrophage-enriched
+6,True,C1Q/CD68 macrophage-enriched
+10,False,DC-enriched/mixed antigen-presenting myeloid
+16,False,FCN1/S100A8/A9 monocyte-enriched
+21,True,C1Q/CD68 macrophage-enriched
+23,True,C1Q/CD68 macrophage-enriched
+26,False,FCN1/S100A8/A9 monocyte-enriched
+38,True,C1Q/CD68 macrophage-enriched
+39,True,C1Q/CD68 macrophage-enriched
+41,True,C1Q/CD68 macrophage-enriched
+44,True,C1Q/CD68 macrophage-enriched
+46,True,C1Q/CD68 macrophage-enriched
+52,False,GZMB/JCHAIN pDC-enriched
+53,False,TPSAB1/TPSB2 mast-cell-enriched

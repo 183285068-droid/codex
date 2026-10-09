@@ -1,0 +1,26 @@
+{
+  "GSE151530/GSE151530_matrix.mtx.gz": {
+    "bytes": 304902525,
+    "sha256": "50dad60e779b3332350e2552ed4260369ccba8db4f73918bbe2a9f6549db6403"
+  },
+  "GSE151530/GSE151530_genes.tsv.gz": {
+    "bytes": 146052,
+    "sha256": "26de4971c3aa236a72d46e96e2118acc626be90598c796791c139d36329af44e"
+  },
+  "GSE151530/all_cell_metadata.csv.gz": {
+    "bytes": 1476876,
+    "sha256": "14d14fc5c1bcbdeb9368cd8f18b0ba088945f73b7abbfd211d334e61215cb4f5"
+  },
+  "GSE149614/GSE149614_HCC.scRNAseq.S71915.count.txt.gz": {
+    "bytes": 165349783,
+    "sha256": "6010d634ad9a22f30b3331d2dfbbdd7934b52aae54e25182d93c69c451ab46bf"
+  },
+  "GSE149614/GSE149614_HCC.metadata.updated.txt.gz": {
+    "bytes": 489882,
+    "sha256": "4c547861aec44be917ed2340645d6b30009fff4c77853e878fd61c037bc6e8c8"
+  },
+  "GSE149614/myeloid_cluster_annotation.csv": {
+    "bytes": 591,
+    "sha256": "58ef517e91b8cd87efc60c6e786d45e15a66edf322bb06f436ca798d092eda69"
+  }
+}

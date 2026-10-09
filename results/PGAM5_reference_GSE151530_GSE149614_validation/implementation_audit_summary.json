@@ -1,0 +1,8 @@
+{
+  "exact_reference_mixtures_checked": 20,
+  "max_exact_coefficient_error": 3.3306690738754696e-16,
+  "independent_bounded_solver_cases": 80,
+  "external_predictions_exactly_reproduced": 560,
+  "status": "Implementation checks passed; biological holdout failures remain",
+  "corrections": "No unvalidated doublet or ambient correction applied; marker audit does not establish their absence."
+}

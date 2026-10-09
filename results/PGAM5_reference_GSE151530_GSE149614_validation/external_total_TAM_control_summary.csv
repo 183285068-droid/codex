@@ -1,0 +1,7 @@
+unit,scenario,total_TAM_MAE_percentage_points,total_TAM_bias_percentage_points,target_MAE_percentage_points
+equal_RNA_cell_fraction,cycling_zero,6.153146223090547,1.838700962702371,0.763902307835077
+equal_RNA_cell_fraction,other_myeloid_zero,19.969190326057433,19.969190326057433,0.2262334963545489
+equal_RNA_cell_fraction,standard,7.393275665181223,3.506074601484568,1.5520549441890719
+pooled_count_RNA_fraction,cycling_zero,7.742948256648721,4.5091176810266544,0.5992425481435301
+pooled_count_RNA_fraction,other_myeloid_zero,12.61076682890529,10.276589540383423,0.48361731988745876
+pooled_count_RNA_fraction,standard,8.2496195621109,2.94621936493704,1.5161581827530615
