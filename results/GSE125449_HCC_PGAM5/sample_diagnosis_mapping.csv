@@ -1,0 +1,20 @@
+Sample,paper_sample,set,GSM,diagnosis
+S02_P01_LCP21,H21,1,GSM4050086,Hepatocellular carcinoma
+S07_P02_LCP28,H28,1,GSM4050090,Hepatocellular carcinoma
+S08_P03_LCP26,C26,1,GSM4050089,Intrahepatic cholangiocarcinoma
+S09_P04_LCP25,C25,1,GSM4050088,Intrahepatic cholangiocarcinoma
+S10_P05_LCP23,H23,1,GSM4050087,Hepatocellular carcinoma
+S11_P06_LCP29,C29,1,GSM4050091,Intrahepatic cholangiocarcinoma
+S12_P07_LCP30,H30,1,GSM4050092,Hepatocellular carcinoma
+S15_P09_LCP38,H38,1,GSM4050095,Hepatocellular carcinoma
+S16_P10_LCP18,H18,1,GSM4050085,Hepatocellular carcinoma
+S19_P11_LCP39,C39,1,GSM4050096,Intrahepatic cholangiocarcinoma
+S20_P12_LCP35,C35,1,GSM4050093,Intrahepatic cholangiocarcinoma
+S21_P13_LCP37,H37,1,GSM4050094,Hepatocellular carcinoma
+S300_P02_LCP60,C60,2,GSM4050106,Intrahepatic cholangiocarcinoma
+S305_P06_LCP56,C56,2,GSM4050104,Intrahepatic cholangiocarcinoma
+S351_P10_LCP34,H34,2,GSM4050098,Hepatocellular carcinoma
+S355_P13_LCP42,C42,2,GSM4050100,Intrahepatic cholangiocarcinoma
+S358_P16_LCP46,C46,2,GSM4050102,Intrahepatic cholangiocarcinoma
+S364_P21_LCP65,H65,2,GSM4050108,Hepatocellular carcinoma
+S365_P22_LCP66,C66,2,GSM4050110,Intrahepatic cholangiocarcinoma

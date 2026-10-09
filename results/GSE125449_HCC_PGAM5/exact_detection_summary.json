@@ -1,0 +1,11 @@
+{
+  "test": "Two-sided Fisher exact comparison of gene detection proportions, BH across all 21324 tested genes; supplementary, not a substitute for the requested expression Wilcoxon test",
+  "positive_cells": 4,
+  "undetected_cells": 294,
+  "Wilcoxon_up_candidates": 331,
+  "Wilcoxon_candidates_passing_Fisher_FDR05": 0,
+  "Fisher_FDR05_genes_excluding_PGAM5": 0,
+  "candidate_genes_passing": [],
+  "one_positive_zero_negative_exact_p": 0.013422818791946308,
+  "one_positive_zero_negative_Wilcoxon_p": 1.0063616346648376e-17
+}
