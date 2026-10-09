@@ -1,0 +1,26 @@
+{
+  "estimate_source_commit": "c02cfdbf761acd913223c71588a756d75451aafe",
+  "reference_source_commit": "a7bf04f34197b3b888a59fc74bbbbfb187c99769",
+  "reference": "PGAM5_RNA_annotation_deconvolution_v4/EXPLORATORY_REFERENCE_NOT_VALIDATED.tsv;850genes17components,778bulkmatched",
+  "deconvolution_inputs_and_checks": "deconvolution_refit.json",
+  "clinical_repository": "https://github.com/openbiox/UCSCXenaShiny",
+  "clinical_mirror_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+  "clinical_file": "data/tcga_clinical.rda",
+  "stage_field": "ajcc_pathologic_tumor_stage",
+  "source_documentation": "man/tcga_clinical.Rd describes Toil Hub TCGA Clinical Data",
+  "GEO2015_sensitivity_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+  "input_hashes": {
+    "/workspace/scratch/TCGA_LIHC_v4_stage_comparison/patient_scores.csv": {
+      "bytes": 35345,
+      "sha256": "13d15946b11f7536edf727710fa3332bf6bfff7e1a179eb3c4c18b74493f1794"
+    },
+    "/workspace/scratch/TCGA_LIHC_v4_stage_comparison/inputs/tcga_clinical.rda": {
+      "bytes": 125260,
+      "sha256": "9bd3b5366f19353628aaedc6b941b6bc19aed7d819de0f3d695c5a6183ff31aa"
+    },
+    "/workspace/scratch/TCGA_LIHC_v4_stage_comparison/inputs/GSE62944_clinical.txt.gz": {
+      "bytes": 1226302,
+      "sha256": "b5e8cd83cac3ccb3896e74fa81b91a8b865002aea34a329f99d23c25a394e7a3"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "reference_source_commit": "a7bf04f34197b3b888a59fc74bbbbfb187c99769",
+  "prior_TCGA_application_commit": "c02cfdbf761acd913223c71588a756d75451aafe",
+  "reference_training": "GSE151530 plus GSE149614; exact v4 reference retained",
+  "reference_genes_original": 850,
+  "reference_components": 17,
+  "bulk_matched_genes": 778,
+  "missing_reference_genes": 72,
+  "feature_coverage": 0.9152941176470588,
+  "CP10k_denominator": "Frozen per-patient assigned counts across all23368measured genes, not fitting-gene subset sum",
+  "patients": 371,
+  "nonzero_target_estimates": 108,
+  "zero_target_estimates": 263,
+  "target": "TAM_PGAM5_detected",
+  "solver": "scipy NNLS with frozen training row_scale, all17components jointly fitted, beta normalized by its sum",
+  "max_saved_CP10k_difference": 2.842170943040401e-14,
+  "max_saved_17component_estimate_difference": 1.1102230246251565e-16,
+  "independent_bounded_solver_checks": 19,
+  "input_hashes": {
+    "bulk_reference_gene_counts.csv.gz": {
+      "bytes": 580271,
+      "sha256": "66774c3f9b1e7559e7ca3c8c822730666f23b7fa222a188ba11efd2f68b7255f"
+    },
+    "previous_bulk_CP10k.csv.gz": {
+      "bytes": 2248345,
+      "sha256": "ebd8eb96d9efa1a20592107b6d7f85e05eb47268f57f80277d5256443e9a0424"
+    },
+    "previous_component_estimates.csv": {
+      "bytes": 43886,
+      "sha256": "d023d95a9620ee15cd88e962d1e87bd14e8dbb955d8e4b181b6c58275b45961e"
+    },
+    "previous_patient_scores.csv": {
+      "bytes": 35362,
+      "sha256": "c3ccf4aa8415801affc574725755569a66f716ca49ebf1fcea0606463a7dc179"
+    },
+    "reference_850genes_17components.tsv": {
+      "bytes": 285784,
+      "sha256": "cf5f9711da05781b0703c9d6011154cd86d44a8d873595f96f69a1c7209f54a4"
+    },
+    "reference_row_scales.csv": {
+      "bytes": 21625,
+      "sha256": "0375de5c8159b881a5e384830192a9ae870ce41f118926c0d9efe9b13a481093"
+    }
+  },
+  "limitations": "Frozen reference FAILED external biological validation and bulk gene coverage is below the original95%gate. Exploratory model mixture coefficients, not calibrated tissue cell fractions."
+}

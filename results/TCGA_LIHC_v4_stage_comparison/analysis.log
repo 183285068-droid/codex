@@ -1,0 +1,24 @@
+primary_Toil_clinical valid 347 stage counts [171, 86, 90] KW KruskalResult(statistic=np.float64(14.025611007632996), pvalue=np.float64(0.0009002793050717786)) permutationp 0.0009499525023748813
+sensitivity_GEO2015 valid 334 stage counts [165, 82, 87] KW KruskalResult(statistic=np.float64(13.718496322518995), pvalue=np.float64(0.0010497028432874275)) permutationp 0.0007999600019999
+{
+  "input_patients": 371,
+  "primary_stage_valid": 347,
+  "primary_stage_excluded": 24,
+  "stage_groups": [
+    "I",
+    "II",
+    "III-IV"
+  ],
+  "primary_stage_counts": {
+    "I": 171,
+    "II": 86,
+    "III-IV": 90
+  },
+  "GEO2015_stage_valid": 334,
+  "source_valid_major_stage_conflicts": 1,
+  "original371_estimates_unchanged": true,
+  "primary_Kruskal_Wallis_asymptotic_p": 0.0009002793050717786,
+  "primary_Kruskal_Wallis_permutation_p": 0.0009499525023748813,
+  "permutations": 20000,
+  "interpretation": "Cross-sectional association of unvalidated relative mixture coefficients; not validated PGAM5 cellular infiltration fraction; III-IV are pooled; no separate IV-stage inference"
+}
