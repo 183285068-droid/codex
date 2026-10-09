@@ -1,0 +1,90 @@
+{
+  "PGAM5_MYO19_all_macrophages.pdf": {
+    "bytes": 27188,
+    "sha256": "370dabf4a4955f15baa5b2ebaf990684a6c8b6fe517bbca3908282c9edfba573"
+  },
+  "PGAM5_MYO19_all_macrophages.png": {
+    "bytes": 176633,
+    "sha256": "66f5e039447d2c99443e3ff1565cd1fbdac313b15d680d385154f19a23bc778b"
+  },
+  "PGAM5_MYO19_correlation.pdf": {
+    "bytes": 28743,
+    "sha256": "7846851c8dbff295c8f3e2132ef9885b042894d134849b6b18802eeaff46bf43"
+  },
+  "PGAM5_MYO19_correlation.png": {
+    "bytes": 230746,
+    "sha256": "cf869acb7aad57acd1408a298b3c59e04986daa92f1a181b62a65b41735fd717"
+  },
+  "README.md": {
+    "bytes": 6180,
+    "sha256": "8309260b135f2b52b92ccb817ee35478c0e0df9c6f66554432a1d59d4695a5a6"
+  },
+  "analysis.log": {
+    "bytes": 1833,
+    "sha256": "6880d67375e5cfeb774349b52e45e1c118f205222f61cceb5985a8652e16455f"
+  },
+  "analyze_correlation.py": {
+    "bytes": 7413,
+    "sha256": "b478a59d3b9ce306e1119355f1c2f27c4d9658a59ca9a8e28d39ef6f7745f2c4"
+  },
+  "audit.json": {
+    "bytes": 3078,
+    "sha256": "7725c7d6c9f014726d440634408fb68cb90e35d2c979d9985b2ee3ee074b6570"
+  },
+  "audit.log": {
+    "bytes": 3079,
+    "sha256": "9692bed467b60854f1b84902f275561f3b98bf630dfad7716870f03804b8d4c5"
+  },
+  "audit_correlation.py": {
+    "bytes": 6461,
+    "sha256": "fa5bcebfb5ec049d4034c5125bb56be816861d08ef43ab83b2caf548e7322556"
+  },
+  "correlation_statistics.csv": {
+    "bytes": 844,
+    "sha256": "46766d657907b9024a519f8178242958e753e98072623d7d7ae6938814e76ae2"
+  },
+  "detection_summary.json": {
+    "bytes": 162,
+    "sha256": "a47b21766dbbbd74acb87c2b9d60f53a3fec5bfd28036c2ed5f89b04fe44ff0b"
+  },
+  "donor_proxy_mean_expression.csv": {
+    "bytes": 1128,
+    "sha256": "c939170afabd7a8b7069b5a04c9e831c5798ba856807142e8b950dac634f6122"
+  },
+  "environment_versions.json": {
+    "bytes": 183,
+    "sha256": "cb3b414d850d749fdd94ce89dccb4b01b3d19457759d61cdb1e10b981a405674"
+  },
+  "extract_expression.py": {
+    "bytes": 3339,
+    "sha256": "e56e033ee04a790fa66658b06353f00f2a1355cd1dea44bbb18dae24d76d2924"
+  },
+  "extraction.log": {
+    "bytes": 1164,
+    "sha256": "f5ae2053950b3e023d0feaed2c6acf3756a68b8b5d81d9de78a8aa8e769d00e7"
+  },
+  "macrophage_expression.csv.gz": {
+    "bytes": 57736,
+    "sha256": "5558090bb90e88bce7e7a98c49adf374733cdfc462422c49b41bbab5eddab178"
+  },
+  "plot_main_correlation.py": {
+    "bytes": 2170,
+    "sha256": "88df894f71e1a5e6e2ff00db21289885f0f016dc400529b97a88072bd8148fbf"
+  },
+  "protocol.json": {
+    "bytes": 1508,
+    "sha256": "3d7160b76d4a96bc5c5e3245d0fb87a711c38c90e680d4d5d02972d8c40a0823"
+  },
+  "requirements.txt": {
+    "bytes": 109,
+    "sha256": "58a0b57a00c6b1569091175bf67886c5cc454b6ba9706baa1323147e3555abc2"
+  },
+  "result.json": {
+    "bytes": 719,
+    "sha256": "851325eecfbe3a7b01efdfd70dd3ffc9378d4102f6e10a432b0ee82c89ce32b4"
+  },
+  "source_provenance.json": {
+    "bytes": 1163,
+    "sha256": "66456dd05301cde2ee70f4e315d7f734119808fa31c8fedc144b82d0877f5dda"
+  }
+}

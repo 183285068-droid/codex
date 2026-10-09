@@ -1,0 +1,7 @@
+analysis,unit,n,correlation,asymptotic_p,permutation_p,permutations,extreme_permutations,family,secondary_BH_q
+Spearman_all_cells_log1p_CP10k,cell,3493,0.0780287794630349,3.89297147422547e-06,4.9999750001249995e-05,200000.0,9.0,primary,
+Pearson_all_cells_log1p_CP10k,cell,3493,0.03491301419953122,0.03908359135333482,,,,secondary,0.09386304452936584
+Spearman_PGAM5_detected_log1p_CP10k,selected cell,161,-0.1378774385348786,0.08112822828796108,,,,secondary,0.10141028535995135
+Spearman_both_detected_log1p_CP10k,selected cell,22,0.6589497459062676,0.0008525774283002147,,,,secondary,0.004262887141501073
+Spearman_both_detected_raw_counts,selected cell,22,0.06918288251901372,0.7596643352060666,,,,secondary,0.7596643352060666
+Spearman_donor_proxy_mean_CP10k,donor proxy,20,0.4333161507077542,0.0563178267176195,,,,secondary,0.09386304452936584

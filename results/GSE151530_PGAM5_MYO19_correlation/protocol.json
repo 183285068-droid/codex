@@ -1,0 +1,15 @@
+{
+  "primary": "All3493existing HCC macrophages, Spearman on log1p(CP10k), zeros retained, two-sided scipy asymptotic p plus fixed200000permutation test using absolute rho",
+  "secondary_family": [
+    "Pearson_all_cells_log1p_CP10k",
+    "Spearman_PGAM5_detected_log1p_CP10k",
+    "Spearman_both_detected_log1p_CP10k",
+    "Spearman_both_detected_raw_counts",
+    "Spearman_donor_proxy_mean_CP10k"
+  ],
+  "multiple_testing": "One primary gene-pair Spearman test. BH across the five specified secondary asymptotic p-values; co-detected normalized/raw comparisons are diagnostic, not independent validation",
+  "permutation": "Fixed200000shuffles of MYO19 ranks across all cells; MonteCarlo p=(absolute-statistic extreme count+1)/(B+1); seed20261009. This cell-level null assumes exchangeable cells, not independent patients",
+  "group_aggregation": "Average linear cell CP10k per pre-existing donor_id proxy; all20labels included. Existing suffix a/b/c libraries share donor proxy. No treating27libraries as27independent patients; no expression-selected size threshold",
+  "normalization": "Same full-library CP10k and natural log1p as previous analysis; no depth matching, covariate regression or partial correlation",
+  "limitations": "Gene expression association is not causal or evidence of protein interaction. Many zeros, low counts, common normalization denominator, cell dependence, unequal sample cell counts and donor proxies affect interpretation. The 22co-detected cells are a selected subset."
+}

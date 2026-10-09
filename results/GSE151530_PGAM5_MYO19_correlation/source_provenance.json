@@ -1,0 +1,22 @@
+{
+  "dataset": "GSE151530",
+  "scope": "Existing HCC QC macrophages, harmonized_group==Macrophage; no ICC or other lineage",
+  "annotation_source_commit": "a7bf04f34197b3b888a59fc74bbbbfb187c99769",
+  "all_HCC_QC_cells": 44776,
+  "macrophages": 3493,
+  "sample_libraries": 27,
+  "donor_proxy_labels": 20,
+  "definition": "All macrophages retained, including cycling and PGAM5/MYO19 undetected; no selection by gene positivity for primary analysis",
+  "expression": "X is harmonized symbol-merged raw integer counts; CP10k uses stored full-library total_counts; natural log1p. No depth matching/regression",
+  "source_hashes": {
+    "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE151530_harmonized_counts_QC.h5ad": {
+      "bytes": 195442076,
+      "sha256": "c074b15d58b1abde326336a6ad2bb997ca3fef2d94b8eb3067e669cbda91f190"
+    },
+    "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE151530_all_cell_annotation.csv.gz": {
+      "bytes": 1496540,
+      "sha256": "6ec4b37eaf479d9ecd2f580319562c88ef36067b1444f820d3c77ab4f9a0021a"
+    }
+  },
+  "extracted_expression_sha256": "5558090bb90e88bce7e7a98c49adf374733cdfc462422c49b41bbab5eddab178"
+}

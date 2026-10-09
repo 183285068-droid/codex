@@ -1,0 +1,26 @@
+                           analysis          unit    n  correlation  asymptotic_p  permutation_p  permutations  extreme_permutations    family  secondary_BH_q
+     Spearman_all_cells_log1p_CP10k          cell 3493     0.078029      0.000004        0.00005      200000.0                   9.0   primary             NaN
+      Pearson_all_cells_log1p_CP10k          cell 3493     0.034913      0.039084            NaN           NaN                   NaN secondary        0.093863
+Spearman_PGAM5_detected_log1p_CP10k selected cell  161    -0.137877      0.081128            NaN           NaN                   NaN secondary        0.101410
+ Spearman_both_detected_log1p_CP10k selected cell   22     0.658950      0.000853            NaN           NaN                   NaN secondary        0.004263
+  Spearman_both_detected_raw_counts selected cell   22     0.069183      0.759664            NaN           NaN                   NaN secondary        0.759664
+    Spearman_donor_proxy_mean_CP10k   donor proxy   20     0.433316      0.056318            NaN           NaN                   NaN secondary        0.093863
+{
+  "scope": "Existing GSE151530 HCC macrophages",
+  "n_cells": 3493,
+  "n_donor_proxy_labels": 20,
+  "Spearman_rho": 0.0780287794630349,
+  "Spearman_asymptotic_p": 3.89297147422547e-06,
+  "Spearman_200000_permutation_p": 4.9999750001249995e-05,
+  "permutation_extremes": 9,
+  "detection_counts": {
+    "cells": 3493,
+    "PGAM5_detected": 161,
+    "MYO19_detected": 189,
+    "both_detected": 22,
+    "neither_detected": 3165,
+    "PGAM5_only": 139,
+    "MYO19_only": 167
+  },
+  "interpretation": "Very weak pooled-cell positive association, not strong gene coexpression or a mechanistic/protein conclusion. Sample labels are donor proxies; cell-level p-values do not establish independent patient-level association."
+}

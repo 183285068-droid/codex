@@ -1,0 +1,19 @@
+{
+  "scope": "Existing GSE151530 HCC macrophages",
+  "n_cells": 3493,
+  "n_donor_proxy_labels": 20,
+  "Spearman_rho": 0.0780287794630349,
+  "Spearman_asymptotic_p": 3.89297147422547e-06,
+  "Spearman_200000_permutation_p": 4.9999750001249995e-05,
+  "permutation_extremes": 9,
+  "detection_counts": {
+    "cells": 3493,
+    "PGAM5_detected": 161,
+    "MYO19_detected": 189,
+    "both_detected": 22,
+    "neither_detected": 3165,
+    "PGAM5_only": 139,
+    "MYO19_only": 167
+  },
+  "interpretation": "Very weak pooled-cell positive association, not strong gene coexpression or a mechanistic/protein conclusion. Sample labels are donor proxies; cell-level p-values do not establish independent patient-level association."
+}
