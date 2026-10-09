@@ -1,0 +1,16 @@
+endpoint,patient,group,time_days,event,reason
+OS,TCGA-2V-A95S,High,,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-BW-A5NP,Low,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-BW-A5NQ,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-CC-A9FU,Low,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-CC-A9FV,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-DD-A4NR,High,,,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-DD-AACD,Low,,,missing/invalid/nonpositive time or nonbinary/missing event
+OS,TCGA-RC-A6M3,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-2V-A95S,High,,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-BW-A5NQ,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-CC-A9FU,Low,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-CC-A9FV,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-DD-A4NR,High,,,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-DD-AACD,Low,,,missing/invalid/nonpositive time or nonbinary/missing event
+PFI,TCGA-RC-A6M3,High,0.0,0.0,missing/invalid/nonpositive time or nonbinary/missing event

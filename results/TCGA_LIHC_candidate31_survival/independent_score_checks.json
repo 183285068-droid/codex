@@ -1,0 +1,8 @@
+{
+  "patient_scores_reconstructed": 371,
+  "all31_genes_equal_weight": true,
+  "max_absolute_score_error": 6.661338147750939e-16,
+  "score_identity": "score31=(30*score30+z_PGAM5)/31",
+  "identity_max_error": 2.220446049250313e-16,
+  "identical_endpoint_patients_times_events": true
+}

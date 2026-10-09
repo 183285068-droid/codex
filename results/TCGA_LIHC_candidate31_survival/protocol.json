@@ -1,0 +1,14 @@
+{
+  "task": "Add PGAM5 to previously fixed30 candidate genes and rerun31-gene survival analysis",
+  "expression_source": "GSE62944/GSM1536837 TCGA24 tumor Rsubread FeatureCounts (2015 mirror), not current GDC STAR counts. LIHC identified using GEO cancer-type table; primary tumor sample type01 only",
+  "clinical_join": "Mirror includes normal/recurrent sample aliases of patient outcomes; verify duplicates agree across all8 endpoints, retain primary01 alias and join one-to-one by patient",
+  "survival_source": "UCSCXenaShiny tcga_surv.rda mirror of Xena Toil TCGA_survival_data, attributed in source script to Liu et al Cell2018 doi10.1016/j.cell.2018.02.052; repository commit saved. OS and PFI in days. PFI is not PFS",
+  "sample_selection": "One primary-tumor RNA aliquot per 12-character patient ID, highest whole-matrix assigned gene count total then lexicographic barcode, outcome blind",
+  "score": "CPM=counts/sum(all gene counts)*1e6; log2(CPM+1); per-gene z scores using all unique primary LIHC patients (sampleSD ddof1), equal-weight mean over exactly31 genes. Not single-cell training z coefficients, deconvolution, or validated PGAM5-specific macrophage state. All31 required, missing/zero-variance gene stops analysis",
+  "grouping": "Global cohort median score, High>median, Low<=median; same fixed threshold for OS and PFI. No outcome-optimized cutpoint",
+  "endpoints": "OS=OS.time/OS; PFI=PFI.time/PFI. Include nonmissing binary event and finite time>0. Report exclusions separately. Do not rename PFI to PFS",
+  "statistics": "KM with Greenwood log-log95%CI, censor marks and risk tables; two-sided unweighted logrank; high-vs-low univariate Cox HR95%CI; BH over two primary logrank p values. No covariate-adjusted causal claim",
+  "limitations": "Exploratory candidate program not validated for PGAM5-specific state or macrophage abundance; stage/purity and other confounding unadjusted; no independent survival cohort; PFS unavailable",
+  "comparison": "Compare fixed30 and31 gene equal-weight scores, each global outcome-blind median split; no new cutpoint search or gene selection",
+  "reuse": "Identical371 patients, raw31-gene counts and whole-library denominators, clinical source and endpoint eligibility to30-gene run"
+}

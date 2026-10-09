@@ -1,0 +1,134 @@
+{
+  "selected_patient_log2_CPM_plus1.csv": {
+    "bytes": 213745,
+    "sha256": "f53fbe1dae4b31e4ee828aad7b28bbda668334c661065eb15414396bbf269451"
+  },
+  "analyze_survival.py": {
+    "bytes": 7500,
+    "sha256": "ae51eb86efcb5361ae8467f504e5353b1948e4c3114c2ea427640a55d9b3daa8"
+  },
+  "selected_patient_31_gene_counts.csv": {
+    "bytes": 87867,
+    "sha256": "667ccaac2fb10f573ad41860d0197e12dca5ab0220799ccf8b2de99595fcf0c5"
+  },
+  "KM_OS.png": {
+    "bytes": 169849,
+    "sha256": "ca2999770c6e3aa4a6c8e5f466eb5b75cc1898be406ec6abbeef81081678a0ff"
+  },
+  "KM_OS.pdf": {
+    "bytes": 30399,
+    "sha256": "50504ceca09babb4818a9ca1630b9654742a75e3f2f9c7152ec7a628ecc3b287"
+  },
+  "source_provenance.json": {
+    "bytes": 1508,
+    "sha256": "9497ffed67061a105b87c013439c60e8ccbb0ad8fa8e801468124bfb8e6be8d9"
+  },
+  "selected_patient_31_gene_zscores.csv": {
+    "bytes": 230982,
+    "sha256": "512894097bf8ff612b96d9e5dbf3e7b0fcb9f84afe849de0ba45aa58b7102566"
+  },
+  "30_vs_31_patient_comparison.csv": {
+    "bytes": 22810,
+    "sha256": "5f8d87c4575f3480f9eda36d55ccd75f9045a78c288fe9479a5a58758c86cc62"
+  },
+  "score_PGAM5_association.json": {
+    "bytes": 203,
+    "sha256": "17fae98396553c580955555a2b4b96335f75293528de906a21a49b342012e915"
+  },
+  "preparation_summary.json": {
+    "bytes": 421,
+    "sha256": "472726eb978ed8775feea6977e61616e161073fbd96c319dc63309489820e344"
+  },
+  "independent_logrank_risk_sets.csv": {
+    "bytes": 16489,
+    "sha256": "af75a896f1f94975ad97ba4bdd1e1bcfa1220034d67683341d9c21f5f1aabcb4"
+  },
+  "KM_PFI.pdf": {
+    "bytes": 30993,
+    "sha256": "dbf2c15d07b779699f8eb0f7cefb737093b71953ecac03f7785794685412bb72"
+  },
+  "implementation_checks.json": {
+    "bytes": 284,
+    "sha256": "f0669301cc30aa2939d76213c0347e97b4409f7b07665eb8097f98e3ec2c62d7"
+  },
+  "patient_scores_survival_join.csv": {
+    "bytes": 66592,
+    "sha256": "d6587a939c158119eda9eadfc503e0fc29aab05dc8efcf5664168414c200c8d5"
+  },
+  "protocol.json": {
+    "bytes": 2253,
+    "sha256": "b2ed0df9e06a92df4bc0565b09c064348d5c1e78b7797dd64da6c105a3a14e4c"
+  },
+  "PFI_analysis_patients.csv": {
+    "bytes": 17114,
+    "sha256": "becea732086bb87d33a8377de4cffeb5b4577ed3dbc9e03ced5d87107ee8e159"
+  },
+  "bulk_score_parameters.csv": {
+    "bytes": 2005,
+    "sha256": "a38b451bb4c7c2e77eca1e39593c9c036618ba0112998a1fcf8fea2292794a6c"
+  },
+  "KM_curve_values.csv": {
+    "bytes": 47572,
+    "sha256": "fa76050905dc00402969f8b514374570cb20a185e0e8b92c81a0df434970d176"
+  },
+  "signature_31_genes.csv": {
+    "bytes": 805,
+    "sha256": "948704b0c7e04a9028f087ff6714c543f217c553504d26b87f96182863cfbb28"
+  },
+  "endpoint_excluded_patients.csv": {
+    "bytes": 1353,
+    "sha256": "5469da9492ef1392c9f3007cfdee22f6c12a6ea9b51b951af0d13c006854947d"
+  },
+  "patient_scores.csv": {
+    "bytes": 35464,
+    "sha256": "fe8e87077c74ef65a85ed93d34df98973ce50567b16ec2653b5b4a10dd54e456"
+  },
+  "survival_statistics.csv": {
+    "bytes": 832,
+    "sha256": "e8495087c7b3add5dd095fdd0e06001860ca7d8e64066cf355c9f8613c9b7e17"
+  },
+  "package_report.py": {
+    "bytes": 6864,
+    "sha256": "9763eb482b7976a0b8c4e8cc97ef8f00628aecdb9ffd9e6d43ba617c0b030edb"
+  },
+  "environment_versions.json": {
+    "bytes": 187,
+    "sha256": "9a20abcca16fd0175a79cab938a8bfc79e54a885610e18fee269b7e8ed82f7eb"
+  },
+  "analysis.log": {
+    "bytes": 1014,
+    "sha256": "c5e17c89c05616c741a4f1ba0756259473ef95dfce054881d87d17a14e4a181e"
+  },
+  "KM_PFI.png": {
+    "bytes": 168177,
+    "sha256": "7f02936a4c881d247f2c962f272b9a5b68aee5e89571d71452ff71ca7c194479"
+  },
+  "KM_numbers_at_risk.csv": {
+    "bytes": 471,
+    "sha256": "7c4d0541786ab700947d9e0cd5cec340626e7f93ef38417bf60efea17f58d0d8"
+  },
+  "README.md": {
+    "bytes": 3552,
+    "sha256": "08d15d703e4be46734d4c27c1fea082683a27c4b5839bdd81dcf0e7d16f3962c"
+  },
+  "30_vs_31_group_transitions.csv": {
+    "bytes": 47,
+    "sha256": "e3e1e08c26c37aa201c37ce2ccc75024259df3a52846415e2fe878c82050c949"
+  },
+  "prepare31.py": {
+    "bytes": 3360,
+    "sha256": "4ab4c716e350b672d19c6cc1e84b9ce9fd15b2cef8dbdfe8ae1ff4130cdfa456"
+  },
+  "OS_analysis_patients.csv": {
+    "bytes": 17124,
+    "sha256": "790de2ce8d80abb2ffe0aaaa53bd6e4ac6ffa6bc2708a38cb69c4d12cf267022"
+  },
+  "30_vs_31_survival_comparison.csv": {
+    "bytes": 1512,
+    "sha256": "1f608b765a6e2d7ca5f72ec78dd87b8676a751690516a27fb6bb4408c2898d2b"
+  },
+  "independent_score_checks.json": {
+    "bytes": 284,
+    "sha256": "10d24d8991b1f8e0e10a586dc09e460db121e9d96877a0b21aff89b74edc67f5"
+  }
+}
