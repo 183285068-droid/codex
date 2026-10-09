@@ -1,0 +1,60 @@
+{
+  "platform": "Smartseq2",
+  "tumor_samples": 10,
+  "tumor_donors": 6,
+  "tumor_cells": 2423,
+  "tumor_cell_histology": {
+    "HCC": 2423
+  },
+  "tumor_sample_histology": {
+    "HCC": 10
+  },
+  "raw_macrophages": 546,
+  "QC_macrophages": 531,
+  "PGAM5_positive": 62,
+  "PGAM5_undetected": 469,
+  "QC_macrophage_histology": {
+    "HCC": 531
+  },
+  "PGAM5_positive_histology": {
+    "HCC": 62
+  },
+  "samples_with_QC_macrophages": 8,
+  "samples_with_positive_macrophages": 7,
+  "tested_genes": 54574,
+  "upregulated_excluding_PGAM5": 1637,
+  "downregulated_excluding_PGAM5": 4,
+  "top20_up": [
+    "GPR37",
+    "RP11-959F10.6",
+    "IRS1",
+    "AQP11",
+    "RP11-67L3.5",
+    "SLC22A25",
+    "AMOTL2",
+    "SUGCT",
+    "SLC15A1",
+    "RPL39P5",
+    "C9orf152",
+    "LURAP1L",
+    "STXBP6",
+    "GREB1",
+    "PKLR",
+    "RP11-535A19.1",
+    "CBLC",
+    "RP11-757A13.1",
+    "RP11-400K9.4",
+    "RP11-354M1.2"
+  ],
+  "top10_down": [
+    "WDR25",
+    "RP5-894A10.2",
+    "RNU5D-1",
+    "UCKL1-AS1"
+  ],
+  "criteria": "FDR <0.05, |Scanpy approximate log2FC| >=1, >=10% detection in either group; PGAM5 excluded from candidate lists",
+  "method": "Pooled-cell Wilcoxon, tie correction, BH FDR across all genes; no patient pairing, depth matching, sample or depth covariates",
+  "QC": "n_genes>=500, pct_mt<20; normalization to 10000 then log1p",
+  "annotation": "Original celltype_sub labels starting with Mφ-, all six macrophage subtypes retained",
+  "count_type": "read counts"
+}

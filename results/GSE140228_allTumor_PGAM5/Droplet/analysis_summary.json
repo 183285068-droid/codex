@@ -1,0 +1,59 @@
+{
+  "platform": "Droplet",
+  "tumor_samples": 8,
+  "tumor_donors": 5,
+  "tumor_cells": 18621,
+  "tumor_cell_histology": {
+    "HCC": 15319,
+    "CC": 3302
+  },
+  "tumor_sample_histology": {
+    "HCC": 7,
+    "CC": 1
+  },
+  "raw_macrophages": 2663,
+  "QC_macrophages": 2508,
+  "PGAM5_positive": 60,
+  "PGAM5_undetected": 2448,
+  "QC_macrophage_histology": {
+    "HCC": 2223,
+    "CC": 285
+  },
+  "PGAM5_positive_histology": {
+    "HCC": 54,
+    "CC": 6
+  },
+  "samples_with_QC_macrophages": 8,
+  "samples_with_positive_macrophages": 8,
+  "tested_genes": 54574,
+  "upregulated_excluding_PGAM5": 671,
+  "downregulated_excluding_PGAM5": 0,
+  "top20_up": [
+    "ANGPTL4",
+    "NEURL1B",
+    "SMIM10",
+    "DUSP14",
+    "TSHZ2",
+    "AIFM2",
+    "HDGF",
+    "ZBTB22",
+    "CCND1",
+    "GUCY1A3",
+    "HELLS",
+    "TMTC3",
+    "RGS3",
+    "PPP1R35",
+    "SLC25A4",
+    "SLC35A2",
+    "LAMB1",
+    "ABCB4",
+    "PTK2",
+    "TNFRSF18"
+  ],
+  "top10_down": [],
+  "criteria": "FDR <0.05, |Scanpy approximate log2FC| >=1, >=10% detection in either group; PGAM5 excluded from candidate lists",
+  "method": "Pooled-cell Wilcoxon, tie correction, BH FDR across all genes; no patient pairing, depth matching, sample or depth covariates",
+  "QC": "n_genes>=500, pct_mt<20; normalization to 10000 then log1p",
+  "annotation": "Original celltype_sub labels starting with Mφ-, all six macrophage subtypes retained",
+  "count_type": "UMI"
+}

@@ -1,0 +1,30 @@
+{
+  "GSE140228_UMI_counts_Droplet.mtx.gz": {
+    "bytes": 262151136,
+    "sha256": "8f6017e8cd4d599b60aba1718648e9947d8b5565440fba3d20ef048979451642"
+  },
+  "GSE140228_UMI_counts_Droplet_barcodes.tsv.gz": {
+    "bytes": 315181,
+    "sha256": "b83f6abc99c843715c5a75788be008cda700ce3f1c048f60e9e2578cc2b4233c"
+  },
+  "GSE140228_UMI_counts_Droplet_cellinfo.tsv.gz": {
+    "bytes": 489593,
+    "sha256": "18c09bd0ef3e74667418a634b8b8c639642368e9c6859c73d3ab24f844c86a4e"
+  },
+  "GSE140228_UMI_counts_Droplet_genes.tsv.gz": {
+    "bytes": 1027872,
+    "sha256": "04af761ee8dba1508820f00eb7f7d8907e4d700e8162a19e80328f9cce897008"
+  },
+  "GSE140228_cell_info_Smartseq2.tsv.gz": {
+    "bytes": 31805,
+    "sha256": "ffcec79909d3592aff064daa8739617b575396657d7874a61ef89f05430da230"
+  },
+  "GSE140228_gene_info_Smartseq2.tsv.gz": {
+    "bytes": 1027867,
+    "sha256": "ec0948c20c186f465996c9dbc12897cbb75a5c694dee82134c42bf394f29ea99"
+  },
+  "GSE140228_read_counts_Smartseq2.csv.gz": {
+    "bytes": 56079522,
+    "sha256": "ad3b170cdf70fa8c9effd089de97c964a32c8fd43939284598cd8e931c2e7818"
+  }
+}
