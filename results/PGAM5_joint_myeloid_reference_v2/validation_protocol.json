@@ -1,0 +1,29 @@
+{
+  "target": "Harmonized inferred macrophages with raw PGAM5 count >0 versus zero; detection definition retained, membership reannotated. Prior DE tables unchanged. RNA zero is not protein negativity.",
+  "discovery": "GSE151530+GSE149614 joint training; inferred harmonized identities, dataset-prefixed donor IDs",
+  "external": "GSE189903 HCC core+border only; performance and expression never used for training or config tuning. Annotation sanity inspected before fitting; not blinded external annotation; earlier exploration previously used this dataset.",
+  "feature_selection": "All shared symbols; merge duplicated gene symbols by summing raw counts. Exclude MT-/RPL/RPS genes from deconvolution feature selection only; previous DE tables unchanged. Select informative class contrasts solely from training donors",
+  "competitors": "Added inferred Monocyte_enriched,DC_enriched,pDC and Mixed_APC; low-support training classes (<50 cells or<2 donors) fall back to Unknown_other. Same fixed cycling competitors retained.",
+  "internal_validation": "Nested donor-held-out: select configuration using inner training-donor tests, refit without outer donor, then evaluate independent outer-donor sampled mixtures. Fixed fold/configuration choices; no feature discovery on outer/external expressions",
+  "mixtures": "2000 cells sampled within donor with replacement. Target fractions 0,0.5,1,2,5%, constant total TAM25%; diverse competing cell proportions; explicit zero-target cycling and Monocyte/DC/pDC/Mixed_APC-enriched zero-target challenges when donor pool has >=20 cells. Equal-RNA CP10K averages and pooled-count RNA-weighted mixtures tested. Cell library size is NOT validated biological RNA content",
+  "candidate_configurations": [
+    "pooled_50",
+    "donor_equal_50",
+    "donor_equal_100"
+  ],
+  "algorithm": "Local linear nonnegative least squares (NNLS), all model components fitted simultaneously; per-gene training-only scaling. No CIBERSORTx/MuSiC/BayesPrism service or executable invoked",
+  "predeclared_gate": {
+    "minimum_external_donors": 3,
+    "standard_equal_RNA_MAE_percentage_points_max": 1.0,
+    "standard_equal_RNA_Pearson_min": 0.7,
+    "standard_zero_target_p95_percent_max": 0.5,
+    "cycling_zero_target_p95_percent_max": 0.5,
+    "unrepresented_myeloid_zero_target_p95_percent_max": 0.5,
+    "standard_pooled_count_RNA_MAE_percentage_points_max": 1.0,
+    "standard_pooled_count_RNA_Pearson_min": 0.7,
+    "minimum_testable_external_donors_per_monocyte_DC_challenge": 2
+  },
+  "TCGA_gate": "Do not generate or interpret TCGA-LIHC abundance using a reference that fails validation. Even a numerical pass requires platform-compatible bulk/reference units and proper abundance denominator before TCGA application",
+  "sensitivity": "Final locked configuration evaluated with and without defining PGAM5 gene and with versus without cycling competitors; sensitivity results do not re-tune main configuration",
+  "annotation_rules_sha256": "86fbcb43452244a36e1e389f6195e41081e8a33626d8135c5e322836869a0778"
+}

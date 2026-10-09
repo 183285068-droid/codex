@@ -1,0 +1,22 @@
+{
+  "/workspace/scratch/PGAM5_reference_validation/GSE151530_all_tumor_counts_QC.h5ad": {
+    "bytes": 195367997,
+    "sha256": "33c857b9941fc011617c9fd9b124aed969aa5fe88dbc1270f09f194885c95f52"
+  },
+  "/workspace/scratch/PGAM5_reference_validation/GSE149614_all_tumor_counts_QC.h5ad": {
+    "bytes": 201525571,
+    "sha256": "1e7364a45d4215b783151d81cceb00e8e3d5cc8fdaa3414410c8c52eea119a54"
+  },
+  "/workspace/scratch/GSE189903/GSE189903_matrix.mtx.gz": {
+    "bytes": 390953978,
+    "sha256": "b97614171f0bc337c0d41186ea09114351995daebb0d283b0985407b136028bf"
+  },
+  "/workspace/scratch/GSE189903/GSE189903_genes.tsv.gz": {
+    "bytes": 199423,
+    "sha256": "ff59134da23229358c6f15b70a86517a17a1a561226878d5b3bf72e3004b0d48"
+  },
+  "/workspace/scratch/GSE189903/all_cell_metadata.csv.gz": {
+    "bytes": 945500,
+    "sha256": "969c2923a3379b4cab335bb0044ab693a96b0b180c63298fb9f0ccb06580858b"
+  }
+}

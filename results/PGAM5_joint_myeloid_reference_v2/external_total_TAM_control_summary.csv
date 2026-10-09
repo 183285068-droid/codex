@@ -1,0 +1,9 @@
+unit,scenario,total_TAM_MAE_percentage_points,total_TAM_bias_percentage_points,target_MAE_percentage_points
+equal_RNA_cell_fraction,cycling_zero,6.718944457205597,-5.183324943617724,1.9703121726353419
+equal_RNA_cell_fraction,standard,5.287953966841593,-4.437815766870173,2.7255008957864475
+equal_RNA_cell_fraction,zero_Mixed_APC,5.528637054894888,4.280428689305093,2.1584759909908167
+equal_RNA_cell_fraction,zero_Monocyte_enriched,5.860850790668096,5.860850790668096,3.411726759106358
+pooled_count_RNA_fraction,cycling_zero,12.06217474869606,-1.2250430356253788,0.561565288849135
+pooled_count_RNA_fraction,standard,7.861863797355674,-3.893831571230616,3.9993181509241307
+pooled_count_RNA_fraction,zero_Mixed_APC,5.979848529529985,5.979848529529985,1.2695890378263681
+pooled_count_RNA_fraction,zero_Monocyte_enriched,8.38064066777379,8.38064066777379,2.138622704757526

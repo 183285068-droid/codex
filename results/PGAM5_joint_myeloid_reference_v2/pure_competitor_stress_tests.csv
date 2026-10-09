@@ -1,0 +1,27 @@
+dataset,donor,pure_competitor,cells,true_target_fraction,estimated_target_fraction,true_total_macrophage_fraction,estimated_total_macrophage_fraction,interpretation
+joint_discovery,GSE149614:HCC06,Mixed_APC,361,0,0.009088048718884469,0,0.10697981904561353,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE149614:HCC09,Monocyte_enriched,40,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE149614:HCC10,Monocyte_enriched,251,0,0.0,0,0.4745117118356479,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H30,DC_enriched,28,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H38,Monocyte_enriched,63,0,0.017456868244580696,0,0.22307650984106395,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H38,DC_enriched,38,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H49,DC_enriched,31,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H58,Monocyte_enriched,31,0,0.025906140856888537,0,0.22557067421053748,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H58,DC_enriched,212,0,0.00592735511376633,0,0.031212975319183572,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H63,DC_enriched,115,0,0.04501487474270563,0,0.04501487474270563,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H68,Monocyte_enriched,86,0,0.03235906450290738,0,0.0820787116510292,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H73,Monocyte_enriched,188,0,0.0,0,0.2979032162371614,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H73,DC_enriched,76,0,0.0,0,0.1303483498847559,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H73,pDC,57,0,0.012024620546728397,0,0.09248772418640545,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H74,Monocyte_enriched,22,0,0.0,0,0.5234451875536393,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H75,DC_enriched,32,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H77,Monocyte_enriched,140,0,0.020340445611934238,0,0.0767028055135398,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+joint_discovery,GSE151530:H77,DC_enriched,136,0,0.0,0,0.003704586452274172,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:1H,Monocyte_enriched,164,0,0.06632345585234348,0,0.24971101302736334,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:1H,Mixed_APC,69,0,0.0,0,0.006159350099850477,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:2H,Monocyte_enriched,139,0,0.0008721992794361085,0,0.045747377818177365,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:2H,Mixed_APC,279,0,0.016936699214797266,0,0.35190082898019825,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:3H,Monocyte_enriched,221,0,0.0,0,0.11501104155858445,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:3H,Mixed_APC,206,0,0.0,0,0.24332368836281834,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:4H,Monocyte_enriched,41,0,0.025058532538089463,0,0.17055534412885923,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates
+GSE189903,GSE189903:4H,Mixed_APC,217,0,0.0,0,0.0,Supplementary pure-cell mean stress test; not a replacement for predeclared mixed-tumor gates

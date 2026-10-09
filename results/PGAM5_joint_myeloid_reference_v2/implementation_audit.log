@@ -1,0 +1,9 @@
+Sufficient statistics (35, 19, 15923) shared genes 15923
+Qualified internal ['GSE149614:HCC01', 'GSE149614:HCC02', 'GSE149614:HCC03', 'GSE149614:HCC04', 'GSE149614:HCC05', 'GSE149614:HCC06', 'GSE149614:HCC07', 'GSE149614:HCC08', 'GSE149614:HCC10', 'GSE151530:H08', 'GSE151530:H68', 'GSE151530:H70', 'GSE151530:H72', 'GSE151530:H73'] external ['GSE189903:3H', 'GSE189903:4H']
+{
+  "exact_reference_mixtures_checked": 20,
+  "max_exact_coefficient_error": 2.220446049250313e-16,
+  "independent_bounded_solver_cases": 20,
+  "external_predictions_exactly_reproduced": 160,
+  "status": "Implementation checks passed; scientific validation interpreted separately"
+}

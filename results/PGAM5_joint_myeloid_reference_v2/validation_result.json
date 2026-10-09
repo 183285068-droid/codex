@@ -1,0 +1,180 @@
+{
+  "validation_passed": false,
+  "selected_config": "donor_equal_50",
+  "internal_donors": 14,
+  "external_donors": 2,
+  "selected_genes": 850,
+  "reference_components": 17,
+  "failed_checks": [
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_MAE_pp<=1",
+      "value": 2.588487407392046,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_Pearson>=0.7",
+      "value": 0.02147251563232818,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_zero_p95_percent<=0.5",
+      "value": 8.126710119371392,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_cycling_zero_p95_percent<=0.5",
+      "value": 8.511628628053215,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_zero_Monocyte_enriched_p95_percent<=0.5",
+      "value": 4.0936892727929965,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_zero_DC_enriched_p95_percent<=0.5",
+      "value": 0.8204850394919626,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "equal_RNA_cell_fraction_zero_pDC_p95_percent<=0.5",
+      "value": 2.2113406634246364,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_MAE_pp<=1",
+      "value": 2.7258521891053005,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_Pearson>=0.7",
+      "value": -0.038312600876989386,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_zero_p95_percent<=0.5",
+      "value": 10.825133495800115,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_cycling_zero_p95_percent<=0.5",
+      "value": 11.35917540029736,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_zero_Monocyte_enriched_p95_percent<=0.5",
+      "value": 3.1642305563437954,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_zero_DC_enriched_p95_percent<=0.5",
+      "value": 0.7745372623824495,
+      "passed": false
+    },
+    {
+      "phase": "outer_nested",
+      "criterion": "pooled_count_RNA_fraction_zero_pDC_p95_percent<=0.5",
+      "value": 1.3633935132605388,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_MAE_pp<=1",
+      "value": 2.7255008957864475,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_Pearson>=0.7",
+      "value": -0.09576154718469615,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_zero_p95_percent<=0.5",
+      "value": 7.457077763156617,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_cycling_zero_p95_percent<=0.5",
+      "value": 2.860353335491117,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_zero_Monocyte_enriched_p95_percent<=0.5",
+      "value": 6.979636487940091,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "equal_RNA_cell_fraction_zero_Mixed_APC_p95_percent<=0.5",
+      "value": 4.561652810548291,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_MAE_pp<=1",
+      "value": 3.9993181509241307,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_Pearson>=0.7",
+      "value": -0.30696555916338114,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_zero_p95_percent<=0.5",
+      "value": 6.152261118447109,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_cycling_zero_p95_percent<=0.5",
+      "value": 1.5577460701675454,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_zero_Monocyte_enriched_p95_percent<=0.5",
+      "value": 3.5532984653776736,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "pooled_count_RNA_fraction_zero_Mixed_APC_p95_percent<=0.5",
+      "value": 2.8304208511129745,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "external_donors>=3",
+      "value": 2,
+      "passed": false
+    },
+    {
+      "phase": "external_locked",
+      "criterion": "zero_DC_enriched_testable_external_donors>=2",
+      "value": 0,
+      "passed": false
+    }
+  ],
+  "TCGA_status": "NOT_RUN: validation gate determines eligibility; additional reference/bulk platform matching and abundance-unit calibration are still prerequisites even if gate passes",
+  "limits": "NNLS only; internal means select config, independent outer mixtures evaluate nested selection. Bootstrap repeats are not independent biological donors. Pooled-count RNA weights use observed library size and are not calibrated biological RNA content. Joint training adds inferred Monocyte/DC/pDC/Mixed_APC; external GSE189903 may lack pure DC-enriched cells, untestable challenges do not count as passes. Coarse and inferred labels are not validated ground truth; annotation marker sanity reviewed across datasets."
+}

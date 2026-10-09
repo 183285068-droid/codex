@@ -1,0 +1,35 @@
+S_ID,Sample,patient,GSM,diagnosis,tissue,included
+S001,1CB,1C,GSM5709304,Intrahepatic cholangiocarcinoma,Tumor border,False
+S002,1CN,1C,GSM5709305,Intrahepatic cholangiocarcinoma,Adjacent non-tumor tissue,False
+S003,1CT1,1C,GSM5709306,Intrahepatic cholangiocarcinoma,Tumor core,False
+S004,1CT2,1C,GSM5709307,Intrahepatic cholangiocarcinoma,Tumor core,False
+S005,2CN,2C,GSM5709308,Intrahepatic cholangiocarcinoma,Adjacent non-tumor tissue,False
+S006,2CT1,2C,GSM5709309,Intrahepatic cholangiocarcinoma,Tumor core,False
+S007,2CT2,2C,GSM5709310,Intrahepatic cholangiocarcinoma,Tumor core,False
+S008,2CT3,2C,GSM5709311,Intrahepatic cholangiocarcinoma,Tumor core,False
+S009,3CB,3C,GSM5709312,Intrahepatic cholangiocarcinoma,Tumor border,False
+S010,3CT1,3C,GSM5709313,Intrahepatic cholangiocarcinoma,Tumor core,False
+S011,3CT2,3C,GSM5709314,Intrahepatic cholangiocarcinoma,Tumor core,False
+S012,1HB,1H,GSM5709315,Hepatocellular carcinoma,Tumor border,True
+S013,1HN,1H,GSM5709316,Hepatocellular carcinoma,Adjacent non-tumor tissue,False
+S014,1HT1,1H,GSM5709317,Hepatocellular carcinoma,Tumor core,True
+S015,1HT2,1H,GSM5709318,Hepatocellular carcinoma,Tumor core,True
+S016,1HT3,1H,GSM5709319,Hepatocellular carcinoma,Tumor core,True
+S017,2HB,2H,GSM5709320,Hepatocellular carcinoma,Tumor border,True
+S018,2HN,2H,GSM5709321,Hepatocellular carcinoma,Adjacent non-tumor tissue,False
+S019,2HT2,2H,GSM5709322,Hepatocellular carcinoma,Tumor core,True
+S020,3HB,3H,GSM5709323,Hepatocellular carcinoma,Tumor border,True
+S021,3HN,3H,GSM5709324,Hepatocellular carcinoma,Adjacent non-tumor tissue,False
+S022,3HT1,3H,GSM5709325,Hepatocellular carcinoma,Tumor core,True
+S023,3HT2,3H,GSM5709326,Hepatocellular carcinoma,Tumor core,True
+S024,3HT3,3H,GSM5709327,Hepatocellular carcinoma,Tumor core,True
+S025,4HB,4H,GSM5709328,Hepatocellular carcinoma,Tumor border,True
+S026,4HN,4H,GSM5709329,Hepatocellular carcinoma,Adjacent non-tumor tissue,False
+S027,4HT1,4H,GSM5709330,Hepatocellular carcinoma,Tumor core,True
+S028,4HT3,4H,GSM5709331,Hepatocellular carcinoma,Tumor core,True
+S029,4HT2,4H,GSM5709332,Hepatocellular carcinoma,Tumor core,True
+S030,1CT3,1C,GSM5709333,Intrahepatic cholangiocarcinoma,Tumor core,False
+S031,2CB,2C,GSM5709334,Intrahepatic cholangiocarcinoma,Tumor border,False
+S032,3CN,3C,GSM5709335,Intrahepatic cholangiocarcinoma,Adjacent non-tumor tissue,False
+S034,2HT1,2H,GSM5709336,Hepatocellular carcinoma,Tumor core,True
+S035,2HT3,2H,GSM5709337,Hepatocellular carcinoma,Tumor core,True

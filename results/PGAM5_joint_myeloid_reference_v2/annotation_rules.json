@@ -1,0 +1,23 @@
+{
+  "purpose": "Target-agnostic cluster-marker rules finalized before joint feature training, after cross-dataset annotation sanity audit. Initial rules archived; exploratory labels, not validated classifiers.",
+  "clustering": "Each dataset independently; original TAM/Myeloid plus Unknown/unclassified candidates; CP10K log1p,2000 Seurat HVG excluding PGAM5,30PC,15NN,igraph Leiden0.8,seed0",
+  "QC": "Retain previous QC>=500 genes,MT<20%; HCC tumors only",
+  "rules_in_priority_order": [
+    "Mast: at least two of TPSAB1/TPSB2/KIT detection>=0.2",
+    "pDC: GZMB>=0.3, at least two of TCF4/IL3RA/CLEC4C>=0.1,CD3D<0.2",
+    "DC_enriched: CD1C>=0.3,FCER1A>=0.2,C1QC<0.4",
+    "Monocyte_enriched: FCN1>=0.35,max(S100A8,S100A9)>=0.4,TYROBP>=0.5,C1QC<0.4",
+    "Mixed_APC: CD1C>=0.3,FCER1A>=0.2,C1QC>=0.4; mixed macrophage/DC-like expression, not forced to either identity",
+    "Macrophage: min(C1QA,C1QB,C1QC)>=0.4,CSF1R>=0.2,CD68>=0.3,TYROBP>=0.5",
+    "T_NK: either at least two of CD3D/CD3E/TRAC>=0.3 or GNLY>=0.3 and NKG7>=0.4;C1QC<0.2",
+    "B: MS4A1>=0.3,CD79A>=0.3,C1QC<0.2",
+    "CAF: COL1A1>=0.3,DCN>=0.3,TYROBP<0.2",
+    "Endothelial: PECAM1>=0.3,VWF>=0.3,TYROBP<0.2",
+    "Tumor_hepatocyte: EPCAM/KRT19 both>=0.2 or ALB/APOA1 both>=0.4;TYROBP<0.2,C1QC<0.2",
+    "Unknown_other: none of the above"
+  ],
+  "missing_markers": "Missing gene is not zero. A rule with missing required markers is ineligible; no invented cDC1/cDC2 subclass unless supported.",
+  "target": "Only cells in Macrophage clusters split by raw PGAM5>0 vs0. This revises lineage labels, not PGAM5 detection threshold.",
+  "external": "GSE189903 HCC core+border; marker summaries reviewed for annotation sanity, but no external expression used for feature selection or configuration tuning. Not blinded or prospectively untouched.",
+  "revision_note": "Annotation consistency correction before any joint-reference feature training/performance: dual macrophage/DC marker clusters assigned Mixed_APC. External marker summaries were inspected for annotation sanity, so not blinded/prospective annotation validation. No external expression used for feature/configuration selection."
+}

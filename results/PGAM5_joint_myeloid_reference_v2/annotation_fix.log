@@ -1,0 +1,3 @@
+GSE151530 {'T_NK': 18656, 'Tumor_hepatocyte': 13774, 'Macrophage': 3493, 'Endothelial': 2290, 'B': 1826, 'Unknown_other': 1807, 'CAF': 1523, 'DC_enriched': 733, 'Monocyte_enriched': 588, 'pDC': 86} 161
+GSE149614 {'Tumor_hepatocyte': 14202, 'Macrophage': 7448, 'T_NK': 6831, 'B': 1901, 'Endothelial': 1678, 'CAF': 1593, 'Mixed_APC': 364, 'Monocyte_enriched': 291, 'Unknown_other': 60, 'Mast': 46} 197
+GSE189903 {'T_NK': 35362, 'Macrophage': 3467, 'Tumor_hepatocyte': 1507, 'Mixed_APC': 771, 'CAF': 770, 'B': 753, 'Endothelial': 616, 'Monocyte_enriched': 565, 'Unknown_other': 476} 85

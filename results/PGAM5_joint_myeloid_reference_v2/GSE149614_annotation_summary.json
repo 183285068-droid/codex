@@ -1,0 +1,22 @@
+{
+  "dataset": "GSE149614",
+  "cells": 34414,
+  "reclustered_candidates": 8209,
+  "clusters": 17,
+  "groups": {
+    "Tumor_hepatocyte": 14202,
+    "Macrophage": 7448,
+    "T_NK": 6831,
+    "B": 1901,
+    "Endothelial": 1678,
+    "CAF": 1593,
+    "Mixed_APC": 364,
+    "Monocyte_enriched": 291,
+    "Unknown_other": 60,
+    "Mast": 46
+  },
+  "target_positive_cells": 197,
+  "target_undetected_cells": 7251,
+  "annotation": "Frozen marker rules, PGAM5 excluded from graph/HVG; descriptive inferred cluster labels, unknown retained; no cDC subtype claim",
+  "mixed_APC_rule_revision": "Before joint reference training; same rule used in all datasets, externally inspected for label sanity; not blinded annotation"
+}

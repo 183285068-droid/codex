@@ -1,0 +1,4 @@
+dataset,QC_cells,target_detected,target_undetected,T_NK,Tumor_hepatocyte,Macrophage,Endothelial,B,Unknown_other,CAF,DC_enriched,Monocyte_enriched,pDC,Mixed_APC,Mast
+GSE151530,44776,161,3332,18656,13774,3493,2290,1826,1807,1523,733.0,588,86.0,0.0,0.0
+GSE149614,34414,197,7251,6831,14202,7448,1678,1901,60,1593,0.0,291,0.0,364.0,46.0
+GSE189903,44287,85,3382,35362,1507,3467,616,753,476,770,0.0,565,0.0,771.0,0.0
