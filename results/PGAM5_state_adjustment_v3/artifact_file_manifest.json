@@ -1,0 +1,250 @@
+{
+  "fold_selected_genes.csv": {
+    "bytes": 21781,
+    "sha256": "e016a135ac5b57ce7546861c9b9fc384846b9275cf7d560ae581681b8756a25c"
+  },
+  "cohort_holdout_151_to_149_NMF_basis.tsv": {
+    "bytes": 25237,
+    "sha256": "adad5e48762351bd5c5bfd0169f2e54b02d167a882e4cdcdc97bcfe514153a80"
+  },
+  "training_gene_stability_specificity.csv": {
+    "bytes": 2364049,
+    "sha256": "23548c09d5ba4fb719b208b4f358085c96ea029e1196e4003d6e117a9bd69e9c"
+  },
+  "bounded_solver_checks.csv": {
+    "bytes": 758,
+    "sha256": "5a7405da6331340f7aa9a74b6f41377a520d1fcc896a632056a4f792eb35fc57"
+  },
+  "result.json": {
+    "bytes": 832,
+    "sha256": "0cabaf839326817dd56c567756a6a7dbb02e28e70239e5a88d1d20f7a48a4ecf"
+  },
+  "lineage_program_run.log": {
+    "bytes": 1774,
+    "sha256": "6f5ff82d2893c68fc727628be5e3a7d4526be57b91390001bd9f6c1efce3df45"
+  },
+  "discover_lineage_restricted_programs.py": {
+    "bytes": 7163,
+    "sha256": "5e4680b7e1604650177a4b37ac3cc653532a898e37de6942e64f22e3584af6c9"
+  },
+  "implementation_audit_summary.json": {
+    "bytes": 244,
+    "sha256": "9d2dfe0b33ec03840d5f3d039b469bd082770ea1215aa48a08336bc126812a20"
+  },
+  "independent_AUC_checks.csv": {
+    "bytes": 3343,
+    "sha256": "2e5a47fa2a5b704fab3c57a9cd0d292612ee71375ec35217cd59cab95e7cac7c"
+  },
+  "state_discrimination.csv": {
+    "bytes": 2239,
+    "sha256": "97e06e5a6087b8caddc76956b5fc86d79c7513826c552c2d8c000e64b725e7f3"
+  },
+  "cohort_holdout_149_to_151_NMF_basis.tsv": {
+    "bytes": 25146,
+    "sha256": "931c26e7d728f448578e14c2b053a2edb1faa14ce906f670d13808486d50b235"
+  },
+  "external_models.png": {
+    "bytes": 81518,
+    "sha256": "01dee9dbb64983dd5ba7e1a80a715cf100aa64cbffb7b4d078661f04cf1d33ea"
+  },
+  "program_lineage_specificity.csv": {
+    "bytes": 93993,
+    "sha256": "b223022b64d7419f19b7d8aa09d0a87b9e16d235772cf6e14bf04cb19022ddc6"
+  },
+  "locked_state_panels.json": {
+    "bytes": 445,
+    "sha256": "4c08724aaaa68e6a1d61edf38156a99e60c706a662524c28dedfd702acfec441"
+  },
+  "cell_cycle_genes.txt": {
+    "bytes": 682,
+    "sha256": "3a2ab34c682cf86150cf436d9929964c11358a8d28b53dd82fa8b1994f37edeb"
+  },
+  "protocol.json": {
+    "bytes": 2312,
+    "sha256": "588aa3fafa1894fc28b7fdd0d5792174ea1240e4256904d22aa2d43e1437c3d2"
+  },
+  "program_cell_scores.csv.gz": {
+    "bytes": 4645440,
+    "sha256": "22e2a4486ac217bf68164785b1f0a19e5f4c276b1f2c4be5738abd17fadefe6f"
+  },
+  "NMF_convergence.csv": {
+    "bytes": 201,
+    "sha256": "14184ac0326af357d5531221531194fae080cded62b39d2a8d7af30e51126560"
+  },
+  "report.py": {
+    "bytes": 13613,
+    "sha256": "d7c4bf6ffd2ce04b0e05bd54877892cd7b38f6c75af1ab9aad200275182d51f2"
+  },
+  "predictions.csv": {
+    "bytes": 427131,
+    "sha256": "9d1218e25c45ed2b9afa1ed889d86e6b43d1ea7974b7767c369297689c83a5d8"
+  },
+  "panel_fold_testability.csv": {
+    "bytes": 9587,
+    "sha256": "19577025126efefed797acfb67ba86978a0b92642fe651a3dc9493cb8b59770a"
+  },
+  "program_run.log": {
+    "bytes": 1768,
+    "sha256": "ecde78dd87ab1d7af362a37335c2802a59dcfa9d9ef6bace9bdb0592e2826a15"
+  },
+  "donor_target_consistency_QA.csv": {
+    "bytes": 5946,
+    "sha256": "903d65a24aca40aa7b82545ddd02f444921a7f5f9f640d5022a1990bf846e236"
+  },
+  "environment_versions.json": {
+    "bytes": 159,
+    "sha256": "699c873dde4309394cd8b56f1770637c23a8d8f098a00d8aaad0e7fb98dd1a53"
+  },
+  "exact_two_state_recovery.csv": {
+    "bytes": 978,
+    "sha256": "7137985f774ab44a95dcfdfe36e45019f1efa3231ee5911d9baab41a3795ab35"
+  },
+  "EXPLORATORY_30_gene_macrophage_program_NOT_VALIDATED.csv": {
+    "bytes": 3147,
+    "sha256": "f0ab97f01437bc0e08eb2b1fb80801d7377edf9fdfe188a979055aeaaad83de7"
+  },
+  "locked_state_score_parameters.csv": {
+    "bytes": 1801,
+    "sha256": "89b3d7d12aa5bce3e08d410a5075b699e931da5ffaccd5d8c0e4162134e1e91b"
+  },
+  "program_score_parameters.csv": {
+    "bytes": 9638,
+    "sha256": "d90166c9f388f21d9f712a06f4deb18b8a1d6b060bf601531f55bd8916d9a5ef"
+  },
+  "run.log": {
+    "bytes": 1670,
+    "sha256": "e3126de8528f2f11fcce9a9c1e5d77b8a367ed222e751e2c773dd452658aa7af"
+  },
+  "validation_summary.csv": {
+    "bytes": 5363,
+    "sha256": "a741b9ceeea7e25ff8a112c94374504b609bd92ed9d0669aadf5d9c6f388bc52"
+  },
+  "analysis.py": {
+    "bytes": 14020,
+    "sha256": "32fc0f68475e38dc064060a1bed5983dcf7b76b3172571e8849116db7ca7122d"
+  },
+  "all_programs_training_association.csv": {
+    "bytes": 2795,
+    "sha256": "8a9c010661bb2005994187f0c6b257b1a79cea64acf546c11931939ede96af30"
+  },
+  "program_support_checks.csv": {
+    "bytes": 1153,
+    "sha256": "e3671ee8e51ef991edfd9f08398b3e6f64313f2e80d1d09ac88e59d0314cae0e"
+  },
+  "joint_external_retest_NMF_basis.tsv": {
+    "bytes": 25141,
+    "sha256": "fcd2874d1a2cd0eb19b9d7db79765eceb0ca1a49c683492aaa99ad21907c08dc"
+  },
+  "abundance_gate_checks.csv": {
+    "bytes": 6850,
+    "sha256": "2b393cf96537aa2aeed28de8837c4348e72e28078e48710bd9e7fb029d62a220"
+  },
+  "program_discovery_protocol.json": {
+    "bytes": 1277,
+    "sha256": "38c31276f21a22fdc3a9c05a3c20d9ca76f4712722ed287ee6d35fd919dd4a14"
+  },
+  "cell_cycle_provenance.json": {
+    "bytes": 2059,
+    "sha256": "dfdfb7097a66c9ba1bcae9cf5681838d1ced10481227b927eba1745506979b2a"
+  },
+  "independent_score_reconstruction.csv": {
+    "bytes": 6184,
+    "sha256": "67083d220218050e6c80863105b1702914ade8045b4099ce9b4cdefe071a643c"
+  },
+  "program_validation_by_patient.csv": {
+    "bytes": 13151,
+    "sha256": "7364ab7d6cca5d817b6254f8e3006052e11211885bf7231d3e414a605519fb6d"
+  },
+  "README.md": {
+    "bytes": 6973,
+    "sha256": "7969172828640c8ce0bef7ef6bf47e8c09c051f9ece1dbf7589b6a1b54e67eea"
+  },
+  "audit_scores.py": {
+    "bytes": 2946,
+    "sha256": "8adafae19bdfe22b8afc9a72a5ce75ebed1a9be1be21329267eb810f0a1080b5"
+  },
+  "state_score_by_donor_lineage.csv": {
+    "bytes": 20582,
+    "sha256": "9aee4bcae0fe52558475850ff3d3fb16869cc68eb6d3535bc6b6f19dea658144"
+  },
+  "source_input_sha256.json": {
+    "bytes": 783,
+    "sha256": "17d6f8a1ba520ff18a4072808090fa442f47857e788a79c9773755d295f94524"
+  },
+  "discover_programs.py": {
+    "bytes": 5800,
+    "sha256": "384806460370a3098256860d5992c24605b4214f0e6f51ea30d2176c46d95dc9"
+  },
+  "report_run.log": {
+    "bytes": 4165,
+    "sha256": "93b6278fbb254bdd019a5d76ccbf9cf1196c510832654c621054f00c15cb3745"
+  },
+  "program_patient_validation.png": {
+    "bytes": 74030,
+    "sha256": "23fdb2cdafffd3b5866474a7e431fb99c372835294b489b9cb2e5ab32d58b089"
+  },
+  "heldout_cell_state_scores.csv.gz": {
+    "bytes": 1264169,
+    "sha256": "e01a4aa5627ec462386b17b639fcaa40ec517c662d020e4256709277844eb25c"
+  },
+  "per_donor_gene_contrasts.csv.gz": {
+    "bytes": 1805388,
+    "sha256": "279802350e4fd83523a386e98e5957b0c9794343f09fa119b8d7eccd77b5ed03"
+  },
+  "lineage_restricted_programs/cohort_holdout_151_to_149_NMF_basis.tsv": {
+    "bytes": 22492,
+    "sha256": "5ba54bff5c7cf3b444f2de7fbfdf096a94fc577f1f9454af8e0a861efcf5eda8"
+  },
+  "lineage_restricted_programs/cohort_holdout_149_to_151_NMF_basis.tsv": {
+    "bytes": 25071,
+    "sha256": "9facc139883ba5993ea70bd8d487c7c6aa5a9c29ff54355a27a1beafcb82d5c5"
+  },
+  "lineage_restricted_programs/program_lineage_specificity.csv": {
+    "bytes": 93752,
+    "sha256": "0caaf4d26abe666e6a77cc0f2a902e11df42c380362d36fa54d98140042e1b38"
+  },
+  "lineage_restricted_programs/program_cell_scores.csv.gz": {
+    "bytes": 4783644,
+    "sha256": "88208338dfd1ae202d0842ce7f70655ce448654e5193fc69d6ae6186b1985f3c"
+  },
+  "lineage_restricted_programs/NMF_convergence.csv": {
+    "bytes": 202,
+    "sha256": "7a537dc5bc4404b80648bee476341d2b7442bae6dde8cc489e4b97a4808d26ea"
+  },
+  "lineage_restricted_programs/cohort_holdout_149_to_151_training_lineage_screen.csv": {
+    "bytes": 1151283,
+    "sha256": "5a6275291cfa6bd68aa43ab308dad72494a0b43310ef156ec8b9bc6aaad99da0"
+  },
+  "lineage_restricted_programs/joint_external_retest_training_lineage_screen.csv": {
+    "bytes": 1153237,
+    "sha256": "17d7e1806aa1dc7859ff0f9f7cb91c5f5778099a397ac7c36d994ae17e89965a"
+  },
+  "lineage_restricted_programs/program_score_parameters.csv": {
+    "bytes": 9659,
+    "sha256": "02b5c40857b77ead4ad1314aaf382b17f024890d643b84cfd16190701324e5b4"
+  },
+  "lineage_restricted_programs/all_programs_training_association.csv": {
+    "bytes": 2763,
+    "sha256": "09ad0f8d705a67a4b5434d637ae7e2bf63a626cef63384ea7b27c907a9a2e049"
+  },
+  "lineage_restricted_programs/program_support_checks.csv": {
+    "bytes": 405,
+    "sha256": "9fbf5c52e977f7c937d37e958f3df35f8ec9712947ee5b2848078fa003a43ef5"
+  },
+  "lineage_restricted_programs/joint_external_retest_NMF_basis.tsv": {
+    "bytes": 18208,
+    "sha256": "4ddc3ffb9782ff14549c516a7cb22077142f0a30608841a473db02a13b31768a"
+  },
+  "lineage_restricted_programs/cohort_holdout_151_to_149_training_lineage_screen.csv": {
+    "bytes": 1141389,
+    "sha256": "5d86d8d8569029699213d5f5df35246d4f7efc7f1189550518c5b333d95f3244"
+  },
+  "lineage_restricted_programs/program_discovery_protocol.json": {
+    "bytes": 1679,
+    "sha256": "54c546a77ea12d1284bbd6dfdd9fedea8be1c2fa6db347abaecfca2c7b26d2b1"
+  },
+  "lineage_restricted_programs/program_validation_by_patient.csv": {
+    "bytes": 13108,
+    "sha256": "a7ce01d8f382bb603e261baa4dde4aa773df9c8337ff6d6e7ec9672e26746681"
+  }
+}

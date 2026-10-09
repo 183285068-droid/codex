@@ -1,0 +1,4 @@
+phase,iterations,converged,reconstruction_error
+cohort_holdout_151_to_149,130,True,687.6656494140625
+cohort_holdout_149_to_151,110,True,1076.0025634765625
+joint_external_retest,160,True,1156.6572265625

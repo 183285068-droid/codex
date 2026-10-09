@@ -1,0 +1,18 @@
+{
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/train_joint_reference.py": {
+    "bytes": 15875,
+    "sha256": "884e04c0fb06158616031f3eba0d960df43943a2c7aef6b89a32bb94e0fec8da"
+  },
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE151530_harmonized_counts_QC.h5ad": {
+    "bytes": 195442076,
+    "sha256": "c074b15d58b1abde326336a6ad2bb997ca3fef2d94b8eb3067e669cbda91f190"
+  },
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE149614_harmonized_counts_QC.h5ad": {
+    "bytes": 201586882,
+    "sha256": "aa9c07ea7eeb7a0a6532bd47431e7d4b07273b5bbbe5cf0c4c27b1cdac5c6c55"
+  },
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE189903_harmonized_counts_QC.h5ad": {
+    "bytes": 129848520,
+    "sha256": "6f6c5898907e6778d0b3997df8e9f81db10edecc9d9529c08b83602ef620c42c"
+  }
+}

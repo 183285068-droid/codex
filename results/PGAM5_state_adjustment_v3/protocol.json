@@ -1,0 +1,24 @@
+{
+  "target": "PGAM5-related continuous macrophage state alongside retained RNA count>0 abundance target",
+  "training": "GSE151530+GSE149614",
+  "retest": "GSE189903 previously inspected; retrospective reuse, not new independent validation",
+  "patient_pairing": "No paired DE. Donor summaries and leave-donor-out prediction validation only. No depth covariates/matching.",
+  "candidate_filter": "Exclude PGAM5/MT-/RPL/RPS. Eligible training donors >=5 detected and >=20 undetected macrophages. Detection>=10% in target, median per-donor log2((meanCP10k+.05)/(negative+.05))>=1, >=70% donors log2 contrast>=.5, each cohort median>=.5. This is reference feature screening, not new FDR-qualified DE.",
+  "specific_filter": "Training target donor-equal mean >=2x each competing fine-group donor-equal mean with pseudocount .05; includes other macrophage states, mono/DC/APC/tumor.",
+  "panels": [
+    "stable",
+    "stable_no_cycle",
+    "specific",
+    "specific_no_cycle",
+    "prior_consensus",
+    "prior_consensus_no_cycle"
+  ],
+  "cycle": "Fixed finite S/G2M list + documented extension (cell_cycle_provenance.json), not complete GO ontology. Excludes features only, never removes cells.",
+  "models": [
+    "direct_NNLS",
+    "hierarchical_NNLS"
+  ],
+  "state_score": "Mean standardized log1p(CP10k) of training-selected genes; training macrophage cell means/SD. PGAM5 excluded. No score when <5 genes. Positive/zero classification AUC and PGAM5 expression correlation are descriptive and not biological gold standard.",
+  "gates": "Same MAE<=1pp,r>=.7,zero95q<=.5%,external>=3; independent pureDC>=2 remains necessary. State recommendation requires >=5 genes, testable >=3 external donors, >=70% external donors AUC>=.7 and no pure nonmacrophage pool median score exceeding external macrophage median. Exploratory retrospective protocol; cannot establish clinical utility.",
+  "prior_consensus": "Exploratory comparator: fixed previous 21-gene >=3/5-cohort consensus. Not required to pass new stability/specificity screens; previous analyses included external GSE189903, therefore this panel has prior external information and is NOT held-out feature discovery. Added after training-only screening showed insufficient candidates, before this run external performance. No validated state/abundance claim."
+}

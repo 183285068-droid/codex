@@ -1,0 +1,16 @@
+{
+  "training_stable_genes": 1,
+  "training_specific_genes": 0,
+  "training_stable_noncycle_genes": 0,
+  "training_specific_noncycle_genes": 0,
+  "internal_donors": 14,
+  "external_mixture_donors": 2,
+  "external_DC_challenge_donors": 0,
+  "models_tested": true,
+  "TCGA_abundance": "NOT_RUN: external coverage gate remains unmet",
+  "limits": "Retrospective external reuse. Scores proxy PGAM5 RNA detection, not protein validation. No depth adjustment; depth-associated signal remains possible. No paired DE.",
+  "programs_supported": false,
+  "TCGA_state_score": "NOT_RUN: no program met all support criteria; bulk scores would not establish PGAM5-specific macrophage state",
+  "analysis_status": "Exploratory completed; no validated PGAM5-specific abundance or state signature",
+  "lineage_restricted_programs_supported": false
+}

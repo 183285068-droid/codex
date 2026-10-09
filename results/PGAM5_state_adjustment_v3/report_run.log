@@ -1,0 +1,24 @@
+{
+  "training_stable_genes": 1,
+  "training_specific_genes": 0,
+  "training_stable_noncycle_genes": 0,
+  "training_specific_noncycle_genes": 0,
+  "internal_donors": 14,
+  "external_mixture_donors": 2,
+  "external_DC_challenge_donors": 0,
+  "models_tested": true,
+  "TCGA_abundance": "NOT_RUN: external coverage gate remains unmet",
+  "limits": "Retrospective external reuse. Scores proxy PGAM5 RNA detection, not protein validation. No depth adjustment; depth-associated signal remains possible. No paired DE.",
+  "programs_supported": false,
+  "TCGA_state_score": "NOT_RUN: exploratory state programs do not meet support rules",
+  "analysis_status": "Exploratory completed; no validated PGAM5-specific abundance or state signature",
+  "lineage_restricted_programs_supported": false
+}
+                    phase  eligible_patients  median_AUC_RNA_detection  median_Spearman_PGAM5  fraction_eligible_patients_rho_ge0_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    lineage_specificity_failures  convergence_all  supported
+cohort_holdout_149_to_151                  5                  0.522917               0.017422                                   0.2 GSE151530:H08:Tumor_hepatocyte;GSE151530:H30:Tumor_hepatocyte;GSE151530:H34:Tumor_hepatocyte;GSE151530:H37:Tumor_hepatocyte;GSE151530:H38:Tumor_hepatocyte;GSE151530:H49:Tumor_hepatocyte;GSE151530:H58:Tumor_hepatocyte;GSE151530:H63:Tumor_hepatocyte;GSE151530:H65:Tumor_hepatocyte;GSE151530:H68:Tumor_hepatocyte;GSE151530:H70:Tumor_hepatocyte;GSE151530:H72:Tumor_hepatocyte;GSE151530:H73:Tumor_hepatocyte;GSE151530:H74:Tumor_hepatocyte;GSE151530:H75:Tumor_hepatocyte;GSE151530:H77:Tumor_hepatocyte             True      False
+cohort_holdout_151_to_149                  9                  0.436518              -0.032071                                   0.0                                                                                                                                                                                                                                                                                                                                                                             GSE149614:HCC01:Tumor_hepatocyte;GSE149614:HCC05:Tumor_hepatocyte;GSE149614:HCC06:Tumor_hepatocyte;GSE149614:HCC07:Tumor_hepatocyte             True      False
+    joint_external_retest                  2                  0.430959              -0.032299                                   0.0                                                                                                                                                                                                                                                                                                                                                                                         GSE189903:1H:Tumor_hepatocyte;GSE189903:2H:Tumor_hepatocyte;GSE189903:3H:Tumor_hepatocyte;GSE189903:4H:Tumor_hepatocyte             True      False
+                    phase  eligible_patients  median_AUC_RNA_detection  median_Spearman_PGAM5  fraction_eligible_patients_rho_ge0_1 lineage_specificity_failures  convergence_all  supported
+cohort_holdout_149_to_151                  5                  0.685528               0.101483                                   0.6                                          True      False
+cohort_holdout_151_to_149                  9                  0.516004               0.010582                                   0.0                                          True      False
+    joint_external_retest                  2                  0.606736               0.051304                                   0.0                                          True      False

@@ -1,0 +1,7 @@
+{
+  "raw_count_score_reconstruction_cases": 60,
+  "max_score_error": 2.4424906541753444e-15,
+  "independent_AUC_cases": 32,
+  "matched_two_state_reference_cases": 20,
+  "status": "Passed within checked scope; no biological validation implied"
+}

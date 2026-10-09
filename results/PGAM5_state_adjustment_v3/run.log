@@ -1,0 +1,30 @@
+Sufficient statistics (35, 19, 15923) shared genes 15923
+Qualified internal ['GSE149614:HCC01', 'GSE149614:HCC02', 'GSE149614:HCC03', 'GSE149614:HCC04', 'GSE149614:HCC05', 'GSE149614:HCC06', 'GSE149614:HCC07', 'GSE149614:HCC08', 'GSE149614:HCC10', 'GSE151530:H08', 'GSE151530:H68', 'GSE151530:H70', 'GSE151530:H72', 'GSE151530:H73'] external ['GSE189903:3H', 'GSE189903:4H']
+Completed internal_leave_donor_out GSE149614:HCC01
+Completed internal_leave_donor_out GSE149614:HCC02
+Completed internal_leave_donor_out GSE149614:HCC03
+Completed internal_leave_donor_out GSE149614:HCC04
+Completed internal_leave_donor_out GSE149614:HCC05
+Completed internal_leave_donor_out GSE149614:HCC06
+Completed internal_leave_donor_out GSE149614:HCC07
+Completed internal_leave_donor_out GSE149614:HCC08
+Completed internal_leave_donor_out GSE149614:HCC10
+Completed internal_leave_donor_out GSE151530:H08
+Completed internal_leave_donor_out GSE151530:H68
+Completed internal_leave_donor_out GSE151530:H70
+Completed internal_leave_donor_out GSE151530:H72
+Completed internal_leave_donor_out GSE151530:H73
+Completed external_retest GSE189903:3H
+Completed external_retest GSE189903:4H
+{
+  "training_stable_genes": 1,
+  "training_specific_genes": 0,
+  "training_stable_noncycle_genes": 0,
+  "training_specific_noncycle_genes": 0,
+  "internal_donors": 14,
+  "external_mixture_donors": 2,
+  "external_DC_challenge_donors": 0,
+  "models_tested": true,
+  "TCGA_abundance": "NOT_RUN: external coverage gate remains unmet",
+  "limits": "Retrospective external reuse. Scores proxy PGAM5 RNA detection, not protein validation. No depth adjustment; depth-associated signal remains possible. No paired DE."
+}

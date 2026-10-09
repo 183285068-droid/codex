@@ -1,0 +1,34 @@
+{
+  "stable": [
+    "CENPK"
+  ],
+  "stable_no_cycle": [],
+  "specific": [],
+  "specific_no_cycle": [],
+  "prior_consensus": [
+    "LMNB1",
+    "TK1",
+    "BIRC5",
+    "CDK1",
+    "CENPH",
+    "CENPK",
+    "CLSPN",
+    "FEN1",
+    "GINS2",
+    "HCFC1",
+    "MAD2L1",
+    "MKI67",
+    "NUSAP1",
+    "PRC1",
+    "RFC4",
+    "RRM2",
+    "TOP2A",
+    "TPX2",
+    "TYMS",
+    "UBE2T",
+    "ZWINT"
+  ],
+  "prior_consensus_no_cycle": [
+    "HCFC1"
+  ]
+}

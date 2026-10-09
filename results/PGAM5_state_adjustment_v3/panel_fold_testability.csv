@@ -1,0 +1,97 @@
+phase,donor,panel,genes,status
+internal_leave_donor_out,GSE149614:HCC01,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC01,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC01,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC01,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC01,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC01,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC02,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC02,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC02,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC02,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC02,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC02,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC03,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC03,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC03,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC03,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC03,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC03,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC04,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC04,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC04,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC04,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC04,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC04,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC05,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC05,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC05,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC05,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC05,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC05,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC06,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC06,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC06,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC06,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC06,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC06,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC07,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC07,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC07,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC07,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC07,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC07,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC08,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC08,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC08,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC08,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC08,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC08,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC10,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC10,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC10,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC10,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE149614:HCC10,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE149614:HCC10,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H08,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H08,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H08,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H08,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H08,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE151530:H08,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H68,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H68,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H68,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H68,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H68,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE151530:H68,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H70,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H70,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H70,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H70,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H70,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE151530:H70,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H72,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H72,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H72,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H72,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H72,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE151530:H72,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H73,stable,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H73,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H73,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H73,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+internal_leave_donor_out,GSE151530:H73,prior_consensus,21,evaluated
+internal_leave_donor_out,GSE151530:H73,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:3H,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:3H,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:3H,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:3H,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:3H,prior_consensus,21,evaluated
+external_retest,GSE189903:3H,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:4H,stable,1,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:4H,stable_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:4H,specific,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:4H,specific_no_cycle,0,UNTESTABLE: fewer than 5 training-supported genes
+external_retest,GSE189903:4H,prior_consensus,21,evaluated
+external_retest,GSE189903:4H,prior_consensus_no_cycle,1,UNTESTABLE: fewer than 5 training-supported genes

@@ -1,0 +1,7 @@
+{
+  "purpose": "Exploratory noncycling macrophage metaprograms potentially related to continuous PGAM5 expression; not abundance",
+  "fixed_parameters": "CP10k log1p; training-only top500 variance/mean genes excluding PGAM5, fixed cell-cycle list, MT/RPL/RPS; NMF rank4 MU Frobenius,seed0,max_iter300,tol1e-4; choose factor with greatest training Spearman correlation to log1p PGAM5 CP10k; top30 nonnegative loading genes; score=mean training-standardized log1p CP10k (SD floor .1)",
+  "validation": "Two reciprocal dataset-held-out fits plus joint fit retested on previously inspected GSE189903. Fixed all parameters; no tuning against test outcomes. Program fitted on all training macrophages without PGAM5 labels; factor selection uses training PGAM5. No depth covariate/matching, no paired DE.",
+  "limitation": "NMF rank4 exploratory, finite cycle exclusion not complete; prior dataset reuse not new blinded validation. Scores not validated protein/state identity or cell abundance.",
+  "support_rule": "At least70% eligible test patients (>=5 detected) score-PGAM5 rho>=.1, at least3 external eligible donors, and external nonmacrophage group median never exceeds macrophage median (>=20 cells/group). Otherwise not recommended for bulk PGAM5-specific state inference."
+}
