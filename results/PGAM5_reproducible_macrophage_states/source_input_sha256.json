@@ -1,0 +1,32 @@
+{
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE151530_harmonized_counts_QC.h5ad": {
+    "bytes": 195442076,
+    "sha256": "c074b15d58b1abde326336a6ad2bb997ca3fef2d94b8eb3067e669cbda91f190"
+  },
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE149614_harmonized_counts_QC.h5ad": {
+    "bytes": 201586882,
+    "sha256": "aa9c07ea7eeb7a0a6532bd47431e7d4b07273b5bbbe5cf0c4c27b1cdac5c6c55"
+  },
+  "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE189903_harmonized_counts_QC.h5ad": {
+    "bytes": 129848520,
+    "sha256": "6f6c5898907e6778d0b3997df8e9f81db10edecc9d9529c08b83602ef620c42c"
+  },
+  "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE242889_marker_consistent_macrophages.h5ad": {
+    "bytes": 22377399,
+    "sha256": "c5a9c1de34122ea02816de38b768d7d136ed71472dd4647c9e1d9894939a6aee"
+  },
+  "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE202642_marker_consistent_macrophages.h5ad": {
+    "bytes": 76435694,
+    "sha256": "4937d4a56997206c1b7f9f0e3b3d259592d29459458ee7ba740b83c3538d9b8a"
+  },
+  "/workspace/scratch/GSE242889/macrophage_counts_QC.h5ad": {
+    "bytes": 32246044,
+    "sha256": "62fea41c9170a04c1b9070a1f64ffc90a5cb34443acd09adf900ba8f3f3fc739",
+    "role": "upstream candidate macrophage input before this round marker screening"
+  },
+  "/workspace/scratch/GSE202642/macrophage_counts_QC.h5ad": {
+    "bytes": 82755320,
+    "sha256": "8d6573c3dd3a742567e4e699622cf9696035adf658a0d7b081e8474d8e58d216",
+    "role": "upstream candidate macrophage input before this round marker screening"
+  }
+}

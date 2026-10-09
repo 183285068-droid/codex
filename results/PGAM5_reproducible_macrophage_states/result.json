@@ -1,0 +1,11 @@
+{
+  "discovery_macrophages": 10941,
+  "graph_training_cells": 3518,
+  "classifier_features": 1000,
+  "noncycling_states": 15,
+  "discovery_selected_PGAM5_related_states": [],
+  "cross_cohort_RNA_support_states": [],
+  "PGAM5_related_group_established_at_RNA_level": false,
+  "supplementary202642_not_patient_independence_proof": true,
+  "limits": "RetrospectiveRNA inference. No protein/function gold standard, no ambient/doublet correction, no depth controls. Neither RNA association nor reproducible state implies PGAM5-specific bulk deconvolution signature. Prior DE and TCGA analyses unchanged."
+}

@@ -1,0 +1,278 @@
+{
+  "EXPLORATORY_Cycling_macrophage_definition.json": {
+    "bytes": 469,
+    "sha256": "f9fdd5216b2956f5abcc72a36d63aec884555e1b02a0a035070b4d51454b7041"
+  },
+  "GSE149614_macrophage_state_metadata.csv.gz": {
+    "bytes": 420125,
+    "sha256": "23d1bccdee354bd3d541303677bbb5a5136cbec4339e071a020f553090589bd4"
+  },
+  "GSE151530_macrophage_state_metadata.csv.gz": {
+    "bytes": 208631,
+    "sha256": "b0f0ca7b02e13a97710b5d5f5e1e967e7c01bd67c75477b62bac68bef1fe59d7"
+  },
+  "GSE189903_macrophage_state_metadata.csv.gz": {
+    "bytes": 213691,
+    "sha256": "eef9221cd16693da051099a073970acd10fac5d9718f8136c6776363ed7c13fe"
+  },
+  "GSE202642_candidate_macrophage_metadata.csv.gz": {
+    "bytes": 416541,
+    "sha256": "3f3d84eab5dac22ba34879d14cd8c9294378c83854df8b8dbe6f34e77fcc7549"
+  },
+  "GSE202642_macrophage_state_metadata.csv.gz": {
+    "bytes": 685872,
+    "sha256": "6899b23ee332bb32f5f6bc1994dda6bcabfcf0fc0db59b3e29dfbd7ae5720768"
+  },
+  "GSE242889_candidate_macrophage_metadata.csv.gz": {
+    "bytes": 158147,
+    "sha256": "db31f00d5e1b44332d21ad2326209ba411f79d43c20a9b3da74f9b2e1919827f"
+  },
+  "GSE242889_macrophage_state_metadata.csv.gz": {
+    "bytes": 223920,
+    "sha256": "50757624b7434c199fa04822ae5229839a9d33bfb562848176dc7dad0cb97943"
+  },
+  "PCA_gene_loadings.tsv": {
+    "bytes": 379392,
+    "sha256": "56bd682eeacb08c9cca9d0bdec2bcba07d66eb873b1c3181997c432af821e55f"
+  },
+  "README.md": {
+    "bytes": 6839,
+    "sha256": "9c619b4ea8ad85c32973effa04fe4ee51ce4fbd5ca0d63b89ef1401f0533ac04"
+  },
+  "additional_cohort_macrophage_marker_QA.csv": {
+    "bytes": 6928,
+    "sha256": "1a1b832038352c1ce266d8bb1c6fb17a3648807e7bc284930a0edfce8c3d8081"
+  },
+  "additional_preparation.log": {
+    "bytes": 78,
+    "sha256": "4f33d209674c5a1f53dd0ab6c3cd6379644c6397fe41fb008fb19f5db3739c36"
+  },
+  "audit_and_report.py": {
+    "bytes": 14594,
+    "sha256": "4e8f746acecaf8b0d6b645bab6167791d87d05e8c795e34ca36905f70c81db75"
+  },
+  "audit_report.log": {
+    "bytes": 1714,
+    "sha256": "01c52c7a69553870a758ad9bcecfec91d465dd5db82bb2b688b647541c3e49c2"
+  },
+  "balanced_discovery_graph_cell_labels.csv.gz": {
+    "bytes": 128758,
+    "sha256": "f0c4c23f91b4737947b9e7d6f523a92527d7cfc767a5ec426f4e074eea6ddfa6"
+  },
+  "cell_cycle_genes.txt": {
+    "bytes": 682,
+    "sha256": "3a2ab34c682cf86150cf436d9929964c11358a8d28b53dd82fa8b1994f37edeb"
+  },
+  "cell_cycle_provenance.json": {
+    "bytes": 2059,
+    "sha256": "dfdfb7097a66c9ba1bcae9cf5681838d1ced10481227b927eba1745506979b2a"
+  },
+  "cohort_cell_counts_and_mapping.csv": {
+    "bytes": 616,
+    "sha256": "a37b491f649cd952d924fde3f89490d9534b5f9c93eab99f9f096490466dd7b0"
+  },
+  "cohort_centered.log": {
+    "bytes": 2393,
+    "sha256": "32c0b754b7ed7d75c3c72377dbde20e8a35b3952175b93e7bf98564d46c4f0ae"
+  },
+  "cohort_centered_sensitivity/GSE149614_feature_cohort_offset.npy": {
+    "bytes": 4128,
+    "sha256": "019092677b569793142c2a3830b2a81eb1895b48bc6f983bc4cb74504fa0c0d6"
+  },
+  "cohort_centered_sensitivity/GSE149614_macrophage_state_metadata.csv.gz": {
+    "bytes": 420575,
+    "sha256": "f8ed2f41577f89a6b16a0902b088773b6c631053511945cd144237c92aed93da"
+  },
+  "cohort_centered_sensitivity/GSE151530_feature_cohort_offset.npy": {
+    "bytes": 4128,
+    "sha256": "d3eb2bc76a21e909cd366b25dd1ec14cf63fb9687ac93ce2af26be9bc18be871"
+  },
+  "cohort_centered_sensitivity/GSE151530_macrophage_state_metadata.csv.gz": {
+    "bytes": 208686,
+    "sha256": "17bfd255eb4cc4636f4d003df0d24691e1646439cfb59a195199e1096d278d9d"
+  },
+  "cohort_centered_sensitivity/GSE189903_feature_cohort_offset.npy": {
+    "bytes": 4128,
+    "sha256": "16f50a60a1179293fb28e151b20da456557abe69bf12674333e0febab04fb34e"
+  },
+  "cohort_centered_sensitivity/GSE189903_macrophage_state_metadata.csv.gz": {
+    "bytes": 214069,
+    "sha256": "c422fd87cb7e21ec7610ea2912cea9148727ebb8fc3486b32bbd468f6be1ddfc"
+  },
+  "cohort_centered_sensitivity/GSE202642_feature_cohort_offset.npy": {
+    "bytes": 4128,
+    "sha256": "9c742475c8043df1d5b29cff353d8492543767346d3ff53b19601e6c065ba744"
+  },
+  "cohort_centered_sensitivity/GSE202642_macrophage_state_metadata.csv.gz": {
+    "bytes": 685949,
+    "sha256": "c9b9bfce35eb0e51cc6751bb8124e8fa8571793057574de1cb0361293f269028"
+  },
+  "cohort_centered_sensitivity/GSE242889_feature_cohort_offset.npy": {
+    "bytes": 4128,
+    "sha256": "99caf553374284dee1fcecf96b17c637430695db1249c52214d5711731affcee"
+  },
+  "cohort_centered_sensitivity/GSE242889_macrophage_state_metadata.csv.gz": {
+    "bytes": 224578,
+    "sha256": "c107ad7877279f8b065a42dafa557715ebfa6f63faf163801d01099659236065"
+  },
+  "cohort_centered_sensitivity/PCA_gene_loadings.tsv": {
+    "bytes": 379807,
+    "sha256": "e156f57dcffce5989cf110cb50bf570ff39198b485ea0348e35c72216d0fdca4"
+  },
+  "cohort_centered_sensitivity/balanced_discovery_graph_cell_labels.csv.gz": {
+    "bytes": 128924,
+    "sha256": "13bc05d3593d30d193fd09a390e4af711d46fe8178a68d6caac050d2c26f6e76"
+  },
+  "cohort_centered_sensitivity/excluded_background_genes.txt": {
+    "bytes": 139,
+    "sha256": "148e8d2fe9dd0ec66e776a67e2cca24b238dadaf6c3277815bc142df59d24160"
+  },
+  "cohort_centered_sensitivity/graph_global_seed_stability.csv": {
+    "bytes": 59,
+    "sha256": "3def39ba366e090fbd8ca26873a6b560123f0ea77de72aa109e746ee8a1e3e4e"
+  },
+  "cohort_centered_sensitivity/graph_state_seed_stability.csv": {
+    "bytes": 794,
+    "sha256": "12fc467d165a242922b4707b167932f13f43291c30aa7a7aad33815905028844"
+  },
+  "cohort_centered_sensitivity/locked_state_classifier.json": {
+    "bytes": 1004829,
+    "sha256": "43e3f10c3376b578a33b3a1f9e2adc3007f7a7d7970cb4c5fdcf7cd98a16ee33"
+  },
+  "cohort_centered_sensitivity/protocol.json": {
+    "bytes": 4419,
+    "sha256": "3ba6a1f3d15d4a1ef66750464d53351594b3d61b6a408a65928fd9c74f15ad0c"
+  },
+  "cohort_centered_sensitivity/result.json": {
+    "bytes": 601,
+    "sha256": "f95d9671a64c40b3fa58fad629482bdc0d51797a7b52233309f00aa5ee4971bc"
+  },
+  "cohort_centered_sensitivity/state_PGAM5_association_by_cohort.csv": {
+    "bytes": 17434,
+    "sha256": "7a42b0e3ee77ced1d1122514bb4b2feb14efd481f28d07b215a7cb9edf6582af"
+  },
+  "cohort_centered_sensitivity/state_PGAM5_association_by_donor.csv": {
+    "bytes": 93554,
+    "sha256": "fdf4f2a4656f46f675309f9c7bf4bc6723a08c5ecda063a0fd3f38e228e6dd39"
+  },
+  "cohort_centered_sensitivity/state_composition.png": {
+    "bytes": 117459,
+    "sha256": "b4cfba6b41352c04c41527e439cde8ade8071cacff87c1081f4bbab7c9bd82d2"
+  },
+  "cohort_centered_sensitivity/state_presence_by_donor.csv": {
+    "bytes": 26626,
+    "sha256": "39c8c00c22d334bd1d18962d9ae0b018c2d8942bb70203f21e254f87eb159ca1"
+  },
+  "cohort_centered_sensitivity/training_feature_evidence.csv": {
+    "bytes": 955497,
+    "sha256": "87fef35de672f962b7758f9aa59a6feb742ecc01307fd5f52be40067410c3a42"
+  },
+  "cohort_centered_sensitivity/training_state_descriptive_markers.csv": {
+    "bytes": 94284,
+    "sha256": "8354ecb7cdba2bad3fc065991cb4a7aa8168a6166a9b5f99ccd27bb6a19ec88a"
+  },
+  "cycling_detection_vs_expression.pdf": {
+    "bytes": 16149,
+    "sha256": "4422744e78ab16fa18fb8cb5a2abf3827d0f84cdb2172aa462a29917e7432437"
+  },
+  "cycling_detection_vs_expression.png": {
+    "bytes": 86453,
+    "sha256": "950e47ad8b010ae27eb656b9802c0ebd10cfb4aebc355d03613fc7e41c75a08a"
+  },
+  "cycling_macrophage_PGAM5_evidence.csv": {
+    "bytes": 1612,
+    "sha256": "6ce5d02c68a9a685e066ef393d8d2fc5cc166ee8d708e2db62149651c74d3ad1"
+  },
+  "discover_cohort_centered_states.py": {
+    "bytes": 16927,
+    "sha256": "dd6d3bd1f4ebc6f290179fd3ccf9091de547910b0a3a2fdaeceaf7b777349576"
+  },
+  "discover_validate_states.py": {
+    "bytes": 15544,
+    "sha256": "ccfdf8316de6a86c5d9fbf8fb3f0b977b415aafab10ba87f5446407f265f79ac"
+  },
+  "discovery_validation.log": {
+    "bytes": 2335,
+    "sha256": "a49db9867c47cb553201ded21aa9d1fa2a5c8935c5bdb61eea7c24b4be5a7fc9"
+  },
+  "environment_versions.json": {
+    "bytes": 234,
+    "sha256": "c71c6c9406b30ae8cf171a0aa67961caab99010e130ba5ac491dee1dab30d2fd"
+  },
+  "excluded_background_genes.txt": {
+    "bytes": 139,
+    "sha256": "148e8d2fe9dd0ec66e776a67e2cca24b238dadaf6c3277815bc142df59d24160"
+  },
+  "final_result.json": {
+    "bytes": 1713,
+    "sha256": "c81765ceb211dbda4d8779be8dd98c64aec3d6a868c7982a3f1995b0b77dcee1"
+  },
+  "graph_global_seed_stability.csv": {
+    "bytes": 59,
+    "sha256": "ccf386468c5c54c53e5039f60ce6b8c77d3a0feb4ca3baa20107c15af1458189"
+  },
+  "graph_state_seed_stability.csv": {
+    "bytes": 773,
+    "sha256": "82df508b3b0c263ae77ae0cb1cee3470139a77f0725175052aa2ae55c5152f65"
+  },
+  "implementation_audit_summary.json": {
+    "bytes": 358,
+    "sha256": "da327f9790fba9b9c46daf52b9b73442dd702280d0b2aba0fbb10a139f0cb410"
+  },
+  "independent_cell_label_reconstruction.csv": {
+    "bytes": 18551,
+    "sha256": "98dcb496422b87c4c16663c82f3f7b4fa1062fe612104a1d2562fa709d23845c"
+  },
+  "independent_donor_ratio_checks.csv": {
+    "bytes": 34784,
+    "sha256": "5f5ac98e49845d332a3cfa80bc8ff8a4035febfe05acf1edd098360fd11da31e"
+  },
+  "locked_state_classifier.json": {
+    "bytes": 948060,
+    "sha256": "5307ccf87aa24eff3d8c38aaf4e92129ca7f675fa33be36a3eef8a5ed620e6b5"
+  },
+  "prepare_additional_macrophages.py": {
+    "bytes": 2484,
+    "sha256": "5d7215da586f463102742507057ecd7ab6818ce20cde161adaaa624a744c39dd"
+  },
+  "protocol.json": {
+    "bytes": 3844,
+    "sha256": "50af51fba711893d9d3d4191d65e1c9bb965baac9f3610dc97dc09eea697fa6f"
+  },
+  "requirements.txt": {
+    "bytes": 145,
+    "sha256": "3458caa36f8a4afdc74682b20e1d74faeb8f52d297751b0a9d1180d42ed96ddf"
+  },
+  "result.json": {
+    "bytes": 601,
+    "sha256": "f95d9671a64c40b3fa58fad629482bdc0d51797a7b52233309f00aa5ee4971bc"
+  },
+  "source_input_sha256.json": {
+    "bytes": 1548,
+    "sha256": "2679482e3a60636dc810b5d750659b867d23306e8d9817e68c276fd88c4d4f95"
+  },
+  "state_PGAM5_association_by_cohort.csv": {
+    "bytes": 16891,
+    "sha256": "8d3b1f1461732295618eb42f98f610769fbf4d8afdd92cc5c4635f13940a7251"
+  },
+  "state_PGAM5_association_by_donor.csv": {
+    "bytes": 91293,
+    "sha256": "69a4111fd7ff9ea06534a8b22dfe6ea5f43d61d6c5c631c9640315e27c058e3b"
+  },
+  "state_composition.png": {
+    "bytes": 118356,
+    "sha256": "1a89827f85de219bc8bab9703e7ec7871afb5d33336059b5e901d76bfae8257e"
+  },
+  "state_presence_by_donor.csv": {
+    "bytes": 26591,
+    "sha256": "e64897783be3f197c1081957a23a2a86b178dc28b6fe4c2b8c8e872a09198c65"
+  },
+  "training_feature_evidence.csv": {
+    "bytes": 955497,
+    "sha256": "87fef35de672f962b7758f9aa59a6feb742ecc01307fd5f52be40067410c3a42"
+  },
+  "training_state_descriptive_markers.csv": {
+    "bytes": 88796,
+    "sha256": "625ab0e8e94d6400a6cdb2c9359a98ddb3b2e779e06e91d0b96ac39c9d50fb4d"
+  }
+}

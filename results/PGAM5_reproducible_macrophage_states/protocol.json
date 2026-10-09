@@ -1,0 +1,24 @@
+{
+  "goal": "Re-establish an RNA-expression-defined reproducible macrophage state associated with PGAM5, not assume prior count>0 group is a subtype",
+  "discovery": [
+    "GSE151530",
+    "GSE149614"
+  ],
+  "primary_external": [
+    "GSE189903",
+    "GSE242889"
+  ],
+  "supplementary_external": "GSE202642 HCC tumors only; sample identifiers are proxies, independent patients unverified",
+  "history": "All cohorts explored in earlier DE. GSE189903 also used in prior model checks. GSE242889/GSE202642 not used for prior state performance. This is retrospective, not prospectively blinded. No external expression/PGAM5 outcome used in state feature or state selection",
+  "macrophage_identity": "Use existing harmonized Macrophage labels for151/149/189.242/202 old marker-inferred candidates reclustered PGAM5-free, accept C1QA/B/C fractions>=.4,CD68>=.3,CSF1R>=.2,TYROBP>=.5, exclude dual CD1C>=.3 andFCER1A>=.2. No ambient/doublet correction claimed",
+  "normalization": "Raw symbol counts duplicate-summed, CP10k using original full-cell library count, log1p. No depth matching/covariates, no paired donor DE",
+  "cycling_state": "Fixed separate Cycling_macrophage: >=2 detected genes among MKI67/TOP2A/UBE2C/CENPF/CDK1/BIRC5. Defined without PGAM5. Never inferred as PGAM5-specific without association checks",
+  "noncycling_features": "PGAM5, finite recorded cell-cycle list,MT-/RPL/RPS excluded. Macrophage detection>=10%; exclude strong nonmacrophage background (max supported other-cell mean>4x macrophage donor-equal mean) and explicit hepatocyte/Ig/T/stromal marker list. Retain shared nuclear metabolic genes: within-macrophage state discovery does not demand all features be macrophage-specific. Nonmacrophage donor means only groups>=20 cells, fine-groups>=50 cells and>=2 donors. Rank training noncycling log-expression variance/mean; max1000 genes",
+  "clustering": "Patients with>=30 noncycling macrophages, random cap200 cells/patient seed0. Feature z-score training means,SD floor.1,clip[-10,10]; PCA30 randomized seed0;20NN;Leiden.6 igraph2iterations seed0. No batch regression/integration. Seeds1/2 sensitivity on same graph, not biological independent validation",
+  "projection": "Fixed nearest PCA centroid. Reject if squared distance>1.5*training cluster95th percentile or nearest/second margin<.02; labelUnknown_state. Cycling rule applied first. Freeze before external association results",
+  "donor_association": "For each state vs all other retained macrophages, donor evaluable if state>=10, rest>=20,totalPGAM5 detected>=3. CP10k mean log2 ratio uses+.05, rate ratio usesJeffreys+.5/+1. Zero PGAM5 donors retained in state presence, excluded only from informative association calculation",
+  "cohort_support": "State>=30cells,>=3 evaluable donor units,>=5PGAM5 detected state cells; pooled raw detection rate ratio>=1.5; median donor normalizedPGAM5 ratio>=1.5;>=70% evaluable donors normalizedPGAM5 ratio>1; classifier assigned coverage>=70%",
+  "selection": "Only states satisfying BOTH discovery cohorts selected. Ifnone, no PGAM5-related state named. All state-by-cohort results exported regardless. Primary validation requires same selected state passes BOTH189903 and242889;202642 supplementary only",
+  "technical_support": "For noncycling state best-match graph-seed Jaccard>=.6 atbothseeds; cycling fixed rule has no random clustering seed. Protein/function/true patient independence and depth confounding unresolved. RNA gatepass does not establish bulk-deconvolution usability",
+  "statistics": "Fisher and BH across state/cohort rows are descriptive cell-level checks (cells not independent biological replicates); primary evidence is donor consistency and cross-cohort reproducibility. Prior strictDEtables unchanged. Marker lists are descriptive training mean contrasts, not new FDR-qualified DE."
+}

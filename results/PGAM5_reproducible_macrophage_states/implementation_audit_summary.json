@@ -1,0 +1,8 @@
+{
+  "raw_count_classifier_reconstruction_cases": 200,
+  "independent_donor_ratio_cases": 403,
+  "PGAM5_and_recorded_cycle_genes_excluded_from_classifier_features": true,
+  "all_reconstructed_cell_labels_match": true,
+  "max_PGAM5_CP10k_error": 2.744872529270026e-08,
+  "status": "Passed within checked scope; no biological gold-standard validation implied"
+}

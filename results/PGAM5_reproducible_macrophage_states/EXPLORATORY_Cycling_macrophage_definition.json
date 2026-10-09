@@ -1,0 +1,8 @@
+{
+  "identity": "Marker-consistent macrophage identity established separately",
+  "state": "At least2 genes detected among MKI67,TOP2A,UBE2C,CENPF,CDK1,BIRC5",
+  "PGAM5_used_in_state_definition": false,
+  "PGAM5_association": "Supported in GSE202642 sample proxies, not consistently in151530/149614/189903/242889",
+  "bulk_deconvolution_specificity": "Not established; cycle genes also expressed in proliferating other lineages",
+  "protein_function": "Not validated"
+}

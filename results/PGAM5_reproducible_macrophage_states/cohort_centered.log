@@ -1,0 +1,21 @@
+GSE151530 macrophages 3493 PGAM5detected 161
+GSE149614 macrophages 7448 PGAM5detected 197
+GSE189903 macrophages 3467 PGAM5detected 85
+GSE242889 macrophages 3990 PGAM5detected 102
+GSE202642 macrophages 12135 PGAM5detected 868
+GSE151530 statecounts {'State_9': 703, 'State_10': 601, 'State_7': 438, 'State_2': 308, 'Cycling_macrophage': 291, 'State_1': 191, 'State_12': 189, 'State_4': 181, 'State_13': 148, 'State_3': 139, 'Unknown_state': 113, 'State_0': 80, 'State_5': 51, 'State_8': 31, 'State_11': 19, 'State_6': 8, 'State_14': 2}
+GSE149614 statecounts {'State_14': 1233, 'State_3': 1129, 'State_0': 1013, 'State_8': 844, 'State_6': 609, 'State_11': 523, 'Cycling_macrophage': 520, 'State_2': 420, 'State_5': 405, 'Unknown_state': 219, 'State_4': 217, 'State_1': 114, 'State_7': 110, 'State_10': 82, 'State_9': 5, 'State_12': 4, 'State_13': 1}
+GSE189903 statecounts {'State_2': 572, 'Cycling_macrophage': 390, 'Unknown_state': 382, 'State_0': 366, 'State_4': 298, 'State_8': 246, 'State_12': 207, 'State_3': 169, 'State_7': 167, 'State_6': 146, 'State_9': 145, 'State_5': 128, 'State_10': 97, 'State_1': 70, 'State_14': 52, 'State_11': 20, 'State_13': 12}
+GSE242889 statecounts {'State_2': 1391, 'State_3': 518, 'Unknown_state': 357, 'State_5': 205, 'State_10': 195, 'State_7': 191, 'State_1': 185, 'Cycling_macrophage': 180, 'State_6': 140, 'State_4': 128, 'State_11': 122, 'State_0': 105, 'State_14': 101, 'State_9': 80, 'State_8': 65, 'State_12': 23, 'State_13': 4}
+GSE202642 statecounts {'State_2': 2821, 'State_3': 2052, 'State_7': 1528, 'Unknown_state': 1037, 'State_10': 839, 'Cycling_macrophage': 649, 'State_1': 588, 'State_11': 569, 'State_14': 545, 'State_0': 348, 'State_6': 336, 'State_5': 299, 'State_4': 188, 'State_8': 137, 'State_12': 100, 'State_9': 58, 'State_13': 41}
+{
+  "discovery_macrophages": 10941,
+  "graph_training_cells": 3518,
+  "classifier_features": 1000,
+  "noncycling_states": 15,
+  "discovery_selected_PGAM5_related_states": [],
+  "cross_cohort_RNA_support_states": [],
+  "PGAM5_related_group_established_at_RNA_level": false,
+  "supplementary202642_not_patient_independence_proof": true,
+  "limits": "RetrospectiveRNA inference. No protein/function gold standard, no ambient/doublet correction, no depth controls. Neither RNA association nor reproducible state implies PGAM5-specific bulk deconvolution signature. Prior DE and TCGA analyses unchanged."
+}
