@@ -1,0 +1,9 @@
+{
+  "positive_cells": 17,
+  "undetected_cells": 124,
+  "tested_genes": 27135,
+  "non_PGAM5_genes_with_Fisher_FDR005": 0,
+  "up_candidates_passing_Fisher_FDR005": 0,
+  "down_candidates_passing_Fisher_FDR005": 0,
+  "method": "Supplementary two-sided Fisher exact detection-frequency test, BH across all human source rows. Different estimand from expression-rank Wilcoxon; does not replace requested primary results."
+}

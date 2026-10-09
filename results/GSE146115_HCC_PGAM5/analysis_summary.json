@@ -1,0 +1,37 @@
+{
+  "HCC_tumor_samples": 4,
+  "HCC_tumor_patients": 4,
+  "source_tumor_cells": 3200,
+  "QC_tumor_cells": 1712,
+  "QC_inferred_macrophages": 141,
+  "PGAM5_positive_cells": 17,
+  "PGAM5_undetected_cells": 124,
+  "samples_with_macrophages": 4,
+  "samples_with_positive_macrophages": 2,
+  "tested_genes": 27135,
+  "macrophage_clusters": [
+    "0",
+    "1",
+    "2",
+    "4"
+  ],
+  "upregulated_excluding_PGAM5": 5,
+  "downregulated_excluding_PGAM5": 0,
+  "top20_up": [
+    "STK26",
+    "ZNF785",
+    "MS4A1",
+    "LINC01776",
+    "TOP3B"
+  ],
+  "top10_down": [],
+  "scope": "All four HCC tumor tissues HCC1,HCC2,HCC5,HCC9; 3200 cells from four patients. Sixteen GEO records are 200-cell sequencing parts, not sixteen independent tumors.",
+  "annotation": "Exploratory marker-inferred C1Q-rich macrophage clusters; no author cell annotation supplied by GEO. Not guaranteed to capture C1Q-low macrophages.",
+  "annotation_rule": "Global myeloid-enriched cluster 4 reclustered; C1QA>=90%, C1QB>=70%, C1QC>=50%, CD68>=70%, CSF1R>=25%, TYROBP>=60%, CD1C<10%, FCN1<75%; subclusters 0,1,2,4 included, mixed FCN1-rich subcluster 3 excluded. PGAM5 not used.",
+  "clustering": "Global: 2000 HVGs minus PGAM5/ambiguous symbols,30PC,15NN,Leiden1. Myeloid cluster4:1500HVG,15PC,10NN,Leiden0.6. All seed0.",
+  "QC": "n_genes>=500,RNR1+RNR2 mitochondrial-rRNA fraction<20%; incomplete mitochondrial proxy only",
+  "method": "Pooled-cell Wilcoxon with tie correction, BH across all genes; no patient pairing, depth matching or patient/sample/MVI/depth covariates",
+  "criteria": "FDR<0.05, |Scanpy approximate log2FC|>=1, detection>=10% in either group; PGAM5 excluded from candidates",
+  "gene_merge": "Human source rows retained with unique row IDs; 92 ERCC- spike-in rows excluded, human ERCC1/2/etc retained. 27 date-corrupted gene rows flagged, not guessed or merged.",
+  "count_type": "Fluidigm C1 HTSeq read counts, not UMI"
+}

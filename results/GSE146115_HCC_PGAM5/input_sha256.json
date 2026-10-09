@@ -1,0 +1,14 @@
+{
+  "GSE146115_HCC1-2-5-9_count_with_ERCC.txt.gz": {
+    "bytes": 17070570,
+    "sha256": "54f25102b13bbfd2d05f42f70fbd6e2b4c771e339ea428b0e2fd25f3c8168ceb"
+  },
+  "GSE146115_raw_to_prcessed_data_column.txt.gz": {
+    "bytes": 183853,
+    "sha256": "deeddc09c43cca24b51a1083e1d9a742ce9e854d010607e79282ab281160ea61"
+  },
+  "GSE146115_family.soft.gz": {
+    "bytes": 2830,
+    "sha256": "29a904bb2c20f5e2fe1ddc3e0b88d6cc385c2ff41fdff10bbce64a04c95b71bc"
+  }
+}

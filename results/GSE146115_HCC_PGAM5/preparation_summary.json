@@ -1,0 +1,13 @@
+{
+  "source_cells": 3200,
+  "QC_cells": 1712,
+  "human_gene_rows": 27135,
+  "excluded_ERCC_rows": 92,
+  "ambiguous_gene_rows": 27,
+  "patients": 4,
+  "mitochondrial_QC_available": false,
+  "QC": "n_genes>=500, RNR1+RNR2 mitochondrial rRNA fraction <20%. Full mitochondrial fraction is unavailable; proxy is a lower bound, not assumed zero",
+  "count_type": "Fluidigm C1 HTSeq read counts (not UMI)",
+  "annotation": "No author cell type labels supplied; marker-inferred annotation",
+  "HVG": "2000 Seurat HVGs minus PGAM5 and ambiguous symbols"
+}
