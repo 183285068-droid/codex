@@ -1,0 +1,108 @@
+from pathlib import Path
+import json,shutil,zipfile,hashlib,importlib.metadata as im
+import pandas as pd,numpy as np,matplotlib.pyplot as plt
+R=Path(__file__).resolve().parent
+s=json.loads((R/'consensus_summary.json').read_text());cons=pd.read_csv(R/'primary_consensus_at_least3.csv');val=pd.read_csv(R/'internal_pseudobulk_validation_summary.csv')
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'savefig.bbox':'tight'})
+fig,axs=plt.subplots(1,2,figsize=(10,8),sharey=True)
+for ax,name in zip(axs,['GSE151530','GSE189903']):
+ d=pd.read_csv(R/(name+'_specificity_audit.csv')).set_index('gene').loc[cons.gene];v=d.positive_TAM_over_max_nonmac_ratio.to_numpy();ax.barh(np.arange(len(d)),v,color='#355C8A');ax.axvline(2,color='#B77B28',ls='--',label='2-fold screening threshold');ax.set_yticks(np.arange(len(d)),d.index);ax.set_xlim(0,2.25);ax.set_xticks([0,.5,1,1.5,2]);ax.set_xlabel('Mean CP10K: PGAM5+ TAM / max other cell group');ax.set_title(name);ax.invert_yaxis();ax.legend(fontsize=8)
+fig.suptitle('21 recurrent state candidates: cell-type specificity audit',y=1.01);fig.tight_layout();fig.subplots_adjust(wspace=.25);fig.savefig(R/'candidate_specificity.png',dpi=160);fig.savefig(R/'candidate_specificity.pdf');plt.close(fig)
+fig,axs=plt.subplots(1,2,figsize=(11,4))
+for ax,name in zip(axs,['GSE151530','GSE189903']):
+ d=val[val.test_dataset.eq(name)].set_index('panel').loc[['state21_only','lineage13_plus_state21','lineage13_plus_state21_plus_PGAM5']];ax.barh(['21 state genes','+13 lineage genes','+PGAM5'],d.zero_true_p95_estimated_percent,color='#B77B28');ax.set_xlabel('95th percentile estimated PGAM5+ TAM (%)\nwhen true fraction is zero');ax.set_title(name);ax.set_xlim(0,48);ax.invert_yaxis()
+fig.suptitle('Idealized equal-RNA pseudo-bulk: false-positive diagnostic');fig.tight_layout();fig.savefig(R/'zero_fraction_false_positive.png',dpi=160);fig.savefig(R/'zero_fraction_false_positive.pdf');plt.close(fig)
+anchor=['C1QA','C1QB','C1QC','CSF1R','CD68','TYROBP','FCER1G','LST1','AIF1','CD163','MSR1','MRC1','SPP1']
+panel=pd.DataFrame([{'gene':g,'block':'macrophage_lineage','interpretation':'Identity anchor; not PGAM5-positive subtype specific'} for g in anchor]+[{'gene':g,'block':'recurrent_state_candidate','interpretation':'Mostly proliferation/DNA replication; not validated abundance marker'} for g in cons.gene]+[{'gene':'PGAM5','block':'defining_gene','interpretation':'RNA detection definition; expressed in other cell types; not independently discovered marker'}]);panel.to_csv(R/'EXPLORATORY_block_gene_panel_NOT_VALIDATED.csv',index=False)
+report='''# PGAM5检出相关巨噬细胞：跨数据集总结与TCGA-LIHC反卷积适用性
+
+**结论：目前得到的是PGAM5 RNA检出相关的探索性状态候选，尚未得到可直接用于TCGA-LIHC定量反卷积的已验证signature。** 不应将21基因ssGSEA/GSVA分数或本次诊断NNLS输出解释为PGAM5⁺巨噬细胞丰度。
+
+## 汇总范围及重复候选
+
+主要证据使用GSE151530、GSE149614、GSE189903、GSE242889、GSE202642的既有HCC肿瘤巨噬细胞比较。保持原来的FDR<0.05、|Scanpy近似log2FC|≥1、至少一组RNA检出率≥10%标准；原始差异分析未新增患者配对、深度匹配或协变量调整。PGAM5原始count=0代表RNA未检出，不能直接视为蛋白阴性或稳定的生物学亚型；本次目标定义沿用RNA检出状态。
+
+五个主要数据集的上调候选数分别为740、512、89、82、39。全部五个数据集共同上调的基因：**0个**。至少三个主要数据集上调：**21个**。这只是探索性重复次数筛选，不是独立验证或正式meta分析。
+
+|重复数据集数|候选|
+|---|---|
+|4/5|LMNB1、TK1|
+|3/5|BIRC5、CDK1、CENPH、CENPK、CLSPN、FEN1、GINS2、HCFC1、MAD2L1、MKI67、NUSAP1、PRC1、RFC4、RRM2、TOP2A、TPX2、TYMS、UBE2T、ZWINT|
+
+多数重复基因参与细胞周期/DNA复制，适合称为**PGAM5检出相关、偏增殖的巨噬细胞状态候选集**。并未运行正式通路富集，也未证明PGAM5引起这些状态。
+
+GSE140228两种技术含部分相同患者，并且此前all-Tumor范围有1个CC肿瘤，故列为补充证据，不视为两个独立HCC验证队列；其HCC-only重分析尚未进行。GSE125449与GSE151530存在细胞重叠，且仅4个PGAM5检出TAM，不重复计票。GSE146115仅17个PGAM5检出推定巨噬细胞，补充检出频率Fisher检验无非PGAM5显著候选，故列为补充，不进入主要重复计数。GSE154906按用户要求取消，未纳入。
+
+## 对全细胞类型的特异性核查
+
+重新读取GSE151530和GSE189903完整计数矩阵，保留原HCC肿瘤范围及作者细胞类型标签；统一QC≥500检出基因、MT计数比例<20%。在GSE189903中仅包括原先指定的肿瘤核心和边缘。各细胞归一到CP10K，计算线性表达均值；作者TAM拆成PGAM5原始count>0和=0两组，其余类型保持原标签。两个数据集均有TAM、恶性细胞、T细胞、B细胞、CAF、TEC和unclassified。
+
+对每个候选计算“PGAM5检出TAM平均CP10K / 非TAM群最大平均CP10K”。21个候选在两个数据集中均**没有一个达到2倍描述性特异性门槛**。这个2倍门槛是本次诊断筛查规则，不是公认的反卷积必要条件；组合表达谱可以包含单个不特异基因，仍必须通过混合样本验证。因此进一步进行了组合参考矩阵测试。
+
+例：GSE151530中LMNB1、TK1、MKI67的上述比值约1.02、1.77、1.67，最大竞争信号来自unclassified或恶性细胞；GSE189903中TK1约1.15、MKI67约0.17。PGAM5本身在非TAM中也有表达。C1QA/CSF1R等能帮助识别巨噬细胞，却在PGAM5检出和未检出TAM均表达，不能单独用于区分目标状态。
+
+unclassified保留为竞争群，避免将无法归类的细胞信号强行归给PGAM5⁺TAM。原作者标注没有单独的NK/DC/单核细胞/肝细胞等完整细分，所以这次参考并不能建立完整TCGA-LIHC细胞组成模型。
+
+## 组合面板的内部模拟验证
+
+构建三套诊断面板：(1)21个状态候选；(2)13个巨噬细胞身份锚点+21个状态候选；(3)再加入定义基因PGAM5。13个身份锚点：C1QA、C1QB、C1QC、CSF1R、CD68、TYROBP、FCER1G、LST1、AIF1、CD163、MSR1、MRC1、SPP1。这些锚点按已知身份用途提出，不代表此前差异分析发现的PGAM5特异候选。
+
+GSE151530做留一患者代理编号的参考测试，合格测试患者6个；训练参考由其余患者同类细胞的平均CP10K构成。GSE189903四位患者作为跨数据集表达分布测试，参考仍用GSE151530。候选选择使用了既有两数据集差异结果，所以两者均不属于完全独立的基因发现后验证。
+
+每位测试患者需要8个参考群均有细胞，且至少5个PGAM5检出TAM。以8群为组成：目标TAM、未检出TAM、恶性细胞、T、B、CAF、内皮、unclassified。固定总TAM25%、恶性50%、T15%、B3%、CAF2.5%、内皮2.5%、unclassified2%；目标TAM比例分别0、0.5%、1%、2%、5%，从未检出TAM份额中转移。每个混合物重采样2000个细胞，每个比例10次；相同患者和比例的三个面板使用相同混合细胞。
+
+模拟平均的是逐细胞CP10K表达，隐含每细胞等RNA产量；它是方便检验已知细胞比例的理想化模型，不是真实bulk RNA混合，也没有校正不同细胞RNA量。以线性非负最小二乘NNLS拟合，逐基因按训练参考均方根缩放，系数再归一为总和1。此诊断没有运行CIBERSORTx/MuSiC/BayesPrism，也不能据此断言所有算法都会产生相同数值。
+
+以下为真实目标比例为零时，估计比例的95分位数（%）：
+
+|面板|GSE151530内部留患者测试|GSE189903跨数据集测试|
+|---|---:|---:|
+'''
+labels={'state21_only':'21状态基因','lineage13_plus_state21':'13身份+21状态','lineage13_plus_state21_plus_PGAM5':'13身份+21状态+PGAM5'}
+for panelname,label in labels.items():
+ d=val[val.panel.eq(panelname)].set_index('test_dataset');report+=f'|{label}|{d.loc["GSE151530","zero_true_p95_estimated_percent"]:.2f}|{d.loc["GSE189903","zero_true_p95_estimated_percent"]:.2f}|\n'
+report+='''
+三种面板在GSE151530中估计与真实比例Pearson相关约-0.04至0.08，在GSE189903中约-0.04至0.24，均未支持稳定恢复。加入身份基因和定义基因仍不足以将当前面板称为可用的丰度signature。模拟范围很有限，重复混合物并非独立患者重复，不提供临床准确度或患者层面p值。验证表同时给出平均绝对误差等指标。
+
+这说明现有名单不应直接进入TCGA-LIHC并输出“PGAM5⁺巨噬细胞百分比”。诊断失败并不证明这一状态不能被反卷积；它表明当前基因面板和参考构建方案需要重新设计。
+
+## 怎样建立能用于TCGA-LIHC的参考
+
+1. 从覆盖完整肿瘤微环境且多个患者有足量目标细胞的scRNA参考出发，保留PGAM5检出TAM和未检出TAM，同时涵盖肿瘤细胞、T/NK、B/浆细胞、单核/DC、内皮、CAF、肝细胞等竞争群。细胞标签需要审查，未知群保留；正在增殖的恶性和免疫细胞应有竞争参考，避免把增殖归给目标TAM。
+2. 用“基因×全部参考细胞类型/状态”的**线性表达矩阵**建立自定义反卷积参考，参考列包含两组TAM；21个重复基因仅作状态候选，13个身份锚点仅作身份候选。PGAM5可作为定义相关特征纳入，但需要报告包含/排除它的敏感性。不能把两组基因的分数相乘当成细胞丰度。
+3. 重新筛选组合特征并测试可分辨性，对基因选择也留出患者/数据集，进行真正嵌套的发现与验证；增加零目标、低比例、增殖恶性/T细胞和RNA量变化测试。以目标的零比例假阳性、低比例误差、患者稳定性作为通过条件，不以简单交集替代验证。训练完成后再考虑CIBERSORTx自定义signature及单细胞参考适用的S-mode，或MuSiC/BayesPrism。算法选择本身不能补足参考缺陷。
+4. TCGA-LIHC只选原发肿瘤并与患者/临床表匹配，使用与所选算法及参考相容的非log线性表达；通常需TPM或算法指定的输入，不能直接使用log2(TPM+1)。使用RNA-seq适用的设置（例如CIBERSORTx中关闭quantile normalization），核对Ensembl版本/基因符号并明确重复映射合并规则。单细胞UMI与bulk转录本长度/平台效应应按算法处理；本次CP10K诊断矩阵没有完成这一步。
+5. 报告清楚“全部细胞中的目标比例”“巨噬细胞内目标比例”或“RNA贡献份额”的分母。RNA份额在没有细胞RNA量校准时不等于细胞数比例。反卷积的relative/absolute score也需按算法定义解释。
+
+若当前就开展TCGA关联分析，可把21基因当作**探索性增殖相关状态评分**，与常规总巨噬细胞估计分别呈现，明确其不是目标细胞丰度；不能以这种替代方法满足本次定量丰度要求。
+
+## 文件与复现
+
+candidate_recurrence.csv覆盖全部主要队列候选并附补充队列支持；candidate_evidence_long.csv保留每个源行的log2FC/FDR，包括重复symbol源行；primary_consensus_at_least3.csv为21候选。*_celltype_gene_profiles.csv、*_specificity_audit.csv为全细胞类型表达与特异性；internal_equal_RNA_pseudobulk_predictions.csv、internal_pseudobulk_validation_summary.csv为验证；reference_identifiability_diagnostics.csv给出条件数及TAM列余弦相似度。
+
+EXPLORATORY_GSE151530_reference_CP10K_NOT_VALIDATED.tsv是供复核的35基因×8群参考，**未通过诊断且未完成TCGA平台匹配，不能作为可用TCGA-LIHC signature发布或解释其输出**。其35行是21状态+13身份+1定义基因。EXPLORATORY_block_gene_panel_NOT_VALIDATED.csv明确每个块的角色。这里没有TCGA表达输入，也未对TCGA样本计算丰度。
+
+为便于复现内部验证，ZIP保留两个数据集这35个基因的QC单细胞CP10K矩阵npz和metadata（仅公开研究数据）、源结果哈希、脚本及图。运行aggregate_candidates.py复算交集、audit_celltype_specificity.py分别读取两个原始源矩阵完成QC特异性审查、validate_reference_panels.py复算模拟、make_report.py生成报告/打包。使用原始大计数矩阵、gene列表及此前all_cell_metadata.csv.gz时，按脚本配置PGAM5_SOURCE_ROOT；aggregate_candidates.py按PGAM5_REPOSITORY_RESULTS_ROOT定位已有差异表。ZIP不含原始大矩阵。
+
+校验包括源候选FDR/logFC、候选唯一symbol计票、矩阵/metadata对齐、原始PGAM5分组、QC后TAM数与此前输出一致、模拟每组权重和为1、预测有限非负及每个面板使用相同混合物。两张PNG已视觉检查；未验证网页交互排版。
+'''
+(R/'结果说明.md').write_text(report)
+# Verify consequential outcomes independently from exported files.
+assert len(cons)==21 and cons.gene.is_unique and len(set(cons.gene))==21
+assert cons.primary_support_count.value_counts().to_dict()=={3:19,4:2}
+for name,expected in [('GSE151530',(180,4314)),('GSE189903',(115,4741))]:
+ o=pd.read_csv(R/(name+'_QC_cell_metadata.csv.gz'));c=o.reference_group.value_counts();assert (c.TAM_PGAM5_detected,c.TAM_PGAM5_undetected)==expected
+ a=pd.read_csv(R/(name+'_specificity_audit.csv'));assert a[a.gene.isin(cons.gene)].passes_descriptive_2fold_specificity.sum()==0
+v=pd.read_csv(R/'internal_equal_RNA_pseudobulk_predictions.csv');assert len(v)==1500 and np.isfinite(v.estimated_fraction).all() and v.estimated_fraction.between(0,1).all()
+for (name,panel),t in v.groupby(['test_dataset','panel']):
+ line=val[(val.test_dataset==name)&(val.panel==panel)].iloc[0];assert np.isclose(abs(t.estimated_fraction-t.true_equal_RNA_cell_fraction).mean()*100,line.MAE_percentage_points)
+(R/'environment_versions.txt').write_text('\n'.join(f'{p}=={im.version(p)}' for p in ['numpy','pandas','scipy','matplotlib','threadpoolctl'])+'\n')
+D=Path('/workspace/codex/results/PGAM5_signature_deconvolution_audit');D.mkdir(parents=True,exist_ok=True)
+for p in R.iterdir():
+ if p.is_file() and p.suffix in ['.csv','.tsv','.json','.md','.py','.png','.pdf','.npz'] or p.is_file() and p.name.endswith(('metadata.csv.gz','versions.txt')):shutil.copy2(p,D/p.name)
+zp=D/'PGAM5_signature_deconvolution_audit.zip'
+with zipfile.ZipFile(zp,'w',compression=zipfile.ZIP_DEFLATED) as z:
+ for p in sorted(D.iterdir()):
+  if p.is_file() and p!=zp:z.write(p,p.name)
+with zipfile.ZipFile(zp) as z:assert z.testzip() is None
+print('Verified',len(v),'pseudo-mixtures; files',len(list(D.iterdir())),'ZIP MiB',zp.stat().st_size/1024**2)

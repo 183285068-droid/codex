@@ -1,0 +1,36 @@
+gene,block,interpretation
+C1QA,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+C1QB,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+C1QC,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+CSF1R,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+CD68,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+TYROBP,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+FCER1G,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+LST1,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+AIF1,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+CD163,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+MSR1,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+MRC1,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+SPP1,macrophage_lineage,Identity anchor; not PGAM5-positive subtype specific
+LMNB1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+TK1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+BIRC5,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+CDK1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+CENPH,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+CENPK,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+CLSPN,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+FEN1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+GINS2,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+HCFC1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+MAD2L1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+MKI67,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+NUSAP1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+PRC1,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+RFC4,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+RRM2,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+TOP2A,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+TPX2,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+TYMS,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+UBE2T,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+ZWINT,recurrent_state_candidate,Mostly proliferation/DNA replication; not validated abundance marker
+PGAM5,defining_gene,RNA detection definition; expressed in other cell types; not independently discovered marker

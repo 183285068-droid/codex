@@ -1,0 +1,7 @@
+test_dataset,panel,heldout_donors,mixtures,MAE_percentage_points,zero_true_median_estimated_percent,zero_true_p95_estimated_percent,pearson_r,status
+GSE151530,lineage13_plus_state21,6,300,7.866979164172738,2.989059951543992,25.21933673895266,-0.009471094105705376,"exploratory internal diagnostics, not TCGA validation"
+GSE151530,lineage13_plus_state21_plus_PGAM5,6,300,5.177576187665803,0.0765608595285688,13.996545472025494,0.08276681845411951,"exploratory internal diagnostics, not TCGA validation"
+GSE151530,state21_only,6,300,9.370217546403655,0.0,43.992949248118805,-0.03585393632868072,"exploratory internal diagnostics, not TCGA validation"
+GSE189903,lineage13_plus_state21,4,200,3.247311935463725,0.0,11.107427581939037,-0.0026499409140651412,"exploratory internal diagnostics, not TCGA validation"
+GSE189903,lineage13_plus_state21_plus_PGAM5,4,200,1.670125657961929,0.0,3.8304584396764096,0.23918024036258267,"exploratory internal diagnostics, not TCGA validation"
+GSE189903,state21_only,4,200,2.035510085935022,0.0,3.2285650931708605,-0.036803670654834454,"exploratory internal diagnostics, not TCGA validation"

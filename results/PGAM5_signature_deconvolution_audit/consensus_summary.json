@@ -1,0 +1,96 @@
+{
+  "primary_datasets": [
+    "GSE151530",
+    "GSE149614",
+    "GSE189903",
+    "GSE242889",
+    "GSE202642"
+  ],
+  "sources": {
+    "GSE151530": {
+      "path": "PGAM5_HCC/HCC_PGAM5_FDR005_log2FC1_upregulated.csv",
+      "sha256": "53c9f1a907ad8cc99a90cc4883f4558a9c99e1c2d5788fdf5f77b5cbf947f64b",
+      "rows": 740,
+      "unique_symbols": 740
+    },
+    "GSE149614": {
+      "path": "GSE149614_PGAM5_primaryT/GSE149614_primaryT_PGAM5_upregulated.csv",
+      "sha256": "4f0439f8ba5f8c77646a8bf4d4576a735434d11df80d3acf0d85759fd0e5f190",
+      "rows": 512,
+      "unique_symbols": 512
+    },
+    "GSE189903": {
+      "path": "GSE189903_HCC_tumor_PGAM5/GSE189903_HCC_tumor_PGAM5_upregulated.csv",
+      "sha256": "47253dc1f5a052acadb5a7e3602e043f9ef2998d26d62bb99324d5b02a84400e",
+      "rows": 89,
+      "unique_symbols": 89
+    },
+    "GSE242889": {
+      "path": "GSE242889_HCC_tumor_PGAM5/GSE242889_HCC_tumor_PGAM5_upregulated.csv",
+      "sha256": "d0c05bb9f9ad37f82d727eda2e02064cbbc580895b40afd7769120ad84f36664",
+      "rows": 82,
+      "unique_symbols": 82
+    },
+    "GSE202642": {
+      "path": "GSE202642_HCC_tumor_PGAM5/GSE202642_HCC_tumor_PGAM5_upregulated.csv",
+      "sha256": "344f2940d34126eac0b4fb9a615a31722cd1b9ec406f5bca9400ac3803a14eac",
+      "rows": 39,
+      "unique_symbols": 39
+    },
+    "GSE140228_Droplet": {
+      "path": "GSE140228_allTumor_PGAM5/Droplet/upregulated.csv",
+      "sha256": "ddc6dd7d7860ec1fc4b856e97a78552e1c6720ec20456d14ddb9e95f8c2a2081",
+      "rows": 671,
+      "unique_symbols": 671
+    },
+    "GSE140228_Smartseq2": {
+      "path": "GSE140228_allTumor_PGAM5/Smartseq2/upregulated.csv",
+      "sha256": "6a5150b9621a99526be1afff4a12cb285f24817cc775a8654a2383726e251031",
+      "rows": 1637,
+      "unique_symbols": 1636
+    },
+    "GSE125449": {
+      "path": "GSE125449_HCC_PGAM5/GSE125449_HCC_PGAM5_upregulated.csv",
+      "sha256": "1b76cabc89fdb7f11d406ea2d881bd1fc45f4906fca5ae26b72bceb087743146",
+      "rows": 331,
+      "unique_symbols": 331
+    },
+    "GSE146115": {
+      "path": "GSE146115_HCC_PGAM5/GSE146115_HCC_tumor_PGAM5_upregulated.csv",
+      "sha256": "502126218ec3135944d12567298c02283f736a649f08030a02b4b2632cbf263e",
+      "rows": 5,
+      "unique_symbols": 5
+    }
+  },
+  "all5_intersection": [],
+  "primary_support_histogram": {
+    "1": 1225,
+    "2": 86,
+    "3": 19,
+    "4": 2
+  },
+  "at_least3_genes": [
+    "LMNB1",
+    "TK1",
+    "BIRC5",
+    "CDK1",
+    "CENPH",
+    "CENPK",
+    "CLSPN",
+    "FEN1",
+    "GINS2",
+    "HCFC1",
+    "MAD2L1",
+    "MKI67",
+    "NUSAP1",
+    "PRC1",
+    "RFC4",
+    "RRM2",
+    "TOP2A",
+    "TPX2",
+    "TYMS",
+    "UBE2T",
+    "ZWINT"
+  ],
+  "excluded_from_primary": "GSE125449 overlaps GSE151530 and has 4 positive TAMs; GSE146115 has 17 positive inferred macrophages and zero non-PGAM5 exact-detection candidates; GSE140228 includes one CC tumor and two partly overlapping technologies. Supplementary evidence shown, not independent votes; GSE154906 cancelled."
+}
