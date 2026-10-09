@@ -1,0 +1,22 @@
+{
+  "GSE189903_Info.txt.gz": {
+    "bytes": 571931,
+    "sha256": "7b6680f61eb1110a36e59fa04f5b35853bdaf1e3ac060ec8b7480d5ef01742d9"
+  },
+  "GSE189903_genes.tsv.gz": {
+    "bytes": 199423,
+    "sha256": "ff59134da23229358c6f15b70a86517a17a1a561226878d5b3bf72e3004b0d48"
+  },
+  "GSE189903_barcodes.tsv.gz": {
+    "bytes": 472062,
+    "sha256": "bcd7dce1cb34a78c165a1f48a0baf51d6d76abd1a8b5006b1f571e341cabe9d6"
+  },
+  "GSE189903_matrix.mtx.gz": {
+    "bytes": 390953978,
+    "sha256": "b97614171f0bc337c0d41186ea09114351995daebb0d283b0985407b136028bf"
+  },
+  "GSE189903_family.soft.gz": {
+    "bytes": 3520,
+    "sha256": "a292cda8db3d19e3d04c12357dca5c0e578a67d0733e45592039de96aec4a6c2"
+  }
+}

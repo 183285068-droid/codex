@@ -1,0 +1,108 @@
+S_ID,Sample,patient,tissue,Type,cells
+S012,1HB,1H,Tumor border,B-cell,34
+S012,1HB,1H,Tumor border,CAF,11
+S012,1HB,1H,Tumor border,T-cell,7732
+S012,1HB,1H,Tumor border,TAM,43
+S012,1HB,1H,Tumor border,TEC,12
+S012,1HB,1H,Tumor border,unclassified,298
+S014,1HT1,1H,Tumor core,B-cell,93
+S014,1HT1,1H,Tumor core,CAF,11
+S014,1HT1,1H,Tumor core,Malignant cell,219
+S014,1HT1,1H,Tumor core,T-cell,788
+S014,1HT1,1H,Tumor core,TAM,259
+S014,1HT1,1H,Tumor core,TEC,5
+S014,1HT1,1H,Tumor core,unclassified,134
+S015,1HT2,1H,Tumor core,B-cell,37
+S015,1HT2,1H,Tumor core,CAF,33
+S015,1HT2,1H,Tumor core,Malignant cell,141
+S015,1HT2,1H,Tumor core,T-cell,422
+S015,1HT2,1H,Tumor core,TAM,85
+S015,1HT2,1H,Tumor core,TEC,6
+S015,1HT2,1H,Tumor core,unclassified,76
+S016,1HT3,1H,Tumor core,B-cell,67
+S016,1HT3,1H,Tumor core,CAF,52
+S016,1HT3,1H,Tumor core,Malignant cell,276
+S016,1HT3,1H,Tumor core,T-cell,617
+S016,1HT3,1H,Tumor core,TAM,59
+S016,1HT3,1H,Tumor core,TEC,13
+S016,1HT3,1H,Tumor core,unclassified,106
+S017,2HB,2H,Tumor border,B-cell,162
+S017,2HB,2H,Tumor border,CAF,50
+S017,2HB,2H,Tumor border,T-cell,5323
+S017,2HB,2H,Tumor border,TAM,227
+S017,2HB,2H,Tumor border,TEC,41
+S017,2HB,2H,Tumor border,unclassified,300
+S019,2HT2,2H,Tumor core,B-cell,5
+S019,2HT2,2H,Tumor core,CAF,87
+S019,2HT2,2H,Tumor core,Malignant cell,24
+S019,2HT2,2H,Tumor core,T-cell,318
+S019,2HT2,2H,Tumor core,TAM,120
+S019,2HT2,2H,Tumor core,TEC,130
+S019,2HT2,2H,Tumor core,unclassified,285
+S020,3HB,3H,Tumor border,B-cell,38
+S020,3HB,3H,Tumor border,CAF,77
+S020,3HB,3H,Tumor border,T-cell,537
+S020,3HB,3H,Tumor border,TAM,161
+S020,3HB,3H,Tumor border,TEC,50
+S020,3HB,3H,Tumor border,unclassified,106
+S022,3HT1,3H,Tumor core,B-cell,27
+S022,3HT1,3H,Tumor core,CAF,143
+S022,3HT1,3H,Tumor core,T-cell,374
+S022,3HT1,3H,Tumor core,TAM,144
+S022,3HT1,3H,Tumor core,TEC,37
+S022,3HT1,3H,Tumor core,unclassified,92
+S023,3HT2,3H,Tumor core,B-cell,18
+S023,3HT2,3H,Tumor core,CAF,82
+S023,3HT2,3H,Tumor core,Malignant cell,23
+S023,3HT2,3H,Tumor core,T-cell,5720
+S023,3HT2,3H,Tumor core,TAM,185
+S023,3HT2,3H,Tumor core,TEC,58
+S023,3HT2,3H,Tumor core,unclassified,315
+S024,3HT3,3H,Tumor core,B-cell,117
+S024,3HT3,3H,Tumor core,CAF,95
+S024,3HT3,3H,Tumor core,Malignant cell,23
+S024,3HT3,3H,Tumor core,T-cell,1438
+S024,3HT3,3H,Tumor core,TAM,315
+S024,3HT3,3H,Tumor core,TEC,45
+S024,3HT3,3H,Tumor core,unclassified,216
+S025,4HB,4H,Tumor border,B-cell,107
+S025,4HB,4H,Tumor border,CAF,64
+S025,4HB,4H,Tumor border,Malignant cell,12
+S025,4HB,4H,Tumor border,T-cell,1443
+S025,4HB,4H,Tumor border,TAM,289
+S025,4HB,4H,Tumor border,TEC,109
+S025,4HB,4H,Tumor border,unclassified,149
+S027,4HT1,4H,Tumor core,B-cell,19
+S027,4HT1,4H,Tumor core,CAF,30
+S027,4HT1,4H,Tumor core,Malignant cell,66
+S027,4HT1,4H,Tumor core,T-cell,647
+S027,4HT1,4H,Tumor core,TAM,657
+S027,4HT1,4H,Tumor core,TEC,10
+S027,4HT1,4H,Tumor core,unclassified,21
+S028,4HT3,4H,Tumor core,B-cell,15
+S028,4HT3,4H,Tumor core,CAF,11
+S028,4HT3,4H,Tumor core,Malignant cell,176
+S028,4HT3,4H,Tumor core,T-cell,616
+S028,4HT3,4H,Tumor core,TAM,1255
+S028,4HT3,4H,Tumor core,TEC,14
+S028,4HT3,4H,Tumor core,unclassified,45
+S029,4HT2,4H,Tumor core,B-cell,17
+S029,4HT2,4H,Tumor core,CAF,21
+S029,4HT2,4H,Tumor core,Malignant cell,153
+S029,4HT2,4H,Tumor core,T-cell,785
+S029,4HT2,4H,Tumor core,TAM,1070
+S029,4HT2,4H,Tumor core,TEC,23
+S029,4HT2,4H,Tumor core,unclassified,40
+S034,2HT1,2H,Tumor core,B-cell,2
+S034,2HT1,2H,Tumor core,CAF,6
+S034,2HT1,2H,Tumor core,T-cell,6935
+S034,2HT1,2H,Tumor core,TAM,7
+S034,2HT1,2H,Tumor core,TEC,2
+S034,2HT1,2H,Tumor core,unclassified,189
+S035,2HT3,2H,Tumor core,B-cell,3
+S035,2HT3,2H,Tumor core,CAF,10
+S035,2HT3,2H,Tumor core,Malignant cell,21
+S035,2HT3,2H,Tumor core,T-cell,342
+S035,2HT3,2H,Tumor core,TAM,171
+S035,2HT3,2H,Tumor core,TEC,112
+S035,2HT3,2H,Tumor core,unclassified,393

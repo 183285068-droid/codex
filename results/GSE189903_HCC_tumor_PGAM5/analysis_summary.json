@@ -1,0 +1,127 @@
+{
+  "HCC_tumor_samples": 16,
+  "HCC_tumor_patients": 4,
+  "HCC_tumor_cells": 45194,
+  "HCC_tumor_sample_ids": [
+    "1HB",
+    "1HT1",
+    "1HT2",
+    "1HT3",
+    "2HB",
+    "2HT2",
+    "3HB",
+    "3HT1",
+    "3HT2",
+    "3HT3",
+    "4HB",
+    "4HT1",
+    "4HT3",
+    "4HT2",
+    "2HT1",
+    "2HT3"
+  ],
+  "HCC_selected_sample_tissues": {
+    "Tumor core": 12,
+    "Tumor border": 4
+  },
+  "raw_TAMs": 5047,
+  "QC_TAMs": 4856,
+  "PGAM5_positive_cells": 115,
+  "PGAM5_undetected_cells": 4741,
+  "QC_samples_with_TAMs": 16,
+  "samples_with_positive_TAMs": 13,
+  "patients_with_positive_TAMs": 4,
+  "tested_genes": 25885,
+  "upregulated_excluding_PGAM5": 89,
+  "downregulated_excluding_PGAM5": 0,
+  "top20_up": [
+    "NHP2",
+    "LINC01503",
+    "MRPL53",
+    "ECI1",
+    "NIP7",
+    "MAP1S",
+    "FAM104A",
+    "NBEAL2",
+    "ATG4A",
+    "NCK2",
+    "CEBPZOS",
+    "WDR83",
+    "FICD",
+    "PCYT2",
+    "VPS37C",
+    "LINC00900",
+    "EIF2B2",
+    "RABEPK",
+    "RUSC1",
+    "BIN3"
+  ],
+  "top10_down": [],
+  "scope": "Official Hepatocellular carcinoma diagnosis, Tumor core or Tumor border only; adjacent non-tumor and ICC excluded per user clarification",
+  "criteria": "FDR<0.05, |Scanpy approximate log2FC|>=1, >=10% detection in either group; PGAM5 excluded from candidates",
+  "method": "Pooled-cell Wilcoxon with tie correction, BH FDR across all genes; no patient pairing, depth matching or sample/depth covariates",
+  "QC": "n_genes>=500,pct_mt<20; normalize_total 10000 then log1p",
+  "cell_annotation": "Original author TAM labels retained",
+  "descriptive_previous_up_intersections": {
+    "GSE140228_Droplet": {
+      "count": 11,
+      "genes": [
+        "C1orf21",
+        "DOT1L",
+        "EIF2B2",
+        "FAM104A",
+        "LIN7C",
+        "RUSC1",
+        "SEPHS1",
+        "TSFM",
+        "UCK2",
+        "ZNF354A",
+        "ZNF768"
+      ],
+      "input_file": "GSE140228_allTumor_PGAM5/Droplet/upregulated.csv",
+      "sha256": "ddc6dd7d7860ec1fc4b856e97a78552e1c6720ec20456d14ddb9e95f8c2a2081"
+    },
+    "GSE140228_Smartseq2": {
+      "count": 8,
+      "genes": [
+        "ECI1",
+        "GNB1L",
+        "KIAA0513",
+        "LRWD1",
+        "NAE1",
+        "NHP2",
+        "NIP7",
+        "PCYT2"
+      ],
+      "input_file": "GSE140228_allTumor_PGAM5/Smartseq2/upregulated.csv",
+      "sha256": "6a5150b9621a99526be1afff4a12cb285f24817cc775a8654a2383726e251031"
+    },
+    "GSE149614": {
+      "count": 7,
+      "genes": [
+        "C1orf21",
+        "GINS2",
+        "PCYT2",
+        "RABEPK",
+        "SKP2",
+        "UCK2",
+        "ZNF768"
+      ],
+      "input_file": "GSE149614_PGAM5_primaryT/GSE149614_primaryT_PGAM5_upregulated.csv",
+      "sha256": "4f0439f8ba5f8c77646a8bf4d4576a735434d11df80d3acf0d85759fd0e5f190"
+    },
+    "GSE151530": {
+      "count": 5,
+      "genes": [
+        "DOT1L",
+        "FICD",
+        "GINS2",
+        "NACC1",
+        "TSFM"
+      ],
+      "input_file": "PGAM5_HCC/HCC_PGAM5_FDR005_log2FC1_upregulated.csv",
+      "sha256": "53c9f1a907ad8cc99a90cc4883f4558a9c99e1c2d5788fdf5f77b5cbf947f64b"
+    }
+  },
+  "previous_five_candidates_passing_up_thresholds": []
+}
