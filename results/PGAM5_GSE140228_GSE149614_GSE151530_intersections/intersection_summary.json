@@ -1,0 +1,121 @@
+{
+  "criteria": "FDR<0.05, log2FC>=1, >=10% detection in at least one group; PGAM5 excluded; symbol-level intersection",
+  "sources": {
+    "GSE140228_Droplet": {
+      "path": "GSE140228_allTumor_PGAM5/Droplet/upregulated.csv",
+      "sha256": "ddc6dd7d7860ec1fc4b856e97a78552e1c6720ec20456d14ddb9e95f8c2a2081",
+      "rows": 671,
+      "unique_symbols": 671,
+      "duplicate_symbols": []
+    },
+    "GSE140228_Smartseq2": {
+      "path": "GSE140228_allTumor_PGAM5/Smartseq2/upregulated.csv",
+      "sha256": "6a5150b9621a99526be1afff4a12cb285f24817cc775a8654a2383726e251031",
+      "rows": 1637,
+      "unique_symbols": 1636,
+      "duplicate_symbols": [
+        "HULC"
+      ]
+    },
+    "GSE149614": {
+      "path": "GSE149614_PGAM5_primaryT/GSE149614_primaryT_PGAM5_upregulated.csv",
+      "sha256": "4f0439f8ba5f8c77646a8bf4d4576a735434d11df80d3acf0d85759fd0e5f190",
+      "rows": 512,
+      "unique_symbols": 512,
+      "duplicate_symbols": []
+    },
+    "GSE151530": {
+      "path": "PGAM5_HCC/HCC_PGAM5_FDR005_log2FC1_upregulated.csv",
+      "sha256": "53c9f1a907ad8cc99a90cc4883f4558a9c99e1c2d5788fdf5f77b5cbf947f64b",
+      "rows": 740,
+      "unique_symbols": 740,
+      "duplicate_symbols": []
+    }
+  },
+  "triple_Droplet": {
+    "count": 14,
+    "genes": [
+      "DTYMK",
+      "FAM114A1",
+      "HELLS",
+      "LIG1",
+      "MCM3",
+      "NUSAP1",
+      "OAF",
+      "RRP36",
+      "SERINC2",
+      "SLC25A4",
+      "SQLE",
+      "TK1",
+      "TUBG1",
+      "UBE2T"
+    ]
+  },
+  "triple_Smartseq2": {
+    "count": 16,
+    "genes": [
+      "AKR1C3",
+      "CDK1",
+      "CDKN2A",
+      "GGH",
+      "LINC00261",
+      "MPP6",
+      "NCKAP1",
+      "OAF",
+      "PLA2G12B",
+      "PRC1",
+      "RRM2",
+      "SERINC2",
+      "SLC25A4",
+      "SPON2",
+      "SQLE",
+      "TUBG1"
+    ]
+  },
+  "triple_either_GSE140228_platform": {
+    "count": 25,
+    "genes": [
+      "AKR1C3",
+      "CDK1",
+      "CDKN2A",
+      "DTYMK",
+      "FAM114A1",
+      "GGH",
+      "HELLS",
+      "LIG1",
+      "LINC00261",
+      "MCM3",
+      "MPP6",
+      "NCKAP1",
+      "NUSAP1",
+      "OAF",
+      "PLA2G12B",
+      "PRC1",
+      "RRM2",
+      "RRP36",
+      "SERINC2",
+      "SLC25A4",
+      "SPON2",
+      "SQLE",
+      "TK1",
+      "TUBG1",
+      "UBE2T"
+    ]
+  },
+  "strict_all_four_lists": {
+    "count": 5,
+    "genes": [
+      "OAF",
+      "SERINC2",
+      "SLC25A4",
+      "SQLE",
+      "TUBG1"
+    ]
+  },
+  "notes": [
+    "GSE140228 Droplet includes 7 HCC and 1 CC Tumor samples.",
+    "GSE140228 technologies are analyzed separately and share donor D20171109.",
+    "Smartseq2 has 1637 gene rows but 1636 symbols because HULC has two Ensembl entries; symbol-level intersections deduplicate this symbol.",
+    "Descriptive intersections; no reanalysis, enrichment significance, cross-patient reproducibility or validated signature is claimed."
+  ]
+}
