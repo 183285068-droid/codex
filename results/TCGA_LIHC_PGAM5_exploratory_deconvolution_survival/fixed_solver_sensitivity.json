@@ -1,0 +1,7 @@
+{
+  "fixed_ridge_alpha": 0.01,
+  "Spearman_NNLS_vs_ridge": 1.0,
+  "ridge_median": 0.0,
+  "changed_median_groups": 0,
+  "no_ridge_outcome_optimization": true
+}

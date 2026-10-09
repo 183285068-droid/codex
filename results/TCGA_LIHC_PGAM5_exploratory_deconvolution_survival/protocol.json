@@ -1,0 +1,11 @@
+{
+  "task": "User explicitly requests applying previously failed-validation exploratory reference to TCGA-LIHC and testing survival; prior validation failures retained",
+  "reference": "Exact v4 EXPLORATORY_REFERENCE_NOT_VALIDATED.tsv,850 genes17jointly fitted components; no TCGA outcome-driven re-selection",
+  "expression": "GSE62944 TCGA24 tumor Rsubread FeatureCounts2015; one primary01 RNA aliquot per patient, previous outcome-blind selection preserved. Raw counts divided by sum all measured genes, multiplied by1e4; no log transform or per-gene zscores for deconvolution",
+  "feature_matching": "Exact gene symbols shared between bulk and frozen reference; unavailable genes omitted from BOTH fitting matrices, no zero-expression imputation. No outcome-dependent feature choice. Gene/platform mismatch documented",
+  "solver": "Primary scipy NNLS, training row-scale preserved and subset to matching genes. beta=sum-normalized over all17reference components; target=TAM_PGAM5_detected. Outputs relative mixture coefficients, NOT validated tissue cell fractions. Fixed ridge alpha=.01 sensitivity for predictions only",
+  "grouping": "Primary target coefficient fraction global median across all371primary patients, High>median,Low<=median; same cutpoint for both endpoints, no optimized threshold. Report tied/zero predictions",
+  "endpoints": "OS and TCGA-CDR/Xena PFI(days). PFI NOT PFS. No separately defined PFS available, no endpoint relabeling",
+  "statistics": "KM95%CI,censoring,riskcounts; two-sided logrank; univariate high-vs-low Cox HR95%CI, proportional hazards diagnostic; BH adjustment over OS/PFI primary logrank tests",
+  "limitations": "Reference failed external tests; estimates may reflect other-cell PGAM5/cycle/platform differences. No cell-fraction calibration, no adjusted causal/prognostic claim, no independent validation. PriorDE/state/reference-validation/survival tables unchanged"
+}

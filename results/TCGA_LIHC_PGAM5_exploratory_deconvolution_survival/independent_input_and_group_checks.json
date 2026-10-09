@@ -1,0 +1,13 @@
+{
+  "independent_raw_bulk_patients": 8,
+  "independent_raw_gene_values": 6224,
+  "raw_count_max_error": 0.0,
+  "whole_library_denominators_match": true,
+  "all371_saved_CP10k_recomputed": true,
+  "all371_component_sums_and_target_groups_checked": true,
+  "independent_bounded_solver_cases": 19,
+  "independent_logrank_endpoints": 2,
+  "all_group_KM_steps_checked": true,
+  "PFS_available": false,
+  "status": "Implementation checks passed; reference validation remains failed"
+}

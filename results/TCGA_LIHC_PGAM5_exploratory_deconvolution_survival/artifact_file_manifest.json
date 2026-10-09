@@ -1,0 +1,174 @@
+{
+  "estimate_PGAM5_association.json": {
+    "bytes": 202,
+    "sha256": "ec2de3972a20c7992ff50476a741e45d2bf61ab59a5911bd52925f97e0712632"
+  },
+  "requirements.txt": {
+    "bytes": 113,
+    "sha256": "f05206913c005caadfbb47acad28fb01fbef643b35b1968061f87cef2a8fad1f"
+  },
+  "reference_bulk_gene_coverage.csv": {
+    "bytes": 14022,
+    "sha256": "f745a2e8da3c43afb9a406ea58b194d874ddabc941900744d2995c2cdd657bba"
+  },
+  "audit.log": {
+    "bytes": 479,
+    "sha256": "5a6a6bbb26137076bb47bfc986a836128bfd5d4fd052873528bfb2f6c4e4e12d"
+  },
+  "analyze_survival.py": {
+    "bytes": 7616,
+    "sha256": "7dd4d4d5c00dfb217ae3fa6d342e842120ac4bf7b2fdb3a8a183f4ae5e72fb3c"
+  },
+  "KM_OS.png": {
+    "bytes": 168240,
+    "sha256": "ccf66190fb40f4b0a961556c8c75c0456fac0d0c465887bf752bf3aa989b6c0f"
+  },
+  "USED_EXPLORATORY_REFERENCE_CP10k.tsv": {
+    "bytes": 249780,
+    "sha256": "6fcf673b38a54a2a6a6922717c0a8c83a8622fcc878685a64e94049634b11ee5"
+  },
+  "KM_OS.pdf": {
+    "bytes": 30669,
+    "sha256": "6819ec6b8b88fd407bb0ac8abfba069d7415e49fe4b9f9d089047ea5558656c9"
+  },
+  "source_provenance.json": {
+    "bytes": 2306,
+    "sha256": "dca577c69fe74eac826ad405b56b80147fa306c7c5696d964ff97741cc150dfd"
+  },
+  "independent_bounded_solver_checks.csv": {
+    "bytes": 1068,
+    "sha256": "629c6239d93cc830c0a6e82a358c37bc6091c7fc489dbe37c05d4cb0fec533f7"
+  },
+  "selected_patient_reference_gene_CP10k.csv.gz": {
+    "bytes": 2248345,
+    "sha256": "ebd8eb96d9efa1a20592107b6d7f85e05eb47268f57f80277d5256443e9a0424"
+  },
+  "missing_reference_genes.csv": {
+    "bytes": 539,
+    "sha256": "99b47fb72d02a2f9f32c64d760c5faede5028fd24a6406c5b6e65957177a30ac"
+  },
+  "preparation_summary.json": {
+    "bytes": 758,
+    "sha256": "9e7ee987230988aac95fc8222acd661d3425e721a13d8bd46ecd042e5f6e9fa2"
+  },
+  "independent_logrank_risk_sets.csv": {
+    "bytes": 16298,
+    "sha256": "315695ff38ff2f1071a8bf71a6ad567d0112d1b712987db010b65f81c217a25d"
+  },
+  "KM_PFI.pdf": {
+    "bytes": 31373,
+    "sha256": "f56596736c5acfada86d5097802402d5a9c73240955c22608f4b2d87a9f53ec9"
+  },
+  "all_reference_component_estimates.csv": {
+    "bytes": 43886,
+    "sha256": "d023d95a9620ee15cd88e962d1e87bd14e8dbb955d8e4b181b6c58275b45961e"
+  },
+  "implementation_checks.json": {
+    "bytes": 361,
+    "sha256": "f3f06a536a858658276d5cb3c00fb43905f427c80d42bb28709468735ae33a2a"
+  },
+  "patient_scores_survival_join.csv": {
+    "bytes": 57584,
+    "sha256": "a79f7f5779ed3aca7cb2d244b11243a75a340aaf56eb2d56e09c802d43dfc512"
+  },
+  "prior_reference_validation_predeclared_gate_checks.csv": {
+    "bytes": 6866,
+    "sha256": "91da0b534578e405f0056137a5949ffff04ebed568289e7888ddd21dea86b983"
+  },
+  "protocol.json": {
+    "bytes": 1921,
+    "sha256": "63f35c189407f31030333e436aac1e1dacaf946763839480d5d9f9adbe74d776"
+  },
+  "PFI_analysis_patients.csv": {
+    "bytes": 13001,
+    "sha256": "83162247ac83484c9d3fdaac7a41ccc6059c5b076af0dd88c3ae02914f92395f"
+  },
+  "KM_curve_values.csv": {
+    "bytes": 47119,
+    "sha256": "78fa482dd1e368d8e057f1114fff692922a18b677e83397b1f3884d44336ff72"
+  },
+  "endpoint_excluded_patients.csv": {
+    "bytes": 1352,
+    "sha256": "f5cb41346eac42d7d2bb33829e5ee9437e7c5c1a059309541b6fe5d6c833677c"
+  },
+  "used_reference_row_scales.csv": {
+    "bytes": 19427,
+    "sha256": "520a6f96ece2ea4cd88f74f884ff948b0fc95a9ba76b6e5ef492825dda731b09"
+  },
+  "sample_fit_diagnostics.csv": {
+    "bytes": 30330,
+    "sha256": "d57b8203e8b39865390900d7300fc0d07c02120e5251f792e3808fc6f331d7f2"
+  },
+  "independent_input_and_group_checks.json": {
+    "bytes": 478,
+    "sha256": "92c5d47c7ef0eccd824a82b0fe6f5bde51d34cd8fd426ffbabcefd0f7d875109"
+  },
+  "patient_scores.csv": {
+    "bytes": 35362,
+    "sha256": "c3ccf4aa8415801affc574725755569a66f716ca49ebf1fcea0606463a7dc179"
+  },
+  "survival_statistics.csv": {
+    "bytes": 811,
+    "sha256": "c8bb0e99e1e135f44c835818c900ccd343a50deaa4142b449ee3e0665ced4623"
+  },
+  "fixed_solver_sensitivity.json": {
+    "bytes": 158,
+    "sha256": "e56c30d33d98e3eac4f41c3a3e656a9b46dda6d1937ad5e0d8a4d563364a1b4e"
+  },
+  "environment_versions.json": {
+    "bytes": 187,
+    "sha256": "9a20abcca16fd0175a79cab938a8bfc79e54a885610e18fee269b7e8ed82f7eb"
+  },
+  "survival.log": {
+    "bytes": 1041,
+    "sha256": "3e61135f721546ca415dc0ec55457a14ccbd3e155284ffa868bc72534b4c95b1"
+  },
+  "source_exploratory_reference.tsv": {
+    "bytes": 272832,
+    "sha256": "d5c7df4eeee3c3f2ef1631a41b699b27842756b11f9c9dd2c1b9c06feaaeba68"
+  },
+  "prepare_deconvolution.py": {
+    "bytes": 8139,
+    "sha256": "87d921d0a15b8ff255d8e895e9a2c4a96c7ba5e429abfaa1465874ffcbf53fcc"
+  },
+  "KM_PFI.png": {
+    "bytes": 173602,
+    "sha256": "ec3508435f71a015cb84099daffc85d3c2ffbeefc22cd6ea228d8e008568cefd"
+  },
+  "KM_numbers_at_risk.csv": {
+    "bytes": 470,
+    "sha256": "39454b2e93dab9b73b9bbefbe747c682673e4359bf9aba8a933eacadcc203104"
+  },
+  "README.md": {
+    "bytes": 4281,
+    "sha256": "ff797c979a5158fa3ae52993b1cdc66f234bfd8502fd0f322fb05654f0d08eb9"
+  },
+  "source_reference_row_scales.csv": {
+    "bytes": 21315,
+    "sha256": "7fc0af49e8047866179944e3d472a389bdf92f810bb09a1594384bc60a97abfc"
+  },
+  "selected_patient_reference_gene_counts.csv.gz": {
+    "bytes": 580271,
+    "sha256": "66774c3f9b1e7559e7ca3c8c822730666f23b7fa222a188ba11efd2f68b7255f"
+  },
+  "prior_reference_validation_result.json": {
+    "bytes": 715,
+    "sha256": "88cb90dab8b95b5f551faa6ec2f7fd15f3bbee723dc55d7d0aca1413c937f2d9"
+  },
+  "OS_analysis_patients.csv": {
+    "bytes": 13011,
+    "sha256": "2f190df5af198ad91b3cb6424d77b3764368284a11461b43d85033aaab4665c5"
+  },
+  "ridge_sensitivity_component_estimates.csv": {
+    "bytes": 43885,
+    "sha256": "f86ba60bd684f5071b0dbba7670bc137fb6834e6801fe377f78c972c66d97f8b"
+  },
+  "audit_and_report.py": {
+    "bytes": 8801,
+    "sha256": "a637cb3b3a07270e1da2f23e94b9c20970b335460aee8ca361130d5d7b694f89"
+  },
+  "preparation.log": {
+    "bytes": 834,
+    "sha256": "52d2fbafef12245fb4ef9f5b7501a046764e7299fa726f63669dcd5382f33215"
+  }
+}

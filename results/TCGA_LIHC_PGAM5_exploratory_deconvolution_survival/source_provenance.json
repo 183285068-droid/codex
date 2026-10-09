@@ -1,0 +1,39 @@
+{
+  "expression_and_survival_source": {
+    "access_date": "2026-10-09",
+    "expression_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM1536nnn/GSM1536837/suppl/GSM1536837_06_01_15_TCGA_24.tumor_Rsubread_FeatureCounts.txt.gz",
+    "sample_type_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62944/suppl/GSE62944_06_01_15_TCGA_24_CancerType_Samples.txt.gz",
+    "expression_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+    "survival_repository": "https://github.com/openbiox/UCSCXenaShiny",
+    "survival_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+    "survival_file": "data/tcga_surv.rda",
+    "survival_origin_from_source_script": "Xena Toil TCGA_survival_data; DOI https://doi.org/10.1016/j.cell.2018.02.052",
+    "source_kind": "Public TCGA reprocessing mirror and curated clinical mirror, not fresh GDC extraction",
+    "signature_source_commit": "bdec8f03667aa755fe9303b1567cddd22ca1231c",
+    "network_limit": "Xena/GDC direct domains returned proxy403; legitimate NCBI/GitHub mirrors used"
+  },
+  "exploratory_reference_commit": "a7bf04f34197b3b888a59fc74bbbbfb187c99769",
+  "reference_prior_validation_status": "FAILED, user explicitly requested exploratory TCGA application",
+  "input_hashes": {
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA24_tumor_featurecounts.txt.gz": {
+      "bytes": 307951450,
+      "sha256": "16820a7da5fe7c4db3938edf42d355682863b37030a5a8496f8a9b03ddacc96e"
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/RNA_aliquot_selection.csv": {
+      "bytes": 24761,
+      "sha256": "5cb8b4c2ba908c9a308c366fcf1e1a3088692be96db79a6739187668747bdc6c"
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA_CDR_mirror_survival.csv.gz": {
+      "bytes": 101104,
+      "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0"
+    },
+    "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/EXPLORATORY_REFERENCE_NOT_VALIDATED.tsv": {
+      "bytes": 285784,
+      "sha256": "cf5f9711da05781b0703c9d6011154cd86d44a8d873595f96f69a1c7209f54a4"
+    },
+    "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/reference_row_scales.csv": {
+      "bytes": 21625,
+      "sha256": "0375de5c8159b881a5e384830192a9ae870ce41f118926c0d9efe9b13a481093"
+    }
+  }
+}
