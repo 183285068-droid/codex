@@ -1,0 +1,13 @@
+{
+  "task": "Compare latest GSE151530-only NNLS PGAM5 RNA-detected macrophage relative estimates across pathological AJCC stage",
+  "estimates": "Frozen371primarypatients from GSE151530_only_TCGA_PGAM5_deconvolution commit aa9e46b; no reference retraining or estimate change",
+  "stage_primary": "UCSCXenaShiny tcga_clinical.rda, typeLIHC,primary01 sample, ajcc_pathologic_tumor_stage; same mirror project used for prior survival, stage sourceToilHub. No clinical stage/grade/BCLC substitute",
+  "stage_sensitivity": "GSE62944 companion2015 clinical table,ajcc_pathologic_tumor_stage matched exactly to selected RNA_sample; source-specific stages, no filling missing from other source. Clinical-source discrepancies explicitly listed",
+  "stage_mapping": "Full-string matchStageI/IA/IB/IC->I,II/IIA/IIB/IIC->II,III/IIIA/IIIB/IIIC->III,IV/IVA/IVB/IVC->IV. Missing,NotAvailable,Discrepancy,etc excluded. User-requested pooling: III and IV -> III-IV; preserve original major stage in provenance",
+  "primary_test": "All valid stageI,II,III-IV coefficient values INCLUDING zeros, independent patients; Kruskal-Wallis asymptotic plus20000label permutation p due many zero ties. III-IV pooling explicitly requested by user; no outcome-driven threshold",
+  "pairwise": "Three predeclared stage pairs, Mann-Whitney U(two-sided asymptotic,tie-aware,no continuity) plus20000rank-label permutation p;BH across three permutation p values within each source. Rank-biserial=2U/(nA*nB)-1 positive means stageA estimates greater",
+  "secondary": "Ordered stage Spearman and3x2stage-by-nonzero-estimate chi-square;20000permutation p with fixedstage sizes. BH across these two secondary permutation p values per source. Nonzero is model coefficient>0, not proven cell presence",
+  "permutation": "Fixed seeds, Monte Carlo p=(extreme+1)/(B+1), all source analyses use same predetermined B=20000. Sensitivity does not select preferred p/source",
+  "descriptive": "N,zero/nonzero counts,median,Q1,Q3,mean,IQR,Wilson95%CI nonzero proportion; box/jitter and proportion plot. Coefficient*100 is relative model-mixture percentage, not calibrated tissue cell fraction",
+  "limitations": "Exploratory reference failed internal validation; public mirror stage dates/editions differ. III-IV merged by user request;unadjusted cross-sectional tests, no confounder/casual/clinical validation claim. No change to prior survival results"
+}

@@ -1,0 +1,23 @@
+{
+  "estimate_source_commit": "aa9e46b6bf217e90007bab62f2b8b70598c0ab05",
+  "clinical_repository": "https://github.com/openbiox/UCSCXenaShiny",
+  "clinical_mirror_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+  "clinical_file": "data/tcga_clinical.rda",
+  "stage_field": "ajcc_pathologic_tumor_stage",
+  "source_documentation": "man/tcga_clinical.Rd describes Toil Hub TCGA Clinical Data",
+  "GEO2015_sensitivity_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62944",
+  "input_hashes": {
+    "/workspace/codex/results/GSE151530_only_TCGA_PGAM5_deconvolution/TCGA_LIHC_PGAM5_macrophage_estimates.csv": {
+      "bytes": 39101,
+      "sha256": "7653a1b751adddea442272606b5da1f4fe9e5983745e1a6196564e23834d518a"
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/UCSCXenaShiny_source/data/tcga_clinical.rda": {
+      "bytes": 125260,
+      "sha256": "9bd3b5366f19353628aaedc6b941b6bc19aed7d819de0f3d695c5a6183ff31aa"
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/GSE62944_clinical.txt.gz": {
+      "bytes": 1226302,
+      "sha256": "b5e8cd83cac3ccb3896e74fa81b91a8b865002aea34a329f99d23c25a394e7a3"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+patient,RNA_sample,exploratory_target_fraction,exploratory_total_macrophage_fraction,PGAM5_log2_CPM_plus1,assigned_gene_counts,group,exploratory_target_within_macrophage_fraction,exploratory_target_percent,clinical_primary_sample,primary_stage_raw,GEO2015_stage_raw,GEO2015_AJCC_edition,primary_stage,primary_analysis_stage,GEO2015_stage,GEO2015_analysis_stage,stage_sources_same_major,valid_both_but_different_major
+TCGA-FV-A2QQ,TCGA-FV-A2QQ-01A-11R-A22L-07,0.0,0.0,6.059557539963436,51615476.0,Low,,0.0,TCGA-FV-A2QQ-01,Stage I,Stage IVA,7th,I,I,IV,III-IV,False,True

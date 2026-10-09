@@ -1,0 +1,22 @@
+{
+  "input_patients": 371,
+  "primary_stage_valid": 347,
+  "primary_stage_excluded": 24,
+  "stage_groups": [
+    "I",
+    "II",
+    "III-IV"
+  ],
+  "primary_stage_counts": {
+    "I": 171,
+    "II": 86,
+    "III-IV": 90
+  },
+  "GEO2015_stage_valid": 334,
+  "source_valid_major_stage_conflicts": 1,
+  "original371_estimates_unchanged": true,
+  "primary_Kruskal_Wallis_asymptotic_p": 0.0022899539393290533,
+  "primary_Kruskal_Wallis_permutation_p": 0.002599870006499675,
+  "permutations": 20000,
+  "interpretation": "Cross-sectional association of unvalidated relative mixture coefficients; not validated PGAM5 cellular infiltration fraction; III-IV are pooled; no separate IV-stage inference"
+}

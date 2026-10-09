@@ -1,0 +1,94 @@
+{
+  "README.md": {
+    "bytes": 5909,
+    "sha256": "d6880929c19d1097774ed0b4751a41f4b383512d07875b4a6f4468d8bc623871"
+  },
+  "all371_estimates_and_stage_sources.csv": {
+    "bytes": 61512,
+    "sha256": "12637fe33791ce9cda4b6538017547547e9ae6df0b0c021daf064e153fa5caf4"
+  },
+  "analysis.log": {
+    "bytes": 1078,
+    "sha256": "cea40548d2002f58dec618bfd9d1a10d2f1509821e0490f4d0911bb23e9322cb"
+  },
+  "analyze_stage.py": {
+    "bytes": 14690,
+    "sha256": "70c88d1e118f06aae3abbdac38af9549e7efd0b4749d20a9c2e3698052fea448"
+  },
+  "audit.json": {
+    "bytes": 3202,
+    "sha256": "a1d0e6bc306599c037789943cea1c145f1c305c523866c4771755ded10c4321e"
+  },
+  "audit.log": {
+    "bytes": 3203,
+    "sha256": "2e373f68cdcc60e0b32aec99b57f441b5c72de566d06d74a444e51ab612ccde6"
+  },
+  "audit_stage.py": {
+    "bytes": 8156,
+    "sha256": "95c124f7876a8f5a0287c3f8f79111838085a5963d7cc7fdb9484698a850ac1e"
+  },
+  "environment_versions.json": {
+    "bytes": 162,
+    "sha256": "cbc376606329a2684ac3173d5bedaad0f906a6aec42c234d14e789c84426951b"
+  },
+  "primary_Toil_clinical_analysis_patients.csv": {
+    "bytes": 61772,
+    "sha256": "59a7f3afd7cd01632595712a35a4f259e44629151daa9bc62fa381d72e72a411"
+  },
+  "primary_stage_all_sample_aliases.csv": {
+    "bytes": 18334,
+    "sha256": "7a968399d4dde09c1b75c28f387a10f95879c9d78b681dcdc0ab03dfcb3db0b3"
+  },
+  "protocol.json": {
+    "bytes": 2405,
+    "sha256": "3df7f1ddf442d8f9aedc9ccb82ae7b72779c5f4a7600c37aa8d1402e755ec85e"
+  },
+  "requirements.txt": {
+    "bytes": 95,
+    "sha256": "f00ae7eb4bdbf12c72babed7048f01e5c189ad7ccdd7033bd1c39fac33d07847"
+  },
+  "result.json": {
+    "bytes": 692,
+    "sha256": "e6c0e8baac05d6475c39de0e6939ec0727de58464f77954f855dd33b819a9e66"
+  },
+  "sensitivity_GEO2015_analysis_patients.csv": {
+    "bytes": 59514,
+    "sha256": "1f31680456fec988e961172c33e191e80510ac2cb7f0379a42e0635a2a19559c"
+  },
+  "source_provenance.json": {
+    "bytes": 1157,
+    "sha256": "f1cdc6c72b58de0ccb50eaac80de5e4b65d6340c8cec23ed93cc30ea394fc2af"
+  },
+  "stage_comparison.pdf": {
+    "bytes": 26709,
+    "sha256": "5088571f23ede9ffa73627ec6ec5dbf46385e09c53cbfb6487246756ccd7a0f4"
+  },
+  "stage_comparison.png": {
+    "bytes": 170584,
+    "sha256": "285da573242cac9d4c982946e7c13643aaa1ecde72302e542b9ace9fdb476943"
+  },
+  "stage_descriptive_statistics.csv": {
+    "bytes": 1028,
+    "sha256": "104a1c70f431bc071c4f4f0c3f1cfd4923ab0c7f2ba938d0acbe97bb9ce41955"
+  },
+  "stage_excluded_patients.csv": {
+    "bytes": 7241,
+    "sha256": "db90f97fc7abfcd132770ca0edfffb446cc026866321e4c535ef4fdec8c827a9"
+  },
+  "stage_overall_and_secondary_tests.csv": {
+    "bytes": 936,
+    "sha256": "b5a005dcf0af9fc284a1e4cf61a7b5547593bb9db49ab2cb26999ffe60d86314"
+  },
+  "stage_pairwise_tests.csv": {
+    "bytes": 939,
+    "sha256": "1b20260777382f60f7618d134f94c1f6634d6f544cc4aab444eb7d01ce0cf590"
+  },
+  "stage_source_discrepancies.csv": {
+    "bytes": 3295,
+    "sha256": "27854920960583e765a8ee6098a35e1d4b91a9c31ec2e585a0b45debe9ed9be4"
+  },
+  "valid_stage_source_conflicts.csv": {
+    "bytes": 568,
+    "sha256": "a6a84ce2c154b8973776e29391eb4669e69997a28b1a1164f69882606e83b1e0"
+  }
+}
