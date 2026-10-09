@@ -1,7 +1,7 @@
 {
   "README.md": {
-    "bytes": 5909,
-    "sha256": "d6880929c19d1097774ed0b4751a41f4b383512d07875b4a6f4468d8bc623871"
+    "bytes": 6332,
+    "sha256": "7bc6f2d14ca14371de86e156f0427c9bc96f510cc114647b23553a3a3497da16"
   },
   "all371_estimates_and_stage_sources.csv": {
     "bytes": 61512,
@@ -12,8 +12,8 @@
     "sha256": "cea40548d2002f58dec618bfd9d1a10d2f1509821e0490f4d0911bb23e9322cb"
   },
   "analyze_stage.py": {
-    "bytes": 14690,
-    "sha256": "70c88d1e118f06aae3abbdac38af9549e7efd0b4749d20a9c2e3698052fea448"
+    "bytes": 12806,
+    "sha256": "35318cc77aff7fdd5e84ef07c781d0e44621af35034809650794d6d2d3f42f2e"
   },
   "audit.json": {
     "bytes": 3202,
@@ -30,6 +30,14 @@
   "environment_versions.json": {
     "bytes": 162,
     "sha256": "cbc376606329a2684ac3173d5bedaad0f906a6aec42c234d14e789c84426951b"
+  },
+  "figure_annotation_values.csv": {
+    "bytes": 481,
+    "sha256": "7c4d3225bed2b3c2bbeaf7a92fd137fe82335b6cb10051356a1cdf61cd7fa0e5"
+  },
+  "plot_stage_comparison.py": {
+    "bytes": 4851,
+    "sha256": "443147d37a52f077916b0a2264e5a6776046c8311669d8f241cf7d7cc66fdd5b"
   },
   "primary_Toil_clinical_analysis_patients.csv": {
     "bytes": 61772,
@@ -60,12 +68,12 @@
     "sha256": "f1cdc6c72b58de0ccb50eaac80de5e4b65d6340c8cec23ed93cc30ea394fc2af"
   },
   "stage_comparison.pdf": {
-    "bytes": 26709,
-    "sha256": "5088571f23ede9ffa73627ec6ec5dbf46385e09c53cbfb6487246756ccd7a0f4"
+    "bytes": 27774,
+    "sha256": "033940992fc84d8d9bae12986e9b4ddb0dd9c171e9ce16f2197321b1f2d3fb30"
   },
   "stage_comparison.png": {
-    "bytes": 170584,
-    "sha256": "285da573242cac9d4c982946e7c13643aaa1ecde72302e542b9ace9fdb476943"
+    "bytes": 198463,
+    "sha256": "0a95dcd560143abbb01b2d166f7f10b41e7a14a76d8dac437f80a0fa9ebde890"
   },
   "stage_descriptive_statistics.csv": {
     "bytes": 1028,

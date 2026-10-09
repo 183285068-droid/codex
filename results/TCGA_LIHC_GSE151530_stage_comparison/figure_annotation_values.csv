@@ -1,0 +1,7 @@
+stage_A,stage_B,permutation_p,BH_q_3,figure_label,test
+I,II,0.0048497575121243,0.0072746362681865,"p=0.00485
+q(BH)=0.00727","Two-sided Mann-Whitney U, 20000 permutations; BH across three pairs"
+I,III-IV,0.0023998800059997,0.0071996400179991,"p=0.00240
+q(BH)=0.00720","Two-sided Mann-Whitney U, 20000 permutations; BH across three pairs"
+II,III-IV,0.9506524673766312,0.9506524673766312,"p=0.95065
+q(BH)=0.95065","Two-sided Mann-Whitney U, 20000 permutations; BH across three pairs"

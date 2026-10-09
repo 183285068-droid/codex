@@ -36,7 +36,7 @@
 
 ![三个分期组的估计值和非零患者比例](stage_comparison.png)
 
-左图显示全部患者估计值；右图为非零估计患者比例及Wilson 95%置信区间，右图不是组织细胞比例。
+左图显示全部患者估计值，并以比较括号标注三组两两置换检验的原始p值和BH校正后的q值：I vs II，p=0.00485、q=0.00727；I vs III–IV，p=0.00240、q=0.00720；II vs III–IV，p=0.95065、q=0.95065。这些检验比较左图的相对系数分布。右图为非零估计患者比例及Wilson 95%置信区间，右图不是组织细胞比例。
 
 - `all371_estimates_and_stage_sources.csv`：371例原始估计值、临床原始标签、主分期和合并分期。
 - `*_analysis_patients.csv`、`stage_excluded_patients.csv`：两来源实际纳入/排除患者。
@@ -45,6 +45,8 @@
 - `stage_source_discrepancies.csv`、`valid_stage_source_conflicts.csv`：临床来源差异。
 - `protocol.json`、`source_provenance.json`、`environment_versions.json`：分析定义、输入哈希和环境。
 - `audit_stage.py`、`audit.json`：独立复核43项均通过，包括患者连接、合并映射、估计值保留、描述统计、秩统计量、置换p公式及BH校正。程序复核不代表生物学验证通过。
+
+`plot_stage_comparison.py`可直接从已保存的CSV重绘图表，无须重新进行反卷积或置换统计；`figure_annotation_values.csv`保留图中使用的p/q值。
 
 安装`requirements.txt`所列依赖，将固定版本`tcga_clinical.rda`和上述GSE62944临床表下载到本地，使用仓库既有估计值即可重跑；不需要重新下载单细胞矩阵或TCGA表达矩阵：
 
