@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    151530,
+    42,
+    101,
+    202,
+    303
+  ],
+  "min_distance_rho": null,
+  "median_distance_rho": null,
+  "min_top50_Jaccard": null,
+  "median_top50_Jaccard": null,
+  "all_tensor_converged": true,
+  "all_WT_PGAM5_rows_nonzero": false,
+  "all_no_KO_controls_zero_significant": true,
+  "recurrent_ge4": 0,
+  "recurrent_all5": 0,
+  "meaningful_KO_seed_count": 0,
+  "non_target_genes_above_noise_any_seed": 0,
+  "passes_prespecified_stability": false
+}

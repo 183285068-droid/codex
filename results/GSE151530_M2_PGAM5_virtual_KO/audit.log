@@ -1,0 +1,17 @@
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/audit.py:33: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  check('consensus_medians_exact',np.allclose(out.median_distance.reindex(dist.index),dist.median(1)))
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/audit.py:34: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  check('consensus_significance_frequency_exact',out.significant_seed_count.reindex(dist.index).equals(qs.lt(.05).sum(1)))
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/audit.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  above=dist.gt(pd.Series(thresholds),axis='columns').sum(1);valid=above.drop(index='PGAM5').gt(0);expected=dist.drop(index='PGAM5').median(1)[valid].rename_axis('gene').rename('distance').reset_index().sort_values(['distance','gene'],ascending=[False,True]).head(20).gene.tolist();check('top20_excludes_numerical_noise_and_target',top.gene.tolist()==expected and 'PGAM5' not in set(top.gene) and 'PGAM5' in set(out.index));check('consensus_noise_filter_exact',np.array_equal(out.above_numerical_noise_seed_count.reindex(above.index),above))
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/audit.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  above=dist.gt(pd.Series(thresholds),axis='columns').sum(1);valid=above.drop(index='PGAM5').gt(0);expected=dist.drop(index='PGAM5').median(1)[valid].rename_axis('gene').rename('distance').reset_index().sort_values(['distance','gene'],ascending=[False,True]).head(20).gene.tolist();check('top20_excludes_numerical_noise_and_target',top.gene.tolist()==expected and 'PGAM5' not in set(top.gene) and 'PGAM5' in set(out.index));check('consensus_noise_filter_exact',np.array_equal(out.above_numerical_noise_seed_count.reindex(above.index),above))
+{
+  "checks": 101,
+  "passed": 101,
+  "input_cells": 171,
+  "detected_PGAM5": 22,
+  "main_models": 5,
+  "high_rank_pilots": 1,
+  "no_KO_controls": 6
+}

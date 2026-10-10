@@ -1,0 +1,58 @@
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:23: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  metrics=pd.DataFrame([json.loads((R/'models'/str(s)/'metrics.json').read_text()) for s in seeds]);metrics.to_csv(R/'run_metrics.csv',index=False);thresholds=metrics.set_index('seed').numerical_noise_threshold;above_noise=distance.gt(thresholds,axis='columns').sum(1)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:25: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  consensus=allsum[~allsum.forced_KO_target].copy();consensus['median_rank']=consensus.gene.map(rank.median(1));consensus=consensus.sort_values(['median_distance','gene'],ascending=[False,True]);consensus.to_csv(R/'downstream_consensus.csv',index=False);top=consensus[consensus.above_numerical_noise_seed_count.gt(0)].head(20).copy();top.insert(0,'rank',range(1,len(top)+1));top.to_csv(R/'TOP20_downstream_genes.csv',index=False);consensus[consensus.significant_seed_count.ge(4)].to_csv(R/'recurrent_candidates.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/unsparsified/visualize.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  fig,ax=plt.subplots(figsize=(11,8));g=top.gene.tolist();d=distance.loc[g];rat=d.div(d.median(1).replace(0,np.nan),axis=0);im=ax.imshow(rat,cmap='viridis',aspect='auto',vmin=0,vmax=max(2,float(rat.max().max())));ax.set_xticks(range(5),seeds);ax.set_yticks(range(20),g);ax.set_title('TOP20 | per-seed displacement / gene median\nStars: model q<0.05 in that run')
+{
+  "seeds": [
+    151530,
+    42,
+    101,
+    202,
+    303
+  ],
+  "min_distance_rho": 0.7934739348773044,
+  "median_distance_rho": 0.8454169641853175,
+  "min_top50_Jaccard": 0.25,
+  "median_top50_Jaccard": 0.3157894736842105,
+  "all_tensor_converged": true,
+  "all_WT_PGAM5_rows_nonzero": true,
+  "all_no_KO_controls_zero_significant": true,
+  "recurrent_ge4": 18,
+  "recurrent_all5": 15,
+  "meaningful_KO_seed_count": 5,
+  "non_target_genes_above_noise_any_seed": 1275,
+  "passes_prespecified_stability": false
+}
+ rank     gene  significant_seed_count
+    1     C1QC                       5
+    2   FAM26F                       5
+    3     CHGA                       5
+    4 HLA-DPA1                       5
+    5     PGA5                       5
+    6    TUBB6                       5
+    7     CES1                       5
+    8     TFF3                       5
+    9     CD24                       5
+   10     GBP1                       5
+   11   IFI44L                       5
+   12    ISG15                       5
+   13    DDIT4                       5
+   14  ALOX5AP                       3
+   15       C3                       4
+   16    PLAC8                       5
+   17    IL4I1                       4
+   18    ANXA1                       5
+   19     PIGR                       3
+   20    CDC16                       3

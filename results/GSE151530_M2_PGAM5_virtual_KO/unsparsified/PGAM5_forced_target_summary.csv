@@ -1,0 +1,2 @@
+gene,median_distance,Q1_distance,Q3_distance,significant_seed_count,above_numerical_noise_seed_count,min_model_q,median_model_q,max_model_q,forced_KO_target
+PGAM5,6.455935808543617e-05,6.014658160075617e-05,7.268719114318363e-05,5,5,0.0,0.0,0.0,True

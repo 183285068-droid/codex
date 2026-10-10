@@ -1,0 +1,38 @@
+{
+  "dataset": "GSE151530 HCC",
+  "target": "M2 MKI67/TOP2A cycling macrophages, current 16-group version",
+  "cells": 171,
+  "PGAM5_detected": 22,
+  "genes": 1501,
+  "seeds": [
+    151530,
+    42,
+    101,
+    202,
+    303
+  ],
+  "normalization": "CPM, original full-transcriptome raw library totals; all zero values retained",
+  "gene_selection": ">=5% detection, exclude MT/RPL/RPS; top1500 normalized dispersions plus PGAM5",
+  "network": {
+    "n_nets": 30,
+    "n_samp_cells": 171,
+    "n_comp": 3,
+    "q": 0.95,
+    "replace": true
+  },
+  "tensor": {
+    "rank": 5,
+    "max_iter": 1000,
+    "tol": 1e-05,
+    "n_decimal": 6
+  },
+  "alignment_dimensions": 30,
+  "stability_criteria": {
+    "minimum_pairwise_distance_rho": 0.8,
+    "minimum_pairwise_top50_Jaccard": 0.5,
+    "all_tensors_converged": true,
+    "all_WT_PGAM5_rows_nonzero": true,
+    "all_no_KO_controls_zero_significant": true
+  },
+  "candidate_criterion": "model BH q<0.05 in at least4/5 seeds; descriptive frequency, not a combined p-value"
+}

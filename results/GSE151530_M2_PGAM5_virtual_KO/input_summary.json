@@ -1,0 +1,18 @@
+{
+  "cells": 171,
+  "samples": 21,
+  "patient_proxies": 17,
+  "PGAM5_detected": 22,
+  "PGAM5_counts_distribution": {
+    "0": 149,
+    "1": 18,
+    "2": 2,
+    "4": 1,
+    "5": 1
+  },
+  "genes": 1501,
+  "largest_sample": "H70",
+  "largest_sample_cells": 88,
+  "source": "macrophages_annotated_full.h5ad",
+  "source_SHA256": "17d04f783b857b97d97742942d00ec0f4532bead40b87d99f3bba4d41ae88d5a"
+}

@@ -1,0 +1,35 @@
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:23: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  metrics=pd.DataFrame([json.loads((R/'models'/str(s)/'metrics.json').read_text()) for s in seeds]);metrics.to_csv(R/'run_metrics.csv',index=False);thresholds=metrics.set_index('seed').numerical_noise_threshold;above_noise=distance.gt(thresholds,axis='columns').sum(1)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:24: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/visualize.py:25: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  consensus=allsum[~allsum.forced_KO_target].copy();consensus['median_rank']=consensus.gene.map(rank.median(1));consensus=consensus.sort_values(['median_distance','gene'],ascending=[False,True]);consensus.to_csv(R/'downstream_consensus.csv',index=False);top=consensus[consensus.above_numerical_noise_seed_count.gt(0)].head(20).copy();top.insert(0,'rank',range(1,len(top)+1));top.to_csv(R/'TOP20_downstream_genes.csv',index=False);consensus[consensus.significant_seed_count.ge(4)].to_csv(R/'recurrent_candidates.csv',index=False)
+{
+  "seeds": [
+    151530,
+    42,
+    101,
+    202,
+    303
+  ],
+  "min_distance_rho": null,
+  "median_distance_rho": null,
+  "min_top50_Jaccard": null,
+  "median_top50_Jaccard": null,
+  "all_tensor_converged": true,
+  "all_WT_PGAM5_rows_nonzero": false,
+  "all_no_KO_controls_zero_significant": true,
+  "recurrent_ge4": 0,
+  "recurrent_all5": 0,
+  "meaningful_KO_seed_count": 0,
+  "non_target_genes_above_noise_any_seed": 0,
+  "passes_prespecified_stability": false
+}

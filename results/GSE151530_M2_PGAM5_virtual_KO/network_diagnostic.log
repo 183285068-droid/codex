@@ -1,0 +1,11 @@
+make_networks  processing time:  21.74133054199956
+make_networks  processing time:  8.592280949998894
+       PGAM5_edges_meeting_q95  maximum_to_cutoff_ratio
+count                     30.0                30.000000
+mean                       0.0                 0.309129
+std                        0.0                 0.158857
+min                        0.0                 0.068967
+25%                        0.0                 0.215139
+50%                        0.0                 0.263371
+75%                        0.0                 0.390462
+max                        0.0                 0.779429

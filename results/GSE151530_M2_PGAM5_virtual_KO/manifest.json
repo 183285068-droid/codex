@@ -1,0 +1,432 @@
+[
+  {
+    "file": "01_M2_target_and_observed_PGAM5_UMAP.pdf",
+    "bytes": 66886,
+    "SHA256": "599d496bf681347249a78925d4c99ff8f7c664a6330b5571065ea791a6ae99b7"
+  },
+  {
+    "file": "01_M2_target_and_observed_PGAM5_UMAP.png",
+    "bytes": 188992,
+    "SHA256": "1452b8bb6bfb67832d890ebb6e602da4eecb9f44a207f68e460dc69c8d95ef01"
+  },
+  {
+    "file": "02_M2_sample_representation.pdf",
+    "bytes": 15607,
+    "SHA256": "5e71d65b68035d5ca6f720557edfb3b703db6d769911cdedc639773e638b3eda"
+  },
+  {
+    "file": "02_M2_sample_representation.png",
+    "bytes": 56308,
+    "SHA256": "a77e78e2b8b9f794c4ad7bb230844eb368e9a93b7ae66ba83fa8d03d387362db"
+  },
+  {
+    "file": "03_PGAM5_virtual_KO_TOP20.pdf",
+    "bytes": 12848,
+    "SHA256": "7be5f9a8879e6332be6bfd6aed101e94a303c981fd55eefeec95c2feac229f75"
+  },
+  {
+    "file": "03_PGAM5_virtual_KO_TOP20.png",
+    "bytes": 61065,
+    "SHA256": "09959fbac32a4d8b396ecd71d75d3b5a22ea8c378e9f9e2257c8690685427c8a"
+  },
+  {
+    "file": "04_repetition_stability_and_controls.pdf",
+    "bytes": 16921,
+    "SHA256": "7e1ca5a2185ea0f64004182cea2db0cb9fbb1aeb6c8980d1875bb2a94d9846b1"
+  },
+  {
+    "file": "04_repetition_stability_and_controls.png",
+    "bytes": 66972,
+    "SHA256": "194e0eab3a9feb99127c5e8fbe362cc20d97a9109537900c3c756ee95268149f"
+  },
+  {
+    "file": "05_TOP20_cross_seed_heatmap.pdf",
+    "bytes": 13693,
+    "SHA256": "1bcf74fff4647ffa0e41e652b9b29f66d07767dadaac79eb2f1aa033f92b9c46"
+  },
+  {
+    "file": "05_TOP20_cross_seed_heatmap.png",
+    "bytes": 58970,
+    "SHA256": "0ed58cc0ca4837654b1357a17894ef4019d199808053fcb72dcabe8666691e91"
+  },
+  {
+    "file": "06_PGAM5_edge_filtering_diagnostic.pdf",
+    "bytes": 20926,
+    "SHA256": "f410d1dc5573f902f6634ae1a354eb03445902aaa4422641b7bb110851dea379"
+  },
+  {
+    "file": "06_PGAM5_edge_filtering_diagnostic.png",
+    "bytes": 143152,
+    "SHA256": "9b4a5556c6db23e2d437c7a9bcedcc0b5adb788c995d16d432921f23b7c3825e"
+  },
+  {
+    "file": "07_model_configuration_comparison.pdf",
+    "bytes": 17723,
+    "SHA256": "191113ebc0c4c67776f920dba617781b117e2538da84bc53487165a70629e569"
+  },
+  {
+    "file": "07_model_configuration_comparison.png",
+    "bytes": 75313,
+    "SHA256": "30f290f0d231baaf347296315b69e82e94a1e0e6a163e257d722512b604866e9"
+  },
+  {
+    "file": "PGAM5_forced_target_summary.csv",
+    "bytes": 251,
+    "SHA256": "edc07ad74e3fc821262372ee4de415b3a2b5bc588949bad461ad5656448ece2d"
+  },
+  {
+    "file": "PGAM5_network_sparsification_diagnostic.csv",
+    "bytes": 2313,
+    "SHA256": "922fe008e63be1325b0a4c022d7111b82a184757b75fdabf0dfb9c7ca69f5b7c"
+  },
+  {
+    "file": "README.md",
+    "bytes": 8642,
+    "SHA256": "9963d0c33b74a114534d13cf01b3061be7715d129a5a6760c24d4c401b3e1320"
+  },
+  {
+    "file": "TOP20_downstream_genes.csv",
+    "bytes": 174,
+    "SHA256": "53be070c7c9b0c008c6e24835009954482f09c06cbebea83f0a9f0823d3b3b55"
+  },
+  {
+    "file": "all_genes_perturbation_summary.csv",
+    "bytes": 143444,
+    "SHA256": "32b9553d96fff0151a3bf1a41fe59e3a0cd9c441657dc2d7f37f0c3a63000026"
+  },
+  {
+    "file": "audit.log",
+    "bytes": 2083,
+    "SHA256": "4e8d4b5fb04421c9334def7170bd2754d79d3ea12e4bd3ab1b42a3ccf3107508"
+  },
+  {
+    "file": "audit.py",
+    "bytes": 5390,
+    "SHA256": "16aca7c90fd481ee1f18c71ea5bc5fa277663800aea90ae033d6e2a720900a17"
+  },
+  {
+    "file": "audit_summary.json",
+    "bytes": 150,
+    "SHA256": "778c79669bc5c3ffdc1625fc047ac2bb27fdb085e6280ef142a8e58a4d46b437"
+  },
+  {
+    "file": "downstream_consensus.csv",
+    "bytes": 152692,
+    "SHA256": "0524ddd5ae73dbbe6cbd714032c94692e352e42e10600afaafddebcdd53a9f94"
+  },
+  {
+    "file": "gene_selection.csv",
+    "bytes": 669889,
+    "SHA256": "2eb30808d3548d460e1ec95f0440aab5fbb4beba49a7afc77efbdd5faf4c51c0"
+  },
+  {
+    "file": "high_rank_pilot/151530/WT_KO_networks.npz",
+    "bytes": 8618237,
+    "SHA256": "b263b6fa0644148bace3f47f5a7aeae919dd8c8abec81ea955c3ca6a7015ef73"
+  },
+  {
+    "file": "high_rank_pilot/151530/differential_regulation.csv",
+    "bytes": 149173,
+    "SHA256": "7d3f151d3a64705cea90fa0c3ef0cb82d3f604bf4128da3b5269c7443c1a0d61"
+  },
+  {
+    "file": "high_rank_pilot/151530/manifold_alignment.csv.gz",
+    "bytes": 872782,
+    "SHA256": "0b0117ed3ab3741ca8e9b86595d1d630b96491d9b77896540c44291b7759a4c6"
+  },
+  {
+    "file": "high_rank_pilot/151530/metrics.json",
+    "bytes": 330,
+    "SHA256": "4c063f90b72909d61bda65909c58cc46a7aeddffd66ed0ba7f3ff9c2b025d573"
+  },
+  {
+    "file": "high_rank_pilot/151530/no_KO_control.csv",
+    "bytes": 148696,
+    "SHA256": "90fcf74ee43dbefa2bb5e44b7dd455673cf922f23ceb6d3e97569c6d18e71e15"
+  },
+  {
+    "file": "high_rank_pilot/151530/tensor_residuals.npy",
+    "bytes": 12744,
+    "SHA256": "ad297922accd49817deb6d50cc44bc978498ade68ba736508f5f3c0c888df31b"
+  },
+  {
+    "file": "high_rank_pilot.log",
+    "bytes": 2629,
+    "SHA256": "a77b6f675c20ca3ba65778559b8a90f99fddcf8557b5fe33387b736e50cec333"
+  },
+  {
+    "file": "independent_audit_checks.csv",
+    "bytes": 3338,
+    "SHA256": "4dd256dcd2997989df107a484781c90079621f58d2aa73d3896c0f5480a3aae7"
+  },
+  {
+    "file": "initial_high_rank_protocol.json",
+    "bytes": 1019,
+    "SHA256": "6866687c5d1d78e2ee7927cd78558869caec3a0b3b2a494785f4af70b750291e"
+  },
+  {
+    "file": "input_summary.json",
+    "bytes": 392,
+    "SHA256": "bf88d646365e96f5453039f6772107a9ccfa7228695207566ea87617de298c76"
+  },
+  {
+    "file": "inputs/M2_raw.h5ad",
+    "bytes": 2355626,
+    "SHA256": "4b73a37f75ccc98dd1b5dcef45e779765d111dea60c81da76b1a22743540551b"
+  },
+  {
+    "file": "inputs/macrophage_context.csv.gz",
+    "bytes": 68772,
+    "SHA256": "8cc2905c962e81bd7cf2f221d0ec895e01ae64d5b624dd17ff630da915a86d4f"
+  },
+  {
+    "file": "inputs/network_raw_counts.csv.gz",
+    "bytes": 70680,
+    "SHA256": "eac9b57b364ede78dd8e6906b0887dcc9044f4c4f487964cad4ab420302121c5"
+  },
+  {
+    "file": "inputs/target_cell_metadata.csv.gz",
+    "bytes": 7359,
+    "SHA256": "7d77bb4b0525aa73090567deb6219b74724ddff8b9d424e856526d32f6f1627a"
+  },
+  {
+    "file": "models/101/WT_KO_networks.npz",
+    "bytes": 8396551,
+    "SHA256": "301a721898481ed2665b3c9bca1e4bd77922bf5c8d044582f71fc165b5ef4e6c"
+  },
+  {
+    "file": "models/101/differential_regulation.csv",
+    "bytes": 145775,
+    "SHA256": "e696173b6faa57233f1036988f716cc6393437d9bd457ed2fa1dc4686491742f"
+  },
+  {
+    "file": "models/101/manifold_alignment.csv.gz",
+    "bytes": 871883,
+    "SHA256": "8838ba1cb672a8d02cef9209b5c2efaacc109e8f5583d6f795e340253dfcc185"
+  },
+  {
+    "file": "models/101/metrics.json",
+    "bytes": 465,
+    "SHA256": "56e477547b0ea5a555e15b2986fee4f68039edd831fb0fd1bc6a8839e27589ef"
+  },
+  {
+    "file": "models/101/no_KO_control.csv",
+    "bytes": 148090,
+    "SHA256": "a34ae050716cb6d6ba520a6ed6cdc1838089716954333af1658a5a7040450480"
+  },
+  {
+    "file": "models/101/tensor_residuals.npy",
+    "bytes": 224,
+    "SHA256": "7a707f82390a21a7dc53bbaae3c6c32cac3d4a21335d08f002ad6369cea0e38b"
+  },
+  {
+    "file": "models/151530/WT_KO_networks.npz",
+    "bytes": 8052354,
+    "SHA256": "4b750c5d7ab3339880eebace2df5c967c6ef76d9463c1790edb405ba5058488a"
+  },
+  {
+    "file": "models/151530/differential_regulation.csv",
+    "bytes": 148235,
+    "SHA256": "74f420b19da47eff408d933bb3ccc4aed7242dc6c56636c90f7f86b315145cb9"
+  },
+  {
+    "file": "models/151530/manifold_alignment.csv.gz",
+    "bytes": 878108,
+    "SHA256": "c65e230290053076a8f864f555afd8ab3be48ed697d487fb8fbe7b6f4026a6c0"
+  },
+  {
+    "file": "models/151530/metrics.json",
+    "bytes": 466,
+    "SHA256": "818798ae5acb4929bfd9e78ff52f6780ce58081bdc21e6e24eb8f23b47cfff0f"
+  },
+  {
+    "file": "models/151530/no_KO_control.csv",
+    "bytes": 148775,
+    "SHA256": "e2dabb2387a5ccb15f8077c38ff503ad9b87cb21bc70147d1bbf58af91d12c18"
+  },
+  {
+    "file": "models/151530/tensor_residuals.npy",
+    "bytes": 216,
+    "SHA256": "9ad60bfa113a39176502eb176d7507a100e40505b185f831b2bf9f08a8669302"
+  },
+  {
+    "file": "models/202/WT_KO_networks.npz",
+    "bytes": 8305055,
+    "SHA256": "0cd9a118ffc408ab70ce00a8a1335b3268c3911372ff732655430d057b9d8dc1"
+  },
+  {
+    "file": "models/202/differential_regulation.csv",
+    "bytes": 148701,
+    "SHA256": "34b96de856c5b8d58bd5a26d2c466fc678402978b9a9c5ef91927d7476bd7ec2"
+  },
+  {
+    "file": "models/202/manifold_alignment.csv.gz",
+    "bytes": 892295,
+    "SHA256": "c93a06c0a5175b10b680dbbdee74e9192707d5d9ea37e9203e83738181b80e68"
+  },
+  {
+    "file": "models/202/metrics.json",
+    "bytes": 462,
+    "SHA256": "f5296542c903f2770c641ec0a762fc4de34337fd2fda96f3e475243f0fcb65bd"
+  },
+  {
+    "file": "models/202/no_KO_control.csv",
+    "bytes": 148693,
+    "SHA256": "602db97d6b205a9c453180642340dac9b603e6af16d173a604bcce2d386eb402"
+  },
+  {
+    "file": "models/202/tensor_residuals.npy",
+    "bytes": 192,
+    "SHA256": "f322fbab5ad11a60588ab50ed00fa58923ac70f3445ef81232e97af5f4779af2"
+  },
+  {
+    "file": "models/303/WT_KO_networks.npz",
+    "bytes": 8322575,
+    "SHA256": "ce256e948bf4f9ec1c9a9718c5469e0fad3a5373ea72bb0c0773a2e413a16f16"
+  },
+  {
+    "file": "models/303/differential_regulation.csv",
+    "bytes": 148186,
+    "SHA256": "2a1e23774f556111d6f6a12134c0bb13dae4f0ba2b03f4d57f93a0fe40675165"
+  },
+  {
+    "file": "models/303/manifold_alignment.csv.gz",
+    "bytes": 880136,
+    "SHA256": "36ff4d95a6194bc1e39333c78d91ecd0d8e5deca568706086e3938bb6fbca2b5"
+  },
+  {
+    "file": "models/303/metrics.json",
+    "bytes": 463,
+    "SHA256": "b24085e54c8ded4213475768b05e9db5b6f4ce520769250b21f4331cc6722a2a"
+  },
+  {
+    "file": "models/303/no_KO_control.csv",
+    "bytes": 148836,
+    "SHA256": "544f9203c812397db91417c8b481cb399739f4790946199b05f93e20c53a66f2"
+  },
+  {
+    "file": "models/303/tensor_residuals.npy",
+    "bytes": 200,
+    "SHA256": "b27d4431d3234fb0226e3b488f8f159c06b37d76f8c0f86822d8c03e0bf416c7"
+  },
+  {
+    "file": "models/42/WT_KO_networks.npz",
+    "bytes": 8145383,
+    "SHA256": "2b05ad182a46adb4a6491ceb25e6092702fb8a0e02fcdce34fa1677b087b7aa1"
+  },
+  {
+    "file": "models/42/differential_regulation.csv",
+    "bytes": 148162,
+    "SHA256": "d40e45d3816083f0d92086c24267925eead215fbea93a5ab83c99d9615da0e26"
+  },
+  {
+    "file": "models/42/manifold_alignment.csv.gz",
+    "bytes": 878338,
+    "SHA256": "7f3e9649909d67c2a37c9389c64268a07868c643592d474b342ddac82fb52233"
+  },
+  {
+    "file": "models/42/metrics.json",
+    "bytes": 463,
+    "SHA256": "0dd0bcbb808fa687934cd2ed33fd15f82a2600c5d24514dfdf3eaee9040c0a0c"
+  },
+  {
+    "file": "models/42/no_KO_control.csv",
+    "bytes": 148260,
+    "SHA256": "1139b3ca7325ade5a1d87ae1df7d3fbb4c518213ea0a71d90a0b11d7b1a6d423"
+  },
+  {
+    "file": "models/42/tensor_residuals.npy",
+    "bytes": 208,
+    "SHA256": "1c0546b3ed5c254df96de658a797dbb9f82ed0d703b2533b8c6fadf4c355b285"
+  },
+  {
+    "file": "network_diagnostic.log",
+    "bytes": 606,
+    "SHA256": "f1da95face635278814d946ff1742d40990abadee7a16c418e21560dae1f3e2f"
+  },
+  {
+    "file": "network_diagnostic.py",
+    "bytes": 2521,
+    "SHA256": "cc6510dce98c7be27c19df6a2a086bd6c004c7787e5d928a0b27b77b2005a9e8"
+  },
+  {
+    "file": "package_results.py",
+    "bytes": 13150,
+    "SHA256": "5db9540d4a992318d58977429c82de36fb54b244aa550f47671d6bde3ed2505e"
+  },
+  {
+    "file": "pairwise_stability.csv",
+    "bytes": 237,
+    "SHA256": "009a63cf3fff32890259c4832cf56185ba87e8ffb1b0dbaf5c5e3676f6514dd5"
+  },
+  {
+    "file": "prepare_inputs.log",
+    "bytes": 57,
+    "SHA256": "981ad24d90fd5bbe14cef632bbbd4bbd11f44a36445b61543cc8b732eaa600c6"
+  },
+  {
+    "file": "prepare_inputs.py",
+    "bytes": 1987,
+    "SHA256": "46cabef7911c3a43844a85e3faec9b38b73ec93ec287772b5272536bb4ad7417"
+  },
+  {
+    "file": "protocol.json",
+    "bytes": 1018,
+    "SHA256": "2be9ab060a0dba9a1d306c36022ea2f48a0a81a61af52371e3e35ac0b90601d0"
+  },
+  {
+    "file": "protocol_high_rank_pilot.json",
+    "bytes": 1191,
+    "SHA256": "affbaf5210dfbf6b2086224e88393151ad81c1436ea00fa5f063c98ccaae9683"
+  },
+  {
+    "file": "recurrent_candidates.csv",
+    "bytes": 169,
+    "SHA256": "b4871fba99eed21771466790c88407bb0a9813916a13e33a9e66c0c26edd8fe8"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 152,
+    "SHA256": "9c61f29de098d38ca91d4cd399aaf1764f0be2abf47ba2e1d6e1221b42f624dc"
+  },
+  {
+    "file": "run.log",
+    "bytes": 5336,
+    "SHA256": "d8df89f7fa7b8d9544dcbbfa9c2296068b1af2d2c50175da9d7d93f8e600b744"
+  },
+  {
+    "file": "run.py",
+    "bytes": 3857,
+    "SHA256": "4ce5570fc9b66a69fb4eac0c4fde724d6ad84f1e72d2977f3563697222109f74"
+  },
+  {
+    "file": "run_high_rank_pilot.py",
+    "bytes": 3405,
+    "SHA256": "f524f7f085789bbcefb0da8079550094254c87135bb460d5b6999909ec63ae3d"
+  },
+  {
+    "file": "run_metrics.csv",
+    "bytes": 903,
+    "SHA256": "e8de5cd712439c4a463a517fa07f1573061c1e051e9d2f1ccfd24310f3f1e312"
+  },
+  {
+    "file": "sample_summary.csv",
+    "bytes": 306,
+    "SHA256": "108e147722d7216672cef408becd359294b8affb858b25f0a19a2efd5859bcd0"
+  },
+  {
+    "file": "stability_summary.json",
+    "bytes": 469,
+    "SHA256": "7f0a9de1796f94a08cfbfda0eaaba16b0e8562498baf398a9492f02889412be5"
+  },
+  {
+    "file": "visualize.log",
+    "bytes": 5133,
+    "SHA256": "ec8807796aea410a4e8c186bf71164fe28c98439c50a577b758374c2b728f927"
+  },
+  {
+    "file": "visualize.py",
+    "bytes": 10253,
+    "SHA256": "703d8ca828fe9ad61863afbc31779d41628607474434d6a2a4218fb5b75a1299"
+  }
+]

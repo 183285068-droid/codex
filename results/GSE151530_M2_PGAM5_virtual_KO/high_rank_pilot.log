@@ -1,0 +1,33 @@
+START 151530
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+make_networks  processing time:  12.802948615000787
+manifold_alignment  processing time:  19.965969515000324
+d_regulation  processing time:  0.1791580380013329
+manifold_alignment  processing time:  17.975813041999572
+d_regulation  processing time:  0.04482123300113017
+DONE {'seed': 151530, 'significant_downstream_genes': 0, 'WT_PGAM5_outgoing_edges': 0, 'WT_PGAM5_max_abs_weight': 0.0, 'tensor_converged': True, 'tensor_iterations': 1577, 'tensor_norm_percent': 72.01201654266617, 'no_KO_significant': 0, 'max_null_distance': 2.2199454025442107e-15, 'seconds': 504.16427731513977}
+START 42
+Traceback (most recent call last):
+  File "/workspace/scratch/GSE151530_M2_PGAM5_virtual_KO/run.py", line 22, in <module>
+    nets=make_networks(cp,random_state=seed,**protocol['network'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_utils.py", line 51, in _counter
+    sol = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py", line 476, in make_networks
+    results = [pc_net_calc(data, selected_samples=sample, **network_kws) for sample in sel_samples]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py", line 393, in pc_net_calc
+    return pc_net(Z.to_numpy(), n_comp=n_comp, scale_scores=scale_scores, symmetric=symmetric,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py", line 312, in pc_net
+    network = _pc_net_secular_weights(Z, d, n_comp).T @ Z
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py", line 191, in _pc_net_secular_weights
+    sum_above = terms[:i + 1].sum(axis=0)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py", line 49, in _sum
+    def _sum(a, axis=None, dtype=None, out=None, keepdims=False,
+
+KeyboardInterrupt

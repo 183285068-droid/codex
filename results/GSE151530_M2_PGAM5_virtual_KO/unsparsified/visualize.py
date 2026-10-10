@@ -1,0 +1,51 @@
+from pathlib import Path
+import json,itertools
+import numpy as np,pandas as pd
+from scipy.stats import spearmanr
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
+
+R=Path(__file__).resolve().parent
+def save(fig,name):
+ fig.tight_layout();fig.savefig(R/(name+'.png'),dpi=180);fig.savefig(R/(name+'.pdf'));plt.close(fig)
+def target_context():
+ c=pd.read_csv(R/'inputs/macrophage_context.csv.gz',index_col=0);m=c.mac_cluster.eq('M2');xy=c[['UMAP1','UMAP2']].to_numpy();fig,axs=plt.subplots(1,2,figsize=(13,5.5))
+ for ax in axs:ax.scatter(*xy.T,s=3,c='#d4d4d4',linewidths=0,rasterized=True);ax.set_xticks([]);ax.set_yticks([]);ax.set_xlabel('Original macrophage UMAP1');ax.set_ylabel('UMAP2')
+ axs[0].scatter(*xy[m].T,s=9,c='#277ea7',linewidths=0,label='M2 MKI67/TOP2A (171 cells)',rasterized=True);axs[0].legend(fontsize=9);axs[0].set_title('Observed target population before virtual KO')
+ pg=np.log1p(c.PGAM5_counts/c.total_counts*1e4);order=np.flatnonzero(m&c.PGAM5_counts.gt(0));order=order[np.argsort(pg.iloc[order])];pt=axs[1].scatter(*xy[order].T,s=12,c=pg.iloc[order],vmin=0,vmax=pg[m].max(),cmap='viridis',linewidths=0,rasterized=True);fig.colorbar(pt,ax=axs[1],label='Observed PGAM5 log1p(CP10k)');axs[1].set_title('PGAM5 detected in M2: 22/171 cells')
+ save(fig,'01_M2_target_and_observed_PGAM5_UMAP')
+ s=pd.read_csv(R/'sample_summary.csv');s=s[s.cells.gt(0)].sort_values('cells',ascending=False);fig,ax=plt.subplots(figsize=(11,4));ax.bar(s.Sample,s.cells,color='#bdbdbd',label='All M2 cells');ax.bar(s.Sample,s.PGAM5_detected,color='#c03942',label='PGAM5 RNA detected');ax.tick_params(axis='x',rotation=60);ax.set_ylabel('Cells');ax.set_title('Observed M2 sample representation');ax.legend();save(fig,'02_M2_sample_representation')
+def summarize():
+ protocol=json.loads((R/'protocol.json').read_text());seeds=protocol['seeds'];data={s:pd.read_csv(R/'models'/str(s)/'differential_regulation.csv').set_index('Gene') for s in seeds}
+ distance=pd.DataFrame({s:d.Distance for s,d in data.items()});q=pd.DataFrame({s:d['adjusted p-value'] for s,d in data.items()});rank=distance.drop(index='PGAM5').rank(ascending=False)
+ metrics=pd.DataFrame([json.loads((R/'models'/str(s)/'metrics.json').read_text()) for s in seeds]);metrics.to_csv(R/'run_metrics.csv',index=False);thresholds=metrics.set_index('seed').numerical_noise_threshold;above_noise=distance.gt(thresholds,axis='columns').sum(1)
+ allsum=pd.DataFrame(dict(gene=distance.index,median_distance=distance.median(1),Q1_distance=distance.quantile(.25,axis=1),Q3_distance=distance.quantile(.75,axis=1),significant_seed_count=q.lt(.05).sum(1),above_numerical_noise_seed_count=above_noise,min_model_q=q.min(1),median_model_q=q.median(1),max_model_q=q.max(1))).reset_index(drop=True);allsum['forced_KO_target']=allsum.gene.eq('PGAM5');allsum.to_csv(R/'all_genes_perturbation_summary.csv',index=False);allsum[allsum.forced_KO_target].to_csv(R/'PGAM5_forced_target_summary.csv',index=False)
+ consensus=allsum[~allsum.forced_KO_target].copy();consensus['median_rank']=consensus.gene.map(rank.median(1));consensus=consensus.sort_values(['median_distance','gene'],ascending=[False,True]);consensus.to_csv(R/'downstream_consensus.csv',index=False);top=consensus[consensus.above_numerical_noise_seed_count.gt(0)].head(20).copy();top.insert(0,'rank',range(1,len(top)+1));top.to_csv(R/'TOP20_downstream_genes.csv',index=False);consensus[consensus.significant_seed_count.ge(4)].to_csv(R/'recurrent_candidates.csv',index=False)
+ matrix=np.eye(len(seeds));pairs=[]
+ for i,j in itertools.combinations(range(len(seeds)),2):
+  a,b=seeds[i],seeds[j];effective=metrics.set_index('seed').WT_PGAM5_outgoing_edges.gt(0)&metrics.set_index('seed').downstream_above_noise.gt(0);valid=bool(effective[a] and effective[b]);rho=float(spearmanr(distance.drop(index='PGAM5')[a],distance.drop(index='PGAM5')[b]).statistic) if valid else np.nan;matrix[i,j]=matrix[j,i]=rho;ta=set(data[a].drop(index='PGAM5').nlargest(50,'Distance').index);tb=set(data[b].drop(index='PGAM5').nlargest(50,'Distance').index);pairs.append(dict(seed1=a,seed2=b,distance_rank_rho=rho,top50_Jaccard=len(ta&tb)/len(ta|tb) if valid else np.nan,meaningful_KO_both_seeds=valid))
+ pair=pd.DataFrame(pairs);pair.to_csv(R/'pairwise_stability.csv',index=False)
+ stability=dict(seeds=seeds,min_distance_rho=float(pair.distance_rank_rho.min()),median_distance_rho=float(pair.distance_rank_rho.median()),min_top50_Jaccard=float(pair.top50_Jaccard.min()),median_top50_Jaccard=float(pair.top50_Jaccard.median()),all_tensor_converged=bool(metrics.tensor_converged.all()),all_WT_PGAM5_rows_nonzero=bool(metrics.WT_PGAM5_outgoing_edges.gt(0).all()),all_no_KO_controls_zero_significant=bool(metrics.no_KO_significant.eq(0).all()),recurrent_ge4=int(consensus.significant_seed_count.ge(4).sum()),recurrent_all5=int(consensus.significant_seed_count.eq(5).sum()))
+ stability['meaningful_KO_seed_count']=int((metrics.WT_PGAM5_outgoing_edges.gt(0)&metrics.downstream_above_noise.gt(0)).sum());stability['non_target_genes_above_noise_any_seed']=int(consensus.above_numerical_noise_seed_count.gt(0).sum());stability['passes_prespecified_stability']=bool(pair.meaningful_KO_both_seeds.all() and stability['min_distance_rho']>=.8 and stability['min_top50_Jaccard']>=.5 and stability['all_tensor_converged'] and stability['all_WT_PGAM5_rows_nonzero'] and stability['all_no_KO_controls_zero_significant']);stability={k:(None if isinstance(v,float) and not np.isfinite(v) else v) for k,v in stability.items()};(R/'stability_summary.json').write_text(json.dumps(stability,indent=2,allow_nan=False))
+ if top.empty:
+  fig,ax=plt.subplots(figsize=(10,4));ax.axis('off');ax.text(.5,.6,'No interpretable downstream TOP20',ha='center',fontsize=20,transform=ax.transAxes);ax.text(.5,.37,'No downstream displacement exceeds numerical noise.\nPGAM5 intervention is absent or below numerical resolution.\nFull numerical output is retained in CSV files.',ha='center',fontsize=12,transform=ax.transAxes);save(fig,'03_PGAM5_virtual_KO_TOP20')
+  fig,ax=plt.subplots(figsize=(10,4));ax.bar([str(s) for s in seeds],metrics.WT_PGAM5_outgoing_edges,color='#277ea7');ax.set_ylabel('Nonzero PGAM5 outgoing edges in WT');ax.set_ylim(0,max(1,float(metrics.WT_PGAM5_outgoing_edges.max())*1.15));ax.set_title('Effective intervention diagnostic\nNo cross-seed TOP20 exists when WT PGAM5 rows are zero');save(fig,'05_TOP20_cross_seed_heatmap')
+  fig,axs=plt.subplots(1,2,figsize=(12,4));axs[0].bar([str(s) for s in seeds],metrics.WT_PGAM5_outgoing_edges,color='#277ea7');axs[0].set_ylabel('WT PGAM5 outgoing edges');axs[0].set_ylim(0,max(1,float(metrics.WT_PGAM5_outgoing_edges.max())*1.15));axs[0].set_title('Intervention feasibility, not noise rank correlation');axs[1].bar(np.arange(5)-.2,metrics.significant_downstream_genes,width=.4,label='PGAM5 KO');axs[1].bar(np.arange(5)+.2,metrics.no_KO_significant,width=.4,label='No-KO control');axs[1].set_ylim(0,max(1,float(metrics.significant_downstream_genes.max())*1.15));axs[1].set_xticks(range(5),seeds);axs[1].set_ylabel('Genes with model q<0.05');axs[1].legend();save(fig,'04_repetition_stability_and_controls');print(json.dumps(stability,indent=2));return
+ vals=top.iloc[::-1];scale=1e7;fig,ax=plt.subplots(figsize=(10,9));colors=['#277ea7' if n==5 else '#e69e39' if n==4 else '#aaaaaa' for n in vals.significant_seed_count];ax.barh(vals.gene,vals.median_distance*scale,color=colors);ax.errorbar(vals.median_distance*scale,np.arange(len(vals)),xerr=np.vstack(((vals.median_distance-vals.Q1_distance)*scale,(vals.Q3_distance-vals.median_distance)*scale)),fmt='none',capsize=3,ecolor='#333333');lim=max(vals.Q3_distance.max()*scale,1e-20);ax.set_xlim(0,lim*1.30)
+ for i,r in enumerate(vals.itertuples()):ax.text(max(r.median_distance,r.Q3_distance)*scale+lim*.015,i,f'{r.significant_seed_count}/5',va='center',fontsize=9)
+ ax.set_xlabel('Unsigned network displacement (×10⁻⁷)\nMedian and Q1–Q3 across five seeds; not expression fold change');flag='Stability criteria met' if stability['passes_prespecified_stability'] else 'Exploratory: overall stability criteria not met';ax.set_title(f"GSE151530 M2 | PGAM5 virtual KO | q={protocol['network']['q']}\nTOP20 downstream genes by median displacement\n"+flag,fontsize=12);ax.legend(handles=[Patch(color='#277ea7',label='Model q<0.05 in 5/5 seeds'),Patch(color='#e69e39',label='4/5 seeds'),Patch(color='#aaaaaa',label='≤3/5 seeds')],fontsize=8,loc='lower right');save(fig,'03_PGAM5_virtual_KO_TOP20')
+ fig,axs=plt.subplots(1,2,figsize=(12,5));im=axs[0].imshow(matrix,vmin=0,vmax=1,cmap='viridis');axs[0].set_xticks(range(5),seeds,rotation=45);axs[0].set_yticks(range(5),seeds);axs[0].set_title('Downstream perturbation rank correlation')
+ for i in range(5):
+  for j in range(5):axs[0].text(j,i,f'{matrix[i,j]:.2f}',ha='center',va='center',color='white' if matrix[i,j]<.6 else 'black')
+ fig.colorbar(im,ax=axs[0],shrink=.8);axs[1].bar(np.arange(5)-.2,metrics.significant_downstream_genes,width=.4,color='#277ea7',label='PGAM5 KO');axs[1].bar(np.arange(5)+.2,metrics.no_KO_significant,width=.4,color='#c03942',label='No-KO numerical control');axs[1].set_xticks(range(5),seeds,rotation=45);axs[1].set_ylabel('Downstream genes with model q<0.05');axs[1].set_title('Candidate counts and numerical controls');axs[1].legend(fontsize=8);save(fig,'04_repetition_stability_and_controls')
+ fig,ax=plt.subplots(figsize=(11,8));g=top.gene.tolist();d=distance.loc[g];rat=d.div(d.median(1).replace(0,np.nan),axis=0);im=ax.imshow(rat,cmap='viridis',aspect='auto',vmin=0,vmax=max(2,float(rat.max().max())));ax.set_xticks(range(5),seeds);ax.set_yticks(range(20),g);ax.set_title('TOP20 | per-seed displacement / gene median\nStars: model q<0.05 in that run')
+ for i,gene in enumerate(g):
+  for j,s in enumerate(seeds):
+   if q.loc[gene,s]<.05:ax.text(j,i,'*',ha='center',va='center',color='white',fontsize=13)
+ fig.colorbar(im,ax=ax,label='Displacement / gene median');save(fig,'05_TOP20_cross_seed_heatmap')
+ print(json.dumps(stability,indent=2));print(top[['rank','gene','significant_seed_count']].to_string(index=False))
+if __name__=='__main__':
+ target_context()
+ if all((R/'models'/str(s)/'metrics.json').exists() for s in [151530,42,101,202,303]):summarize()

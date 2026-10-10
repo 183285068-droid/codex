@@ -1,0 +1,9 @@
+{
+  "checks": 101,
+  "passed": 101,
+  "input_cells": 171,
+  "detected_PGAM5": 22,
+  "main_models": 5,
+  "high_rank_pilots": 1,
+  "no_KO_controls": 6
+}
