@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "PGAM5_UMAP_expression_values.csv.gz",
+      "bytes": 77155,
+      "sha256": "8e8f6a6b5f1b999b487c29da51354be9bebbd99b00a9cfb4d94d1a49675c28c2"
+    },
+    {
+      "path": "PGAM5_cluster_mean_expression_UMAP.pdf",
+      "bytes": 85399,
+      "sha256": "90e7ad5246058247df96bc4d7ce8f3e44288254d0829cbeb7c8d57bffd80d928"
+    },
+    {
+      "path": "PGAM5_cluster_mean_expression_UMAP.png",
+      "bytes": 791345,
+      "sha256": "242d52fec46b0f94817ec6e2f2b7bf089473f2646f8b6bed2c7cc0e958ea8fb4"
+    },
+    {
+      "path": "PGAM5_expression_UMAP.pdf",
+      "bytes": 93075,
+      "sha256": "1649708a23622b765686ab7cd9d5214fd4eb1d4bcef40aeb67495f1f1f054e9d"
+    },
+    {
+      "path": "PGAM5_expression_UMAP.png",
+      "bytes": 752840,
+      "sha256": "b38e29654340d0f53afe65cb32f790f88ea33e78e237123f6d65d1d9b885fa8d"
+    },
+    {
+      "path": "PGAM5_expression_by_cluster.csv",
+      "bytes": 3045,
+      "sha256": "131e59d445ae0916c78e290e6c313fb1502c80a971dd92f56d62e908d2f93e58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4478,
+      "sha256": "12f3d004a07c2dba7aecbf8b74857abc4c8d19f57af0bcbdb5537c582fc00fa8"
+    },
+    {
+      "path": "inputs/PGAM5_by_macrophage_cluster.csv",
+      "bytes": 2578,
+      "sha256": "d91bd272b5b8246e3c3feeafd7b276ad1e896a672ecbc705c3531e82d0a0de0e"
+    },
+    {
+      "path": "inputs/cell_expression_coordinates.csv.gz",
+      "bytes": 66704,
+      "sha256": "328c1ecba25efe560323a18ea05d1a817e9ef37564bb56ee537c8ef0e6312766"
+    },
+    {
+      "path": "inputs/macrophage_cluster_annotations.csv",
+      "bytes": 1336,
+      "sha256": "513730dc902328c8ade72f43e65eca164dbb84c257274c9ed56c4499d5fba231"
+    },
+    {
+      "path": "plot_expression.py",
+      "bytes": 11767,
+      "sha256": "765fa2a689c87859a515e86abb2c67aa9a5a0adbe8dfcbf013ed479cda219812"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "50159198e86e3d8fedb566a3968586026dac836bda09fb72dd60fc6d89e19560"
+    },
+    {
+      "path": "source_provenance.json",
+      "bytes": 944,
+      "sha256": "57571c69b69adf3d1bc645b67cb6a3fb0050755f162b179a287007e8e911470e"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 986,
+      "sha256": "2fe1ce74d1d1e8a1f11d7fdbaeb1a21d52d1741af69cb9c0b18dfee6bf4701b7"
+    }
+  ]
+}

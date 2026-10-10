@@ -1,0 +1,15 @@
+{
+  "dataset": "GSE151530",
+  "source_directory": "GSE151530_HCC_hierarchical_clustering",
+  "scope": "Saved HCC macrophage-enriched subset: author TAMs intersect C1Q-rich all-cell C9/C11",
+  "source_sha256": {
+    "macrophage_marker_subset.h5ad": "fd565e8a5d9031a2e3df5ba45b69103f157aa21becc0e7d23c2c35422938b91d",
+    "macrophage_UMAP_coordinates.csv.gz": "cc3a75ff6612d938474bb5f4b1d766607f64ee6aa10955252d5b47299e221e85",
+    "macrophage_cluster_annotations.csv": "513730dc902328c8ade72f43e65eca164dbb84c257274c9ed56c4499d5fba231",
+    "PGAM5_by_macrophage_cluster.csv": "593d1493864663e9e9cd32278df7bb14ed81c1955f9e640718bb5bcac8a77e64"
+  },
+  "raw_PGAM5_verified_against_matrix": true,
+  "UMAP_exact_agreement_with_source_coordinate_file": true,
+  "template_script": "GSE202642_PGAM5_subpopulation_assessment/plot_PGAM5_expression_umap.py",
+  "template_script_sha256": "8188fff70f04768a0caa8c8d6e972e78d1987e1f451a7216723c1cfc103b10de"
+}
