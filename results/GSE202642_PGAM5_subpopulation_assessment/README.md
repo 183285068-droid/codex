@@ -30,9 +30,39 @@ Fisher/BH是合并细胞层面的描述性检验，同一患者的细胞不构�
 
 ![分群与PGAM5检出分布](PGAM5_subpopulation_overview.png)
 
+## 标志基因和功能程序命名
+
+以下名称是基于本队列RNA表达的**描述性、暂定注释**。每群两个命名基因都在该群前25个描述性标志中，并用原始计数重新核对平均CP10k和检出率。名称中的“高表达”是群层面的相对表达特征，不表示群内每个细胞都同时检出这两个基因；也不表示基因表达已经证明功能活性。没有使用PGAM5表达高低决定这些名称。
+
+| 原编号 | 标志基因＋功能相关名称 | 细胞数 |
+|---|---|---:|
+| C0 | SPP1/HLA-DRB5高表达、抗原呈递相关巨噬细胞（伴肝源/肿瘤RNA） | 1809 |
+| C1 | NUPR1/AMBP高表达、低复杂度混合RNA群（待复核） | 121 |
+| C2 | DNASE1L3/SPIC高表达、驻留样巨噬细胞（伴肝源RNA） | 1169 |
+| C3 | CD5L/HLA-DQA2高表达、抗原呈递相关巨噬细胞 | 1242 |
+| C4 | SPP1/MMP12高表达、基质重塑相关巨噬细胞 | 460 |
+| C5 | COL4A1/CDH5高表达、内皮RNA混合群（待复核） | 61 |
+| C6 | LPL/STAB1高表达、脂质处理相关巨噬细胞 | 2117 |
+| C7 | MKI67/TOP2A高表达、增殖型巨噬细胞 | 403 |
+| C8 | NKG7/TRBC2高表达、T/NK RNA混合群（待复核） | 420 |
+| C9 | CCL2/CCL8高表达、趋化因子相关巨噬细胞 | 2244 |
+| C10 | S100A8/FCGR3B高表达、粒细胞RNA混合群（待复核） | 34 |
+| C11 | MT1G/MT2A高表达、金属应答相关巨噬细胞 | 465 |
+| C12 | CXCL2/NR4A2高表达、早期炎症应答相关巨噬细胞 | 1005 |
+| C13 | IL1B/CXCL8高表达、炎症相关巨噬细胞 | 547 |
+| C14 | PCK1/CYP3A5高表达、肝细胞RNA混合群（待复核） | 38 |
+
+C5存在COL4A1/CDH5/FLT1/KDR内皮信号；C8存在NKG7/TRBC2/CD2/CD3G的T/NK信号；C10存在S100A8/FCGR3B/CSF3R/CXCR2粒细胞信号；C14存在PCK1/CYP3A5/ACSM2A/B/ONECUT1肝细胞信号。因此这些群以“混合RNA、待复核”标注，不能直接称为内皮样、细胞毒性或糖异生型巨噬细胞。环境RNA、双细胞、吞噬来源RNA及身份误注释均可能贡献，目前未区分来源，未据此删除细胞。
+
+C0、C1、C2也有肝源/肿瘤RNA背景；C1仅121细胞且文库复杂度低。C2使用“驻留样”表达相似性名称，不宣称已证明组织驻留身份。C10与C14分别只有34、38细胞。许多群由单一患者主导，编号与功能名称不意味着15个经过独立验证的稳定生物学亚群；患者占比、混合RNA标记及逐群限定说明均保留在名称对照表中。C7仍对应此前的PGAM5富集增殖型候选群。
+
+![功能名称对应标志基因表达](functional_subgroup_marker_dotplot.png)
+
+功能命名附加到新的逐细胞文件`functional_subgroup_cell_annotations.csv.gz`，保留原群编号、原RNA候选注释和PGAM5检出状态。历史概览、稳定性与统计表保留编号便于追溯；本次两张PGAM5表达UMAP使用功能名称显示，坐标、表达值和原群成员不因名称变化而改变。
+
 ## PGAM5连续表达量UMAP
 
-在原有UMAP坐标上叠加PGAM5的连续表达量，并标注C0–C14算法群编号。灰色为原始计数0的未检出细胞；黄至红表示每个细胞的`log1p(CP10k)`表达量升高。CP10k以原始全基因文库总计数为分母，不用下载包内部分基因计数的行和作为分母。保留全部零值，不做表达插补、平滑或分位数截断，色阶覆盖完整观察范围；非零细胞按表达量升序绘制于灰色背景之上。
+在原有UMAP坐标上叠加PGAM5的连续表达量，图中原C0–C14编号已替换为“两个标志基因＋功能相关RNA程序”的名称，并用引线指向原群中心。灰色为原始计数0的未检出细胞；黄至红表示每个细胞的`log1p(CP10k)`表达量升高。CP10k以原始全基因文库总计数为分母，不用下载包内部分基因计数的行和作为分母。保留全部零值，不做表达插补、平滑或分位数截断，色阶覆盖完整观察范围；非零细胞按表达量升序绘制于灰色背景之上。
 
 ![PGAM5逐细胞连续表达量](PGAM5_expression_UMAP.png)
 
@@ -97,6 +127,9 @@ Fisher/BH是合并细胞层面的描述性检验，同一患者的细胞不构�
 - `RNA_subgroup_cell_annotation.csv.gz`：可按cell_id回填Seurat/AnnData的完整逐细胞注释。
 - `PGAM5_expression_UMAP.png/.pdf`、`PGAM5_cluster_mean_expression_UMAP.png/.pdf`：逐细胞连续表达和各群平均表达图；PNG用于浏览，PDF用于论文排版。
 - `PGAM5_expression_by_cluster.csv`、`PGAM5_UMAP_expression_values.csv.gz`、`PGAM5_expression_UMAP_validation.json`：表达汇总、绘图数值及原始计数/归一化/坐标复核。
+- `functional_subgroup_names.csv`、`functional_subgroup_marker_evidence.csv`、`functional_subgroup_naming_validation.json`：15群编号/中英文功能名称对照、30个命名基因的表达证据及复核。
+- `functional_subgroup_cell_annotations.csv.gz`：全部12135细胞的功能名称、原编号、PGAM5状态及混合RNA标记，可按cell_id回填。
+- `functional_subgroup_marker_dotplot.png/.pdf`、`functional_subgroup_marker_dotplot_values.csv`：巨噬细胞身份、PGAM5和命名标志的36基因点图及540个实际绘图值。
 - `candidate_cluster_descriptive_markers.csv`、`candidate_RNA_annotation_gene_panel.csv`：候选群表达标志和身份/锚点/程序基因。
 - `cluster_PGAM5_association.csv`、`cluster_PGAM5_by_sample.csv`：主及两个分辨率所有群、七位患者完整结果。
 - `cluster_marker_patient_consistency.csv`、`cluster_marker_directions_by_patient.csv`：前10标志在患者内的描述性表达方向。
@@ -115,7 +148,9 @@ python -m pip install -r requirements.txt
 python verify_package.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python check_patient_marker_consistency.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 NUMBA_NUM_THREADS=2 python plot_assessment.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python name_functional_subgroups.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_expression_umap.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_functional_subgroup_markers.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python audit_results.py
 python write_report.py
 ```

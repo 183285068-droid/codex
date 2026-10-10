@@ -28,6 +28,9 @@
   "smoothing": false,
   "existing_cluster_mean_CP10k_agreement_passed": true,
   "cluster_weighted_mean_agreement_passed": true,
+  "labels": "marker gene pair + provisional RNA-program name",
+  "functional_subgroup_names_SHA256": "8421042fbdfec91bdd6bdfe17d5ca81f34c94ebcae5cc51ee88d0e41d620dac4",
+  "all_cluster_names_mapped": true,
   "highest_mean_CP10k_cluster": "C7",
   "highest_mean_log1p_CP10k_cluster": "C14",
   "checks_passed": true

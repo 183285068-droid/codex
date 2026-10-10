@@ -1,0 +1,31 @@
+primary_cluster,original_cluster_id,marker_gene_1,marker_gene_2,functional_name_EN,functional_name_CN,plot_label,observed_RNA_program,interpretation_note,annotation_status,mixed_RNA_flag,cells,patients_with_cells,largest_patient_fraction,median_n_genes,PGAM5_detected_cells
+0,C0,SPP1,HLA-DRB5,SPP1/HLA-DRB5 — MHC-II / SPP1-high,SPP1/HLA-DRB5高表达、抗原呈递相关巨噬细胞（伴肝源/肿瘤RNA）,"SPP1/HLA-DRB5
+MHC-II / SPP1-high",MHC-II-associated and SPP1-high RNA pattern,HLA genotype/patient effects and hepatic/tumor RNA background may contribute.,Provisional descriptive RNA annotation,True,1809,4,0.9911553344389166,2148.0,106
+1,C1,NUPR1,AMBP,NUPR1/AMBP — Low-complexity / mixed,NUPR1/AMBP高表达、低复杂度混合RNA群（待复核）,"NUPR1/AMBP
+Low-complexity / mixed",NUPR1-associated stress RNA with hepatic RNA and low library complexity,Not a confirmed functional macrophage subtype; hepatic/tumor RNA background.,Provisional descriptive RNA annotation,True,121,2,0.9917355371900827,671.0,0
+2,C2,DNASE1L3,SPIC,DNASE1L3/SPIC — Resident-like / mixed,DNASE1L3/SPIC高表达、驻留样巨噬细胞（伴肝源RNA）,"DNASE1L3/SPIC
+Resident-like / mixed",Resident/scavenging-associated RNA; resident identity remains tentative,FABP1/ALDOB/FGL1 hepatic RNA background; resident-like is an expression analogy.,Provisional descriptive RNA annotation,True,1169,4,0.9846022241231822,2717.0,72
+3,C3,CD5L,HLA-DQA2,CD5L/HLA-DQA2 — Antigen presentation,CD5L/HLA-DQA2高表达、抗原呈递相关巨噬细胞,"CD5L/HLA-DQA2
+Antigen presentation",CD5L and MHC-II-associated RNA,Patient/HLA effects possible; gene expression does not measure antigen presentation activity.,Provisional descriptive RNA annotation,False,1242,7,0.8615136876006442,1964.5,41
+4,C4,SPP1,MMP12,SPP1/MMP12 — Matrix remodeling,SPP1/MMP12高表达、基质重塑相关巨噬细胞,"SPP1/MMP12
+Matrix remodeling",Matrix-remodeling-associated RNA with MMP9/OLR1/IL1RN,Patient-dominated cluster; remodeling is inferred from RNA markers.,Provisional descriptive RNA annotation,False,460,7,0.8630434782608696,4053.0,81
+5,C5,COL4A1,CDH5,COL4A1/CDH5 — Endothelial-RNA mixed,COL4A1/CDH5高表达、内皮RNA混合群（待复核）,"COL4A1/CDH5
+Endothelial-RNA mixed",Endothelial/vascular RNA including FLT1/KDR/NOTCH4,"Mixed-lineage RNA; doublet, ambient RNA or cell identity require review, not inferred here.",Provisional descriptive RNA annotation,True,61,5,0.4262295081967213,2993.0,4
+6,C6,LPL,STAB1,LPL/STAB1 — Lipid handling,LPL/STAB1高表达、脂质处理相关巨噬细胞,"LPL/STAB1
+Lipid handling",Lipid-handling/scavenging-associated RNA with FCGBP/VSIG4,Patient-dominated; does not establish lipid flux or an exclusive subtype.,Provisional descriptive RNA annotation,False,2117,7,0.9740198393953708,1831.0,122
+7,C7,MKI67,TOP2A,MKI67/TOP2A — Cycling,MKI67/TOP2A高表达、增殖型巨噬细胞,"MKI67/TOP2A
+Cycling",Cell-cycle RNA including CENPF/PCLAF/CDK1/TPX2,PGAM5-enriched RNA candidate; only a subset has detectable PGAM5.,Provisional descriptive RNA annotation,False,403,7,0.48883374689826303,3186.0,79
+8,C8,NKG7,TRBC2,NKG7/TRBC2 — T/NK-RNA mixed,NKG7/TRBC2高表达、T/NK RNA混合群（待复核）,"NKG7/TRBC2
+T/NK-RNA mixed",T/NK-associated RNA including CD2/TRBC1/CD3G/CCL5,Not named a cytotoxic macrophage subtype; lymphocyte admixture/doublets not resolved.,Provisional descriptive RNA annotation,True,420,7,0.3,2800.0,35
+9,C9,CCL2,CCL8,CCL2/CCL8 — Chemokine-associated,CCL2/CCL8高表达、趋化因子相关巨噬细胞,"CCL2/CCL8
+Chemokine-associated",Chemokine-associated RNA with GAS6/KCNJ5,Patient-dominated; chemokine secretion/recruitment not directly measured.,Provisional descriptive RNA annotation,False,2244,6,0.963903743315508,3323.0,174
+10,C10,S100A8,FCGR3B,S100A8/FCGR3B — Granulocyte-RNA mixed,S100A8/FCGR3B高表达、粒细胞RNA混合群（待复核）,"S100A8/FCGR3B
+Granulocyte-RNA mixed",Granulocyte-associated RNA including S100A9/CSF3R/CXCR2,Only 34 cells; do not equate this with a confirmed inflammatory macrophage subtype.,Provisional descriptive RNA annotation,True,34,3,0.7941176470588235,2064.5,1
+11,C11,MT1G,MT2A,MT1G/MT2A — Metal response,MT1G/MT2A高表达、金属应答相关巨噬细胞,"MT1G/MT2A
+Metal response",Metallothionein/metal-response RNA with MT1H/MT1M/MT1X,Stress/handling and patient effects possible; no metal-response assay performed.,Provisional descriptive RNA annotation,False,465,6,0.9526881720430107,1988.0,31
+12,C12,CXCL2,NR4A2,CXCL2/NR4A2 — Early inflammatory response,CXCL2/NR4A2高表达、早期炎症应答相关巨噬细胞,"CXCL2/NR4A2
+Early inflammatory response",Inflammatory/immediate-response RNA with DUSP2/TNFAIP3/ATF3,Dissociation/immediate stress may contribute; not evidence of a permanently stable lineage.,Provisional descriptive RNA annotation,False,1005,4,0.8845771144278607,3247.0,71
+13,C13,IL1B,CXCL8,IL1B/CXCL8 — Inflammatory,IL1B/CXCL8高表达、炎症相关巨噬细胞,"IL1B/CXCL8
+Inflammatory",Inflammatory RNA with NFKBIZ/CLEC4E/EGR1,Patient-dominated and early-response RNA present; not an M1 designation.,Provisional descriptive RNA annotation,False,547,5,0.9762340036563071,3966.0,41
+14,C14,PCK1,CYP3A5,PCK1/CYP3A5 — Hepatocyte-RNA mixed,PCK1/CYP3A5高表达、肝细胞RNA混合群（待复核）,"PCK1/CYP3A5
+Hepatocyte-RNA mixed",Hepatocyte-associated RNA with ACSM2A/ACSM2B/ONECUT1,Only 38 cells; do not interpret hepatic metabolic genes as confirmed macrophage function.,Provisional descriptive RNA annotation,True,38,4,0.868421052631579,4179.5,10

@@ -1,0 +1,23 @@
+{
+  "named_RNA_clusters": 15,
+  "annotated_cells": 12135,
+  "marker_evidence_rows": 30,
+  "all_naming_markers_present_and_in_top25": true,
+  "raw_marker_means_and_detection_match_existing_marker_table": true,
+  "all_cells_have_one_provisional_name": true,
+  "cells_removed": 0,
+  "mixed_RNA_flagged_clusters": [
+    "C0",
+    "C1",
+    "C2",
+    "C5",
+    "C8",
+    "C10",
+    "C14"
+  ],
+  "functional_subgroup_names_SHA256": "8421042fbdfec91bdd6bdfe17d5ca81f34c94ebcae5cc51ee88d0e41d620dac4",
+  "interpretation": "Within-cohort RNA descriptions. Mixed RNA is observed, but its source is not established; no functional assay, new clustering, or abundance validation.",
+  "checks_passed": true,
+  "all_12135_original_annotation_rows_and_fields_preserved": true,
+  "all_previous_plotted_coordinates_expression_values_and_cluster_memberships_preserved": true
+}
