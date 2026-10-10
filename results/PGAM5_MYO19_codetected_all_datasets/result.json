@@ -1,0 +1,29 @@
+{
+  "datasets": 8,
+  "platform_strata": 9,
+  "selected_co_detected_rows": 224,
+  "primary_estimable_strata": 7,
+  "primary_BH_significant_strata": [
+    "GSE151530",
+    "GSE149614",
+    "GSE140228_Droplet",
+    "GSE242889",
+    "GSE202642"
+  ],
+  "unestimable_primary_strata": [
+    {
+      "cohort": "GSE125449",
+      "n_codetected": 1,
+      "status": "not_estimable_n<3"
+    },
+    {
+      "cohort": "GSE146115",
+      "n_codetected": 1,
+      "status": "not_estimable_n<3"
+    }
+  ],
+  "selection_verified_all_both_raw_positive": true,
+  "no_cross_cohort_pooled_test": true,
+  "primary_unit": "Co-detected cell; labels/overlap do not establish independent patient validation",
+  "interpretation": "Selected-subset expression correlations, not all-macrophage or causal coexpression. Shared CP10k denominator and low raw-count variance can dominate."
+}

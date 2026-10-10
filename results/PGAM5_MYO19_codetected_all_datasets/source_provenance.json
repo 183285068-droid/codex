@@ -1,0 +1,301 @@
+{
+  "cohorts": [
+    {
+      "cohort": "GSE151530",
+      "source_matrix_shape": [
+        44776,
+        18661
+      ],
+      "macrophage_obs_rows": 3493,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          12290
+        ],
+        "MYO19": [
+          15165
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "PGAM5"
+        ],
+        "MYO19": [
+          "MYO19"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE151530_harmonized_counts_QC.h5ad": {
+          "bytes": 195442076,
+          "sha256": "c074b15d58b1abde326336a6ad2bb997ca3fef2d94b8eb3067e669cbda91f190"
+        },
+        "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE151530_all_cell_annotation.csv.gz": {
+          "bytes": 1496540,
+          "sha256": "6ec4b37eaf479d9ecd2f580319562c88ef36067b1444f820d3c77ab4f9a0021a"
+        }
+      }
+    },
+    {
+      "cohort": "GSE149614",
+      "source_matrix_shape": [
+        34414,
+        25712
+      ],
+      "macrophage_obs_rows": 7448,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          12294
+        ],
+        "MYO19": [
+          15227
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "PGAM5"
+        ],
+        "MYO19": [
+          "MYO19"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE149614_harmonized_counts_QC.h5ad": {
+          "bytes": 201586882,
+          "sha256": "aa9c07ea7eeb7a0a6532bd47431e7d4b07273b5bbbe5cf0c4c27b1cdac5c6c55"
+        },
+        "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE149614_all_cell_annotation.csv.gz": {
+          "bytes": 1083992,
+          "sha256": "46fdbc1ac73fb3572e3ad9bd0ae1031e8f9d7eb9ea8a3e02a1f86ef3ee33f380"
+        }
+      }
+    },
+    {
+      "cohort": "GSE125449",
+      "source_matrix_shape": [
+        298,
+        21324
+      ],
+      "macrophage_obs_rows": 298,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          17909
+        ],
+        "MYO19": [
+          21087
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "ENSG00000247077"
+        ],
+        "MYO19": [
+          "ENSG00000278259"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/GSE125449/HCC_TAM_counts_QC.h5ad": {
+          "bytes": 3365464,
+          "sha256": "6a896941eaba0ecb4c7927b60210ca6734747756f3707fe90e66767ef7312f91"
+        }
+      }
+    },
+    {
+      "cohort": "GSE140228_Droplet",
+      "source_matrix_shape": [
+        2508,
+        54574
+      ],
+      "macrophage_obs_rows": 2508,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          36249
+        ],
+        "MYO19": [
+          45290
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "ENSG00000247077"
+        ],
+        "MYO19": [
+          "ENSG00000278259"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/GSE140228/Droplet/macrophage_counts_QC.h5ad": {
+          "bytes": 19295285,
+          "sha256": "c310ed33fb174c891f4e0dcb9e45ea308b633cc328a1198976f4283b456f26c6"
+        }
+      }
+    },
+    {
+      "cohort": "GSE140228_Smartseq2",
+      "source_matrix_shape": [
+        531,
+        54574
+      ],
+      "macrophage_obs_rows": 531,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          36249
+        ],
+        "MYO19": [
+          45290
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "ENSG00000247077"
+        ],
+        "MYO19": [
+          "ENSG00000278259"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/GSE140228/Smartseq2/macrophage_counts_QC.h5ad": {
+          "bytes": 15955947,
+          "sha256": "d723b9a8bcd403e2f79b71969dc992d20c9d7674146db8e3b78783a016a3c85b"
+        }
+      }
+    },
+    {
+      "cohort": "GSE189903",
+      "source_matrix_shape": [
+        44287,
+        25867
+      ],
+      "macrophage_obs_rows": 3467,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          16929
+        ],
+        "MYO19": [
+          21082
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "PGAM5"
+        ],
+        "MYO19": [
+          "MYO19"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE189903_harmonized_counts_QC.h5ad": {
+          "bytes": 129848520,
+          "sha256": "6f6c5898907e6778d0b3997df8e9f81db10edecc9d9529c08b83602ef620c42c"
+        },
+        "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE189903_all_cell_annotation.csv.gz": {
+          "bytes": 1438238,
+          "sha256": "bb387687126a6dfbebed2225500470dcf9042521bec156451928c8eec65cfc08"
+        }
+      }
+    },
+    {
+      "cohort": "GSE242889",
+      "source_matrix_shape": [
+        3990,
+        57105
+      ],
+      "macrophage_obs_rows": 3990,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          36855
+        ],
+        "MYO19": [
+          53898
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "PGAM5"
+        ],
+        "MYO19": [
+          "MYO19"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE242889_marker_consistent_macrophages.h5ad": {
+          "bytes": 22377399,
+          "sha256": "c5a9c1de34122ea02816de38b768d7d136ed71472dd4647c9e1d9894939a6aee"
+        },
+        "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE242889_all_cell_annotation.csv.gz": {
+          "bytes": 593604,
+          "sha256": "9ab3795e75cdfb5efd07bcd57c3c875cbfde67c3d8ddb953a962c4f4cf463caa"
+        }
+      }
+    },
+    {
+      "cohort": "GSE146115",
+      "source_matrix_shape": [
+        141,
+        27135
+      ],
+      "macrophage_obs_rows": 141,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          18676
+        ],
+        "MYO19": [
+          16628
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "row_18677"
+        ],
+        "MYO19": [
+          "row_16629"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/GSE146115/macrophage_counts_QC.h5ad": {
+          "bytes": 2787566,
+          "sha256": "80d4b9a5e36d2fef3308dc339d01d53f8bc8b29989bd30ba8ef7de3278c457d3"
+        }
+      }
+    },
+    {
+      "cohort": "GSE202642",
+      "source_matrix_shape": [
+        12135,
+        36591
+      ],
+      "macrophage_obs_rows": 12135,
+      "target_gene_column_indices": {
+        "PGAM5": [
+          22880
+        ],
+        "MYO19": [
+          28922
+        ]
+      },
+      "target_gene_column_names": {
+        "PGAM5": [
+          "PGAM5"
+        ],
+        "MYO19": [
+          "MYO19"
+        ]
+      },
+      "input_hashes": {
+        "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE202642_marker_consistent_macrophages.h5ad": {
+          "bytes": 76435694,
+          "sha256": "4937d4a56997206c1b7f9f0e3b3d259592d29459458ee7ba740b83c3538d9b8a"
+        },
+        "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE202642_all_cell_annotation.csv.gz": {
+          "bytes": 1627599,
+          "sha256": "fc490c77a3ef7f0143d57a4258065f3d6afc49d9b884b842ce4d2fa32178317f"
+        }
+      }
+    }
+  ],
+  "selected_cells": 224,
+  "selection": "Strict PGAM5 raw symbol-summed count>0 AND MYO19 raw symbol-summed count>0, among prior QC macrophages",
+  "normalization": "Preserved full-library total_counts denominator; CP10k and natural log1p. Read counts remain read counts, not UMI",
+  "latest_annotations": "Five harmonized/marker-consistent v4 cohorts; original prior author/marker labels for125449,140228,146115",
+  "excluded_dataset": "GSE154906 was cancelled and is not restarted",
+  "no_pooled_independent_test": "GSE125449 overlaps GSE151530; GSE140228 platforms share donors; cohorts/platforms kept separate",
+  "source_expression_sha256": "d723dec44f439a6970f474a0bf2d16d788e67589d346ca3e4926244995196ae5"
+}

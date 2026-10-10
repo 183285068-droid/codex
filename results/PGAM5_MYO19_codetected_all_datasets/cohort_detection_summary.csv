@@ -1,0 +1,10 @@
+cohort,dataset,platform,count_type,scope,QC_macrophages,PGAM5_detected,MYO19_detected,both_detected,both_detected_percent_of_macrophages,co_detected_donor_labels,co_detected_sample_libraries,co_detected_histology,status
+GSE151530,GSE151530,Droplet,UMI,All prior HCC tumor samples,3493,161,189,22,0.6298310907529345,4,4,"{""Hepatocellular carcinoma"": 22}",eligible_n>=3
+GSE149614,GSE149614,Droplet,UMI,Primary HCC tumor samples ending T,7448,197,311,24,0.322234156820623,8,8,"{""HCC_scope_from_prior_analysis"": 24}",eligible_n>=3
+GSE125449,GSE125449,Droplet,UMI,"Nine HCC samples, author TAM labels; overlaps GSE151530",298,4,11,1,0.33557046979865773,1,1,"{""Hepatocellular carcinoma"": 1}",not_estimable_n<3
+GSE140228_Droplet,GSE140228,Droplet,UMI,"All Tumor samples, including HCC and CC; author macrophage subtypes",2508,60,101,6,0.23923444976076555,5,5,"{""HCC"": 5, ""CC"": 1}",eligible_n>=3
+GSE140228_Smartseq2,GSE140228,Smart-seq2,read counts,"All Tumor samples, HCC; author macrophage subtypes",531,62,165,29,5.4613935969868175,3,5,"{""HCC"": 29}",eligible_n>=3
+GSE189903,GSE189903,Droplet,UMI,HCC tumor core and tumor border only,3467,85,266,7,0.2019036631093164,2,4,"{""Hepatocellular carcinoma"": 7}",eligible_n>=3
+GSE242889,GSE242889,Droplet,UMI,"All five HCC tumor samples, irrespective of MVI; latest marker-consistent macrophages",3990,102,149,7,0.17543859649122806,2,2,"{""HCC_scope_from_prior_analysis"": 7}",eligible_n>=3
+GSE146115,GSE146115,Fluidigm C1,read counts,"HCC1,HCC2,HCC5,HCC9; prior exploratory marker-inferred macrophages",141,17,6,1,0.7092198581560284,1,1,"{""HCC_scope_from_prior_analysis"": 1}",not_estimable_n<3
+GSE202642,GSE202642,Droplet,UMI,HCC tumor libraries5-11; latest marker-consistent macrophages; donor labels are sample proxies,12135,868,1036,127,1.046559538524928,7,7,"{""HCC_tumor"": 127}",eligible_n>=3

@@ -1,0 +1,11 @@
+{
+  "scope": "All8completed single-cell datasets; GSE140228 split by platform gives9strata. Preserve prior tissue/histology scope and latest frozen macrophage identities. GSE154906 cancelled",
+  "selection": "Strictly PGAM5 raw symbol-summed count>0 AND MYO19 raw symbol-summed count>0; no zero/undetected cells in correlations or scatter plots",
+  "primary": "Spearman on natural log1p(full-library CP10k), separate cohort/platform. Minimum3co-detected cells and both vectors nonconstant",
+  "primary_p": "Two-sided absolute-statistic permutation p. n<=8: exact enumeration of all n! labeled MYO19 permutations, including identity, extreme/total. n>8: fixed200000MonteCarlo shuffles, (extreme+1)/(B+1), fixed cohort/method/scale seeds",
+  "multiple_testing": "Four separate families: Spearman/log1p_CP10k(primary),Spearman/raw_counts,Pearson/log1p_CP10k,Pearson/raw_counts(sensitivity). Each BH-adjusts permutation p over estimable strata only; family size reported. Unestimable n<3 or constant vector =>NA, never p=0",
+  "analytical_p": "Also export standard scipy two-sided Spearman/Pearson asymptotic p for inspection; BH families use permutation p, not analytical p",
+  "sensitivity": "Raw counts preserve original UMI/read distinctions. Normalized correlation can arise through common library denominator even if raw counts are constant; raw non-estimability must not be hidden",
+  "dependence": "Cell exchangeability assumed by pooled-cell tests; source patients/libraries are not independent cell replicates. No cross-cohort pooled p, no treating overlapping125449/151530 or140228platforms as independent validation",
+  "adjustments": "No depth matching/regression, partial correlation, new annotation, donor pairing or gene-specific expression threshold beyond raw>0"
+}

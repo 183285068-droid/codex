@@ -1,0 +1,48 @@
+GSE151530 selected 22
+GSE149614 selected 24
+GSE125449 selected 1
+GSE140228_Droplet selected 6
+GSE140228_Smartseq2 selected 29
+GSE189903 selected 7
+GSE242889 selected 7
+GSE146115 selected 1
+GSE202642 selected 127
+             cohort  both_detected  Spearman_log1p_r  Spearman_log1p_p  Spearman_log1p_q  Spearman_raw_r  Spearman_raw_p  Spearman_raw_q
+          GSE151530             22          0.658950          0.001335          0.003115        0.069183        1.000000         1.00000
+          GSE149614             24          0.795652          0.000015          0.000052        0.482522        0.015905         0.06362
+          GSE125449              1               NaN               NaN               NaN             NaN             NaN             NaN
+  GSE140228_Droplet              6          1.000000          0.002778          0.003889             NaN             NaN             NaN
+GSE140228_Smartseq2             29         -0.032512          0.867821          0.867821        0.025957        0.892396         1.00000
+          GSE189903              7          0.464286          0.302381          0.352778             NaN             NaN             NaN
+          GSE242889              7          0.964286          0.002778          0.003889             NaN             NaN             NaN
+          GSE146115              1               NaN               NaN               NaN             NaN             NaN             NaN
+          GSE202642            127          0.880284          0.000005          0.000035       -0.058529        0.648677         1.00000
+{
+  "datasets": 8,
+  "platform_strata": 9,
+  "selected_co_detected_rows": 224,
+  "primary_estimable_strata": 7,
+  "primary_BH_significant_strata": [
+    "GSE151530",
+    "GSE149614",
+    "GSE140228_Droplet",
+    "GSE242889",
+    "GSE202642"
+  ],
+  "unestimable_primary_strata": [
+    {
+      "cohort": "GSE125449",
+      "n_codetected": 1,
+      "status": "not_estimable_n<3"
+    },
+    {
+      "cohort": "GSE146115",
+      "n_codetected": 1,
+      "status": "not_estimable_n<3"
+    }
+  ],
+  "selection_verified_all_both_raw_positive": true,
+  "no_cross_cohort_pooled_test": true,
+  "primary_unit": "Co-detected cell; labels/overlap do not establish independent patient validation",
+  "interpretation": "Selected-subset expression correlations, not all-macrophage or causal coexpression. Shared CP10k denominator and low raw-count variance can dominate."
+}
