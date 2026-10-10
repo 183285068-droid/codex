@@ -1,0 +1,31 @@
+unit,endpoint,patient,group,time_days,event,reason
+library_RNA_contribution,OS,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,OS,TCGA-BW-A5NP,Low,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,OS,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,OS,TCGA-CC-A9FU,Low,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,OS,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,OS,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+library_RNA_contribution,OS,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+library_RNA_contribution,OS,TCGA-RC-A6M3,Low,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,PFI,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,PFI,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,PFI,TCGA-CC-A9FU,Low,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,PFI,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+library_RNA_contribution,PFI,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+library_RNA_contribution,PFI,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+library_RNA_contribution,PFI,TCGA-RC-A6M3,Low,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-BW-A5NP,Low,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-CC-A9FU,Low,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,OS,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+equalized_cell_fraction,OS,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+equalized_cell_fraction,OS,TCGA-RC-A6M3,High,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,PFI,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,PFI,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,PFI,TCGA-CC-A9FU,Low,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,PFI,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+equalized_cell_fraction,PFI,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+equalized_cell_fraction,PFI,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+equalized_cell_fraction,PFI,TCGA-RC-A6M3,High,0.0,0.0,missing/nonpositive/nonfinite time

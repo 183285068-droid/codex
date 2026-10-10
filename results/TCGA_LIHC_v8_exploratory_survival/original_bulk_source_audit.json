@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "original_matrix_gene_rows": 23368,
+  "original_matrix_sample_columns": 9264,
+  "patients": 371,
+  "checked_count_rows": 425,
+  "all_371_full_library_denominators_checked": true,
+  "missing_genes_checked_against_full_original_matrix": true,
+  "reference_coverage": {
+    "library_RNA_contribution": {
+      "original_genes": 395,
+      "exact_matched_genes": 364
+    },
+    "equalized_cell_fraction": {
+      "original_genes": 395,
+      "exact_matched_genes": 363
+    }
+  }
+}

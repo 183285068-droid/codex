@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 2750,
+  "all_passed": true,
+  "solver_audit_cases": 12,
+  "maximum_KKT_stationarity_error": 1.7291352854241493e-06,
+  "new_biological_validation_or_cell_abundance_calibration": false
+}

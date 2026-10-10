@@ -1,0 +1,26 @@
+{
+  "reference": "v8 POOLED_ALL_TRAINING/continuous_rank; no new feature or outcome-driven model selection",
+  "primary_unit": "library_RNA_contribution",
+  "sensitivity_unit": "equalized_cell_fraction",
+  "unit_rationale": "Library-RNA contribution is the primary comparator to bulk RNA; equalized cell-RNA reference is an uncalibrated sensitivity analysis, not a validated cell-fraction model.",
+  "reference_size": "395 genes x 20 components in each original model; gene sets differ slightly between units",
+  "predictor": "sum of coefficients at the saved v8 target_mask (TAM_PGAM5_detected); total macrophages is not the primary predictor",
+  "solver": "Unchanged v8 robust nonnegative sum-to-one FCLS, ridge 0.001, 3 reweighting steps, target-only PGAM5 RNA upper budget; NNLS initialization, not a pure NNLS fit.",
+  "query": "GSE62944 FeatureCounts read counts divided by full measured-library total and multiplied by 10000; counts not TPM; no log transform or selected-gene denominator.",
+  "missing_genes": "Use exact measured gene-symbol intersection and retain original row scales. No zero filling and no ambiguous alias conversion. This measured-row projection modifies the available features and does not inherit validation.",
+  "patient_selection": "Reuse outcome-blind primary tumor type 01 selection: highest full-matrix assigned count total, then lexical sample barcode. One patient, one aliquot.",
+  "grouping": "For each unit separately, High > global median over all 371 estimates; Low <= median. Freeze before survival merging; same cutpoint for OS and PFI. No outcome-optimized cutpoint or removal of coefficient zeros.",
+  "endpoints": [
+    "OS",
+    "PFI"
+  ],
+  "PFS_available": false,
+  "endpoint_rule": "Use exact TCGA-CDR OS/OS.time and PFI/PFI.time. Finite time > 0 days and binary event 0 or 1. No imputation. PFI is not relabeled PFS.",
+  "primary_tests": "Unweighted two-sided logrank for OS and PFI; BH across these 2 primary-unit tests.",
+  "sensitivity_tests": "Both endpoints for the other reference unit; BH over its 2 tests separately. Retain all four tests; optional joint-four-test BH also reported.",
+  "KM": "Product-limit curves; Greenwood log-log 95% CI; censor marks; number at risk at start of each displayed month.",
+  "effect_estimates": "Descriptive unadjusted high/low Cox HR, Efron ties; rank-time proportional-hazards diagnostic. No adjusted/independent-prognosis or causal claim.",
+  "authorization": "Current user explicitly requests exploratory TCGA application, superseding archived v8 no-TCGA release gate. Existing validation failures remain recorded.",
+  "interpretation": "Exploratory reference coefficient-survival association only. Neither a coefficient nor prognostic significance establishes PGAM5 specificity or calibrated cellular abundance.",
+  "grouping_frozen_before_survival_analysis": true
+}

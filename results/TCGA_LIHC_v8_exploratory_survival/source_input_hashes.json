@@ -1,0 +1,78 @@
+{
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/library_RNA_contribution_model.npz": {
+    "bytes": 65628,
+    "sha256": "bc0fc0c7563c691d758f87cba34c3a34e5366d8b2f82fa7605f23f9d2212b774"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+    "bytes": 154549,
+    "sha256": "f4b63bde87201365a051f8dd56506c23b9401e6419d77e150bce15ecdba1eaf5"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/library_RNA_contribution_row_scales.csv": {
+    "bytes": 9915,
+    "sha256": "21c4144909cfc824dc912c18740a4dc86f477fa5685380323e8954014980edbb"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/library_RNA_contribution_definition.json": {
+    "bytes": 1255,
+    "sha256": "44537a60aa5abf196013f751063e623506b0550c99ccc67ee5dd3dab49eeef9a"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/library_RNA_contribution_candidate_state_genes.csv": {
+    "bytes": 14023,
+    "sha256": "c6fcb9a18583b2a89700b4ba0c43c4b9523e32c2e3000884bcf507b792b3a87e"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/library_RNA_contribution_group_support.csv": {
+    "bytes": 497,
+    "sha256": "2ee7172f2f055ebf156b3615af9c1b1169410d6f054ef5a89b91321ae0c0fad0"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/equalized_cell_fraction_model.npz": {
+    "bytes": 65562,
+    "sha256": "080cf45992ce5ae6240e1dc9027b3a4487ee858f28e5a763a83e39811d9cb0a8"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+    "bytes": 154663,
+    "sha256": "13252b7a0d6142a0b67f53067836a16a5db143c1471166863ac677b7661da887"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/equalized_cell_fraction_row_scales.csv": {
+    "bytes": 9923,
+    "sha256": "a2e46af480028f5a2bc63202209d9c7d86888a586f6b8bd740e44922a2b200fb"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/equalized_cell_fraction_definition.json": {
+    "bytes": 1251,
+    "sha256": "1c060c6fb00ca72d7202c50d59d3d7cf5b0592f363afc157fc16ccda323bb8a2"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/equalized_cell_fraction_candidate_state_genes.csv": {
+    "bytes": 14036,
+    "sha256": "6643e216901288c98e13118e5e6627bcb031b9a17cb7967f9fe93c1f980c25eb"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/POOLED_ALL_TRAINING/continuous_rank/equalized_cell_fraction_group_support.csv": {
+    "bytes": 497,
+    "sha256": "2ee7172f2f055ebf156b3615af9c1b1169410d6f054ef5a89b91321ae0c0fad0"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/guard_solver.py": {
+    "bytes": 2307,
+    "sha256": "1ad17b3e322ed656da463aa04acba9834d650942d71cc2ca780d1cf7a46fbdb8"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/validation_result.json": {
+    "bytes": 1882,
+    "sha256": "0eee0dbe00b04b9cf57df0f0193522855ad603641410833ee94a4761aefeaeeb"
+  },
+  "/workspace/scratch/PGAM5_RNA_identity_v8/protocol.json": {
+    "bytes": 6002,
+    "sha256": "9fc0f616e03c78aab712ba98c3ecaaa883b25c4ad3cb15caccf5c4cbdffea514"
+  },
+  "/workspace/scratch/PGAM5_signature_optimization_v5/TCGA_primary_common_gene_counts.npz": {
+    "bytes": 11407364,
+    "sha256": "de136a45437f148c5f119e6a2c883376c9290cb33dd70d9f7b8e18ac5f50126a"
+  },
+  "/workspace/scratch/PGAM5_signature_optimization_v5/survival_exploratory/TCGA_CDR_mirror_survival.csv.gz": {
+    "bytes": 101104,
+    "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0"
+  },
+  "/workspace/scratch/PGAM5_signature_optimization_v5/survival_exploratory/source_provenance.json": {
+    "bytes": 1024,
+    "sha256": "fc934476704bb26d37f8f8ff5e7e8d75134aac4cc23c1359b9571c96fd428983"
+  },
+  "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA24_tumor_featurecounts.txt.gz": {
+    "bytes": 307951450,
+    "sha256": "16820a7da5fe7c4db3938edf42d355682863b37030a5a8496f8a9b03ddacc96e"
+  }
+}

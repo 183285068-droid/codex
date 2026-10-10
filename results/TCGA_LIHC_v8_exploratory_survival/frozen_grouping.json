@@ -1,0 +1,48 @@
+{
+  "method": "For each unit separately, High > global median over all 371 estimates; Low <= median. Freeze before survival merging; same cutpoint for OS and PFI. No outcome-optimized cutpoint or removal of coefficient zeros.",
+  "frozen_before_endpoint_analysis": true,
+  "units": [
+    {
+      "unit": "library_RNA_contribution",
+      "patients": 371,
+      "original_reference_genes": 395,
+      "used_genes": 364,
+      "gene_coverage": 0.9215189873417722,
+      "components": 20,
+      "global_median": 0.06056249219098875,
+      "high_patients": 185,
+      "low_patients": 186,
+      "target_coefficient_gt_1e_8": 371,
+      "target_groups": [
+        "TAM_PGAM5_detected"
+      ],
+      "RNA_budget_max_violation": -0.06732549389256537,
+      "candidate_state_genes_measured": 49,
+      "reference_validation_passed": false,
+      "platform_and_cell_RNA_calibrated": false,
+      "output_unit": "Exploratory uncalibrated reference mixture coefficient, not a true cell fraction",
+      "reference_model_sha256": "bc0fc0c7563c691d758f87cba34c3a34e5366d8b2f82fa7605f23f9d2212b774"
+    },
+    {
+      "unit": "equalized_cell_fraction",
+      "patients": 371,
+      "original_reference_genes": 395,
+      "used_genes": 363,
+      "gene_coverage": 0.9189873417721519,
+      "components": 20,
+      "global_median": 0.04933278560758351,
+      "high_patients": 185,
+      "low_patients": 186,
+      "target_coefficient_gt_1e_8": 367,
+      "target_groups": [
+        "TAM_PGAM5_detected"
+      ],
+      "RNA_budget_max_violation": 0.0,
+      "candidate_state_genes_measured": 49,
+      "reference_validation_passed": false,
+      "platform_and_cell_RNA_calibrated": false,
+      "output_unit": "Exploratory uncalibrated reference mixture coefficient, not a true cell fraction",
+      "reference_model_sha256": "080cf45992ce5ae6240e1dc9027b3a4487ee858f28e5a763a83e39811d9cb0a8"
+    }
+  ]
+}

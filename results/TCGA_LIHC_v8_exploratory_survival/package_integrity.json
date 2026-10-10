@@ -1,0 +1,9 @@
+{
+  "archive": "TCGA_LIHC_v8_exploratory_survival_results.zip",
+  "bytes": 4792184,
+  "MiB": 4.570182800292969,
+  "sha256": "6a482ce0c33d95f90520f9ea86d8855a9106d8fb25e705ca3777d2ca9d5d29e6",
+  "payload_files": 87,
+  "archive_member_count": 88,
+  "CRC_and_payload_SHA256_verified": true
+}

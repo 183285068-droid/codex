@@ -1,0 +1,13 @@
+unit,patient,stationarity_max_abs_error,target_budget_active,checked_problem
+library_RNA_contribution,TCGA-2V-A95S,1.0337112992669928e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+library_RNA_contribution,TCGA-CC-A7IG,1.0418551193852599e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+library_RNA_contribution,TCGA-DD-A73G,1.3342260092238933e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+library_RNA_contribution,TCGA-DD-AAVR,1.240763016566171e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+library_RNA_contribution,TCGA-G3-AAV3,1.7291352854241493e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+library_RNA_contribution,TCGA-ZS-A9CG,1.165494992469776e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-2V-A95S,9.988127431179161e-07,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-CC-A7IG,1.2847804868182378e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-DD-A73G,9.450498230645366e-07,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-DD-AAVR,1.4448533140996866e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-G3-AAV3,1.275920556017933e-06,False,"last fixed-weight ridge QP, not global IRLS optimality"
+equalized_cell_fraction,TCGA-ZS-A9CG,7.296296319122403e-07,False,"last fixed-weight ridge QP, not global IRLS optimality"
