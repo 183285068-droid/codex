@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-10",
+  "seed": 20261010,
+  "source_root": "/workspace/scratch/PGAM5_signature_optimization_v5",
+  "primary_cohorts": ["GSE151530", "GSE149614", "GSE189903", "GSE242889", "GSE202642"],
+  "goal": "Provide exact RNA-detection annotations and independently discovered candidate macrophage programs; no automatic claim that any is a PGAM5-specific biological subtype",
+  "history": "Retrospective extension of failed PCA/Leiden states and v5 references. Previously explored cohorts are not new blinded biological validation",
+  "constraints": "No patient-paired DE, depth matching or covariate regression. Keep all macrophages including zeros/cycling cells. GSE154906 remains cancelled",
+  "threshold_sensitivity": "PGAM5 raw count >=1/2/3/5, describe counts, donor coverage and full-library depth. Higher raw-count thresholds do not establish a subtype; subthreshold nonzero cells are RNA-detected",
+  "discovery": {
+    "rank": 8,
+    "rank_sensitivity_final_only": [6, 10],
+    "features": 1000,
+    "donor_cell_cap": 200,
+    "donor_minimum": 30,
+    "feature_rules": "Training-only detection>=10%, variability-ranked log1p(CP10k), PGAM5/finite cycle list/MT/RPL/RPS/Ig/hepatocyte/T/stromal background excluded; remove genes whose training nonmacrophage maximum supported mean exceeds 4x donor-balanced macrophage mean",
+    "input": "Nonnegative log1p(CP10k)/training feature SD with floor0.1, clip to10; full-cell library denominator",
+    "NMF": "Frobenius NMF, coordinate descent, nndsvda, maximum2000 iterations, tol0.0001; L2-normalize program rows and project cells with exact fixed-H NNLS. Original400 cap increased after convergence warnings before mixture results, not to choose favorable biological performance",
+    "state_gate": "Dominant program, activation >= training balanced-cell 70th percentile, winner/runner-up relative margin >=0.05",
+    "association_per_donor": "State>=10 cells, rest>=20, totalPGAM5 detected>=3; normalized PGAM5 arithmetic mean ratio uses pseudocount0.05",
+    "association_per_cohort": "State>=30, statePGAM5 detected>=5, >=3 evaluable donors, pooled PGAM5 detection rate ratio>=1.5, median donor PGAM5 normalized ratio>=1.5, >=70% donor positive normalized direction",
+    "candidate_selection": "Max training-cohort support then median donor PGAM5 ratio; eligible only if at least ceil(0.6*ntraining) cohorts pass. Ifnone, best program remains a REJECTED exploratory candidate, not a validated state",
+    "stability": "2 within-donor balanced-cell bootstrap fits per fold; align programs by Hungarian maximum cosine similarity. Candidate requires minimum cosine>=0.8 and minimum cell-set Jaccard>=0.6; conditional on same feature/scaling basis",
+    "validation": "Leave-one-entire-cohort-out; features/programs/state threshold/candidate chosen only in training. Report PGAM5 enrichment in held cohort, no outcome-based model selection"
+  },
+  "reference": "Split macrophages by inferred candidate-state gate AND observed PGAM5 RNA status into4 components. Never turn state-positive RNA-zero cells into RNA-positive. Full existing nonmacrophage competition retained. Group-specific donor/cohort-balanced meanCP10k and pooled raw-library CP10k separately",
+  "reference_features": "Top25 discriminative broad features per active component plus top30 training candidate NMF genes and PGAM5. PGAM5 always included; program genes are descriptive, not independent FDR-qualified signature",
+  "solver": "Fixed robust_FCLS with ridge0.001 and3 Cauchy reweightings from v5; no tuning against outer outcomes",
+  "mixture_validation": "Reuse actual v5 whole-cohort held-out mixtures with independent original PGAM5 raw-count>0 truth. Primary RNA-detected macrophage estimate=sum of the2 RNA-detected state components; separately report candidate-state component diagnostics. Do not treat inferred-state membership as independent biological ground truth",
+  "gates": {"held_cohort_RNA_state_support_all": true, "bootstrap_min_cosine": 0.8, "bootstrap_min_Jaccard": 0.6, "standard_MAE_pp_max": 1, "standard_Pearson_min": 0.7, "zero_target_p95_percent_max": 0.5, "independent_standard_donors_min": 3},
+  "TCGA": "Only valid cellular-abundance interpretation if state association, independent mixture recovery, biological identity, bulk platform and cell-RNA calibration all pass. Current TPM/platform/cell-RNA calibration unavailable. Do not rerun survival to validate cell annotation"
+}

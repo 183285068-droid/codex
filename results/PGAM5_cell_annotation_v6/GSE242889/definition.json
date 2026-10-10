@@ -1,0 +1,25 @@
+{
+  "training_cohorts": [
+    "GSE151530",
+    "GSE149614",
+    "GSE189903",
+    "GSE202642"
+  ],
+  "held_cohort": "GSE242889",
+  "target_program": 6,
+  "rank": 8,
+  "activation_thresholds": [
+    4.874284808483089,
+    4.195205514123704,
+    3.4462992828430434,
+    3.5957901803742276,
+    3.610753979691197,
+    3.4031357123664043,
+    3.571436727422364,
+    3.884549415610137
+  ],
+  "minimum_margin": 0.05,
+  "training_selection_eligible": false,
+  "definition": "Dominant program, fixed activation threshold and margin; RNA positivity is a separate raw-count field",
+  "status": "CANDIDATE_NOT_BIOLOGICALLY_VALIDATED"
+}

@@ -1,0 +1,9 @@
+{
+  "computational_gates_all_passed": false,
+  "failed_gates": 50,
+  "total_gates": 60,
+  "biological_PGAM5_positive_gold_standard_available": false,
+  "bulk_platform_and_cell_RNA_calibrated": false,
+  "usable_as_TCGA_cellular_abundance": false,
+  "interpretation": "Exact RNA-detection labels and exploratory algorithmic programs/reference. Do not name inferred RNA-zero cells PGAM5-positive or claim validated TCGA cell abundance."
+}

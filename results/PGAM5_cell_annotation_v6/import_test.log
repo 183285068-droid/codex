@@ -1,0 +1,11 @@
+Attached 60 exact cell annotations; PGAM5 cellular abundance validation remains false.
+{
+  "status": "PASS",
+  "actual_source_cells": 60,
+  "RNA_status_and_lineage_exact": true,
+  "candidate_membership_exact": true,
+  "original_counts_and_order_unchanged": true,
+  "unmatched_ID_rejected": true,
+  "Seurat_R_import_executed": false,
+  "interpretation": "ID-based attachment verified; biological PGAM5 subtype and abundance remain unvalidated"
+}

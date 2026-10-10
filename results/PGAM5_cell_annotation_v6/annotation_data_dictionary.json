@@ -1,0 +1,12 @@
+{
+  "cell_id": "Exact existing cell identifier; join by ID, not row order",
+  "cell_type": "Existing conservative lineage identity",
+  "PGAM5_counts": "Symbol-summed observed raw RNA counts",
+  "PGAM5_RNA_status": "RNA_detected if raw>0; zero does not mean protein negative",
+  "PGAM5_macrophage_annotation": "Literal macrophage RNA status, separate from program",
+  "dominant_program": "Algorithmic NMF index, no biological subtype name",
+  "candidate_state_member": "Fixed dominant/activation/margin gate of rejected exploratory candidate",
+  "PGAM5_related_state_annotation": "Rejected exploratory program label; cannot be called confirmed PGAM5-specific state",
+  "bootstrap_membership_agreement": "Agreement in 2 conditional within-donor bootstrap fits; not a posterior probability",
+  "usable_for_validated_TCGA_PGAM5_cell_abundance": "False: RNA state/program and bulk reference not validated for cellular abundance"
+}

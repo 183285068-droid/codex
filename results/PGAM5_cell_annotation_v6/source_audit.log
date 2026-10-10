@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "source_data_audited": true,
+  "checks_passed": 331,
+  "meaning": "Implementation/source/split/last convex solver checks; not proof of stable PGAM5-positive subtype or cellular abundance"
+}

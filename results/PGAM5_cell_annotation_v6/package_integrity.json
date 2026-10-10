@@ -1,0 +1,11 @@
+{
+  "zip_file": "PGAM5_cell_annotation_v6_results.zip",
+  "zip_bytes": 17236931,
+  "zip_MiB": 16.4384183883667,
+  "zip_SHA256": "f061fac5162f6f9d61bd57d4ded281edd5a268c43d06054f617e18f0c5d03bb5",
+  "payload_files": 198,
+  "zip_integrity_test": "PASS",
+  "all_archived_payload_hashes": "PASS",
+  "manifest_scope": "Reviewable payloads; manifest, integrity record and archive excluded to avoid circular hashes",
+  "excluded": "Large original h5ad, all-cell sparse counts and v5 full mixture caches; 60-cell import examples and actual bounded solver/membership cases are included."
+}

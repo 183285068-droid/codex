@@ -1,0 +1,29 @@
+/workspace/scratch/PGAM5_cell_annotation_v6/validate_reference.py:21: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  candidate = obs.cell_id.map(fold_annotations.set_index('cell_id').candidate_state_member).fillna(False).to_numpy(bool)
+Reference validation GSE151530 equalized_cell_fraction features 603 groups 23
+Reference validation GSE151530 library_RNA_contribution features 603 groups 23
+/workspace/scratch/PGAM5_cell_annotation_v6/validate_reference.py:21: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  candidate = obs.cell_id.map(fold_annotations.set_index('cell_id').candidate_state_member).fillna(False).to_numpy(bool)
+Reference validation GSE149614 equalized_cell_fraction features 603 groups 23
+Reference validation GSE149614 library_RNA_contribution features 605 groups 23
+/workspace/scratch/PGAM5_cell_annotation_v6/validate_reference.py:21: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  candidate = obs.cell_id.map(fold_annotations.set_index('cell_id').candidate_state_member).fillna(False).to_numpy(bool)
+Reference validation GSE189903 equalized_cell_fraction features 648 groups 25
+Reference validation GSE189903 library_RNA_contribution features 649 groups 25
+/workspace/scratch/PGAM5_cell_annotation_v6/validate_reference.py:21: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  candidate = obs.cell_id.map(fold_annotations.set_index('cell_id').candidate_state_member).fillna(False).to_numpy(bool)
+Reference validation GSE242889 equalized_cell_fraction features 603 groups 23
+Reference validation GSE242889 library_RNA_contribution features 602 groups 23
+/workspace/scratch/PGAM5_cell_annotation_v6/validate_reference.py:21: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  candidate = obs.cell_id.map(fold_annotations.set_index('cell_id').candidate_state_member).fillna(False).to_numpy(bool)
+Reference validation GSE202642 equalized_cell_fraction features 629 groups 24
+Reference validation GSE202642 library_RNA_contribution features 629 groups 24
+{
+  "computational_gates_all_passed": false,
+  "failed_gates": 50,
+  "total_gates": 60,
+  "biological_PGAM5_positive_gold_standard_available": false,
+  "bulk_platform_and_cell_RNA_calibrated": false,
+  "usable_as_TCGA_cellular_abundance": false,
+  "interpretation": "Exact RNA-detection labels and exploratory algorithmic programs/reference. Do not name inferred RNA-zero cells PGAM5-positive or claim validated TCGA cell abundance."
+}

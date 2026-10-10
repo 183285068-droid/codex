@@ -1,0 +1,19 @@
+NMF GSE151530 training cells 27040 balanced 4952 features 1000 target 3 supported cohorts 1
+Bootstrap GSE151530 1 cos 0.9242306515968862 Jaccard 0.49145190099515185
+Bootstrap GSE151530 2 cos 0.9654245989777747 Jaccard 0.6533713200379867
+NMF GSE149614 training cells 23085 balanced 4507 features 1000 target 3 supported cohorts 1
+Bootstrap GSE149614 1 cos 0.9894634665178521 Jaccard 0.8032236400268636
+Bootstrap GSE149614 2 cos 0.7786193311907961 Jaccard 0.2495511669658887
+NMF GSE189903 training cells 27066 balanced 5955 features 1000 target 0 supported cohorts 0
+Bootstrap GSE189903 1 cos 0.933600138688791 Jaccard 0.7610208816705336
+Bootstrap GSE189903 2 cos 0.9921552482260962 Jaccard 0.9135240572171651
+NMF GSE242889 training cells 26543 balanced 5507 features 1000 target 6 supported cohorts 0
+Bootstrap GSE242889 1 cos 0.908826590608333 Jaccard 0.5188172043010753
+Bootstrap GSE242889 2 cos 0.9781626063382309 Jaccard 0.7329075882794891
+NMF GSE202642 training cells 18398 balanced 5107 features 1000 target 3 supported cohorts 0
+Bootstrap GSE202642 1 cos 0.9836247958552345 Jaccard 0.7914751358127873
+Bootstrap GSE202642 2 cos 0.7283996542247737 Jaccard 0.2642581231538287
+NMF ALL_TRAINING training cells 30533 balanced 6507 features 1000 target 6 supported cohorts 0
+Bootstrap ALL_TRAINING 1 cos 0.879263480153539 Jaccard 0.428082880708107
+Bootstrap ALL_TRAINING 2 cos 0.9790871570108252 Jaccard 0.7148022118247555
+Discovery completed
