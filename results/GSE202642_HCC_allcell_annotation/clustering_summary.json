@@ -1,0 +1,26 @@
+{
+  "cells": 56719,
+  "genes": 36591,
+  "HCC_samples": [
+    "1a-0618",
+    "1a-0706",
+    "2a-0706",
+    "1a-0629",
+    "1a-0727",
+    "1a-0831",
+    "1a-0707"
+  ],
+  "clusters": 21,
+  "seed_stability_ARI": 0.8744864897483309,
+  "QC": "n_genes>=500,pct_mt<20",
+  "HVG": "3000 batch-aware Seurat HVGs, PGAM5 excluded from clustering features",
+  "PCA": "scaled HVGs,50 PCs; first40 input Harmony",
+  "Harmony": "sample_name;seed202642;max_iter20",
+  "neighbors": 20,
+  "Leiden_resolution": 0.8,
+  "Leiden_seed": 202642,
+  "raw_total_counts_exact_match": true,
+  "PGAM5_counts_exact_match": true,
+  "doublet_detection": "not performed; mixed-lineage clusters flagged during annotation",
+  "matrix_sha256": "855789bdd50f129a4131d84e285d0b52a1b481644accc747acc6f99dcc28e2e4"
+}

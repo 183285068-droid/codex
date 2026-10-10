@@ -1,0 +1,5 @@
+{
+  "checks_passed": 17,
+  "minimum_detected_unique_gene_symbols": 500,
+  "QC_detection_grain": "Original 36601 feature rows before duplicate-symbol collapse; original QC records used"
+}
