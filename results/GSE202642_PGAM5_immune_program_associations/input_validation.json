@@ -1,0 +1,9 @@
+{
+  "matrix_sha256": "855789bdd50f129a4131d84e285d0b52a1b481644accc747acc6f99dcc28e2e4",
+  "cells": 12135,
+  "PGAM5_detected": 868,
+  "total_counts_exact_match": true,
+  "PGAM5_exact_match": true,
+  "all_program_genes_present": true,
+  "PGAM5_in_every_program": true
+}

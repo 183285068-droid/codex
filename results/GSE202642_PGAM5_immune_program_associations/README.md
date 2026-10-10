@@ -1,0 +1,51 @@
+# GSE202642：亚群内部PGAM5与免疫RNA程序关联
+
+仅使用既有15个RNA群、12,135个细胞（868个PGAM5检出）。保留所有零值、增殖细胞和混合RNA群；未重新聚类，未使用人为聚岛坐标。7个样本按用户确认视作7位患者。
+
+## 评分与检验
+
+12套人工整理的探索性RNA程序均包含PGAM5。评分为每个成员基因log1p(CP10k)的均值，分母使用原始全基因细胞总计数。PGAM5作为共享RNA锚点，并不意味着它已被证明属于每条免疫通路。各程序完整基因清单及检出覆盖见program_gene_manifest.csv。
+
+每群计算PGAM5归一化表达与完整程序评分的Spearman相关。PGAM5同时出现在预测变量与评分中，正相关本身存在数学上的自身贡献；因此不能对相关系数直接做零相关检验并据此判断免疫关联。
+
+置换时在群内随机重排PGAM5表达，同时把重排后的PGAM5重新加入每个程序评分，其余成员基因保持原位。每群9,999次（C10仅1个阳性细胞，精确枚举34个位置），计算保留自身贡献的零分布、双侧等尾p值，并对全部168个有效群×程序检验统一BH校正。delta_rho=观察rho−置换中位数；正/负方向表示高于/低于自身贡献基线。置换2.5%–97.5%范围是零分布区间，并非置信区间。C1完全没有PGAM5检出，12项检验为NA。
+
+patient_direction_diagnostics.csv在至少20细胞、至少3个PGAM5检出和3个零值的患者×群中，以完整评分协方差减去已知PGAM5自身项var(X)/程序基因数，描述额外关联方向；未进行患者配对差异分析，也未将其当作独立患者统计检验。
+
+## 结果
+
+180项中168项可检验；校正q<0.05共18项。排除混合RNA标记和少于5个PGAM5检出细胞的结果后，留下15项探索性关联。
+
+|群|程序|观察rho|超过自身基线的delta rho|BH q|
+|---|---|---:|---:|---:|
+|C7|Matrix_remodeling|0.319|0.246|0.0056|
+|C7|IFN_gamma_response|0.352|0.223|0.0056|
+|C7|Inflammatory_NFkB|0.275|0.200|0.0056|
+|C7|Oxidative_stress_response|0.298|0.172|0.0084|
+|C11|Lipid_associated_TAM|0.209|0.162|0.0056|
+|C7|MHC_I_processing|0.246|0.157|0.0168|
+|C4|Matrix_remodeling|0.187|0.155|0.0084|
+|C7|Neutrophil_recruitment|0.430|0.141|0.0056|
+|C11|Matrix_remodeling|0.227|0.135|0.0168|
+|C7|T_cell_recruitment|0.493|0.081|0.0294|
+|C3|Matrix_remodeling|0.134|0.074|0.0336|
+|C3|Type1_effector_support|0.219|0.069|0.0112|
+|C9|MHC_I_processing|0.144|0.067|0.02068|
+|C6|Lipid_associated_TAM|0.114|0.066|0.0168|
+|C9|Matrix_remodeling|0.141|0.062|0.024|
+
+C7（MKI67/TOP2A增殖群）集中出现7项校准正关联，涵盖干扰素γ、T细胞招募、MHC-I、基质重塑、炎症、中性粒细胞招募和氧化应激；这些程序同时存在，不能合成为单向的抗肿瘤结论。5位可评估患者中，炎症程序的额外协方差方向为5/5正，干扰素γ为4/5正；MHC-I为2/5正，基质重塑为3/5正，提示部分汇总关联缺乏一致的患者内方向。这些是描述性方向检查，不是患者层面显著性。
+
+![校准关联](self_inclusion_calibrated_associations.png)
+
+![完整评分观察相关](observed_correlations.png)
+
+## 解释范围
+
+本分析不能证明PGAM5使抗肿瘤免疫增强或减弱。干扰素、抗原呈递、炎症、抑制相关RNA可以并存；程序不是功能实验，不以M1/M2二分，也不合成一个抗肿瘤总分。程序间有成员重叠，属于探索性检验。
+
+保留PGAM5会增加所有评分的自身贡献，重点应看校准后的delta和q，而不是观察rho的正负。未进行测序深度回归/匹配；共享RNA量、检出稀疏、患者差异和环境RNA仍可能影响结果。群间患者构成高度不均，细胞级p值不等于7位患者独立复现。C5/C10检出极少，混合RNA群不能直接解释为纯巨噬细胞功能。
+
+## 复现
+
+安装requirements.txt后，在本目录运行python analyze.py（9,999次置换），再运行python plot_report.py。program_raw_counts.npz、program_genes.csv和cell_metadata.csv.gz是精确匹配原始矩阵的便携输入，足以重复评分与统计。prepare.py用于从官方matrix与仓库旧注释重建输入；其大矩阵未随包分发。原始矩阵SHA256、全基因总计数和PGAM5精确一致检查见input_validation.json。analysis.ipynb为已执行的评分、统计复核与可视化伴随Notebook。
