@@ -1,0 +1,10 @@
+{
+  "input": "Portable macrophages_annotated_full.h5ad layers[counts], independent directory, no full-cell matrix",
+  "cell_order_identical": true,
+  "gene_order_identical": true,
+  "normalized_RNA_exact": true,
+  "cluster_labels_exact": true,
+  "cluster_ARI": 1.0,
+  "UMAP_exact": true,
+  "UMAP_max_abs_difference": 0.0
+}

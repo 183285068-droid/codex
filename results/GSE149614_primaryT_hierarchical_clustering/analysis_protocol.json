@@ -1,0 +1,35 @@
+{
+  "dataset": "GSE149614",
+  "scope": "Exactly HCC01T-HCC10T; primary HCC tumor",
+  "QC": {
+    "min_detected_genes": 500,
+    "mitochondrial_percent_less_than": 20
+  },
+  "normalization": "Total-count normalize to 10000 then natural log1p; use original full library total",
+  "all_cells": {
+    "HVG": 3000,
+    "batch_key": "Sample",
+    "PCA": 50,
+    "neighbor_PCs": 40,
+    "neighbors": 20,
+    "Harmony_max_iter": 20,
+    "Leiden_resolution": 0.8
+  },
+  "macrophages": {
+    "HVG": 2000,
+    "PCA": 40,
+    "neighbor_PCs": 30,
+    "neighbors": 20,
+    "Leiden_resolution": 0.6,
+    "resolution_sensitivity": [
+      0.4,
+      0.6,
+      0.8
+    ]
+  },
+  "seed": 149614,
+  "secondary_seed": 42,
+  "PGAM5": "Exclude only from geometry; retain all raw counts and all zeros in expression comparison",
+  "interpretation": "Exploratory RNA marker annotation; no CNV/doublet/ambient correction; no protein/causal claims",
+  "inference": "Descriptive group expression comparison. Marker Wilcoxon is for annotation, not patient-level confirmation."
+}

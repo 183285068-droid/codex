@@ -1,0 +1,16 @@
+{
+  "cells": 5605,
+  "selection": "Author Myeloid, original res.3 clusters with each C1QA/B/C detected >=80% and CD68 >=75%, recomputed only in the 10 primary T samples, intersect newly confirmed macrophage all-cell clusters; competing myeloid excluded",
+  "samples": 10,
+  "patient_proxies": 10,
+  "clusters": 9,
+  "resolution": 0.6,
+  "resolution_sensitivity": {
+    "0.4": 6,
+    "0.6": 9,
+    "0.8": 13
+  },
+  "seed_ARI": 0.8533700101624934,
+  "PGAM5_detected": 136,
+  "HVG": "2000 batch-aware Seurat, PGAM5 not used in geometry"
+}

@@ -1,0 +1,23 @@
+cluster,cell_type_EN,subtype_EN,subtype_CN,status,cells,author_majority,author_majority_fraction,samples,largest_sample_fraction
+0,T cells,IL7R/CD3E T cells,IL7R/CD3E T细胞,supported,3415,T/NK,0.9932650073206443,10,0.3830161054172767
+1,NK/gamma-delta T-like,KLRD1/TRDC NK-gamma-delta T-like,KLRD1/TRDC NK/γδT样细胞,qualified,749,T/NK,0.9959946595460614,8,0.5514018691588785
+2,Monocyte/DC-like myeloid,FCN1/CD1C mono-DC-like myeloid,FCN1/CD1C单核/DC样髓系细胞,qualified,1912,Myeloid,0.9942468619246861,10,0.20292887029288703
+3,Macrophages,MSR1/C1QC macrophages,MSR1/C1QC巨噬细胞,supported,5567,Myeloid,0.9789832944135082,10,0.20172444763786598
+4,DC-like cells,"CLEC9A/XCR1 DC-like, pDC admixture",CLEC9A/XCR1 DC样群（伴pDC信号）,qualified,252,Myeloid,0.8253968253968254,10,0.2698412698412698
+5,Macrophages,TIMD4/CD5L resident-like macrophages,TIMD4/CD5L驻留样巨噬细胞,qualified,283,Myeloid,0.9717314487632509,5,0.9752650176678446
+6,Endothelial cells,CLEC14A/EMCN endothelial,CLEC14A/EMCN内皮细胞,supported,1890,Endothelial,0.8767195767195767,9,0.31693121693121695
+7,Fibroblast/mural cells,COL1A2/PDGFRB stromal-mural,COL1A2/PDGFRB基质/血管壁细胞,qualified,1551,Fibroblast,0.9709864603481625,10,0.3784655061250806
+8,Hepatocyte/epithelial-like,SLCO1B3/CYP2A6 hepatocyte-like,SLCO1B3/CYP2A6肝细胞样群,supported,1046,Hepatocyte,0.9636711281070746,9,0.5420650095602294
+9,T cells,MKI67/TOP2A cycling T-like,MKI67/TOP2A增殖T细胞样群,qualified,588,T/NK,0.8758503401360545,10,0.304421768707483
+10,Mast cells,TPSAB1/CPA3 mast cells,TPSAB1/CPA3肥大细胞,supported,27,Myeloid,0.7777777777777778,4,0.8518518518518519
+11,Hepatocyte/epithelial-like,ASGR1/CPS1 hepatocyte-like,ASGR1/CPS1肝细胞样群,supported,6070,Hepatocyte,0.9682042833607908,10,0.40065897858319605
+12,Hepatocyte/epithelial-like,PRSS3/AGR2 epithelial-like,PRSS3/AGR2上皮样群,qualified,1032,Hepatocyte,0.9835271317829457,6,0.6666666666666666
+13,Hepatocyte/epithelial-like,KRT19/EPCAM epithelial-like,KRT19/EPCAM上皮样群,supported,1292,Hepatocyte,0.9396284829721362,9,0.7244582043343654
+14,T cells,FOXP3/CTLA4 Treg-like,FOXP3/CTLA4调节性T细胞样群,supported,1245,T/NK,0.9959839357429718,10,0.42650602409638555
+15,T/hepatic mixed RNA,CD8A/APOC3 T-hepatic mixed RNA,CD8A/APOC3 T/肝源混合RNA群,mixed,324,Hepatocyte,0.49691358024691357,9,0.4074074074074074
+16,Macrophages,MKI67/TOP2A cycling macrophage-like,MKI67/TOP2A增殖巨噬细胞样群,qualified,204,Myeloid,0.6813725490196079,10,0.23529411764705882
+17,Hepatocyte/epithelial-like,TOP2A/BIRC5 cycling epithelial-like,TOP2A/BIRC5增殖上皮样群,qualified,2391,Hepatocyte,0.8891677122542869,10,0.23379339188624007
+18,Hepatocyte/epithelial-like,GSTA1/KRT18 hepatocyte-like,GSTA1/KRT18肝细胞样群,supported,2591,Hepatocyte,0.99266692396758,10,0.252412196063296
+19,B cells,MS4A1/CD79A B cells,MS4A1/CD79A B细胞,supported,404,B,0.8737623762376238,10,0.7648514851485149
+20,Plasma/B lineage,MZB1/JCHAIN plasma-B lineage,MZB1/JCHAIN浆细胞/B谱系群,qualified,1462,B,0.8707250341997264,10,0.7749658002735978
+21,Mac/hepatic mixed RNA,C1QB/CYP2D6 Mac-hepatic mixed RNA,C1QB/CYP2D6巨噬/肝源混合RNA群,mixed,119,Myeloid,0.5714285714285714,8,0.5210084033613446

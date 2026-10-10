@@ -1,0 +1,15 @@
+from pathlib import Path
+import pandas as pd
+R=Path(__file__).resolve().parent
+names={
+'M0':('FOS/JUN immediate-early macrophages','FOS/JUN即时早期反应巨噬细胞','qualified'),
+'M1':('MKI67/TOP2A cycling macrophages','MKI67/TOP2A增殖型巨噬细胞','supported'),
+'M2':('C1QC/HLA-DRA antigen-presentation-associated','C1QC/HLA-DRA抗原呈递相关巨噬细胞','supported'),
+'M3':('JUND/HSPA1A stress-associated, sample-dominated','JUND/HSPA1A应激相关巨噬细胞（样本主导）','qualified'),
+'M4':('TIMD4/CD5L resident-like macrophages','TIMD4/CD5L驻留样巨噬细胞','qualified'),
+'M5':('SPP1/LGALS1 remodeling-associated macrophages','SPP1/LGALS1重塑相关巨噬细胞','supported'),
+'M6':('C1QA/CD3D Mac-T mixed RNA','C1QA/CD3D巨噬/T混合RNA群','mixed'),
+'M7':('MT1G/MT2A metal-response macrophages','MT1G/MT2A金属响应相关巨噬细胞','supported'),
+'M8':('GRM4/AIM1L macrophages, unresolved','GRM4/AIM1L巨噬富集群（待定）','qualified')}
+assert set(pd.read_csv(R/'macrophage_cluster_sample_counts.csv',index_col=0).index)==set(names)
+pd.DataFrame([dict(cluster=c,subtype_EN=en,subtype_CN=cn,status=status) for c,(en,cn,status) in names.items()]).to_csv(R/'macrophage_cluster_annotations.csv',index=False)

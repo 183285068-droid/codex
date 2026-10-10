@@ -1,0 +1,8 @@
+from pathlib import Path
+import numpy as np,pandas as pd,matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+R=Path(__file__).resolve().parent
+m=pd.read_csv(R/'allcell_sample_celltype_counts.csv',index_col=0);p=m.div(m.sum(axis=1),axis=0)*100
+fig,ax=plt.subplots(figsize=(12,5));p.plot.bar(stacked=True,ax=ax,colormap='tab20',width=.8);ax.set_ylabel('QC cells (%)');ax.set_xlabel('Primary HCC tumor sample');ax.legend(bbox_to_anchor=(1,1),loc='upper left',fontsize=8);fig.tight_layout();fig.savefig(R/'01_allcell_sample_composition.png',dpi=180);fig.savefig(R/'01_allcell_sample_composition.pdf');plt.close(fig)
+s=pd.read_csv(R/'PGAM5_by_macrophage_cluster_sample.csv');defs=pd.read_csv(R/'macrophage_cluster_annotations.csv').set_index('cluster');groups=sorted(s.mac_cluster.unique(),key=lambda c:int(c[1:]));samples=sorted(s.Sample.unique());fig,ax=plt.subplots(figsize=(12,max(5,len(groups)*.5)));xs=s.Sample.map({k:i for i,k in enumerate(samples)});ys=s.mac_cluster.map({k:i for i,k in enumerate(groups)});pt=ax.scatter(xs,ys,s=15+140*np.sqrt(s.cells/s.cells.max()),c=s.mean_CP10k,cmap='viridis',edgecolor='black',linewidth=.4);fig.colorbar(pt,ax=ax,label='Sample-specific mean PGAM5 CP10k (zeros included)');ax.set_xticks(range(len(samples)),samples,rotation=45,ha='right');ax.set_yticks(range(len(groups)),[c+' '+defs.loc[c,'subtype_EN'] for c in groups]);ax.invert_yaxis();ax.set_xlabel('Sample; dot area grows with cell count');ax.set_title('PGAM5 by macrophage group and sample (absent groups left blank)');fig.tight_layout();fig.savefig(R/'03_PGAM5_cluster_sample_support.png',dpi=180);fig.savefig(R/'03_PGAM5_cluster_sample_support.pdf');plt.close(fig)
