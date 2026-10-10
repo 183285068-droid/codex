@@ -1,0 +1,19 @@
+{
+  "cells": 56719,
+  "clusters": 21,
+  "PGAM5_detected_cells": 3298,
+  "source_PGAM5_counts_exact_match": true,
+  "UMAP_coordinates_unchanged": true,
+  "zeros_included_in_means": true,
+  "normalization_denominator": "Original full-library counts, not marker subset",
+  "color_clipping": false,
+  "source_file_hashes": {
+    "cell_annotations.csv.gz": "28688ed2f0bb36e11533b74f27d5faf43c438bfb8b0b620b65bfcc932593aece",
+    "cluster_annotations.csv": "22b1e9f4093df9ffafafb151baf0fe30d790c1a80752af9385e1f3929c350f87",
+    "UMAP_coordinates.csv.gz": "3dbe057ff318af6a762592853f0f65c95b9d9fc9017e5bf5e3facf494918605b",
+    "marker_genes.csv": "da0eb7c3531ca4355f3f422ec4a2a48ea476198c30a1926e5960e43cd432cf4b",
+    "marker_raw_counts.npz": "14deb114fde77ba648a83d37362acdbe469130290a0ff35a0284d3cddf169d1f"
+  },
+  "independent_export_coordinate_check": true,
+  "independent_all_cluster_mean_and_detection_check": true
+}
