@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "source_audit": false,
+  "checks_passed": 341,
+  "interpretation": "Saved calculation/constraint/centroid/last convex subproblem verification, not biological or cellular-abundance validation"
+}

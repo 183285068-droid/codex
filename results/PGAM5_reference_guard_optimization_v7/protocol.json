@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "seed": 20261010,
+  "v6_root": "/workspace/codex/results/PGAM5_cell_annotation_v6",
+  "source_root": "/workspace/scratch/PGAM5_signature_optimization_v5",
+  "primary_cohorts": ["GSE151530", "GSE149614", "GSE189903", "GSE242889", "GSE202642"],
+  "goal": "Diagnose and reduce erroneous RNA-detected macrophage coefficients while retaining dose recovery; no claim of a new validated biological PGAM5-positive subtype",
+  "constraints": "Preserve v6 identities, PGAM5 raw>0 labels, zeros and cycling cells. No patient-paired DE, depth matching/regression or survival reanalysis. GSE154906 remains cancelled",
+  "comparison": ["v6_baseline", "PGAM5_budget", "background_prototypes", "prototypes_plus_budget"],
+  "selection": "All four fixed configurations reported; no selecting parameters based on outer held-cohort performance",
+  "background_prototypes": "Within each original non-target fine group, training donor profiles with>=20 cells, >=6 supported donor profiles in total. Weighted KMeans on log1p(profile / saved v6 row-scale), k=min(3,floor(nprofiles/3)); weights equal-cohort then equal-donor. Add a centroid only if >=2 donor labels and >=50 cells; keep full baseline competitors and target components. Exclude every RNA-detected macrophage fine group from prototypes. Profiles are nuisance references, not new biological subtypes",
+  "feature_space": "Same training-only v6 feature list and row scales for all four configurations; no held-expression feature selection. PGAM5 remains included",
+  "PGAM5_budget": "Require the total predicted PGAM5 signal from ALL components to be <= the observed PGAM5 signal in the identically normalized mixture. An accounting constraint under reference/platform assumptions, not a biological calibration. If observed PGAM5 is zero, solve only over zero-PGAM5 reference components",
+  "solver": "robust nonnegative simplex QP, same ridge0.001 and3 Cauchy reweightings as v6; add budget linear constraint only in the guarded variants",
+  "validation": "Same v5 actual mixtures and v6 original RNA-detection truths; five whole-cohort holds, two units; inspect all zero-target stress cases, standard dose recovery, low-dose sensitivity, total-macrophage recovery and residual tradeoffs. v6 state evidence remains failed",
+  "gates": {"standard_MAE_pp_max": 1, "standard_r_min": 0.7, "all_zero_P95_percent_max": 0.5, "independent_standard_donors_min": 3, "nonzero_cell_doses": [0.005,0.01,0.02,0.05]},
+  "interpretation": "Even computational improvement does not replace independent protein/RNA identity, real-mixture or platform/cell-RNA calibration. Failed or unverified gates are not passed. Outputs remain exploratory coefficients"
+}

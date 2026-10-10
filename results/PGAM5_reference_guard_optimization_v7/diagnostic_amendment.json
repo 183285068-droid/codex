@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-10",
+  "timing": "After the initial fixed four-model comparison, before computing target-only budget results",
+  "trigger": "All-component PGAM5 accounting can force PGAM5-zero nonmacrophage mixtures into zero-PGAM5 macrophage references, degrading lineage identity",
+  "correction": "Bound only the predicted PGAM5 contribution from observed-RNA-positive macrophage target columns. Other lineage columns are not forced to zero when the query PGAM5 value is zero",
+  "new_fixed_methods": ["target_only_budget", "prototypes_target_only_budget"],
+  "preserve": "All four initial models, original protocol and results retained; references and parameters unchanged",
+  "validation_limit": "Retrospective diagnostic amendment influenced by previously seen outer results. Reuse of held cohorts is not a fresh independent evaluation. No new biology or abundance-validation claim"
+}

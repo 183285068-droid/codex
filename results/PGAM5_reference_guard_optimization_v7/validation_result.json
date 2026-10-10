@@ -1,0 +1,20 @@
+{
+  "v6_biological_state_evidence_passed": false,
+  "independent_protein_validation_available": false,
+  "real_known_mixture_validation_available": false,
+  "bulk_platform_cell_RNA_calibrated": false,
+  "usable_as_TCGA_cellular_abundance": false,
+  "fixed_methods_reported": [
+    "v6_baseline",
+    "PGAM5_budget",
+    "background_prototypes",
+    "prototypes_plus_budget"
+  ],
+  "interpretation": "Computational guard/reference comparison only; do not convert coefficients into validated PGAM5-positive cell abundance",
+  "diagnostic_amendment_methods": [
+    "target_only_budget",
+    "prototypes_target_only_budget"
+  ],
+  "amendment_is_fresh_independent_validation": false,
+  "all_component_budget_recommended": false
+}

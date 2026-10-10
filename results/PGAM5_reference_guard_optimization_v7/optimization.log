@@ -1,0 +1,91 @@
+Built {'fold': 'GSE151530', 'unit': 'equalized_cell_fraction', 'baseline_components': 23, 'added_prototypes': 32, 'genes': 603, 'training_cohorts': 'GSE149614,GSE189903,GSE242889,GSE202642'}
+Built {'fold': 'GSE151530', 'unit': 'library_RNA_contribution', 'baseline_components': 23, 'added_prototypes': 34, 'genes': 603, 'training_cohorts': 'GSE149614,GSE189903,GSE242889,GSE202642'}
+Built {'fold': 'GSE149614', 'unit': 'equalized_cell_fraction', 'baseline_components': 23, 'added_prototypes': 31, 'genes': 603, 'training_cohorts': 'GSE151530,GSE189903,GSE242889,GSE202642'}
+Built {'fold': 'GSE149614', 'unit': 'library_RNA_contribution', 'baseline_components': 23, 'added_prototypes': 34, 'genes': 605, 'training_cohorts': 'GSE151530,GSE189903,GSE242889,GSE202642'}
+Built {'fold': 'GSE189903', 'unit': 'equalized_cell_fraction', 'baseline_components': 25, 'added_prototypes': 29, 'genes': 648, 'training_cohorts': 'GSE151530,GSE149614,GSE242889,GSE202642'}
+Built {'fold': 'GSE189903', 'unit': 'library_RNA_contribution', 'baseline_components': 25, 'added_prototypes': 32, 'genes': 649, 'training_cohorts': 'GSE151530,GSE149614,GSE242889,GSE202642'}
+Built {'fold': 'GSE242889', 'unit': 'equalized_cell_fraction', 'baseline_components': 23, 'added_prototypes': 32, 'genes': 603, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE202642'}
+Built {'fold': 'GSE242889', 'unit': 'library_RNA_contribution', 'baseline_components': 23, 'added_prototypes': 31, 'genes': 602, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE202642'}
+Built {'fold': 'GSE202642', 'unit': 'equalized_cell_fraction', 'baseline_components': 24, 'added_prototypes': 33, 'genes': 629, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE242889'}
+Built {'fold': 'GSE202642', 'unit': 'library_RNA_contribution', 'baseline_components': 24, 'added_prototypes': 33, 'genes': 629, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE242889'}
+Built {'fold': 'ALL_TRAINING', 'unit': 'equalized_cell_fraction', 'baseline_components': 24, 'added_prototypes': 35, 'genes': 628, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE242889,GSE202642'}
+Built {'fold': 'ALL_TRAINING', 'unit': 'library_RNA_contribution', 'baseline_components': 24, 'added_prototypes': 36, 'genes': 628, 'training_cohorts': 'GSE151530,GSE149614,GSE189903,GSE242889,GSE202642'}
+Progress GSE149614 equalized_cell_fraction 100 of 460
+Progress GSE151530 equalized_cell_fraction 100 of 446
+Progress GSE149614 equalized_cell_fraction 200 of 460
+Progress GSE151530 library_RNA_contribution 100 of 446
+Progress GSE149614 equalized_cell_fraction 300 of 460
+Progress GSE151530 equalized_cell_fraction 200 of 446
+Progress GSE149614 equalized_cell_fraction 400 of 460
+Progress GSE151530 library_RNA_contribution 200 of 446
+Completed GSE149614 equalized_cell_fraction 460 mixture rows x4
+Progress GSE151530 equalized_cell_fraction 300 of 446
+Progress GSE149614 library_RNA_contribution 100 of 460
+Progress GSE151530 library_RNA_contribution 300 of 446
+Progress GSE149614 library_RNA_contribution 200 of 460
+Progress GSE151530 equalized_cell_fraction 400 of 446
+Progress GSE149614 library_RNA_contribution 300 of 460
+Completed GSE151530 equalized_cell_fraction 446 mixture rows x4
+Progress GSE151530 library_RNA_contribution 400 of 446
+Progress GSE149614 library_RNA_contribution 400 of 460
+Completed GSE151530 library_RNA_contribution 446 mixture rows x4
+Completed GSE149614 library_RNA_contribution 460 mixture rows x4
+Progress GSE189903 equalized_cell_fraction 100 of 168
+Progress GSE242889 equalized_cell_fraction 100 of 237
+Progress GSE189903 library_RNA_contribution 100 of 168
+Progress GSE242889 equalized_cell_fraction 200 of 237
+Completed GSE189903 equalized_cell_fraction 168 mixture rows x4
+Completed GSE242889 equalized_cell_fraction 237 mixture rows x4
+Completed GSE189903 library_RNA_contribution 168 mixture rows x4
+Progress GSE202642 equalized_cell_fraction 100 of 349
+Progress GSE242889 library_RNA_contribution 100 of 237
+Progress GSE242889 library_RNA_contribution 200 of 237
+Progress GSE202642 library_RNA_contribution 100 of 349
+Progress GSE202642 equalized_cell_fraction 200 of 349
+Completed GSE242889 library_RNA_contribution 237 mixture rows x4
+Progress GSE202642 equalized_cell_fraction 300 of 349
+Progress GSE202642 library_RNA_contribution 200 of 349
+Completed GSE202642 equalized_cell_fraction 349 mixture rows x4
+Progress GSE202642 library_RNA_contribution 300 of 349
+Completed GSE202642 library_RNA_contribution 349 mixture rows x4
+  dataset                     unit                 method  standard_donor_labels  standard_MAE_pp  standard_r  all_zero_P95_percent  all_zero_max_percent  standard_macrophage_MAE_pp  median_relative_residual
+GSE149614  equalized_cell_fraction           PGAM5_budget                      9         1.350359    0.535719              2.552019              9.989445                    7.952641                  0.722916
+GSE149614  equalized_cell_fraction  background_prototypes                      9         1.678327    0.041223              3.414587             10.675050                    8.204239                  0.639941
+GSE149614  equalized_cell_fraction prototypes_plus_budget                      9         1.435346    0.473838              0.264366              4.001869                    5.394682                  0.687426
+GSE149614  equalized_cell_fraction            v6_baseline                      9         2.808338    0.017268              9.701227             19.824304                    4.831474                  0.685595
+GSE149614 library_RNA_contribution           PGAM5_budget                      9         1.403500    0.271117              1.841447              4.902461                    7.549784                  0.730966
+GSE149614 library_RNA_contribution  background_prototypes                      9         1.574133   -0.026705              1.859978             15.895356                    6.295176                  0.647374
+GSE149614 library_RNA_contribution prototypes_plus_budget                      9         1.495708    0.178656              0.883807              1.994311                    5.126424                  0.681008
+GSE149614 library_RNA_contribution            v6_baseline                      9         2.448108   -0.129864              8.971299             27.189339                    3.397717                  0.704159
+GSE151530  equalized_cell_fraction           PGAM5_budget                      5         2.070423    0.272209              8.064690             18.552308                    8.586378                  0.763067
+GSE151530  equalized_cell_fraction  background_prototypes                      5         3.166728    0.012621              9.740723             27.003135                    8.859976                  0.655784
+GSE151530  equalized_cell_fraction prototypes_plus_budget                      5         2.567537    0.115406              5.568250             17.509137                    7.643531                  0.722989
+GSE151530  equalized_cell_fraction            v6_baseline                      5         4.113000    0.006125             12.016374             37.040428                    7.270018                  0.709182
+GSE151530 library_RNA_contribution           PGAM5_budget                      5         3.157473    0.253189              8.436390             20.595862                    5.321167                  0.748175
+GSE151530 library_RNA_contribution  background_prototypes                      5         4.109663    0.424493             10.130097             18.781672                    3.859820                  0.660161
+GSE151530 library_RNA_contribution prototypes_plus_budget                      5         2.742755    0.282362              4.986284             18.781672                    4.049462                  0.702356
+GSE151530 library_RNA_contribution            v6_baseline                      5         5.541496    0.428882             11.628980             25.064061                    4.469342                  0.706350
+GSE189903  equalized_cell_fraction           PGAM5_budget                      2         0.925205    0.791246             17.704799             30.485957                    7.788784                  0.698666
+GSE189903  equalized_cell_fraction  background_prototypes                      2         5.058481    0.262115             21.548617             44.189694                    3.781567                  0.655260
+GSE189903  equalized_cell_fraction prototypes_plus_budget                      2         0.818502    0.805670             17.368381             20.813452                    4.182965                  0.674871
+GSE189903  equalized_cell_fraction            v6_baseline                      2        10.789180    0.376216             30.421958             66.401704                    4.945810                  0.669860
+GSE189903 library_RNA_contribution           PGAM5_budget                      2         2.667935    0.902462             17.045474             19.555964                    4.773787                  0.723694
+GSE189903 library_RNA_contribution  background_prototypes                      2         8.223331    0.213054             19.154312             48.792579                    5.826847                  0.659068
+GSE189903 library_RNA_contribution prototypes_plus_budget                      2         3.700813    0.782118              8.314040             12.910614                    6.304108                  0.691274
+GSE189903 library_RNA_contribution            v6_baseline                      2        10.820788    0.474927             28.454534             61.017834                    4.353358                  0.670160
+GSE202642  equalized_cell_fraction           PGAM5_budget                      7         1.738882    0.145768              7.447818             16.238427                    8.789953                  0.608788
+GSE202642  equalized_cell_fraction  background_prototypes                      7         1.762151    0.021674              6.907828             21.288590                    5.102872                  0.585490
+GSE202642  equalized_cell_fraction prototypes_plus_budget                      7         1.463433    0.192007              4.844033              6.521937                    5.070553                  0.585721
+GSE202642  equalized_cell_fraction            v6_baseline                      7         2.686176   -0.005701             16.040677             46.548372                    8.937513                  0.607846
+GSE202642 library_RNA_contribution           PGAM5_budget                      7         2.791067    0.278188              8.850561             26.337112                    9.757148                  0.646113
+GSE202642 library_RNA_contribution  background_prototypes                      7         3.243887    0.082020              7.759675             17.792449                    5.238818                  0.615125
+GSE202642 library_RNA_contribution prototypes_plus_budget                      7         2.633723    0.332264              5.282387              8.899472                    5.475437                  0.614918
+GSE202642 library_RNA_contribution            v6_baseline                      7         6.237749    0.070388             19.913089             45.528400                    9.810892                  0.645441
+GSE242889  equalized_cell_fraction           PGAM5_budget                      5         0.937976    0.721459              6.445365              8.783107                    8.144378                  0.679879
+GSE242889  equalized_cell_fraction  background_prototypes                      5         1.526336    0.186604              2.742799             12.717570                    3.883425                  0.629696
+GSE242889  equalized_cell_fraction prototypes_plus_budget                      5         1.512776    0.216725              0.830731              3.053791                    3.930961                  0.629696
+GSE242889  equalized_cell_fraction            v6_baseline                      5         2.602076    0.171549              8.833232             38.119408                    5.956901                  0.677508
+GSE242889 library_RNA_contribution           PGAM5_budget                      5         1.889406    0.243959              3.355069              6.369098                    7.772150                  0.707929
+GSE242889 library_RNA_contribution  background_prototypes                      5         1.892004   -0.037297              1.910003              8.213803                    4.051211                  0.681528
+GSE242889 library_RNA_contribution prototypes_plus_budget                      5         1.879797    0.097395              0.687832              2.720522                    4.021791                  0.680254
+GSE242889 library_RNA_contribution            v6_baseline                      5         1.891507    0.133668              4.169725             20.752896                    5.984795                  0.703270

@@ -1,0 +1,158 @@
+{
+  "protocol_SHA256": "a364066d3698dfbf28e0af014b7a8e32092d5ec5c84fadf92392d74a94900514",
+  "inputs": {
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_group_statistics.npz": {
+      "bytes": 20986471,
+      "SHA256": "ac75b5712918b9c8a01fa0b92ccf18f3697ec7763caa98fb9f24c7e5f0c2658c"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_group_stats_index.csv": {
+      "bytes": 14075,
+      "SHA256": "894fd041461ceb8c4074d59cf6df2f87fa482e52b6d23aada0309f98809d0d0a"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_group_statistics.npz": {
+      "bytes": 14334498,
+      "SHA256": "eae5055c66fab5b46ee407b2f0f2e14ec08e99b342f3dce4b34464f1028b509d"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_group_stats_index.csv": {
+      "bytes": 7004,
+      "SHA256": "752f2c7d00cebcca96664531a9e950819ae86d12b222401cbbfc532a200198d4"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_group_statistics.npz": {
+      "bytes": 6886141,
+      "SHA256": "a02016c8d67ec3ae11c20fde5d03bc8d2cd97226f400700a3017fcc8d5cb2c77"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_group_stats_index.csv": {
+      "bytes": 3196,
+      "SHA256": "8a0e965ddb5e09ea85b4036f0cda93953929cb7107547721757c6e43b907b945"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_group_statistics.npz": {
+      "bytes": 5911861,
+      "SHA256": "34b8185ecc650d9885cb687ed190201b3fe55acc7c0a5831d3d8bdbd84d73e90"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_group_stats_index.csv": {
+      "bytes": 2802,
+      "SHA256": "8e1009e8ed2c2f6dc8c89e2ab5597d5f354ebb1d4e18efdb1c85011baf53c651"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_group_statistics.npz": {
+      "bytes": 10539392,
+      "SHA256": "90524f4b6fa3ba3e84432aee6b25036b6f166c92dcaaea69678874abbd3aced0"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_group_stats_index.csv": {
+      "bytes": 4802,
+      "SHA256": "3f941c35db2d16111f11d67e44f3f208b2f4b2bdb06b81d68c8b29be550540ec"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/all_mixture_expression.npz": {
+      "bytes": 140389131,
+      "SHA256": "f5e545cc9a0ba1cebdd3dba15b9b67b85b339949a5bff0bc66a31abf7497e0bc"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/heldout_mixture_predictions.csv.gz": {
+      "bytes": 238719,
+      "SHA256": "4a79c4582a73f0a44cd8ed1479bda05c74657984ce37f34385d4898077caaf1c"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/reconstructed_mixture_truths.csv": {
+      "bytes": 409613,
+      "SHA256": "a78767bea657a30f88af8bee9c71f2800655a7a123d1aefd92c79211cd2f95bc"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/validation_result.json": {
+      "bytes": 436,
+      "SHA256": "03de57d011bd1c7a7a3ac5dc62e1ffc0f1079ad29229ff5355e6bfbd94d41223"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/ALL_TRAINING/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 294215,
+      "SHA256": "d5375271949e6af58d3645aff7e7cc0247c40ed2d6310c6a62a80856717ee2db"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/ALL_TRAINING/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 166680,
+      "SHA256": "0f7d03ef21b368cbbb4fede68c05d7e688668b3b93cbfaf147955474ccb24a84"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE189903/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 316370,
+      "SHA256": "9bb38085acc7529984839103791f5abfc0b7f6f270dcebfb12966629a556fe68"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE189903/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 179953,
+      "SHA256": "db1ea8904d6123450ab973ac8627f9b8994da6ce8b73afc0ac329fb5b5520027"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE242889/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 270991,
+      "SHA256": "b3c79db9a7f162009e86414fc04ace82e6084c131243ea0f40d4facf632fbf92"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE242889/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 154108,
+      "SHA256": "0be947799529a6dc41dfea80eb7e51d86ec89e17e3feedcd5ddbc20890dcc318"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE149614/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 269855,
+      "SHA256": "9425bc248ff0390c95586a6028c5535c087d37b308573fed0edfed7095bc3b2c"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE149614/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 153264,
+      "SHA256": "e220034bbd2e4e4968b1ba554d6d3551a47f98c57316d539d6543014d6e74e57"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE151530/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 272584,
+      "SHA256": "d06f341a65b2b4c6ef52a6f99cff9ac8d510320fc36f3a0eaf9fcd7bc96b5dc2"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE151530/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 154856,
+      "SHA256": "571987e7fe18fa3b0f0b5724409b2a60c0ddd3bc96c8b4b53281daf453d27967"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE202642/EXPLORATORY_reference_library_RNA_contribution.tsv": {
+      "bytes": 294410,
+      "SHA256": "b8ea1d71d5b90ccf031519e5962b6b55f066809ef25983c723bac8fa8baa9528"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE202642/EXPLORATORY_reference_equalized_cell_fraction.tsv": {
+      "bytes": 167562,
+      "SHA256": "dd3edb020e37aab0b1402e59e96daf4747b3845dff0a6208ac62b0fea0c489a3"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/ALL_TRAINING/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10426,
+      "SHA256": "e2087f74e243c57163a136c5d5363d1f034697def629f6fda934c13886111173"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/ALL_TRAINING/library_RNA_contribution_row_scales.csv": {
+      "bytes": 15881,
+      "SHA256": "92503250e3351d61898efc161e679dc97a847d8c9f0e9f645d077d72696b36dd"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE189903/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10885,
+      "SHA256": "f1c88322a64006037968cf4b0fdd49d7ba69b77b3e8c4a277de8da5c7b25da05"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE189903/library_RNA_contribution_row_scales.csv": {
+      "bytes": 16534,
+      "SHA256": "cec00af8a28760ab31895e60dabc54b6afd4aa224e527553aa0d9c1f81c01a93"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE242889/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10053,
+      "SHA256": "36b72b423c569d8d7025c46d72559672561a60d4cde92fa43cc68ef9415a4f0f"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE242889/library_RNA_contribution_row_scales.csv": {
+      "bytes": 15280,
+      "SHA256": "453f2118a344171f9d01d49d4ee01c0992f4e0ec9871d9e94173d94a21394c7b"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE149614/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10058,
+      "SHA256": "475754068595cdafbd3edf0f6c899fa29a09ca095c94e22aa0a9db49fb13a75d"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE149614/library_RNA_contribution_row_scales.csv": {
+      "bytes": 15377,
+      "SHA256": "814438609574ea7f625658a7e4355372346c91bae4b322a79e9d0eca9e9e7169"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE151530/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10087,
+      "SHA256": "82dc063d5fcc4638f16f676ad687c1e8246f0d8f881568664a773aa27f762861"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE151530/library_RNA_contribution_row_scales.csv": {
+      "bytes": 15249,
+      "SHA256": "a4101f5d3eb2cf80358b1169d54cb2c92074d55eb63a1eff0d2e2547a876388b"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE202642/equalized_cell_fraction_row_scales.csv": {
+      "bytes": 10585,
+      "SHA256": "f4f4355a7b27e3dd19b188ba8d17a51ab21d3e95a24610d4ed9ad43ec161fb85"
+    },
+    "/workspace/codex/results/PGAM5_cell_annotation_v6/GSE202642/library_RNA_contribution_row_scales.csv": {
+      "bytes": 16043,
+      "SHA256": "58490d99650acd6f420c4c50370c76585deb5fa59e3e27302b97035dc37db181"
+    }
+  },
+  "v6_cell_annotation_and_state_validation_unchanged": true
+}

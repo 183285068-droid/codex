@@ -1,0 +1,11 @@
+{
+  "zip_file": "PGAM5_reference_guard_optimization_v7_results.zip",
+  "zip_bytes": 11097527,
+  "zip_MiB": 10.583426475524902,
+  "zip_SHA256": "08b75664538768e5b1cc07459e0f99065880261c0f6134ca119165c3c400ecc2",
+  "payload_files": 215,
+  "zip_integrity_test": "PASS",
+  "all_archived_payload_hashes": "PASS",
+  "manifest_scope": "Reviewable payloads; manifest, integrity record and archive excluded to avoid circular hashes",
+  "excluded": "Large original counts and v5 full mixture expression are excluded. All120 actual solver cases and all12 reference models are included."
+}

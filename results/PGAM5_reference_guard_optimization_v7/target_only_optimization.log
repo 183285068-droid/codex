@@ -1,0 +1,49 @@
+Target-only GSE149614 equalized_cell_fraction 150 of 460
+Target-only GSE151530 equalized_cell_fraction 150 of 446
+Target-only GSE149614 equalized_cell_fraction 300 of 460
+Target-only GSE151530 library_RNA_contribution 150 of 446
+Target-only GSE151530 library_RNA_contribution 300 of 446
+Target-only GSE149614 equalized_cell_fraction 450 of 460
+Completed target-only GSE149614 equalized_cell_fraction
+Target-only GSE151530 equalized_cell_fraction 300 of 446
+Completed target-only GSE151530 library_RNA_contribution
+Target-only GSE189903 equalized_cell_fraction 150 of 168
+Completed target-only GSE151530 equalized_cell_fraction
+Completed target-only GSE189903 equalized_cell_fraction
+Target-only GSE149614 library_RNA_contribution 150 of 460
+Target-only GSE242889 equalized_cell_fraction 150 of 237
+Target-only GSE149614 library_RNA_contribution 300 of 460
+Completed target-only GSE242889 equalized_cell_fraction
+Target-only GSE189903 library_RNA_contribution 150 of 168
+Completed target-only GSE189903 library_RNA_contribution
+Target-only GSE149614 library_RNA_contribution 450 of 460
+Completed target-only GSE149614 library_RNA_contribution
+Target-only GSE202642 equalized_cell_fraction 150 of 349
+Target-only GSE242889 library_RNA_contribution 150 of 237
+Target-only GSE202642 equalized_cell_fraction 300 of 349
+Completed target-only GSE202642 equalized_cell_fraction
+Completed target-only GSE242889 library_RNA_contribution
+Target-only GSE202642 library_RNA_contribution 150 of 349
+Target-only GSE202642 library_RNA_contribution 300 of 349
+Completed target-only GSE202642 library_RNA_contribution
+  dataset                     unit                        method  standard_donor_labels  standard_MAE_pp  standard_r  all_zero_P95_percent  all_zero_max_percent  standard_macrophage_MAE_pp  median_relative_residual
+GSE149614  equalized_cell_fraction prototypes_target_only_budget                      9         1.655278    0.060624              2.008344              4.001869                    8.202687                  0.639941
+GSE149614  equalized_cell_fraction            target_only_budget                      9         2.131929    0.210539              4.387332              9.989445                    4.935335                  0.686136
+GSE149614 library_RNA_contribution prototypes_target_only_budget                      9         1.574133   -0.026705              1.624278              3.481542                    6.295176                  0.647374
+GSE149614 library_RNA_contribution            target_only_budget                      9         2.309312   -0.099816              3.804549              8.867153                    3.372053                  0.704752
+GSE151530  equalized_cell_fraction prototypes_target_only_budget                      5         3.151653    0.016722              6.614584             17.509137                    8.860097                  0.655784
+GSE151530  equalized_cell_fraction            target_only_budget                      5         3.654595    0.041503             10.466389             18.552308                    7.279393                  0.709182
+GSE151530 library_RNA_contribution prototypes_target_only_budget                      5         3.004980    0.398163              6.319757             18.781672                    3.962111                  0.660161
+GSE151530 library_RNA_contribution            target_only_budget                      5         4.540586    0.301799              9.489251             20.595862                    4.558722                  0.706351
+GSE189903  equalized_cell_fraction prototypes_target_only_budget                      2         1.951563    0.780934             17.368381             20.813452                    4.379475                  0.654918
+GSE189903  equalized_cell_fraction            target_only_budget                      2         3.053517    0.830006             17.704799             30.485957                    5.345626                  0.669878
+GSE189903 library_RNA_contribution prototypes_target_only_budget                      2         4.960333    0.637287              9.769413             15.191206                    6.387557                  0.659670
+GSE189903 library_RNA_contribution            target_only_budget                      2         4.010683    0.871712             17.045474             19.555964                    4.495016                  0.672476
+GSE202642  equalized_cell_fraction prototypes_target_only_budget                      7         1.676093    0.085290              5.036167              6.521937                    5.091900                  0.585490
+GSE202642  equalized_cell_fraction            target_only_budget                      7         2.281311    0.063239              8.241524             16.238427                    8.864429                  0.608788
+GSE202642 library_RNA_contribution prototypes_target_only_budget                      7         3.031591    0.154825              5.658527              8.899472                    5.197537                  0.615125
+GSE202642 library_RNA_contribution            target_only_budget                      7         3.371072    0.136310              8.994285             26.337112                    9.562726                  0.646113
+GSE242889  equalized_cell_fraction prototypes_target_only_budget                      5         1.526336    0.186604              1.328691              3.053791                    3.883425                  0.629696
+GSE242889  equalized_cell_fraction            target_only_budget                      5         2.150443    0.326974              6.445365              8.783107                    5.946704                  0.677508
+GSE242889 library_RNA_contribution prototypes_target_only_budget                      5         1.892004   -0.037297              1.304066              3.200630                    4.051211                  0.681528
+GSE242889 library_RNA_contribution            target_only_budget                      5         1.891505    0.133675              3.486443              6.369098                    5.984796                  0.703270
