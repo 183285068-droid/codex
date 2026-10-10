@@ -1,0 +1,7 @@
+threshold_version,unit,mixture_rows,standard_rows,standard_patient_or_sample_labels,standard_confirmed_patient_labels_excluding_GSE202642,standard_MAE_pp,standard_Pearson_r,all_zero_P95_percent,all_zero_max_percent,physical_mixtures,fresh_external_validation,cross_cohort_replication_required,usable_as_validated_TCGA_cell_abundance
+continuous_rank,equalized_cell_fraction,494,120,8,6,2.8092337050869816,0.23117391543763285,13.727348067233484,29.861132810788266,False,False,False,False
+continuous_rank,library_RNA_contribution,494,120,8,6,3.457438130646631,0.2664524534046668,11.119076037368094,36.92672319280361,False,False,False,False
+log2FC_0p5,equalized_cell_fraction,494,120,8,6,2.779774990034507,0.22385050094358144,12.874103477175606,35.191887737449115,False,False,False,False
+log2FC_0p5,library_RNA_contribution,494,120,8,6,3.583216038304852,0.2305655765417362,11.916326086082972,36.42322482733001,False,False,False,False
+log2FC_1,equalized_cell_fraction,494,120,8,6,2.92379655950296,0.25088056883541027,14.465588248853898,36.05090631719022,False,False,False,False
+log2FC_1,library_RNA_contribution,494,120,8,6,3.592077722148724,0.2228130952926741,12.178955278525397,36.59477353125526,False,False,False,False

@@ -1,0 +1,11 @@
+{
+  "zip_file": "PGAM5_RNA_identity_v8_results.zip",
+  "zip_bytes": 45650874,
+  "zip_MiB": 43.53606605529785,
+  "zip_SHA256": "3c83fee57cd36e9127b672d0ada3eb238b287e5e52e52437c3fa9a081b3ebea9",
+  "payload_files": 263,
+  "zip_integrity_test": "PASS",
+  "all_archived_payload_hashes": "PASS",
+  "manifest_scope": "Reviewable payloads; manifest, integrity record and archive excluded to avoid circular hashes",
+  "excluded": "Large original counts and v5 full mixture expression are excluded. Actual fixed-weight solver cases,12 reference models, pooled DE audit inputs and held-sample mixture expression subsets are included."
+}

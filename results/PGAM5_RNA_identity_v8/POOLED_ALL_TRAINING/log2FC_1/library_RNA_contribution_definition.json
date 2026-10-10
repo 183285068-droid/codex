@@ -1,0 +1,16 @@
+{
+  "unit": "library_RNA_contribution",
+  "reference_genes": 350,
+  "reference_components": 20,
+  "within_macrophage_log2FC_min": 1.0,
+  "FDR_strict_max": 0.05,
+  "candidate_state_genes": [],
+  "candidate_state_genes_count": 0,
+  "PGAM5_anchor_included": true,
+  "all_measured_lineage_panel_genes_included": true,
+  "RNA_target": "Existing macrophage and PGAM5 raw count>0; cycling target retained",
+  "cross_cohort_replication_required": false,
+  "protein_validation_required": false,
+  "candidate_gene_list_is_validated_signature": false,
+  "usable_as_validated_TCGA_cell_abundance": false
+}

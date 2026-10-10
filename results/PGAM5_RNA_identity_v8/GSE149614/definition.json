@@ -1,0 +1,16 @@
+{
+  "training_cohorts": [
+    "GSE151530",
+    "GSE189903",
+    "GSE242889",
+    "GSE202642"
+  ],
+  "held_cohort": "GSE149614",
+  "RNA_state_features": [],
+  "independent_RNA_state_feature_count": 0,
+  "minimum_required_features": 5,
+  "feature_count_gate_passed": false,
+  "protein_validation_required": false,
+  "interpretation": "Feature sufficiency only; no biological state or cellular abundance validation implied",
+  "role": "Archived cross-cohort diagnostic, no longer a required acceptance gate"
+}

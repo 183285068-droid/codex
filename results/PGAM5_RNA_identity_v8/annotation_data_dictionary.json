@@ -1,0 +1,13 @@
+{
+  "macrophage_identity": "Existing lineage identity; independent of PGAM5 grouping",
+  "PGAM5_counts": "Observed symbol-summed raw RNA counts",
+  "PGAM5_RNA_status": "Detected if raw>0; undetected if0",
+  "PGAM5_macrophage_annotation": "Literal existing macrophage+raw RNA status",
+  "macrophage_RNA_marker_corroboration": "Descriptive >=2 core and >=1 broad-myeloid genes, not a validated classifier or exclusion rule",
+  "other_lineage_RNA_review_flag": "Co-detection of >=2 epithelial/hepatocyte or >=2 lymphoid panel genes, not a doublet or contamination diagnosis",
+  "PGAM5_related_state": "Unresolved: no separate biological RNA subtype inferred by a score threshold",
+  "candidate_module_continuous_rank_score": "Mean log1p(CP10k) of the50 final equal-cell exploratory features; descriptive, not a cell-fraction unit",
+  "candidate_module_*_feature_coverage": "Fraction of selected genes actually measurable; complete coverage required for score",
+  "RNA_state_validation_passed": "Separate multigene subtype not established; not required for the operational RNA label",
+  "usable_for_validated_TCGA_PGAM5_cell_abundance": "False, current internal mixture recovery and bulk/cell-RNA unit calibration fail or are unavailable"
+}

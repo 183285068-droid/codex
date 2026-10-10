@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 138,
+  "scope": "saved results, actual import and validator",
+  "scientific_RNA_state_validation": "FAILED",
+  "TCGA_cellular_abundance_validation": "FAILED"
+}

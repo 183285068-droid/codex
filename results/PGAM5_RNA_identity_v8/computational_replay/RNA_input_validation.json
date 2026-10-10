@@ -1,0 +1,17 @@
+{
+  "protein_validation_required": false,
+  "RNA_scope": "RNA expression only",
+  "usable_for_validated_TCGA_PGAM5_cell_abundance": false,
+  "automatic_scientific_identity_or_unit_certification": false,
+  "status": "COMPUTATIONAL_REPLAY_NOT_INDEPENDENT",
+  "evaluated_patient_or_sample_labels": 50,
+  "eligible_validation_patients": 0,
+  "eligible_independent_RNA_identity_patients": 0,
+  "numerical_mixture_gates_passed": false,
+  "physical_mixtures_declared": false,
+  "calibration_evidence_ids_present": false,
+  "frozen_RNA_definition_ids_present": true,
+  "declared_metadata_only_not_independently_verified": true,
+  "mixture_gates_passed": false,
+  "note": "Passing recovery does not establish a stable RNA state, verify external evidence, or calibrate TCGA by itself. Review independent RNA identity, reference specificity, raw evidence, and platform/RNA units."
+}

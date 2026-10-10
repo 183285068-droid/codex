@@ -1,0 +1,10 @@
+dataset,scope,cells,macrophages,PGAM5_RNA_detected_macrophages,marker_corroborated_macrophages,marker_corroborated_PGAM5_RNA_detected_macrophages,macrophages_other_lineage_review_flag,PGAM5_detected_nonmacrophages,validated_TCGA_abundance
+GSE151530,primary_all_QC_HCC,44776,3493,161,3319,161,2780,2695,False
+GSE149614,primary_all_QC_HCC,34414,7448,197,7219,195,6372,1985,False
+GSE189903,primary_all_QC_HCC,44287,3467,85,3433,85,320,560,False
+GSE242889,primary_all_QC_HCC,19872,3990,102,3984,102,3484,815,False
+GSE202642,primary_all_QC_HCC,56719,12135,868,12081,865,6710,2430,False
+GSE125449,supplementary_macrophages_only,298,298,4,207,4,143,0,False
+GSE140228_Droplet_HCC,supplementary_macrophages_only,2223,2223,54,1946,44,175,0,False
+GSE140228_Smartseq2_HCC,supplementary_macrophages_only,531,531,62,513,58,301,0,False
+GSE146115,supplementary_macrophages_only,141,141,17,137,17,141,0,False

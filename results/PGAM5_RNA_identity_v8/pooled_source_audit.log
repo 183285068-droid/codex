@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 331,
+  "scope": "original source mixtures, raw pooled contrasts and independent arithmetic",
+  "KKT_scope": "Last fixed-weight convex subproblem only; not global nonconvex IRLS optimum or biological validation",
+  "protein_and_cross_cohort_validation_required": false,
+  "scientific_TCGA_cell_abundance_validation": "FAILED"
+}

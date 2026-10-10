@@ -1,0 +1,33 @@
+{
+  "protein_validation_required": false,
+  "scope": "RNA-only target",
+  "RNA_detection_annotation_reproducible": true,
+  "RNA_lineage_marker_evidence_added": true,
+  "stable_RNA_state_feature_gate_passed": false,
+  "previous_heldout_mixture_validation_passed": false,
+  "independent_untouched_RNA_validation_available": false,
+  "real_known_mixture_validation_available": false,
+  "bulk_platform_cell_RNA_calibrated": false,
+  "usable_for_validated_TCGA_PGAM5_cell_abundance": false,
+  "RNA_zero_cells_reclassified_as_positive": 0,
+  "decision": "RNA detection annotation available; independent multigene state and calibrated abundance unsupported",
+  "cross_cohort_replication_required": false,
+  "independent_RNA_identity_required_for_operational_label": false,
+  "pooled_internal_mixture_gates_passed": false,
+  "interpretation": "Pooled RNA-detected macrophage reference; no cross-cohort requirement; computational internal validation and RNA-vs-cell/bulk-platform limits separately reported",
+  "pooled_state_gene_counts": {
+    "log2FC_1_equalized_cell_fraction": 0,
+    "log2FC_1_library_RNA_contribution": 0,
+    "log2FC_0p5_equalized_cell_fraction": 5,
+    "log2FC_0p5_library_RNA_contribution": 3,
+    "continuous_rank_equalized_cell_fraction": 50,
+    "continuous_rank_library_RNA_contribution": 50
+  },
+  "primary_version": "continuous_rank",
+  "FDR_hard_cutoff_required": false,
+  "log2FC_hard_cutoff_required": false,
+  "legacy_cross_cohort_diagnostics_are_acceptance_gates": false,
+  "operational_RNA_annotation_requires_discrete_subtype": false,
+  "primary_acceptance_failure": "Internal mixture MAE, correlation and zero-target false signal fail; protein, cross-cohort replication, FDR and effect-size thresholds are not required acceptance gates",
+  "RNA_state_feature_gate_role": "Archived prior diagnostic, not a gate for the current operational RNA target"
+}

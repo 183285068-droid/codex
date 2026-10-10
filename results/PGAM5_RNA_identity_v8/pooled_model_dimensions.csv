@@ -1,0 +1,13 @@
+model,threshold_version,unit,macrophage_DE_cells,PGAM5_RNA_detected_DE_cells,genes,groups,state_genes
+POOLED_INTERNAL_TRAINING,log2FC_1,equalized_cell_fraction,24876,1093,350,20,0
+POOLED_INTERNAL_TRAINING,log2FC_1,library_RNA_contribution,24876,1093,352,20,0
+POOLED_INTERNAL_TRAINING,log2FC_0p5,equalized_cell_fraction,24876,1093,354,20,5
+POOLED_INTERNAL_TRAINING,log2FC_0p5,library_RNA_contribution,24876,1093,354,20,4
+POOLED_ALL_TRAINING,log2FC_1,equalized_cell_fraction,30533,1413,349,20,0
+POOLED_ALL_TRAINING,log2FC_1,library_RNA_contribution,30533,1413,350,20,0
+POOLED_ALL_TRAINING,log2FC_0p5,equalized_cell_fraction,30533,1413,354,20,5
+POOLED_ALL_TRAINING,log2FC_0p5,library_RNA_contribution,30533,1413,352,20,3
+POOLED_INTERNAL_TRAINING,continuous_rank,equalized_cell_fraction,24876,1093,391,20,50
+POOLED_INTERNAL_TRAINING,continuous_rank,library_RNA_contribution,24876,1093,393,20,50
+POOLED_ALL_TRAINING,continuous_rank,equalized_cell_fraction,30533,1413,395,20,50
+POOLED_ALL_TRAINING,continuous_rank,library_RNA_contribution,30533,1413,395,20,50

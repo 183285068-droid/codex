@@ -1,0 +1,12 @@
+{
+  "RNA_target_definition": "Existing macrophage identity AND symbol-summed PGAM5 raw count>0",
+  "RNA_undetected_definition": "Existing macrophage AND raw count=0; never relabel from a module score",
+  "macrophage_identity_source": "Existing independent-of-PGAM5 lineage annotations, supplemented by descriptive multigene RNA corroboration",
+  "candidate_module": "Mean log1p(CP10k) of selected whole-pool exploratory genes; full feature coverage required. No binary threshold is defined and scores do not establish a stable subtype",
+  "primary_reference": "POOLED_ALL_TRAINING/continuous_rank",
+  "primary_features_selected_without_FDR_or_log2FC_hard_cutoff": true,
+  "protein_validation_required": false,
+  "cross_cohort_replication_required": false,
+  "candidate_scores_change_observed_RNA_label": false,
+  "validated_TCGA_cell_abundance": false
+}

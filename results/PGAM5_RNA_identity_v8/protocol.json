@@ -1,0 +1,76 @@
+{
+  "version": "v8",
+  "date": "2026-10-10",
+  "seed": 20261010,
+  "source_root": "/workspace/scratch/PGAM5_signature_optimization_v5",
+  "v6_root": "/workspace/scratch/PGAM5_cell_annotation_v6",
+  "v7_root": "/workspace/scratch/PGAM5_reference_guard_optimization_v7",
+  "primary_cohorts": [
+    "GSE151530",
+    "GSE149614",
+    "GSE189903",
+    "GSE242889",
+    "GSE202642"
+  ],
+  "supplementary": [
+    "GSE125449",
+    "GSE140228_Droplet_HCC",
+    "GSE140228_Smartseq2_HCC",
+    "GSE146115"
+  ],
+  "scope": "RNA-defined macrophage detection and candidate RNA states; protein evidence is not required or collected in this workflow",
+  "constraints": "Keep existing lineage memberships, RNA zeros and cycling cells; no paired DE, depth regression/matching or GSE154906; do not change a zero RNA observation to detected based on a state score",
+  "lineage_evidence": "Descriptive corroboration if >=2 measured core markers detected AND >=1 broad myeloid marker detected; this is not a validated lineage classifier or an exclusion rule. Other-lineage marker flags are review prompts, not doublet diagnoses",
+  "state_screen": {
+    "cohort_support_fraction": 0.6,
+    "minimum_cohort_votes": 2,
+    "FDR_strict_max": 0.05,
+    "log2FC_min": 1,
+    "positive_detection_min": 0.1,
+    "eligible_donor_positive_min": 5,
+    "eligible_donor_undetected_min": 20,
+    "donor_positive_fraction_min": 0.7,
+    "donor_ratio_pseudocount": 0.05,
+    "competitive_log2_ratio_min": 1,
+    "minimum_nonspecific_program_free_genes": 5,
+    "competitive_group_cells_min": 50,
+    "competitive_group_donor_labels_min": 2
+  },
+  "state_screen_interpretation": "Already computed cross-cohort diagnostics are archived evidence only; they are not acceptance gates for this task. Primary next analysis uses selected-scope pooled RNA contrasts and competing-lineage discrimination, with internal patient/sample holdout, not whole-cohort validation.",
+  "prior_evidence": "Reuse completed v6 unsupervised programs and v7 heldout mixture outputs rather than repeat unchanged analyses; removing protein as a requirement does not change these numerical failures",
+  "acceptance": {
+    "protein_validation_required": false,
+    "independent_RNA_identity_required": false,
+    "RNA_state_reproducibility_required": false,
+    "standard_MAE_pp_max": 1,
+    "standard_Pearson_min": 0.7,
+    "zero_target_p95_percent_max": 0.5,
+    "independent_validation_patients_min": 3,
+    "real_mixture_platform_unit_calibration_required": true,
+    "scope_note": "Independent RNA identity can strengthen validation, but it is not a prerequisite to the operational raw-count>0 label. Protein/cross-cohort proof are not requested. Bulk recovery and cell-vs-RNA calibration remain separate."
+  },
+  "publication": "New separate folder; preserve historical analyses. No TCGA or survival rerun until RNA identity/mixture/unit gates pass",
+  "user_scope_update": "Protein and cross-cohort replication are not required, per current user steering",
+  "cross_cohort_replication_required": false,
+  "selected_scope": "Pool all five primary HCC cohorts; supplementary cohorts annotated separately, no independent vote",
+  "pooled_analysis": {
+    "selection": "Pooled cell-level Mann-Whitney tie-corrected DE with FDR<0.05, log2FC>=1, positive detection>=10%; PGAM5 anchor selected separately; no cohort vote or donor-direction acceptance threshold",
+    "internal_split": "Fixed seed20261010; hold about30% donor/sample labels within every cohort, preserving whole label across all lineages; GSE202642 labels remain sample proxies",
+    "state_features": "Up to50 strict pooled upregulated genes not in finite cycle/stress or MT/RPL/RPS lists and target/maximum nonmacrophage balanced reference mean log2 ratio>=1 (pseudocount0.05); competitors include cycling and Unknown",
+    "lineage_features": "Always include all measured RNA lineage/competitor panel genes, PGAM5 and top15 broad reference genes per supported group; lineage markers need not be differential between macrophage RNA states",
+    "reference": "Equal cohort then equal available donor per group; retain PGAM5-detected/undetected and cycling macrophages separately with supported-group fallback",
+    "solver": "Fixed v7 robust FCLS ridge0.001,3 IRLS updates, target-only PGAM5 upper bound. No choosing solver or thresholds from held samples",
+    "query": "Reuse existing actual v5 cell mixtures ONLY for donors excluded from pooled training. Evaluate standard0/0.5/1/2/5%, variable total macrophage, PGAM5-positive nonmacrophage and pure competitor challenges in2units",
+    "full_training": "After fixed internal evaluation, produce all-scope exploratory reference and full-scope descriptive pooled DE; final full-scope reference not scored on its own training cells as validation",
+    "interpretation": "Internal computational validation only, no cross-cohort acceptance requirement or fresh independent patient claim; RNA coefficient vs cell fraction and TCGA platform compatibility remain uncalibrated",
+    "within_macrophage_log2FC_versions": {
+      "primary": "continuous_rank_without_FDR_or_effect_size_cutoff",
+      "strict_comparator": 1.0,
+      "relaxed_comparator": 0.5
+    },
+    "threshold_comparison": "Both fixed in advance of pooled results; report all, do not choose a version using survival outcomes",
+    "primary_selection": "No hard FDR or log2FC cutoff. After measurability/detection and finite cycle/stress/background rules, rank positive effect and competition differences continuously; take up to50 positive-score features. P/FDR/FC retained as descriptive evidence.",
+    "continuous_ranking_score": "max(pooled log2FC,0) * max(target/max-nonmacrophage log2 ratio with pseudocount0.05,0) * target detection frequency",
+    "timing": "Continuous-ranking extension fixed after user questioned cutoff necessity; original threshold-specific candidate counts were already seen. No selecting cutoff using TCGA outcomes; all internal results reported."
+  }
+}

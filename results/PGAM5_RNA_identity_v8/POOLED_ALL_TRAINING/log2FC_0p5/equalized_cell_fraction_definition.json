@@ -1,0 +1,22 @@
+{
+  "unit": "equalized_cell_fraction",
+  "reference_genes": 354,
+  "reference_components": 20,
+  "within_macrophage_log2FC_min": 0.5,
+  "FDR_strict_max": 0.05,
+  "candidate_state_genes": [
+    "RAB42",
+    "SUCNR1",
+    "FAM20C",
+    "RAB3IL1",
+    "LPL"
+  ],
+  "candidate_state_genes_count": 5,
+  "PGAM5_anchor_included": true,
+  "all_measured_lineage_panel_genes_included": true,
+  "RNA_target": "Existing macrophage and PGAM5 raw count>0; cycling target retained",
+  "cross_cohort_replication_required": false,
+  "protein_validation_required": false,
+  "candidate_gene_list_is_validated_signature": false,
+  "usable_as_validated_TCGA_cell_abundance": false
+}

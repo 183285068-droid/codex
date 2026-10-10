@@ -1,0 +1,279 @@
+{
+  "inputs": [
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_metadata.csv.gz",
+      "bytes": 441630,
+      "sha256": "229a4db11f6fb7ea7738cc79a6d4f07be3e50d8198ac5556719cd085d3ff3a3c"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_raw_common.npz",
+      "bytes": 159582304,
+      "sha256": "ba577083e30a1b2eb21835f6b1ce35e73963d31b87c520622e9c350ffd4d2068"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_metadata.csv.gz",
+      "bytes": 347832,
+      "sha256": "18228a85ce64bf79d1d87ec4c48aae7e0e2c2fb3006f7d25cebfb45387f70440"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_raw_common.npz",
+      "bytes": 167602365,
+      "sha256": "06c99c3619dcd34acfc74e783589794ae9d999c64bcc33941f5436cc829e72d9"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_metadata.csv.gz",
+      "bytes": 390574,
+      "sha256": "6c54ca7a60bc95dd489c67eee7e2b5624853d367fe45360eb5dde0e7dec1e194"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_raw_common.npz",
+      "bytes": 98703803,
+      "sha256": "92715283a799ac5501e61d6614b081f9e5ed314f94d1507bd8fc981a2c6600d0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_metadata.csv.gz",
+      "bytes": 208926,
+      "sha256": "0a1c6d1f273b87173257f52990af830b6764dd0fc45f6f6f791155a22915ce1d"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_raw_common.npz",
+      "bytes": 86946923,
+      "sha256": "c6aaeb3e98aa5c373d81abe9ba8728977ad60cdaa62ea283647aa9bb6bee720f"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_metadata.csv.gz",
+      "bytes": 541323,
+      "sha256": "0b6c6f1470fec810f3e0d4c2ecda9f73a05449c521ff476d88881d6c6613150b"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_raw_common.npz",
+      "bytes": 216431193,
+      "sha256": "61e05bacf6b0dbb308de433b74215ec795ec3feeb23d78f4a8e522fe0614be2f"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE125449_metadata.csv.gz",
+      "bytes": 3439,
+      "sha256": "2d08fbba0cb2945f6c28d959bb622309ec9665d05d48a8e97e598cb5a96f8cf5"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE125449_raw_measured.npz",
+      "bytes": 801736,
+      "sha256": "79c5c41e32e7e4f5aa3e9ca4094a2f5f42644b01114fb03f014dda31889ee5c1"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE125449_measured_genes.csv",
+      "bytes": 102096,
+      "sha256": "c6a68d31318bed9710108b6ffc55b4d47d2f81eba5afeed74a7320589865bfb0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Droplet_HCC_metadata.csv.gz",
+      "bytes": 22601,
+      "sha256": "ca497f3572636e5a0c836636256bae23f2b939eaee5cb43b9242408c3c6b0c55"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Droplet_HCC_raw_measured.npz",
+      "bytes": 7788475,
+      "sha256": "0995d44510661fc5482264986bfcad6d1264113e90ac57300b965f19b7570c8a"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Droplet_HCC_measured_genes.csv",
+      "bytes": 101075,
+      "sha256": "885c42534e5fd5f45a45dd258f10cc7965076d9ba49d53930ba8f32c2560a69f"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Smartseq2_HCC_metadata.csv.gz",
+      "bytes": 4269,
+      "sha256": "b2d8f566a311b3b3f11c33abbc88a237ffc6fc52e0265164b7ba2b8ba64649c0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Smartseq2_HCC_raw_measured.npz",
+      "bytes": 5204980,
+      "sha256": "89368fa73bc92edfc216b80454513fcdd2ad2deb020c7ba55bba2194bf94f019"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE140228_Smartseq2_HCC_measured_genes.csv",
+      "bytes": 101075,
+      "sha256": "885c42534e5fd5f45a45dd258f10cc7965076d9ba49d53930ba8f32c2560a69f"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE146115_metadata.csv.gz",
+      "bytes": 1231,
+      "sha256": "f581ac4da4cc4de079918988e867e7c8193b99b1bc9f94fa57937c8f5769b869"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE146115_raw_measured.npz",
+      "bytes": 849103,
+      "sha256": "a909044bf22adad3a74278671963825bdf09454e2984fb401531536b89eeae9e"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE146115_measured_genes.csv",
+      "bytes": 101155,
+      "sha256": "db6cfd3a460209b2098c22eedc46633289898ff61dac0976e16c074ba12047e0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_tie_corrected_DE.csv.gz",
+      "bytes": 876214,
+      "sha256": "988e0b96670b3cfd40252f429f387f52ff378ad7c0886f8f616354f5fe9a7bad"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_group_stats_index.csv",
+      "bytes": 14075,
+      "sha256": "894fd041461ceb8c4074d59cf6df2f87fa482e52b6d23aada0309f98809d0d0a"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_group_statistics.npz",
+      "bytes": 20986471,
+      "sha256": "ac75b5712918b9c8a01fa0b92ccf18f3697ec7763caa98fb9f24c7e5f0c2658c"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_donor_contrasts_index.csv",
+      "bytes": 1852,
+      "sha256": "9d5b1bb8c25e6431d352f8f6b387ad1475aa4abd472ac1a8e9d41e659be7a6ef"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE151530_donor_means.npz",
+      "bytes": 828148,
+      "sha256": "aa9fe6c4d992479afaec23a51963f540be8c3fbdd15ca0b3915d3f220f9b22f4"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_tie_corrected_DE.csv.gz",
+      "bytes": 919092,
+      "sha256": "6b8bb307e3ac9644ec4bb7ccbcef27167199b7d325bc5dcfc78fe78ea7b2c422"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_group_stats_index.csv",
+      "bytes": 7004,
+      "sha256": "752f2c7d00cebcca96664531a9e950819ae86d12b222401cbbfc532a200198d4"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_group_statistics.npz",
+      "bytes": 14334498,
+      "sha256": "eae5055c66fab5b46ee407b2f0f2e14ec08e99b342f3dce4b34464f1028b509d"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_donor_contrasts_index.csv",
+      "bytes": 817,
+      "sha256": "327066900684de40c900c94413bd8b3d414dfe42ac28202d3a5c2fd8faab9cdd"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE149614_donor_means.npz",
+      "bytes": 796872,
+      "sha256": "56c09a363dff79b58359d9abd593e0e994a9695099413172a7d0e6f558c2064c"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_tie_corrected_DE.csv.gz",
+      "bytes": 770951,
+      "sha256": "3cb811ca415c3168b7a3e319061cf261d1684dd711210686e82bdbb3832e782c"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_group_stats_index.csv",
+      "bytes": 3196,
+      "sha256": "8a0e965ddb5e09ea85b4036f0cda93953929cb7107547721757c6e43b907b945"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_group_statistics.npz",
+      "bytes": 6886141,
+      "sha256": "a02016c8d67ec3ae11c20fde5d03bc8d2cd97226f400700a3017fcc8d5cb2c77"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_donor_contrasts_index.csv",
+      "bytes": 315,
+      "sha256": "8eab3664ed1518f2082d720ff3ef9b100fbbd428309226f4dc7fc9894f367e14"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE189903_donor_means.npz",
+      "bytes": 292411,
+      "sha256": "537bee360a646ac11db1480c8080b6bfb723c480fe77c5a7b1882a4c90c5780b"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_tie_corrected_DE.csv.gz",
+      "bytes": 797327,
+      "sha256": "0c40cf4856a835fd9d284e4f082b9fa67cb2fdd48f6a0f3d637ab019996064f6"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_group_stats_index.csv",
+      "bytes": 2802,
+      "sha256": "8e1009e8ed2c2f6dc8c89e2ab5597d5f354ebb1d4e18efdb1c85011baf53c651"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_group_statistics.npz",
+      "bytes": 5911861,
+      "sha256": "34b8185ecc650d9885cb687ed190201b3fe55acc7c0a5831d3d8bdbd84d73e90"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_donor_contrasts_index.csv",
+      "bytes": 383,
+      "sha256": "f2f71305601f125f495e936e6a58841fa2b31fe7139bcc3b8e29a74f472e3f47"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE242889_donor_means.npz",
+      "bytes": 425123,
+      "sha256": "c115dcc101f4f3b81249fbf052cfda701e9ebf422c282fc1ab93028eabb01703"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_tie_corrected_DE.csv.gz",
+      "bytes": 961334,
+      "sha256": "51152e28dbee2ed337ba0c84374af09abad2648528bba3ce75c595d456ef06c5"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_group_stats_index.csv",
+      "bytes": 4802,
+      "sha256": "3f941c35db2d16111f11d67e44f3f208b2f4b2bdb06b81d68c8b29be550540ec"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_group_statistics.npz",
+      "bytes": 10539392,
+      "sha256": "90524f4b6fa3ba3e84432aee6b25036b6f166c92dcaaea69678874abbd3aced0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_donor_contrasts_index.csv",
+      "bytes": 538,
+      "sha256": "06b680a7924b34acf24377dc90670ad76b53503f8053a7adf50e7d4ebbc92d37"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/GSE202642_donor_means.npz",
+      "bytes": 719156,
+      "sha256": "5b201ba8ec35e480f71cf79ea31162ef3a4e931de0d7de6d3657e11786d71006"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_reference_guard_optimization_v7/all_validation_summary.csv",
+      "bytes": 10241,
+      "sha256": "83942b9f0725ac0be1f5d1668a82044318d8be0799c1575f173c1b9428aafe49"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_reference_guard_optimization_v7/all_validation_gates.csv",
+      "bytes": 21716,
+      "sha256": "f21f9dd6619ac3c8a8c604c369df12a9469cb5580e0a1db72a61bf7b2505329b"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_cell_annotation_v6/validation_result.json",
+      "bytes": 436,
+      "sha256": "03de57d011bd1c7a7a3ac5dc62e1ffc0f1079ad29229ff5355e6bfbd94d41223"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/common_genes.csv",
+      "bytes": 103123,
+      "sha256": "6a4e1124c949574e0fd91967f51ef639421c7f9338094474d8bfd1acc14faed1"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/cell_cycle_genes.txt",
+      "bytes": 682,
+      "sha256": "3a2ab34c682cf86150cf436d9929964c11358a8d28b53dd82fa8b1994f37edeb"
+    }
+  ],
+  "protocol_sha256": "9fc0f616e03c78aab712ba98c3ecaaa883b25c4ad3cb15caccf5c4cbdffea514",
+  "history": "Retrospective training-only holdout; not fresh blinded biological validation",
+  "current_scope": "Pooled five cohorts; RNA only; no cross-cohort/FDR/effect-size acceptance requirements; primary continuous rank",
+  "additional_inputs": [
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/mixture_index.csv",
+      "bytes": 335298,
+      "sha256": "26bae282e8bfe7f3d6d15875514698bdb4ec867c46145c96ca0b2ef0c799dfa0"
+    },
+    {
+      "path": "/workspace/scratch/PGAM5_signature_optimization_v5/all_mixture_expression.npz",
+      "bytes": 140389131,
+      "sha256": "f5e545cc9a0ba1cebdd3dba15b9b67b85b339949a5bff0bc66a31abf7497e0bc"
+    }
+  ]
+}

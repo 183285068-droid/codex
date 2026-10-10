@@ -1,0 +1,22 @@
+Internal holdout library_RNA_contribution 0 of 494
+Internal holdout equalized_cell_fraction 0 of 494
+Internal holdout library_RNA_contribution 100 of 494
+Internal holdout equalized_cell_fraction 100 of 494
+Internal holdout equalized_cell_fraction 200 of 494
+Internal holdout library_RNA_contribution 200 of 494
+Internal holdout library_RNA_contribution 300 of 494
+Internal holdout equalized_cell_fraction 300 of 494
+Internal holdout equalized_cell_fraction 400 of 494
+Internal holdout library_RNA_contribution 400 of 494
+                   model threshold_version                     unit  macrophage_DE_cells  PGAM5_RNA_detected_DE_cells  genes  groups  state_genes
+POOLED_INTERNAL_TRAINING   continuous_rank  equalized_cell_fraction                24876                         1093    391      20           50
+POOLED_INTERNAL_TRAINING   continuous_rank library_RNA_contribution                24876                         1093    393      20           50
+     POOLED_ALL_TRAINING   continuous_rank  equalized_cell_fraction                30533                         1413    395      20           50
+     POOLED_ALL_TRAINING   continuous_rank library_RNA_contribution                30533                         1413    395      20           50
+threshold_version                     unit  mixture_rows  standard_rows  standard_patient_or_sample_labels  standard_confirmed_patient_labels_excluding_GSE202642  standard_MAE_pp  standard_Pearson_r  all_zero_P95_percent  all_zero_max_percent  physical_mixtures  fresh_external_validation  cross_cohort_replication_required  usable_as_validated_TCGA_cell_abundance
+  continuous_rank  equalized_cell_fraction           494            120                                  8                                                      6         2.809234            0.231174             13.727348             29.861133              False                      False                              False                                    False
+  continuous_rank library_RNA_contribution           494            120                                  8                                                      6         3.457438            0.266452             11.119076             36.926723              False                      False                              False                                    False
+       log2FC_0p5  equalized_cell_fraction           494            120                                  8                                                      6         2.779775            0.223851             12.874103             35.191888              False                      False                              False                                    False
+       log2FC_0p5 library_RNA_contribution           494            120                                  8                                                      6         3.583216            0.230566             11.916326             36.423225              False                      False                              False                                    False
+         log2FC_1  equalized_cell_fraction           494            120                                  8                                                      6         2.923797            0.250881             14.465588             36.050906              False                      False                              False                                    False
+         log2FC_1 library_RNA_contribution           494            120                                  8                                                      6         3.592078            0.222813             12.178955             36.594774              False                      False                              False                                    False

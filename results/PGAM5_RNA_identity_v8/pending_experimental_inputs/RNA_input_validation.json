@@ -1,0 +1,11 @@
+{
+  "protein_validation_required": false,
+  "RNA_scope": "RNA expression only",
+  "usable_for_validated_TCGA_PGAM5_cell_abundance": false,
+  "automatic_scientific_identity_or_unit_certification": false,
+  "status": "NOT_RUN_REQUIRED_RNA_INPUTS_MISSING",
+  "sample_rows": 0,
+  "identity_rows": 0,
+  "mixture_rows": 0,
+  "mixture_gates_passed": false
+}
