@@ -1,0 +1,8 @@
+{
+  "checks": 29,
+  "passed": 29,
+  "full_counts_available": false,
+  "skipped": [
+    "Full raw HCC counts audit requires a complete full-cell rerun."
+  ]
+}

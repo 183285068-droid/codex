@@ -1,0 +1,12 @@
+{
+  "HCC_before_QC": 50023,
+  "HCC_after_QC": 44776,
+  "samples": 32,
+  "patient_proxies": 25,
+  "allcell_clusters": 24,
+  "seed_ARI": 0.9079881667058122,
+  "genes": 18661,
+  "QC": "n_genes>=500,pct_mt<20",
+  "HVG": "3000 batch-aware Seurat, PGAM5 not used in geometry",
+  "matrix_SHA256": "50dad60e779b3332350e2552ed4260369ccba8db4f73918bbe2a9f6549db6403"
+}

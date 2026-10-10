@@ -1,0 +1,7 @@
+{
+  "cell_ids_exact": true,
+  "labels_exact": true,
+  "ARI": 1.0,
+  "UMAP_coordinates_exact": true,
+  "normalized_RNA_exact": true
+}

@@ -1,0 +1,23 @@
+from pathlib import Path
+import pandas as pd
+R=Path(__file__).resolve().parent
+names={
+'M0':('FCGR3A/PSAP macrophages','FCGR3A/PSAP巨噬细胞','supported'),
+'M1':('RPL12/RPS27 ribosome-high macrophages','RPL12/RPS27核糖体表达偏高巨噬细胞','qualified'),
+'M2':('MKI67/TOP2A cycling macrophages','MKI67/TOP2A增殖型巨噬细胞','supported'),
+'M3':('LINC01419/NOVA1 macrophages, unresolved','LINC01419/NOVA1巨噬富集群（待定）','qualified'),
+'M4':('ALOX5AP/COTL1 macrophages','ALOX5AP/COTL1巨噬细胞','supported'),
+'M5':('CCL3/CCL4 macrophages, hepatic RNA','CCL3/CCL4趋化因子相关巨噬细胞（伴肝源RNA）','qualified'),
+'M6':('CLEC10A/FCN1 C1Q-rich myeloid boundary','CLEC10A/FCN1 C1Q富集髓系边界群','qualified'),
+'M7':('FOLR2/SEPP1 resident-like macrophages','FOLR2/SEPP1驻留样巨噬细胞','supported'),
+'M8':('SPP1/GPNMB macrophages','SPP1/GPNMB巨噬细胞','supported'),
+'M9':('TIMD4/LYVE1 resident-like macrophages','TIMD4/LYVE1驻留样巨噬细胞','qualified'),
+'M10':('CXCL9/CXCL10 IFN-associated macrophages','CXCL9/CXCL10干扰素相关巨噬细胞','supported'),
+'M11':('CHIT1/CCL18 macrophages','CHIT1/CCL18巨噬细胞','supported'),
+'M12':('HOXA13/UBE2C cycling-mixed RNA','HOXA13/UBE2C增殖混合RNA群','qualified'),
+'M13':('HLA-A/HLA-C macrophages, patient-associated','HLA-A/HLA-C巨噬细胞（患者相关）','qualified'),
+'M14':('C1QA/CD3D Mac-T mixed RNA','C1QA/CD3D巨噬/T细胞混合RNA群','mixed'),
+'M15':('C1QA/EOMES Mac-NK mixed RNA','C1QA/EOMES巨噬/NK混合RNA群','mixed')}
+rows=[]
+for c,(en,cn,status) in names.items():rows.append(dict(cluster=c,subtype_EN=en,subtype_CN=cn,status=status))
+pd.DataFrame(rows).to_csv(R/'macrophage_cluster_annotations.csv',index=False)

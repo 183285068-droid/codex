@@ -1,0 +1,16 @@
+{
+  "cells": 3095,
+  "selection": "Core macrophages: author TAMs intersect C1Q-rich allcell C9/C11 after QC; FCN1/CD1C myeloid and mixed clusters excluded",
+  "samples": 28,
+  "patient_proxies": 21,
+  "clusters": 16,
+  "resolution": 0.6,
+  "resolution_sensitivity": {
+    "0.4": 13,
+    "0.6": 16,
+    "0.8": 17
+  },
+  "seed_ARI": 0.7773039369250191,
+  "PGAM5_detected": 153,
+  "HVG": "2000 batch-aware Seurat, PGAM5 not used in geometry"
+}

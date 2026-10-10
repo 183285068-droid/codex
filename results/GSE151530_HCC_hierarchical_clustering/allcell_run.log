@@ -1,0 +1,52 @@
+Loading raw counts
+/workspace/scratch/GSE151530_HCC_hierarchical_clustering/cluster_all.py:17: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+
+  with gzip.open(matrix,'rb') as f:x=mmread(f).T.tocsr().astype(np.int32)
+/workspace/scratch/GSE151530_HCC_hierarchical_clustering/cluster_all.py:20: FutureWarning: `.layers.clear()` currently keeps `.X` (stored under the `None` key), but a future release may drop it. Pass `keep_x=True` to keep `.X` or `keep_x=False` to drop it and silence this warning.
+  sc.settings.n_jobs=4;sc.pp.normalize_total(a,target_sum=1e4);sc.pp.log1p(a);sc.pp.highly_variable_genes(a,n_top_genes=3000,flavor='seurat',batch_key='Sample');a.var.loc['PGAM5','highly_variable']=False;a.var.to_csv(R/'HVG_selection.csv.gz');v=a[:,a.var.highly_variable].copy();v.layers.clear();sc.pp.scale(v,max_value=10);sc.tl.pca(v,n_comps=50,random_state=151530);a.obsm['X_pca']=v.obsm['X_pca'].copy();del v;print('PCA done',flush=True)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py:912: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+PCA done
+2026-10-10 12:50:27,804 - harmonypy - INFO - Running Harmony
+2026-10-10 12:50:27,804 - harmonypy - INFO -   Parameters:
+2026-10-10 12:50:27,804 - harmonypy - INFO -     max_iter_harmony: 20
+2026-10-10 12:50:27,804 - harmonypy - INFO -     max_iter_kmeans: 4
+2026-10-10 12:50:27,804 - harmonypy - INFO -     epsilon_cluster: 0.001
+2026-10-10 12:50:27,804 - harmonypy - INFO -     epsilon_harmony: 0.01
+2026-10-10 12:50:27,804 - harmonypy - INFO -     nclust: 100
+2026-10-10 12:50:27,804 - harmonypy - INFO -     block_size: 0.05
+2026-10-10 12:50:27,804 - harmonypy - INFO -     lamb: dynamic (alpha=0.2)
+2026-10-10 12:50:27,805 - harmonypy - INFO -     theta: [2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+ 2. 2. 2. 2. 2. 2. 2. 2.]
+2026-10-10 12:50:27,805 - harmonypy - INFO -     sigma: [0.1 0.1 0.1 0.1 0.1]...
+2026-10-10 12:50:27,805 - harmonypy - INFO -     verbose: True
+2026-10-10 12:50:27,805 - harmonypy - INFO -     random_state: 151530
+2026-10-10 12:50:27,805 - harmonypy - INFO -   Data: 40 PCs × 44776 cells
+2026-10-10 12:50:27,805 - harmonypy - INFO -   Batch variables: ['Sample']
+2026-10-10 12:50:27,820 - harmonypy - INFO - Computing initial centroids...
+2026-10-10 12:50:28,173 - harmonypy - INFO - Initialization complete.
+2026-10-10 12:50:28,173 - harmonypy - INFO - Iteration 1 of 20
+2026-10-10 12:50:28,386 - harmonypy - INFO - Iteration 2 of 20
+2026-10-10 12:50:28,791 - harmonypy - INFO - Iteration 3 of 20
+2026-10-10 12:50:29,187 - harmonypy - INFO - Iteration 4 of 20
+2026-10-10 12:50:29,665 - harmonypy - INFO - Iteration 5 of 20
+2026-10-10 12:50:30,039 - harmonypy - INFO - Iteration 6 of 20
+2026-10-10 12:50:30,237 - harmonypy - INFO - Iteration 7 of 20
+2026-10-10 12:50:30,405 - harmonypy - INFO - Iteration 8 of 20
+2026-10-10 12:50:30,569 - harmonypy - INFO - Iteration 9 of 20
+2026-10-10 12:50:30,727 - harmonypy - INFO - Iteration 10 of 20
+2026-10-10 12:50:30,904 - harmonypy - INFO - Iteration 11 of 20
+2026-10-10 12:50:31,054 - harmonypy - INFO - Iteration 12 of 20
+2026-10-10 12:50:31,226 - harmonypy - INFO - Iteration 13 of 20
+2026-10-10 12:50:31,383 - harmonypy - INFO - Converged after 13 iterations
+Clusters {'1': 7820, '0': 6092, '12': 5021, '6': 4056, '9': 2675, '14': 2242, '17': 1966, '15': 1834, '5': 1645, '18': 1631, '2': 1591, '8': 1512, '21': 1193, '4': 1129, '3': 749, '7': 744, '11': 661, '13': 561, '10': 525, '16': 415, '19': 265, '22': 222, '20': 150, '23': 77}
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:529: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scanpy/tools/_rank_genes_groups.py:529: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+DONE {'HCC_before_QC': 50023, 'HCC_after_QC': 44776, 'samples': 32, 'patient_proxies': 25, 'allcell_clusters': 24, 'seed_ARI': 0.9079881667058122, 'genes': 18661, 'QC': 'n_genes>=500,pct_mt<20', 'HVG': '3000 batch-aware Seurat, PGAM5 not used in geometry', 'matrix_SHA256': '50dad60e779b3332350e2552ed4260369ccba8db4f73918bbe2a9f6549db6403'}

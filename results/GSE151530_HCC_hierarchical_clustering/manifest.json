@@ -1,0 +1,412 @@
+[
+  {
+    "file": "00_HCC_QC.pdf",
+    "bytes": 19735,
+    "SHA256": "1e8b9539e815017571dd63fd48321b93fd75295804f984d87bf046970abc38aa"
+  },
+  {
+    "file": "00_HCC_QC.png",
+    "bytes": 82601,
+    "SHA256": "59e4883a55d6bbc3a87a9ec75696b469105b97bb31555c0909b48ee9778b5420"
+  },
+  {
+    "file": "01_allcell_author_annotation_UMAP.pdf",
+    "bytes": 303008,
+    "SHA256": "85e052a1f81f685a9afe659e15dc3211865e9451f5a482f6345eb4a0555a2a4b"
+  },
+  {
+    "file": "01_allcell_author_annotation_UMAP.png",
+    "bytes": 1277406,
+    "SHA256": "96a206b99593b3ef9cec2d1d5e0c3307472721a101b27409659bf8db300a11c0"
+  },
+  {
+    "file": "01_allcell_cell_types_UMAP.pdf",
+    "bytes": 224015,
+    "SHA256": "3edc54f4d5f242e2b9383fa496b93b73a5889b305b8ee0c1395996bf6235c607"
+  },
+  {
+    "file": "01_allcell_cell_types_UMAP.png",
+    "bytes": 1192762,
+    "SHA256": "13465327fd3cfbe597629a680654c5d5561065a9459bfef5ca352ca5a9e67c31"
+  },
+  {
+    "file": "01_allcell_integration_comparison.pdf",
+    "bytes": 247842,
+    "SHA256": "24c05b3344c1edcc30d5ac92fbbc316c85ceb0154ca964d5c22011346f7f7434"
+  },
+  {
+    "file": "01_allcell_integration_comparison.png",
+    "bytes": 1172209,
+    "SHA256": "bbc7cf2dfda5f0de68259fef8cae2d75d23079ab72d612af0449a458f05ead7a"
+  },
+  {
+    "file": "01_allcell_marker_dotplot.pdf",
+    "bytes": 217148,
+    "SHA256": "2e52411420de46e73fbcccad1ba30bda9ea2b75a44bae0a3a6903284022b70be"
+  },
+  {
+    "file": "01_allcell_marker_dotplot.png",
+    "bytes": 379103,
+    "SHA256": "3fbec0119701fc017a4f45746c5692d1610c94fcb8febdd218d6db6fc71210ec"
+  },
+  {
+    "file": "01_allcell_named_clusters_UMAP.pdf",
+    "bytes": 243345,
+    "SHA256": "2fe0f18f116b1b6b3941295dcee39c20de02ffa3b58dc506a47d3fc38104b3eb"
+  },
+  {
+    "file": "01_allcell_named_clusters_UMAP.png",
+    "bytes": 1286226,
+    "SHA256": "63dcfa8cbd369eeeb7f4f6849a829a0af8843b93841a926e6230c42122346abb"
+  },
+  {
+    "file": "01_allcell_samples_UMAP.pdf",
+    "bytes": 528215,
+    "SHA256": "80764337f19e3bc737f92d094d8d62ebf8c014ca0fe973727b1a994721ec4410"
+  },
+  {
+    "file": "01_allcell_samples_UMAP.png",
+    "bytes": 1571197,
+    "SHA256": "e82f1c1b9c73afbd6d67915b19e006318820f4e46e5314ac3b5c82c4c261f642"
+  },
+  {
+    "file": "02_macrophage_integration_comparison.pdf",
+    "bytes": 135297,
+    "SHA256": "b7d25981786ed33ef0193329c30da1f3f5b87bbcd37cd4b0132fd7a38172691e"
+  },
+  {
+    "file": "02_macrophage_integration_comparison.png",
+    "bytes": 519359,
+    "SHA256": "5ed82314335e9ebd521a5c72be4d3491a200a84c70917dc4ccd99da58b34ccef"
+  },
+  {
+    "file": "02_macrophage_marker_dotplot.pdf",
+    "bytes": 101484,
+    "SHA256": "fc5c606c76a53215f9e91ec390b27b447296d9bd8f1364f58458889f5996f34e"
+  },
+  {
+    "file": "02_macrophage_marker_dotplot.png",
+    "bytes": 304340,
+    "SHA256": "e894f23f71167ab93b1dbc300f5bc7836345501acfa78f258c4fe56db95ca023"
+  },
+  {
+    "file": "02_macrophage_named_clusters_UMAP.pdf",
+    "bytes": 80127,
+    "SHA256": "da79633bf950aab3d763345ea7d248c835992c71a07e4a5390a0f13b93bbefea"
+  },
+  {
+    "file": "02_macrophage_named_clusters_UMAP.png",
+    "bytes": 423078,
+    "SHA256": "637365fc4b97df556068b21e85c16161ef47e8fa88095862b92386839b092b5a"
+  },
+  {
+    "file": "02_macrophage_samples_UMAP.pdf",
+    "bytes": 102939,
+    "SHA256": "4a52326e72a8dbe839ec9e28ca8350abfd382c1d14dbd6f247c8edac8e842c7b"
+  },
+  {
+    "file": "02_macrophage_samples_UMAP.png",
+    "bytes": 357150,
+    "SHA256": "ec94c737d815c62d7beef0f83921a70e76af9d944fb84181698cc2230ee72bd0"
+  },
+  {
+    "file": "03_PGAM5_cluster_comparison.pdf",
+    "bytes": 23723,
+    "SHA256": "fda84e718a54b78be011fc71b2e06661ee316d1bf70585d4487fed8b903d04ca"
+  },
+  {
+    "file": "03_PGAM5_cluster_comparison.png",
+    "bytes": 258336,
+    "SHA256": "0c9078ae5695b03c4088c021678c842e51d99445ba7a82b247672df137a8443d"
+  },
+  {
+    "file": "03_PGAM5_cluster_mean_and_detection_UMAP.pdf",
+    "bytes": 117500,
+    "SHA256": "b53955aa544329d073e5e529ff4a05835bc95768603f310b13b8dc71c25896c4"
+  },
+  {
+    "file": "03_PGAM5_cluster_mean_and_detection_UMAP.png",
+    "bytes": 563878,
+    "SHA256": "ce48c29dba953908074d6d58edd6defd93b8215129f0c42119290c30c4c9c4bd"
+  },
+  {
+    "file": "03_PGAM5_expression_UMAP.pdf",
+    "bytes": 88053,
+    "SHA256": "7c6d5c2c2ef7598a14b37a91cf8e5cc523c0c8f91298c50bc586e0050fd79e63"
+  },
+  {
+    "file": "03_PGAM5_expression_UMAP.png",
+    "bytes": 221328,
+    "SHA256": "2c2891516cf420d3fe26136544bcbaeadacd2fa771d444783f3d2fbd65650aa2"
+  },
+  {
+    "file": "HVG_selection.csv.gz",
+    "bytes": 570618,
+    "SHA256": "9542b031cff1fc6ade91ca8c22338577ab6bc76ee118f4f190bb3af7e3af27f5"
+  },
+  {
+    "file": "PGAM5_by_macrophage_cluster.csv",
+    "bytes": 2621,
+    "SHA256": "593d1493864663e9e9cd32278df7bb14ed81c1955f9e640718bb5bcac8a77e64"
+  },
+  {
+    "file": "PGAM5_by_macrophage_cluster_sample.csv",
+    "bytes": 4647,
+    "SHA256": "f9b7052e70b57f5471b735bb327d97e1cd68d61a31ad33ff261e24fecab8950e"
+  },
+  {
+    "file": "README.md",
+    "bytes": 9830,
+    "SHA256": "667dbf5f59fa3b2e9aaee49c6e1c7fcf0170c8f23bc975ee1a8e1a1bbdf8e516"
+  },
+  {
+    "file": "allcell_UMAP_coordinates.csv.gz",
+    "bytes": 697917,
+    "SHA256": "448c5cf770d9e817c6f2abcee8a307671cce2709ee746e1619f561df5e6a4a46"
+  },
+  {
+    "file": "allcell_cell_annotations.csv.gz",
+    "bytes": 1498514,
+    "SHA256": "a8c2ac36d3d44daf3121bb2b8212d52be84187912e75cdc492bc5209fe1b4617"
+  },
+  {
+    "file": "allcell_celltype_counts.csv",
+    "bytes": 342,
+    "SHA256": "3443c5510d0b2c205df80f787633a2142f0f6a45a9cdf745ff707b2bb166b8fd"
+  },
+  {
+    "file": "allcell_cluster_annotations.csv",
+    "bytes": 3729,
+    "SHA256": "b0fc8a68ea4f250f41274cb53a1975fb6dfef5695bf79b8076afc3ba7408422f"
+  },
+  {
+    "file": "allcell_cluster_author_counts.csv",
+    "bytes": 569,
+    "SHA256": "8c4561b9fecf5f06c24dd98a544d7247b942edbe61f4fc235a1240b857f40ebc"
+  },
+  {
+    "file": "allcell_cluster_sample_counts.csv",
+    "bytes": 2169,
+    "SHA256": "a726655841e5fdb762690aef322b39a1317e01133b9305029a492ed3991845c8"
+  },
+  {
+    "file": "allcell_marker_evidence.csv",
+    "bytes": 91294,
+    "SHA256": "b93532f334918c120c04f23c0e0c14214ce737917e704ce7262e5b0260b95685"
+  },
+  {
+    "file": "allcell_marker_subset.h5ad",
+    "bytes": 32048143,
+    "SHA256": "ff167788e448c0b1be0c261a40671bebc8a69c663e51024861a5a9df4287e2d1"
+  },
+  {
+    "file": "allcell_metadata.csv.gz",
+    "bytes": 1412345,
+    "SHA256": "344e1152d0f985ea43deef1e2e5f9e9ba2dd3c319b08505586873067ef61c7b9"
+  },
+  {
+    "file": "allcell_plot.log",
+    "bytes": 15,
+    "SHA256": "af0d6c6b81779e24f5fe6b0f40e2c80b8257952684ca315a7cb80eca59ef548b"
+  },
+  {
+    "file": "allcell_run.log",
+    "bytes": 4731,
+    "SHA256": "1a76ce4fe5d426afa4a68af7c2ace6989ea1327979defb2df3bb81ddcbafff5f"
+  },
+  {
+    "file": "allcell_sample_celltype_counts.csv",
+    "bytes": 1536,
+    "SHA256": "832b18931f23681a5ab738ee5cabb6ae2e81775c9412cc552780d7f3b28e4dc6"
+  },
+  {
+    "file": "allcell_summary.json",
+    "bytes": 358,
+    "SHA256": "848a0caadb53a414e16b822aee144122a8a81719c93818c930dc6494e5530e32"
+  },
+  {
+    "file": "allcell_top40_markers.csv.gz",
+    "bytes": 18836,
+    "SHA256": "b6c3091091ea48bcd1d29dea780e6b8d531b1bcdc64a57f44cd311725f5e4bfe"
+  },
+  {
+    "file": "annotate_all.py",
+    "bytes": 3194,
+    "SHA256": "fb52b4a1806d8ae5405b081781939da0871b81739d53720f18d13823aa227b3e"
+  },
+  {
+    "file": "annotate_macrophages.py",
+    "bytes": 1751,
+    "SHA256": "17defdebabc20e823ff8bb6fe5d5244c61a03e51c3b5367cf569bf676e84a9c1"
+  },
+  {
+    "file": "annotation_panels.json",
+    "bytes": 1244,
+    "SHA256": "74aa7d308bb5bfae901e357107c1cdc2b53a3e33109a10c7dc1f276518c4ec1c"
+  },
+  {
+    "file": "audit.py",
+    "bytes": 2889,
+    "SHA256": "4f9ecd565202d2da704dfc93abbc0eda87a53fb2ff9f25637bed1fe6d94d7991"
+  },
+  {
+    "file": "audit_summary.json",
+    "bytes": 157,
+    "SHA256": "8109ed075ad322376e4c083147c1ddc55fb75db893f1508793d3916ffc0163c4"
+  },
+  {
+    "file": "cluster_all.py",
+    "bytes": 5024,
+    "SHA256": "6f8308396f9f0a7de75df91c60ee57700fced6d92be61b49c9bf963251765b16"
+  },
+  {
+    "file": "cluster_macrophages.py",
+    "bytes": 4118,
+    "SHA256": "1958a599429e0a93b42dc6794471936807535dd51a19f2109a59ebfcfbc68171"
+  },
+  {
+    "file": "download_matrix.py",
+    "bytes": 732,
+    "SHA256": "dab3484e5168dae89d36e8854ca3f15d012f31112cadcabd85b3296afab2581f"
+  },
+  {
+    "file": "excluded_author_TAMs.csv.gz",
+    "bytes": 45256,
+    "SHA256": "e85126781dd110cacfab9b2a4976f86e0bb06c03bff842ac0c7cab6fb90c79dd"
+  },
+  {
+    "file": "full_data_audit_summary.json",
+    "bytes": 34,
+    "SHA256": "a3a3ee2d20624505040060b5303f91f0122814f00038368fd620a05eda395077"
+  },
+  {
+    "file": "full_data_independent_audit_checks.csv",
+    "bytes": 1074,
+    "SHA256": "9532a6451bc1c557f8bece044edd2ce5d3539736b0f116bc479bb5a9aea26e58"
+  },
+  {
+    "file": "independent_audit_checks.csv",
+    "bytes": 1030,
+    "SHA256": "bbf9877edc866b8cd14cc23012015c280f3518f39facb51881c2c28241e2a4b0"
+  },
+  {
+    "file": "inputs/GSE151530_Info.txt.gz",
+    "bytes": 330527,
+    "SHA256": "96a2cdff36b65490859543b246a3447724a35e223f8999dd04812f2983fe9c5f"
+  },
+  {
+    "file": "inputs/GSE151530_barcodes.tsv.gz",
+    "bytes": 256634,
+    "SHA256": "8042eab7d859578738e04ba6ba7812584d094166e3d5562dcb02084c78a97660"
+  },
+  {
+    "file": "inputs/GSE151530_genes.tsv.gz",
+    "bytes": 146052,
+    "SHA256": "26de4971c3aa236a72d46e96e2118acc626be90598c796791c139d36329af44e"
+  },
+  {
+    "file": "inputs/all_cell_metadata.csv.gz",
+    "bytes": 1476876,
+    "SHA256": "14d14fc5c1bcbdeb9368cd8f18b0ba088945f73b7abbfd211d334e61215cb4f5"
+  },
+  {
+    "file": "inputs/core_macrophages_raw.h5ad",
+    "bytes": 16151692,
+    "SHA256": "befbc4c60f3e849570137487af51c0e55d00b38cee3aa1a6e6e408ec8d5db3d7"
+  },
+  {
+    "file": "inputs/sample_mapping.csv",
+    "bytes": 2408,
+    "SHA256": "0e061628a443d7ade2db9cb4b79a1373aa52dd42daebfdb4cddec752c99c85bc"
+  },
+  {
+    "file": "macrophage_UMAP_coordinates.csv.gz",
+    "bytes": 51912,
+    "SHA256": "cc3a75ff6612d938474bb5f4b1d766607f64ee6aa10955252d5b47299e221e85"
+  },
+  {
+    "file": "macrophage_cell_annotations.csv.gz",
+    "bytes": 112304,
+    "SHA256": "4a9b966a93aced360f44b65982999f1032a6eed74514eef9c9836cf0a7d55269"
+  },
+  {
+    "file": "macrophage_cluster_annotations.csv",
+    "bytes": 1336,
+    "SHA256": "513730dc902328c8ade72f43e65eca164dbb84c257274c9ed56c4499d5fba231"
+  },
+  {
+    "file": "macrophage_cluster_sample_counts.csv",
+    "bytes": 1158,
+    "SHA256": "a85f8705e8faa33686c4a2043b44d792a9004da96d8efd3c7f5234d8a36a0353"
+  },
+  {
+    "file": "macrophage_marker_evidence.csv",
+    "bytes": 28009,
+    "SHA256": "6c91361a5a11cb55674bab362c97763c6d20c0f1669583494e7a24b96b00ee50"
+  },
+  {
+    "file": "macrophage_marker_subset.h5ad",
+    "bytes": 2317707,
+    "SHA256": "fd565e8a5d9031a2e3df5ba45b69103f157aa21becc0e7d23c2c35422938b91d"
+  },
+  {
+    "file": "macrophage_metadata.csv.gz",
+    "bytes": 101321,
+    "SHA256": "95bfb9bfb86798e861ab20788062841ed64cd0dd490d4dd59926966d8156d3f8"
+  },
+  {
+    "file": "macrophage_plot.log",
+    "bytes": 4393,
+    "SHA256": "507f8645fc7cad7087cfa53e51b0c25f8c7fca5e1eaeff60a8a556554cafc7fc"
+  },
+  {
+    "file": "macrophage_run.log",
+    "bytes": 4444,
+    "SHA256": "257df05651a0fd42825925912b276d9ae36d431133b74965d8a8be622263227c"
+  },
+  {
+    "file": "macrophage_summary.json",
+    "bytes": 440,
+    "SHA256": "f92afb773aed002333dc1849aeffef83b6955a45500c838cb47b426631bc6e00"
+  },
+  {
+    "file": "macrophage_top50_markers.csv.gz",
+    "bytes": 27817,
+    "SHA256": "b38febb98c2f92df00dfd1c2eff138f9b58ef9bf33c15ad33a786ce28aa2e4fd"
+  },
+  {
+    "file": "macrophages_annotated_full.h5ad",
+    "bytes": 33857128,
+    "SHA256": "17d04f783b857b97d97742942d00ec0f4532bead40b87d99f3bba4d41ae88d5a"
+  },
+  {
+    "file": "portable_audit.log",
+    "bytes": 16,
+    "SHA256": "51abd887b9d8baea042f056bd5800f7cfe24a36fa760b1ca6797ae389fa64adc"
+  },
+  {
+    "file": "portable_reclustering.log",
+    "bytes": 4442,
+    "SHA256": "94771eb4031c76d86f11ddec03c599b5d976fb8b4c4676b00f3c8f48f6583c20"
+  },
+  {
+    "file": "portable_reclustering_verification.json",
+    "bytes": 132,
+    "SHA256": "98ff66b4e268550979022ba8d7947854170375d95202213ac7ca5eead4c2b31a"
+  },
+  {
+    "file": "portable_render.log",
+    "bytes": 4408,
+    "SHA256": "4af980016054886982860a077a0748f22303c6132e75514b00598a726c644584"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 182,
+    "SHA256": "b018ece7f6181fc18a1abb587ac33b13f1735146c2f8d68f1a55675191a659ae"
+  },
+  {
+    "file": "visualize.py",
+    "bytes": 9796,
+    "SHA256": "19436960e5f8df38cbfd0c6d987200902b19331425225c222ab1f78ec2d1eadd"
+  }
+]
