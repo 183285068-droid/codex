@@ -1,0 +1,83 @@
+{
+  "dataset": "GSE149614",
+  "analysis": "All 7448 primaryT macrophages; no gene zero excluded",
+  "date_UTC": "2026-10-10",
+  "files": {
+    "PGAM5_MYO19_all_macrophages.pdf": {
+      "bytes": 35037,
+      "sha256": "e0c0161b17106bf07cfc99973c2615b3df4e3147b521ef155623172db475d791"
+    },
+    "PGAM5_MYO19_all_macrophages.png": {
+      "bytes": 343993,
+      "sha256": "ebf1726254cb3df727f586234867c7766814d244079be7d6fad25315b43f7a2f"
+    },
+    "README.md": {
+      "bytes": 6538,
+      "sha256": "685b989b0c3bd5f9f59b5a8a505ac7193b6a603e135bcdfe6b6b8f8b9e2a3cc3"
+    },
+    "analyze_correlation.py": {
+      "bytes": 6905,
+      "sha256": "41cb4352637678a6ad1a6a4ced7e6e342deb36e5569c1914ca849bdf1c654db6"
+    },
+    "audit.json": {
+      "bytes": 2184,
+      "sha256": "28c5e2f59aeea7147536e0b22a52a7e31e3130f31b580450f967d6dd9214daac"
+    },
+    "audit_correlation.py": {
+      "bytes": 9029,
+      "sha256": "e4a0ac1c4c11ebdd990c6dcf23e7c84dd144a38ac209e540d62f977463ee480b"
+    },
+    "audit_saved_results.json": {
+      "bytes": 1630,
+      "sha256": "c1db24c5c3284ef54c338d269e44189f77f32e2137b78609ed491fd768e5acbc"
+    },
+    "correlation_statistics.csv": {
+      "bytes": 587,
+      "sha256": "8b2ac66cde68ce176064e52443553e13e5c7886e18bc4451f18e542baf449d30"
+    },
+    "detection_summary.json": {
+      "bytes": 193,
+      "sha256": "2875272bb6041232d8f2daf071a19e0d9a47df4c6269818771f643f3383f332a"
+    },
+    "environment_versions.json": {
+      "bytes": 184,
+      "sha256": "e6eededfbca5c2193e750b87b731cc912b1a126806bef16cc5dc31170a842182"
+    },
+    "extract_expression.py": {
+      "bytes": 3856,
+      "sha256": "e0ecb7bd812d009c57f2dd572c3d17d8753e39cf1513c91a3c6059aacd93e440"
+    },
+    "macrophage_expression.csv.gz": {
+      "bytes": 92677,
+      "sha256": "f3ae74b0925504cc276688f909e33379b855b1988c7f0604661a32da7530126b"
+    },
+    "plot_correlation.py": {
+      "bytes": 3473,
+      "sha256": "8c97c52ff1bf3c34d304256160753bce121d52bbc52d2d299c7e4fc63507034e"
+    },
+    "protocol.json": {
+      "bytes": 1515,
+      "sha256": "10e2126025186a1f20bae3ee6009b2ee74af8c321b2c487f0078a73a11e5759e"
+    },
+    "raw_count_pairs.csv": {
+      "bytes": 143,
+      "sha256": "2775a7f380c43f9040f20fe68aba51a807a52ed0f7927f7cdfe3d2c4ea10316c"
+    },
+    "requirements.txt": {
+      "bytes": 109,
+      "sha256": "58a0b57a00c6b1569091175bf67886c5cc454b6ba9706baa1323147e3555abc2"
+    },
+    "result.json": {
+      "bytes": 956,
+      "sha256": "d35ffa31b67b2cfe5adb9b0b7b068249ea4c9c91021d80dbab2a7202b5e61866"
+    },
+    "sample_summary.csv": {
+      "bytes": 816,
+      "sha256": "2564e9092cfb9df453a1bb00d7db27d8fa282ff4dbc531e3561219c0991b450d"
+    },
+    "source_provenance.json": {
+      "bytes": 1378,
+      "sha256": "2eed4dc0357cfe4e8b2eeb5112ca384d4c6223d4ec92b18681538103621ec257"
+    }
+  }
+}

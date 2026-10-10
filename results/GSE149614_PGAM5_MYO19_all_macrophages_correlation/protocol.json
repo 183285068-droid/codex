@@ -1,0 +1,21 @@
+{
+  "primary": "All 7448 existing primaryT macrophages; Spearman on log1p(CP10k), retaining all zeros; two-sided asymptotic p and absolute-rho Monte Carlo permutation p",
+  "secondary_family": [
+    "Pearson_all_cells_log1p_CP10k",
+    "Spearman_all_cells_raw_counts",
+    "Pearson_all_cells_raw_counts"
+  ],
+  "multiple_testing": "One designated primary gene-pair Spearman test; BH over the three secondary asymptotic p-values. No selection of results by significance.",
+  "permutation": {
+    "shuffles": 200000,
+    "seed": 20261010,
+    "statistic": "absolute Spearman rho",
+    "formula": "(extreme_count+1)/(B+1)",
+    "null": "Shuffle MYO19 ranks across all cells; cells assumed exchangeable",
+    "uncertainty": "Clopper-Pearson 95% binomial interval for the tail probability; Monte Carlo estimate, not an exact enumeration"
+  },
+  "zero_handling": "No PGAM5>0, MYO19>0 or co-detection filter; zeros remain numeric zeros on all scales and in every test",
+  "normalization": "raw_count / stored full-library total_counts * 10000, then natural log1p; no matching, covariate regression or partial correlation",
+  "scope": "Previous primary HCC T sample scope and latest conservative macrophage labels; all cycling macrophages included; existing source QC retained",
+  "limitations": "Cell-level tests; same-patient cells are not independent patient replicates. Sparse counts, tied zeros, normalization and unequal sample cell counts limit biological interpretation. No causal/protein-interaction inference."
+}

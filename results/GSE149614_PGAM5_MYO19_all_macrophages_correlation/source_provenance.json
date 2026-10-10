@@ -1,0 +1,44 @@
+{
+  "dataset": "GSE149614",
+  "scope": "All existing QC macrophages from the 10 primary HCC tumor samples ending T",
+  "annotation_source_commit": "a7bf04f34197b3b888a59fc74bbbbfb187c99769",
+  "all_primaryT_QC_cells": 34414,
+  "macrophages": 7448,
+  "samples": [
+    "HCC01T",
+    "HCC02T",
+    "HCC03T",
+    "HCC04T",
+    "HCC05T",
+    "HCC06T",
+    "HCC07T",
+    "HCC08T",
+    "HCC09T",
+    "HCC10T"
+  ],
+  "patients": [
+    "HCC01",
+    "HCC02",
+    "HCC03",
+    "HCC04",
+    "HCC05",
+    "HCC06",
+    "HCC07",
+    "HCC08",
+    "HCC09",
+    "HCC10"
+  ],
+  "selection": "harmonized_group == Macrophage only; no filter on either gene; cycling macrophages retained",
+  "expression": "Symbol-merged raw integer X counts; CP10k uses previously saved FULL-library total_counts; natural log1p; no depth matching/regression",
+  "source_hashes": {
+    "/workspace/scratch/PGAM5_myeloid_reference_v2/GSE149614_harmonized_counts_QC.h5ad": {
+      "bytes": 201586882,
+      "sha256": "aa9c07ea7eeb7a0a6532bd47431e7d4b07273b5bbbe5cf0c4c27b1cdac5c6c55"
+    },
+    "/workspace/codex/results/PGAM5_RNA_annotation_deconvolution_v4/GSE149614_all_cell_annotation.csv.gz": {
+      "bytes": 1083992,
+      "sha256": "46fdbc1ac73fb3572e3ad9bd0ae1031e8f9d7eb9ea8a3e02a1f86ef3ee33f380"
+    }
+  },
+  "extracted_expression_sha256": "f3ae74b0925504cc276688f909e33379b855b1988c7f0604661a32da7530126b"
+}

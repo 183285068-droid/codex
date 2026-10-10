@@ -1,0 +1,10 @@
+{
+  "cells": 7448,
+  "PGAM5_detected": 197,
+  "MYO19_detected": 311,
+  "both_detected": 24,
+  "neither_detected": 6964,
+  "PGAM5_only": 173,
+  "MYO19_only": 287,
+  "cycling_macrophages": 520
+}

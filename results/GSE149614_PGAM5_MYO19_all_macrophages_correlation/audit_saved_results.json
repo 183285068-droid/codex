@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks_passed": 22,
+  "checks": [
+    "Exactly 7448 unique macrophages, all primary T and Tumor",
+    "All 10 samples/patient labels included; one patient label per sample",
+    "Full-library normalization denominators positive",
+    "PGAM5 raw integer counts nonnegative and finite",
+    "PGAM5 CP10k/log1p independently reconstructed",
+    "PGAM5 all raw zeros preserved exactly on both transformed scales",
+    "PGAM5 detection flag is raw_count>0",
+    "MYO19 raw integer counts nonnegative and finite",
+    "MYO19 CP10k/log1p independently reconstructed",
+    "MYO19 all raw zeros preserved exactly on both transformed scales",
+    "MYO19 detection flag is raw_count>0",
+    "Detection counts 197,311,24; neither 6964; only 173,287",
+    "All 520 cycling_flag-positive macrophages retained",
+    "Spearman log1p_CP10k: n=7448 and manual coefficient/analytic p",
+    "Pearson log1p_CP10k: n=7448 and manual coefficient/analytic p",
+    "Spearman raw_counts: n=7448 and manual coefficient/analytic p",
+    "Pearson raw_counts: n=7448 and manual coefficient/analytic p",
+    "Exactly one primary and three secondary tests; BH independently checked",
+    "Fixed200000 permutation p uses plus-one formula; valid extreme count",
+    "All 10 per-sample counts and means independently reconciled",
+    "Raw count pair frequencies reconstruct all cells, including (0,0)",
+    "Expression file SHA256 matches recorded provenance"
+  ],
+  "source_HDF5_counts_audited": false,
+  "scope": "Implementation and data retention checks, not independent biological validation or proof of cell/patient exchangeability"
+}

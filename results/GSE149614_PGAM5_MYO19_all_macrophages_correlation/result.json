@@ -1,0 +1,29 @@
+{
+  "dataset": "GSE149614",
+  "scope": "10 primary HCC tumor T samples",
+  "n_cells": 7448,
+  "n_samples": 10,
+  "n_patients": 10,
+  "all_zero_values_retained": true,
+  "detection_counts": {
+    "cells": 7448,
+    "PGAM5_detected": 197,
+    "MYO19_detected": 311,
+    "both_detected": 24,
+    "neither_detected": 6964,
+    "PGAM5_only": 173,
+    "MYO19_only": 287,
+    "cycling_macrophages": 520
+  },
+  "Spearman_rho": 0.06295057248622439,
+  "Spearman_asymptotic_p": 5.4115706389068794e-08,
+  "Spearman_permutation_p": 4.9999750001249995e-06,
+  "permutation_extremes": 0,
+  "permutation_tail_probability_95pct_CI": [
+    0.0,
+    1.8444227173720117e-05
+  ],
+  "Pearson_r": 0.019716166813110985,
+  "Pearson_p": 0.0888640765573723,
+  "interpretation": "Very weak positive rank association in pooled cells; normalized Pearson is not significant. P-values are cell-level, not evidence of independent patient-level association or causal/protein interaction."
+}
