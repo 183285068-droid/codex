@@ -1,0 +1,37 @@
+OUTER CONFIGURATION GSE151530 25 robust_FCLS
+OUTER COMPLETED GSE151530 892
+OUTER CONFIGURATION GSE149614 25 robust_FCLS
+OUTER COMPLETED GSE149614 920
+OUTER CONFIGURATION GSE189903 75 robust_FCLS
+OUTER COMPLETED GSE189903 336
+OUTER CONFIGURATION GSE242889 25 robust_FCLS
+OUTER COMPLETED GSE242889 474
+OUTER CONFIGURATION GSE202642 25 robust_FCLS
+OUTER COMPLETED GSE202642 698
+FINAL LOCKED 25 robust_FCLS
+  dataset                     unit  donor_labels  mixtures  standard_MAE_pp  standard_Pearson_r  all_zero_target_p95_percent  all_zero_target_max_percent  scenario_MAE_pp
+GSE149614  equalized_cell_fraction            10       460         1.511739            0.262319                     4.076021                    12.778455         1.330249
+GSE149614 library_RNA_contribution            10       460         1.835843           -0.070969                     4.718023                    10.949508         1.467980
+GSE151530  equalized_cell_fraction            24       446         4.446541            0.051795                    13.843358                    35.485341         2.847896
+GSE151530 library_RNA_contribution            24       446         6.417647            0.179786                    16.247814                    41.291699         4.149865
+GSE189903  equalized_cell_fraction             4       168         1.738527            0.130184                    14.618059                    28.170875         3.117926
+GSE189903 library_RNA_contribution             4       168         5.183397            0.828051                    14.216943                    17.515874         3.951044
+GSE202642  equalized_cell_fraction             7       349         2.964275            0.079995                    13.664742                    22.088524         3.333434
+GSE202642 library_RNA_contribution             7       349         7.276223            0.042315                    19.949392                    31.120244         6.292786
+GSE242889  equalized_cell_fraction             5       237         2.599606            0.204274                    12.302351                    19.308132         2.724382
+GSE242889 library_RNA_contribution             5       237         2.592944           -0.051401                    10.976280                    16.814972         2.395353
+{
+  "computational_gates_all_passed": false,
+  "valid_for_TCGA_cellular_abundance": false,
+  "bulk_platform_and_cell_RNA_calibration_completed": false,
+  "final_solver": "robust_FCLS",
+  "final_top_markers": 25,
+  "patient_consistent_state_genes": [
+    "MKI67",
+    "NUSAP1",
+    "DHFR"
+  ],
+  "failed_gates": 38,
+  "total_gates": 45,
+  "interpretation": "Only an exploratory RNA-detected macrophage reference unless all gates and external platform/cell-unit calibration pass. Do not report TCGA coefficients as cellular infiltration percentages."
+}

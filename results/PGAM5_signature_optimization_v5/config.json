@@ -1,0 +1,20 @@
+{
+  "seed": 20261010,
+  "target": "Existing marker-consistent macrophage AND symbol-summed PGAM5 raw count > 0; zero means RNA undetected",
+  "primary_cohorts": ["GSE151530", "GSE149614", "GSE189903", "GSE242889", "GSE202642"],
+  "supplementary": "GSE140228 HCC-only, with Droplet/Smartseq2 separated; GSE125449 overlapping GSE151530; GSE146115 low support. GSE154906 remains cancelled",
+  "definition": "Retain existing conservative macrophage memberships, all cycling cells and raw zero values. Do not rename a proliferation state PGAM5-specific",
+  "feature_universe": "Exact symbols measurable in all five primary cohorts; availability only, no external expression/outcome used",
+  "DE": "Two-sided Mann-Whitney U on log1p(CP10k), asymptotic tie correction and continuity correction; BH over the common gene universe separately per cohort; exact linear meanCP10k log2FC with pseudocount 0.001",
+  "candidate_thresholds": {"FDR_max_strict": 0.05, "log2FC_min": 1, "positive_detection_min": 0.10, "cohort_fraction_support": 0.60, "minimum_supported_cohorts": 2, "eligible_donor_positive_min": 5, "eligible_donor_undetected_min": 20, "donor_positive_effect_fraction_min": 0.70},
+  "candidate_roles": "PGAM5 forced as definition anchor, not independent evidence; lineage markers selected separately from target-state candidates; cycle genes retained and documented, with a no-cycle sensitivity",
+  "reference": "Equal weights to each cohort then each available donor within each group; full competitors and Unknown_other retained; group-specific cell-mean CP10k for idealized equal-cell mixtures and pooled raw-count CPM for RNA-contribution mixtures",
+  "reference_group_support": "At least 50 cells and 2 donor labels per active fine group; unsupported cycling groups collapse into their existing parent, other unsupported groups into Unknown_other; target and undetected macrophages required",
+  "configurations": {"broad_marker_top": [25, 75], "state_marker_top": 50, "solvers": ["NNLS", "FCLS", "robust_FCLS"], "FCLS": "Nonnegative fractions constrained to sum one, ridge 0.001, analytic objective/Jacobian; robust uses 3 fixed Cauchy residual-weight updates with scale 1"},
+  "validation": "Nested leave-one-cohort-out across 5 primary cohorts; inner entire-cohort holdouts choose configuration by cohort-equal mean(MAE+2*zero95quantile+0.02*(1-max(r,0))), with undefined r treated as 0, training-only feature selection. All outer predictions reported, no choosing a method from outer outcomes. Previous retrospective data exploration acknowledged",
+  "mixtures": {"cells": 2000, "outer_replicates": 3, "inner_replicates": 1, "target_fractions": [0, 0.005, 0.01, 0.02, 0.05], "total_macrophage_fraction": 0.25, "nonmacrophage": "Observed held-out donor nonmacrophage pool, including unresolved cells; no tumor-label eligibility requirement", "eligible": "At least 5 detected and 20 undetected macrophages, 200 nonmacrophages", "challenges": "Target-absent PGAM5-detected nonmacrophages, cycling nonmacrophages, and pure competitor pools with >=20 cells; sampling with replacement, repeats not independent patients"},
+  "units": "equalized_cell_fraction is idealized, not native bulk. library_RNA_contribution is observed count contribution, not biologically calibrated cell fraction",
+  "gates": {"standard_MAE_pp_max": 1, "standard_Pearson_min": 0.7, "zero_target_p95_percent_max": 0.5, "independent_donors_min_each_primary": 3, "Monocyte_DC_challenge_donors_min": 2, "nontrivial_state_markers_min": 5},
+  "TCGA": "Outcome-blind primary-tumor selection; apply final fixed reference only after reporting nested performance. Any failed gates mean outputs exploratory coefficients, not target cell abundance. Bulk/scRNA platform matching and cell-RNA calibration remain separate requirements",
+  "constraints": "No patient-paired DE, depth matching, depth covariate regression or partial correlation. Donor consistency and cohort holdouts are validation units, not paired DE. No outcome-based feature or threshold selection"
+}

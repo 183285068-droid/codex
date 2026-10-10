@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "OS independently reconstructed log-rank",
+    "OS High all KM product-limit and log-log CI steps",
+    "OS Low all KM product-limit and log-log CI steps",
+    "OS high_low_unadjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "OS continuous_unadjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "OS high_low_adjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "OS continuous_adjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "OS posthoc stage-stratified Cox vs independent PHReg",
+    "PFI independently reconstructed log-rank",
+    "PFI High all KM product-limit and log-log CI steps",
+    "PFI Low all KM product-limit and log-log CI steps",
+    "PFI high_low_unadjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "PFI continuous_unadjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "PFI high_low_adjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "PFI continuous_adjusted Efron Cox coefficients/covariance vs statsmodels PHReg",
+    "PFI posthoc stage-stratified Cox vs independent PHReg"
+  ],
+  "n_checks": 16,
+  "grouping_fixed_before_endpoint_analysis": true,
+  "prognostic_specificity_or_cell_abundance_validated": false
+}

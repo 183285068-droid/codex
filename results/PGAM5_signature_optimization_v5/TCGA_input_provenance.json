@@ -1,0 +1,13 @@
+{
+  "patients": 371,
+  "primary_tumor_sample_type": "01",
+  "source": "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA24_tumor_featurecounts.txt.gz",
+  "source_SHA256": "16820a7da5fe7c4db3938edf42d355682863b37030a5a8496f8a9b03ddacc96e",
+  "source_bytes": 307951450,
+  "all_measured_bulk_genes": 23368,
+  "measured_common_reference_universe": 14223,
+  "selection": "Reuse previous outcome-blind aliquot selection, one selected primary tumor per patient",
+  "bulk_unit": "GSE62944 FeatureCounts read counts; full-library CPM/CP10k. Not TPM.",
+  "new_TPM_access": "Public GDC and Xena endpoint checks blocked by egress proxy HTTP403; no TPM fabricated or inferred using gene-span length",
+  "limitation": "Bulk read counts and scRNA UMI have uncalibrated transcript-length/platform effects; coefficients cannot be validated cellular abundance"
+}

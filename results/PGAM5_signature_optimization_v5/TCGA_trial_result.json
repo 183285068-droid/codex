@@ -1,0 +1,16 @@
+{
+  "patients": 371,
+  "solver": "robust_FCLS",
+  "reference_genes": 503,
+  "bulk_matched_genes": 459,
+  "coverage_fraction": 0.9125248508946322,
+  "components": 20,
+  "target_coefficients_gt1e_8": 365,
+  "numerical_positive_tolerance": 1e-08,
+  "median_exploratory_target_coefficient": 0.05510804758169241,
+  "with_vs_without_PGAM5_anchor_Spearman": 0.9813722097707822,
+  "reference_validation_passed": false,
+  "valid_cellular_abundance_obtained": false,
+  "output_unit": "Exploratory relative RNA mixture coefficient on unmatched FeatureCounts/scRNA platforms; no valid conversion to cell fraction",
+  "interpretation": "Outputs are exploratory coefficients, not validated cellular infiltration. User-requested exploratory coefficient-survival associations are reported separately; significance cannot establish cell abundance or PGAM5 specificity."
+}

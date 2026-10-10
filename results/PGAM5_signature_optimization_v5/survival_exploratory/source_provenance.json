@@ -1,0 +1,21 @@
+{
+  "survival_repository": "https://github.com/openbiox/UCSCXenaShiny",
+  "mirror_commit": "e012e4a3e77702863dc639bfc8ee23c8e48e3231",
+  "survival_source": "data/tcga_surv.rda, Xena Toil TCGA-CDR collection",
+  "clinical_source": "data/tcga_clinical.rda, Xena Toil clinical collection",
+  "CDR_publication": "https://doi.org/10.1016/j.cell.2018.02.052",
+  "input_hashes": {
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/TCGA_CDR_mirror_survival.csv.gz": {
+      "bytes": 101104,
+      "sha256": "ab42513728be45befab2f4ba32023a7ec2aeea829cce9d7eaf0a71870bd1b5c0"
+    },
+    "/workspace/scratch/TCGA_LIHC_candidate30_survival/UCSCXenaShiny_source/data/tcga_clinical.rda": {
+      "bytes": 125260,
+      "sha256": "9bd3b5366f19353628aaedc6b941b6bc19aed7d819de0f3d695c5a6183ff31aa"
+    },
+    "/workspace/scratch/PGAM5_signature_optimization_v5/EXPLORATORY_TCGA_coefficients_NOT_CELL_FRACTIONS.csv": {
+      "bytes": 43495,
+      "sha256": "eaa0b1e6efb342c9e4ea9d4968cd0a4f66e0fc56895cfe707dc58b44bef39327"
+    }
+  }
+}

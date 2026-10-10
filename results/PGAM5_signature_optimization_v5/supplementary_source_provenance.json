@@ -1,0 +1,34 @@
+[
+  {
+    "cohort": "GSE125449",
+    "source": "/workspace/scratch/GSE125449/HCC_TAM_counts_QC.h5ad",
+    "bytes": 3365464,
+    "sha256": "6a896941eaba0ecb4c7927b60210ca6734747756f3707fe90e66767ef7312f91",
+    "role": "Overlaps GSE151530; not an independent recurrence vote",
+    "count_type": "UMI"
+  },
+  {
+    "cohort": "GSE140228_Droplet_HCC",
+    "source": "/workspace/scratch/GSE140228/Droplet/macrophage_counts_QC.h5ad",
+    "bytes": 19295285,
+    "sha256": "c310ed33fb174c891f4e0dcb9e45ea308b633cc328a1198976f4283b456f26c6",
+    "role": "HCC-only; CC excluded; shared donors with Smartseq2",
+    "count_type": "UMI"
+  },
+  {
+    "cohort": "GSE140228_Smartseq2_HCC",
+    "source": "/workspace/scratch/GSE140228/Smartseq2/macrophage_counts_QC.h5ad",
+    "bytes": 15955947,
+    "sha256": "d723b9a8bcd403e2f79b71969dc992d20c9d7674146db8e3b78783a016a3c85b",
+    "role": "HCC-only; read counts and partly shared donors",
+    "count_type": "read"
+  },
+  {
+    "cohort": "GSE146115",
+    "source": "/workspace/scratch/GSE146115/macrophage_counts_QC.h5ad",
+    "bytes": 2787566,
+    "sha256": "80d4b9a5e36d2fef3308dc339d01d53f8bc8b29989bd30ba8ef7de3278c457d3",
+    "role": "Low-support marker-inferred macrophages; C1 read counts",
+    "count_type": "read"
+  }
+]

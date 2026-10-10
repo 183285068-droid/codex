@@ -1,0 +1,5 @@
+Prepared {'dataset': 'GSE151530', 'role': 'primary', 'all_QC_cells': 44776, 'macrophages': 3493, 'PGAM5_detected': 161, 'donor_labels': 25, 'strict_upregulated_excluding_PGAM5': 0}
+Prepared {'dataset': 'GSE149614', 'role': 'primary', 'all_QC_cells': 34414, 'macrophages': 7448, 'PGAM5_detected': 197, 'donor_labels': 10, 'strict_upregulated_excluding_PGAM5': 0}
+Prepared {'dataset': 'GSE189903', 'role': 'primary', 'all_QC_cells': 44287, 'macrophages': 3467, 'PGAM5_detected': 85, 'donor_labels': 4, 'strict_upregulated_excluding_PGAM5': 0}
+Prepared {'dataset': 'GSE242889', 'role': 'primary', 'all_QC_cells': 19872, 'macrophages': 3990, 'PGAM5_detected': 102, 'donor_labels': 5, 'strict_upregulated_excluding_PGAM5': 0}
+Prepared {'dataset': 'GSE202642', 'role': 'primary', 'all_QC_cells': 56719, 'macrophages': 12135, 'PGAM5_detected': 868, 'donor_labels': 7, 'strict_upregulated_excluding_PGAM5': 0}

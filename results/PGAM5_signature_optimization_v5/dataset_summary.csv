@@ -1,0 +1,6 @@
+dataset,role,all_QC_cells,macrophages,PGAM5_detected,donor_labels,strict_upregulated_excluding_PGAM5
+GSE151530,primary,44776,3493,161,25,113
+GSE149614,primary,34414,7448,197,10,293
+GSE189903,primary,44287,3467,85,4,41
+GSE242889,primary,19872,3990,102,5,132
+GSE202642,primary,56719,12135,868,7,26

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "patients": 3,
+  "max_coefficient_difference": 2.914335439641036e-16,
+  "input_unit": "CP10k, original full-library denominator preserved before feature subset",
+  "biological_validation_passed": false
+}

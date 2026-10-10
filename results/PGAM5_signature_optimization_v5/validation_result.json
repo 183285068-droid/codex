@@ -1,0 +1,15 @@
+{
+  "computational_gates_all_passed": false,
+  "valid_for_TCGA_cellular_abundance": false,
+  "bulk_platform_and_cell_RNA_calibration_completed": false,
+  "final_solver": "robust_FCLS",
+  "final_top_markers": 25,
+  "patient_consistent_state_genes": [
+    "MKI67",
+    "NUSAP1",
+    "DHFR"
+  ],
+  "failed_gates": 38,
+  "total_gates": 45,
+  "interpretation": "Only an exploratory RNA-detected macrophage reference unless all gates and external platform/cell-unit calibration pass. Do not report TCGA coefficients as cellular infiltration percentages."
+}

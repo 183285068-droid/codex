@@ -1,0 +1,27 @@
+[
+  {
+    "cohort": "GSE151530",
+    "constant_zero_tests_p_set_to_1": 312,
+    "strict_upregulated_excluding_PGAM5": 113
+  },
+  {
+    "cohort": "GSE149614",
+    "constant_zero_tests_p_set_to_1": 154,
+    "strict_upregulated_excluding_PGAM5": 293
+  },
+  {
+    "cohort": "GSE189903",
+    "constant_zero_tests_p_set_to_1": 1085,
+    "strict_upregulated_excluding_PGAM5": 41
+  },
+  {
+    "cohort": "GSE242889",
+    "constant_zero_tests_p_set_to_1": 618,
+    "strict_upregulated_excluding_PGAM5": 132
+  },
+  {
+    "cohort": "GSE202642",
+    "constant_zero_tests_p_set_to_1": 298,
+    "strict_upregulated_excluding_PGAM5": 26
+  }
+]

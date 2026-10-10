@@ -1,0 +1,11 @@
+{
+  "date_UTC": "2026-10-10",
+  "previous_repository_HEAD": "46333ac62335202860f4c86930e109e28180667d",
+  "final_configuration_SHA256": "fac439e6208cb665e4e147026275a2e1d58cf2c99ac67c9f09c1d9ae7842b64b",
+  "data_preparation_configuration_SHA256": "fac439e6208cb665e4e147026275a2e1d58cf2c99ac67c9f09c1d9ae7842b64b",
+  "config_change_scope": "Inner-CV selection objective finalized during preprocessing before any outer validation; DE definitions/inputs unchanged. Retrospective optimization, not preregistration.",
+  "bulk_unit": "Historical GSE62944 FeatureCounts read counts normalized by the full-library denominator; NOT TPM",
+  "reference_valid_for_cellular_abundance": false,
+  "TCGA_survival_interpretation": "Exploratory coefficient-survival association; not PGAM5-specific macrophage infiltration",
+  "reproduction": "Saved-model inference, saved-result audits and survival rerun need only packaged files. Full raw-count reference rebuild needs source files listed in provenance."
+}

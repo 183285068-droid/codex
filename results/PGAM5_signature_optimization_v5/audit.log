@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks_passed": 1100,
+  "source_data_audited": true,
+  "meaning": "Implementation/split/unit checks, not biological validation; KKT certifies only the fixed-weight convex last IRLS step"
+}

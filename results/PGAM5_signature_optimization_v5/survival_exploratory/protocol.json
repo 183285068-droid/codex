@@ -1,0 +1,24 @@
+{
+  "population": "371 outcome-blind selected TCGA-LIHC primary-tumor patients",
+  "predictor": "v5 robust_FCLS exploratory PGAM5 RNA-detected macrophage coefficient; reference failed validation, NOT cellular infiltration",
+  "grouping": "High > global 371-patient coefficient median; Low <= median; same grouping for both endpoints, no optimal outcome cutpoint",
+  "global_median": 0.0551080475816924,
+  "global_IQR": 0.042404295910732706,
+  "endpoints": [
+    "OS",
+    "PFI"
+  ],
+  "PFS_available": false,
+  "endpoint_rule": "finite time >0 days and event exactly 0 or 1; no imputations; independent patient-level join",
+  "primary": "Two-sided unweighted log-rank for OS and PFI; BH across these 2 tests. KM Greenwood log-log 95% CI, censor markers and risk table",
+  "Cox": "High/low unadjusted descriptive HR; continuous coefficient per full-cohort IQR unadjusted; high/low and continuous models adjusted for age/10 years, male and pathological stage II, III-IV vs I. Efron ties; complete cases only",
+  "secondary_multiplicity": "BH over 6 target-term Cox tests: continuous unadjusted, high/low adjusted, continuous adjusted, across both endpoints. Unadjusted high/low Cox accompanies primary log-rank effect estimation",
+  "PH": "Rank-time proportional-hazards diagnostic for each covariate; report all p without selecting methods for significant outcomes",
+  "clinical_source": "Same UCSCXenaShiny mirror used in previous tasks. Age at initial pathologic diagnosis, gender, exact pathological AJCC stage. III-IV pooled; missing/discrepancy stages excluded in adjusted models",
+  "scope": "Exploratory coefficient-survival association only. Neither prognostic significance nor adjustment validates cell abundance, PGAM5 specificity or causality; no independent survival cohort",
+  "posthoc_addendum": {
+    "trigger": "Rank-time diagnostics after original model fitting showed PFI stage covariates violated PH; not a prespecified primary test",
+    "analysis": "Continuous coefficient per original global IQR with age/sex adjustment, stratified baseline hazards by I/II/III-IV; both OS and PFI retained, no outcome-driven cutpoint",
+    "multiplicity": "BH over two posthoc target-term tests; original primary and six secondary test families unchanged"
+  }
+}

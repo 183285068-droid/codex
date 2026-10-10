@@ -1,0 +1,68 @@
+endpoint,patient,group,time_days,event,reason
+OS,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+OS,TCGA-BW-A5NP,High,0.0,0.0,missing/nonpositive/nonfinite time
+OS,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+OS,TCGA-CC-A9FU,High,0.0,0.0,missing/nonpositive/nonfinite time
+OS,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+OS,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+OS,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+OS,TCGA-RC-A6M3,High,0.0,0.0,missing/nonpositive/nonfinite time
+OS_adjusted,TCGA-2Y-A9GS,High,724.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-2Y-A9H8,Low,633.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-5R-AA1D,High,449.0,0.0,incomplete covariates: age_years
+OS_adjusted,TCGA-BC-A10Q,High,1135.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10R,Low,308.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10S,High,1423.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10T,Low,837.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10U,Low,837.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10W,High,91.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A10Y,Low,711.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A110,High,2116.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BC-A112,High,153.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-BD-A2L6,Low,1363.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-HP-A5N0,Low,1147.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-MI-A75H,Low,747.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-MI-A75I,High,630.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-T1-A6J8,Low,23.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-WQ-A9G7,High,30.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-XR-A8TE,Low,925.0,0.0,incomplete covariates: age_years
+OS_adjusted,TCGA-ZP-A9CV,Low,1088.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9CY,Low,782.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9CZ,High,706.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9D0,Low,1091.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9D1,Low,21.0,0.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9D2,High,765.0,1.0,incomplete covariates: stage_group
+OS_adjusted,TCGA-ZP-A9D4,Low,395.0,0.0,incomplete covariates: stage_group
+PFI,TCGA-2V-A95S,High,,0.0,missing/nonpositive/nonfinite time
+PFI,TCGA-BW-A5NQ,High,0.0,0.0,missing/nonpositive/nonfinite time
+PFI,TCGA-CC-A9FU,High,0.0,0.0,missing/nonpositive/nonfinite time
+PFI,TCGA-CC-A9FV,High,0.0,0.0,missing/nonpositive/nonfinite time
+PFI,TCGA-DD-A4NR,High,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+PFI,TCGA-DD-AACD,Low,,,no matched survival record; missing/nonpositive/nonfinite time; missing/nonbinary event
+PFI,TCGA-RC-A6M3,High,0.0,0.0,missing/nonpositive/nonfinite time
+PFI_adjusted,TCGA-2Y-A9GS,High,102.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-2Y-A9H8,Low,398.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-5R-AA1D,High,449.0,0.0,incomplete covariates: age_years
+PFI_adjusted,TCGA-BC-A10Q,High,340.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10R,Low,199.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10S,High,1130.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10T,Low,598.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10U,Low,586.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10W,High,91.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A10Y,Low,400.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A110,High,2057.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BC-A112,High,153.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-BD-A2L6,Low,415.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-HP-A5N0,Low,179.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-MI-A75H,Low,301.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-MI-A75I,High,265.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-T1-A6J8,Low,23.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-WQ-A9G7,High,30.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-XR-A8TE,Low,210.0,1.0,incomplete covariates: age_years
+PFI_adjusted,TCGA-ZP-A9CV,Low,1088.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9CY,Low,782.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9CZ,High,706.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9D0,Low,1091.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9D1,Low,21.0,0.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9D2,High,315.0,1.0,incomplete covariates: stage_group
+PFI_adjusted,TCGA-ZP-A9D4,Low,395.0,0.0,incomplete covariates: stage_group

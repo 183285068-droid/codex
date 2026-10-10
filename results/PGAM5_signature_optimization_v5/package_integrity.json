@@ -1,0 +1,11 @@
+{
+  "zip_file": "PGAM5_signature_optimization_v5_results.zip",
+  "zip_bytes": 29026610,
+  "zip_MiB": 27.68193244934082,
+  "zip_SHA256": "bfd172b53bfc3a76583af7f69105039151edde4fc1bf380a805457c2c07ff8ed",
+  "payload_files": 202,
+  "zip_integrity_test": "PASS",
+  "all_archived_payload_hashes": "PASS",
+  "manifest_scope": "All reviewable payloads; manifest and archive excluded to avoid circular hashes",
+  "scratch_only_excluded": "Large original h5ad, sparse counts, group/donor NPZ caches and all_mixture_expression.npz. Audit NPZ cases are included."
+}

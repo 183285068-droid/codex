@@ -1,0 +1,5 @@
+cohort,role,macrophages,PGAM5_detected,donor_labels,count_type,measured_primary_common_genes,strict_up_excluding_PGAM5,strict_up_also_Fisher_FDR05
+GSE125449,Overlaps GSE151530; not an independent recurrence vote,298,4,7,UMI,15600,315,0
+GSE140228_Droplet_HCC,HCC-only; CC excluded; shared donors with Smartseq2,2223,54,4,UMI,15460,421,268
+GSE140228_Smartseq2_HCC,HCC-only; read counts and partly shared donors,531,62,6,read,15460,1015,896
+GSE146115,Low-support marker-inferred macrophages; C1 read counts,141,17,4,read,15525,4,0
