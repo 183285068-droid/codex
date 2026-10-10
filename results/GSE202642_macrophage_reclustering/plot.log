@@ -1,0 +1,10 @@
+cluster                                           name  cells  patients  largest_patient_fraction  PGAM5_detected_cells  PGAM5_detection_percent  PGAM5_mean_CP10k
+     M0                        FABP5/TREM2 macrophages   2282         7                  0.255916                   200                 8.764242          0.095631
+     M1                         MRC1/CD163 macrophages   3209         7                  0.284824                   152                 4.736678          0.083092
+     M2    C1QA/APOC1 macrophages (liver-RNA enriched)   1869         7                  0.402354                    38                 2.033173          0.056999
+     M3     NPR3/MYCT1 macrophage-enriched, unresolved     51         7                  0.352941                     0                 0.000000          0.000000
+     M4 CXCL9/CXCL10 interferon-associated macrophages    350         7                  0.271429                    23                 6.571429          0.059673
+     M5    HSPA1A/DNAJB1 stress-associated macrophages   2977         7                  0.371515                   223                 7.490763          0.075809
+     M6                         MT1G/HMOX1 macrophages    508         7                  0.734252                    43                 8.464567          0.123268
+     M7                            C1QA/CD3D mixed RNA    133         7                  0.421053                     9                 6.766917          0.078124
+     M8                 MCM4/PCLAF cycling macrophages    157         7                  0.464968                    24                15.286624          0.155808

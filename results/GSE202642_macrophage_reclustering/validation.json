@@ -1,0 +1,8 @@
+{
+  "exact_cell_selection": true,
+  "raw_library_totals_match": true,
+  "PGAM5_counts_match": true,
+  "PGAM5_detected_cells": 712,
+  "finite_UMAP_and_Harmony": true,
+  "cluster_counts_match": true
+}

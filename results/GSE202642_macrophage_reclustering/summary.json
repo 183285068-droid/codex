@@ -1,0 +1,18 @@
+{
+  "cells": 11536,
+  "genes": 36591,
+  "clusters": 9,
+  "seed_ARI": 0.6206443876173473,
+  "resolution": 0.6,
+  "resolution_sensitivity": {
+    "0.4": 7,
+    "0.6": 9,
+    "0.8": 11
+  },
+  "parents": [
+    "C0",
+    "C2",
+    "C16"
+  ],
+  "sample_count": 7
+}
