@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "PGAM5_M0_M8_abundance_labeled_UMAP.pdf",
+      "bytes": 582072,
+      "sha256": "f547b13ccd181ecaab6f07600cfa7ba16111d69dfedbf6afbf10e9898697e43d"
+    },
+    {
+      "path": "PGAM5_M0_M8_abundance_labeled_UMAP.png",
+      "bytes": 1415020,
+      "sha256": "c7a1faf6144dbeb6c2acd6be35576cfdad4d4a07e2257af375c09cbe10e05934"
+    },
+    {
+      "path": "PGAM5_M0_M8_expression_summary.csv",
+      "bytes": 1598,
+      "sha256": "879ec35cd1e5bc7e2cb76a241feeeaef784a1e8fce39b7490b40f904a3f7c087"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2825,
+      "sha256": "e899871e30919b8d4b2878058cf42da50e7daa5b2a9bb0e007e817c74af8be11"
+    },
+    {
+      "path": "inputs/cell_expression_coordinates.csv.gz",
+      "bytes": 112456,
+      "sha256": "068e7ce434dc5b9cbec3fd9282eacd1c58747f2c3e0698ed92c26eeccba95a2c"
+    },
+    {
+      "path": "inputs/cluster_annotations.csv",
+      "bytes": 840,
+      "sha256": "44a729bc65f97ebf6b7b21ba35d03c5b4338e4d8c5b66c03b3f3d94c8395904f"
+    },
+    {
+      "path": "inputs/previous_cluster_statistics.csv",
+      "bytes": 1697,
+      "sha256": "2136f34dc5222c023b9138d3d9dbe01c248aaca464eac4213a957810ad3e614a"
+    },
+    {
+      "path": "plot_expression.py",
+      "bytes": 7071,
+      "sha256": "dbf40f2ba97e8b4d1e42338b0798256bc09ed751462874a3337a8e6681d0eb36"
+    },
+    {
+      "path": "prepare_inputs.py",
+      "bytes": 1757,
+      "sha256": "fc6089f6b65607eb9f9a9097c043ae15024ab3c188f2d3570e81298d4f3d2d9e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "50159198e86e3d8fedb566a3968586026dac836bda09fb72dd60fc6d89e19560"
+    },
+    {
+      "path": "source_provenance.json",
+      "bytes": 678,
+      "sha256": "90414633b479ee1ce75a653e2a35cc4f97e93a17560e2fa0331ebd63c2a49c03"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 282,
+      "sha256": "5f836caca5e85a175d41555a2f4bc1e441b2c1f5a333b8a6be174050e061fb40"
+    }
+  ],
+  "excluded": [
+    "manifest.json",
+    "archive_verification.json",
+    "GSE149614_PGAM5_M0_M8_expression_supplement.zip"
+  ]
+}

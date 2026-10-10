@@ -1,0 +1,11 @@
+{
+  "cells": 5605,
+  "PGAM5_detected": 136,
+  "clusters_verified": 9,
+  "previous_statistics_match_rtol": 1e-12,
+  "all_zeros_retained": true,
+  "coordinates_not_recomputed": true,
+  "finite_coordinates": true,
+  "all_nine_group_names_labeled": true,
+  "label_language": "Chinese"
+}

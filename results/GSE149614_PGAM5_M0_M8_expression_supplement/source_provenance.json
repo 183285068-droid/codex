@@ -1,0 +1,14 @@
+{
+  "dataset": "GSE149614",
+  "scope": "HCC01T-HCC10T",
+  "source_directory": "GSE149614_primaryT_hierarchical_clustering",
+  "source_commit": "8b0722be93ea99ef7878ee2c83616d6f4d2e8f15",
+  "source_sha256": {
+    "macrophage_marker_subset.h5ad": "c5b4dd928e7f6893cbd2cdc89b71a8d7dabc83f4782884819c552280d3eb55c8",
+    "macrophage_UMAP_coordinates.csv.gz": "ebc8844e0a33895f30923c3e68e83c97923518f4ee2cabb0242cbe7232506195",
+    "PGAM5_by_macrophage_cluster.csv": "bf9df0999eab54b4050b46dbe8c8f32b2df4ec5e8083085711bcce02253c92b2",
+    "macrophage_cluster_annotations.csv": "44a729bc65f97ebf6b7b21ba35d03c5b4338e4d8c5b66c03b3f3d94c8395904f"
+  },
+  "cells": 5605,
+  "clusters": 9
+}
