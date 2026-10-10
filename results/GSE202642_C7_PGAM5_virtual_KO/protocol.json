@@ -1,0 +1,29 @@
+{
+  "target": "Original 15-cluster C7 MKI67/TOP2A",
+  "cells": 403,
+  "PGAM5_detected": 79,
+  "samples": {
+    "1a-0706": 197,
+    "1a-0727": 60,
+    "2a-0706": 52,
+    "1a-0707": 48,
+    "1a-0618": 27,
+    "1a-0831": 12,
+    "1a-0629": 7
+  },
+  "genes": 1501,
+  "normalization": "CPM using original full-library totals; QC normalization overridden before network construction",
+  "gene_filter": ">=5% detection, exclude MT/RPL/RPS, top1500 normalized dispersions plus PGAM5",
+  "method": "scTenifoldpy0.5.1 scTenifoldKnk default row-zero knockout",
+  "networks": 10,
+  "cells_per_network": 300,
+  "replace": true,
+  "PCs": 3,
+  "sparsity_quantile": 0.95,
+  "tensor_rank": 5,
+  "manifold_dimensions": 30,
+  "seeds": [
+    202642,
+    42
+  ]
+}

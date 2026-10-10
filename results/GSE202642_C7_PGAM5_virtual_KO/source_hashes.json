@@ -1,0 +1,9 @@
+{
+  "source_files": {
+    "/workspace/codex/results/GSE202642_PGAM5_subpopulation_assessment/cell_annotations.csv.gz": "7db1aa244498887dbba56dfe97c9220af23548019765d17c90c47b0f3da31ebf",
+    "/workspace/codex/results/GSE202642_PGAM5_subpopulation_assessment/functional_subgroup_names.csv": "8421042fbdfec91bdd6bdfe17d5ca81f34c94ebcae5cc51ee88d0e41d620dac4",
+    "/workspace/codex/results/GSE202642_PGAM5_subpopulation_assessment/portable_raw_feature_counts.npz": "3b280e21eba4d7d000040cb11a317c1f47ee8ded846e2d2e54cd2354240512a2"
+  },
+  "portable_source_feature_count_exact_match": 2102,
+  "target_cells_exact_match": 403
+}

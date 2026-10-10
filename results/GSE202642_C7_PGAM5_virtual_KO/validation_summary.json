@@ -1,0 +1,11 @@
+{
+  "primary_non_target_significant": 26,
+  "seed42_non_target_significant": 0,
+  "both_seeds_non_target_significant": 0,
+  "non_target_distance_Spearman": 0.5794648193176976,
+  "no_KO_control_significant": 0,
+  "no_KO_max_distance": 7.170508975564174e-15,
+  "PGAM5_WT_outgoing_edges_primary": 293,
+  "PGAM5_WT_outgoing_edges_seed42": 28,
+  "WT_KO_other_rows_exactly_equal": true
+}

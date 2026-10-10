@@ -1,0 +1,63 @@
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO/run.py:7: FutureWarning: `.layers.clear()` currently keeps `.X` (stored under the `None` key), but a future release may drop it. Pass `keep_x=True` to keep `.X` or `keep_x=False` to drop it and silence this warning.
+  meta=pd.read_csv('/workspace/codex/results/GSE202642_PGAM5_subpopulation_assessment/cell_annotations.csv.gz',index_col=0);sel=meta.index[meta.primary_cluster.eq(7)];b=ad.read_h5ad('/workspace/scratch/GSE202642_HCC_allcell_annotation/HCC_raw_counts_QC.h5ad',backed='r');a=b[sel,:].to_memory();b.file.close();a.obs=meta.loc[sel].copy();assert len(a)==403;assert np.array_equal(a.layers['counts'][:,a.var_names.get_loc('PGAM5')].toarray().ravel(),a.obs.PGAM5_counts);a.X=a.layers['counts'].copy();a.layers.clear();a.write_h5ad(R/'C7_raw.h5ad',compression='gzip')
+SEED 202642 1501
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_QC.py:72: UserWarning: Mitochondrial genes were not found. Be aware that apoptotic cells may be present in your sample.
+  warn("Mitochondrial genes were not found. Be aware that apoptotic cells may be present in your sample.")
+Removed 0 cells with lib size < 0
+Removed 0 genes expressed in less than 0 of data
+Removed 0 genes with expression values: average < 0 or sum < 0
+finish QC: WT
+process qc finished in 0.037799879000885994 secs.
+make_networks  processing time:  4.634491175000221
+process nc finished in 4.634733888000483 secs.
+tensor_decomp  processing time:  4.7743373839985
+process td finished in 4.8244110840005305 secs.
+process ko finished in 0.013443469999401714 secs.
+manifold_alignment  processing time:  5.336981011998432
+process ma finished in 5.337011388000974 secs.
+d_regulation  processing time:  0.0346055959998921
+process dr finished in 0.03463685300084762 secs.
+    Gene     Distance  boxcox-transformed distance        Z           FC      p-value  adjusted p-value
+   PGAM5 7.800148e-06                     0.702441 2.741236 35704.533029 0.000000e+00      0.000000e+00
+HSP90AA1 5.134003e-07                     0.647329 2.131043   154.678489 1.646093e-35      6.588795e-33
+  DNAJB1 5.133158e-07                     0.647325 2.131008   154.627558 1.688824e-35      6.588795e-33
+  HSPA1B 5.131874e-07                     0.647321 2.130954   154.550220 1.755841e-35      6.588795e-33
+   PLAUR 2.572235e-07                     0.634032 1.983829    38.827468 4.629672e-10      3.679148e-08
+  NFKBIA 2.568694e-07                     0.634006 1.983539    38.720630 4.890131e-10      3.679148e-08
+    FOSB 2.568362e-07                     0.634004 1.983512    38.710632 4.915245e-10      3.679148e-08
+PPP1R15A 2.567285e-07                     0.633996 1.983423    38.678164 4.997690e-10      3.679148e-08
+   HSPH1 2.566463e-07                     0.633990 1.983356    38.653411 5.061474e-10      3.679148e-08
+   NR4A1 2.566435e-07                     0.633989 1.983353    38.652545 5.063719e-10      3.679148e-08
+   DUSP1 2.566268e-07                     0.633988 1.983340    38.647514 5.076787e-10      3.679148e-08
+   HSPD1 2.566199e-07                     0.633988 1.983334    38.645461 5.082131e-10      3.679148e-08
+SEED 42 1501
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_QC.py:72: UserWarning: Mitochondrial genes were not found. Be aware that apoptotic cells may be present in your sample.
+  warn("Mitochondrial genes were not found. Be aware that apoptotic cells may be present in your sample.")
+Removed 0 cells with lib size < 0
+Removed 0 genes expressed in less than 0 of data
+Removed 0 genes with expression values: average < 0 or sum < 0
+finish QC: WT
+process qc finished in 0.0658545280002727 secs.
+make_networks  processing time:  4.023221787998409
+process nc finished in 4.0236514450007235 secs.
+tensor_decomp  processing time:  1.237433833999603
+process td finished in 1.290304042999196 secs.
+process ko finished in 0.014952391999031533 secs.
+manifold_alignment  processing time:  11.122939362001489
+process ma finished in 11.122972967999885 secs.
+d_regulation  processing time:  0.026080026000272483
+process dr finished in 0.026116978000573 secs.
+    Gene     Distance  boxcox-transformed distance         Z           FC  p-value  adjusted p-value
+   PGAM5 1.666964e-07                     0.803548  4.058380 4.289381e+04      0.0               0.0
+    A1BG 8.436060e-13                     0.677324  0.609060 1.098555e-06      1.0               1.0
+A1BG-AS1 4.832001e-17                     0.590676 -1.758790 3.604096e-15      1.0               1.0
+   AAMDC 1.997346e-14                     0.642709 -0.336877 6.158130e-10      1.0               1.0
+  AARSD1 5.257599e-17                     0.591375 -1.739684 4.266947e-15      1.0               1.0
+   AASDH 6.440048e-14                     0.653341 -0.046349 6.402072e-09      1.0               1.0
+   ABCB7 9.590412e-14                     0.656997  0.053568 1.419767e-08      1.0               1.0
+   ABCD4 3.803889e-11                     0.714459  1.623830 2.233562e-03      1.0               1.0
+  ABHD13 9.156432e-13                     0.678103  0.630327 1.294181e-06      1.0               1.0
+ ABHD14A 6.423277e-14                     0.653317 -0.047001 6.368772e-09      1.0               1.0
+  ABHD15 6.080166e-15                     0.632085 -0.627194 5.706546e-11      1.0               1.0
+   ABHD8 1.004898e-12                     0.678987  0.654498 1.558784e-06      1.0               1.0
+DONE

@@ -1,0 +1,21 @@
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  6.093404330998965
+d_regulation  processing time:  0.0340380739999091
+{
+  "primary_non_target_significant": 26,
+  "seed42_non_target_significant": 0,
+  "both_seeds_non_target_significant": 0,
+  "non_target_distance_Spearman": 0.5794648193176976,
+  "no_KO_control_significant": 0,
+  "no_KO_max_distance": 7.170508975564174e-15,
+  "PGAM5_WT_outgoing_edges_primary": 293,
+  "PGAM5_WT_outgoing_edges_seed42": 28,
+  "WT_KO_other_rows_exactly_equal": true
+}
+                program  tested_non_target_genes  primary_hits  seed42_hits      p_value                                                        genes  PGAM5_in_program         BH_q
+Heat_shock_proteostasis                       10             9            0 2.990146e-16 BAG3;DNAJB1;HSP90AA1;HSPA1B;HSPA5;HSPB1;HSPD1;HSPH1;PPP1R15A              True 4.186205e-15
+     Immediate_response                       12             6            0 1.267268e-08                            DUSP1;FOS;FOSB;NFKBIA;NR4A1;NR4A2              True 8.870878e-08
+      Matrix_remodeling                        5             1            0 8.382181e-02                                                        PLAUR              True 3.911684e-01
+      Inflammatory_NFkB                        8             1            0 1.308268e-01                                                       NFKBIA              True 4.578939e-01
+    MHC_II_presentation                        2             0            0 1.000000e+00                                                                           True 1.000000e+00

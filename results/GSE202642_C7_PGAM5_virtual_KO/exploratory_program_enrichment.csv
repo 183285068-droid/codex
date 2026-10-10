@@ -1,0 +1,15 @@
+program,tested_non_target_genes,primary_hits,seed42_hits,p_value,genes,PGAM5_in_program,BH_q
+Heat_shock_proteostasis,10,9,0,2.990146214638903e-16,BAG3;DNAJB1;HSP90AA1;HSPA1B;HSPA5;HSPB1;HSPD1;HSPH1;PPP1R15A,True,4.186204700494465e-15
+Immediate_response,12,6,0,1.2672682251602845e-08,DUSP1;FOS;FOSB;NFKBIA;NR4A1;NR4A2,True,8.870877576121992e-08
+Matrix_remodeling,5,1,0,0.08382181063236721,PLAUR,True,0.3911684496177137
+Inflammatory_NFkB,8,1,0,0.13082682163331635,NFKBIA,True,0.4578938757166073
+MHC_II_presentation,2,0,0,1.0,,True,1.0
+IFN_gamma_response,4,0,0,1.0,,True,1.0
+Type1_effector_support,1,0,0,1.0,,True,1.0
+T_cell_recruitment,4,0,0,1.0,,True,1.0
+Lipid_associated_TAM,4,0,0,1.0,,True,1.0
+Inhibitory_signaling_RNA,1,0,0,1.0,,True,1.0
+MHC_I_processing,1,0,0,1.0,,True,1.0
+Neutrophil_recruitment,4,0,0,1.0,,True,1.0
+Proliferation,1,0,0,1.0,,True,1.0
+Oxidative_stress_response,5,0,0,1.0,,True,1.0
