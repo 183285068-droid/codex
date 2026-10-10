@@ -1,0 +1,56 @@
+INPUT 12135 macrophages 868 PGAM5detected
+GEOMETRY primary clusters 15 maxPGdetection 0.2631578947368421 maxPGcapture 0.20046082949308755
+ROBUSTNESS primary 11 ARI 0.9088186039825973
+ROBUSTNESS primary 12 ARI 0.9024153874415799
+ROBUSTNESS primary 13 ARI 0.8730766374446242
+{
+  "dataset": "GSE202642",
+  "HCC_independent_patients": 7,
+  "patient_identity_source": "User confirmed seven labels correspond to seven independent patients",
+  "macrophages": 12135,
+  "PGAM5_RNA_detected": 868,
+  "PGAM5_RNA_undetected": 11267,
+  "geometries": {
+    "primary": {
+      "HVGs": 2000,
+      "PCs": 30,
+      "clusters": 15,
+      "mean_PGAM5_label_silhouette": 0.07770662009716034,
+      "mean_silhouette_PGAM5_detected": -0.07006648927927017,
+      "mean_silhouette_PGAM5_undetected": 0.08909092843532562,
+      "positive_label_vs_cluster_ARI": 0.003419909657304854
+    }
+  },
+  "fixed_cycling_state": {
+    "genes": [
+      "MKI67",
+      "TOP2A",
+      "UBE2C",
+      "CENPF",
+      "CDK1",
+      "BIRC5"
+    ],
+    "rule": "raw detection of >=2of6 genes; PGAM5 not used",
+    "cycling_cells": 649,
+    "cycling_PGAM5_detected": 132,
+    "cycling_PGAM5_detection_fraction": 0.2033898305084746,
+    "other_cells": 11486,
+    "other_PGAM5_detected": 736,
+    "other_detection_fraction": 0.064078008009751,
+    "detection_rate_ratio": 3.1740972733972,
+    "capture_of_all_PGAM5_detected": 0.15207373271889402,
+    "Fisher_cell_level_p": 1.2199414038314592e-29,
+    "Fisher_odds_ratio": 3.7291859389454207,
+    "samples_normalized_expression_enriched": 7
+  },
+  "depth_diagnostic": {
+    "PGAM5_detected_median_total_counts": 11851.0,
+    "PGAM5_undetected_median_total_counts": 7474.0,
+    "depth_adjusted": false,
+    "statement": "Descriptive only; user previously requested no depth adjustment."
+  },
+  "portable_input_genes": 2102,
+  "biological_assessment": "Pending joint interpretation of cluster concentration, multigene markers, patient representation and reproducibility; cycling is not an exclusion criterion.",
+  "validated_TCGA_cell_abundance_reference_obtained": false,
+  "decision_note": "Interpret all exported cluster concentration, marker, sample, and stability evidence in README; negative binary-label structure is not proof that no PGAM5-dependent biology exists."
+}

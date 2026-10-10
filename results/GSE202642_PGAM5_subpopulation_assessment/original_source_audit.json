@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 1840,
+  "all_passed": true,
+  "original_full_count_matrix_checked": true,
+  "PCA_loading_relative_reconstruction_error": 0.02000688575208187,
+  "audit_scope": "Raw labels, full-library normalization, actual cluster/patient counts, Fisher/BH, resampling Jaccard, graph concentration/permutation p, marker directions and plotted values. Does not prove biological identity or calibrated abundance."
+}

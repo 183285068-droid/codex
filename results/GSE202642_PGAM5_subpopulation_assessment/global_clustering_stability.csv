@@ -1,0 +1,6 @@
+geometry,method,replicate,ARI,clusters
+primary,graph_seed,1,0.9418144795312244,14
+primary,graph_seed,2,0.9327803499725525,16
+primary,80pct_sample_subsampling,11,0.9088186039825973,14
+primary,80pct_sample_subsampling,12,0.9024153874415799,16
+primary,80pct_sample_subsampling,13,0.8730766374446242,15

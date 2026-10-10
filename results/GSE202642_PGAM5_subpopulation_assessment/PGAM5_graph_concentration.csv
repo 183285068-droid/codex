@@ -1,0 +1,2 @@
+geometry,observed_positive_neighbor_fraction,sample_conditioned_null_mean,null95_lower,null95_upper,one_sided_permutation_p,permutations
+primary,0.1071940091358587,0.08392549751414671,0.07706989367189372,0.09117306867433707,0.001996007984031936,500

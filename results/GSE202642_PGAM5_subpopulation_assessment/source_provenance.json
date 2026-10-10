@@ -1,0 +1,15 @@
+{
+  "input": {
+    "path": "/workspace/scratch/PGAM5_reproducible_macrophage_states/GSE202642_marker_consistent_macrophages.h5ad",
+    "bytes": 76435694,
+    "sha256": "4937d4a56997206c1b7f9f0e3b3d259592d29459458ee7ba740b83c3538d9b8a"
+  },
+  "cell_cycle_source": {
+    "path": "/workspace/scratch/PGAM5_signature_optimization_v5/cell_cycle_provenance.json",
+    "bytes": 2059,
+    "sha256": "dfdfb7097a66c9ba1bcae9cf5681838d1ced10481227b927eba1745506979b2a"
+  },
+  "GEO": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202642",
+  "RNA_identity_source": "https://github.com/183285068-droid/codex/blob/main/results/PGAM5_RNA_identity_v8/GSE202642_RNA_annotation.csv.gz",
+  "annotation_limit": "Existing marker-inferred C1Q-rich macrophages; not author labels or exhaustive all-macrophage coverage."
+}

@@ -1,0 +1,1842 @@
+check,passed
+"12,135 unique cells, seven user-confirmed patients",True
+patient unit uses current user definition,True
+portable raw matrix identifiers and integer counts,True
+PGAM5 RNA labels reconstructed from raw counts,True
+exported annotation preserves all cell and patient IDs,True
+candidate subgroup uses PGAM5-free cluster C7,True
+RNA detected subset of candidate has79 cells,True
+PGAM5 CP10k full-library normalization,True
+PGAM5-independent cycling definition,True
+"PGAM5 excluded from all 2,000 fitted features",True
+cycle genes retained in fitted features,True
+PCA feature means and SD,True
+PCA component orthogonality,True
+actual randomized-PCA fit_transform reproduced from raw counts,True
+primary clusters partition all cells,True
+primary C0 detection and capture,True
+primary C0 nonempty patient representation,True
+primary C0 Fisher p,True
+primary C0 1a-0618 raw count cells,True
+primary C0 1a-0618 zero-inclusive means,True
+primary C0 1a-0629 raw count cells,True
+primary C0 1a-0706 raw count cells,True
+primary C0 1a-0706 zero-inclusive means,True
+primary C0 1a-0707 raw count cells,True
+primary C0 1a-0727 raw count cells,True
+primary C0 1a-0727 zero-inclusive means,True
+primary C0 1a-0831 raw count cells,True
+primary C0 2a-0706 raw count cells,True
+primary C0 2a-0706 zero-inclusive means,True
+primary C1 detection and capture,True
+primary C1 nonempty patient representation,True
+primary C1 Fisher p,True
+primary C1 1a-0618 raw count cells,True
+primary C1 1a-0618 zero-inclusive means,True
+primary C1 1a-0629 raw count cells,True
+primary C1 1a-0706 raw count cells,True
+primary C1 1a-0707 raw count cells,True
+primary C1 1a-0727 raw count cells,True
+primary C1 1a-0727 zero-inclusive means,True
+primary C1 1a-0831 raw count cells,True
+primary C1 2a-0706 raw count cells,True
+primary C2 detection and capture,True
+primary C2 nonempty patient representation,True
+primary C2 Fisher p,True
+primary C2 1a-0618 raw count cells,True
+primary C2 1a-0618 zero-inclusive means,True
+primary C2 1a-0629 raw count cells,True
+primary C2 1a-0629 zero-inclusive means,True
+primary C2 1a-0706 raw count cells,True
+primary C2 1a-0706 zero-inclusive means,True
+primary C2 1a-0707 raw count cells,True
+primary C2 1a-0727 raw count cells,True
+primary C2 1a-0831 raw count cells,True
+primary C2 2a-0706 raw count cells,True
+primary C2 2a-0706 zero-inclusive means,True
+primary C3 detection and capture,True
+primary C3 nonempty patient representation,True
+primary C3 Fisher p,True
+primary C3 1a-0618 raw count cells,True
+primary C3 1a-0618 zero-inclusive means,True
+primary C3 1a-0629 raw count cells,True
+primary C3 1a-0629 zero-inclusive means,True
+primary C3 1a-0706 raw count cells,True
+primary C3 1a-0706 zero-inclusive means,True
+primary C3 1a-0707 raw count cells,True
+primary C3 1a-0707 zero-inclusive means,True
+primary C3 1a-0727 raw count cells,True
+primary C3 1a-0727 zero-inclusive means,True
+primary C3 1a-0831 raw count cells,True
+primary C3 1a-0831 zero-inclusive means,True
+primary C3 2a-0706 raw count cells,True
+primary C3 2a-0706 zero-inclusive means,True
+primary C4 detection and capture,True
+primary C4 nonempty patient representation,True
+primary C4 Fisher p,True
+primary C4 1a-0618 raw count cells,True
+primary C4 1a-0618 zero-inclusive means,True
+primary C4 1a-0629 raw count cells,True
+primary C4 1a-0629 zero-inclusive means,True
+primary C4 1a-0706 raw count cells,True
+primary C4 1a-0706 zero-inclusive means,True
+primary C4 1a-0707 raw count cells,True
+primary C4 1a-0707 zero-inclusive means,True
+primary C4 1a-0727 raw count cells,True
+primary C4 1a-0727 zero-inclusive means,True
+primary C4 1a-0831 raw count cells,True
+primary C4 1a-0831 zero-inclusive means,True
+primary C4 2a-0706 raw count cells,True
+primary C4 2a-0706 zero-inclusive means,True
+primary C5 detection and capture,True
+primary C5 nonempty patient representation,True
+primary C5 Fisher p,True
+primary C5 1a-0618 raw count cells,True
+primary C5 1a-0618 zero-inclusive means,True
+primary C5 1a-0629 raw count cells,True
+primary C5 1a-0629 zero-inclusive means,True
+primary C5 1a-0706 raw count cells,True
+primary C5 1a-0706 zero-inclusive means,True
+primary C5 1a-0707 raw count cells,True
+primary C5 1a-0707 zero-inclusive means,True
+primary C5 1a-0727 raw count cells,True
+primary C5 1a-0831 raw count cells,True
+primary C5 2a-0706 raw count cells,True
+primary C5 2a-0706 zero-inclusive means,True
+primary C6 detection and capture,True
+primary C6 nonempty patient representation,True
+primary C6 Fisher p,True
+primary C6 1a-0618 raw count cells,True
+primary C6 1a-0618 zero-inclusive means,True
+primary C6 1a-0629 raw count cells,True
+primary C6 1a-0629 zero-inclusive means,True
+primary C6 1a-0706 raw count cells,True
+primary C6 1a-0706 zero-inclusive means,True
+primary C6 1a-0707 raw count cells,True
+primary C6 1a-0707 zero-inclusive means,True
+primary C6 1a-0727 raw count cells,True
+primary C6 1a-0727 zero-inclusive means,True
+primary C6 1a-0831 raw count cells,True
+primary C6 1a-0831 zero-inclusive means,True
+primary C6 2a-0706 raw count cells,True
+primary C6 2a-0706 zero-inclusive means,True
+primary C7 detection and capture,True
+primary C7 nonempty patient representation,True
+primary C7 Fisher p,True
+primary C7 1a-0618 raw count cells,True
+primary C7 1a-0618 zero-inclusive means,True
+primary C7 1a-0629 raw count cells,True
+primary C7 1a-0629 zero-inclusive means,True
+primary C7 1a-0706 raw count cells,True
+primary C7 1a-0706 zero-inclusive means,True
+primary C7 1a-0707 raw count cells,True
+primary C7 1a-0707 zero-inclusive means,True
+primary C7 1a-0727 raw count cells,True
+primary C7 1a-0727 zero-inclusive means,True
+primary C7 1a-0831 raw count cells,True
+primary C7 1a-0831 zero-inclusive means,True
+primary C7 2a-0706 raw count cells,True
+primary C7 2a-0706 zero-inclusive means,True
+primary C8 detection and capture,True
+primary C8 nonempty patient representation,True
+primary C8 Fisher p,True
+primary C8 1a-0618 raw count cells,True
+primary C8 1a-0618 zero-inclusive means,True
+primary C8 1a-0629 raw count cells,True
+primary C8 1a-0629 zero-inclusive means,True
+primary C8 1a-0706 raw count cells,True
+primary C8 1a-0706 zero-inclusive means,True
+primary C8 1a-0707 raw count cells,True
+primary C8 1a-0707 zero-inclusive means,True
+primary C8 1a-0727 raw count cells,True
+primary C8 1a-0727 zero-inclusive means,True
+primary C8 1a-0831 raw count cells,True
+primary C8 1a-0831 zero-inclusive means,True
+primary C8 2a-0706 raw count cells,True
+primary C8 2a-0706 zero-inclusive means,True
+primary C9 detection and capture,True
+primary C9 nonempty patient representation,True
+primary C9 Fisher p,True
+primary C9 1a-0618 raw count cells,True
+primary C9 1a-0618 zero-inclusive means,True
+primary C9 1a-0629 raw count cells,True
+primary C9 1a-0629 zero-inclusive means,True
+primary C9 1a-0706 raw count cells,True
+primary C9 1a-0706 zero-inclusive means,True
+primary C9 1a-0707 raw count cells,True
+primary C9 1a-0707 zero-inclusive means,True
+primary C9 1a-0727 raw count cells,True
+primary C9 1a-0727 zero-inclusive means,True
+primary C9 1a-0831 raw count cells,True
+primary C9 1a-0831 zero-inclusive means,True
+primary C9 2a-0706 raw count cells,True
+primary C10 detection and capture,True
+primary C10 nonempty patient representation,True
+primary C10 Fisher p,True
+primary C10 1a-0618 raw count cells,True
+primary C10 1a-0618 zero-inclusive means,True
+primary C10 1a-0629 raw count cells,True
+primary C10 1a-0706 raw count cells,True
+primary C10 1a-0707 raw count cells,True
+primary C10 1a-0707 zero-inclusive means,True
+primary C10 1a-0727 raw count cells,True
+primary C10 1a-0831 raw count cells,True
+primary C10 2a-0706 raw count cells,True
+primary C10 2a-0706 zero-inclusive means,True
+primary C11 detection and capture,True
+primary C11 nonempty patient representation,True
+primary C11 Fisher p,True
+primary C11 1a-0618 raw count cells,True
+primary C11 1a-0618 zero-inclusive means,True
+primary C11 1a-0629 raw count cells,True
+primary C11 1a-0629 zero-inclusive means,True
+primary C11 1a-0706 raw count cells,True
+primary C11 1a-0706 zero-inclusive means,True
+primary C11 1a-0707 raw count cells,True
+primary C11 1a-0707 zero-inclusive means,True
+primary C11 1a-0727 raw count cells,True
+primary C11 1a-0727 zero-inclusive means,True
+primary C11 1a-0831 raw count cells,True
+primary C11 1a-0831 zero-inclusive means,True
+primary C11 2a-0706 raw count cells,True
+primary C12 detection and capture,True
+primary C12 nonempty patient representation,True
+primary C12 Fisher p,True
+primary C12 1a-0618 raw count cells,True
+primary C12 1a-0629 raw count cells,True
+primary C12 1a-0629 zero-inclusive means,True
+primary C12 1a-0706 raw count cells,True
+primary C12 1a-0706 zero-inclusive means,True
+primary C12 1a-0707 raw count cells,True
+primary C12 1a-0707 zero-inclusive means,True
+primary C12 1a-0727 raw count cells,True
+primary C12 1a-0831 raw count cells,True
+primary C12 2a-0706 raw count cells,True
+primary C12 2a-0706 zero-inclusive means,True
+primary C13 detection and capture,True
+primary C13 nonempty patient representation,True
+primary C13 Fisher p,True
+primary C13 1a-0618 raw count cells,True
+primary C13 1a-0629 raw count cells,True
+primary C13 1a-0706 raw count cells,True
+primary C13 1a-0706 zero-inclusive means,True
+primary C13 1a-0707 raw count cells,True
+primary C13 1a-0707 zero-inclusive means,True
+primary C13 1a-0727 raw count cells,True
+primary C13 1a-0727 zero-inclusive means,True
+primary C13 1a-0831 raw count cells,True
+primary C13 1a-0831 zero-inclusive means,True
+primary C13 2a-0706 raw count cells,True
+primary C13 2a-0706 zero-inclusive means,True
+primary C14 detection and capture,True
+primary C14 nonempty patient representation,True
+primary C14 Fisher p,True
+primary C14 1a-0618 raw count cells,True
+primary C14 1a-0629 raw count cells,True
+primary C14 1a-0629 zero-inclusive means,True
+primary C14 1a-0706 raw count cells,True
+primary C14 1a-0706 zero-inclusive means,True
+primary C14 1a-0707 raw count cells,True
+primary C14 1a-0707 zero-inclusive means,True
+primary C14 1a-0727 raw count cells,True
+primary C14 1a-0831 raw count cells,True
+primary C14 2a-0706 raw count cells,True
+primary C14 2a-0706 zero-inclusive means,True
+primary BH family,True
+primary_resolution_0.4 clusters partition all cells,True
+primary_resolution_0.4 C0 detection and capture,True
+primary_resolution_0.4 C0 nonempty patient representation,True
+primary_resolution_0.4 C0 Fisher p,True
+primary_resolution_0.4 C0 1a-0618 raw count cells,True
+primary_resolution_0.4 C0 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C0 1a-0629 raw count cells,True
+primary_resolution_0.4 C0 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C0 1a-0706 raw count cells,True
+primary_resolution_0.4 C0 1a-0707 raw count cells,True
+primary_resolution_0.4 C0 1a-0727 raw count cells,True
+primary_resolution_0.4 C0 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C0 1a-0831 raw count cells,True
+primary_resolution_0.4 C0 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C0 2a-0706 raw count cells,True
+primary_resolution_0.4 C0 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C1 detection and capture,True
+primary_resolution_0.4 C1 nonempty patient representation,True
+primary_resolution_0.4 C1 Fisher p,True
+primary_resolution_0.4 C1 1a-0618 raw count cells,True
+primary_resolution_0.4 C1 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C1 1a-0629 raw count cells,True
+primary_resolution_0.4 C1 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C1 1a-0706 raw count cells,True
+primary_resolution_0.4 C1 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C1 1a-0707 raw count cells,True
+primary_resolution_0.4 C1 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C1 1a-0727 raw count cells,True
+primary_resolution_0.4 C1 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C1 1a-0831 raw count cells,True
+primary_resolution_0.4 C1 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C1 2a-0706 raw count cells,True
+primary_resolution_0.4 C1 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C2 detection and capture,True
+primary_resolution_0.4 C2 nonempty patient representation,True
+primary_resolution_0.4 C2 Fisher p,True
+primary_resolution_0.4 C2 1a-0618 raw count cells,True
+primary_resolution_0.4 C2 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C2 1a-0629 raw count cells,True
+primary_resolution_0.4 C2 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C2 1a-0706 raw count cells,True
+primary_resolution_0.4 C2 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C2 1a-0707 raw count cells,True
+primary_resolution_0.4 C2 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C2 1a-0727 raw count cells,True
+primary_resolution_0.4 C2 1a-0831 raw count cells,True
+primary_resolution_0.4 C2 2a-0706 raw count cells,True
+primary_resolution_0.4 C2 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C3 detection and capture,True
+primary_resolution_0.4 C3 nonempty patient representation,True
+primary_resolution_0.4 C3 Fisher p,True
+primary_resolution_0.4 C3 1a-0618 raw count cells,True
+primary_resolution_0.4 C3 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C3 1a-0629 raw count cells,True
+primary_resolution_0.4 C3 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C3 1a-0706 raw count cells,True
+primary_resolution_0.4 C3 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C3 1a-0707 raw count cells,True
+primary_resolution_0.4 C3 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C3 1a-0727 raw count cells,True
+primary_resolution_0.4 C3 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C3 1a-0831 raw count cells,True
+primary_resolution_0.4 C3 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C3 2a-0706 raw count cells,True
+primary_resolution_0.4 C3 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C4 detection and capture,True
+primary_resolution_0.4 C4 nonempty patient representation,True
+primary_resolution_0.4 C4 Fisher p,True
+primary_resolution_0.4 C4 1a-0618 raw count cells,True
+primary_resolution_0.4 C4 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C4 1a-0629 raw count cells,True
+primary_resolution_0.4 C4 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C4 1a-0706 raw count cells,True
+primary_resolution_0.4 C4 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C4 1a-0707 raw count cells,True
+primary_resolution_0.4 C4 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C4 1a-0727 raw count cells,True
+primary_resolution_0.4 C4 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C4 1a-0831 raw count cells,True
+primary_resolution_0.4 C4 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C4 2a-0706 raw count cells,True
+primary_resolution_0.4 C4 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C5 detection and capture,True
+primary_resolution_0.4 C5 nonempty patient representation,True
+primary_resolution_0.4 C5 Fisher p,True
+primary_resolution_0.4 C5 1a-0618 raw count cells,True
+primary_resolution_0.4 C5 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C5 1a-0629 raw count cells,True
+primary_resolution_0.4 C5 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C5 1a-0706 raw count cells,True
+primary_resolution_0.4 C5 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C5 1a-0707 raw count cells,True
+primary_resolution_0.4 C5 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C5 1a-0727 raw count cells,True
+primary_resolution_0.4 C5 1a-0831 raw count cells,True
+primary_resolution_0.4 C5 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C5 2a-0706 raw count cells,True
+primary_resolution_0.4 C5 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C6 detection and capture,True
+primary_resolution_0.4 C6 nonempty patient representation,True
+primary_resolution_0.4 C6 Fisher p,True
+primary_resolution_0.4 C6 1a-0618 raw count cells,True
+primary_resolution_0.4 C6 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C6 1a-0629 raw count cells,True
+primary_resolution_0.4 C6 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C6 1a-0706 raw count cells,True
+primary_resolution_0.4 C6 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C6 1a-0707 raw count cells,True
+primary_resolution_0.4 C6 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C6 1a-0727 raw count cells,True
+primary_resolution_0.4 C6 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C6 1a-0831 raw count cells,True
+primary_resolution_0.4 C6 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C6 2a-0706 raw count cells,True
+primary_resolution_0.4 C6 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C7 detection and capture,True
+primary_resolution_0.4 C7 nonempty patient representation,True
+primary_resolution_0.4 C7 Fisher p,True
+primary_resolution_0.4 C7 1a-0618 raw count cells,True
+primary_resolution_0.4 C7 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C7 1a-0629 raw count cells,True
+primary_resolution_0.4 C7 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C7 1a-0706 raw count cells,True
+primary_resolution_0.4 C7 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C7 1a-0707 raw count cells,True
+primary_resolution_0.4 C7 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C7 1a-0727 raw count cells,True
+primary_resolution_0.4 C7 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C7 1a-0831 raw count cells,True
+primary_resolution_0.4 C7 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C7 2a-0706 raw count cells,True
+primary_resolution_0.4 C7 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C8 detection and capture,True
+primary_resolution_0.4 C8 nonempty patient representation,True
+primary_resolution_0.4 C8 Fisher p,True
+primary_resolution_0.4 C8 1a-0618 raw count cells,True
+primary_resolution_0.4 C8 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C8 1a-0629 raw count cells,True
+primary_resolution_0.4 C8 1a-0629 zero-inclusive means,True
+primary_resolution_0.4 C8 1a-0706 raw count cells,True
+primary_resolution_0.4 C8 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C8 1a-0707 raw count cells,True
+primary_resolution_0.4 C8 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C8 1a-0727 raw count cells,True
+primary_resolution_0.4 C8 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C8 1a-0831 raw count cells,True
+primary_resolution_0.4 C8 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C8 2a-0706 raw count cells,True
+primary_resolution_0.4 C9 detection and capture,True
+primary_resolution_0.4 C9 nonempty patient representation,True
+primary_resolution_0.4 C9 Fisher p,True
+primary_resolution_0.4 C9 1a-0618 raw count cells,True
+primary_resolution_0.4 C9 1a-0618 zero-inclusive means,True
+primary_resolution_0.4 C9 1a-0629 raw count cells,True
+primary_resolution_0.4 C9 1a-0706 raw count cells,True
+primary_resolution_0.4 C9 1a-0707 raw count cells,True
+primary_resolution_0.4 C9 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C9 1a-0727 raw count cells,True
+primary_resolution_0.4 C9 1a-0831 raw count cells,True
+primary_resolution_0.4 C9 2a-0706 raw count cells,True
+primary_resolution_0.4 C9 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 C10 detection and capture,True
+primary_resolution_0.4 C10 nonempty patient representation,True
+primary_resolution_0.4 C10 Fisher p,True
+primary_resolution_0.4 C10 1a-0618 raw count cells,True
+primary_resolution_0.4 C10 1a-0629 raw count cells,True
+primary_resolution_0.4 C10 1a-0706 raw count cells,True
+primary_resolution_0.4 C10 1a-0706 zero-inclusive means,True
+primary_resolution_0.4 C10 1a-0707 raw count cells,True
+primary_resolution_0.4 C10 1a-0707 zero-inclusive means,True
+primary_resolution_0.4 C10 1a-0727 raw count cells,True
+primary_resolution_0.4 C10 1a-0727 zero-inclusive means,True
+primary_resolution_0.4 C10 1a-0831 raw count cells,True
+primary_resolution_0.4 C10 1a-0831 zero-inclusive means,True
+primary_resolution_0.4 C10 2a-0706 raw count cells,True
+primary_resolution_0.4 C10 2a-0706 zero-inclusive means,True
+primary_resolution_0.4 BH family,True
+primary_resolution_1.2 clusters partition all cells,True
+primary_resolution_1.2 C0 detection and capture,True
+primary_resolution_1.2 C0 nonempty patient representation,True
+primary_resolution_1.2 C0 Fisher p,True
+primary_resolution_1.2 C0 1a-0618 raw count cells,True
+primary_resolution_1.2 C0 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C0 1a-0629 raw count cells,True
+primary_resolution_1.2 C0 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C0 1a-0706 raw count cells,True
+primary_resolution_1.2 C0 1a-0707 raw count cells,True
+primary_resolution_1.2 C0 1a-0727 raw count cells,True
+primary_resolution_1.2 C0 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C0 1a-0831 raw count cells,True
+primary_resolution_1.2 C0 2a-0706 raw count cells,True
+primary_resolution_1.2 C0 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C1 detection and capture,True
+primary_resolution_1.2 C1 nonempty patient representation,True
+primary_resolution_1.2 C1 Fisher p,True
+primary_resolution_1.2 C1 1a-0618 raw count cells,True
+primary_resolution_1.2 C1 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C1 1a-0629 raw count cells,True
+primary_resolution_1.2 C1 1a-0706 raw count cells,True
+primary_resolution_1.2 C1 1a-0707 raw count cells,True
+primary_resolution_1.2 C1 1a-0727 raw count cells,True
+primary_resolution_1.2 C1 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C1 1a-0831 raw count cells,True
+primary_resolution_1.2 C1 2a-0706 raw count cells,True
+primary_resolution_1.2 C2 detection and capture,True
+primary_resolution_1.2 C2 nonempty patient representation,True
+primary_resolution_1.2 C2 Fisher p,True
+primary_resolution_1.2 C2 1a-0618 raw count cells,True
+primary_resolution_1.2 C2 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C2 1a-0629 raw count cells,True
+primary_resolution_1.2 C2 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C2 1a-0706 raw count cells,True
+primary_resolution_1.2 C2 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C2 1a-0707 raw count cells,True
+primary_resolution_1.2 C2 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C2 1a-0727 raw count cells,True
+primary_resolution_1.2 C2 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C2 1a-0831 raw count cells,True
+primary_resolution_1.2 C2 2a-0706 raw count cells,True
+primary_resolution_1.2 C2 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C3 detection and capture,True
+primary_resolution_1.2 C3 nonempty patient representation,True
+primary_resolution_1.2 C3 Fisher p,True
+primary_resolution_1.2 C3 1a-0618 raw count cells,True
+primary_resolution_1.2 C3 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C3 1a-0629 raw count cells,True
+primary_resolution_1.2 C3 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C3 1a-0706 raw count cells,True
+primary_resolution_1.2 C3 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C3 1a-0707 raw count cells,True
+primary_resolution_1.2 C3 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C3 1a-0727 raw count cells,True
+primary_resolution_1.2 C3 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C3 1a-0831 raw count cells,True
+primary_resolution_1.2 C3 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C3 2a-0706 raw count cells,True
+primary_resolution_1.2 C3 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C4 detection and capture,True
+primary_resolution_1.2 C4 nonempty patient representation,True
+primary_resolution_1.2 C4 Fisher p,True
+primary_resolution_1.2 C4 1a-0618 raw count cells,True
+primary_resolution_1.2 C4 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C4 1a-0629 raw count cells,True
+primary_resolution_1.2 C4 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C4 1a-0706 raw count cells,True
+primary_resolution_1.2 C4 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C4 1a-0707 raw count cells,True
+primary_resolution_1.2 C4 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C4 1a-0727 raw count cells,True
+primary_resolution_1.2 C4 1a-0831 raw count cells,True
+primary_resolution_1.2 C4 2a-0706 raw count cells,True
+primary_resolution_1.2 C4 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C5 detection and capture,True
+primary_resolution_1.2 C5 nonempty patient representation,True
+primary_resolution_1.2 C5 Fisher p,True
+primary_resolution_1.2 C5 1a-0618 raw count cells,True
+primary_resolution_1.2 C5 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C5 1a-0629 raw count cells,True
+primary_resolution_1.2 C5 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C5 1a-0706 raw count cells,True
+primary_resolution_1.2 C5 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C5 1a-0707 raw count cells,True
+primary_resolution_1.2 C5 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C5 1a-0727 raw count cells,True
+primary_resolution_1.2 C5 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C5 1a-0831 raw count cells,True
+primary_resolution_1.2 C5 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C5 2a-0706 raw count cells,True
+primary_resolution_1.2 C5 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C6 detection and capture,True
+primary_resolution_1.2 C6 nonempty patient representation,True
+primary_resolution_1.2 C6 Fisher p,True
+primary_resolution_1.2 C6 1a-0618 raw count cells,True
+primary_resolution_1.2 C6 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C6 1a-0629 raw count cells,True
+primary_resolution_1.2 C6 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C6 1a-0706 raw count cells,True
+primary_resolution_1.2 C6 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C6 1a-0707 raw count cells,True
+primary_resolution_1.2 C6 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C6 1a-0727 raw count cells,True
+primary_resolution_1.2 C6 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C6 1a-0831 raw count cells,True
+primary_resolution_1.2 C6 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C6 2a-0706 raw count cells,True
+primary_resolution_1.2 C6 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C7 detection and capture,True
+primary_resolution_1.2 C7 nonempty patient representation,True
+primary_resolution_1.2 C7 Fisher p,True
+primary_resolution_1.2 C7 1a-0618 raw count cells,True
+primary_resolution_1.2 C7 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C7 1a-0629 raw count cells,True
+primary_resolution_1.2 C7 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C7 1a-0706 raw count cells,True
+primary_resolution_1.2 C7 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C7 1a-0707 raw count cells,True
+primary_resolution_1.2 C7 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C7 1a-0727 raw count cells,True
+primary_resolution_1.2 C7 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C7 1a-0831 raw count cells,True
+primary_resolution_1.2 C7 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C7 2a-0706 raw count cells,True
+primary_resolution_1.2 C7 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C8 detection and capture,True
+primary_resolution_1.2 C8 nonempty patient representation,True
+primary_resolution_1.2 C8 Fisher p,True
+primary_resolution_1.2 C8 1a-0618 raw count cells,True
+primary_resolution_1.2 C8 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C8 1a-0629 raw count cells,True
+primary_resolution_1.2 C8 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C8 1a-0706 raw count cells,True
+primary_resolution_1.2 C8 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C8 1a-0707 raw count cells,True
+primary_resolution_1.2 C8 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C8 1a-0727 raw count cells,True
+primary_resolution_1.2 C8 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C8 1a-0831 raw count cells,True
+primary_resolution_1.2 C8 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C8 2a-0706 raw count cells,True
+primary_resolution_1.2 C8 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C9 detection and capture,True
+primary_resolution_1.2 C9 nonempty patient representation,True
+primary_resolution_1.2 C9 Fisher p,True
+primary_resolution_1.2 C9 1a-0618 raw count cells,True
+primary_resolution_1.2 C9 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C9 1a-0629 raw count cells,True
+primary_resolution_1.2 C9 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C9 1a-0706 raw count cells,True
+primary_resolution_1.2 C9 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C9 1a-0707 raw count cells,True
+primary_resolution_1.2 C9 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C9 1a-0727 raw count cells,True
+primary_resolution_1.2 C9 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C9 1a-0831 raw count cells,True
+primary_resolution_1.2 C9 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C9 2a-0706 raw count cells,True
+primary_resolution_1.2 C9 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C10 detection and capture,True
+primary_resolution_1.2 C10 nonempty patient representation,True
+primary_resolution_1.2 C10 Fisher p,True
+primary_resolution_1.2 C10 1a-0618 raw count cells,True
+primary_resolution_1.2 C10 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C10 1a-0629 raw count cells,True
+primary_resolution_1.2 C10 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C10 1a-0706 raw count cells,True
+primary_resolution_1.2 C10 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C10 1a-0707 raw count cells,True
+primary_resolution_1.2 C10 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C10 1a-0727 raw count cells,True
+primary_resolution_1.2 C10 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C10 1a-0831 raw count cells,True
+primary_resolution_1.2 C10 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C10 2a-0706 raw count cells,True
+primary_resolution_1.2 C10 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C11 detection and capture,True
+primary_resolution_1.2 C11 nonempty patient representation,True
+primary_resolution_1.2 C11 Fisher p,True
+primary_resolution_1.2 C11 1a-0618 raw count cells,True
+primary_resolution_1.2 C11 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C11 1a-0629 raw count cells,True
+primary_resolution_1.2 C11 1a-0706 raw count cells,True
+primary_resolution_1.2 C11 1a-0707 raw count cells,True
+primary_resolution_1.2 C11 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C11 1a-0727 raw count cells,True
+primary_resolution_1.2 C11 1a-0831 raw count cells,True
+primary_resolution_1.2 C11 2a-0706 raw count cells,True
+primary_resolution_1.2 C11 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C12 detection and capture,True
+primary_resolution_1.2 C12 nonempty patient representation,True
+primary_resolution_1.2 C12 Fisher p,True
+primary_resolution_1.2 C12 1a-0618 raw count cells,True
+primary_resolution_1.2 C12 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C12 1a-0629 raw count cells,True
+primary_resolution_1.2 C12 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C12 1a-0706 raw count cells,True
+primary_resolution_1.2 C12 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C12 1a-0707 raw count cells,True
+primary_resolution_1.2 C12 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C12 1a-0727 raw count cells,True
+primary_resolution_1.2 C12 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C12 1a-0831 raw count cells,True
+primary_resolution_1.2 C12 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C12 2a-0706 raw count cells,True
+primary_resolution_1.2 C13 detection and capture,True
+primary_resolution_1.2 C13 nonempty patient representation,True
+primary_resolution_1.2 C13 Fisher p,True
+primary_resolution_1.2 C13 1a-0618 raw count cells,True
+primary_resolution_1.2 C13 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C13 1a-0629 raw count cells,True
+primary_resolution_1.2 C13 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C13 1a-0706 raw count cells,True
+primary_resolution_1.2 C13 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C13 1a-0707 raw count cells,True
+primary_resolution_1.2 C13 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C13 1a-0727 raw count cells,True
+primary_resolution_1.2 C13 1a-0831 raw count cells,True
+primary_resolution_1.2 C13 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C13 2a-0706 raw count cells,True
+primary_resolution_1.2 C14 detection and capture,True
+primary_resolution_1.2 C14 nonempty patient representation,True
+primary_resolution_1.2 C14 Fisher p,True
+primary_resolution_1.2 C14 1a-0618 raw count cells,True
+primary_resolution_1.2 C14 1a-0618 zero-inclusive means,True
+primary_resolution_1.2 C14 1a-0629 raw count cells,True
+primary_resolution_1.2 C14 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C14 1a-0706 raw count cells,True
+primary_resolution_1.2 C14 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C14 1a-0707 raw count cells,True
+primary_resolution_1.2 C14 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C14 1a-0727 raw count cells,True
+primary_resolution_1.2 C14 1a-0831 raw count cells,True
+primary_resolution_1.2 C14 2a-0706 raw count cells,True
+primary_resolution_1.2 C15 detection and capture,True
+primary_resolution_1.2 C15 nonempty patient representation,True
+primary_resolution_1.2 C15 Fisher p,True
+primary_resolution_1.2 C15 1a-0618 raw count cells,True
+primary_resolution_1.2 C15 1a-0629 raw count cells,True
+primary_resolution_1.2 C15 1a-0706 raw count cells,True
+primary_resolution_1.2 C15 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C15 1a-0707 raw count cells,True
+primary_resolution_1.2 C15 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C15 1a-0727 raw count cells,True
+primary_resolution_1.2 C15 1a-0727 zero-inclusive means,True
+primary_resolution_1.2 C15 1a-0831 raw count cells,True
+primary_resolution_1.2 C15 1a-0831 zero-inclusive means,True
+primary_resolution_1.2 C15 2a-0706 raw count cells,True
+primary_resolution_1.2 C15 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C16 detection and capture,True
+primary_resolution_1.2 C16 nonempty patient representation,True
+primary_resolution_1.2 C16 Fisher p,True
+primary_resolution_1.2 C16 1a-0618 raw count cells,True
+primary_resolution_1.2 C16 1a-0629 raw count cells,True
+primary_resolution_1.2 C16 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C16 1a-0706 raw count cells,True
+primary_resolution_1.2 C16 1a-0706 zero-inclusive means,True
+primary_resolution_1.2 C16 1a-0707 raw count cells,True
+primary_resolution_1.2 C16 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C16 1a-0727 raw count cells,True
+primary_resolution_1.2 C16 1a-0831 raw count cells,True
+primary_resolution_1.2 C16 2a-0706 raw count cells,True
+primary_resolution_1.2 C16 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 C17 detection and capture,True
+primary_resolution_1.2 C17 nonempty patient representation,True
+primary_resolution_1.2 C17 Fisher p,True
+primary_resolution_1.2 C17 1a-0618 raw count cells,True
+primary_resolution_1.2 C17 1a-0629 raw count cells,True
+primary_resolution_1.2 C17 1a-0629 zero-inclusive means,True
+primary_resolution_1.2 C17 1a-0706 raw count cells,True
+primary_resolution_1.2 C17 1a-0707 raw count cells,True
+primary_resolution_1.2 C17 1a-0707 zero-inclusive means,True
+primary_resolution_1.2 C17 1a-0727 raw count cells,True
+primary_resolution_1.2 C17 1a-0831 raw count cells,True
+primary_resolution_1.2 C17 2a-0706 raw count cells,True
+primary_resolution_1.2 C17 2a-0706 zero-inclusive means,True
+primary_resolution_1.2 BH family,True
+Jaccard graph_seed 1 C0,True
+Jaccard graph_seed 1 C1,True
+Jaccard graph_seed 1 C2,True
+Jaccard graph_seed 1 C3,True
+Jaccard graph_seed 1 C4,True
+Jaccard graph_seed 1 C5,True
+Jaccard graph_seed 1 C6,True
+Jaccard graph_seed 1 C7,True
+Jaccard graph_seed 1 C8,True
+Jaccard graph_seed 1 C9,True
+Jaccard graph_seed 1 C10,True
+Jaccard graph_seed 1 C11,True
+Jaccard graph_seed 1 C12,True
+Jaccard graph_seed 1 C13,True
+Jaccard graph_seed 1 C14,True
+Jaccard graph_seed 2 C0,True
+Jaccard graph_seed 2 C1,True
+Jaccard graph_seed 2 C2,True
+Jaccard graph_seed 2 C3,True
+Jaccard graph_seed 2 C4,True
+Jaccard graph_seed 2 C5,True
+Jaccard graph_seed 2 C6,True
+Jaccard graph_seed 2 C7,True
+Jaccard graph_seed 2 C8,True
+Jaccard graph_seed 2 C9,True
+Jaccard graph_seed 2 C10,True
+Jaccard graph_seed 2 C11,True
+Jaccard graph_seed 2 C12,True
+Jaccard graph_seed 2 C13,True
+Jaccard graph_seed 2 C14,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C0,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C1,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C2,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C3,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C4,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C5,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C6,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C7,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C8,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C9,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C10,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C11,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C12,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C13,True
+subsampling retains80pct per patient seed11,True
+Jaccard 80pct_sample_subsampling 11 C14,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C0,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C1,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C2,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C3,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C4,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C5,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C6,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C7,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C8,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C9,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C10,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C11,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C12,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C13,True
+subsampling retains80pct per patient seed12,True
+Jaccard 80pct_sample_subsampling 12 C14,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C0,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C1,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C2,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C3,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C4,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C5,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C6,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C7,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C8,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C9,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C10,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C11,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C12,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C13,True
+subsampling retains80pct per patient seed13,True
+Jaccard 80pct_sample_subsampling 13 C14,True
+graph concentration uses actual PGAM5 labels,True
+500-permutation empirical p with plus-one correction,True
+marker direction 0 HLA-DRB5 1a-0618,True
+marker direction 0 HLA-DRB5 1a-0706,True
+marker direction 0 HLA-DRB5 1a-0727,True
+marker direction 0 HLA-DRB5 2a-0706,True
+marker direction 0 H19 1a-0618,True
+marker direction 0 H19 1a-0706,True
+marker direction 0 H19 1a-0727,True
+marker direction 0 H19 2a-0706,True
+marker direction 0 GPC3 1a-0618,True
+marker direction 0 GPC3 1a-0706,True
+marker direction 0 GPC3 1a-0727,True
+marker direction 0 GPC3 2a-0706,True
+marker direction 0 SPINK1 1a-0618,True
+marker direction 0 SPINK1 1a-0706,True
+marker direction 0 SPINK1 1a-0727,True
+marker direction 0 SPINK1 2a-0706,True
+marker direction 0 ANGPTL8 1a-0618,True
+marker direction 0 ANGPTL8 1a-0706,True
+marker direction 0 ANGPTL8 1a-0727,True
+marker direction 0 ANGPTL8 2a-0706,True
+marker direction 0 CLU 1a-0618,True
+marker direction 0 CLU 1a-0706,True
+marker direction 0 CLU 1a-0727,True
+marker direction 0 CLU 2a-0706,True
+marker direction 0 AMBP 1a-0618,True
+marker direction 0 AMBP 1a-0706,True
+marker direction 0 AMBP 1a-0727,True
+marker direction 0 AMBP 2a-0706,True
+marker direction 0 NUPR1 1a-0618,True
+marker direction 0 NUPR1 1a-0706,True
+marker direction 0 NUPR1 1a-0727,True
+marker direction 0 NUPR1 2a-0706,True
+marker direction 0 APCS 1a-0618,True
+marker direction 0 APCS 1a-0706,True
+marker direction 0 APCS 1a-0727,True
+marker direction 0 APCS 2a-0706,True
+marker direction 0 ATF5 1a-0618,True
+marker direction 0 ATF5 1a-0706,True
+marker direction 0 ATF5 1a-0727,True
+marker direction 0 ATF5 2a-0706,True
+marker direction 1 AMBP 1a-0618,True
+marker direction 1 AMBP 1a-0727,True
+marker direction 1 H19 1a-0618,True
+marker direction 1 H19 1a-0727,True
+marker direction 1 NUPR1 1a-0618,True
+marker direction 1 NUPR1 1a-0727,True
+marker direction 1 GPC3 1a-0618,True
+marker direction 1 GPC3 1a-0727,True
+marker direction 1 HLA-DRB5 1a-0618,True
+marker direction 1 HLA-DRB5 1a-0727,True
+marker direction 1 SPINK1 1a-0618,True
+marker direction 1 SPINK1 1a-0727,True
+marker direction 1 ANGPTL8 1a-0618,True
+marker direction 1 ANGPTL8 1a-0727,True
+marker direction 1 CRP 1a-0618,True
+marker direction 1 CRP 1a-0727,True
+marker direction 1 APCS 1a-0618,True
+marker direction 1 APCS 1a-0727,True
+marker direction 1 CLU 1a-0618,True
+marker direction 1 CLU 1a-0727,True
+marker direction 2 FABP1 1a-0618,True
+marker direction 2 FABP1 1a-0629,True
+marker direction 2 FABP1 1a-0706,True
+marker direction 2 FABP1 2a-0706,True
+marker direction 2 ALDOB 1a-0618,True
+marker direction 2 ALDOB 1a-0629,True
+marker direction 2 ALDOB 1a-0706,True
+marker direction 2 ALDOB 2a-0706,True
+marker direction 2 FGL1 1a-0618,True
+marker direction 2 FGL1 1a-0629,True
+marker direction 2 FGL1 1a-0706,True
+marker direction 2 FGL1 2a-0706,True
+marker direction 2 DNASE1L3 1a-0618,True
+marker direction 2 DNASE1L3 1a-0629,True
+marker direction 2 DNASE1L3 1a-0706,True
+marker direction 2 DNASE1L3 2a-0706,True
+marker direction 2 HMGCS2 1a-0618,True
+marker direction 2 HMGCS2 1a-0629,True
+marker direction 2 HMGCS2 1a-0706,True
+marker direction 2 HMGCS2 2a-0706,True
+marker direction 2 PCK1 1a-0618,True
+marker direction 2 PCK1 1a-0629,True
+marker direction 2 PCK1 1a-0706,True
+marker direction 2 PCK1 2a-0706,True
+marker direction 2 CYP3A4 1a-0618,True
+marker direction 2 CYP3A4 1a-0629,True
+marker direction 2 CYP3A4 1a-0706,True
+marker direction 2 CYP3A4 2a-0706,True
+marker direction 2 TM4SF4 1a-0618,True
+marker direction 2 TM4SF4 1a-0629,True
+marker direction 2 TM4SF4 1a-0706,True
+marker direction 2 TM4SF4 2a-0706,True
+marker direction 2 CLEC12A 1a-0618,True
+marker direction 2 CLEC12A 1a-0629,True
+marker direction 2 CLEC12A 1a-0706,True
+marker direction 2 CLEC12A 2a-0706,True
+marker direction 2 SIGLEC10 1a-0618,True
+marker direction 2 SIGLEC10 1a-0629,True
+marker direction 2 SIGLEC10 1a-0706,True
+marker direction 2 SIGLEC10 2a-0706,True
+marker direction 3 HLA-DQA2 1a-0618,True
+marker direction 3 HLA-DQA2 1a-0629,True
+marker direction 3 HLA-DQA2 1a-0706,True
+marker direction 3 HLA-DQA2 1a-0707,True
+marker direction 3 HLA-DQA2 1a-0727,True
+marker direction 3 HLA-DQA2 1a-0831,True
+marker direction 3 HLA-DQA2 2a-0706,True
+marker direction 3 ADAMDEC1 1a-0618,True
+marker direction 3 ADAMDEC1 1a-0629,True
+marker direction 3 ADAMDEC1 1a-0706,True
+marker direction 3 ADAMDEC1 1a-0707,True
+marker direction 3 ADAMDEC1 1a-0727,True
+marker direction 3 ADAMDEC1 1a-0831,True
+marker direction 3 ADAMDEC1 2a-0706,True
+marker direction 3 CD5L 1a-0618,True
+marker direction 3 CD5L 1a-0629,True
+marker direction 3 CD5L 1a-0706,True
+marker direction 3 CD5L 1a-0707,True
+marker direction 3 CD5L 1a-0727,True
+marker direction 3 CD5L 1a-0831,True
+marker direction 3 CD5L 2a-0706,True
+marker direction 3 NTS 1a-0618,True
+marker direction 3 NTS 1a-0629,True
+marker direction 3 NTS 1a-0706,True
+marker direction 3 NTS 1a-0707,True
+marker direction 3 NTS 1a-0727,True
+marker direction 3 NTS 1a-0831,True
+marker direction 3 NTS 2a-0706,True
+marker direction 3 TIMP3 1a-0618,True
+marker direction 3 TIMP3 1a-0629,True
+marker direction 3 TIMP3 1a-0706,True
+marker direction 3 TIMP3 1a-0707,True
+marker direction 3 TIMP3 1a-0727,True
+marker direction 3 TIMP3 1a-0831,True
+marker direction 3 TIMP3 2a-0706,True
+marker direction 3 LGALS2 1a-0618,True
+marker direction 3 LGALS2 1a-0629,True
+marker direction 3 LGALS2 1a-0706,True
+marker direction 3 LGALS2 1a-0707,True
+marker direction 3 LGALS2 1a-0727,True
+marker direction 3 LGALS2 1a-0831,True
+marker direction 3 LGALS2 2a-0706,True
+marker direction 3 AC020656.1 1a-0618,True
+marker direction 3 AC020656.1 1a-0629,True
+marker direction 3 AC020656.1 1a-0706,True
+marker direction 3 AC020656.1 1a-0707,True
+marker direction 3 AC020656.1 1a-0727,True
+marker direction 3 AC020656.1 1a-0831,True
+marker direction 3 AC020656.1 2a-0706,True
+marker direction 3 FABP4 1a-0618,True
+marker direction 3 FABP4 1a-0629,True
+marker direction 3 FABP4 1a-0706,True
+marker direction 3 FABP4 1a-0707,True
+marker direction 3 FABP4 1a-0727,True
+marker direction 3 FABP4 1a-0831,True
+marker direction 3 FABP4 2a-0706,True
+marker direction 3 LINC01857 1a-0618,True
+marker direction 3 LINC01857 1a-0629,True
+marker direction 3 LINC01857 1a-0706,True
+marker direction 3 LINC01857 1a-0707,True
+marker direction 3 LINC01857 1a-0727,True
+marker direction 3 LINC01857 1a-0831,True
+marker direction 3 LINC01857 2a-0706,True
+marker direction 3 DNASE2B 1a-0618,True
+marker direction 3 DNASE2B 1a-0629,True
+marker direction 3 DNASE2B 1a-0706,True
+marker direction 3 DNASE2B 1a-0707,True
+marker direction 3 DNASE2B 1a-0727,True
+marker direction 3 DNASE2B 1a-0831,True
+marker direction 3 DNASE2B 2a-0706,True
+marker direction 4 MMP12 1a-0618,True
+marker direction 4 MMP12 1a-0629,True
+marker direction 4 MMP12 1a-0706,True
+marker direction 4 MMP12 1a-0707,True
+marker direction 4 MMP12 1a-0727,True
+marker direction 4 MMP12 1a-0831,True
+marker direction 4 MMP12 2a-0706,True
+marker direction 4 C15orf48 1a-0618,True
+marker direction 4 C15orf48 1a-0629,True
+marker direction 4 C15orf48 1a-0706,True
+marker direction 4 C15orf48 1a-0707,True
+marker direction 4 C15orf48 1a-0727,True
+marker direction 4 C15orf48 1a-0831,True
+marker direction 4 C15orf48 2a-0706,True
+marker direction 4 IL1RN 1a-0618,True
+marker direction 4 IL1RN 1a-0629,True
+marker direction 4 IL1RN 1a-0706,True
+marker direction 4 IL1RN 1a-0707,True
+marker direction 4 IL1RN 1a-0727,True
+marker direction 4 IL1RN 1a-0831,True
+marker direction 4 IL1RN 2a-0706,True
+marker direction 4 MMP9 1a-0618,True
+marker direction 4 MMP9 1a-0629,True
+marker direction 4 MMP9 1a-0706,True
+marker direction 4 MMP9 1a-0707,True
+marker direction 4 MMP9 1a-0727,True
+marker direction 4 MMP9 1a-0831,True
+marker direction 4 MMP9 2a-0706,True
+marker direction 4 OLR1 1a-0618,True
+marker direction 4 OLR1 1a-0629,True
+marker direction 4 OLR1 1a-0706,True
+marker direction 4 OLR1 1a-0707,True
+marker direction 4 OLR1 1a-0727,True
+marker direction 4 OLR1 1a-0831,True
+marker direction 4 OLR1 2a-0706,True
+marker direction 4 SPP1 1a-0618,True
+marker direction 4 SPP1 1a-0629,True
+marker direction 4 SPP1 1a-0706,True
+marker direction 4 SPP1 1a-0707,True
+marker direction 4 SPP1 1a-0727,True
+marker direction 4 SPP1 1a-0831,True
+marker direction 4 SPP1 2a-0706,True
+marker direction 4 IL4I1 1a-0618,True
+marker direction 4 IL4I1 1a-0629,True
+marker direction 4 IL4I1 1a-0706,True
+marker direction 4 IL4I1 1a-0707,True
+marker direction 4 IL4I1 1a-0727,True
+marker direction 4 IL4I1 1a-0831,True
+marker direction 4 IL4I1 2a-0706,True
+marker direction 4 SOCS3 1a-0618,True
+marker direction 4 SOCS3 1a-0629,True
+marker direction 4 SOCS3 1a-0706,True
+marker direction 4 SOCS3 1a-0707,True
+marker direction 4 SOCS3 1a-0727,True
+marker direction 4 SOCS3 1a-0831,True
+marker direction 4 SOCS3 2a-0706,True
+marker direction 4 HES4 1a-0618,True
+marker direction 4 HES4 1a-0629,True
+marker direction 4 HES4 1a-0706,True
+marker direction 4 HES4 1a-0707,True
+marker direction 4 HES4 1a-0727,True
+marker direction 4 HES4 1a-0831,True
+marker direction 4 HES4 2a-0706,True
+marker direction 4 ADAM8 1a-0618,True
+marker direction 4 ADAM8 1a-0629,True
+marker direction 4 ADAM8 1a-0706,True
+marker direction 4 ADAM8 1a-0707,True
+marker direction 4 ADAM8 1a-0727,True
+marker direction 4 ADAM8 1a-0831,True
+marker direction 4 ADAM8 2a-0706,True
+marker direction 5 ARHGAP29 1a-0618,True
+marker direction 5 ARHGAP29 1a-0629,True
+marker direction 5 ARHGAP29 1a-0706,True
+marker direction 5 ARHGAP29 1a-0707,True
+marker direction 5 ARHGAP29 2a-0706,True
+marker direction 5 HSPG2 1a-0618,True
+marker direction 5 HSPG2 1a-0629,True
+marker direction 5 HSPG2 1a-0706,True
+marker direction 5 HSPG2 1a-0707,True
+marker direction 5 HSPG2 2a-0706,True
+marker direction 5 COL4A1 1a-0618,True
+marker direction 5 COL4A1 1a-0629,True
+marker direction 5 COL4A1 1a-0706,True
+marker direction 5 COL4A1 1a-0707,True
+marker direction 5 COL4A1 2a-0706,True
+marker direction 5 IGFBP7 1a-0618,True
+marker direction 5 IGFBP7 1a-0629,True
+marker direction 5 IGFBP7 1a-0706,True
+marker direction 5 IGFBP7 1a-0707,True
+marker direction 5 IGFBP7 2a-0706,True
+marker direction 5 CALCRL 1a-0618,True
+marker direction 5 CALCRL 1a-0629,True
+marker direction 5 CALCRL 1a-0706,True
+marker direction 5 CALCRL 1a-0707,True
+marker direction 5 CALCRL 2a-0706,True
+marker direction 5 SPARC 1a-0618,True
+marker direction 5 SPARC 1a-0629,True
+marker direction 5 SPARC 1a-0706,True
+marker direction 5 SPARC 1a-0707,True
+marker direction 5 SPARC 2a-0706,True
+marker direction 5 NOTCH4 1a-0618,True
+marker direction 5 NOTCH4 1a-0629,True
+marker direction 5 NOTCH4 1a-0706,True
+marker direction 5 NOTCH4 1a-0707,True
+marker direction 5 NOTCH4 2a-0706,True
+marker direction 5 ADGRF5 1a-0618,True
+marker direction 5 ADGRF5 1a-0629,True
+marker direction 5 ADGRF5 1a-0706,True
+marker direction 5 ADGRF5 1a-0707,True
+marker direction 5 ADGRF5 2a-0706,True
+marker direction 5 MCAM 1a-0618,True
+marker direction 5 MCAM 1a-0629,True
+marker direction 5 MCAM 1a-0706,True
+marker direction 5 MCAM 1a-0707,True
+marker direction 5 MCAM 2a-0706,True
+marker direction 5 FLT1 1a-0618,True
+marker direction 5 FLT1 1a-0629,True
+marker direction 5 FLT1 1a-0706,True
+marker direction 5 FLT1 1a-0707,True
+marker direction 5 FLT1 2a-0706,True
+marker direction 6 FCGBP 1a-0618,True
+marker direction 6 FCGBP 1a-0629,True
+marker direction 6 FCGBP 1a-0706,True
+marker direction 6 FCGBP 1a-0707,True
+marker direction 6 FCGBP 1a-0727,True
+marker direction 6 FCGBP 1a-0831,True
+marker direction 6 FCGBP 2a-0706,True
+marker direction 6 LPL 1a-0618,True
+marker direction 6 LPL 1a-0629,True
+marker direction 6 LPL 1a-0706,True
+marker direction 6 LPL 1a-0707,True
+marker direction 6 LPL 1a-0727,True
+marker direction 6 LPL 1a-0831,True
+marker direction 6 LPL 2a-0706,True
+marker direction 6 USP53 1a-0618,True
+marker direction 6 USP53 1a-0629,True
+marker direction 6 USP53 1a-0706,True
+marker direction 6 USP53 1a-0707,True
+marker direction 6 USP53 1a-0727,True
+marker direction 6 USP53 1a-0831,True
+marker direction 6 USP53 2a-0706,True
+marker direction 6 DNAJA4 1a-0618,True
+marker direction 6 DNAJA4 1a-0629,True
+marker direction 6 DNAJA4 1a-0706,True
+marker direction 6 DNAJA4 1a-0707,True
+marker direction 6 DNAJA4 1a-0727,True
+marker direction 6 DNAJA4 1a-0831,True
+marker direction 6 DNAJA4 2a-0706,True
+marker direction 6 TMIGD3 1a-0618,True
+marker direction 6 TMIGD3 1a-0629,True
+marker direction 6 TMIGD3 1a-0706,True
+marker direction 6 TMIGD3 1a-0707,True
+marker direction 6 TMIGD3 1a-0727,True
+marker direction 6 TMIGD3 1a-0831,True
+marker direction 6 TMIGD3 2a-0706,True
+marker direction 6 SERPINH1 1a-0618,True
+marker direction 6 SERPINH1 1a-0629,True
+marker direction 6 SERPINH1 1a-0706,True
+marker direction 6 SERPINH1 1a-0707,True
+marker direction 6 SERPINH1 1a-0727,True
+marker direction 6 SERPINH1 1a-0831,True
+marker direction 6 SERPINH1 2a-0706,True
+marker direction 6 IFI6 1a-0618,True
+marker direction 6 IFI6 1a-0629,True
+marker direction 6 IFI6 1a-0706,True
+marker direction 6 IFI6 1a-0707,True
+marker direction 6 IFI6 1a-0727,True
+marker direction 6 IFI6 1a-0831,True
+marker direction 6 IFI6 2a-0706,True
+marker direction 6 BAG3 1a-0618,True
+marker direction 6 BAG3 1a-0629,True
+marker direction 6 BAG3 1a-0706,True
+marker direction 6 BAG3 1a-0707,True
+marker direction 6 BAG3 1a-0727,True
+marker direction 6 BAG3 1a-0831,True
+marker direction 6 BAG3 2a-0706,True
+marker direction 6 DNAJB4 1a-0618,True
+marker direction 6 DNAJB4 1a-0629,True
+marker direction 6 DNAJB4 1a-0706,True
+marker direction 6 DNAJB4 1a-0707,True
+marker direction 6 DNAJB4 1a-0727,True
+marker direction 6 DNAJB4 1a-0831,True
+marker direction 6 DNAJB4 2a-0706,True
+marker direction 6 IFI44L 1a-0618,True
+marker direction 6 IFI44L 1a-0629,True
+marker direction 6 IFI44L 1a-0706,True
+marker direction 6 IFI44L 1a-0707,True
+marker direction 6 IFI44L 1a-0727,True
+marker direction 6 IFI44L 1a-0831,True
+marker direction 6 IFI44L 2a-0706,True
+marker direction 7 MKI67 1a-0618,True
+marker direction 7 MKI67 1a-0629,True
+marker direction 7 MKI67 1a-0706,True
+marker direction 7 MKI67 1a-0707,True
+marker direction 7 MKI67 1a-0727,True
+marker direction 7 MKI67 1a-0831,True
+marker direction 7 MKI67 2a-0706,True
+marker direction 7 TOP2A 1a-0618,True
+marker direction 7 TOP2A 1a-0629,True
+marker direction 7 TOP2A 1a-0706,True
+marker direction 7 TOP2A 1a-0707,True
+marker direction 7 TOP2A 1a-0727,True
+marker direction 7 TOP2A 1a-0831,True
+marker direction 7 TOP2A 2a-0706,True
+marker direction 7 CENPF 1a-0618,True
+marker direction 7 CENPF 1a-0629,True
+marker direction 7 CENPF 1a-0706,True
+marker direction 7 CENPF 1a-0707,True
+marker direction 7 CENPF 1a-0727,True
+marker direction 7 CENPF 1a-0831,True
+marker direction 7 CENPF 2a-0706,True
+marker direction 7 PCLAF 1a-0618,True
+marker direction 7 PCLAF 1a-0629,True
+marker direction 7 PCLAF 1a-0706,True
+marker direction 7 PCLAF 1a-0707,True
+marker direction 7 PCLAF 1a-0727,True
+marker direction 7 PCLAF 1a-0831,True
+marker direction 7 PCLAF 2a-0706,True
+marker direction 7 NUSAP1 1a-0618,True
+marker direction 7 NUSAP1 1a-0629,True
+marker direction 7 NUSAP1 1a-0706,True
+marker direction 7 NUSAP1 1a-0707,True
+marker direction 7 NUSAP1 1a-0727,True
+marker direction 7 NUSAP1 1a-0831,True
+marker direction 7 NUSAP1 2a-0706,True
+marker direction 7 TYMS 1a-0618,True
+marker direction 7 TYMS 1a-0629,True
+marker direction 7 TYMS 1a-0706,True
+marker direction 7 TYMS 1a-0707,True
+marker direction 7 TYMS 1a-0727,True
+marker direction 7 TYMS 1a-0831,True
+marker direction 7 TYMS 2a-0706,True
+marker direction 7 CDK1 1a-0618,True
+marker direction 7 CDK1 1a-0629,True
+marker direction 7 CDK1 1a-0706,True
+marker direction 7 CDK1 1a-0707,True
+marker direction 7 CDK1 1a-0727,True
+marker direction 7 CDK1 1a-0831,True
+marker direction 7 CDK1 2a-0706,True
+marker direction 7 TPX2 1a-0618,True
+marker direction 7 TPX2 1a-0629,True
+marker direction 7 TPX2 1a-0706,True
+marker direction 7 TPX2 1a-0707,True
+marker direction 7 TPX2 1a-0727,True
+marker direction 7 TPX2 1a-0831,True
+marker direction 7 TPX2 2a-0706,True
+marker direction 7 PRC1 1a-0618,True
+marker direction 7 PRC1 1a-0629,True
+marker direction 7 PRC1 1a-0706,True
+marker direction 7 PRC1 1a-0707,True
+marker direction 7 PRC1 1a-0727,True
+marker direction 7 PRC1 1a-0831,True
+marker direction 7 PRC1 2a-0706,True
+marker direction 7 GTSE1 1a-0618,True
+marker direction 7 GTSE1 1a-0629,True
+marker direction 7 GTSE1 1a-0706,True
+marker direction 7 GTSE1 1a-0707,True
+marker direction 7 GTSE1 1a-0727,True
+marker direction 7 GTSE1 1a-0831,True
+marker direction 7 GTSE1 2a-0706,True
+marker direction 8 NKG7 1a-0618,True
+marker direction 8 NKG7 1a-0629,True
+marker direction 8 NKG7 1a-0706,True
+marker direction 8 NKG7 1a-0707,True
+marker direction 8 NKG7 1a-0727,True
+marker direction 8 NKG7 1a-0831,True
+marker direction 8 NKG7 2a-0706,True
+marker direction 8 KLRB1 1a-0618,True
+marker direction 8 KLRB1 1a-0629,True
+marker direction 8 KLRB1 1a-0706,True
+marker direction 8 KLRB1 1a-0707,True
+marker direction 8 KLRB1 1a-0727,True
+marker direction 8 KLRB1 1a-0831,True
+marker direction 8 KLRB1 2a-0706,True
+marker direction 8 CD69 1a-0618,True
+marker direction 8 CD69 1a-0629,True
+marker direction 8 CD69 1a-0706,True
+marker direction 8 CD69 1a-0707,True
+marker direction 8 CD69 1a-0727,True
+marker direction 8 CD69 1a-0831,True
+marker direction 8 CD69 2a-0706,True
+marker direction 8 GZMA 1a-0618,True
+marker direction 8 GZMA 1a-0629,True
+marker direction 8 GZMA 1a-0706,True
+marker direction 8 GZMA 1a-0707,True
+marker direction 8 GZMA 1a-0727,True
+marker direction 8 GZMA 1a-0831,True
+marker direction 8 GZMA 2a-0706,True
+marker direction 8 CD2 1a-0618,True
+marker direction 8 CD2 1a-0629,True
+marker direction 8 CD2 1a-0706,True
+marker direction 8 CD2 1a-0707,True
+marker direction 8 CD2 1a-0727,True
+marker direction 8 CD2 1a-0831,True
+marker direction 8 CD2 2a-0706,True
+marker direction 8 TRBC2 1a-0618,True
+marker direction 8 TRBC2 1a-0629,True
+marker direction 8 TRBC2 1a-0706,True
+marker direction 8 TRBC2 1a-0707,True
+marker direction 8 TRBC2 1a-0727,True
+marker direction 8 TRBC2 1a-0831,True
+marker direction 8 TRBC2 2a-0706,True
+marker direction 8 CCL5 1a-0618,True
+marker direction 8 CCL5 1a-0629,True
+marker direction 8 CCL5 1a-0706,True
+marker direction 8 CCL5 1a-0707,True
+marker direction 8 CCL5 1a-0727,True
+marker direction 8 CCL5 1a-0831,True
+marker direction 8 CCL5 2a-0706,True
+marker direction 8 TRBC1 1a-0618,True
+marker direction 8 TRBC1 1a-0629,True
+marker direction 8 TRBC1 1a-0706,True
+marker direction 8 TRBC1 1a-0707,True
+marker direction 8 TRBC1 1a-0727,True
+marker direction 8 TRBC1 1a-0831,True
+marker direction 8 TRBC1 2a-0706,True
+marker direction 8 IL32 1a-0618,True
+marker direction 8 IL32 1a-0629,True
+marker direction 8 IL32 1a-0706,True
+marker direction 8 IL32 1a-0707,True
+marker direction 8 IL32 1a-0727,True
+marker direction 8 IL32 1a-0831,True
+marker direction 8 IL32 2a-0706,True
+marker direction 8 RORA 1a-0618,True
+marker direction 8 RORA 1a-0629,True
+marker direction 8 RORA 1a-0706,True
+marker direction 8 RORA 1a-0707,True
+marker direction 8 RORA 1a-0727,True
+marker direction 8 RORA 1a-0831,True
+marker direction 8 RORA 2a-0706,True
+marker direction 9 KCNJ5 1a-0618,True
+marker direction 9 KCNJ5 1a-0629,True
+marker direction 9 KCNJ5 1a-0706,True
+marker direction 9 KCNJ5 1a-0707,True
+marker direction 9 KCNJ5 1a-0727,True
+marker direction 9 KCNJ5 1a-0831,True
+marker direction 9 MAMDC2 1a-0618,True
+marker direction 9 MAMDC2 1a-0629,True
+marker direction 9 MAMDC2 1a-0706,True
+marker direction 9 MAMDC2 1a-0707,True
+marker direction 9 MAMDC2 1a-0727,True
+marker direction 9 MAMDC2 1a-0831,True
+marker direction 9 CD28 1a-0618,True
+marker direction 9 CD28 1a-0629,True
+marker direction 9 CD28 1a-0706,True
+marker direction 9 CD28 1a-0707,True
+marker direction 9 CD28 1a-0727,True
+marker direction 9 CD28 1a-0831,True
+marker direction 9 GAS6 1a-0618,True
+marker direction 9 GAS6 1a-0629,True
+marker direction 9 GAS6 1a-0706,True
+marker direction 9 GAS6 1a-0707,True
+marker direction 9 GAS6 1a-0727,True
+marker direction 9 GAS6 1a-0831,True
+marker direction 9 CCL8 1a-0618,True
+marker direction 9 CCL8 1a-0629,True
+marker direction 9 CCL8 1a-0706,True
+marker direction 9 CCL8 1a-0707,True
+marker direction 9 CCL8 1a-0727,True
+marker direction 9 CCL8 1a-0831,True
+marker direction 9 EGFL7 1a-0618,True
+marker direction 9 EGFL7 1a-0629,True
+marker direction 9 EGFL7 1a-0706,True
+marker direction 9 EGFL7 1a-0707,True
+marker direction 9 EGFL7 1a-0727,True
+marker direction 9 EGFL7 1a-0831,True
+marker direction 9 CCL2 1a-0618,True
+marker direction 9 CCL2 1a-0629,True
+marker direction 9 CCL2 1a-0706,True
+marker direction 9 CCL2 1a-0707,True
+marker direction 9 CCL2 1a-0727,True
+marker direction 9 CCL2 1a-0831,True
+marker direction 9 MCOLN1 1a-0618,True
+marker direction 9 MCOLN1 1a-0629,True
+marker direction 9 MCOLN1 1a-0706,True
+marker direction 9 MCOLN1 1a-0707,True
+marker direction 9 MCOLN1 1a-0727,True
+marker direction 9 MCOLN1 1a-0831,True
+marker direction 9 CRHBP 1a-0618,True
+marker direction 9 CRHBP 1a-0629,True
+marker direction 9 CRHBP 1a-0706,True
+marker direction 9 CRHBP 1a-0707,True
+marker direction 9 CRHBP 1a-0727,True
+marker direction 9 CRHBP 1a-0831,True
+marker direction 9 MFHAS1 1a-0618,True
+marker direction 9 MFHAS1 1a-0629,True
+marker direction 9 MFHAS1 1a-0706,True
+marker direction 9 MFHAS1 1a-0707,True
+marker direction 9 MFHAS1 1a-0727,True
+marker direction 9 MFHAS1 1a-0831,True
+marker direction 10 S100A8 1a-0618,True
+marker direction 10 S100A8 1a-0707,True
+marker direction 10 S100A8 2a-0706,True
+marker direction 10 FCGR3B 1a-0618,True
+marker direction 10 FCGR3B 1a-0707,True
+marker direction 10 FCGR3B 2a-0706,True
+marker direction 10 LUCAT1 1a-0618,True
+marker direction 10 LUCAT1 1a-0707,True
+marker direction 10 LUCAT1 2a-0706,True
+marker direction 10 CMTM2 1a-0618,True
+marker direction 10 CMTM2 1a-0707,True
+marker direction 10 CMTM2 2a-0706,True
+marker direction 10 AQP9 1a-0618,True
+marker direction 10 AQP9 1a-0707,True
+marker direction 10 AQP9 2a-0706,True
+marker direction 10 G0S2 1a-0618,True
+marker direction 10 G0S2 1a-0707,True
+marker direction 10 G0S2 2a-0706,True
+marker direction 10 S100P 1a-0618,True
+marker direction 10 S100P 1a-0707,True
+marker direction 10 S100P 2a-0706,True
+marker direction 10 S100A9 1a-0618,True
+marker direction 10 S100A9 1a-0707,True
+marker direction 10 S100A9 2a-0706,True
+marker direction 10 TREM1 1a-0618,True
+marker direction 10 TREM1 1a-0707,True
+marker direction 10 TREM1 2a-0706,True
+marker direction 10 CXCL8 1a-0618,True
+marker direction 10 CXCL8 1a-0707,True
+marker direction 10 CXCL8 2a-0706,True
+marker direction 11 MT1H 1a-0618,True
+marker direction 11 MT1H 1a-0629,True
+marker direction 11 MT1H 1a-0706,True
+marker direction 11 MT1H 1a-0707,True
+marker direction 11 MT1H 1a-0727,True
+marker direction 11 MT1H 1a-0831,True
+marker direction 11 MT1G 1a-0618,True
+marker direction 11 MT1G 1a-0629,True
+marker direction 11 MT1G 1a-0706,True
+marker direction 11 MT1G 1a-0707,True
+marker direction 11 MT1G 1a-0727,True
+marker direction 11 MT1G 1a-0831,True
+marker direction 11 MT1M 1a-0618,True
+marker direction 11 MT1M 1a-0629,True
+marker direction 11 MT1M 1a-0706,True
+marker direction 11 MT1M 1a-0707,True
+marker direction 11 MT1M 1a-0727,True
+marker direction 11 MT1M 1a-0831,True
+marker direction 11 MT1E 1a-0618,True
+marker direction 11 MT1E 1a-0629,True
+marker direction 11 MT1E 1a-0706,True
+marker direction 11 MT1E 1a-0707,True
+marker direction 11 MT1E 1a-0727,True
+marker direction 11 MT1E 1a-0831,True
+marker direction 11 MT1X 1a-0618,True
+marker direction 11 MT1X 1a-0629,True
+marker direction 11 MT1X 1a-0706,True
+marker direction 11 MT1X 1a-0707,True
+marker direction 11 MT1X 1a-0727,True
+marker direction 11 MT1X 1a-0831,True
+marker direction 11 MT1F 1a-0618,True
+marker direction 11 MT1F 1a-0629,True
+marker direction 11 MT1F 1a-0706,True
+marker direction 11 MT1F 1a-0707,True
+marker direction 11 MT1F 1a-0727,True
+marker direction 11 MT1F 1a-0831,True
+marker direction 11 MT2A 1a-0618,True
+marker direction 11 MT2A 1a-0629,True
+marker direction 11 MT2A 1a-0706,True
+marker direction 11 MT2A 1a-0707,True
+marker direction 11 MT2A 1a-0727,True
+marker direction 11 MT2A 1a-0831,True
+marker direction 11 MT1A 1a-0618,True
+marker direction 11 MT1A 1a-0629,True
+marker direction 11 MT1A 1a-0706,True
+marker direction 11 MT1A 1a-0707,True
+marker direction 11 MT1A 1a-0727,True
+marker direction 11 MT1A 1a-0831,True
+marker direction 11 SLC30A1 1a-0618,True
+marker direction 11 SLC30A1 1a-0629,True
+marker direction 11 SLC30A1 1a-0706,True
+marker direction 11 SLC30A1 1a-0707,True
+marker direction 11 SLC30A1 1a-0727,True
+marker direction 11 SLC30A1 1a-0831,True
+marker direction 11 GCLM 1a-0618,True
+marker direction 11 GCLM 1a-0629,True
+marker direction 11 GCLM 1a-0706,True
+marker direction 11 GCLM 1a-0707,True
+marker direction 11 GCLM 1a-0727,True
+marker direction 11 GCLM 1a-0831,True
+marker direction 12 MAFF 1a-0629,True
+marker direction 12 MAFF 1a-0706,True
+marker direction 12 MAFF 1a-0707,True
+marker direction 12 MAFF 2a-0706,True
+marker direction 12 DUSP2 1a-0629,True
+marker direction 12 DUSP2 1a-0706,True
+marker direction 12 DUSP2 1a-0707,True
+marker direction 12 DUSP2 2a-0706,True
+marker direction 12 ZNF331 1a-0629,True
+marker direction 12 ZNF331 1a-0706,True
+marker direction 12 ZNF331 1a-0707,True
+marker direction 12 ZNF331 2a-0706,True
+marker direction 12 NR4A2 1a-0629,True
+marker direction 12 NR4A2 1a-0706,True
+marker direction 12 NR4A2 1a-0707,True
+marker direction 12 NR4A2 2a-0706,True
+marker direction 12 CXCL2 1a-0629,True
+marker direction 12 CXCL2 1a-0706,True
+marker direction 12 CXCL2 1a-0707,True
+marker direction 12 CXCL2 2a-0706,True
+marker direction 12 TNFAIP3 1a-0629,True
+marker direction 12 TNFAIP3 1a-0706,True
+marker direction 12 TNFAIP3 1a-0707,True
+marker direction 12 TNFAIP3 2a-0706,True
+marker direction 12 GPR183 1a-0629,True
+marker direction 12 GPR183 1a-0706,True
+marker direction 12 GPR183 1a-0707,True
+marker direction 12 GPR183 2a-0706,True
+marker direction 12 KLF4 1a-0629,True
+marker direction 12 KLF4 1a-0706,True
+marker direction 12 KLF4 1a-0707,True
+marker direction 12 KLF4 2a-0706,True
+marker direction 12 KLF10 1a-0629,True
+marker direction 12 KLF10 1a-0706,True
+marker direction 12 KLF10 1a-0707,True
+marker direction 12 KLF10 2a-0706,True
+marker direction 12 ATF3 1a-0629,True
+marker direction 12 ATF3 1a-0706,True
+marker direction 12 ATF3 1a-0707,True
+marker direction 12 ATF3 2a-0706,True
+marker direction 13 IL1B 1a-0706,True
+marker direction 13 IL1B 1a-0707,True
+marker direction 13 IL1B 1a-0727,True
+marker direction 13 IL1B 1a-0831,True
+marker direction 13 IL1B 2a-0706,True
+marker direction 13 CD5L 1a-0706,True
+marker direction 13 CD5L 1a-0707,True
+marker direction 13 CD5L 1a-0727,True
+marker direction 13 CD5L 1a-0831,True
+marker direction 13 CD5L 2a-0706,True
+marker direction 13 NFKBIZ 1a-0706,True
+marker direction 13 NFKBIZ 1a-0707,True
+marker direction 13 NFKBIZ 1a-0727,True
+marker direction 13 NFKBIZ 1a-0831,True
+marker direction 13 NFKBIZ 2a-0706,True
+marker direction 13 ICAM4 1a-0706,True
+marker direction 13 ICAM4 1a-0707,True
+marker direction 13 ICAM4 1a-0727,True
+marker direction 13 ICAM4 1a-0831,True
+marker direction 13 ICAM4 2a-0706,True
+marker direction 13 EGR1 1a-0706,True
+marker direction 13 EGR1 1a-0707,True
+marker direction 13 EGR1 1a-0727,True
+marker direction 13 EGR1 1a-0831,True
+marker direction 13 EGR1 2a-0706,True
+marker direction 13 CETP 1a-0706,True
+marker direction 13 CETP 1a-0707,True
+marker direction 13 CETP 1a-0727,True
+marker direction 13 CETP 1a-0831,True
+marker direction 13 CETP 2a-0706,True
+marker direction 13 CXCL8 1a-0706,True
+marker direction 13 CXCL8 1a-0707,True
+marker direction 13 CXCL8 1a-0727,True
+marker direction 13 CXCL8 1a-0831,True
+marker direction 13 CXCL8 2a-0706,True
+marker direction 13 FOSB 1a-0706,True
+marker direction 13 FOSB 1a-0707,True
+marker direction 13 FOSB 1a-0727,True
+marker direction 13 FOSB 1a-0831,True
+marker direction 13 FOSB 2a-0706,True
+marker direction 13 CLEC4E 1a-0706,True
+marker direction 13 CLEC4E 1a-0707,True
+marker direction 13 CLEC4E 1a-0727,True
+marker direction 13 CLEC4E 1a-0831,True
+marker direction 13 CLEC4E 2a-0706,True
+marker direction 13 KLF4 1a-0706,True
+marker direction 13 KLF4 1a-0707,True
+marker direction 13 KLF4 1a-0727,True
+marker direction 13 KLF4 1a-0831,True
+marker direction 13 KLF4 2a-0706,True
+marker direction 14 PCK1 1a-0629,True
+marker direction 14 PCK1 1a-0706,True
+marker direction 14 PCK1 1a-0707,True
+marker direction 14 PCK1 2a-0706,True
+marker direction 14 ACSM2B 1a-0629,True
+marker direction 14 ACSM2B 1a-0706,True
+marker direction 14 ACSM2B 1a-0707,True
+marker direction 14 ACSM2B 2a-0706,True
+marker direction 14 CYP3A5 1a-0629,True
+marker direction 14 CYP3A5 1a-0706,True
+marker direction 14 CYP3A5 1a-0707,True
+marker direction 14 CYP3A5 2a-0706,True
+marker direction 14 ACSM2A 1a-0629,True
+marker direction 14 ACSM2A 1a-0706,True
+marker direction 14 ACSM2A 1a-0707,True
+marker direction 14 ACSM2A 2a-0706,True
+marker direction 14 ONECUT1 1a-0629,True
+marker direction 14 ONECUT1 1a-0706,True
+marker direction 14 ONECUT1 1a-0707,True
+marker direction 14 ONECUT1 2a-0706,True
+marker direction 14 BHMT2 1a-0629,True
+marker direction 14 BHMT2 1a-0706,True
+marker direction 14 BHMT2 1a-0707,True
+marker direction 14 BHMT2 2a-0706,True
+marker direction 14 MLXIPL 1a-0629,True
+marker direction 14 MLXIPL 1a-0706,True
+marker direction 14 MLXIPL 1a-0707,True
+marker direction 14 MLXIPL 2a-0706,True
+marker direction 14 CYP2A7 1a-0629,True
+marker direction 14 CYP2A7 1a-0706,True
+marker direction 14 CYP2A7 1a-0707,True
+marker direction 14 CYP2A7 2a-0706,True
+marker direction 14 SLC17A4 1a-0629,True
+marker direction 14 SLC17A4 1a-0706,True
+marker direction 14 SLC17A4 1a-0707,True
+marker direction 14 SLC17A4 2a-0706,True
+marker direction 14 SLC6A1 1a-0629,True
+marker direction 14 SLC6A1 1a-0706,True
+marker direction 14 SLC6A1 1a-0707,True
+marker direction 14 SLC6A1 2a-0706,True
+dotplot 0 C1QA,True
+dotplot 0 C1QB,True
+dotplot 0 C1QC,True
+dotplot 0 CD68,True
+dotplot 0 CSF1R,True
+dotplot 0 MSR1,True
+dotplot 0 PGAM5,True
+dotplot 0 MKI67,True
+dotplot 0 TOP2A,True
+dotplot 0 CENPF,True
+dotplot 0 PCLAF,True
+dotplot 0 TYMS,True
+dotplot 0 CDK1,True
+dotplot 0 TPX2,True
+dotplot 0 PRC1,True
+dotplot 0 GTSE1,True
+dotplot 1 C1QA,True
+dotplot 1 C1QB,True
+dotplot 1 C1QC,True
+dotplot 1 CD68,True
+dotplot 1 CSF1R,True
+dotplot 1 MSR1,True
+dotplot 1 PGAM5,True
+dotplot 1 MKI67,True
+dotplot 1 TOP2A,True
+dotplot 1 CENPF,True
+dotplot 1 PCLAF,True
+dotplot 1 TYMS,True
+dotplot 1 CDK1,True
+dotplot 1 TPX2,True
+dotplot 1 PRC1,True
+dotplot 1 GTSE1,True
+dotplot 2 C1QA,True
+dotplot 2 C1QB,True
+dotplot 2 C1QC,True
+dotplot 2 CD68,True
+dotplot 2 CSF1R,True
+dotplot 2 MSR1,True
+dotplot 2 PGAM5,True
+dotplot 2 MKI67,True
+dotplot 2 TOP2A,True
+dotplot 2 CENPF,True
+dotplot 2 PCLAF,True
+dotplot 2 TYMS,True
+dotplot 2 CDK1,True
+dotplot 2 TPX2,True
+dotplot 2 PRC1,True
+dotplot 2 GTSE1,True
+dotplot 3 C1QA,True
+dotplot 3 C1QB,True
+dotplot 3 C1QC,True
+dotplot 3 CD68,True
+dotplot 3 CSF1R,True
+dotplot 3 MSR1,True
+dotplot 3 PGAM5,True
+dotplot 3 MKI67,True
+dotplot 3 TOP2A,True
+dotplot 3 CENPF,True
+dotplot 3 PCLAF,True
+dotplot 3 TYMS,True
+dotplot 3 CDK1,True
+dotplot 3 TPX2,True
+dotplot 3 PRC1,True
+dotplot 3 GTSE1,True
+dotplot 4 C1QA,True
+dotplot 4 C1QB,True
+dotplot 4 C1QC,True
+dotplot 4 CD68,True
+dotplot 4 CSF1R,True
+dotplot 4 MSR1,True
+dotplot 4 PGAM5,True
+dotplot 4 MKI67,True
+dotplot 4 TOP2A,True
+dotplot 4 CENPF,True
+dotplot 4 PCLAF,True
+dotplot 4 TYMS,True
+dotplot 4 CDK1,True
+dotplot 4 TPX2,True
+dotplot 4 PRC1,True
+dotplot 4 GTSE1,True
+dotplot 5 C1QA,True
+dotplot 5 C1QB,True
+dotplot 5 C1QC,True
+dotplot 5 CD68,True
+dotplot 5 CSF1R,True
+dotplot 5 MSR1,True
+dotplot 5 PGAM5,True
+dotplot 5 MKI67,True
+dotplot 5 TOP2A,True
+dotplot 5 CENPF,True
+dotplot 5 PCLAF,True
+dotplot 5 TYMS,True
+dotplot 5 CDK1,True
+dotplot 5 TPX2,True
+dotplot 5 PRC1,True
+dotplot 5 GTSE1,True
+dotplot 6 C1QA,True
+dotplot 6 C1QB,True
+dotplot 6 C1QC,True
+dotplot 6 CD68,True
+dotplot 6 CSF1R,True
+dotplot 6 MSR1,True
+dotplot 6 PGAM5,True
+dotplot 6 MKI67,True
+dotplot 6 TOP2A,True
+dotplot 6 CENPF,True
+dotplot 6 PCLAF,True
+dotplot 6 TYMS,True
+dotplot 6 CDK1,True
+dotplot 6 TPX2,True
+dotplot 6 PRC1,True
+dotplot 6 GTSE1,True
+dotplot 7 C1QA,True
+dotplot 7 C1QB,True
+dotplot 7 C1QC,True
+dotplot 7 CD68,True
+dotplot 7 CSF1R,True
+dotplot 7 MSR1,True
+dotplot 7 PGAM5,True
+dotplot 7 MKI67,True
+dotplot 7 TOP2A,True
+dotplot 7 CENPF,True
+dotplot 7 PCLAF,True
+dotplot 7 TYMS,True
+dotplot 7 CDK1,True
+dotplot 7 TPX2,True
+dotplot 7 PRC1,True
+dotplot 7 GTSE1,True
+dotplot 8 C1QA,True
+dotplot 8 C1QB,True
+dotplot 8 C1QC,True
+dotplot 8 CD68,True
+dotplot 8 CSF1R,True
+dotplot 8 MSR1,True
+dotplot 8 PGAM5,True
+dotplot 8 MKI67,True
+dotplot 8 TOP2A,True
+dotplot 8 CENPF,True
+dotplot 8 PCLAF,True
+dotplot 8 TYMS,True
+dotplot 8 CDK1,True
+dotplot 8 TPX2,True
+dotplot 8 PRC1,True
+dotplot 8 GTSE1,True
+dotplot 9 C1QA,True
+dotplot 9 C1QB,True
+dotplot 9 C1QC,True
+dotplot 9 CD68,True
+dotplot 9 CSF1R,True
+dotplot 9 MSR1,True
+dotplot 9 PGAM5,True
+dotplot 9 MKI67,True
+dotplot 9 TOP2A,True
+dotplot 9 CENPF,True
+dotplot 9 PCLAF,True
+dotplot 9 TYMS,True
+dotplot 9 CDK1,True
+dotplot 9 TPX2,True
+dotplot 9 PRC1,True
+dotplot 9 GTSE1,True
+dotplot 10 C1QA,True
+dotplot 10 C1QB,True
+dotplot 10 C1QC,True
+dotplot 10 CD68,True
+dotplot 10 CSF1R,True
+dotplot 10 MSR1,True
+dotplot 10 PGAM5,True
+dotplot 10 MKI67,True
+dotplot 10 TOP2A,True
+dotplot 10 CENPF,True
+dotplot 10 PCLAF,True
+dotplot 10 TYMS,True
+dotplot 10 CDK1,True
+dotplot 10 TPX2,True
+dotplot 10 PRC1,True
+dotplot 10 GTSE1,True
+dotplot 11 C1QA,True
+dotplot 11 C1QB,True
+dotplot 11 C1QC,True
+dotplot 11 CD68,True
+dotplot 11 CSF1R,True
+dotplot 11 MSR1,True
+dotplot 11 PGAM5,True
+dotplot 11 MKI67,True
+dotplot 11 TOP2A,True
+dotplot 11 CENPF,True
+dotplot 11 PCLAF,True
+dotplot 11 TYMS,True
+dotplot 11 CDK1,True
+dotplot 11 TPX2,True
+dotplot 11 PRC1,True
+dotplot 11 GTSE1,True
+dotplot 12 C1QA,True
+dotplot 12 C1QB,True
+dotplot 12 C1QC,True
+dotplot 12 CD68,True
+dotplot 12 CSF1R,True
+dotplot 12 MSR1,True
+dotplot 12 PGAM5,True
+dotplot 12 MKI67,True
+dotplot 12 TOP2A,True
+dotplot 12 CENPF,True
+dotplot 12 PCLAF,True
+dotplot 12 TYMS,True
+dotplot 12 CDK1,True
+dotplot 12 TPX2,True
+dotplot 12 PRC1,True
+dotplot 12 GTSE1,True
+dotplot 13 C1QA,True
+dotplot 13 C1QB,True
+dotplot 13 C1QC,True
+dotplot 13 CD68,True
+dotplot 13 CSF1R,True
+dotplot 13 MSR1,True
+dotplot 13 PGAM5,True
+dotplot 13 MKI67,True
+dotplot 13 TOP2A,True
+dotplot 13 CENPF,True
+dotplot 13 PCLAF,True
+dotplot 13 TYMS,True
+dotplot 13 CDK1,True
+dotplot 13 TPX2,True
+dotplot 13 PRC1,True
+dotplot 13 GTSE1,True
+dotplot 14 C1QA,True
+dotplot 14 C1QB,True
+dotplot 14 C1QC,True
+dotplot 14 CD68,True
+dotplot 14 CSF1R,True
+dotplot 14 MSR1,True
+dotplot 14 PGAM5,True
+dotplot 14 MKI67,True
+dotplot 14 TOP2A,True
+dotplot 14 CENPF,True
+dotplot 14 PCLAF,True
+dotplot 14 TYMS,True
+dotplot 14 CDK1,True
+dotplot 14 TPX2,True
+dotplot 14 PRC1,True
+dotplot 14 GTSE1,True

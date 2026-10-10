@@ -1,0 +1,10 @@
+{
+  "PNG_figures_visually_inspected": [
+    "PGAM5_subpopulation_overview.png",
+    "candidate_patient_consistency.png",
+    "macrophage_cycling_marker_dotplot.png"
+  ],
+  "checks": "Actual cells, gene dot sizes/means, p/q and patient counts checked against raw data; titles and captions preserve RNA-level interpretation and seven-patient user definition. Corrected overview legend overlap and re-inspected final output.",
+  "PDF_export": "Same source figures exported as vector PDF; separate PDF render not claimed.",
+  "not_claimed": "UMAP separation alone or technical resampling does not establish an independent biological lineage or calibrated cell abundance."
+}

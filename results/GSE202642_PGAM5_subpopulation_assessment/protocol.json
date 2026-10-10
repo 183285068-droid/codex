@@ -1,0 +1,15 @@
+{
+  "question": "Can all PGAM5 RNA-detected macrophages in GSE202642 be treated as an independently supported macrophage subtype?",
+  "scope": "GSE202642 HCC tumor libraries suffix5-11 only. Existing v8 12,135 marker-consistent macrophages; seven sample labels treated as seven independent patients according to current user confirmation. No other cohort, protein, or TCGA analysis.",
+  "history": "Retrospective assessment. Earlier analyses already suggested cycling association; no claim of prospective blinding.",
+  "RNA_label": "PGAM5 raw count>0 means detected, raw count0 means undetected. Zero counts and cycling cells retained.",
+  "primary_geometry": "Full-cell CP10k then log1p; remove PGAM5, MT/RPL/RPS/Ig/HBA/HBB and explicit nonmacrophage-background genes from features only. Seurat HVG selection batch_key=sample_name,2000genes; per-gene z-scale SDfloor0.1,clip[-10,10],PCA30 randomized seed0;20NN exact sklearn,Scanpy UMAP fuzzy graph;igraph Leiden resolution0.8,4iterations,seed0.",
+  "cycling_scope": "Cycle genes and cycling cells retained in the primary clustering. No requirement that a subgroup remain separate after cycle-program removal. Cycling markers characterize biology and do not disqualify a subgroup.",
+  "technical_robustness": "Same graph seeds1/2, resolutions0.4/1.2, plus80%-of-each-sample cell subsampling seeds11/12/13 with new scaling/PCA/graph. Fixed features for subsample checks. Report best-match Jaccard and ARI; no result-driven choice of primary resolution.",
+  "sample_repetition": "Report each cluster across seven user-confirmed independent patient labels. Association evaluable if cluster>=20 and other>=20cells and totalPGAM5detected>=3.",
+  "statistics": "Two-sided Fisher per cluster with BH within geometry, descriptive cell-level inference; within-patient-label permutation of graph PGAM5-positive-neighbor concentration,500permutations; pooled arithmetic-mean CP10k expression contrasts and detection differences are descriptive marker profiles, post-clustering and not independent subtype validation. No Welch or paired gene tests performed.",
+  "not_performed": "No depth matching/regression, no patient-paired DE, no cells removed by PGAM5 count threshold, no ambient-RNA/doublet correction, no external cohort/protein tests.",
+  "decision": "Assess independent cluster structure, concentration/capture of PGAM5 detections, non-PGAM5 marker programs, sample representation and robustness jointly. Detection enrichment alone does not establish a subtype; no universal raw-count/FDR/log2FC threshold is claimed.",
+  "patient_identity_source": "Current user explicitly confirmed that the seven labels represent seven independent patients; this is the governing definition for the analysis.",
+  "abundance_scope": "Even a reproducible within-dataset RNA state does not by itself validate TCGA cell-fraction deconvolution."
+}
