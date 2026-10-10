@@ -1,0 +1,16 @@
+PGAM5_free_cluster,functional_name_EN,functional_name_CN,cells,PGAM5_detected_cells,PGAM5_undetected_cells,fraction_of_merged_PGAM5_detected_group
+C0,SPP1/HLA-DRB5 — MHC-II / SPP1-high,SPP1/HLA-DRB5高表达、抗原呈递相关巨噬细胞（伴肝源/肿瘤RNA）,1809,106,1703,0.12211981566820276
+C1,NUPR1/AMBP — Low-complexity / mixed,NUPR1/AMBP高表达、低复杂度混合RNA群（待复核）,121,0,121,0.0
+C2,DNASE1L3/SPIC — Resident-like / mixed,DNASE1L3/SPIC高表达、驻留样巨噬细胞（伴肝源RNA）,1169,72,1097,0.08294930875576037
+C3,CD5L/HLA-DQA2 — Antigen presentation,CD5L/HLA-DQA2高表达、抗原呈递相关巨噬细胞,1242,41,1201,0.04723502304147465
+C4,SPP1/MMP12 — Matrix remodeling,SPP1/MMP12高表达、基质重塑相关巨噬细胞,460,81,379,0.09331797235023041
+C5,COL4A1/CDH5 — Endothelial-RNA mixed,COL4A1/CDH5高表达、内皮RNA混合群（待复核）,61,4,57,0.004608294930875576
+C6,LPL/STAB1 — Lipid handling,LPL/STAB1高表达、脂质处理相关巨噬细胞,2117,122,1995,0.14055299539170507
+C7,MKI67/TOP2A — Cycling,MKI67/TOP2A高表达、增殖型巨噬细胞,403,79,324,0.09101382488479262
+C8,NKG7/TRBC2 — T/NK-RNA mixed,NKG7/TRBC2高表达、T/NK RNA混合群（待复核）,420,35,385,0.04032258064516129
+C9,CCL2/CCL8 — Chemokine-associated,CCL2/CCL8高表达、趋化因子相关巨噬细胞,2244,174,2070,0.20046082949308755
+C10,S100A8/FCGR3B — Granulocyte-RNA mixed,S100A8/FCGR3B高表达、粒细胞RNA混合群（待复核）,34,1,33,0.001152073732718894
+C11,MT1G/MT2A — Metal response,MT1G/MT2A高表达、金属应答相关巨噬细胞,465,31,434,0.03571428571428571
+C12,CXCL2/NR4A2 — Early inflammatory response,CXCL2/NR4A2高表达、早期炎症应答相关巨噬细胞,1005,71,934,0.08179723502304148
+C13,IL1B/CXCL8 — Inflammatory,IL1B/CXCL8高表达、炎症相关巨噬细胞,547,41,506,0.04723502304147465
+C14,PCK1/CYP3A5 — Hepatocyte-RNA mixed,PCK1/CYP3A5高表达、肝细胞RNA混合群（待复核）,38,10,28,0.01152073732718894

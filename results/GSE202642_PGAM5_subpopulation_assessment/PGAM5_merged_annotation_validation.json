@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE202642",
+  "cells": 12135,
+  "merged_PGAM5_RNA_detected_group_cells": 868,
+  "PGAM5_RNA_undetected_cells": 11267,
+  "origin_RNA_clusters_with_detected_cells": 14,
+  "annotation_rule": "raw PGAM5 counts > 0; original inferred macrophage set",
+  "all_detected_cells_share_one_display_label": true,
+  "raw_count_detection_and_one_to_one_cell_join_passed": true,
+  "original_functional_names_and_mixed_RNA_flags_retained": true,
+  "new_unsupervised_clustering_performed": false,
+  "UMAP_recomputed": false,
+  "cells_removed": 0,
+  "coordinate_SHA256_before_and_after": "9073bf3221f01b7e5b0d67965660abe2572cb6afc70752c3d9bd89e6a00d23e1",
+  "independent_subtype_established_by_label_merge": false,
+  "checks_passed": true
+}

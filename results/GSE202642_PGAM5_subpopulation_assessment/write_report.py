@@ -111,6 +111,8 @@ def main():
               '- `functional_subgroup_names.csv`、`functional_subgroup_marker_evidence.csv`、`functional_subgroup_naming_validation.json`：15群编号/中英文功能名称对照、30个命名基因的表达证据及复核。',
               '- `functional_subgroup_cell_annotations.csv.gz`：全部12135细胞的功能名称、原编号、PGAM5状态及混合RNA标记，可按cell_id回填。',
               '- `functional_subgroup_marker_dotplot.png/.pdf`、`functional_subgroup_marker_dotplot_values.csv`：巨噬细胞身份、PGAM5和命名标志的36基因点图及540个实际绘图值。',
+              '- `PGAM5_RNA_detected_merged_group_UMAP.png/.pdf`、`PGAM5_merged_group_functional_background_UMAP.png/.pdf`：PGAM5 RNA检出细胞统一为一个显示标签的UMAP，分别以灰色或功能亚群颜色显示未检出细胞。',
+              '- `PGAM5_merged_group_cell_annotations.csv.gz`、`PGAM5_merged_group_origin_summary.csv`、`PGAM5_merged_annotation_validation.json`：统一表达群逐细胞标签、原功能群来源与复核。',
               '- `candidate_cluster_descriptive_markers.csv`、`candidate_RNA_annotation_gene_panel.csv`：候选群表达标志和身份/锚点/程序基因。',
               '- `cluster_PGAM5_association.csv`、`cluster_PGAM5_by_sample.csv`：主及两个分辨率所有群、七位患者完整结果。',
               '- `cluster_marker_patient_consistency.csv`、`cluster_marker_directions_by_patient.csv`：前10标志在患者内的描述性表达方向。',
@@ -127,6 +129,7 @@ def main():
               'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python name_functional_subgroups.py',
               'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_expression_umap.py',
               'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_functional_subgroup_markers.py',
+              'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_merged_annotation.py',
               'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python audit_results.py','python write_report.py','```', '',
               '上述重算会覆盖生成文件。完整重做HVG/聚类需要原始`GSE202642_marker_consistent_macrophages.h5ad`（来源hash已保存）；它可以从GSE202642官方matrix、旧分析的样本映射和标记一致巨噬细胞准备脚本重建。完整主脚本以`--source`参数指定该文件，放入新的输出目录执行；有限细胞周期来源json路径在脚本中有明确默认值。下载包中的部分基因计数不能冒充完整文库用于HVG重筛选或重新计算全库分母。', '',
               'GEO：[GSE202642](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202642)。上游巨噬细胞准备代码：[prepare_additional_macrophages.py](https://github.com/183285068-droid/codex/blob/main/results/PGAM5_reproducible_macrophage_states/prepare_additional_macrophages.py)。RNA注释来源：[v8结果](https://github.com/183285068-droid/codex/tree/main/results/PGAM5_RNA_identity_v8)。', '']
@@ -144,6 +147,17 @@ def main():
                     'C0、C1、C2也有肝源/肿瘤RNA背景；C1仅121细胞且文库复杂度低。C2使用“驻留样”表达相似性名称，不宣称已证明组织驻留身份。C10与C14分别只有34、38细胞。许多群由单一患者主导，编号与功能名称不意味着15个经过独立验证的稳定生物学亚群；患者占比、混合RNA标记及逐群限定说明均保留在名称对照表中。C7仍对应此前的PGAM5富集增殖型候选群。', '',
                     '![功能名称对应标志基因表达](functional_subgroup_marker_dotplot.png)', '',
                     '功能命名附加到新的逐细胞文件`functional_subgroup_cell_annotations.csv.gz`，保留原群编号、原RNA候选注释和PGAM5检出状态。历史概览、稳定性与统计表保留编号便于追溯；本次两张PGAM5表达UMAP使用功能名称显示，坐标、表达值和原群成员不因名称变化而改变。', '']
+        position=lines.index('## PGAM5连续表达量UMAP')
+        lines[position:position]=section
+    merged_path=R/'PGAM5_merged_annotation_validation.json'
+    if merged_path.exists():
+        merged=json.loads(merged_path.read_text())
+        section=['## 将PGAM5 RNA检出细胞统一标为一个表达群', '',
+                 f'按原始PGAM5计数>0，把各原群中的{merged["merged_PGAM5_RNA_detected_group_cells"]}个检出细胞统一赋予`Macrophage_PGAM5_RNA_detected`显示标签。其余{merged["PGAM5_RNA_undetected_cells"]}个细胞保留未检出状态。此操作是**表达标签合并**，不是重新运行无监督聚类；保留原UMAP坐标、原群编号、功能名称和混合RNA标记。', '',
+                 '![PGAM5统一表达标签群](PGAM5_RNA_detected_merged_group_UMAP.png)', '',
+                 '![保留其余细胞功能名称的PGAM5统一表达标签群](PGAM5_merged_group_functional_background_UMAP.png)', '',
+                 f'红色细胞使用同一个标签，但仍分布于{merged["origin_RNA_clusters_with_detected_cells"]}个原群的UMAP区域。目前已有的不使用PGAM5的多基因聚类证据不支持将全部868个检出细胞作为一个独立亚群。若以PGAM5检出标签强制改变UMAP几何位置，图上聚集将由这个指定标签造成，不能用它反过来证明亚群独立性；本次未采用这样的绘图方式。', '',
+                 '`PGAM5_merged_group_cell_annotations.csv.gz`保留全部细胞原始注释，并新增`merged_PGAM5_RNA_group`（检出/未检出）和`merged_display_annotation`（所有检出细胞用统一标签，其余沿用功能名称）。它可用于合并表达群展示或探索性PGAM5检出/未检出对比，标签合并不会验证TCGA反卷积参考。原推定巨噬细胞集合中已有混合RNA群的身份不确定性继续保留。', '']
         position=lines.index('## PGAM5连续表达量UMAP')
         lines[position:position]=section
     (R/'README.md').write_text('\n'.join(lines))

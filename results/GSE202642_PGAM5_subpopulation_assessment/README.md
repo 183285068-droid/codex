@@ -60,6 +60,18 @@ C0、C1、C2也有肝源/肿瘤RNA背景；C1仅121细胞且文库复杂度低�
 
 功能命名附加到新的逐细胞文件`functional_subgroup_cell_annotations.csv.gz`，保留原群编号、原RNA候选注释和PGAM5检出状态。历史概览、稳定性与统计表保留编号便于追溯；本次两张PGAM5表达UMAP使用功能名称显示，坐标、表达值和原群成员不因名称变化而改变。
 
+## 将PGAM5 RNA检出细胞统一标为一个表达群
+
+按原始PGAM5计数>0，把各原群中的868个检出细胞统一赋予`Macrophage_PGAM5_RNA_detected`显示标签。其余11267个细胞保留未检出状态。此操作是**表达标签合并**，不是重新运行无监督聚类；保留原UMAP坐标、原群编号、功能名称和混合RNA标记。
+
+![PGAM5统一表达标签群](PGAM5_RNA_detected_merged_group_UMAP.png)
+
+![保留其余细胞功能名称的PGAM5统一表达标签群](PGAM5_merged_group_functional_background_UMAP.png)
+
+红色细胞使用同一个标签，但仍分布于14个原群的UMAP区域。目前已有的不使用PGAM5的多基因聚类证据不支持将全部868个检出细胞作为一个独立亚群。若以PGAM5检出标签强制改变UMAP几何位置，图上聚集将由这个指定标签造成，不能用它反过来证明亚群独立性；本次未采用这样的绘图方式。
+
+`PGAM5_merged_group_cell_annotations.csv.gz`保留全部细胞原始注释，并新增`merged_PGAM5_RNA_group`（检出/未检出）和`merged_display_annotation`（所有检出细胞用统一标签，其余沿用功能名称）。它可用于合并表达群展示或探索性PGAM5检出/未检出对比，标签合并不会验证TCGA反卷积参考。原推定巨噬细胞集合中已有混合RNA群的身份不确定性继续保留。
+
 ## PGAM5连续表达量UMAP
 
 在原有UMAP坐标上叠加PGAM5的连续表达量，图中原C0–C14编号已替换为“两个标志基因＋功能相关RNA程序”的名称，并用引线指向原群中心。灰色为原始计数0的未检出细胞；黄至红表示每个细胞的`log1p(CP10k)`表达量升高。CP10k以原始全基因文库总计数为分母，不用下载包内部分基因计数的行和作为分母。保留全部零值，不做表达插补、平滑或分位数截断，色阶覆盖完整观察范围；非零细胞按表达量升序绘制于灰色背景之上。
@@ -130,6 +142,8 @@ C0、C1、C2也有肝源/肿瘤RNA背景；C1仅121细胞且文库复杂度低�
 - `functional_subgroup_names.csv`、`functional_subgroup_marker_evidence.csv`、`functional_subgroup_naming_validation.json`：15群编号/中英文功能名称对照、30个命名基因的表达证据及复核。
 - `functional_subgroup_cell_annotations.csv.gz`：全部12135细胞的功能名称、原编号、PGAM5状态及混合RNA标记，可按cell_id回填。
 - `functional_subgroup_marker_dotplot.png/.pdf`、`functional_subgroup_marker_dotplot_values.csv`：巨噬细胞身份、PGAM5和命名标志的36基因点图及540个实际绘图值。
+- `PGAM5_RNA_detected_merged_group_UMAP.png/.pdf`、`PGAM5_merged_group_functional_background_UMAP.png/.pdf`：PGAM5 RNA检出细胞统一为一个显示标签的UMAP，分别以灰色或功能亚群颜色显示未检出细胞。
+- `PGAM5_merged_group_cell_annotations.csv.gz`、`PGAM5_merged_group_origin_summary.csv`、`PGAM5_merged_annotation_validation.json`：统一表达群逐细胞标签、原功能群来源与复核。
 - `candidate_cluster_descriptive_markers.csv`、`candidate_RNA_annotation_gene_panel.csv`：候选群表达标志和身份/锚点/程序基因。
 - `cluster_PGAM5_association.csv`、`cluster_PGAM5_by_sample.csv`：主及两个分辨率所有群、七位患者完整结果。
 - `cluster_marker_patient_consistency.csv`、`cluster_marker_directions_by_patient.csv`：前10标志在患者内的描述性表达方向。
@@ -151,6 +165,7 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 NUMBA_NUM_THREADS=2 python plot_assessm
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python name_functional_subgroups.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_expression_umap.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_functional_subgroup_markers.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_merged_annotation.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python audit_results.py
 python write_report.py
 ```

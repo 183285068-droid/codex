@@ -5,11 +5,14 @@
     "macrophage_cycling_marker_dotplot.png",
     "PGAM5_expression_UMAP.png",
     "PGAM5_cluster_mean_expression_UMAP.png",
-    "functional_subgroup_marker_dotplot.png"
+    "functional_subgroup_marker_dotplot.png",
+    "PGAM5_RNA_detected_merged_group_UMAP.png",
+    "PGAM5_merged_group_functional_background_UMAP.png"
   ],
   "checks": "Actual cells, gene dot sizes/means, p/q and patient counts checked against raw data; titles and captions preserve RNA-level interpretation and seven-patient user definition. Corrected overview legend overlap and re-inspected final output.",
   "PDF_export": "Same source figures exported as vector PDF; separate PDF render not claimed.",
   "not_claimed": "UMAP separation alone or technical resampling does not establish an independent biological lineage or calibrated cell abundance.",
   "PGAM5_continuous_expression_UMAP_checks": "Visually inspected both PNGs: continuous colorbar, grey zeros, C0\u2013C14 labels, captions and legend readable without overlap. Single-cell values match raw counts and full-library normalization; cluster means include zeros and use a separately labeled scale. Existing UMAP coordinates unchanged. PDF exports use the same source figures; separate PDF rendering not claimed.",
-  "functional_name_plot_checks": "Both named expression UMAPs and naming-marker dot plot visually inspected; margin callouts preserve all 15 names, labels and color scales readable, identity/mixed RNA markers displayed. Moved UMAP2 axis caption clear of leader lines. Full names and original IDs remain in mapping/annotation tables. PGAM5 values, coordinates and cluster memberships match prior committed figures exactly. PDF exports use same figures; separate PDF render not claimed."
+  "functional_name_plot_checks": "Both named expression UMAPs and naming-marker dot plot visually inspected; margin callouts preserve all 15 names, labels and color scales readable, identity/mixed RNA markers displayed. Moved UMAP2 axis caption clear of leader lines. Full names and original IDs remain in mapping/annotation tables. PGAM5 values, coordinates and cluster memberships match prior committed figures exactly. PDF exports use same figures; separate PDF render not claimed.",
+  "merged_PGAM5_annotation_plot_checks": "Both merged-label PNGs visually inspected; 868 detected cells share the red label, 11267 undetected cells remain grey or retain functional names, legends and captions readable. Plotting script verifies raw PGAM5 detection and ID alignment, preserves saved coordinates, and explicitly distinguishes annotation merge from unsupervised clustering. Same figures exported to PDF; separate PDF rendering not claimed."
 }
