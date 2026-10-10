@@ -30,6 +30,18 @@ Fisher/BH是合并细胞层面的描述性检验，同一患者的细胞不构�
 
 ![分群与PGAM5检出分布](PGAM5_subpopulation_overview.png)
 
+## PGAM5连续表达量UMAP
+
+在原有UMAP坐标上叠加PGAM5的连续表达量，并标注C0–C14算法群编号。灰色为原始计数0的未检出细胞；黄至红表示每个细胞的`log1p(CP10k)`表达量升高。CP10k以原始全基因文库总计数为分母，不用下载包内部分基因计数的行和作为分母。保留全部零值，不做表达插补、平滑或分位数截断，色阶覆盖完整观察范围；非零细胞按表达量升序绘制于灰色背景之上。
+
+![PGAM5逐细胞连续表达量](PGAM5_expression_UMAP.png)
+
+另提供各群均值图：先对每个细胞计算`log1p(CP10k)`，再对群内所有细胞（包括零值）取算术平均，将这一群均值赋给该群所有UMAP点。它便于比较群间平均表达强弱，不能据此认为每个着色细胞都检出了PGAM5。两图各有自己的色阶范围，应读取各自色条；均值图不是`log1p(群内平均CP10k)`。C1的121个细胞均未检出PGAM5，显示为灰色。
+
+![PGAM5各群平均表达量](PGAM5_cluster_mean_expression_UMAP.png)
+
+这两张表达图复用原坐标和原分群，未重新聚类或重新计算UMAP。`PGAM5_expression_by_cluster.csv`同时提供各群细胞数、检出率、包含零值的平均CP10k及平均log1p(CP10k)。`PGAM5_UMAP_expression_values.csv.gz`保存逐细胞实际绘图值和坐标。
+
 ## 七位患者的候选群证据
 
 | 患者标签 | C7细胞 | C7内PGAM5检出 | 群内检出率 | 其余巨噬细胞检出率 | 可评估 |
@@ -83,6 +95,8 @@ Fisher/BH是合并细胞层面的描述性检验，同一患者的细胞不构�
 ## 下载与复现
 
 - `RNA_subgroup_cell_annotation.csv.gz`：可按cell_id回填Seurat/AnnData的完整逐细胞注释。
+- `PGAM5_expression_UMAP.png/.pdf`、`PGAM5_cluster_mean_expression_UMAP.png/.pdf`：逐细胞连续表达和各群平均表达图；PNG用于浏览，PDF用于论文排版。
+- `PGAM5_expression_by_cluster.csv`、`PGAM5_UMAP_expression_values.csv.gz`、`PGAM5_expression_UMAP_validation.json`：表达汇总、绘图数值及原始计数/归一化/坐标复核。
 - `candidate_cluster_descriptive_markers.csv`、`candidate_RNA_annotation_gene_panel.csv`：候选群表达标志和身份/锚点/程序基因。
 - `cluster_PGAM5_association.csv`、`cluster_PGAM5_by_sample.csv`：主及两个分辨率所有群、七位患者完整结果。
 - `cluster_marker_patient_consistency.csv`、`cluster_marker_directions_by_patient.csv`：前10标志在患者内的描述性表达方向。
@@ -101,6 +115,7 @@ python -m pip install -r requirements.txt
 python verify_package.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python check_patient_marker_consistency.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 NUMBA_NUM_THREADS=2 python plot_assessment.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python plot_PGAM5_expression_umap.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python audit_results.py
 python write_report.py
 ```

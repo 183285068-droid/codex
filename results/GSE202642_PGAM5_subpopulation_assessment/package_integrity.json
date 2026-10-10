@@ -1,9 +1,9 @@
 {
   "archive": "GSE202642_PGAM5_subpopulation_assessment_results.zip",
-  "bytes": 17028265,
-  "MiB": 16.239418983459473,
-  "sha256": "c3419f9a29cbf65ae92cf669786bb47431fc9ffbfc0ed7b7195c90c1411cf739",
-  "payload_files": 57,
-  "archive_members": 58,
+  "bytes": 19446543,
+  "MiB": 18.545668601989746,
+  "sha256": "5620a66b3813c7fa06871d40782a59b5c20f39b32f24e28f565c01b59ea2b87c",
+  "payload_files": 65,
+  "archive_members": 66,
   "CRC_and_all_payload_SHA256_verified": true
 }

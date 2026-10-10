@@ -1,0 +1,34 @@
+{
+  "dataset": "GSE202642",
+  "macrophages": 12135,
+  "PGAM5_detected": 868,
+  "PGAM5_undetected": 11267,
+  "RNA_clusters": 15,
+  "patient_count": 7,
+  "UMAP_coordinate_SHA256_before_and_after": "9073bf3221f01b7e5b0d67965660abe2572cb6afc70752c3d9bd89e6a00d23e1",
+  "UMAP_recomputed": false,
+  "one_to_one_cell_ID_join_passed": true,
+  "raw_PGAM5_matches_portable_matrix": true,
+  "normalization": "raw PGAM5 / original full-library total_counts * 10000",
+  "plotted_single_cell_value": "natural log1p(CP10k)",
+  "maximum_abs_difference_vs_stored_CP10k": 3.6801541547504257e-07,
+  "single_cell_color_range": [
+    0.0,
+    2.58891156723466
+  ],
+  "cluster_mean_color_range": [
+    0.0,
+    0.12034769664773433
+  ],
+  "cluster_mean": "arithmetic mean of per-cell log1p(CP10k), including all zeros",
+  "single_cell_zero_color": "#C9CDD2",
+  "positive_cells_drawn_after_zero_cells_in_ascending_expression_order": true,
+  "expression_clipping": false,
+  "imputation": false,
+  "smoothing": false,
+  "existing_cluster_mean_CP10k_agreement_passed": true,
+  "cluster_weighted_mean_agreement_passed": true,
+  "highest_mean_CP10k_cluster": "C7",
+  "highest_mean_log1p_CP10k_cluster": "C14",
+  "checks_passed": true
+}

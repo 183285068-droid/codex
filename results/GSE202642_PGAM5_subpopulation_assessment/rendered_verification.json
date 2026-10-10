@@ -2,9 +2,12 @@
   "PNG_figures_visually_inspected": [
     "PGAM5_subpopulation_overview.png",
     "candidate_patient_consistency.png",
-    "macrophage_cycling_marker_dotplot.png"
+    "macrophage_cycling_marker_dotplot.png",
+    "PGAM5_expression_UMAP.png",
+    "PGAM5_cluster_mean_expression_UMAP.png"
   ],
   "checks": "Actual cells, gene dot sizes/means, p/q and patient counts checked against raw data; titles and captions preserve RNA-level interpretation and seven-patient user definition. Corrected overview legend overlap and re-inspected final output.",
   "PDF_export": "Same source figures exported as vector PDF; separate PDF render not claimed.",
-  "not_claimed": "UMAP separation alone or technical resampling does not establish an independent biological lineage or calibrated cell abundance."
+  "not_claimed": "UMAP separation alone or technical resampling does not establish an independent biological lineage or calibrated cell abundance.",
+  "PGAM5_continuous_expression_UMAP_checks": "Visually inspected both PNGs: continuous colorbar, grey zeros, C0\u2013C14 labels, captions and legend readable without overlap. Single-cell values match raw counts and full-library normalization; cluster means include zeros and use a separately labeled scale. Existing UMAP coordinates unchanged. PDF exports use the same source figures; separate PDF rendering not claimed."
 }
