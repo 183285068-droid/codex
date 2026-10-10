@@ -1,0 +1,3 @@
+scenario,min_rho,median_rho,min_top50_Jaccard,median_top50_Jaccard,genes_significant_ge4_seeds,genes_significant_all5,no_KO_controls_pass,all_tensor_converged,passes_prespecified_stability
+precision_only,0.32800691555862915,0.6066482180658748,0.13636363636363635,0.20481927710843373,0,0,True,True,False
+ensemble,0.3845124624499834,0.6216826994145331,0.25,0.36060718252499074,21,14,True,True,False

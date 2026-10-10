@@ -1,0 +1,55 @@
+START precision_only 202642
+make_networks  processing time:  4.96833186799995
+manifold_alignment  processing time:  5.313699287000418
+d_regulation  processing time:  0.06546100599916826
+{'scenario': 'precision_only', 'seed': 202642, 'significant_genes': 27, 'outgoing_edges': 1049, 'outgoing_max_weight': 0.010833, 'tensor_converged': True, 'tensor_iterations': 40, 'seconds': 15.301368951797485}
+START precision_only 42
+make_networks  processing time:  3.7649355810008274
+manifold_alignment  processing time:  10.29053660200043
+d_regulation  processing time:  0.03111681400150701
+{'scenario': 'precision_only', 'seed': 42, 'significant_genes': 25, 'outgoing_edges': 1190, 'outgoing_max_weight': 0.000631, 'tensor_converged': True, 'tensor_iterations': 8, 'seconds': 16.092249155044556}
+START precision_only 101
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+make_networks  processing time:  4.178700690999904
+manifold_alignment  processing time:  6.463038066000081
+d_regulation  processing time:  0.05959249799889221
+{'scenario': 'precision_only', 'seed': 101, 'significant_genes': 0, 'outgoing_edges': 0, 'outgoing_max_weight': 0.0, 'tensor_converged': True, 'tensor_iterations': 12, 'seconds': 12.8427734375}
+START precision_only 202
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+make_networks  processing time:  4.014887475999785
+manifold_alignment  processing time:  4.86202691699873
+d_regulation  processing time:  0.03235412600042764
+{'scenario': 'precision_only', 'seed': 202, 'significant_genes': 0, 'outgoing_edges': 271, 'outgoing_max_weight': 7e-06, 'tensor_converged': True, 'tensor_iterations': 7, 'seconds': 10.48253870010376}
+START precision_only 303
+make_networks  processing time:  3.8051481550010067
+manifold_alignment  processing time:  7.636226620001253
+d_regulation  processing time:  0.06903453300037654
+{'scenario': 'precision_only', 'seed': 303, 'significant_genes': 28, 'outgoing_edges': 1390, 'outgoing_max_weight': 0.022606, 'tensor_converged': True, 'tensor_iterations': 5, 'seconds': 13.118093729019165}
+START ensemble 202642
+make_networks  processing time:  12.619831109999723
+manifold_alignment  processing time:  4.421292072000142
+d_regulation  processing time:  0.06129016500017315
+{'scenario': 'ensemble', 'seed': 202642, 'significant_genes': 27, 'outgoing_edges': 1384, 'outgoing_max_weight': 0.006788, 'tensor_converged': True, 'tensor_iterations': 188, 'seconds': 71.41639590263367}
+START ensemble 42
+make_networks  processing time:  14.23836172099982
+manifold_alignment  processing time:  19.744193083000937
+d_regulation  processing time:  0.04263308000008692
+{'scenario': 'ensemble', 'seed': 42, 'significant_genes': 26, 'outgoing_edges': 1395, 'outgoing_max_weight': 0.004508, 'tensor_converged': True, 'tensor_iterations': 130, 'seconds': 124.3728415966034}
+START ensemble 101
+make_networks  processing time:  25.702135606999946
+manifold_alignment  processing time:  3.7267415709993656
+d_regulation  processing time:  0.03848634600035439
+{'scenario': 'ensemble', 'seed': 101, 'significant_genes': 24, 'outgoing_edges': 1388, 'outgoing_max_weight': 0.007411, 'tensor_converged': True, 'tensor_iterations': 159, 'seconds': 87.07115483283997}
+START ensemble 202
+make_networks  processing time:  12.10136052999951
+manifold_alignment  processing time:  4.808016589000545
+d_regulation  processing time:  0.033315066999421106
+{'scenario': 'ensemble', 'seed': 202, 'significant_genes': 26, 'outgoing_edges': 1442, 'outgoing_max_weight': 0.01076, 'tensor_converged': True, 'tensor_iterations': 377, 'seconds': 125.57160711288452}
+START ensemble 303
+make_networks  processing time:  12.507365460998699
+manifold_alignment  processing time:  6.192352402000324
+d_regulation  processing time:  0.02642639199984842
+{'scenario': 'ensemble', 'seed': 303, 'significant_genes': 28, 'outgoing_edges': 1423, 'outgoing_max_weight': 0.008201, 'tensor_converged': True, 'tensor_iterations': 195, 'seconds': 69.10002613067627}
+ALL DONE

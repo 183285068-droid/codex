@@ -1,0 +1,66 @@
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/GSE202642_C7_PGAM5_virtual_KO_v2/audit.py:14: Pandas4Warning: Starting with pandas version 4.0 all arguments of median will be keyword-only.
+  distance=pd.DataFrame({str(k):v.Distance.reindex(genes) for k,v in results.items()});q=pd.DataFrame({str(k):v['adjusted p-value'].reindex(genes) for k,v in results.items()});frequency=q.lt(.05).sum(1);consensus=pd.DataFrame({'gene':genes,'significant_seed_count':frequency,'median_distance':distance.median(1),'median_model_q':q.median(1),'worst_model_q':q.max(1)});consensus['median_rank']=distance.rank(ascending=False).median(1);consensus=consensus.sort_values(['significant_seed_count','median_rank'],ascending=[False,True]);consensus.to_csv(R/(scenario+'_consensus.csv'),index=False)
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+/workspace/scratch/pgam5-venv/lib/python3.12/site-packages/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  5.761419155000112
+d_regulation  processing time:  0.09360438700059603
+manifold_alignment  processing time:  4.895368565001263
+d_regulation  processing time:  0.0498937840002327
+manifold_alignment  processing time:  4.403624726999624
+d_regulation  processing time:  0.02415165300044464
+manifold_alignment  processing time:  6.11122764799984
+d_regulation  processing time:  0.0256553739982337
+manifold_alignment  processing time:  6.1707478240005
+d_regulation  processing time:  0.02534919099889521
+[
+  {
+    "scenario": "precision_only",
+    "min_rho": 0.32800691555862915,
+    "median_rho": 0.6066482180658748,
+    "min_top50_Jaccard": 0.13636363636363635,
+    "median_top50_Jaccard": 0.20481927710843373,
+    "genes_significant_ge4_seeds": 0,
+    "genes_significant_all5": 0,
+    "no_KO_controls_pass": true,
+    "all_tensor_converged": true,
+    "passes_prespecified_stability": false
+  },
+  {
+    "scenario": "ensemble",
+    "min_rho": 0.3845124624499834,
+    "median_rho": 0.6216826994145331,
+    "min_top50_Jaccard": 0.25,
+    "median_top50_Jaccard": 0.36060718252499074,
+    "genes_significant_ge4_seeds": 21,
+    "genes_significant_all5": 14,
+    "no_KO_controls_pass": true,
+    "all_tensor_converged": true,
+    "passes_prespecified_stability": false
+  }
+]

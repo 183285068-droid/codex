@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "precision_only",
+    "min_rho": 0.32800691555862915,
+    "median_rho": 0.6066482180658748,
+    "min_top50_Jaccard": 0.13636363636363635,
+    "median_top50_Jaccard": 0.20481927710843373,
+    "genes_significant_ge4_seeds": 0,
+    "genes_significant_all5": 0,
+    "no_KO_controls_pass": true,
+    "all_tensor_converged": true,
+    "passes_prespecified_stability": false
+  },
+  {
+    "scenario": "ensemble",
+    "min_rho": 0.3845124624499834,
+    "median_rho": 0.6216826994145331,
+    "min_top50_Jaccard": 0.25,
+    "median_top50_Jaccard": 0.36060718252499074,
+    "genes_significant_ge4_seeds": 21,
+    "genes_significant_all5": 14,
+    "no_KO_controls_pass": true,
+    "all_tensor_converged": true,
+    "passes_prespecified_stability": false
+  }
+]

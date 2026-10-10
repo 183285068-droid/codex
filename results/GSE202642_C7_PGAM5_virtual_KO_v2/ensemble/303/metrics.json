@@ -1,0 +1,10 @@
+{
+  "scenario": "ensemble",
+  "seed": 303,
+  "significant_genes": 28,
+  "outgoing_edges": 1423,
+  "outgoing_max_weight": 0.008201,
+  "tensor_converged": true,
+  "tensor_iterations": 195,
+  "seconds": 69.10002613067627
+}

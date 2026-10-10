@@ -1,0 +1,10 @@
+{
+  "exact_target_cells": 403,
+  "exact_PGAM5_detected": 79,
+  "network_genes": 1501,
+  "run_count": 10,
+  "no_KO_control_count": 10,
+  "no_KO_all_zero_significant": true,
+  "WT_and_statistics_finite": true,
+  "cross_configuration_recurrent_genes": 0
+}

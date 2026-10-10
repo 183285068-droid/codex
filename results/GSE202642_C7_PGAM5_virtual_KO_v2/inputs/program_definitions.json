@@ -1,0 +1,153 @@
+{
+  "IFN_gamma_response": [
+    "PGAM5",
+    "STAT1",
+    "IRF1",
+    "GBP1",
+    "GBP2",
+    "GBP5",
+    "SOCS1",
+    "IDO1"
+  ],
+  "T_cell_recruitment": [
+    "PGAM5",
+    "CXCL9",
+    "CXCL10",
+    "CXCL11",
+    "CCL5"
+  ],
+  "Type1_effector_support": [
+    "PGAM5",
+    "IL12A",
+    "IL12B",
+    "IL18",
+    "CD40",
+    "IL15"
+  ],
+  "MHC_II_presentation": [
+    "PGAM5",
+    "HLA-DRA",
+    "HLA-DRB1",
+    "HLA-DPA1",
+    "HLA-DPB1",
+    "HLA-DQA1",
+    "HLA-DQB1",
+    "CD74",
+    "CIITA",
+    "CTSS"
+  ],
+  "MHC_I_processing": [
+    "PGAM5",
+    "HLA-A",
+    "HLA-B",
+    "HLA-C",
+    "B2M",
+    "TAP1",
+    "TAP2",
+    "PSMB8",
+    "PSMB9",
+    "NLRC5"
+  ],
+  "Inhibitory_signaling_RNA": [
+    "PGAM5",
+    "IL10",
+    "TGFB1",
+    "CD274",
+    "PDCD1LG2",
+    "IDO1",
+    "LGALS9",
+    "VSIR"
+  ],
+  "Lipid_associated_TAM": [
+    "PGAM5",
+    "SPP1",
+    "TREM2",
+    "APOE",
+    "APOC1",
+    "LPL",
+    "LGALS3",
+    "GPNMB",
+    "CD9",
+    "CTSB"
+  ],
+  "Matrix_remodeling": [
+    "PGAM5",
+    "SPP1",
+    "MMP9",
+    "MMP12",
+    "CTSB",
+    "CTSL",
+    "PLAUR",
+    "FN1",
+    "TIMP1"
+  ],
+  "Inflammatory_NFkB": [
+    "PGAM5",
+    "IL1B",
+    "TNF",
+    "NFKBIA",
+    "NFKBIZ",
+    "TNFAIP3",
+    "PTGS2",
+    "CCL3",
+    "CCL4"
+  ],
+  "Neutrophil_recruitment": [
+    "PGAM5",
+    "CXCL1",
+    "CXCL2",
+    "CXCL3",
+    "CXCL5",
+    "CXCL8"
+  ],
+  "Oxidative_stress_response": [
+    "PGAM5",
+    "HMOX1",
+    "NQO1",
+    "TXNRD1",
+    "GCLM",
+    "SOD2",
+    "SRXN1"
+  ],
+  "Proliferation": [
+    "PGAM5",
+    "MKI67",
+    "TOP2A",
+    "CENPF",
+    "CDK1",
+    "TYMS",
+    "RRM2",
+    "PCLAF",
+    "BIRC5"
+  ],
+  "Heat_shock_proteostasis": [
+    "PGAM5",
+    "HSP90AA1",
+    "HSP90AB1",
+    "HSPA1A",
+    "HSPA1B",
+    "HSPA5",
+    "HSPA8",
+    "DNAJB1",
+    "HSPH1",
+    "HSPB1",
+    "HSPD1",
+    "BAG3",
+    "PPP1R15A"
+  ],
+  "Immediate_response": [
+    "PGAM5",
+    "FOS",
+    "FOSB",
+    "JUN",
+    "JUNB",
+    "DUSP1",
+    "NR4A1",
+    "NR4A2",
+    "ATF3",
+    "NFKBIA",
+    "EGR1",
+    "IER2",
+    "IER3"
+  ]
+}

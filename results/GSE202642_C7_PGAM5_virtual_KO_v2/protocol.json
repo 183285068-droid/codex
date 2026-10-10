@@ -1,0 +1,40 @@
+{
+  "cells": 403,
+  "PGAM5_detected": 79,
+  "genes": 1501,
+  "seeds": [
+    202642,
+    42,
+    101,
+    202,
+    303
+  ],
+  "criteria": {
+    "minimum_pairwise_distance_rho": 0.8,
+    "minimum_pairwise_top50_Jaccard": 0.5,
+    "candidate_FDR_frequency": "at least 4 of 5 seeds",
+    "no_KO_significant": 0
+  },
+  "precision_only": {
+    "n_nets": 10,
+    "rank": 5,
+    "q": 0.95,
+    "n_decimal": 6,
+    "tol": 1e-05
+  },
+  "ensemble": {
+    "n_nets": 30,
+    "rank": 10,
+    "q": 0.95,
+    "n_decimal": 6,
+    "tol": 1e-07,
+    "max_iter": 2000
+  },
+  "normalization": "CPM original full-library totals, same fixed1501 genes as previous run",
+  "network": {
+    "n_samp_cells": 300,
+    "replace": true,
+    "n_comp": 3
+  },
+  "alignment_dimensions": 30
+}

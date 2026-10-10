@@ -1,0 +1,15 @@
+program,tested_non_target_genes,recurrent_hits,p_value,genes,BH_q
+Heat_shock_proteostasis,10,7,4.072187046686446e-12,BAG3;DNAJB1;HSP90AA1;HSPB1;HSPD1;HSPH1;PPP1R15A,5.701061865361025e-11
+Immediate_response,12,7,2.6436493721215525e-11,ATF3;DUSP1;FOS;FOSB;JUN;NFKBIA;NR4A2,1.8505545604850868e-10
+Matrix_remodeling,5,1,0.06815563775370893,PLAUR,0.23854473213798127
+Oxidative_stress_response,5,1,0.06815563775370893,SOD2,0.23854473213798127
+Inflammatory_NFkB,8,1,0.1069005446150357,NFKBIA,0.29932152492209996
+IFN_gamma_response,4,0,1.0,,1.0
+Type1_effector_support,1,0,1.0,,1.0
+T_cell_recruitment,4,0,1.0,,1.0
+Lipid_associated_TAM,4,0,1.0,,1.0
+Inhibitory_signaling_RNA,1,0,1.0,,1.0
+MHC_I_processing,1,0,1.0,,1.0
+MHC_II_presentation,2,0,1.0,,1.0
+Proliferation,1,0,1.0,,1.0
+Neutrophil_recruitment,4,0,1.0,,1.0

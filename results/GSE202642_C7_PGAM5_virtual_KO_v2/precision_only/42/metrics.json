@@ -1,0 +1,10 @@
+{
+  "scenario": "precision_only",
+  "seed": 42,
+  "significant_genes": 25,
+  "outgoing_edges": 1190,
+  "outgoing_max_weight": 0.000631,
+  "tensor_converged": true,
+  "tensor_iterations": 8,
+  "seconds": 16.092249155044556
+}
