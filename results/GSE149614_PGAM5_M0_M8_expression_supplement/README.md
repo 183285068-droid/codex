@@ -4,6 +4,16 @@
 
 [标注表达数值的UMAP（PNG）](PGAM5_M0_M8_abundance_labeled_UMAP.png) · [PDF](PGAM5_M0_M8_abundance_labeled_UMAP.pdf) · [精确CSV](PGAM5_M0_M8_expression_summary.csv) · [下载补充结果包](GSE149614_PGAM5_M0_M8_expression_supplement.zip)
 
+## 按GSE202642模板补充
+
+新增[群平均表达UMAP（模板样式）](PGAM5_cluster_mean_expression_UMAP_template_style.png) · [PDF](PGAM5_cluster_mean_expression_UMAP_template_style.pdf)，以及[逐细胞表达UMAP（同样式）](PGAM5_expression_UMAP_template_style.png) · [PDF](PGAM5_expression_UMAP_template_style.pdf)。采用黄色至深红色渐变、两侧的编号/标志基因/功能名称引线和底部水平色标，与用户提供的GSE202642图一致。
+
+模板群均值图使用**每个细胞log1p(CP10k)的算术平均值（保留零值）**，与先对群平均CP10k取log1p是不同的汇总方法。M1群平均log1p(CP10k)=0.0686，为本轮最高；原始平均CP10k=0.1070仍保留在统计表中。色阶覆盖本数据的完整观察范围，两个数据集各自设定色阶，不能仅凭颜色深浅比较跨数据集的绝对表达量。图中每个点的群均值着色表示所在群的汇总值；逐细胞图则按该细胞表达值着色，未检出为灰色。
+
+运行`python plot_template_style.py`可重绘这两张模板样式图。坐标及9群名称沿用此前GSE149614结果；核查记录见[template_style_verification.json](template_style_verification.json)。
+
+## 群表达数值
+
 两幅UMAP均标注M0–M8编号、标志基因及功能程序名称。左图按每群平均PGAM5 CP10k着色并标注均值；右图按每群RNA检出率着色并标注百分比。图中每个点的颜色代表所在群的汇总值。平均表达保留所有零值，CP10k = PGAM5原始计数 / 完整转录组文库总计数 × 10,000。RNA检出定义为PGAM5原始计数>0。
 
 | 群 | 暂定RNA名称 | 细胞数 | 平均PGAM5 CP10k（含零） | 检出率（检出/总数） |

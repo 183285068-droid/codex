@@ -3,7 +3,7 @@
     {
       "path": "PGAM5_M0_M8_abundance_labeled_UMAP.pdf",
       "bytes": 582072,
-      "sha256": "f547b13ccd181ecaab6f07600cfa7ba16111d69dfedbf6afbf10e9898697e43d"
+      "sha256": "0f423723956d95ada03cdb3b7e8c787a4b372d9158862fd901e4419c5dbf498a"
     },
     {
       "path": "PGAM5_M0_M8_abundance_labeled_UMAP.png",
@@ -16,9 +16,29 @@
       "sha256": "879ec35cd1e5bc7e2cb76a241feeeaef784a1e8fce39b7490b40f904a3f7c087"
     },
     {
+      "path": "PGAM5_cluster_mean_expression_UMAP_template_style.pdf",
+      "bytes": 354801,
+      "sha256": "bd13e0e00155cab07ecf661b07bdfbc4d51cb81bca13d07354fade8c3aba0872"
+    },
+    {
+      "path": "PGAM5_cluster_mean_expression_UMAP_template_style.png",
+      "bytes": 985826,
+      "sha256": "bd4849e3876c40388f68d98449dee561c922069c3e56765cd0bc3a2665a4c158"
+    },
+    {
+      "path": "PGAM5_expression_UMAP_template_style.pdf",
+      "bytes": 341501,
+      "sha256": "a962e3e8c1cf2997638d4776358b76ae1a9cc051a90b221114b3876bc97ef10d"
+    },
+    {
+      "path": "PGAM5_expression_UMAP_template_style.png",
+      "bytes": 907538,
+      "sha256": "6f067ec176bb3c76c50dc2fb7120f185001d86d611ea75249f39d8f8af7be397"
+    },
+    {
       "path": "README.md",
-      "bytes": 2825,
-      "sha256": "e899871e30919b8d4b2878058cf42da50e7daa5b2a9bb0e007e817c74af8be11"
+      "bytes": 4060,
+      "sha256": "44165ce2b84d77f999e0e1a31c02e856408a12299136df37c4ee974e1ab35e96"
     },
     {
       "path": "inputs/cell_expression_coordinates.csv.gz",
@@ -37,8 +57,13 @@
     },
     {
       "path": "plot_expression.py",
-      "bytes": 7071,
-      "sha256": "dbf40f2ba97e8b4d1e42338b0798256bc09ed751462874a3337a8e6681d0eb36"
+      "bytes": 8306,
+      "sha256": "858ec0941941a3acb59149cdf969a7da7ca9893dab5ee957f81f1b52d668586f"
+    },
+    {
+      "path": "plot_template_style.py",
+      "bytes": 6526,
+      "sha256": "e55a0cab8faae5a6b95342c2ca5ff8f4e4f90ea1190b04ddb6237b01a0d3e094"
     },
     {
       "path": "prepare_inputs.py",
@@ -54,6 +79,11 @@
       "path": "source_provenance.json",
       "bytes": 678,
       "sha256": "90414633b479ee1ce75a653e2a35cc4f97e93a17560e2fa0331ebd63c2a49c03"
+    },
+    {
+      "path": "template_style_verification.json",
+      "bytes": 719,
+      "sha256": "d92d6fc6302d3c4035602e2a4b4ef3ab9e1b1165205b4a311a10b50e8c276695"
     },
     {
       "path": "verification.json",

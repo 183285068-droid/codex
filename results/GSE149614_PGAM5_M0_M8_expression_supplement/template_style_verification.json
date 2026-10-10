@@ -1,0 +1,22 @@
+{
+  "dataset": "GSE149614",
+  "style_reference": "GSE202642 PGAM5 group means supplied by user",
+  "cells": 5605,
+  "PGAM5_detected": 136,
+  "clusters_labeled": 9,
+  "UMAP_recomputed": false,
+  "input_sha256_before_and_after": "068e7ce434dc5b9cbec3fd9282eacd1c58747f2c3e0698ed92c26eeccba95a2c",
+  "group_mean": "Arithmetic mean of per-cell natural log1p(CP10k), including all zeros",
+  "group_means_match_previous_statistics": true,
+  "weighted_mean_matches_all_cells": true,
+  "group_mean_color_range": [
+    0,
+    0.06861420560803558
+  ],
+  "per_cell_color_range": [
+    0,
+    2.268564009881454
+  ],
+  "colormap": "YlOrRd, near-white portion trimmed (.20-1); full expression range",
+  "expression_clipping": false
+}
