@@ -1,0 +1,2 @@
+gene,median_distance,Q1_distance,Q3_distance,significant_seeds,min_model_q,max_model_q,is_forced_KO_target
+PGAM5,4.978740391834085e-06,4.798949918830852e-06,6.178757431871059e-06,5,0.0,0.0,True

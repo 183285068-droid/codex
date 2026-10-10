@@ -1,0 +1,7 @@
+{
+  "genes": 20,
+  "seeds": 5,
+  "ranking": "median unsigned Distance",
+  "uncertainty": "Q1 to Q3 across seeds, not confidence interval",
+  "PGAM5_retained_separately": true
+}
