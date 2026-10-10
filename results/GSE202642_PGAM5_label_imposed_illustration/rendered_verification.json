@@ -1,0 +1,5 @@
+{
+  "PNG_visually_inspected": "original_UMAP_vs_label_imposed_schematic.png",
+  "visual_checks": "868 red cells in both panels, 11267 grey cells; both legends readable. Left panel labeled saved expression-derived UMAP; right panel labeled NOT UMAP, with arbitrary axes and an artificial disk. Caption explicitly excludes subtype/deconvolution validation.",
+  "PDF_export": "Same figure exported to PDF; independent PDF rendering not claimed."
+}

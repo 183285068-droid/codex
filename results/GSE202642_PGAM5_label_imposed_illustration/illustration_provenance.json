@@ -1,0 +1,17 @@
+{
+  "dataset": "GSE202642",
+  "source_file": "PGAM5_merged_group_cell_annotations.csv.gz",
+  "source_SHA256": "1ad5a9416a7a5b058de16370c9bf61c34f5499b7331c2f588c916c5cdf15ac57",
+  "cells": 12135,
+  "PGAM5_RNA_detected_cells": 868,
+  "PGAM5_RNA_undetected_cells": 11267,
+  "original_RNA_clusters_with_PGAM5_detection": 14,
+  "left_panel": "Unchanged saved expression-derived UMAP coordinates",
+  "right_panel": "Arbitrary label-imposed schematic, NOT UMAP or supervised UMAP",
+  "positive_position_rule": "Sunflower disk in cell-ID order; no expression features or distances",
+  "undetected_position_rule": "Saved UMAP uniformly scaled and translated to a separate illustration region",
+  "no_new_UMAP_or_clustering_model_fitted": true,
+  "all_source_cells_and_original_annotations_retained": true,
+  "source_file_unchanged": true,
+  "independent_subtype_or_deconvolution_validity_established": false
+}

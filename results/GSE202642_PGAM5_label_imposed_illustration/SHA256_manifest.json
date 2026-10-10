@@ -1,0 +1,37 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 1969,
+    "SHA256": "8535aa7df199ffb4ddf41e3c033cf699eabf9dc92580da301583d297d4e0a643"
+  },
+  {
+    "file": "illustration_provenance.json",
+    "bytes": 902,
+    "SHA256": "5978f4821f00a598b5d64a162f33fa1c7996c061d4f4efb101909b46bc136949"
+  },
+  {
+    "file": "original_UMAP_vs_label_imposed_schematic.pdf",
+    "bytes": 416501,
+    "SHA256": "7e82a7abc977c40cb4928817586f4fca73a28e7e005729e4c17faa277f383f2d"
+  },
+  {
+    "file": "original_UMAP_vs_label_imposed_schematic.png",
+    "bytes": 912361,
+    "SHA256": "d7d0bbe678ee549a46d8edff1263c5ffe46d504748d3762665d7ba3ffba74df1"
+  },
+  {
+    "file": "plot_label_imposed_illustration.py",
+    "bytes": 6283,
+    "SHA256": "cf69aaafcd6ec1d30e418a36ada87d1d64b3a555ba28342e9560ddd796a75ca5"
+  },
+  {
+    "file": "rendered_verification.json",
+    "bytes": 445,
+    "SHA256": "267b4a222d9cac83f7e9e01b519630fc8d7f21b0bcd305e18f6787e78612aca1"
+  },
+  {
+    "file": "schematic_coordinates_NOT_UMAP.csv.gz",
+    "bytes": 468685,
+    "SHA256": "ee0934b50bf7411a6e01032cf1dec0bb082069db2513ef1a0847804268540d24"
+  }
+]
