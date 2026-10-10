@@ -1,0 +1,29 @@
+{
+  "source_hashes_unchanged": true,
+  "all_points_verified": [
+    {
+      "dataset_version": "allcell_C0_C20",
+      "cells": 56719,
+      "points": 903,
+      "raw_detection_fraction_agreement": true,
+      "full_library_log_normalization_agreement": true,
+      "maximum_abs_mean_difference": 8.881784197001252e-16
+    },
+    {
+      "dataset_version": "macrophage_M0_M8",
+      "cells": 11536,
+      "points": 216,
+      "raw_detection_fraction_agreement": true,
+      "full_library_log_normalization_agreement": true,
+      "maximum_abs_mean_difference": 8.881784197001252e-16
+    },
+    {
+      "dataset_version": "macrophage_C0_C14_legacy",
+      "cells": 12135,
+      "points": 540,
+      "raw_detection_fraction_agreement": true,
+      "full_library_log_normalization_agreement": true,
+      "maximum_abs_mean_difference": 5.773159728050814e-15
+    }
+  ]
+}

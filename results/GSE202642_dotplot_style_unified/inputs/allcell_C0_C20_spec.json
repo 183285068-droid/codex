@@ -1,0 +1,106 @@
+{
+  "labels": {
+    "0": "C0 FOLR2/CD163 macrophages",
+    "1": "C1 CD1C/FCER1A DC-like myeloid",
+    "2": "C2 C1QA/C1QB macrophages",
+    "3": "C3 FCN1/VCAN monocytes",
+    "4": "C4 FOXP3/CTLA4 Treg",
+    "5": "C5 GZMH/NKG7 cytotoxic T",
+    "6": "C6 AOX1/TSPAN8 hepatocyte-like",
+    "7": "C7 APOC3/APOA2 hepatocyte-like",
+    "8": "C8 CYP3A5/PCK1 hepatocyte-like",
+    "9": "C9 FGFBP2/GNLY NK",
+    "10": "C10 MKI67/TOP2A cycling mixed",
+    "11": "C11 IL7R/LTB T cells",
+    "12": "C12 KDR/PLVAP endothelial",
+    "13": "C13 SEMA3G/GJA5 endothelial",
+    "14": "C14 RGS5/ACTA2 mural cells",
+    "15": "C15 MS4A1/CD79A B-plasma lineage",
+    "16": "C16 MT1G/TREM2 macrophages",
+    "17": "C17 XCL1/GZMK NK",
+    "18": "C18 FCGR3B/CXCR2 neutrophils",
+    "19": "C19 C1QC/NKG7 Mac-T/NK mixed",
+    "20": "C20 MAGEA1/GLS2 hepatocyte-like"
+  },
+  "panels": {
+    "T_cell": [
+      "CD3D",
+      "CD3E",
+      "TRAC",
+      "IL7R",
+      "CD8A",
+      "FOXP3"
+    ],
+    "NK": [
+      "NKG7",
+      "GNLY"
+    ],
+    "B_cell": [
+      "MS4A1",
+      "CD79A"
+    ],
+    "Plasma": [
+      "MZB1",
+      "JCHAIN"
+    ],
+    "Macrophage": [
+      "C1QA",
+      "C1QB",
+      "CSF1R",
+      "CD68",
+      "LST1"
+    ],
+    "Monocyte": [
+      "FCN1",
+      "S100A8",
+      "CD14"
+    ],
+    "cDC": [
+      "CD1C",
+      "FCER1A",
+      "CLEC9A"
+    ],
+    "Migratory_DC": [
+      "LAMP3"
+    ],
+    "pDC": [
+      "IL3RA",
+      "TCF4"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "DCN"
+    ],
+    "Mural": [
+      "RGS5",
+      "ACTA2"
+    ],
+    "Hepatocyte_like": [
+      "ALB",
+      "APOA1",
+      "TTR"
+    ],
+    "Epithelial": [
+      "EPCAM",
+      "KRT19"
+    ],
+    "Mast": [
+      "TPSAB1",
+      "KIT"
+    ],
+    "Neutrophil": [
+      "FCGR3B",
+      "CSF3R"
+    ],
+    "Cycling": [
+      "MKI67",
+      "TOP2A"
+    ]
+  },
+  "groups": 21,
+  "genes": 43
+}

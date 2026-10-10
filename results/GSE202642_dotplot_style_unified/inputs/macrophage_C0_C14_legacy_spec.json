@@ -1,0 +1,65 @@
+{
+  "labels": {
+    "0": "C0 SPP1/HLA-DRB5 | MHC-II / SPP1-high",
+    "1": "C1 NUPR1/AMBP | Low-complexity / mixed",
+    "2": "C2 DNASE1L3/SPIC | Resident-like / mixed",
+    "3": "C3 CD5L/HLA-DQA2 | Antigen presentation",
+    "4": "C4 SPP1/MMP12 | Matrix remodeling",
+    "5": "C5 COL4A1/CDH5 | Endothelial-RNA mixed",
+    "6": "C6 LPL/STAB1 | Lipid handling",
+    "7": "C7 MKI67/TOP2A | Cycling",
+    "8": "C8 NKG7/TRBC2 | T/NK-RNA mixed",
+    "9": "C9 CCL2/CCL8 | Chemokine-associated",
+    "10": "C10 S100A8/FCGR3B | Granulocyte-RNA mixed",
+    "11": "C11 MT1G/MT2A | Metal response",
+    "12": "C12 CXCL2/NR4A2 | Early inflammatory response",
+    "13": "C13 IL1B/CXCL8 | Inflammatory",
+    "14": "C14 PCK1/CYP3A5 | Hepatocyte-RNA mixed"
+  },
+  "panels": {
+    "Macrophage_identity": [
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CSF1R",
+      "MSR1"
+    ],
+    "PGAM5": [
+      "PGAM5"
+    ],
+    "Naming_markers": [
+      "SPP1",
+      "HLA-DRB5",
+      "NUPR1",
+      "AMBP",
+      "DNASE1L3",
+      "SPIC",
+      "CD5L",
+      "HLA-DQA2",
+      "MMP12",
+      "COL4A1",
+      "CDH5",
+      "LPL",
+      "STAB1",
+      "MKI67",
+      "TOP2A",
+      "NKG7",
+      "TRBC2",
+      "CCL2",
+      "CCL8",
+      "S100A8",
+      "FCGR3B",
+      "MT1G",
+      "MT2A",
+      "CXCL2",
+      "NR4A2",
+      "IL1B",
+      "CXCL8",
+      "PCK1",
+      "CYP3A5"
+    ]
+  },
+  "groups": 15,
+  "genes": 36
+}

@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "GSE202642_HCC_allcell_annotation/cluster_annotations.csv": "22b1e9f4093df9ffafafb151baf0fe30d790c1a80752af9385e1f3929c350f87",
+    "GSE202642_HCC_allcell_annotation/cluster_marker_evidence.csv": "d2daf2ef2748eadbf8474bcc969616df846213eac4f3abca0789a4a65babeeef",
+    "GSE202642_macrophage_reclustering/macrophages_marker_subset.h5ad": "e074d1ff91ddde07e765459637e855d09d0676bc67dfc596c8c76ad60576f7bd",
+    "GSE202642_macrophage_reclustering/names.json": "e1f3ea197d615b2e74adf999b0af9006152d83ce351cfbbd7e8e4d35f10e21f2",
+    "GSE202642_PGAM5_subpopulation_assessment/functional_subgroup_names.csv": "8421042fbdfec91bdd6bdfe17d5ca81f34c94ebcae5cc51ee88d0e41d620dac4",
+    "GSE202642_PGAM5_subpopulation_assessment/functional_subgroup_marker_dotplot_values.csv": "1b9d9aa2e21a96038938d927b367f5b961421b66c0040cab99d6fad153f7388f"
+  },
+  "reclustering": false,
+  "all_original_gene_sets_retained": true
+}

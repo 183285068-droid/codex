@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3608,
+      "sha256": "896645c59caea7be279f54e40198ed4d220a29b75b548c5574e90bcb64b6cd9b"
+    },
+    {
+      "path": "allcell_C0_C20_marker_dotplot.pdf",
+      "bytes": 167588,
+      "sha256": "3973d34232cf3999186976ab64257153b33e13f3ccca5db6d716bf79be2461b2"
+    },
+    {
+      "path": "allcell_C0_C20_marker_dotplot.png",
+      "bytes": 497188,
+      "sha256": "132f12de4e7f24b6660f3080a9c8fe460010ca44600dec60e9eee612932f0688"
+    },
+    {
+      "path": "allcell_C0_C20_named_dotplot.pdf",
+      "bytes": 168887,
+      "sha256": "0d70161281e2cbf0b37a4e6346749a9512a62725f12827884e2e08af17279e79"
+    },
+    {
+      "path": "allcell_C0_C20_named_dotplot.png",
+      "bytes": 657117,
+      "sha256": "3b634e43c42072fe4693c36d8441d8fe0db1a3f6aeb386354be46160bea6540e"
+    },
+    {
+      "path": "allcell_C0_C20_plot_values.csv",
+      "bytes": 61344,
+      "sha256": "5cdaa23b5962ec1a3a42017f9621a97906f0f6acd1cedf26dda438f677f080ab"
+    },
+    {
+      "path": "audit_plot_values.py",
+      "bytes": 2757,
+      "sha256": "9677a2a979ef199dd024c44324207f51a4d0558ec9b6f76d674bec961e44e244"
+    },
+    {
+      "path": "independent_value_audit.json",
+      "bytes": 867,
+      "sha256": "491aad3fd5bb529982f2c79099e336b3f7a804d481584c21369263398b1d9b0b"
+    },
+    {
+      "path": "inputs/allcell_C0_C20_spec.json",
+      "bytes": 1920,
+      "sha256": "e94414981839a2ae69416b13e5500a692204109ad655a984f3558d47eca626aa"
+    },
+    {
+      "path": "inputs/allcell_C0_C20_values.csv",
+      "bytes": 44697,
+      "sha256": "76e4af74b26f012c54bcae54d581d571f452f1b17af895b2a81824c4fed2d10e"
+    },
+    {
+      "path": "inputs/macrophage_C0_C14_legacy_spec.json",
+      "bytes": 1416,
+      "sha256": "35bb56bdb1ec70fdf0cdad56fc61098fb6bf6f910b7503f107ecfdc44c37c340"
+    },
+    {
+      "path": "inputs/macrophage_C0_C14_legacy_values.csv",
+      "bytes": 26368,
+      "sha256": "1948937db9c448f44dd43408f77bbf5506fa1e527ebb39a1346d5ee5d6200f30"
+    },
+    {
+      "path": "inputs/macrophage_M0_M8_spec.json",
+      "bytes": 888,
+      "sha256": "9d62c654dccfb65de4ac041cdc08e959baef451597dca06db6daeb7addd728de"
+    },
+    {
+      "path": "inputs/macrophage_M0_M8_values.csv",
+      "bytes": 11229,
+      "sha256": "e146c4f3358390f9b8f65357e2d50402ec8d57b95ac0f5c6f3791f294e33bb45"
+    },
+    {
+      "path": "macrophage_C0_C14_legacy_named_dotplot.pdf",
+      "bytes": 113828,
+      "sha256": "28068f028d30ac7a9c7255aeea77c28c0ca3a1038c219eb1ce30b7aaa466b075"
+    },
+    {
+      "path": "macrophage_C0_C14_legacy_named_dotplot.png",
+      "bytes": 625548,
+      "sha256": "c1e532a496168e9b2b07feec24deb8f0d91428b7b6125e9522bae9effb6a6e03"
+    },
+    {
+      "path": "macrophage_C0_C14_legacy_plot_values.csv",
+      "bytes": 35833,
+      "sha256": "2aea06ba32447173a77a25c2abd36665fd469c3e07f8a7610d5a48b61149792d"
+    },
+    {
+      "path": "macrophage_M0_M8_named_dotplot.pdf",
+      "bytes": 58486,
+      "sha256": "c0ad21626621ff0101a4aafe5c8882f504bb4a5b459a0601fd440169cdfc8a10"
+    },
+    {
+      "path": "macrophage_M0_M8_named_dotplot.png",
+      "bytes": 352947,
+      "sha256": "ed0b7c014589c6b68fa3e9905ae9519a6725c5d89248a34b4aa6db838f2e30dd"
+    },
+    {
+      "path": "macrophage_M0_M8_plot_values.csv",
+      "bytes": 14449,
+      "sha256": "adf2994dd59a628a0c340c874f0e5b57ca9414647bdcc0a41303811e3a8b6aea"
+    },
+    {
+      "path": "plot_dotplots.py",
+      "bytes": 3963,
+      "sha256": "3b88b6213aa515599450604779f6048f87d2a1fe11fb5321d24fc56ebb04611c"
+    },
+    {
+      "path": "prepare_inputs.py",
+      "bytes": 4302,
+      "sha256": "c85a0ba73a33c7f2416ee501be578a98802d7a2d65e71f8e27b8f182fbe8dda8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 77,
+      "sha256": "2f66745fbe50ed39431e04afafab261b8a1b4a33c81dbec9d022e34242c22112"
+    },
+    {
+      "path": "source_provenance.json",
+      "bytes": 932,
+      "sha256": "a0723a070e44646a29103dbcae45223d76621b74721c9a135ed5025d6cdd4de2"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1266,
+      "sha256": "3c97f75d295356b135bbbc201aebe381d394915447b54db090cf772bae957085"
+    }
+  ]
+}

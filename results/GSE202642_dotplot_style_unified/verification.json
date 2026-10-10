@@ -1,0 +1,41 @@
+{
+  "plots": [
+    {
+      "file": "allcell_C0_C20_marker_dotplot",
+      "groups": 21,
+      "genes": 43,
+      "all_group_labels_displayed": true,
+      "plot_values_match_source": true,
+      "size_and_color_legends_present": true
+    },
+    {
+      "file": "allcell_C0_C20_named_dotplot",
+      "groups": 21,
+      "genes": 43,
+      "all_group_labels_displayed": true,
+      "plot_values_match_source": true,
+      "size_and_color_legends_present": true
+    },
+    {
+      "file": "macrophage_M0_M8_named_dotplot",
+      "groups": 9,
+      "genes": 24,
+      "all_group_labels_displayed": true,
+      "plot_values_match_source": true,
+      "size_and_color_legends_present": true
+    },
+    {
+      "file": "macrophage_C0_C14_legacy_named_dotplot",
+      "groups": 15,
+      "genes": 36,
+      "all_group_labels_displayed": true,
+      "plot_values_match_source": true,
+      "size_and_color_legends_present": true
+    }
+  ],
+  "source_data_unchanged": true,
+  "all_zeros_included_in_means": true,
+  "color": "Reds; per-gene min-max of all-cell mean natural log1p(CP10k)",
+  "dot_size": "Scanpy default area mapping of detection fraction; fixed 0-100% range",
+  "layout": "Same Scanpy DotPlot as GSE151530/GSE149614; vertical gene labels, right-hand legends"
+}
