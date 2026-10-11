@@ -1,0 +1,5 @@
+{
+  "passed_checks": 38,
+  "unit": "unique mixed-cell source spot within each region",
+  "checks": "unique IDs, original expression formula, zero retention, lineage gates, adjacency counts, source deduplication and partition sizes"
+}
