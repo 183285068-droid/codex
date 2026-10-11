@@ -1,0 +1,3 @@
+sample,QC_spots,mac_enriched_spots,PGAM5_detected_mac_spots,PGAM5_high_mac_spots,PGAM5_other_detected_mac_spots,PGAM5_undetected_mac_spots,PGAM5_high_cutoff_log1p_CP10k,mac_program_Q75_cutoff,myeloid_Q50_cutoff,T_program_Q75_cutoff,T_enriched_spots,T_activation_supported,T_exhaustion_supported,T_effector_supported,directed_mac_T_edges,high_sources_with_T_neighbors
+CHC20,2259,431,147,37,110,284,0.5023926049470901,0.6701148631317275,0.7550032138824461,0.102223618576924,453,9,4,41,750,27
+CHC23,1934,307,67,17,50,240,0.4669964909553528,0.4080837666988373,0.1741533353924751,0.04834408685564995,205,6,11,36,323,8

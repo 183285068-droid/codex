@@ -1,0 +1,7 @@
+sample,kind,n_eligible_sources,n_high,n_other_detected,n_strata,movable_sources,distinct_null_assignments,configuration_space,null_rows,mode
+CHC20,T_coverage,147,37,110,18,105,4999,3292047360000,4999,Monte_Carlo_conditional_permutation
+CHC20,T_programs,116,27,89,18,63,4997,49140000,4999,Monte_Carlo_conditional_permutation
+CHC20,LR,116,27,89,18,63,4999,49140000,4999,Monte_Carlo_conditional_permutation
+CHC23,T_coverage,67,17,50,16,27,4731,44100,4999,Monte_Carlo_conditional_permutation
+CHC23,T_programs,38,8,30,16,10,30,30,30,exact_conditional_enumeration
+CHC23,LR,38,8,30,16,10,30,30,30,exact_conditional_enumeration

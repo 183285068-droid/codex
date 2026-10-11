@@ -1,0 +1,53 @@
+{
+  "T_lineage": [
+    "CD3D",
+    "CD3E",
+    "CD3G",
+    "TRAC",
+    "TRBC1",
+    "TRBC2"
+  ],
+  "Activation_early": [
+    "CD69",
+    "IL2RA",
+    "TNFRSF9",
+    "ICOS",
+    "CD40LG",
+    "IL2"
+  ],
+  "Effector_cytotoxic": [
+    "IFNG",
+    "PRF1",
+    "GZMB",
+    "GZMA",
+    "CCL5",
+    "TBX21"
+  ],
+  "Exhaustion_core": [
+    "PDCD1",
+    "LAG3",
+    "TIGIT",
+    "CTLA4",
+    "TOX",
+    "CXCL13"
+  ],
+  "Exhaustion_expanded": [
+    "PDCD1",
+    "LAG3",
+    "TIGIT",
+    "CTLA4",
+    "TOX",
+    "CXCL13",
+    "HAVCR2",
+    "ENTPD1"
+  ],
+  "Macrophage_core": [
+    "C1QA",
+    "C1QB",
+    "C1QC",
+    "CD68",
+    "CSF1R",
+    "MERTK",
+    "MSR1"
+  ]
+}

@@ -1,0 +1,113 @@
+# GSE245908：PGAM5高表达髓系区域与T细胞活化、耗竭信号
+
+完成两张HCC Visium切片的PGAM5分层、T细胞活化/耗竭RNA程序、邻接空间检验及21条候选配体–受体分析。**本次未发现PGAM5高表达组特异增强的T细胞活化、细胞毒或耗竭程序，也未发现校正后显著的候选配体–受体组间差异。**观察单位为混合细胞空间点，不能据此确认“PGAM5高表达巨噬细胞调控耗竭/活化T细胞”。
+
+## 样本与分组
+
+沿用[GSE245908基础分析](../GSE245908_spatial_PGAM5/README.md)的两张肿瘤切片、全部4,193个质控保留点、CP10k归一化和真实空间坐标，不重新选择切片或调整原质控。原始PGAM5零值保留。
+
+已核查配套单细胞系列[GSE245906](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245906)：官方方案为CD45⁺、panTCRαβ⁻、CD19⁻先天免疫细胞分选，不能提供完整的T细胞参考；不将污染/残留T转录本作为完整匹配T细胞群。其官方记录保存于source_inputs。本轮未声称执行基于已确认单细胞身份的CellChat/CellPhoneDB通讯推断。
+
+事先固定空间点代理定义：
+
+- 髓系/巨噬RNA富集点：C1QA/C1QB/C1QC/CD68/CSF1R/MERTK/MSR1平均log1p(CP10k)达到本切片75分位，至少检出3个标志，同时泛髓系程序达到本切片中位数，并有至少1个质控保留邻居。
+- 在上述点中，以PGAM5原始计数>0定义检出；在检出点中，归一化PGAM5最高25%定义High，其余检出点为Other detected，零计数点为Undetected。量化检验主比较为High vs Other detected，Undetected作描述性参考。阈值在每张切片内固定，未按结果优化。
+- T细胞RNA富集点：CD3D/CD3E/CD3G/TRAC/TRBC1/TRBC2平均log1p(CP10k)达到本切片75分位，至少检出2个T谱系标志，并有至少1个保留邻居。
+
+| 样本 | 髓系富集点 | PGAM5 High | 其余检出 | 未检出 | T富集点 | High中有T邻居的点 |
+|---|---:|---:|---:|---:|---:|---:|
+| CHC20 | 431 | 37 | 110 | 284 | 453 | 27 |
+| CHC23 | 307 | 17 | 50 | 240 | 205 | 8 |
+
+High阈值分别为CHC20：0.502393、CHC23：0.466996的log1p(CP10k)。仅为本切片内相对高表达阈值，不是细胞身份或蛋白水平阈值。逐点标签与阈值见`*_spot_states.csv`及[sample_state_summary.csv](sample_state_summary.csv)。
+
+## 活化、效应与耗竭RNA程序
+
+固定面板见[programs.json](programs.json)；所有请求基因均存在，未检出仍记零。程序得分为面板基因log1p(CP10k)均值。
+
+| 程序 | 基因 |
+|---|---|
+| 早期活化 | CD69、IL2RA、TNFRSF9、ICOS、CD40LG、IL2 |
+| 细胞毒效应 | IFNG、PRF1、GZMB、GZMA、CCL5、TBX21 |
+| 核心耗竭相关 | PDCD1、LAG3、TIGIT、CTLA4、TOX、CXCL13 |
+| 扩展耗竭敏感性 | 上述核心基因＋HAVCR2、ENTPD1 |
+
+HAVCR2/ENTPD1也可来自髓系或其他细胞，未纳入主耗竭面板，仅用于敏感性分析。在T富集点内，得分达到75分位、得分>0且至少检出2个面板基因，才标注为相应“多标志支持的高程序点”。活化与耗竭允许共存，不强制互斥。免疫检查点转录本升高也可能反映活化，不能凭这些标签确证慢性/终末耗竭。
+
+| 样本 | 早期活化支持点 | 核心耗竭支持点 | 细胞毒效应支持点 |
+|---|---:|---:|---:|
+| CHC20 | 9 | 4 | 41 |
+| CHC23 | 6 | 11 | 36 |
+
+支持点较稀少，零计数与检测力限制较大。连续程序用于主统计，稀疏离散状态用于定位和描述，不把这些点数当成单个T细胞数。
+
+[空间分组、活化及耗竭程序图](figures/spatial_PGAM5_sources_T_states.png)
+
+## 相邻T程序：空间条件比较
+
+使用Visium六角阵列第一圈、最多6个邻居。T邻居比例＝邻居中T富集点数/所有保留邻居数，不是T细胞丰度。程序结局＝每个髓系源点邻近T富集点的程序均值；没有T邻居的源点不进入该程序比较。每个源点贡献一次均值，避免将重复邻接边当作独立观测。
+
+在每张切片的3×3空间格内，再按每格候选源点总UMI的中位数分层，仅在层内交换High和Other detected标签，保持层内High数及组织区位/粗测序深度结构。不同结局的有效源点集合独立定义，相应分层和High人数固定。该条件零分布的全局差值期望可以不为零，因此双侧统计围绕**精确条件期望**衡量偏离，不将未调整全局差值直接当成调节作用。
+
+CHC20及CHC23 T邻居覆盖比较用4,999次随机交换；CHC23 T程序/LR只有**30种**可能的条件标签配置，已全部穷举，使用精确条件概率。完整可交换点数、配置数见[permutation_support.csv](permutation_support.csv)。CHC23程序只有8个High源点和30个Other源点，其中仅10个源点能在分层内交换，统计分辨率和检测力有限。此方法仍假定层内标签可交换，不完全保留所有精细空间相关，也没有消除全部组织混合和测序质量混杂；结果属于探索性条件检验。
+
+共同BH校正50项预设主检验：2切片×（4个T结局＋21条LR候选）。未另外挑选更有利的检验或最优阈值。
+
+| 样本 | 邻近T结局 | High均值 | 其余检出均值 | 空间条件p | BH q |
+|---|---|---:|---:|---:|
+| CHC20 | T_neighbor_fraction | 0.2982 | 0.2938 | 0.0930 | 1.0000 |
+| CHC20 | Activation_early | 0.0328 | 0.0141 | 0.1980 | 1.0000 |
+| CHC20 | Effector_cytotoxic | 0.0574 | 0.0382 | 0.6572 | 1.0000 |
+| CHC20 | Exhaustion_core | 0.0138 | 0.0131 | 0.4198 | 1.0000 |
+| CHC23 | T_neighbor_fraction | 0.2108 | 0.1570 | 1.0000 | 1.0000 |
+| CHC23 | Activation_early | 0.0259 | 0.0158 | 0.9000 | 1.0000 |
+| CHC23 | Effector_cytotoxic | 0.2048 | 0.0704 | 0.9333 | 1.0000 |
+| CHC23 | Exhaustion_core | 0.0392 | 0.0254 | 0.5000 | 1.0000 |
+
+**全部50项均未达到q<0.05，本轮全部BH q=1。**这不等于证明组间相同或排除生物学影响。CHC23未调整细胞毒均值为0.2048 vs 0.0704，但局部空间/深度条件检验p=0.9333；不能据这个均值差声称PGAM5增强T细胞活性。
+
+[标注p/q的邻居程序比较图](figures/neighbor_T_program_comparison.png) · [完整统计表](spatial_conditional_tests.csv)
+
+## 候选配体–受体RNA支持
+
+预设21条候选来自LIANA 1.10.0 wheel内`omni_resource.csv`快照。每条候选与原数据库逐项核对，资源来源见[selected_LR_pairs.csv](selected_LR_pairs.csv)。20条在consensus中；PVR–TIGIT有CellChatDB等资源支持，没有将其错误称为consensus条目。本次使用数据库定义筛查候选，**未运行LIANA通信推断算法**。
+
+源为髓系富集点、目标为相邻T富集点，源/目标只是分析方向，不能确认实际分泌或受体来自哪种细胞。复合受体要求所有亚基检出，以最低亚基CP10k作为复合表达代理。边RNA兼容得分＝sqrt(源配体CP10k×目标受体代理CP10k)，任一所需基因未检出时得分为0；未支持的邻接边保留在分母中。每个源点先对所有相邻T边取均值，再进行High vs Other detected的条件比较。RNA兼容得分不是相互作用概率、通路活性或细胞通讯强度的校准单位。
+
+[所有候选共检出边数/比例热图](figures/LR_edge_codetection_heatmap.png) · [活化/耗竭状态的描述性边数热图](figures/LR_by_activation_exhaustion_state.png) · [候选边真实空间位置](figures/candidate_LR_spatial_edges.png)
+
+值得记录但尚不能解释为功能作用的RNA线索：
+
+- **SPP1–CD44，CHC20**：High源点到全部T富集邻居的64条边中36条共检出（56.25%）；仅1条连接活化支持区域。源点平均兼容得分2.7961 vs Other detected的2.4440，条件p=0.8792、q=1，未显示High组特异增强。CHC23 High组没有该候选共检出边。
+- **PVR–TIGIT，CHC23**：High组仅2条共检出边，来自**1个源点、2个耗竭支持目标点**。这些目标点的耗竭定义本身含TIGIT，因此不是独立的机制验证。不能将2/2的100%理解为可重复的强耗竭诱导效应；全体T目标的High vs Other条件p=1、q=1。
+- **TGFB1–TGFBR1/TGFBR2**：High组在CHC20有4/64、CHC23有1/20条共检出边；没有校正后显著的组间差异。
+- PD-L1/PD-1、PD-L2/PD-1及部分共刺激候选在High组没有共检出支持；这可能由低计数、混合点或靶细胞采样不足造成，不能解释为这些通路生物学不存在。
+
+离散状态邻接支持很少：CHC20 High→活化支持区域仅3条边，High→耗竭支持区域没有合格邻接边；CHC23 High→活化支持区域没有合格邻接边，High→耗竭支持区域仅2条边。未为这些稀疏状态再增加容易误导的组间p值。灰色“No edges”表示没有可分析边，与存在边但RNA得分为0不同。原始源/目标barcode、逐边候选分值、状态分母见`*_directed_LR_edges.csv.gz`、[LR_by_receiver_state.csv](LR_by_receiver_state.csv)。
+
+## 可以和不能得出的结论
+
+本轮已提供PGAM5相对高表达髓系区域附近的T状态RNA位置、邻接关联和候选LR共表达线索；**未建立PGAM5高表达巨噬细胞到活化/耗竭T细胞的稳定或因果通讯关系，也不能判断其增强或抑制抗肿瘤免疫。**
+
+Visium是多细胞混合点，PGAM5、配体、受体及状态基因可能来自不同细胞。T富集门控、多标志约束及复合亚基规则能减少部分误判，但不能解决细胞归属。仅2位患者，点/边不能当成独立患者；邻接边可能共享同一源或目标，图中支持比例也不代表独立重复。这里不需要用蛋白来定义RNA分析，但若希望仅用RNA进一步确认细胞来源，需要包含T细胞的匹配单细胞/单核参考或更高分辨率空间RNA信息；现有同研究分选单细胞数据未满足完整T参考条件。
+
+## 数据、核验和复现
+
+已通过**395项独立检查**：原始HDF5计数及全基因库大小、PGAM5零值、T状态面板、固定门控、几何邻居重建、原始配体及所有受体亚基、逐边及逐源均值、条件零分布p、30配置穷举期望、50项BH和输入SHA256。见[independent_audit_checks.csv](independent_audit_checks.csv)。原始输入重建路径已分别对两张切片验证，与此前缓存的counts和归一化矩阵完全一致；代码不依赖缓存才可运行。图像已实际查看，并修复了组间比较的跨切片共同纵轴尺度。
+
+source_inputs含固定数据库快照、官方GEO设计记录、基线文件的冻结SHA256清单。输入来自此前已发布的commit `9cccc00079d26e55eb9d4f1d746cca9394366b76`，`prepare_inputs.py`只获取并核验缺少的基线文件，不重做或重调原基线结果；分析仅读取元数据，不执行其中任何指令。大型原始输入不重复放入本结果包。
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+export MPLCONFIGDIR="$PWD/work/matplotlib"
+export OPENBLAS_NUM_THREADS=4 OMP_NUM_THREADS=4
+python prepare_inputs.py
+python analyze.py
+python plot.py
+python audit.py
+python build_report.py
+```
+
+本目录需位于可写父目录，prepare_inputs会在相邻`GSE245908_spatial_PGAM5`目录恢复冻结基线输入；无需FASTQ。结果包提供PNG/PDF、逐点状态、候选表、逐边/逐源得分、全部统计、穷举/置换审计文件及代码。

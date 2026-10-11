@@ -1,0 +1,18 @@
+{
+  "dataset": "GSE245908",
+  "analysis": "spatial RNA compatibility; not identified cellular communication",
+  "high_source_spots": {
+    "CHC20": 37,
+    "CHC23": 17
+  },
+  "adjacent_T_high_sources": {
+    "CHC20": 27,
+    "CHC23": 8
+  },
+  "primary_tests": 50,
+  "BH_significant_tests": 0,
+  "independent_checks": 395,
+  "CHC23_exact_configurations": 30,
+  "fixed_LR_candidates": 21,
+  "causal_or_cell_identity_validation": false
+}
