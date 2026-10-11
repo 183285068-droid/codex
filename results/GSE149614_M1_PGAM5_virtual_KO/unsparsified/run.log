@@ -1,0 +1,55 @@
+START 149614
+make_networks  processing time:  7.3832749190041795
+NETWORKS DONE 149614
+TENSOR DONE 149614 True 13
+/workspace/codex/results/GSE149614_M1_PGAM5_virtual_KO/unsparsified/vendor/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  2.841180212999461
+d_regulation  processing time:  0.030214425001759082
+manifold_alignment  processing time:  2.933548986002279
+d_regulation  processing time:  0.046031842997763306
+DONE {'seed': 149614, 'significant_downstream_genes': 26, 'WT_PGAM5_outgoing_edges': 1500, 'WT_PGAM5_max_abs_weight': 0.144105, 'tensor_converged': True, 'tensor_iterations': 13, 'tensor_norm_percent': 45.02626412537042, 'numerical_noise_threshold': 1.0296910348253476e-08, 'max_downstream_distance': 2.4038270897767603e-05, 'downstream_above_noise': 1395, 'no_KO_significant': 0, 'max_null_distance': 3.003460388469091e-15, 'seconds': 17.492481470108032}
+START 42
+make_networks  processing time:  8.078720164005063
+NETWORKS DONE 42
+TENSOR DONE 42 True 17
+/workspace/codex/results/GSE149614_M1_PGAM5_virtual_KO/unsparsified/vendor/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  3.7112116090065683
+d_regulation  processing time:  0.021009613999922294
+manifold_alignment  processing time:  3.3875848129973747
+d_regulation  processing time:  0.02924951399472775
+DONE {'seed': 42, 'significant_downstream_genes': 27, 'WT_PGAM5_outgoing_edges': 1500, 'WT_PGAM5_max_abs_weight': 0.138678, 'tensor_converged': True, 'tensor_iterations': 17, 'tensor_norm_percent': 40.68364289398192, 'numerical_noise_threshold': 1.031948119430195e-08, 'max_downstream_distance': 2.206039528308627e-05, 'downstream_above_noise': 1382, 'no_KO_significant': 0, 'max_null_distance': 3.2263662526428354e-15, 'seconds': 19.42289137840271}
+START 101
+make_networks  processing time:  6.403682522002782
+NETWORKS DONE 101
+TENSOR DONE 101 True 28
+/workspace/codex/results/GSE149614_M1_PGAM5_virtual_KO/unsparsified/vendor/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  3.1353788640044513
+d_regulation  processing time:  0.03042734799964819
+manifold_alignment  processing time:  3.25167100699764
+d_regulation  processing time:  0.038967896005488
+DONE {'seed': 101, 'significant_downstream_genes': 27, 'WT_PGAM5_outgoing_edges': 1500, 'WT_PGAM5_max_abs_weight': 0.177623, 'tensor_converged': True, 'tensor_iterations': 28, 'tensor_norm_percent': 41.34802281580563, 'numerical_noise_threshold': 1.0230238078205026e-08, 'max_downstream_distance': 2.7990618612466114e-05, 'downstream_above_noise': 1401, 'no_KO_significant': 0, 'max_null_distance': 3.3165583757261318e-15, 'seconds': 18.722177505493164}
+START 202
+make_networks  processing time:  6.53845071500109
+NETWORKS DONE 202
+TENSOR DONE 202 True 40
+/workspace/codex/results/GSE149614_M1_PGAM5_virtual_KO/unsparsified/vendor/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  3.4874230819987133
+d_regulation  processing time:  0.04922335500305053
+manifold_alignment  processing time:  3.886143584997626
+d_regulation  processing time:  0.020543910999549553
+DONE {'seed': 202, 'significant_downstream_genes': 26, 'WT_PGAM5_outgoing_edges': 1499, 'WT_PGAM5_max_abs_weight': 0.171369, 'tensor_converged': True, 'tensor_iterations': 40, 'tensor_norm_percent': 44.46845382486069, 'numerical_noise_threshold': 1.0397236131213329e-08, 'max_downstream_distance': 2.7269096275097807e-05, 'downstream_above_noise': 1429, 'no_KO_significant': 0, 'max_null_distance': 2.4667222087559198e-15, 'seconds': 22.514033794403076}
+START 303
+make_networks  processing time:  6.363403472001664
+NETWORKS DONE 303
+TENSOR DONE 303 True 20
+/workspace/codex/results/GSE149614_M1_PGAM5_virtual_KO/unsparsified/vendor/scTenifold/core/_networks.py:752: UserWarning: No gene differs between the two conditions beyond numerical noise; all p-values were set to 1
+  warn("No gene differs between the two conditions beyond numerical noise; all p-values were set to 1")
+manifold_alignment  processing time:  3.600270864997583
+d_regulation  processing time:  0.029549086997576524
+manifold_alignment  processing time:  3.960977686998376
+d_regulation  processing time:  0.02880619100324111
+DONE {'seed': 303, 'significant_downstream_genes': 23, 'WT_PGAM5_outgoing_edges': 1500, 'WT_PGAM5_max_abs_weight': 0.147093, 'tensor_converged': True, 'tensor_iterations': 20, 'tensor_norm_percent': 46.83479237978276, 'numerical_noise_threshold': 1.0377695363144927e-08, 'max_downstream_distance': 2.3027233687920663e-05, 'downstream_above_noise': 1400, 'no_KO_significant': 0, 'max_null_distance': 2.8640726541466047e-15, 'seconds': 19.161797761917114}

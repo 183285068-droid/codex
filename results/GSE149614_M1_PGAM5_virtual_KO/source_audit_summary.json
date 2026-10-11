@@ -1,0 +1,12 @@
+{
+  "original_source_hash_matches": true,
+  "all_target_cell_IDs_and_raw_counts_match_source": true,
+  "original_UMAP_coordinates_unchanged": true,
+  "gene_selection_table_matches_input": true,
+  "both_models_use_identical_inputs": true,
+  "runtime_source_snapshots_match_hashes": true,
+  "target_cells": 208,
+  "PGAM5_detected": 19,
+  "PGAM5_zeros": 189,
+  "samples": 10
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 101,
+  "significant_downstream_genes": 28,
+  "WT_PGAM5_outgoing_edges": 1485,
+  "WT_PGAM5_max_abs_weight": 0.034385,
+  "tensor_converged": true,
+  "tensor_iterations": 10,
+  "tensor_norm_percent": 38.489795203149704,
+  "numerical_noise_threshold": 9.879814553460844e-09,
+  "max_downstream_distance": 6.1345650973469375e-06,
+  "downstream_above_noise": 356,
+  "no_KO_significant": 0,
+  "max_null_distance": 2.7057348026322634e-15,
+  "seconds": 21.671898365020752
+}

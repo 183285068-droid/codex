@@ -1,0 +1,3 @@
+model,significant_counts,recurrent_at_least4,recurrent_all5,min_pairwise_rho,min_top50_Jaccard,passes_prespecified_technical_stability
+Sparse q=0.95,"[28, 30, 28, 29, 26]",24,20,0.816640220728987,0.639344262295082,True
+Unfiltered q=0,"[26, 27, 27, 26, 23]",19,15,0.8882186703194092,0.5384615384615384,True

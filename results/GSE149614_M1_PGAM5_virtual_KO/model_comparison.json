@@ -1,0 +1,32 @@
+[
+  {
+    "model": "Sparse q=0.95",
+    "significant_counts": [
+      28,
+      30,
+      28,
+      29,
+      26
+    ],
+    "recurrent_at_least4": 24,
+    "recurrent_all5": 20,
+    "min_pairwise_rho": 0.816640220728987,
+    "min_top50_Jaccard": 0.639344262295082,
+    "passes_prespecified_technical_stability": true
+  },
+  {
+    "model": "Unfiltered q=0",
+    "significant_counts": [
+      26,
+      27,
+      27,
+      26,
+      23
+    ],
+    "recurrent_at_least4": 19,
+    "recurrent_all5": 15,
+    "min_pairwise_rho": 0.8882186703194092,
+    "min_top50_Jaccard": 0.5384615384615384,
+    "passes_prespecified_technical_stability": true
+  }
+]

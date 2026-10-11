@@ -1,0 +1,482 @@
+[
+  {
+    "file": "01_M1_target_and_observed_PGAM5_UMAP.pdf",
+    "bytes": 91273,
+    "SHA256": "946e48011c19c443366661a51222701f4365ff5150041191d0d239d10f277416"
+  },
+  {
+    "file": "01_M1_target_and_observed_PGAM5_UMAP.png",
+    "bytes": 253586,
+    "SHA256": "2caa8c485af609a0436f63add9f0cdcfaaa2a1264ba50099f0f77627e397fb5c"
+  },
+  {
+    "file": "02_M1_sample_representation.pdf",
+    "bytes": 15146,
+    "SHA256": "a8651a301027d690b8402429304a5cc8b49cc8d4778d8e6018ec05455f87ada6"
+  },
+  {
+    "file": "02_M1_sample_representation.png",
+    "bytes": 48911,
+    "SHA256": "4bc3d106845dec445c7fca9d90763ded49f4fd5d9b38eaa31e0aeddc2e54868a"
+  },
+  {
+    "file": "03_PGAM5_virtual_KO_TOP20.pdf",
+    "bytes": 26037,
+    "SHA256": "be4d433c898a12521c2904ca3216859dfe174808dccf99eef4eba5689ca622da"
+  },
+  {
+    "file": "03_PGAM5_virtual_KO_TOP20.png",
+    "bytes": 148827,
+    "SHA256": "e1e5168fd39626e41cb98e4833deb09caee4019ba5b3367337ba7ab09812e010"
+  },
+  {
+    "file": "04_repetition_stability_and_controls.pdf",
+    "bytes": 20108,
+    "SHA256": "e56acd15afa16b8fc03f6e2c5ec57fc50ed26b7c5d7b90d1d91968d6090f11c5"
+  },
+  {
+    "file": "04_repetition_stability_and_controls.png",
+    "bytes": 110190,
+    "SHA256": "2d86fbaca50da2c1de989b77992da8c137e691b8380ca4bc847afa4c1841f5e8"
+  },
+  {
+    "file": "05_TOP20_cross_seed_heatmap.pdf",
+    "bytes": 29972,
+    "SHA256": "d7b2115e91c1077ed53bbbe915b351c63eb03b77ade58d06b3969b30f3ae38e9"
+  },
+  {
+    "file": "05_TOP20_cross_seed_heatmap.png",
+    "bytes": 139564,
+    "SHA256": "e5c5fe17283ba684874703efc76f8fe94cc39d6273862f6f412c54a8acbaa6f6"
+  },
+  {
+    "file": "PGAM5_forced_target_summary.csv",
+    "bytes": 241,
+    "SHA256": "3babb4eeec359857ff47fb1f7f324cab3ec3fd58950efdaf17f9971b0e96ec95"
+  },
+  {
+    "file": "README.md",
+    "bytes": 708,
+    "SHA256": "e930624c5633047b81cba5209f87d62ccc068899fe6f4d253c7998c5443e65d2"
+  },
+  {
+    "file": "TOP20_downstream_genes.csv",
+    "bytes": 3218,
+    "SHA256": "93403e0170e77d4e369cdc2918cf3eb46c62f75087f5fac4eed1c1fbc9be721a"
+  },
+  {
+    "file": "all_genes_perturbation_summary.csv",
+    "bytes": 144607,
+    "SHA256": "9cd7b4fec8ddee1521448e8bd8cc9bc0cc1db4140202d5b44158019877390dce"
+  },
+  {
+    "file": "audit.py",
+    "bytes": 5428,
+    "SHA256": "33f8e33a6c7ceb4a9f3945cd05493f4c5eb9d189cbaf55e4bbfbea5822ea08d2"
+  },
+  {
+    "file": "audit_summary.json",
+    "bytes": 148,
+    "SHA256": "f5e9b6a07d1b4e31dbbf231621b9b27b2c909e44acca1045a56be2789959a555"
+  },
+  {
+    "file": "downstream_consensus.csv",
+    "bytes": 153910,
+    "SHA256": "d7ec53ce893ae37b65327bc359c97fa3d934c2eb111cb74573602a3817a733dd"
+  },
+  {
+    "file": "independent_audit_checks.csv",
+    "bytes": 2689,
+    "SHA256": "e90e5b6d50b76263f67a7d05bcf5acc814df6d3e7ebebec321272e121b11a949"
+  },
+  {
+    "file": "input_summary.json",
+    "bytes": 976,
+    "SHA256": "b49f262da4da7173415d54efc92b05e5d707f3eb55149c3eefd105793d2d1803"
+  },
+  {
+    "file": "inputs/M1_raw.h5ad",
+    "bytes": 2542844,
+    "SHA256": "49ef4a8ddf09140442a4eb9363eb6e9b43b9f0c4d275316ea453206efbd6bf51"
+  },
+  {
+    "file": "inputs/macrophage_context.csv.gz",
+    "bytes": 118367,
+    "SHA256": "9750a921c7a01c62f67bc33b079878769d7412d3a8058c268c7007f88b6847fb"
+  },
+  {
+    "file": "inputs/network_raw_counts.csv.gz",
+    "bytes": 80223,
+    "SHA256": "7c5a26365312a809332d9d186de918b2f5c74d4e51d0ba3011ab4d859e010a70"
+  },
+  {
+    "file": "inputs/target_cell_metadata.csv.gz",
+    "bytes": 7828,
+    "SHA256": "a6f29ed9898f503a58cfe28ef7789818ef475ad3d60ec5a18a3da7116e4a1e6b"
+  },
+  {
+    "file": "models/101/WT_KO_networks.npz",
+    "bytes": 13049347,
+    "SHA256": "93266922ad119c4d306b61ec96030b92c5fe789530e167b1c805488fdd580f8a"
+  },
+  {
+    "file": "models/101/differential_regulation.csv",
+    "bytes": 166192,
+    "SHA256": "04fc29b4b551aa345ff9f0b1418092322def91c69da8bc610b291a146c1a36fe"
+  },
+  {
+    "file": "models/101/manifold_alignment.csv.gz",
+    "bytes": 871028,
+    "SHA256": "7951d61361888fd40913c86f72ae55be938f02cb27a11d6393effcc87443c44e"
+  },
+  {
+    "file": "models/101/metrics.json",
+    "bytes": 476,
+    "SHA256": "5aa6b4dbebfa761a7e212d0a3f5e6aa1091e3c720706e5bbf71b77a2d362ab1f"
+  },
+  {
+    "file": "models/101/no_KO_control.csv",
+    "bytes": 148332,
+    "SHA256": "abe6084f3802060f5d866fc406446d32715add205b7350ff48f61c2cdc38fb38"
+  },
+  {
+    "file": "models/101/tensor_residuals.npy",
+    "bytes": 352,
+    "SHA256": "801e7a16aa1bae3a481d4a7b45bbd68025bc0e1951f454f2223f4d0d4b2c636e"
+  },
+  {
+    "file": "models/149614/WT_KO_networks.npz",
+    "bytes": 13004853,
+    "SHA256": "587d3a0a14ea0eb6f446abfc35767d28df607ac1677e93acfe0f50eb50eff3c1"
+  },
+  {
+    "file": "models/149614/differential_regulation.csv",
+    "bytes": 166170,
+    "SHA256": "ec058cd96e5309d964fcd7139230a9128c275ea26342c1aa2410fd7617a0c643"
+  },
+  {
+    "file": "models/149614/manifold_alignment.csv.gz",
+    "bytes": 868440,
+    "SHA256": "4d63d2b78c92c573974b256163e80bbb845eb9ffe4acd059e74babd571c70284"
+  },
+  {
+    "file": "models/149614/metrics.json",
+    "bytes": 478,
+    "SHA256": "10a712cf2731345b426b7ddcd7f93646f57235f2b95a63178827edb4941e766c"
+  },
+  {
+    "file": "models/149614/no_KO_control.csv",
+    "bytes": 148960,
+    "SHA256": "24e552599260c1ecbfe517fbcdf77cacaa5e27e82f28c88c2b44a83f4021580c"
+  },
+  {
+    "file": "models/149614/tensor_residuals.npy",
+    "bytes": 232,
+    "SHA256": "6b588280e158fe831805239c0a00a39809818871439324a2ca8c87876d2a5ee5"
+  },
+  {
+    "file": "models/202/WT_KO_networks.npz",
+    "bytes": 13000442,
+    "SHA256": "af3c8f50d7d38923e8a0245536139e49915cdb00d6f459eb058877f86493f932"
+  },
+  {
+    "file": "models/202/differential_regulation.csv",
+    "bytes": 166417,
+    "SHA256": "1599231308f92c4caadc033fe5302192d77bc5d2c4e25370e54db89907f14a23"
+  },
+  {
+    "file": "models/202/manifold_alignment.csv.gz",
+    "bytes": 868791,
+    "SHA256": "a2b1b04931ccc839ec1109106cb479b5c236fad17e0be94750d675e83c4e6291"
+  },
+  {
+    "file": "models/202/metrics.json",
+    "bytes": 476,
+    "SHA256": "de3f0c8a84391525110166139a38cc310372cb0eece982f3658b1d9e4ab585b5"
+  },
+  {
+    "file": "models/202/no_KO_control.csv",
+    "bytes": 148922,
+    "SHA256": "aca6b2c9e9aa2fb695913d6f10119bde4bafe14086f977656643be6d4581469f"
+  },
+  {
+    "file": "models/202/tensor_residuals.npy",
+    "bytes": 448,
+    "SHA256": "66bac8e5fb67a45a671083360a3569d4a65ab2ccb6369e4b9f62859287aa9aa6"
+  },
+  {
+    "file": "models/303/WT_KO_networks.npz",
+    "bytes": 12995498,
+    "SHA256": "b6c2d40b8dc9c0542a12a0383ddbf502f5db91325a222f364b95f1be00411942"
+  },
+  {
+    "file": "models/303/differential_regulation.csv",
+    "bytes": 166309,
+    "SHA256": "0b6dcbfc505e1e2d4f3be3e26328d6adf517a924f1942c3fa272511ed9f71e05"
+  },
+  {
+    "file": "models/303/manifold_alignment.csv.gz",
+    "bytes": 866693,
+    "SHA256": "3b4a112805b9ff0ad57d2392e8b173f7a62506f2cfc095047a3b7881ccd599af"
+  },
+  {
+    "file": "models/303/metrics.json",
+    "bytes": 476,
+    "SHA256": "367816fb6008464cda8785a2f2c31672af242ad07c67961abeb821eb1331be5f"
+  },
+  {
+    "file": "models/303/no_KO_control.csv",
+    "bytes": 147745,
+    "SHA256": "509bfd230365fcaf913b8461a1f7086db8914d98625de616c285b91858bc9bec"
+  },
+  {
+    "file": "models/303/tensor_residuals.npy",
+    "bytes": 288,
+    "SHA256": "f84b4af6e42c18e6f9e962484709a9987ad30338bf485aecc269be4734455b0b"
+  },
+  {
+    "file": "models/42/WT_KO_networks.npz",
+    "bytes": 13010942,
+    "SHA256": "439600c536c18519154dc136539656a89ace0381c86c5c6fd7a866a130f60de3"
+  },
+  {
+    "file": "models/42/differential_regulation.csv",
+    "bytes": 165918,
+    "SHA256": "4749d1a9b487df097b8e16190be71a924c2327525a0ee939e0c938b2564c2d98"
+  },
+  {
+    "file": "models/42/manifold_alignment.csv.gz",
+    "bytes": 865515,
+    "SHA256": "5f76d3a134d410356a6f5532fb215d9216267088e3bbe7fc1c3d0d9eec445768"
+  },
+  {
+    "file": "models/42/metrics.json",
+    "bytes": 472,
+    "SHA256": "7ecc7586ed33ea1f8e20325fd71c58b49a71ade1120dff7a76b24d0762669d37"
+  },
+  {
+    "file": "models/42/no_KO_control.csv",
+    "bytes": 147998,
+    "SHA256": "80abfc57244d9ad06aac4e6b914829d1b4cd8eb3267124d72ac08baac40d3b6d"
+  },
+  {
+    "file": "models/42/tensor_residuals.npy",
+    "bytes": 264,
+    "SHA256": "7858717b2fb88ead26379e526330d3e43b1c25ed0047aebcc1907ab155d52a64"
+  },
+  {
+    "file": "pairwise_stability.csv",
+    "bytes": 585,
+    "SHA256": "db736e27007239d7c9bd59f002b897526cf656bccb1e6668b971db4e2c841251"
+  },
+  {
+    "file": "prepare_inputs.py",
+    "bytes": 2003,
+    "SHA256": "0cc97f0af26ace85fdb87ac8ecfea1af538c95e62e88be4303701c627425a00a"
+  },
+  {
+    "file": "protocol.json",
+    "bytes": 1014,
+    "SHA256": "4dc3a539fd88d689ba4a24ddeec923857559a67d7f4f19dfcc60e2fc63dcfd69"
+  },
+  {
+    "file": "recurrent_candidates.csv",
+    "bytes": 3019,
+    "SHA256": "a5545ef8c07bcb84d97abb8b77b509c4c05edcee4df75269d4bef5ff25dccff0"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 152,
+    "SHA256": "9c61f29de098d38ca91d4cd399aaf1764f0be2abf47ba2e1d6e1221b42f624dc"
+  },
+  {
+    "file": "run.log",
+    "bytes": 5475,
+    "SHA256": "b7441572628f069eaebb5ef768a28a852362f090142c2799b1b06774656f4f3f"
+  },
+  {
+    "file": "run.py",
+    "bytes": 3922,
+    "SHA256": "988e44b94aecdcc9e87868cc9405784bb215e03895fb2077233e42a654416ec5"
+  },
+  {
+    "file": "run_metrics.csv",
+    "bytes": 962,
+    "SHA256": "36e57190cc7b2e6eafd232b5bfa8a4e27e4d7ed0c82347df9165e981bf405cb7"
+  },
+  {
+    "file": "sample_summary.csv",
+    "bytes": 218,
+    "SHA256": "c879b48ce075e76ae9814ca79b2b8f1fcee3396fb010b6e87ae0a9cc36936a9e"
+  },
+  {
+    "file": "stability_summary.json",
+    "bytes": 527,
+    "SHA256": "80f21d8f745b8a6fc3ba70c10ac5b2642dd18403dc36a4ec82bd91a21d8d063f"
+  },
+  {
+    "file": "vendor/LICENSE",
+    "bytes": 1069,
+    "SHA256": "d5117dfc718e523aa2b40790edc7070a8cf800c020a237c2e9304c70d5e16976"
+  },
+  {
+    "file": "vendor/provenance.json",
+    "bytes": 3236,
+    "SHA256": "77d5d6b7274fc147ee7613318b588883b889909363b74f8d6f51e80754999732"
+  },
+  {
+    "file": "vendor/scTenifold/__init__.py",
+    "bytes": 1353,
+    "SHA256": "c77b9aeb13534f110ce5525ca70774602c79aa4833259944c82be1fa5606438a"
+  },
+  {
+    "file": "vendor/scTenifold/__main__.py",
+    "bytes": 6047,
+    "SHA256": "b63ccbd818e252f119d260150e4e6e9d253052baacf1b7b19052adba9294a132"
+  },
+  {
+    "file": "vendor/scTenifold/cell_cycle/UCell.py",
+    "bytes": 3475,
+    "SHA256": "87fcf6fbd8fd9d1fd7c3d0113b97540e74545e7546130324c87f4bb776d11fbf"
+  },
+  {
+    "file": "vendor/scTenifold/cell_cycle/__init__.py",
+    "bytes": 0,
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "vendor/scTenifold/cell_cycle/scoring.py",
+    "bytes": 7138,
+    "SHA256": "81299185c30f077e8c443fbabab9ce13ef25c91c111845366526504d5ad1a08d"
+  },
+  {
+    "file": "vendor/scTenifold/core/_QC.py",
+    "bytes": 3371,
+    "SHA256": "bb425e600b4545e75c739e77a4ddd053306198414296b204d75185bbb4c49c3c"
+  },
+  {
+    "file": "vendor/scTenifold/core/__init__.py",
+    "bytes": 324,
+    "SHA256": "5f83779d2e56d5e92926e2db36d18d348ef659072796971cab9c10a15ac5334e"
+  },
+  {
+    "file": "vendor/scTenifold/core/_api.py",
+    "bytes": 7101,
+    "SHA256": "52f21b2c2b62991ba5493ee017f9e638bbeaebc2b1c8badb787cef56d5e8ed99"
+  },
+  {
+    "file": "vendor/scTenifold/core/_base.py",
+    "bytes": 31505,
+    "SHA256": "9a24b8ddeb686ac8d32034f82030629d1faf4146380a4e47b08408bf8c2810d1"
+  },
+  {
+    "file": "vendor/scTenifold/core/_decomposition.py",
+    "bytes": 7835,
+    "SHA256": "da50ee8efc77d7a04cc38e6add4cb251588ce462257ef39306825449e25f93f4"
+  },
+  {
+    "file": "vendor/scTenifold/core/_ko.py",
+    "bytes": 2436,
+    "SHA256": "aa2995723bc99e4f0179b488613a30341b363a8510907370474f37b68a00ad60"
+  },
+  {
+    "file": "vendor/scTenifold/core/_networks.py",
+    "bytes": 31630,
+    "SHA256": "e43bf19c16596112efdf403fc62c6659a2966d5538a2da9857566f077dbf60b3"
+  },
+  {
+    "file": "vendor/scTenifold/core/_norm.py",
+    "bytes": 755,
+    "SHA256": "710356ebb79a745fef1fa30b17e9273f1380af2c52fc1302c7fbb92903b2809b"
+  },
+  {
+    "file": "vendor/scTenifold/core/_rng.py",
+    "bytes": 6843,
+    "SHA256": "3845841bfdcf32bad9c3f6741ebfe3a78727c24ba02a4d27717ce74e3172b81f"
+  },
+  {
+    "file": "vendor/scTenifold/core/_types.py",
+    "bytes": 797,
+    "SHA256": "dd1e36c25167afc0feaead4b8722d0e9501933b2f3aec02e2f35cf4d0f325d14"
+  },
+  {
+    "file": "vendor/scTenifold/core/_utils.py",
+    "bytes": 1476,
+    "SHA256": "9aba86c636032e55d51350389a96778907f9d470758b6bb17759f93ef9028ef0"
+  },
+  {
+    "file": "vendor/scTenifold/data/__init__.py",
+    "bytes": 162,
+    "SHA256": "4f7fd5238c1291901bca4728f5a1ad8b7d3f8d5873f0fb13bb928f765a3e9e38"
+  },
+  {
+    "file": "vendor/scTenifold/data/_get.py",
+    "bytes": 5799,
+    "SHA256": "0a7bbc40dd5b30ff232d02327d8ec2af72ec8b390c15aa935d2f322a8a5b33df"
+  },
+  {
+    "file": "vendor/scTenifold/data/_io.py",
+    "bytes": 5718,
+    "SHA256": "f1097e40b415bb99e0561d8610f363e804d4af08131def6cd105fdb255c155c2"
+  },
+  {
+    "file": "vendor/scTenifold/data/_sim.py",
+    "bytes": 6803,
+    "SHA256": "5c462afcae90eae03fcdd3429a38b4631a0f90f35c40f6339da69b15bcbe2870"
+  },
+  {
+    "file": "vendor/scTenifold/plotting/__init__.py",
+    "bytes": 139,
+    "SHA256": "b9740785c9c2d5dd27bcd59a1770d7ae33a29f59fda2622e83ded31484763c99"
+  },
+  {
+    "file": "vendor/scTenifold/plotting/_dim_reduction.py",
+    "bytes": 4563,
+    "SHA256": "1da340c05c4107559a498213da12d80e4488e9f632322a405a6d904746c2b643"
+  },
+  {
+    "file": "vendor/scTenifold/plotting/_plotting.py",
+    "bytes": 7393,
+    "SHA256": "fa4122e15784f51e781af660cb5127be0bb30c4a246859e1ba8f3e15687b358a"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/__init__.py",
+    "bytes": 350,
+    "SHA256": "3f3cc757ee30e6d7d552d319536e04c2414a35e0bba0b241d3c0f96a746fe2fd"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/__main__.py",
+    "bytes": 152,
+    "SHA256": "836289900e055cbb9d8c2dab859ad6f494e96c95e10a970057cb5fbda87e769f"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/cli.py",
+    "bytes": 1363,
+    "SHA256": "c61ba4e8a75d1af6d6c555f3061c83bcea10e6ab1acc69725be9ce0cfa0edf80"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/jobs.py",
+    "bytes": 5921,
+    "SHA256": "17b0c8631ae78e573eb02f97c700b433006cf610f50a8a4b5200deeaefd05f76"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/main.py",
+    "bytes": 10478,
+    "SHA256": "1925e85e4a6ea437e8aeeba1c197f5ebb50f7db21796e263ddf2617404fe9f05"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/pbmc3k.py",
+    "bytes": 4118,
+    "SHA256": "dec00a7e77fe9b554a6ca225a987ec819e5cd321662c0175ba4fc369ef9bb6f9"
+  },
+  {
+    "file": "vendor/scTenifold/webapp/schemas.py",
+    "bytes": 2129,
+    "SHA256": "f4070c79af874a64b85ac1462b92057f59ec9eec96cd28650970b5b36415a4a9"
+  },
+  {
+    "file": "visualize.py",
+    "bytes": 10320,
+    "SHA256": "44af0fe295fe120bc0ef245e0c297cb74195f3700dae1c3361d3f341ba7da65b"
+  }
+]

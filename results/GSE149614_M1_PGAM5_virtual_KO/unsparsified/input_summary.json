@@ -1,0 +1,21 @@
+{
+  "dataset": "GSE149614",
+  "target": "M1 MKI67/TOP2A cycling macrophages, 9-group version",
+  "cells": 208,
+  "genes_full": 25712,
+  "genes_network": 1501,
+  "PGAM5_detected": 19,
+  "PGAM5_zero_cells": 189,
+  "sample_count": 10,
+  "patient_label_count": 10,
+  "largest_sample_fraction": 0.2548076923076923,
+  "source_file": "results/GSE149614_primaryT_hierarchical_clustering/macrophages_annotated_full.h5ad",
+  "source_sha256": "12144bbb8c5d862f1a583a0fe435da189622de583f1da41aae0c80fd0a1ea4a2",
+  "input_sha256": {
+    "inputs/M1_raw.h5ad": "49ef4a8ddf09140442a4eb9363eb6e9b43b9f0c4d275316ea453206efbd6bf51",
+    "inputs/network_raw_counts.csv.gz": "7c5a26365312a809332d9d186de918b2f5c74d4e51d0ba3011ab4d859e010a70",
+    "inputs/target_cell_metadata.csv.gz": "a6f29ed9898f503a58cfe28ef7789818ef475ad3d60ec5a18a3da7116e4a1e6b",
+    "inputs/macrophage_context.csv.gz": "9750a921c7a01c62f67bc33b079878769d7412d3a8058c268c7007f88b6847fb"
+  },
+  "UMAP_not_recomputed": true
+}

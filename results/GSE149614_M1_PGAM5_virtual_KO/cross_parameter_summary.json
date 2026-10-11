@@ -1,0 +1,17 @@
+{
+  "median_displacement_rank_rho": 0.8484020446231311,
+  "TOP20_intersection_count": 10,
+  "TOP20_intersection_genes": [
+    "ANXA1",
+    "GAPDH",
+    "HK2",
+    "HMGB2",
+    "HSP90AA1",
+    "LGALS1",
+    "LINC01272",
+    "MNDA",
+    "S100A4",
+    "TUBA1A"
+  ],
+  "comparison_valid_only_if_both_models_have_displacements_above_noise": true
+}
