@@ -1,0 +1,8 @@
+file,bytes,sha256,source_url
+inputs/GPL10558_annotation.tsv.gz,637931,ea8a9ad4d489ae48bed74f6efcb2dd3f71ccde568be380c4228e6a07eeac66ad,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558&targ=self&form=text&view=full
+inputs/GSE76427_series_matrix.txt.gz,21133172,43050cc3e7740e7d4ce10e374f37f1f30c8119bef01c8f04dcd0dfe78db8ae8d,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE76nnn/GSE76427/matrix/GSE76427_series_matrix.txt.gz
+inputs/prior_reference_validation_result.json,715,88cb90dab8b95b5f551faa6ec2f7fd15f3bbee723dc55d7d0aca1413c937f2d9,https://github.com/183285068-droid/codex/blob/8002d25c0c0c8e6a0f2085826d4fdbc604291061/results/GSE10143_v4_exploratory_NNLS_survival/inputs/prior_reference_validation_result.json
+inputs/reference_850x17.tsv,272832,d5c7df4eeee3c3f2ef1631a41b699b27842756b11f9c9dd2c1b9c06feaaeba68,https://github.com/183285068-droid/codex/blob/8002d25c0c0c8e6a0f2085826d4fdbc604291061/results/GSE10143_v4_exploratory_NNLS_survival/inputs/reference_850x17.tsv
+inputs/reference_row_scales.csv,21315,7fc0af49e8047866179944e3d472a389bdf92f810bb09a1594384bc60a97abfc,https://github.com/183285068-droid/codex/blob/8002d25c0c0c8e6a0f2085826d4fdbc604291061/results/GSE10143_v4_exploratory_NNLS_survival/inputs/reference_row_scales.csv
+inputs/sample_metadata.soft.gz,7350,6808d950dbf696f24f1694a5e898ce84d0ec9afd20c5dd3075356fbf7186cc17,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76427&targ=gsm&form=text&view=brief
+inputs/series.soft.gz,1976,75ca9d034dbc06959797e50154b5bcc71bba3410e861865bd6c7d4a66783f5b7,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76427&targ=self&form=text&view=full

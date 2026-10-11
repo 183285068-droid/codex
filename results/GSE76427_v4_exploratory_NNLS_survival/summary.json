@@ -1,0 +1,46 @@
+{
+  "tumor_samples": 115,
+  "excluded_adjacent": 52,
+  "raw_probes": 47322,
+  "usable_probes": 44052,
+  "mapped_genes": 31425,
+  "covered_reference_genes": 755,
+  "PGAM5_measured": true,
+  "PGAM5_probes": [
+    "ILMN_1748027",
+    "ILMN_1788254",
+    "ILMN_1789944"
+  ],
+  "raw_signal_min": -4974.89,
+  "raw_signal_max": 53346.51,
+  "negative_probe_values": 4709,
+  "negative_gene_values": 3318,
+  "negative_reference_values": 414,
+  "reference_query_values": 86825,
+  "weighted_reference_rank": 17,
+  "weighted_reference_condition": 10.615159045805955,
+  "median_relative_fit_residual": 0.855838798209781,
+  "cellular_abundance_validated": false,
+  "median_cutoff_all115": 0.03870300847357219,
+  "high_all115": 57,
+  "low_all115": 58,
+  "nonzero": 91,
+  "zero": 24,
+  "OS_patients": 115,
+  "RFS_patients": 107,
+  "RFS_missing": 7,
+  "RFS_beyond_death_excluded": [
+    "HCC29"
+  ],
+  "signed_signal_group_changes": 0,
+  "source_OS_definition": "From resection to death from any cause, per original paper; GEO duryears_os is in years.",
+  "source_RFS_definition": "GEO event_rfs/duryears_rfs; original paper focused on OS, does not provide a detailed RFS composite-event definition.",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "lifelines": "0.30.3",
+    "statsmodels": "0.15.0"
+  }
+}

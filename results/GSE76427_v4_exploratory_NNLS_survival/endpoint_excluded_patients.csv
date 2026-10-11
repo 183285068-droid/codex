@@ -1,0 +1,9 @@
+GSM,patient_id,group,OS_time_months,OS_event,endpoint,exclusion_reason,RFS_time_months,RFS_event
+GSM2011299,HCC83,High,,,RFS,Missing or invalid time/event,,
+GSM2011307,HCC16,Low,,,RFS,Missing or invalid time/event,,
+GSM2011338,HCC29,Low,,,RFS,RFS follow-up exceeds known death,9.48,0.0
+GSM2011346,HCC33,High,,,RFS,Missing or invalid time/event,,
+GSM2011349,HCC92,Low,,,RFS,Missing or invalid time/event,,
+GSM2011350,HCC94,Low,,,RFS,Missing or invalid time/event,,
+GSM2011354,HCC35,Low,,,RFS,Missing or invalid time/event,,
+GSM2011385,HCC49,Low,,,RFS,Missing or invalid time/event,,

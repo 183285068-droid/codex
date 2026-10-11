@@ -1,0 +1,24 @@
+{
+  "checked_at_UTC": "2026-10-11T04:56:34.525300+00:00",
+  "requested_dataset": "OEP000321",
+  "official_project_url": "https://www.biosino.org/node/project/detail/OEP000321",
+  "original_study_title": "Integrated Proteogenomic Characterization of HBV-Related Hepatocellular Carcinoma.",
+  "original_PMID": "31585088",
+  "original_DOI": "10.1016/j.cell.2019.08.052",
+  "expression_matrix_retrieved": false,
+  "individual_clinical_table_retrieved": false,
+  "deconvolution_performed": false,
+  "survival_analysis_performed": false,
+  "active_blocker": "Current cloud proxy returns CONNECT HTTP403 for the official NODE site, Cell supplementary CDN and candidate Zenodo archive. The user cannot save/publish the environment, so configuration review is not required to proceed via supplied files.",
+  "blocked_hosts": [
+    "www.biosino.org",
+    "ars.els-cdn.com",
+    "zenodo.org"
+  ],
+  "public_mirror_assessment": "GitHub/PMC searches found secondary study reports, protein datasets and derived survival tables; none supplied a verified full gene-level RNA matrix paired to original clinical records. Protein matrices cannot be substituted for the RNA reference.",
+  "needed_inputs": [
+    "Public gene-level tumor RNA expression matrix with original patient/sample IDs and a description of units/log transform",
+    "Clinical follow-up table with matching patient IDs, time units and actual OS/RFS/DFS/PFS time/event fields"
+  ],
+  "frozen_analysis": "Use original850x17 v4 weighted NNLS; available gene intersection only; one tumor sample per patient after verifying tissue and duplicates; global tumor median split fixed before endpoint exclusions; use only source-defined valid endpoints."
+}

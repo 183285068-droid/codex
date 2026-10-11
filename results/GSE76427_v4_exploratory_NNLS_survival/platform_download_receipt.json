@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558&targ=self&form=text&view=full",
+  "official_SOFT_bytes": 75785789,
+  "official_SOFT_sha256": "3c7bcae20276e8bf564d9644d6e9a6cb1092c273190284c1e87c92ef023c99a1",
+  "rows": 48107,
+  "saved_columns": [
+    "ID",
+    "Symbol",
+    "Entrez_Gene_ID",
+    "RefSeq_ID"
+  ],
+  "reason": "Save all official probe IDs and all four fields used by analysis; omit large unused sequence/ontology fields."
+}

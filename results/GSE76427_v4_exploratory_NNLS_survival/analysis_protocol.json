@@ -1,0 +1,11 @@
+{
+  "scope": "115 primary HCC tumors only; exclude 52 adjacent tissues from projection and cutoff",
+  "reference": "Frozen original 850x17 v4 weighted NNLS; intersect measured genes, no marker tuning",
+  "expression": "Use published RSN-normalized linear-scale microarray signals; never exponentiate. Collapse unambiguous official probes per gene by median; clip negative gene signals to zero; normalize sum of all mapped genes to 10000.",
+  "negative_signal_sensitivity": "Keep original signed signals as a mathematical projection sensitivity, using same NNLS and own outcome-independent tumor median; do not interpret signed query as RNA concentration.",
+  "grouping": "Global median across all 115 tumor expression samples before endpoint exclusions; High>median, Low<=median",
+  "endpoints": "OS and source RFS in years converted to months (x12); explicit event labels 0/1; missing RFS not imputed",
+  "endpoint_QC": "Finite positive time, binary event; exclude RFS follow-up beyond recorded known death (HCC29); retain original times without correction",
+  "models": "Unadjusted High-vs-Low and per-all115-SD continuous Cox; supplementary age/sex adjustment. Stage not included because only23 OS deaths and additional stage parameters would increase overfitting.",
+  "multiple_testing": "BH across OS/RFS primary logrank tests; separately across 8 target-coefficient Cox tests (2 endpoints x4 models)"
+}

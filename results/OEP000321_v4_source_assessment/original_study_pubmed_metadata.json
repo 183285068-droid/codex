@@ -1,0 +1,236 @@
+{
+  "uid": "31585088",
+  "pubdate": "2019 Oct 3",
+  "epubdate": "",
+  "source": "Cell",
+  "authors": [
+    {
+      "name": "Gao Q",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Zhu H",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Dong L",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Shi W",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Chen R",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Song Z",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Huang C",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Li J",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Dong X",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Zhou Y",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Liu Q",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Ma L",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Wang X",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Zhou J",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Liu Y",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Boja E",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Robles AI",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Ma W",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Wang P",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Li Y",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Ding L",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Wen B",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Zhang B",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Rodriguez H",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Gao D",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Zhou H",
+      "authtype": "Author",
+      "clusterid": ""
+    },
+    {
+      "name": "Fan J",
+      "authtype": "Author",
+      "clusterid": ""
+    }
+  ],
+  "lastauthor": "Fan J",
+  "title": "Integrated Proteogenomic Characterization of HBV-Related Hepatocellular Carcinoma.",
+  "sorttitle": "integrated proteogenomic characterization of hbv related hepatocellular carcinoma",
+  "volume": "179",
+  "issue": "2",
+  "pages": "561-577.e22",
+  "lang": [
+    "eng"
+  ],
+  "nlmuniqueid": "0413066",
+  "issn": "0092-8674",
+  "essn": "1097-4172",
+  "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "recordstatus": "PubMed - indexed for MEDLINE",
+  "pubstatus": "4",
+  "articleids": [
+    {
+      "idtype": "pubmed",
+      "idtypen": 1,
+      "value": "31585088"
+    },
+    {
+      "idtype": "doi",
+      "idtypen": 3,
+      "value": "10.1016/j.cell.2019.08.052"
+    },
+    {
+      "idtype": "pii",
+      "idtypen": 4,
+      "value": "S0092-8674(19)31003-7"
+    }
+  ],
+  "history": [
+    {
+      "pubstatus": "received",
+      "date": "2019/02/10 00:00"
+    },
+    {
+      "pubstatus": "revised",
+      "date": "2019/06/02 00:00"
+    },
+    {
+      "pubstatus": "accepted",
+      "date": "2019/08/26 00:00"
+    },
+    {
+      "pubstatus": "entrez",
+      "date": "2019/10/05 06:00"
+    },
+    {
+      "pubstatus": "pubmed",
+      "date": "2019/10/05 06:00"
+    },
+    {
+      "pubstatus": "medline",
+      "date": "2020/06/10 06:00"
+    }
+  ],
+  "references": [
+    {
+      "refsource": "Cell. 2019 Nov 14;179(5):1240. doi: 10.1016/j.cell.2019.10.038.",
+      "reftype": "Erratum in",
+      "pmid": 31730861,
+      "note": ""
+    }
+  ],
+  "attributes": [
+    "Has Abstract"
+  ],
+  "pmcrefcount": "",
+  "fulljournalname": "Cell",
+  "elocationid": "doi: 10.1016/j.cell.2019.08.052",
+  "doctype": "citation",
+  "srccontriblist": [],
+  "booktitle": "",
+  "medium": "",
+  "edition": "",
+  "publisherlocation": "",
+  "publishername": "",
+  "srcdate": "",
+  "reportnumber": "",
+  "availablefromurl": "",
+  "locationlabel": "",
+  "doccontriblist": [],
+  "docdate": "",
+  "bookname": "",
+  "chapter": "",
+  "sortpubdate": "2019/10/03 00:00",
+  "sortfirstauthor": "Gao Q",
+  "vernaculartitle": ""
+}

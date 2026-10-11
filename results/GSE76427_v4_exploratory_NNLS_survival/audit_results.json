@@ -1,0 +1,281 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Input SHA256 inputs/GPL10558_annotation.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/GSE76427_series_matrix.txt.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/prior_reference_validation_result.json",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/reference_850x17.tsv",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/reference_row_scales.csv",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/sample_metadata.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256 inputs/series.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Original frozen v4 reference bytes",
+      "passed": true
+    },
+    {
+      "check": "Original frozen v4 row scales",
+      "passed": true
+    },
+    {
+      "check": "115 unique HCC tumor patients and 52 adjacent excluded",
+      "passed": true
+    },
+    {
+      "check": "44052 unambiguous mappings agree with original official symbol",
+      "passed": true
+    },
+    {
+      "check": "31425 mapped genes, original negative values retained before floor",
+      "passed": true
+    },
+    {
+      "check": "755 shared reference genes and 3 PGAM5 probes",
+      "passed": true
+    },
+    {
+      "check": "Reconstruct all 86825 primary query values",
+      "passed": true
+    },
+    {
+      "check": "17 frozen components and full reference rank",
+      "passed": true
+    },
+    {
+      "check": "Coefficients nonnegative and sum to one",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011285",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011289",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011294",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011299",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011304",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011309",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011314",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011319",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011324",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011329",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011334",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011339",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011344",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011349",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011354",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011359",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011364",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011369",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011374",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011379",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011384",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011389",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011394",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS GSM2011399",
+      "passed": true
+    },
+    {
+      "check": "All115 median, no outcome-selected threshold",
+      "passed": true
+    },
+    {
+      "check": "57 High and 58 Low",
+      "passed": true
+    },
+    {
+      "check": "91 nonzero and24 zero",
+      "passed": true
+    },
+    {
+      "check": "OS source identity and months conversion",
+      "passed": true
+    },
+    {
+      "check": "OS population/events",
+      "passed": true
+    },
+    {
+      "check": "OS frozen all115 coefficient scale",
+      "passed": true
+    },
+    {
+      "check": "OS age and sex from official SOFT",
+      "passed": true
+    },
+    {
+      "check": "OS independent tied logrank",
+      "passed": true
+    },
+    {
+      "check": "OS independent Efron Cox HR/CI/p",
+      "passed": true
+    },
+    {
+      "check": "OS High independent full KM curve",
+      "passed": true
+    },
+    {
+      "check": "OS High complete risk table",
+      "passed": true
+    },
+    {
+      "check": "OS Low independent full KM curve",
+      "passed": true
+    },
+    {
+      "check": "OS Low complete risk table",
+      "passed": true
+    },
+    {
+      "check": "RFS source identity and months conversion",
+      "passed": true
+    },
+    {
+      "check": "RFS population/events",
+      "passed": true
+    },
+    {
+      "check": "RFS frozen all115 coefficient scale",
+      "passed": true
+    },
+    {
+      "check": "RFS age and sex from official SOFT",
+      "passed": true
+    },
+    {
+      "check": "RFS independent tied logrank",
+      "passed": true
+    },
+    {
+      "check": "RFS independent Efron Cox HR/CI/p",
+      "passed": true
+    },
+    {
+      "check": "RFS High independent full KM curve",
+      "passed": true
+    },
+    {
+      "check": "RFS High complete risk table",
+      "passed": true
+    },
+    {
+      "check": "RFS Low independent full KM curve",
+      "passed": true
+    },
+    {
+      "check": "RFS Low complete risk table",
+      "passed": true
+    },
+    {
+      "check": "Two-endpoint BH",
+      "passed": true
+    },
+    {
+      "check": "7 missing RFS records and HCC29 excluded explicitly",
+      "passed": true
+    },
+    {
+      "check": "All8 target Cox tests BH",
+      "passed": true
+    },
+    {
+      "check": "Signed-signal sensitivity changes no group",
+      "passed": true
+    },
+    {
+      "check": "PNG/PDF contain full 93.12-month OS follow-up",
+      "passed": true
+    }
+  ],
+  "independent_BVLS_samples": 24,
+  "BVLS_max_coefficient_error": 1.6653345369377348e-15,
+  "reconstructed_query_values": 86825,
+  "note": "Numerical/source checks do not validate cell fractions. OS PH p<0.05 is a diagnosed model limitation, not an ignored failed numerical check."
+}
