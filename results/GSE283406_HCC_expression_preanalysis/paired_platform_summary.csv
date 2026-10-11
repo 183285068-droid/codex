@@ -1,0 +1,3 @@
+section,shared_QC_spots,PGAM5_normalized_spearman,total_UMI_spearman,PGAM5_both_detected,PGAM5_only_AVITI,PGAM5_only_NextSeq,PGAM5_neither_detected
+J259B,2352,0.8939688705124239,0.997288129888128,674,112,3,1563
+J259X,3922,0.9160550356155805,0.998386461133318,423,61,8,3430

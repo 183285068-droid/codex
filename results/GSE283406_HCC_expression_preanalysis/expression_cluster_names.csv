@@ -1,0 +1,8 @@
+section,expression_cluster,cluster_name,RNA_program,program_mean,program_all_spot_mean,n_spots
+J259B,E0,E0: CYP2E1/HAMP | Metabolic / matrix-mixed RNA,Fibroblast_matrix,1.6330745,0.97359,403
+J259B,E1,E1: IGHG1/IGKC | Immunoglobulin-associated RNA,Plasma,1.8696603,1.7481083,541
+J259B,E2,E2: ALB/HRG | Hepatic secretory / acute-phase RNA,Acute_phase,3.3081746,3.264886,980
+J259B,E3,E3: COL1A1/COL3A1 | Matrix-associated RNA,Fibroblast_matrix,1.2073995,0.97359,448
+J259X,E0,E0: ALB/PPARGC1A | Hepatic metabolic / T-marker-mixed RNA,T_lineage,0.21266063,0.15171733,1221
+J259X,E1,E1: IGHG1/IGKC | Immunoglobulin / matrix-mixed RNA,Fibroblast_matrix,0.97742933,0.90623325,1757
+J259X,E2,E2: REG3A/GLUL | Hepatic metabolic / secretory RNA,Hepatocyte,4.2153673,4.162376,944
