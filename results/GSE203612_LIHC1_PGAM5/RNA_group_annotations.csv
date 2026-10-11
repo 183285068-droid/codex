@@ -1,0 +1,18 @@
+assay,cluster,marker_pair,RNA_annotation,n_observations,provisional
+singlecell,C0,HRG/CYP3A5,Hepatocyte-like,214,True
+singlecell,C1,CYP2E1/CYP3A4,Hepatocyte-like,316,True
+singlecell,C2,MZB1/JCHAIN,Plasma-cell-related,103,True
+singlecell,C3,C1QA/CD163,Macrophage-like,221,True
+singlecell,C4,MKI67/TOP2A,Cycling; lineage unresolved,45,True
+singlecell,C5,FCN1/VCAN,Monocyte/DC-related,147,True
+singlecell,C6,CD5L/MARCO,Macrophage-like,104,True
+singlecell,C7,VWF/KDR,Endothelial-like,112,True
+singlecell,C8,IL7R/CCL5,T/NK-related,375,True
+singlecell,C9,FCGR3B/S100A8,Granulocyte-like,43,True
+singlecell,C10,COL1A2/NOTCH3,Stromal/perivascular-related,16,True
+singlecell,C11,FOXP3/IKZF2,Treg-related,46,True
+singlecell,C12,MS4A1/CD79A,B-cell-related,31,True
+singlecell,C13,CPA3/TPSB2,Mast-cell-related,10,True
+spatial,S0,CYP3A4/TF,Hepatocyte-RNA-rich mixed region,720,True
+spatial,S1,DCXR/GLUL,Metabolic hepatocyte-RNA mixed region,399,True
+spatial,S2,CD74/HLA-DRB1,Immune/stromal-RNA mixed region,515,True

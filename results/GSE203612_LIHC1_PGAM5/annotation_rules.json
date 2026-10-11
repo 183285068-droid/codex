@@ -1,0 +1,76 @@
+{
+  "singlecell": {
+    "C0": [
+      "HRG/CYP3A5",
+      "Hepatocyte-like"
+    ],
+    "C1": [
+      "CYP2E1/CYP3A4",
+      "Hepatocyte-like"
+    ],
+    "C2": [
+      "MZB1/JCHAIN",
+      "Plasma-cell-related"
+    ],
+    "C3": [
+      "C1QA/CD163",
+      "Macrophage-like"
+    ],
+    "C4": [
+      "MKI67/TOP2A",
+      "Cycling; lineage unresolved"
+    ],
+    "C5": [
+      "FCN1/VCAN",
+      "Monocyte/DC-related"
+    ],
+    "C6": [
+      "CD5L/MARCO",
+      "Macrophage-like"
+    ],
+    "C7": [
+      "VWF/KDR",
+      "Endothelial-like"
+    ],
+    "C8": [
+      "IL7R/CCL5",
+      "T/NK-related"
+    ],
+    "C9": [
+      "FCGR3B/S100A8",
+      "Granulocyte-like"
+    ],
+    "C10": [
+      "COL1A2/NOTCH3",
+      "Stromal/perivascular-related"
+    ],
+    "C11": [
+      "FOXP3/IKZF2",
+      "Treg-related"
+    ],
+    "C12": [
+      "MS4A1/CD79A",
+      "B-cell-related"
+    ],
+    "C13": [
+      "CPA3/TPSB2",
+      "Mast-cell-related"
+    ]
+  },
+  "spatial": {
+    "S0": [
+      "CYP3A4/TF",
+      "Hepatocyte-RNA-rich mixed region"
+    ],
+    "S1": [
+      "DCXR/GLUL",
+      "Metabolic hepatocyte-RNA mixed region"
+    ],
+    "S2": [
+      "CD74/HLA-DRB1",
+      "Immune/stromal-RNA mixed region"
+    ]
+  },
+  "provisional": true,
+  "basis": "Cluster top markers + lineage program review; RNA annotations, no CNV/SingleR/malignancy claim"
+}

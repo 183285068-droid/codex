@@ -1,0 +1,93 @@
+[
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib1_lib1_gene_expression.mtx.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib1_lib1_gene_expression.mtx.gz",
+    "bytes": 2370741,
+    "sha256": "de016865bbf151b6c776ceae5911c59cf24cca5e8c710ac0eb754483b429c692"
+  },
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib1_lib1_genes.tsv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib1_lib1_genes.tsv.gz",
+    "bytes": 340042,
+    "sha256": "7829b29e8f43fadb4740dbbaa1ea1e121e07813c072d5dac98540fe03528b03c"
+  },
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib2_lib2_gene_expression.mtx.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib2_lib2_gene_expression.mtx.gz",
+    "bytes": 2037106,
+    "sha256": "aa9431aefec90248c53328e9bc2aff70b99fb944315e19119aebdfcb5be56a4a"
+  },
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib2_lib2_genes.tsv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib2_lib2_genes.tsv.gz",
+    "bytes": 340042,
+    "sha256": "6fd03c0717ea7c3dd23e0f2224acf70701d1c6a91e50d60d606bfe9fffdd2528"
+  },
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib3_lib3_gene_expression.mtx.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib3_lib3_gene_expression.mtx.gz",
+    "bytes": 2010970,
+    "sha256": "a42ae1f9d859fe2494d5b0874e9b52c254f79103145f58807d979731a5ebb319"
+  },
+  {
+    "gsm": "GSM6177611",
+    "name": "GSM6177611_NYU_LIHC1_lib3_lib3_genes.tsv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177611/suppl/GSM6177611_NYU_LIHC1_lib3_lib3_genes.tsv.gz",
+    "bytes": 340042,
+    "sha256": "6b27d8f276faf0bfc237b5ff543c00a224debf4146ab2fd9a5cced596bd68287"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_filtered_feature_bc_matrix.h5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_filtered_feature_bc_matrix.h5",
+    "bytes": 2974636,
+    "sha256": "f15ebbe81b3d7680403d2f90bc0041d9aa46867302c7d1b2fe6349826991c9c9"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_aligned_fiducials.jpg.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_aligned_fiducials.jpg.gz",
+    "bytes": 1414778,
+    "sha256": "635ad4d32068b9c890af13fe3589130f15ff459d35e101a94ab56f2fad3a4078"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_detected_tissue_image.jpg.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_detected_tissue_image.jpg.gz",
+    "bytes": 1973490,
+    "sha256": "3a60d33a782e973df24161fbb5d58232de5b180c4a2626af6a8168130ea808b4"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_scalefactors_json.json.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_scalefactors_json.json.gz",
+    "bytes": 190,
+    "sha256": "c2b71f4d27efac373e85b6f07da904af4ae18a061ebb5e2a6db1a9dac0d4d626"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_hires_image.png.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_hires_image.png.gz",
+    "bytes": 9095507,
+    "sha256": "33b36309cec02abba46a76e452c2672338bef3a42978d4f16fbd2a920a80df5e"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_lowres_image.png.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_lowres_image.png.gz",
+    "bytes": 733141,
+    "sha256": "861bdd6a424fcb4d6bb5fe841c73e804f382c6eadbdc738d4e9281126d051625"
+  },
+  {
+    "gsm": "GSM6177612",
+    "name": "GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_positions_list.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6177nnn/GSM6177612/suppl/GSM6177612_NYU_LIHC1_Vis_processed_spatial_tissue_positions_list.csv.gz",
+    "bytes": 61599,
+    "sha256": "d3b53e8e33baafb26d0dff1bb8120889bfc7297f73c56465640da52e7f156e34"
+  }
+]

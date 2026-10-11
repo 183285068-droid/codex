@@ -1,0 +1,21 @@
+{
+  "patient": "NYU_LIHC1",
+  "independent_patients": 1,
+  "singlecell_input_barcodes": 6000,
+  "singlecell_qc": 1783,
+  "singlecell_clusters": 14,
+  "singlecell_PGAM5_detected": 66,
+  "macrophage_like_C3_C6_cells": 325,
+  "macrophage_like_C3_C6_PGAM5_detected": 8,
+  "cluster_and_RNA_gate_macrophage_candidates": 246,
+  "PGAM5_detected_cluster_and_RNA_gate_candidates": 6,
+  "spatial_input_spots": 1661,
+  "spatial_qc": 1634,
+  "spatial_clusters": 3,
+  "spatial_PGAM5_detected": 71,
+  "spatial_mac_RNA_gate": 188,
+  "spatial_T_RNA_gate": 223,
+  "primary_partial_rho": 0.0039268182151679,
+  "primary_permutation_p": 0.7804,
+  "primary_joint_BH_q7": 1.0
+}

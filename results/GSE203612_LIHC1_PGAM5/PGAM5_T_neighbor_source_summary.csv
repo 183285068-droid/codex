@@ -1,0 +1,5 @@
+gsm,sample,patient,tumor_status,region,n_source_spots,PGAM5_detected,PGAM5_detection_pct,PGAM5_mean_log1p_CP10k
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,All_mac_RNA,188,21,11.170212765957446,0.10712612
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,Mac_with_T_neighbor,163,19,11.65644171779141,0.10779145
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,Mac_with_Tex_neighbor,43,7,16.27906976744186,0.12524496
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,Mac_with_activation_neighbor,24,4,16.666666666666664,0.14385082

@@ -1,0 +1,4 @@
+library,input_cells,qc_cells,qc_author_rule_cells,median_input_UMI
+lib1,2000,691,706,339.5
+lib2,2000,540,554,292.0
+lib3,2000,552,559,208.0

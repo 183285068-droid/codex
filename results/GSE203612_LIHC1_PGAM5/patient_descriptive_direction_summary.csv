@@ -1,0 +1,6 @@
+patient,program,sections_tested,median_section_partial_rho,positive_sections,negative_sections,q_significant_sections
+NYU_LIHC1,Activation_early,1,0.08326698416755138,1,0,0
+NYU_LIHC1,Effector_cytotoxic,1,0.044074566978257484,1,0,0
+NYU_LIHC1,Exhaustion_core,1,0.0039268182151679714,1,0,0
+NYU_LIHC1,Exhaustion_expanded,1,0.02033869237191864,1,0,0
+NYU_LIHC1,Exhaustion_no_CTLA4_TIGIT,1,0.03623743269884571,1,0,0

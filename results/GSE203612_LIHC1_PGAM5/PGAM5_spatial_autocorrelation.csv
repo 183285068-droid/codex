@@ -1,0 +1,3 @@
+gsm,sample,patient,tumor_status,method,n_spots,directed_edges,isolated_spots,Moran_I,conditional_expected_I,null_mean_I,permutation_p,permutations,strata,permutable_spots,BH_q_2_tests
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,unrestricted,1634,9074,0,0.02605831744941606,-0.0006123698714023274,-0.0003946647975292971,0.0632,4999,1,1634,0.1264
+GSM6177612,NYU_LIHC1_Vis,NYU_LIHC1,primary,UMI_MT_stratified,1634,9074,0,0.02605831744941606,0.006504084584176543,0.00634576308709543,0.1798,4999,15,1634,0.1798

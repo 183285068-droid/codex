@@ -1,0 +1,16 @@
+[
+  {
+    "gsm": "GSM6177611",
+    "sample": "NYU_LIHC1",
+    "patient": "NYU_LIHC1",
+    "assay": "inDrop scRNA-seq",
+    "libraries": 3
+  },
+  {
+    "gsm": "GSM6177612",
+    "sample": "NYU_LIHC1_Vis",
+    "patient": "NYU_LIHC1",
+    "assay": "10x Visium",
+    "sections": 1
+  }
+]
