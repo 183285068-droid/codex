@@ -1,0 +1,15 @@
+{
+  "scope": "80 primary HCC tumor tissues in GSE10141, subseries of GSE10143; no adjacent-tissue expression pooled",
+  "reference": "Frozen original 850 genes x 17 components v4; subset measured genes and original weights only",
+  "solver": "weighted fixed NNLS; sum-normalized coefficients",
+  "target": "TAM_PGAM5_detected",
+  "mapping": "exact official Symbol, exclude blank/multiple symbols; median linear intensities for multiple probes",
+  "query": "linear cubic-spline-normalized DASL intensities; no exponentiation; divide each gene intensity by full mapped-gene sum and multiply by 10000 (scalar normalization only)",
+  "group": "median target coefficient across all 80 tumor samples before endpoint exclusions; High > median, Low <= median; no outcome-optimized cutpoint",
+  "OS": "primary; official clinical XLS, cross-checked against tumor GEO sample metadata; time in days, 0 alive/censored, 1 dead",
+  "TTR": "secondary time to HCC recurrence, not PFS/DFS; same-patient GSE10140 metadata joined by exact numeric patient code only with concordant OS time and event; positive recurrence time and 0/1 recurrence event required; no imputation",
+  "recurrence_time_checks": "zero time excluded; recurrence after known death excluded; recurrence-censor time beyond OS-censor time retained but flagged since both patient follow-ups are censored",
+  "statistics": "two-sided logrank; BH across OS and TTR; unadjusted binary and per-SD continuous Cox with 95% CI and rank PH test; no patient/sample clinical time inferred",
+  "adjustment": "No age or stage follow-up covariates available; no claim of independent clinical prognostic effect",
+  "validity": "exploratory projection only; original reference failed independent abundance validation; missing PGAM5 probe and large feature loss"
+}

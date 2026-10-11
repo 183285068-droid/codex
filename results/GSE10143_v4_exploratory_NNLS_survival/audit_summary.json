@@ -1,0 +1,350 @@
+{
+  "checks_passed": 85,
+  "checks_failed": 0,
+  "independent_solvers": 24,
+  "independent_solver_max_difference": 7.771561172376096e-16,
+  "rebuilt_query_values": 33280,
+  "checks": [
+    {
+      "check": "Immutable input SHA256: GPL5474_annotation.tsv.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10140.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10140_series_matrix.txt.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10141.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10141_series_matrix.txt.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10142.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: GSE10143.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: clinical.xls.gz",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: prior_reference_validation_result.json",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: reference_850x17.tsv",
+      "passed": true
+    },
+    {
+      "check": "Immutable input SHA256: reference_row_scales.csv",
+      "passed": true
+    },
+    {
+      "check": "Original source SOFT byte payload: GSE10140.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Original source SOFT byte payload: GSE10141.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Original source SOFT byte payload: GSE10142.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Original source SOFT byte payload: GSE10143.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Exactly 80 unique tumor patients",
+      "passed": true
+    },
+    {
+      "check": "Only tumor expression analyzed",
+      "passed": true
+    },
+    {
+      "check": "All OS times equal official XLS",
+      "passed": true
+    },
+    {
+      "check": "All OS events equal official XLS",
+      "passed": true
+    },
+    {
+      "check": "Patient codes agree independently with clinical titles",
+      "passed": true
+    },
+    {
+      "check": "All tumor OS times also equal GEO sample metadata",
+      "passed": true
+    },
+    {
+      "check": "All tumor OS events also equal GEO sample metadata",
+      "passed": true
+    },
+    {
+      "check": "Exactly 62 same-patient recurrence matches",
+      "passed": true
+    },
+    {
+      "check": "Every linked GSM is the same-patient source GSM",
+      "passed": true
+    },
+    {
+      "check": "Every paired OS time agrees",
+      "passed": true
+    },
+    {
+      "check": "Every paired OS event agrees",
+      "passed": true
+    },
+    {
+      "check": "Every recurrence time equals same-patient source metadata",
+      "passed": true
+    },
+    {
+      "check": "Every recurrence event equals same-patient source metadata",
+      "passed": true
+    },
+    {
+      "check": "Unmatched tumors have no imputed recurrence time/event",
+      "passed": true
+    },
+    {
+      "check": "Mappings are official platform symbols",
+      "passed": true
+    },
+    {
+      "check": "No PGAM5 symbol, Entrez192111 or RefSeq NM138575 in supplied platform",
+      "passed": true
+    },
+    {
+      "check": "All 33,280 query measurements reconstruct from linear source intensities",
+      "passed": true
+    },
+    {
+      "check": "Frozen 17 reference components unchanged",
+      "passed": true
+    },
+    {
+      "check": "Measured reference rows are unmodified",
+      "passed": true
+    },
+    {
+      "check": "Original feature weights unchanged",
+      "passed": true
+    },
+    {
+      "check": "Feature coverage is exact intersection, no zero imputation",
+      "passed": true
+    },
+    {
+      "check": "Weighted reference full rank 17",
+      "passed": true
+    },
+    {
+      "check": "All 80 nonnegative coefficient sums equal one",
+      "passed": true
+    },
+    {
+      "check": "Target coefficients match exported full reference solution",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256425",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256428",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256431",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256435",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256438",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256442",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256445",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256449",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256452",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256455",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256459",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256462",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256466",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256469",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256473",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256476",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256479",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256483",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256486",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256490",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256493",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256497",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256500",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS 17-component solution: GSM256504",
+      "passed": true
+    },
+    {
+      "check": "Outcome-blind median group assignments across all 80 tumors",
+      "passed": true
+    },
+    {
+      "check": "Exactly 40 High and 40 Low tumors",
+      "passed": true
+    },
+    {
+      "check": "OS cohort selected solely by valid source follow-up",
+      "passed": true
+    },
+    {
+      "check": "OS times/events unchanged",
+      "passed": true
+    },
+    {
+      "check": "OS grouping remains the all-80 fixed median",
+      "passed": true
+    },
+    {
+      "check": "OS logrank independently reconstructs from patient risk sets",
+      "passed": true
+    },
+    {
+      "check": "OS events and group sizes correctly reported",
+      "passed": true
+    },
+    {
+      "check": "OS High KM values independently reconstruct",
+      "passed": true
+    },
+    {
+      "check": "OS High numbers at risk match source times",
+      "passed": true
+    },
+    {
+      "check": "OS Low KM values independently reconstruct",
+      "passed": true
+    },
+    {
+      "check": "OS Low numbers at risk match source times",
+      "passed": true
+    },
+    {
+      "check": "TTR cohort selected solely by valid source follow-up",
+      "passed": true
+    },
+    {
+      "check": "TTR times/events unchanged",
+      "passed": true
+    },
+    {
+      "check": "TTR grouping remains the all-80 fixed median",
+      "passed": true
+    },
+    {
+      "check": "TTR logrank independently reconstructs from patient risk sets",
+      "passed": true
+    },
+    {
+      "check": "TTR events and group sizes correctly reported",
+      "passed": true
+    },
+    {
+      "check": "TTR High KM values independently reconstruct",
+      "passed": true
+    },
+    {
+      "check": "TTR High numbers at risk match source times",
+      "passed": true
+    },
+    {
+      "check": "TTR Low KM values independently reconstruct",
+      "passed": true
+    },
+    {
+      "check": "TTR Low numbers at risk match source times",
+      "passed": true
+    },
+    {
+      "check": "BH correction across the two endpoint logrank tests",
+      "passed": true
+    },
+    {
+      "check": "KM PNG and PDF both exist",
+      "passed": true
+    }
+  ],
+  "limit": "These checks verify computation and source joins, not biological identity or cell-abundance validity."
+}

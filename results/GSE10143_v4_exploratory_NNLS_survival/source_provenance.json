@@ -1,0 +1,30 @@
+{
+  "series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10143",
+  "tumor_matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10141/matrix/GSE10141_series_matrix.txt.gz",
+  "adjacent_metadata_source": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10140/matrix/GSE10140_series_matrix.txt.gz",
+  "tumor_clinical": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10141/suppl/GSE10141_clinical_data_addition_081611.xls.gz",
+  "platform": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL5474&targ=self&form=text&view=full",
+  "platform_SOFT_SHA256": "865dd17409885d0bb9683850b24d7752aea9fb046e869f4c634b4e2a005c8bc7",
+  "reference_source": "results/TCGA_LIHC_PGAM5_exploratory_deconvolution_survival/source_exploratory_reference.tsv",
+  "weights_source": "results/TCGA_LIHC_PGAM5_exploratory_deconvolution_survival/source_reference_row_scales.csv",
+  "retrieved_UTC": "2026-10-11",
+  "input_sha256": {
+    "GPL5474_annotation.tsv.gz": "7f305cbf495ee69b1d181b95432562b3cb34ba35ee96498b4c92e713ec783580",
+    "GSE10140.soft.gz": "1c2db96a8221c9d6add9ab617de1d31bfd0a6fc607f7fd5b6282b7ae955d86ea",
+    "GSE10140_series_matrix.txt.gz": "365f280f687b567920a2ab9ede0134b00e9d85767ef029eb58f2a9a16126fdc6",
+    "GSE10141.soft.gz": "f7f58c8fdd15e5c1e5d8daf12290c1d7efbc5e86949978c0311f8be81a004855",
+    "GSE10141_series_matrix.txt.gz": "ff17bf918062799f295f0acac6eb65c2e973d1e21f67af55b0b233c5f2e997f1",
+    "GSE10142.soft.gz": "5a26ddf03927aa0dfb82b39928603a75d15d66e4cc247b9f0c372ff1489a60c0",
+    "GSE10143.soft.gz": "fc0201647da660c589341558a291a908bb3b392ead9a661fd6733879b99ae335",
+    "clinical.xls.gz": "194155ead86f1d83b3dcde0677cc4c357adbd938bb0e5c02bdbf0fcb18fb02c7",
+    "prior_reference_validation_result.json": "88cb90dab8b95b5f551faa6ec2f7fd15f3bbee723dc55d7d0aca1413c937f2d9",
+    "reference_850x17.tsv": "d5c7df4eeee3c3f2ef1631a41b699b27842756b11f9c9dd2c1b9c06feaaeba68",
+    "reference_row_scales.csv": "7fc0af49e8047866179944e3d472a389bdf92f810bb09a1594384bc60a97abfc"
+  },
+  "compressed_SOFT_payload_sha256": {
+    "GSE10140.soft.gz": "f943b53133c82a0bbf330e8225fe4c0d3e06c7310221a73bc9f7b178d15e306a",
+    "GSE10141.soft.gz": "b64596d2de7c6a24c6915e45c362a9cf97d905494fa6a6a7eec5c86199c9a2aa",
+    "GSE10142.soft.gz": "e5b6d61987bafa7b1d11c13dce87aefb09dcd0469e6ace03ab2557fcaef473b5",
+    "GSE10143.soft.gz": "792513d518467d5a9bfa09879b8c5bac9b1742736f618f142b57af6443e4fb83"
+  }
+}

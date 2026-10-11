@@ -1,0 +1,29 @@
+{
+  "tumor_samples": 80,
+  "original_reference_genes": 850,
+  "measured_reference_genes": 416,
+  "coverage_fraction": 0.4894117647058824,
+  "components": 17,
+  "PGAM5_measured": false,
+  "PGAM5_identity_in_platform": false,
+  "mapped_probes": 6144,
+  "mapped_genes": 6100,
+  "raw_intensity_min": 335.175619,
+  "raw_intensity_max": 73297.16597,
+  "weighted_reference_rank": 17,
+  "weighted_reference_condition": 10.26413347209529,
+  "median_relative_fit_residual": 0.7692745869393445,
+  "median_cutoff": 0.058661612409549785,
+  "high_patients": 40,
+  "low_patients": 40,
+  "nonzero_coefficients": 78,
+  "target_min": 0.0,
+  "target_max": 0.12644885457459523,
+  "linked_recurrence_patients_before_QC": 62,
+  "recurrence_censor_exceeds_OS_censor": [
+    "027",
+    "083"
+  ],
+  "OS_valid": 80,
+  "TTR_valid": 62
+}

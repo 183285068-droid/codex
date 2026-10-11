@@ -1,0 +1,81 @@
+GSM,sample_title,patient_id,OS_time_days,OS_event,adjacent_GSM,adjacent_sample_title,adjacent_OS_time_days,adjacent_OS_event,TTR_time_days,TTR_event,recurrence_censor_exceeds_OS_censor
+GSM256425,Hepatocellular carcinoma (hcc_002),002,443,1,GSM256342,Hepatitis/cirrhotic liver (bkg_002),443.0,1.0,177.0,1.0,False
+GSM256426,Hepatocellular carcinoma (hcc_005),005,1683,1,GSM256344,Hepatitis/cirrhotic liver (bkg_005),1683.0,1.0,682.0,1.0,False
+GSM256427,Hepatocellular carcinoma (hcc_008),008,4085,0,,,,,,,False
+GSM256428,Hepatocellular carcinoma (hcc_009),009,2145,1,,,,,,,False
+GSM256429,Hepatocellular carcinoma (hcc_010),010,1977,0,,,,,,,False
+GSM256430,Hepatocellular carcinoma (hcc_011),011,1868,1,,,,,,,False
+GSM256431,Hepatocellular carcinoma (hcc_012),012,201,1,,,,,,,False
+GSM256432,Hepatocellular carcinoma (hcc_014),014,1604,1,,,,,,,False
+GSM256433,Hepatocellular carcinoma (hcc_015),015,4113,0,GSM256346,Hepatitis/cirrhotic liver (bkg_015),4113.0,0.0,4113.0,0.0,False
+GSM256434,Hepatocellular carcinoma (hcc_016),016,4008,0,GSM256347,Hepatitis/cirrhotic liver (bkg_016),4008.0,0.0,4008.0,0.0,False
+GSM256435,Hepatocellular carcinoma (hcc_017),017,3767,0,GSM256348,Hepatitis/cirrhotic liver (bkg_017),3767.0,0.0,2583.0,1.0,False
+GSM256436,Hepatocellular carcinoma (hcc_020),020,1604,1,GSM256350,Hepatitis/cirrhotic liver (bkg_020),1604.0,1.0,247.0,1.0,False
+GSM256437,Hepatocellular carcinoma (hcc_021),021,1957,1,GSM256351,Hepatitis/cirrhotic liver (bkg_021),1957.0,1.0,553.0,1.0,False
+GSM256438,Hepatocellular carcinoma (hcc_022),022,3789,0,GSM256352,Hepatitis/cirrhotic liver (bkg_022),3789.0,0.0,3749.0,1.0,False
+GSM256439,Hepatocellular carcinoma (hcc_023),023,3890,0,GSM256353,Hepatitis/cirrhotic liver (bkg_023),3890.0,0.0,2108.0,1.0,False
+GSM256440,Hepatocellular carcinoma (hcc_024),024,3807,0,GSM256354,Hepatitis/cirrhotic liver (bkg_024),3807.0,0.0,336.0,1.0,False
+GSM256441,Hepatocellular carcinoma (hcc_025),025,2921,0,GSM256355,Hepatitis/cirrhotic liver (bkg_025),2921.0,0.0,1192.0,1.0,False
+GSM256442,Hepatocellular carcinoma (hcc_027),027,3237,0,GSM256357,Hepatitis/cirrhotic liver (bkg_027),3237.0,0.0,3876.0,0.0,True
+GSM256443,Hepatocellular carcinoma (hcc_028),028,1097,0,GSM256358,Hepatitis/cirrhotic liver (bkg_028),1097.0,0.0,1097.0,0.0,False
+GSM256444,Hepatocellular carcinoma (hcc_029),029,2369,0,GSM256359,Hepatitis/cirrhotic liver (bkg_029),2369.0,0.0,805.0,1.0,False
+GSM256445,Hepatocellular carcinoma (hcc_031),031,2849,1,GSM256360,Hepatitis/cirrhotic liver (bkg_031),2849.0,1.0,1161.0,1.0,False
+GSM256446,Hepatocellular carcinoma (hcc_032),032,3973,0,GSM256361,Hepatitis/cirrhotic liver (bkg_032),3973.0,0.0,2876.0,1.0,False
+GSM256447,Hepatocellular carcinoma (hcc_033),033,3866,0,GSM256362,Hepatitis/cirrhotic liver (bkg_033),3866.0,0.0,1763.0,1.0,False
+GSM256448,Hepatocellular carcinoma (hcc_035),035,2019,1,GSM256363,Hepatitis/cirrhotic liver (bkg_035),2019.0,1.0,700.0,1.0,False
+GSM256449,Hepatocellular carcinoma (hcc_036),036,3263,1,GSM256364,Hepatitis/cirrhotic liver (bkg_036),3263.0,1.0,147.0,1.0,False
+GSM256450,Hepatocellular carcinoma (hcc_038),038,3582,0,GSM256365,Hepatitis/cirrhotic liver (bkg_038),3582.0,0.0,3012.0,1.0,False
+GSM256451,Hepatocellular carcinoma (hcc_039),039,3666,0,GSM256366,Hepatitis/cirrhotic liver (bkg_039),3666.0,0.0,2277.0,1.0,False
+GSM256452,Hepatocellular carcinoma (hcc_040),040,3483,0,GSM256367,Hepatitis/cirrhotic liver (bkg_040),3483.0,0.0,289.0,1.0,False
+GSM256453,Hepatocellular carcinoma (hcc_041),041,3400,0,GSM256368,Hepatitis/cirrhotic liver (bkg_041),3400.0,0.0,3400.0,0.0,False
+GSM256454,Hepatocellular carcinoma (hcc_043),043,3589,0,GSM256369,Hepatitis/cirrhotic liver (bkg_043),3589.0,0.0,437.0,1.0,False
+GSM256455,Hepatocellular carcinoma (hcc_045),045,3736,1,GSM256370,Hepatitis/cirrhotic liver (bkg_045),3736.0,1.0,644.0,1.0,False
+GSM256456,Hepatocellular carcinoma (hcc_047),047,2405,1,GSM256371,Hepatitis/cirrhotic liver (bkg_047),2405.0,1.0,2342.0,1.0,False
+GSM256457,Hepatocellular carcinoma (hcc_048),048,3356,0,GSM256372,Hepatitis/cirrhotic liver (bkg_048),3356.0,0.0,2534.0,1.0,False
+GSM256458,Hepatocellular carcinoma (hcc_049),049,3652,0,GSM256373,Hepatitis/cirrhotic liver (bkg_049),3652.0,0.0,512.0,1.0,False
+GSM256459,Hepatocellular carcinoma (hcc_051),051,764,1,GSM256375,Hepatitis/cirrhotic liver (bkg_051),764.0,1.0,479.0,1.0,False
+GSM256460,Hepatocellular carcinoma (hcc_052),052,1844,0,GSM256376,Hepatitis/cirrhotic liver (bkg_052),1844.0,0.0,1662.0,0.0,False
+GSM256461,Hepatocellular carcinoma (hcc_053),053,669,1,GSM256377,Hepatitis/cirrhotic liver (bkg_053),669.0,1.0,135.0,1.0,False
+GSM256462,Hepatocellular carcinoma (hcc_054),054,3708,1,,,,,,,False
+GSM256463,Hepatocellular carcinoma (hcc_055),055,3463,0,GSM256378,Hepatitis/cirrhotic liver (bkg_055),3463.0,0.0,2145.0,1.0,False
+GSM256464,Hepatocellular carcinoma (hcc_056),056,3183,0,GSM256379,Hepatitis/cirrhotic liver (bkg_056),3183.0,0.0,3183.0,0.0,False
+GSM256465,Hepatocellular carcinoma (hcc_058),058,3309,0,GSM256380,Hepatitis/cirrhotic liver (bkg_058),3309.0,0.0,370.0,1.0,False
+GSM256466,Hepatocellular carcinoma (hcc_059),059,3218,0,GSM256381,Hepatitis/cirrhotic liver (bkg_059),3218.0,0.0,3218.0,0.0,False
+GSM256467,Hepatocellular carcinoma (hcc_061),061,2945,1,,,,,,,False
+GSM256468,Hepatocellular carcinoma (hcc_062),062,3183,0,GSM256382,Hepatitis/cirrhotic liver (bkg_062),3183.0,0.0,373.0,1.0,False
+GSM256469,Hepatocellular carcinoma (hcc_064),064,2859,1,GSM256383,Hepatitis/cirrhotic liver (bkg_064),2859.0,1.0,310.0,1.0,False
+GSM256470,Hepatocellular carcinoma (hcc_065),065,204,0,GSM256384,Hepatitis/cirrhotic liver (bkg_065),204.0,0.0,204.0,1.0,False
+GSM256471,Hepatocellular carcinoma (hcc_066),066,1785,1,GSM256385,Hepatitis/cirrhotic liver (bkg_066),1785.0,1.0,436.0,1.0,False
+GSM256472,Hepatocellular carcinoma (hcc_067),067,3133,0,GSM256386,Hepatitis/cirrhotic liver (bkg_067),3133.0,0.0,2046.0,1.0,False
+GSM256473,Hepatocellular carcinoma (hcc_068),068,3224,0,,,,,,,False
+GSM256474,Hepatocellular carcinoma (hcc_069),069,2910,0,GSM256387,Hepatitis/cirrhotic liver (bkg_069),2910.0,0.0,2910.0,0.0,False
+GSM256475,Hepatocellular carcinoma (hcc_070),070,2958,0,,,,,,,False
+GSM256476,Hepatocellular carcinoma (hcc_072),072,438,0,,,,,,,False
+GSM256477,Hepatocellular carcinoma (hcc_073),073,3316,0,GSM256388,Hepatitis/cirrhotic liver (bkg_073),3316.0,0.0,1057.0,1.0,False
+GSM256478,Hepatocellular carcinoma (hcc_075),075,3309,0,GSM256389,Hepatitis/cirrhotic liver (bkg_075),3309.0,0.0,888.0,1.0,False
+GSM256479,Hepatocellular carcinoma (hcc_076),076,1140,1,,,,,,,False
+GSM256480,Hepatocellular carcinoma (hcc_078),078,2832,0,,,,,,,False
+GSM256481,Hepatocellular carcinoma (hcc_079),079,2805,0,GSM256391,Hepatitis/cirrhotic liver (bkg_079),2805.0,0.0,2805.0,0.0,False
+GSM256482,Hepatocellular carcinoma (hcc_080),080,2812,0,GSM256392,Hepatitis/cirrhotic liver (bkg_080),2812.0,0.0,668.0,1.0,False
+GSM256483,Hepatocellular carcinoma (hcc_082),082,1167,1,GSM256393,Hepatitis/cirrhotic liver (bkg_082),1167.0,1.0,335.0,1.0,False
+GSM256484,Hepatocellular carcinoma (hcc_083),083,830,0,GSM256394,Hepatitis/cirrhotic liver (bkg_083),830.0,0.0,2810.0,0.0,True
+GSM256485,Hepatocellular carcinoma (hcc_084),084,1077,0,GSM256395,Hepatitis/cirrhotic liver (bkg_084),1077.0,0.0,504.0,1.0,False
+GSM256486,Hepatocellular carcinoma (hcc_086),086,2762,0,GSM256396,Hepatitis/cirrhotic liver (bkg_086),2762.0,0.0,1233.0,1.0,False
+GSM256487,Hepatocellular carcinoma (hcc_094),094,1149,1,GSM256400,Hepatitis/cirrhotic liver (bkg_094),1149.0,1.0,470.0,1.0,False
+GSM256488,Hepatocellular carcinoma (hcc_097),097,2450,1,GSM256401,Hepatitis/cirrhotic liver (bkg_097),2450.0,1.0,1107.0,1.0,False
+GSM256489,Hepatocellular carcinoma (hcc_099),099,718,1,,,,,,,False
+GSM256490,Hepatocellular carcinoma (hcc_101),101,408,1,GSM256403,Hepatitis/cirrhotic liver (bkg_101),408.0,1.0,278.0,1.0,False
+GSM256491,Hepatocellular carcinoma (hcc_103),103,1680,0,GSM256404,Hepatitis/cirrhotic liver (bkg_103),1680.0,0.0,1225.0,1.0,False
+GSM256492,Hepatocellular carcinoma (hcc_104),104,4105,1,GSM256405,Hepatitis/cirrhotic liver (bkg_104),4105.0,1.0,332.0,1.0,False
+GSM256493,Hepatocellular carcinoma (hcc_106),106,913,1,GSM256406,Hepatitis/cirrhotic liver (bkg_106),913.0,1.0,580.0,1.0,False
+GSM256494,Hepatocellular carcinoma (hcc_107),107,5702,0,GSM256407,Hepatitis/cirrhotic liver (bkg_107),5702.0,0.0,2025.0,1.0,False
+GSM256495,Hepatocellular carcinoma (hcc_109),109,729,1,GSM256408,Hepatitis/cirrhotic liver (bkg_109),729.0,1.0,384.0,1.0,False
+GSM256496,Hepatocellular carcinoma (hcc_112),112,1603,1,,,,,,,False
+GSM256497,Hepatocellular carcinoma (hcc_114),114,2106,1,,,,,,,False
+GSM256498,Hepatocellular carcinoma (hcc_116),116,5466,0,GSM256411,Hepatitis/cirrhotic liver (bkg_116),5466.0,0.0,3562.0,1.0,False
+GSM256499,Hepatocellular carcinoma (hcc_117),117,5128,0,GSM256412,Hepatitis/cirrhotic liver (bkg_117),5128.0,0.0,5128.0,0.0,False
+GSM256500,Hepatocellular carcinoma (hcc_125),125,3927,1,,,,,,,False
+GSM256501,Hepatocellular carcinoma (hcc_126),126,842,1,GSM256417,Hepatitis/cirrhotic liver (bkg_126),842.0,1.0,273.0,1.0,False
+GSM256502,Hepatocellular carcinoma (hcc_128),128,1855,0,GSM256419,Hepatitis/cirrhotic liver (bkg_128),1855.0,0.0,1615.0,1.0,False
+GSM256503,Hepatocellular carcinoma (hcc_132),132,5313,0,,,,,,,False
+GSM256504,Hepatocellular carcinoma (hcc_133),133,5528,0,GSM256422,Hepatitis/cirrhotic liver (bkg_133),5528.0,0.0,5528.0,0.0,False
