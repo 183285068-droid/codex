@@ -1,0 +1,1154 @@
+[
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_aligned_fiducials.jpg.gz",
+    "name": "GSM8627602_A009T1_aligned_fiducials.jpg.gz",
+    "bytes": 1380216,
+    "sha256": "724907ff077a0534588bb973a54d2dd4ad5e697a724a634eeca5fc6bc25e03d5"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_barcodes.tsv.gz",
+    "name": "GSM8627602_A009T1_barcodes.tsv.gz",
+    "bytes": 10357,
+    "sha256": "b4848cd1a394cf399b3531dc56f9b4617a8c319fd57aeffa6929282193990aee"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_detected_tissue_image.jpg.gz",
+    "name": "GSM8627602_A009T1_detected_tissue_image.jpg.gz",
+    "bytes": 1805929,
+    "sha256": "40910a0ff4595c790213874d476fbe5346f5cf60ed6c2ea95a7e753665a82a2b"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_features.tsv.gz",
+    "name": "GSM8627602_A009T1_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "c6694206d052e6d946c3bbeeabb710c476f29f63c863d41a663e273b285e50f4"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_matrix.mtx.gz",
+    "name": "GSM8627602_A009T1_matrix.mtx.gz",
+    "bytes": 27294468,
+    "sha256": "11723c2099e487d150058767a0ef2056ce393332670c63a622184159691e6234"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_scalefactors_json.json.gz",
+    "name": "GSM8627602_A009T1_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "677c8a0dc543f749245984698a17911d8415b289047590919da3ac9b721030d7"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_tissue_hires_image.png.gz",
+    "name": "GSM8627602_A009T1_tissue_hires_image.png.gz",
+    "bytes": 4507186,
+    "sha256": "3165a62563fdeb98fdb9422431842ef6c92614c397dda0fd12c55f6470799921"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_tissue_lowres_image.png.gz",
+    "name": "GSM8627602_A009T1_tissue_lowres_image.png.gz",
+    "bytes": 433342,
+    "sha256": "f941b7013f5f1f01d264f301b69b6a904d81af101a737ff26167622a81a55563"
+  },
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627602/suppl/GSM8627602_A009T1_tissue_positions_list.csv.gz",
+    "name": "GSM8627602_A009T1_tissue_positions_list.csv.gz",
+    "bytes": 55674,
+    "sha256": "e229272ed8f07ff924211735535a8f75567cefac5729ba2f5825a93cdfaf6581"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_aligned_fiducials.jpg.gz",
+    "name": "GSM8627603_A009T2_aligned_fiducials.jpg.gz",
+    "bytes": 1350167,
+    "sha256": "2ccd307d41e3420ff02238556b9fe21783cb806e147d4ddfcf8c7f6ded6a5fef"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_barcodes.tsv.gz",
+    "name": "GSM8627603_A009T2_barcodes.tsv.gz",
+    "bytes": 9217,
+    "sha256": "6e7b573225287b5a21a99eaaffb68b1a8a87b8d4e6c186f887834b7ced00eadb"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_detected_tissue_image.jpg.gz",
+    "name": "GSM8627603_A009T2_detected_tissue_image.jpg.gz",
+    "bytes": 1788465,
+    "sha256": "35b1f35dbb7b9be952b1060744bbfa067fadcac2d979e994bd054da112cb9c61"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_features.tsv.gz",
+    "name": "GSM8627603_A009T2_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "a8157b2e7bae640755c9aa96cdf851f0240f3a7c35da11010729f2e9e427ede7"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_matrix.mtx.gz",
+    "name": "GSM8627603_A009T2_matrix.mtx.gz",
+    "bytes": 21498307,
+    "sha256": "c957f3407e6840bfebaf74c633ee81c2acf26c9342740703d383f18fbedeb497"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_scalefactors_json.json.gz",
+    "name": "GSM8627603_A009T2_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "79ce48fdec6131305e445eff58c56fed1be174ae1dcdac2e52a670a61e59b9fb"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_tissue_hires_image.png.gz",
+    "name": "GSM8627603_A009T2_tissue_hires_image.png.gz",
+    "bytes": 4190413,
+    "sha256": "90fffa5fb659570d61558392b626e1be2b4da6b2815d811e46157502cc4fc0fd"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_tissue_lowres_image.png.gz",
+    "name": "GSM8627603_A009T2_tissue_lowres_image.png.gz",
+    "bytes": 413398,
+    "sha256": "32d48ca41ce071a647b7d8980d743454bed676e65c9fa23c2a6863ae5162f90a"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627603/suppl/GSM8627603_A009T2_tissue_positions_list.csv.gz",
+    "name": "GSM8627603_A009T2_tissue_positions_list.csv.gz",
+    "bytes": 53004,
+    "sha256": "7c9841ede7c5ed977790d9c15a05f8cc8c493ba96eead42a586c0f770219d12a"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_aligned_fiducials.jpg.gz",
+    "name": "GSM8627604_A009T3_aligned_fiducials.jpg.gz",
+    "bytes": 1369803,
+    "sha256": "8914b8677a5ae7be36d59d8c02192b9eca3b8b409f6e344dd2a686ff51c41ba0"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_barcodes.tsv.gz",
+    "name": "GSM8627604_A009T3_barcodes.tsv.gz",
+    "bytes": 7865,
+    "sha256": "7d1068c097b7366e566a1e30baed484094451dad5c9358620ecb4823bac7e32a"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_detected_tissue_image.jpg.gz",
+    "name": "GSM8627604_A009T3_detected_tissue_image.jpg.gz",
+    "bytes": 1932459,
+    "sha256": "3617b3b665d923534c390e1574915a6b72b4493c52202eca9fd61a09848e87f7"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_features.tsv.gz",
+    "name": "GSM8627604_A009T3_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "f7f7dbe43df9bf0f630680570a2c36f5ef60e126087f4f155e14453e2b163a20"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_matrix.mtx.gz",
+    "name": "GSM8627604_A009T3_matrix.mtx.gz",
+    "bytes": 19117208,
+    "sha256": "4783b0fb2d7a8c5883ab1fbe871198c883eeeb4377f0a3c9f4a42d719d19c30c"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_scalefactors_json.json.gz",
+    "name": "GSM8627604_A009T3_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "13c7a5054e2f687fc5b674e694de53ddeb57b1533cb45baad4d0ee3b3e3739a2"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_tissue_hires_image.png.gz",
+    "name": "GSM8627604_A009T3_tissue_hires_image.png.gz",
+    "bytes": 3745083,
+    "sha256": "cd9d10b445e29381aea02f1f4c8be58b5ac1fa87d26b40212b95ee11dd2455c4"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_tissue_lowres_image.png.gz",
+    "name": "GSM8627604_A009T3_tissue_lowres_image.png.gz",
+    "bytes": 367945,
+    "sha256": "a155d6e9a45c6bc0658e2e76d701ccda6e12dbb55a05226580653682f5cb4b17"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627604/suppl/GSM8627604_A009T3_tissue_positions_list.csv.gz",
+    "name": "GSM8627604_A009T3_tissue_positions_list.csv.gz",
+    "bytes": 55749,
+    "sha256": "6d4463e0a20566342d7b5a54c58c7a5faa3b04e0431286f9ae68e5299c2cec1f"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_aligned_fiducials.jpg.gz",
+    "name": "GSM8627605_A009T4_aligned_fiducials.jpg.gz",
+    "bytes": 1671780,
+    "sha256": "4d263e4ab318f347e9b3c12af59ee97ff23efc34331ec3e22d62846be2940fc5"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_barcodes.tsv.gz",
+    "name": "GSM8627605_A009T4_barcodes.tsv.gz",
+    "bytes": 13686,
+    "sha256": "9b1c1bcbd555ed2fd7d81c9f88b0ade8815666d9c5b22a534c51880d9bc044ed"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_detected_tissue_image.jpg.gz",
+    "name": "GSM8627605_A009T4_detected_tissue_image.jpg.gz",
+    "bytes": 2005754,
+    "sha256": "12e7e15d0b35bdf92296fb8d4bd814526f091e3eb807444b330f5028e17b7ac1"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_features.tsv.gz",
+    "name": "GSM8627605_A009T4_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "fd6bc69be9d05b228771ff3d7cecd41501d0526a4be72127737ce9b1ec992abc"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_matrix.mtx.gz",
+    "name": "GSM8627605_A009T4_matrix.mtx.gz",
+    "bytes": 45354226,
+    "sha256": "5718553ff033810faeb3831c5a2f329fdd55af2aa0edb50f80fbe630b6579c20"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_scalefactors_json.json.gz",
+    "name": "GSM8627605_A009T4_scalefactors_json.json.gz",
+    "bytes": 163,
+    "sha256": "ca26b2b1c257a9f9ae08bc6134bf5d9062cf16840182e2fe4c1fa43a515557b8"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_tissue_hires_image.png.gz",
+    "name": "GSM8627605_A009T4_tissue_hires_image.png.gz",
+    "bytes": 4656061,
+    "sha256": "2d7061b16d7039f985b840f0b7b9a4911c5b048782a9fe401f96f6b622037d2f"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_tissue_lowres_image.png.gz",
+    "name": "GSM8627605_A009T4_tissue_lowres_image.png.gz",
+    "bytes": 456356,
+    "sha256": "0bd7d9bb53ceb0b0170e1373c11e64ca8edaae392cfe271b98c7aa39972c43ff"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627605/suppl/GSM8627605_A009T4_tissue_positions_list.csv.gz",
+    "name": "GSM8627605_A009T4_tissue_positions_list.csv.gz",
+    "bytes": 58134,
+    "sha256": "43f78e1ee9af0ece07fc8465e55e75fdf8cdcd9ecc4e81f0b8ab6a5054a2d005"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_aligned_fiducials.jpg.gz",
+    "name": "GSM8627606_A009T5_aligned_fiducials.jpg.gz",
+    "bytes": 1409379,
+    "sha256": "975fd2912da427da1621c9f9364defad239f169d61db563bb50b48ca158dc117"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_barcodes.tsv.gz",
+    "name": "GSM8627606_A009T5_barcodes.tsv.gz",
+    "bytes": 11310,
+    "sha256": "0d887fe6fea49345336ca8d817fb15ca7c2f0ca47ed80c6263edc5653fd6d255"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_detected_tissue_image.jpg.gz",
+    "name": "GSM8627606_A009T5_detected_tissue_image.jpg.gz",
+    "bytes": 1894859,
+    "sha256": "093371baa6fa493b0179cfd7f907ebd001266d399f3e5111a9ee89e545482620"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_features.tsv.gz",
+    "name": "GSM8627606_A009T5_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "e3bbb353fad1ef4dfc1048debaf32b1dba706d9a938f28a3cb72b1767eef5376"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_matrix.mtx.gz",
+    "name": "GSM8627606_A009T5_matrix.mtx.gz",
+    "bytes": 37349950,
+    "sha256": "a39ebb7c8d4bae06073a76f20fae905696db86ec39d9b55808595380e66a893b"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_scalefactors_json.json.gz",
+    "name": "GSM8627606_A009T5_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "797f716b296db864324a139d01e83f91351360bb7bc98627be3431a549d3eaee"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_tissue_hires_image.png.gz",
+    "name": "GSM8627606_A009T5_tissue_hires_image.png.gz",
+    "bytes": 4292453,
+    "sha256": "37c073fae6c9d55bcd2fa73c137de4bcc48f79a5222e360932012914df400942"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_tissue_lowres_image.png.gz",
+    "name": "GSM8627606_A009T5_tissue_lowres_image.png.gz",
+    "bytes": 409766,
+    "sha256": "9cf6addf1c37f97ff45416a9ac4c1ab10cbad13455cd89da30b564fb220dc3db"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627606/suppl/GSM8627606_A009T5_tissue_positions_list.csv.gz",
+    "name": "GSM8627606_A009T5_tissue_positions_list.csv.gz",
+    "bytes": 55123,
+    "sha256": "f8282462ac7495ac9a1307f4f6d23620c89f4afeeabbd47a9ed55ee77d861bf1"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_aligned_fiducials.jpg.gz",
+    "name": "GSM8627607_B0013T1_aligned_fiducials.jpg.gz",
+    "bytes": 1212772,
+    "sha256": "383c6f6ff4b7388d7059fa001ddda179bd15a88d28ec82505bf40c299cf30ee9"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_barcodes.tsv.gz",
+    "name": "GSM8627607_B0013T1_barcodes.tsv.gz",
+    "bytes": 7075,
+    "sha256": "603e189b377924d8201991b6c2de7d128cf785aebd007aa4d39e3513df5719d7"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_detected_tissue_image.jpg.gz",
+    "name": "GSM8627607_B0013T1_detected_tissue_image.jpg.gz",
+    "bytes": 1781119,
+    "sha256": "cd8cb7548acdfd061d1566168fb6b857057874234ec8717f34819d237b9405c6"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_features.tsv.gz",
+    "name": "GSM8627607_B0013T1_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "b6c1f8dc3292aa3d5edd02241856d52c2d18ca1a1c64b092c074e5fb6487f049"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_matrix.mtx.gz",
+    "name": "GSM8627607_B0013T1_matrix.mtx.gz",
+    "bytes": 13009559,
+    "sha256": "190e07514e9651936b48430b48934903c2294d8583715a229b3ed47a9bc5d5bd"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_scalefactors_json.json.gz",
+    "name": "GSM8627607_B0013T1_scalefactors_json.json.gz",
+    "bytes": 164,
+    "sha256": "0f51607d9bcbfe5207c4cddd1ad4ab48eb36d58de748c85b91d36cb69e0cc900"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_tissue_hires_image.png.gz",
+    "name": "GSM8627607_B0013T1_tissue_hires_image.png.gz",
+    "bytes": 3767497,
+    "sha256": "03dc4ae5cf75f98ff43ef20e0777c7bebe8008e07f7809d4447a833b19627589"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_tissue_lowres_image.png.gz",
+    "name": "GSM8627607_B0013T1_tissue_lowres_image.png.gz",
+    "bytes": 389231,
+    "sha256": "79c8f8a16fab5c27b954352f8f1e37f198dbc5785077de267f2e913fbb3bfdec"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627607/suppl/GSM8627607_B0013T1_tissue_positions_list.csv.gz",
+    "name": "GSM8627607_B0013T1_tissue_positions_list.csv.gz",
+    "bytes": 55470,
+    "sha256": "6f207bb25cc44c3201c5a5409b7ec11dd68807b76d55a3d58ea6fb9a1487ba0d"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_aligned_fiducials.jpg.gz",
+    "name": "GSM8627608_B0013T2_aligned_fiducials.jpg.gz",
+    "bytes": 1335172,
+    "sha256": "4f2cca6741e63345e7f2fdb08c2047f05d31e40f855d31864c50679d86e5f89a"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_barcodes.tsv.gz",
+    "name": "GSM8627608_B0013T2_barcodes.tsv.gz",
+    "bytes": 7498,
+    "sha256": "9bbb52e3d11550a920e463128b888ed5abdbf66af7710ae41afb13ce82aee5f2"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_detected_tissue_image.jpg.gz",
+    "name": "GSM8627608_B0013T2_detected_tissue_image.jpg.gz",
+    "bytes": 1898737,
+    "sha256": "92c7b9e94cb2dffb8f19c50ac93fe4033db4ad545441bc26adbc012bdb9613d2"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_features.tsv.gz",
+    "name": "GSM8627608_B0013T2_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "d22098a09a84a0576ca102e35aa70ec995f1ee2171d324f9f4fa4d3cc0a74199"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_matrix.mtx.gz",
+    "name": "GSM8627608_B0013T2_matrix.mtx.gz",
+    "bytes": 16372385,
+    "sha256": "ab6383259828eed6e6f9a12ca99cf3cb734c65acc3f77e5285a37d317a751bd3"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_scalefactors_json.json.gz",
+    "name": "GSM8627608_B0013T2_scalefactors_json.json.gz",
+    "bytes": 166,
+    "sha256": "480453ad951f6b3d7cb12298710e7c8310e3f42ee5fca2da50e7a1317bebc788"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_tissue_hires_image.png.gz",
+    "name": "GSM8627608_B0013T2_tissue_hires_image.png.gz",
+    "bytes": 3910656,
+    "sha256": "86a19d4255ef41b71c0db9d487ff492e252ac443e048dfd572d42d0f626d2486"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_tissue_lowres_image.png.gz",
+    "name": "GSM8627608_B0013T2_tissue_lowres_image.png.gz",
+    "bytes": 386021,
+    "sha256": "54bf7e25f6d9632bf137f5238f97e650b5dca50850141e0ecfe62e92f8ce4e9f"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627608/suppl/GSM8627608_B0013T2_tissue_positions_list.csv.gz",
+    "name": "GSM8627608_B0013T2_tissue_positions_list.csv.gz",
+    "bytes": 52966,
+    "sha256": "79cbd0fbaad73dd8a0a98633ec732c4ff3f3e2f05a58e52e925be4a16ed6acb3"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_aligned_fiducials.jpg.gz",
+    "name": "GSM8627609_B0013T3_aligned_fiducials.jpg.gz",
+    "bytes": 1197494,
+    "sha256": "18c836c78206b0e02ce2da13415ea33fb8df126742b45709f902e5a71ad7584a"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_barcodes.tsv.gz",
+    "name": "GSM8627609_B0013T3_barcodes.tsv.gz",
+    "bytes": 8766,
+    "sha256": "fc5568bdcd0fcec7a1d578b6b5e6ca60ca83cd5ace9dc160941cf187205d05f0"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_detected_tissue_image.jpg.gz",
+    "name": "GSM8627609_B0013T3_detected_tissue_image.jpg.gz",
+    "bytes": 1697208,
+    "sha256": "e28e034c2c42b51226f1afe9dba44b97daaa18e538c39e6562603a3645c43e31"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_features.tsv.gz",
+    "name": "GSM8627609_B0013T3_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "690ff53691fbb4aedb58ce2544ef0ffeaa0ebf6e7a5acb4f1845a1402cb87943"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_matrix.mtx.gz",
+    "name": "GSM8627609_B0013T3_matrix.mtx.gz",
+    "bytes": 15873154,
+    "sha256": "83210701f3dbfbc79d6dc077bf76a10aad9e2cf12281638684c3d3640cb560c6"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_scalefactors_json.json.gz",
+    "name": "GSM8627609_B0013T3_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "b6ceb1c108f81480d6a0440d0095a2f13344e3457a5ea4347259a3136b4e6619"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_tissue_hires_image.png.gz",
+    "name": "GSM8627609_B0013T3_tissue_hires_image.png.gz",
+    "bytes": 4002843,
+    "sha256": "90e67e6b0bec906cbc208a4d93eef44109fdea59ab198dbdeef8767d92826fb8"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_tissue_lowres_image.png.gz",
+    "name": "GSM8627609_B0013T3_tissue_lowres_image.png.gz",
+    "bytes": 373574,
+    "sha256": "2bb483494accf9ddf71c0d1143cc6bd7d2db1c588ab39daeced630fd889e5019"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627609/suppl/GSM8627609_B0013T3_tissue_positions_list.csv.gz",
+    "name": "GSM8627609_B0013T3_tissue_positions_list.csv.gz",
+    "bytes": 56385,
+    "sha256": "d9c1cd497d8abdeb2941113e358b8df642124c39b9472cc07f1554300fd9b3bc"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_aligned_fiducials.jpg.gz",
+    "name": "GSM8627610_B0013T4_aligned_fiducials.jpg.gz",
+    "bytes": 1347581,
+    "sha256": "5fababe50081ce55864ebc0b4533e686681f6b1dc8347cf1d13f8807cd6522fe"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_barcodes.tsv.gz",
+    "name": "GSM8627610_B0013T4_barcodes.tsv.gz",
+    "bytes": 11073,
+    "sha256": "57c33109ed22e5812290e9769510d6ab78d5102bfedf9cab21333931966470d6"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_detected_tissue_image.jpg.gz",
+    "name": "GSM8627610_B0013T4_detected_tissue_image.jpg.gz",
+    "bytes": 1839602,
+    "sha256": "4be41444d1b74748b59be6310b761ff4277786bff5b57d9d5d017d7971fbf0e5"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_features.tsv.gz",
+    "name": "GSM8627610_B0013T4_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "19c53d9bd6a66f0f3737204a97ec340dd2b75b2bed73151cc49e94c2718f3775"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_matrix.mtx.gz",
+    "name": "GSM8627610_B0013T4_matrix.mtx.gz",
+    "bytes": 21297264,
+    "sha256": "2cb9f39221b22c9d008f9d9c31b2fc132a1b7e64ffa0078289f846e8a930da02"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_scalefactors_json.json.gz",
+    "name": "GSM8627610_B0013T4_scalefactors_json.json.gz",
+    "bytes": 166,
+    "sha256": "e57ae911864e22e47866500c3eae09fc4c3c9e7af913696c79bbfe32bb5f593f"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_tissue_hires_image.png.gz",
+    "name": "GSM8627610_B0013T4_tissue_hires_image.png.gz",
+    "bytes": 4126338,
+    "sha256": "fa2df38f167a6d810329fbdbded148724cfe94111c69b684748c6b56aa594c3a"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_tissue_lowres_image.png.gz",
+    "name": "GSM8627610_B0013T4_tissue_lowres_image.png.gz",
+    "bytes": 406424,
+    "sha256": "17397370cee7f6cc26118e365de2e2d7b49a566cef829657a936b03e3cdfeec7"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627610/suppl/GSM8627610_B0013T4_tissue_positions_list.csv.gz",
+    "name": "GSM8627610_B0013T4_tissue_positions_list.csv.gz",
+    "bytes": 58190,
+    "sha256": "db8aa45c25fb6f9cb8072a94b8a60786005b2789ca36dbcfcf5b4c66dc5286d2"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_aligned_fiducials.jpg.gz",
+    "name": "GSM8627611_B013T5_aligned_fiducials.jpg.gz",
+    "bytes": 1359413,
+    "sha256": "61e3d98f72a4723a811f07525af51c61514c59a229140dab4b6c34119a1158ea"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_barcodes.tsv.gz",
+    "name": "GSM8627611_B013T5_barcodes.tsv.gz",
+    "bytes": 8788,
+    "sha256": "cbab6bd9ad29cbaa22aa5df6af5520d7d64e6e0dd84ea642229079e618953772"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_detected_tissue_image.jpg.gz",
+    "name": "GSM8627611_B013T5_detected_tissue_image.jpg.gz",
+    "bytes": 1883152,
+    "sha256": "e679d2e185d4b061c1beaac6c98f357f83c57c05cbf4ddffc41e3aedc85b0ba1"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_features.tsv.gz",
+    "name": "GSM8627611_B013T5_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "cd8e3621a3ce94bc72cbac28cfb4793e90fb410ef115141f6f1d3137b6b3bac9"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_matrix.mtx.gz",
+    "name": "GSM8627611_B013T5_matrix.mtx.gz",
+    "bytes": 25862221,
+    "sha256": "b82c59436ff91608d0223dbfe7a361ccc307f5b0edd16bf24e8c6cc1906e2c2f"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_scalefactors_json.json.gz",
+    "name": "GSM8627611_B013T5_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "bf010d1b28efb1a5fc26d8607831d8958db9d41b91082153d114b2adefdf08da"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_tissue_hires_image.png.gz",
+    "name": "GSM8627611_B013T5_tissue_hires_image.png.gz",
+    "bytes": 3814163,
+    "sha256": "1f41027a1971506268fcd50dba4e0e1d500ffc1e2cadad775e8300b625311b7a"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_tissue_lowres_image.png.gz",
+    "name": "GSM8627611_B013T5_tissue_lowres_image.png.gz",
+    "bytes": 383956,
+    "sha256": "622b054925916479cbf0db1236c678c2ef7e8ed38d8f29a4b369ce05ee945913"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627611/suppl/GSM8627611_B013T5_tissue_positions_list.csv.gz",
+    "name": "GSM8627611_B013T5_tissue_positions_list.csv.gz",
+    "bytes": 55089,
+    "sha256": "1fc1a11638cd9ead4917522de730c02f2242f7b0a4405bd3fabda60318e7c30e"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_aligned_fiducials.jpg.gz",
+    "name": "GSM8627612_C004T1P_aligned_fiducials.jpg.gz",
+    "bytes": 1378188,
+    "sha256": "c72189eaf2c4649f6ca5c5b8dbd7b9f29cfbc07212aaaae0f9cfa45ddb3c5d6f"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_barcodes.tsv.gz",
+    "name": "GSM8627612_C004T1P_barcodes.tsv.gz",
+    "bytes": 8763,
+    "sha256": "6b98559a72c04d133043a63a6401097fe2edee429796c91dfd252925f059decd"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_detected_tissue_image.jpg.gz",
+    "name": "GSM8627612_C004T1P_detected_tissue_image.jpg.gz",
+    "bytes": 1919973,
+    "sha256": "041eb84d20cf47b101330830e5f4831fde459bf8f26283ec40e8050dac55c951"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_features.tsv.gz",
+    "name": "GSM8627612_C004T1P_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "dd320925dca1affa0e2d720be4f6f9b739819deeac549f6b46493fefb013e88b"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_matrix.mtx.gz",
+    "name": "GSM8627612_C004T1P_matrix.mtx.gz",
+    "bytes": 13981707,
+    "sha256": "fcfe37fb60f24361e5d1917f956554459694eacf821c54e42f63c7c2ac9a038c"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_scalefactors_json.json.gz",
+    "name": "GSM8627612_C004T1P_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "121d1af63fcc2241371431447468401c2005343a16e06cd3417f9ab4861c1d3b"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_tissue_hires_image.png.gz",
+    "name": "GSM8627612_C004T1P_tissue_hires_image.png.gz",
+    "bytes": 4092128,
+    "sha256": "53dc7366c9681652e6d55ed9d834c6f65b2ea41e790eb0489028d4e0e6a0b8aa"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_tissue_lowres_image.png.gz",
+    "name": "GSM8627612_C004T1P_tissue_lowres_image.png.gz",
+    "bytes": 407190,
+    "sha256": "dce5644f72a46aa0f641555d7008b5df32ae97a97b01e61d18c7b688ecdf7bd2"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627612/suppl/GSM8627612_C004T1P_tissue_positions_list.csv.gz",
+    "name": "GSM8627612_C004T1P_tissue_positions_list.csv.gz",
+    "bytes": 59025,
+    "sha256": "48cdfa944a0c0254bfbedee4015ea7685fa33123e7f7495b0b56d4076518b03d"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_aligned_fiducials.jpg.gz",
+    "name": "GSM8627613_C004T1R_aligned_fiducials.jpg.gz",
+    "bytes": 1246707,
+    "sha256": "cb2108ff8c92dd9eb26b3b52249d93b6292ca20cb96719c689f87b2c55589f59"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_barcodes.tsv.gz",
+    "name": "GSM8627613_C004T1R_barcodes.tsv.gz",
+    "bytes": 5625,
+    "sha256": "28187ec9e613b344351a1ca122a4eb0cb7ee6dc73801e195ba549ce2082b261e"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_detected_tissue_image.jpg.gz",
+    "name": "GSM8627613_C004T1R_detected_tissue_image.jpg.gz",
+    "bytes": 1850858,
+    "sha256": "85495f0d62e853dfb1ec540bf3d55961903fb6b74a51984ea3d7ed8e8d6751d3"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_features.tsv.gz",
+    "name": "GSM8627613_C004T1R_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "692b611edf27c6d10a2a5e7bb4eb1444755d0b79f7c7b641606198a87719e7d6"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_matrix.mtx.gz",
+    "name": "GSM8627613_C004T1R_matrix.mtx.gz",
+    "bytes": 9590844,
+    "sha256": "8f3000e4e977200ccc008ba2d0ccf47c2da94f185fee84922934a532674a2055"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_scalefactors_json.json.gz",
+    "name": "GSM8627613_C004T1R_scalefactors_json.json.gz",
+    "bytes": 164,
+    "sha256": "470576feeb6b00175481167d0646ba9eaf5cc04402980cc7685165c24c9962b8"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_tissue_hires_image.png.gz",
+    "name": "GSM8627613_C004T1R_tissue_hires_image.png.gz",
+    "bytes": 3571894,
+    "sha256": "d7ce85947d1c9c4b581631953665ff6d1d79b0c17b17c81e51ba9666e2c013a0"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_tissue_lowres_image.png.gz",
+    "name": "GSM8627613_C004T1R_tissue_lowres_image.png.gz",
+    "bytes": 361121,
+    "sha256": "36e3931302a0d1ba0953147aaea377da2f1a96385e0b02d42bcd6e0e0d50d25d"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627613/suppl/GSM8627613_C004T1R_tissue_positions_list.csv.gz",
+    "name": "GSM8627613_C004T1R_tissue_positions_list.csv.gz",
+    "bytes": 59961,
+    "sha256": "a24ba1cba9a636f126bcc4eec90a044b2c7ec870a734f8ca84e0389c81a96140"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_aligned_fiducials.jpg.gz",
+    "name": "GSM8627614_C008T1_aligned_fiducials.jpg.gz",
+    "bytes": 1503601,
+    "sha256": "518974010623c5a6fd947b3471067b75c1631b469ddf28525bf517649ba3c30e"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_barcodes.tsv.gz",
+    "name": "GSM8627614_C008T1_barcodes.tsv.gz",
+    "bytes": 13237,
+    "sha256": "45fbc55653a46f99694843841838f5fab0876cb876791b91b1d8fc048894326a"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_detected_tissue_image.jpg.gz",
+    "name": "GSM8627614_C008T1_detected_tissue_image.jpg.gz",
+    "bytes": 1919956,
+    "sha256": "84c4354b017c7ba01b80cf9626b764f00c59f19a9102bf288752d257be4c0ae2"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_features.tsv.gz",
+    "name": "GSM8627614_C008T1_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "daddb1273f549255456830c2812a9bb191b856871b65dab5d2191957108f556c"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_matrix.mtx.gz",
+    "name": "GSM8627614_C008T1_matrix.mtx.gz",
+    "bytes": 31254353,
+    "sha256": "4d2d945f876b75a417e7958051cb75cf5a34fb0beaff9471b45d75876fe5f47a"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_scalefactors_json.json.gz",
+    "name": "GSM8627614_C008T1_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "402811f2b3fdc14c8974cde4acb3d8b24822e684379e48c7ec03836c76358b77"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_tissue_hires_image.png.gz",
+    "name": "GSM8627614_C008T1_tissue_hires_image.png.gz",
+    "bytes": 4201429,
+    "sha256": "e03382c7a656e9c6f4a41e8324332a77083f01e5e910962433e1398cf75d6f96"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_tissue_lowres_image.png.gz",
+    "name": "GSM8627614_C008T1_tissue_lowres_image.png.gz",
+    "bytes": 419426,
+    "sha256": "9c6bc305433ce7ce4da039247acbd17afb18e5e88028a1a8d0bcdc53e6ad60e4"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627614/suppl/GSM8627614_C008T1_tissue_positions_list.csv.gz",
+    "name": "GSM8627614_C008T1_tissue_positions_list.csv.gz",
+    "bytes": 55762,
+    "sha256": "24cb87daa647d28c4fdd70a8544e6172d8ad808e22603ac553048a4d924f6728"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_aligned_fiducials.jpg.gz",
+    "name": "GSM8627615_C008T2_aligned_fiducials.jpg.gz",
+    "bytes": 1277048,
+    "sha256": "2428c8f38c78e4b4f6360ec636c4c1d8ac56b19864341238ac9da26b1e8b8be5"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_barcodes.tsv.gz",
+    "name": "GSM8627615_C008T2_barcodes.tsv.gz",
+    "bytes": 7752,
+    "sha256": "720bde4888a064b82c1c8fb4725afe0e3918470ee3aa9e3c663e1d5bac7c737d"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_detected_tissue_image.jpg.gz",
+    "name": "GSM8627615_C008T2_detected_tissue_image.jpg.gz",
+    "bytes": 1835684,
+    "sha256": "83630856098347e97d1f6f14032a86cb7bd0b746997bbafeb5b289186de56283"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_features.tsv.gz",
+    "name": "GSM8627615_C008T2_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "c7c30a6cd44e04b6abdaa60ad05bcd618f26f10bd75fbf5ea0ae3816717082dd"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_matrix.mtx.gz",
+    "name": "GSM8627615_C008T2_matrix.mtx.gz",
+    "bytes": 13705748,
+    "sha256": "79d6dd2a2f0d330492c6958837b707cc4570d90e24987dd0b825fc82e44963b8"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_scalefactors_json.json.gz",
+    "name": "GSM8627615_C008T2_scalefactors_json.json.gz",
+    "bytes": 164,
+    "sha256": "2fedae871cea28db0b0a199d6848c3d6300e5845123e2e82a3226cb06af65e3d"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_tissue_hires_image.png.gz",
+    "name": "GSM8627615_C008T2_tissue_hires_image.png.gz",
+    "bytes": 3793857,
+    "sha256": "e69dff123c5c612310f15ff3025d6570d7f7422c6c15d11428ccf206d229496c"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_tissue_lowres_image.png.gz",
+    "name": "GSM8627615_C008T2_tissue_lowres_image.png.gz",
+    "bytes": 378835,
+    "sha256": "f3c8e95914c33da7a78f7b704c161ae790ec114ef5476d080682527c5b618485"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627615/suppl/GSM8627615_C008T2_tissue_positions_list.csv.gz",
+    "name": "GSM8627615_C008T2_tissue_positions_list.csv.gz",
+    "bytes": 52854,
+    "sha256": "155ae4164b4441d55f6ce931e1289a25e4a41a779ebb44804fec280c3baa986e"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_aligned_fiducials.jpg.gz",
+    "name": "GSM8627616_C008T3_aligned_fiducials.jpg.gz",
+    "bytes": 1275404,
+    "sha256": "ce7c8daf511f46be2a7b66fda072113d76f1858438b551346dafad9ecc5b2c88"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_barcodes.tsv.gz",
+    "name": "GSM8627616_C008T3_barcodes.tsv.gz",
+    "bytes": 8823,
+    "sha256": "2be943a2a477c9bd43b0063d5c0249fa5fd2c1f820f6cde2066d10ca35508a29"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_detected_tissue_image.jpg.gz",
+    "name": "GSM8627616_C008T3_detected_tissue_image.jpg.gz",
+    "bytes": 1871337,
+    "sha256": "bb11e1d1ec2edec4402535de516338354125db01e59234f61d53530105b8820b"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_features.tsv.gz",
+    "name": "GSM8627616_C008T3_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "79874b142c0adb74a3a1c0f5c6600c5136429b9dd8d69ed9c8d97e3844e91dbe"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_matrix.mtx.gz",
+    "name": "GSM8627616_C008T3_matrix.mtx.gz",
+    "bytes": 14019621,
+    "sha256": "c973f335627925ab0f3c08ac23af8fd5556118e2604b286b2da76aa58132c169"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_scalefactors_json.json.gz",
+    "name": "GSM8627616_C008T3_scalefactors_json.json.gz",
+    "bytes": 165,
+    "sha256": "06d0e139a302953dc4a2145c43d32d482a7a21a4791b4498f42a978cf370e0dc"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_tissue_hires_image.png.gz",
+    "name": "GSM8627616_C008T3_tissue_hires_image.png.gz",
+    "bytes": 3786080,
+    "sha256": "f31d360022a9ef2a2abc375ac6203b269a71b4d35862118385db30446e6e667c"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_tissue_lowres_image.png.gz",
+    "name": "GSM8627616_C008T3_tissue_lowres_image.png.gz",
+    "bytes": 380868,
+    "sha256": "245b1279bb02993c6101ea729838da1a89cc65d08b4569a41778030d10e8c263"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627616/suppl/GSM8627616_C008T3_tissue_positions_list.csv.gz",
+    "name": "GSM8627616_C008T3_tissue_positions_list.csv.gz",
+    "bytes": 58071,
+    "sha256": "db8330284b87a65ee1fc9ceb4736cc8f819ec900021ce94b2eb06ab20ce152e6"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_aligned_fiducials.jpg.gz",
+    "name": "GSM8627617_C008T4_aligned_fiducials.jpg.gz",
+    "bytes": 1485580,
+    "sha256": "cf95af7de64e3841f119fb23d542be635756559492fc7d444e2e789cf41b2465"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_barcodes.tsv.gz",
+    "name": "GSM8627617_C008T4_barcodes.tsv.gz",
+    "bytes": 10168,
+    "sha256": "4d7539268f08a80526b77b868886dfacbdeaa89e51238d36a60f664de11432d7"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_detected_tissue_image.jpg.gz",
+    "name": "GSM8627617_C008T4_detected_tissue_image.jpg.gz",
+    "bytes": 2019826,
+    "sha256": "ed33f5e7d6433ddcda8b97c4f82116201504ab635e60e2dd0d9660501da0e1ae"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_features.tsv.gz",
+    "name": "GSM8627617_C008T4_features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "092e5061bdf6edeeaf92d5560379f55700ca97bfd38002856d918ddef7dbd4f0"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_matrix.mtx.gz",
+    "name": "GSM8627617_C008T4_matrix.mtx.gz",
+    "bytes": 21979709,
+    "sha256": "a1a5019268e33b6d3b7d452d29babe6af32ccabfa62952f8ed285800f9a19a4d"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_scalefactors_json.json.gz",
+    "name": "GSM8627617_C008T4_scalefactors_json.json.gz",
+    "bytes": 162,
+    "sha256": "66110cf32f2c1ac968e9daa7d5d7709b05f3b0ee825da7fe7cb4888549b54d0a"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_tissue_hires_image.png.gz",
+    "name": "GSM8627617_C008T4_tissue_hires_image.png.gz",
+    "bytes": 3993791,
+    "sha256": "624ac22fde45965e4bab13a74099b5daf546b7b260e82980144948fd93a24886"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_tissue_lowres_image.png.gz",
+    "name": "GSM8627617_C008T4_tissue_lowres_image.png.gz",
+    "bytes": 409584,
+    "sha256": "467ea9080798a5ba1c22a368b008336e24641fc19e10039017b892ccf497399f"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8627nnn/GSM8627617/suppl/GSM8627617_C008T4_tissue_positions_list.csv.gz",
+    "name": "GSM8627617_C008T4_tissue_positions_list.csv.gz",
+    "bytes": 56712,
+    "sha256": "42e960218ea1a12b15a960a26b3763bdaa97ae28462b1a723bd86d8ff89be6f5"
+  }
+]

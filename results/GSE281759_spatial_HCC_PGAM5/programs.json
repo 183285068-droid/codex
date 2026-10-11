@@ -1,0 +1,149 @@
+{
+  "T_lineage": [
+    "CD3D",
+    "CD3E",
+    "CD3G",
+    "TRAC",
+    "TRBC1",
+    "TRBC2"
+  ],
+  "Activation_early": [
+    "CD69",
+    "IL2RA",
+    "TNFRSF9",
+    "ICOS",
+    "CD40LG",
+    "IL2"
+  ],
+  "Effector_cytotoxic": [
+    "IFNG",
+    "PRF1",
+    "GZMB",
+    "GZMA",
+    "CCL5",
+    "TBX21"
+  ],
+  "Exhaustion_core": [
+    "PDCD1",
+    "LAG3",
+    "TIGIT",
+    "CTLA4",
+    "TOX",
+    "CXCL13"
+  ],
+  "Exhaustion_expanded": [
+    "PDCD1",
+    "LAG3",
+    "TIGIT",
+    "CTLA4",
+    "TOX",
+    "CXCL13",
+    "HAVCR2",
+    "ENTPD1"
+  ],
+  "Macrophage_core": [
+    "C1QA",
+    "C1QB",
+    "C1QC",
+    "CD68",
+    "CSF1R",
+    "MERTK",
+    "MSR1"
+  ],
+  "Pan_myeloid": [
+    "LST1",
+    "TYROBP",
+    "FCER1G",
+    "AIF1",
+    "LYZ",
+    "CTSS"
+  ],
+  "B_cell": [
+    "MS4A1",
+    "CD79A",
+    "CD79B",
+    "CD19",
+    "CD22"
+  ],
+  "Plasma": [
+    "JCHAIN",
+    "MZB1",
+    "IGKC",
+    "SDC1"
+  ],
+  "DC": [
+    "CD1C",
+    "FCER1A",
+    "CLEC10A",
+    "CLEC9A",
+    "XCR1",
+    "CST3"
+  ],
+  "Monocyte_inflammatory": [
+    "S100A8",
+    "S100A9",
+    "FCN1",
+    "VCAN",
+    "IL1B"
+  ],
+  "Fibroblast_matrix": [
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "DCN",
+    "LUM",
+    "PDGFRA"
+  ],
+  "Endothelial": [
+    "PECAM1",
+    "VWF",
+    "CDH5",
+    "KDR",
+    "EMCN"
+  ],
+  "Hepatocyte": [
+    "ALB",
+    "APOA1",
+    "APOA2",
+    "TTR",
+    "ASGR1",
+    "CYP2E1"
+  ],
+  "Epithelial": [
+    "EPCAM",
+    "KRT8",
+    "KRT18",
+    "KRT19"
+  ],
+  "Cycling": [
+    "MKI67",
+    "TOP2A",
+    "UBE2C",
+    "CENPF",
+    "BIRC5",
+    "PCNA"
+  ],
+  "Hypoxia": [
+    "CA9",
+    "VEGFA",
+    "SLC2A1",
+    "LDHA",
+    "BNIP3",
+    "ADM"
+  ],
+  "Antigen_presentation": [
+    "HLA-DRA",
+    "HLA-DRB1",
+    "HLA-DPA1",
+    "HLA-DPB1",
+    "CD74"
+  ],
+  "Acute_phase": [
+    "SAA1",
+    "SAA2",
+    "CRP",
+    "ORM1",
+    "ORM2",
+    "SERPINA1"
+  ]
+}

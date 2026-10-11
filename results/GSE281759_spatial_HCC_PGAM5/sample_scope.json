@@ -1,0 +1,98 @@
+[
+  {
+    "gsm": "GSM8627602",
+    "sample": "A009T1",
+    "patient": "A009",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627603",
+    "sample": "A009T2",
+    "patient": "A009",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627604",
+    "sample": "A009T3",
+    "patient": "A009",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627605",
+    "sample": "A009T4",
+    "patient": "A009",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627606",
+    "sample": "A009T5",
+    "patient": "A009",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627607",
+    "sample": "B0013T1",
+    "patient": "B013",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627608",
+    "sample": "B0013T2",
+    "patient": "B013",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627609",
+    "sample": "B0013T3",
+    "patient": "B013",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627610",
+    "sample": "B0013T4",
+    "patient": "B013",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627611",
+    "sample": "B013T5",
+    "patient": "B013",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627612",
+    "sample": "C004T1P",
+    "patient": "C004",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627613",
+    "sample": "C004T1R",
+    "patient": "C004",
+    "tumor_status": "recurrent"
+  },
+  {
+    "gsm": "GSM8627614",
+    "sample": "C008T1",
+    "patient": "C008",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627615",
+    "sample": "C008T2",
+    "patient": "C008",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627616",
+    "sample": "C008T3",
+    "patient": "C008",
+    "tumor_status": "primary"
+  },
+  {
+    "gsm": "GSM8627617",
+    "sample": "C008T4",
+    "patient": "C008",
+    "tumor_status": "primary"
+  }
+]

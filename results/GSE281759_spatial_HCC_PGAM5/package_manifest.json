@@ -1,0 +1,51 @@
+[
+  {
+    "name": "GSE281759_A009_results_01.zip",
+    "bytes": 21398813,
+    "MiB": 20.41,
+    "sha256": "ff31c32bdf26701c2abe51c050c07ed532cd3707a79b05283ef76edd6a63f561",
+    "files": 60
+  },
+  {
+    "name": "GSE281759_A009_results_02.zip",
+    "bytes": 5763764,
+    "MiB": 5.5,
+    "sha256": "690e8e4e6c1e47482a6c5e14269c441f4c5435d678954bc273add15cb6e3d3f2",
+    "files": 15
+  },
+  {
+    "name": "GSE281759_B013_results_01.zip",
+    "bytes": 19217592,
+    "MiB": 18.33,
+    "sha256": "dbaee09d3e8d050b78777efc0912c314ada9bc33f3f8d47ef462f698c44bb524",
+    "files": 60
+  },
+  {
+    "name": "GSE281759_B013_results_02.zip",
+    "bytes": 5058327,
+    "MiB": 4.82,
+    "sha256": "c74c7f2efa579dc6442ecddf1ad7f79b2ab9003ffe4f483841a33fbf1af1bfec",
+    "files": 15
+  },
+  {
+    "name": "GSE281759_C004_results.zip",
+    "bytes": 8484952,
+    "MiB": 8.09,
+    "sha256": "d3a58ea70f8d90f1d614baf0d2b8e6ae71e5035162541615f164e4fe2f4803dd",
+    "files": 30
+  },
+  {
+    "name": "GSE281759_C008_results.zip",
+    "bytes": 20349750,
+    "MiB": 19.41,
+    "sha256": "017815b12443f7f06050c1c4405a9dcdc23d4e3c0d753373f81cc69420dd8bf9",
+    "files": 60
+  },
+  {
+    "name": "GSE281759_overview_methods_results.zip",
+    "bytes": 15221744,
+    "MiB": 14.52,
+    "sha256": "402a21829fce7b6a5d5005a67fa6fe1dae0562164c192d002bbc622a8954206d",
+    "files": 55
+  }
+]
