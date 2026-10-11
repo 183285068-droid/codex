@@ -1,0 +1,420 @@
+{
+  "archive": "GSE245908_PGAM5_immune_subgroup_neighbors_results.zip",
+  "bytes": 14083349,
+  "MiB": 13.430928230285645,
+  "sha256": "18bc2796883c25dacd2f2b8a0233b567303e49e3e75b8e96e9097ea5e8a1e6f1",
+  "ZIP_CRC_verified": true,
+  "files_verified": 82,
+  "files": [
+    {
+      "path": "CHC20_directed_immune_LR_edges.csv.gz",
+      "bytes": 41368,
+      "sha256": "2e17455145561310b9631f4ace3fd68a3092da0534400e2b187b47a4b6698ef6"
+    },
+    {
+      "path": "CHC20_immune_marker_subset.h5ad",
+      "bytes": 1583899,
+      "sha256": "743cb3908f803dcb5725bf19d9a4e864c57f7513a8a1080ae12d2d656089af1f"
+    },
+    {
+      "path": "CHC20_neighbor_fraction_permutation_audit.npz",
+      "bytes": 201664,
+      "sha256": "e4735d3ec1358dec20b39e98571164f0a0a92a58c232ad78c32bdec6b1d02ff0"
+    },
+    {
+      "path": "CHC20_neighbor_present_permutation_audit.npz",
+      "bytes": 146521,
+      "sha256": "5dabf6731c3e0337b3c6d69bd030c0e99137c01aac97c18b2bde8f954de90c01"
+    },
+    {
+      "path": "CHC20_source_neighbor_subgroups.csv",
+      "bytes": 77167,
+      "sha256": "41039608d3aa7980adaf231085e0723d01015aebc3df6d2a52caed3046cd2813"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_All_T_permutation_audit.npz",
+      "bytes": 66511,
+      "sha256": "b0bfb5d51325b78766852343459597d457dddceea26868f7a57fbcd896353f8c"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_B_related_permutation_audit.npz",
+      "bytes": 100450,
+      "sha256": "11ed9e658fd8216ab9c205791574cb2387ae977a322b2a53e3c005aa2d95f316"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_CD8_cytotoxic_T_permutation_audit.npz",
+      "bytes": 104690,
+      "sha256": "9bc3f0e23e566938e967f8cfd177e543767c9eecb3591c5df9ba23adbe2cc3ad"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Inflammatory_monocyte_permutation_audit.npz",
+      "bytes": 70322,
+      "sha256": "bfb127bd7f144485078baf74c38c23bbb5f6cac5d01a3d8037a7ad12a4660bb0"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Mast_related_permutation_audit.npz",
+      "bytes": 105463,
+      "sha256": "b9a777e2b79643b3133c811020b8c677ed308271fdb9143c35ac085134d34f49"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_NK_related_permutation_audit.npz",
+      "bytes": 105736,
+      "sha256": "4f6b09aeba2eca6ca9e0c8cdab14c8cd22f288736dd07710f40d849edc609291"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Naive_memory_T_permutation_audit.npz",
+      "bytes": 101435,
+      "sha256": "f95bdddedb053104c39b19076f5dc18996eccc514a09448ae6b10e64f5bfff4e"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Neutrophil_related_permutation_audit.npz",
+      "bytes": 97031,
+      "sha256": "bfa7328283ad105e4f6a1586d56ab014a85d4c4967549bc20509750070a53428"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Plasma_related_permutation_audit.npz",
+      "bytes": 99094,
+      "sha256": "3122e4079346801c113aca5473fbe3a92143d5fbb1026038d3417907e1a398bd"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_T_activation_permutation_audit.npz",
+      "bytes": 103799,
+      "sha256": "f969a0058ed400a2a55054c9bd74cfcce25cba1281ba080165007b558e294bbb"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_T_exhaustion_permutation_audit.npz",
+      "bytes": 104370,
+      "sha256": "5d9c46939eae091ab9546375e9737b69e6789cc4cec6000e81b1a53a2cbc6449"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_Treg_related_permutation_audit.npz",
+      "bytes": 103115,
+      "sha256": "246093d9bf3d0f88e1143ee53eb37eb2d3aa5306d4673d316595d8f904f1ae94"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_cDC1_related_permutation_audit.npz",
+      "bytes": 104419,
+      "sha256": "1ea10c0c5b206e5ff44a3341c6a07b83b0951dca429c3b8fbd27c2b4aadee1e5"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_cDC2_related_permutation_audit.npz",
+      "bytes": 100841,
+      "sha256": "a6950477985298c8993d59a61085f8901716bc43b420c5805de2d6e51a754d0b"
+    },
+    {
+      "path": "CHC20_source_not_target_fraction_pDC_related_permutation_audit.npz",
+      "bytes": 103296,
+      "sha256": "226c71ba4a7b0588e08b57c760bfb4924e608e2ded57900014fd9ea90dfad664"
+    },
+    {
+      "path": "CHC20_spot_annotations.csv.gz",
+      "bytes": 762472,
+      "sha256": "b2dd60c0776eaa441f4bf08ecb5856970664ccc7b0d976e4368506e007826ab3"
+    },
+    {
+      "path": "CHC23_directed_immune_LR_edges.csv.gz",
+      "bytes": 15124,
+      "sha256": "1fb7b3d26cb1650940369f85e182c7d8e593bcf216c53531fdd23729750766ad"
+    },
+    {
+      "path": "CHC23_immune_marker_subset.h5ad",
+      "bytes": 1407395,
+      "sha256": "5e51319116e80403df0568d7080aab4ef617f06b23a4a2e0412d372b09d6a175"
+    },
+    {
+      "path": "CHC23_neighbor_fraction_permutation_audit.npz",
+      "bytes": 88216,
+      "sha256": "87eaa0f8d2656a5c5a8b9dee34effcbe66aaa3cf4fcb15d52c201321559245d4"
+    },
+    {
+      "path": "CHC23_neighbor_present_permutation_audit.npz",
+      "bytes": 72967,
+      "sha256": "ba0e309cb9bf9dd1d9403c49a2d88aecbb42a4188deef0db2d4cada85c4b30f2"
+    },
+    {
+      "path": "CHC23_source_neighbor_subgroups.csv",
+      "bytes": 54600,
+      "sha256": "a7dc21febf34cc8eb9c7f2df2ea09d3640c565fc9ba66306d75cd80c060d1a59"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_All_T_permutation_audit.npz",
+      "bytes": 42917,
+      "sha256": "5395cc99f3ef4b0a359f8752a8b10652a55a291333a96d809607d5cbfc7ed436"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_B_related_permutation_audit.npz",
+      "bytes": 42046,
+      "sha256": "285452af3df265647c24145c8ef9c896a71120698d9adffce2b9d00eb67c0f87"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_CD8_cytotoxic_T_permutation_audit.npz",
+      "bytes": 45225,
+      "sha256": "acfdc5670c51fe3f4acec8a53e003a0e06e4b786c108e32642718174f55cd328"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Inflammatory_monocyte_permutation_audit.npz",
+      "bytes": 3167,
+      "sha256": "7056c86f63be05312eb97e86127f734f95f364e21dad5045b50e7c44e3f94944"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Mast_related_permutation_audit.npz",
+      "bytes": 44571,
+      "sha256": "ad92ff1460f9d1079e7bacd070df39dee28ee9442701c1ef3d89a9e4f3733d61"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_NK_related_permutation_audit.npz",
+      "bytes": 16665,
+      "sha256": "91b8b8f6124161036b23783df7b75def6aa2b7fbd222b405f5f1f74ecd3e3c05"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Naive_memory_T_permutation_audit.npz",
+      "bytes": 45615,
+      "sha256": "5a20f8c388cfac6a25b9a0173ac799e60fb96587ff13fec45f81ff4d38e3618f"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Neutrophil_related_permutation_audit.npz",
+      "bytes": 45904,
+      "sha256": "b329b9a86e97b75c3748c6de0e0e858c63b3c929e4934928fe7a189863d797a8"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Plasma_related_permutation_audit.npz",
+      "bytes": 41553,
+      "sha256": "962c399ba0c9b7fc99063f2253087afb380c62a959314c806645f1dda82c22df"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_T_activation_permutation_audit.npz",
+      "bytes": 43849,
+      "sha256": "35f3aaf31fdf26434378962b66c131824bbdf39780e5a5c3efba1c054e859b13"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_T_exhaustion_permutation_audit.npz",
+      "bytes": 44896,
+      "sha256": "e2c2845ecf3cf8c91d4a0d08d42f0090da816065c84a388882bacae7bb65f217"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_Treg_related_permutation_audit.npz",
+      "bytes": 44744,
+      "sha256": "163402a2b7616b4f31a0be282fd69dcd2b111d67879f3f5a5db983137db09e1c"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_cDC1_related_permutation_audit.npz",
+      "bytes": 42836,
+      "sha256": "87096e277282dcef85b50097df076fecccbbad0fa3bc793bd316037477726585"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_cDC2_related_permutation_audit.npz",
+      "bytes": 46206,
+      "sha256": "166be65822c24d980aefb23f3493cbe0f5acb22b57754bc136f731b03a2a98e5"
+    },
+    {
+      "path": "CHC23_source_not_target_fraction_pDC_related_permutation_audit.npz",
+      "bytes": 42790,
+      "sha256": "5a0f38f4e0c67f70fe59e99c432799187f9d9ad2f2e4f7c93c447104de764120"
+    },
+    {
+      "path": "CHC23_spot_annotations.csv.gz",
+      "bytes": 617899,
+      "sha256": "10dff7d37874d73ff257162b86bf6264fef9fa5c5191431a487339d100ee6aa0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12752,
+      "sha256": "876eff152f03eb9ee68d888ffb63e8c289b5048e2e2e1786f09e38b553b102ef"
+    },
+    {
+      "path": "analysis_config.json",
+      "bytes": 784,
+      "sha256": "1b67722e782a84990cfd29f577d64410d894ad4af58c8a25e80dda1ae0090f66"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 16535,
+      "sha256": "6ff10fdc0a6d210148853636f8fc3ebdd4a72c4064a5e4e0f98c646ebc213098"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 16527,
+      "sha256": "e34df8f8f3fd1799f221e6b454cd227e355c0837c49c345f226a52d06a2340ac"
+    },
+    {
+      "path": "audit_results.json",
+      "bytes": 602099,
+      "sha256": "5809eeaf54f04b568a75586834df70e17d2c1055ba34f201a727bb39a314ffac"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 15747,
+      "sha256": "89aa8cdf68f13f04c345a48b9019ca8806e69a6eacd64ae571c2a5498d1443dc"
+    },
+    {
+      "path": "candidate_LR_by_immune_subgroup.csv",
+      "bytes": 100722,
+      "sha256": "895cd62a6b33d6d6d6dc727bfc976ef1f32b7e8e53190692d4a2aaa91c681bbd"
+    },
+    {
+      "path": "figures/CHC20_immune_subgroup_marker_dotplot.pdf",
+      "bytes": 70517,
+      "sha256": "7f1b3775a390ff2ff2680747bcb56689ef057ef0714bb1473c9ba01aaf7d1297"
+    },
+    {
+      "path": "figures/CHC20_immune_subgroup_marker_dotplot.png",
+      "bytes": 329572,
+      "sha256": "b069cc12626ed65b9263560fdc30f6956141334dd3763d70cf3fbab54b16d95d"
+    },
+    {
+      "path": "figures/CHC20_immune_subgroup_spatial_neighborhoods.pdf",
+      "bytes": 1273939,
+      "sha256": "dcb79bdfb0c1fee7845e453634ecf8486c3a13ea98348c962668ee6cb1d46188"
+    },
+    {
+      "path": "figures/CHC20_immune_subgroup_spatial_neighborhoods.png",
+      "bytes": 1793164,
+      "sha256": "b6460e061cedd5b87747e6a49a86ceb1ad33de3a2f5d54bea966c82f92e52442"
+    },
+    {
+      "path": "figures/CHC23_immune_subgroup_marker_dotplot.pdf",
+      "bytes": 74833,
+      "sha256": "153c90ff333c1cd100ef682755560bc06bf6eefe65ebbd9b73af42e7589a33a9"
+    },
+    {
+      "path": "figures/CHC23_immune_subgroup_marker_dotplot.png",
+      "bytes": 342504,
+      "sha256": "79b6bf083b4d81e5f26341dd468bb6911020f07b09fefe199a324e33d6b202dc"
+    },
+    {
+      "path": "figures/CHC23_immune_subgroup_spatial_neighborhoods.pdf",
+      "bytes": 1225155,
+      "sha256": "cd3d04b6c99f75ab960de8d632a8df3b6787a0317451b64b4b18bc95ce8cdcd8"
+    },
+    {
+      "path": "figures/CHC23_immune_subgroup_spatial_neighborhoods.png",
+      "bytes": 1676183,
+      "sha256": "f53bc0e7750535b8c1ec124a00e1df81496f120e0ccaf2aade3a304f436f9706"
+    },
+    {
+      "path": "figures/immune_subgroup_candidate_LR_codetection.pdf",
+      "bytes": 24983,
+      "sha256": "0efd739266075e994e97df2c0bbf97cb7174558865b9aa59aaf22c37de382abe"
+    },
+    {
+      "path": "figures/immune_subgroup_candidate_LR_codetection.png",
+      "bytes": 265490,
+      "sha256": "3b6aa6e14aa06a53f180e338b02e69dd4a7b590ecf2e7dcc90ddccfa7ffb0f14"
+    },
+    {
+      "path": "figures/immune_subgroup_neighborhood_coverage.pdf",
+      "bytes": 20508,
+      "sha256": "d51c73bfea62d771f66ba969e687c581197f3831cea645c3a77fcd1396cd5e6c"
+    },
+    {
+      "path": "figures/immune_subgroup_neighborhood_coverage.png",
+      "bytes": 240237,
+      "sha256": "283c10663e5f60b9f85304859a091c954fd3283fbb7739f1413092ee8296bb1f"
+    },
+    {
+      "path": "figures/immune_subgroup_spatial_statistics.pdf",
+      "bytes": 24424,
+      "sha256": "f346a262cc290d66ee7aa2f9091061f023ec2b4bd07f82f6ae30dcc98ad48d1c"
+    },
+    {
+      "path": "figures/immune_subgroup_spatial_statistics.png",
+      "bytes": 324956,
+      "sha256": "91172bafd0751c5beddb113346486291cab4f534b48eed63ba22c21097519ab7"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 4137,
+      "sha256": "050e8dce0e43be5af9769b6e5ffa6ade43fab0b98e88e59ddb4e3ce3fdf4dcb1"
+    },
+    {
+      "path": "marker_detection_specificity.csv",
+      "bytes": 1340,
+      "sha256": "ef5f78522e2495de7c98aaa93f621050516bde6432cbcb761788ecb359479a70"
+    },
+    {
+      "path": "marker_specificity.py",
+      "bytes": 1828,
+      "sha256": "589bdfc4e7c8bb42c0a8f21cf8e8e39e9fede4098aa5e7cd9042dfb97306927a"
+    },
+    {
+      "path": "package_results.py",
+      "bytes": 1868,
+      "sha256": "8dd0a4bff9cf69e42b3fdaf8b104cd4fcad5d6ddd7d9d5c0dbc982c6ffad1944"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 10234,
+      "sha256": "0c7e9824fad15d1dff47894ef0d472333483bc2e1a1ff6d76a6da7fc9607ed56"
+    },
+    {
+      "path": "prepare_inputs.py",
+      "bytes": 1142,
+      "sha256": "7e9dedad919510fade9a6d1daf93d7837382cea819bae8d021ebeda27fc41124"
+    },
+    {
+      "path": "program_coverage.csv",
+      "bytes": 1879,
+      "sha256": "75ed502b5b8a14021fe232ed3afe1e205b848fc628713bfc7019a30bc1d91917"
+    },
+    {
+      "path": "programs.json",
+      "bytes": 1584,
+      "sha256": "56550973f2229e2d5be3256897ff97888183247037ea37cd10966e5c39423c68"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 156,
+      "sha256": "9ef8ba499418b0c252be6c9ce8f65d83c4daa4e94b7dc996864868ead75ec60f"
+    },
+    {
+      "path": "selected_candidate_LR_pairs.csv",
+      "bytes": 2775,
+      "sha256": "2df6d644e88bedd1e01631c52569d02c92e229f658538d6bf44c81473edb153b"
+    },
+    {
+      "path": "source_group_summary.csv",
+      "bytes": 204,
+      "sha256": "88c4df5d7945c930a8fc880f3b3544cb26e5ec41d55c89921ce5455a40bb506c"
+    },
+    {
+      "path": "source_inputs/base_requirements.json",
+      "bytes": 3455,
+      "sha256": "72380dd84aac49af99b5184f385f5ddf22fae4c94f92edbaa3a044341597a746"
+    },
+    {
+      "path": "source_inputs/omni_resource.csv",
+      "bytes": 2004367,
+      "sha256": "b499b56ce084b7afde3462460e25b79c6abc047086833cd95ca42172d78e0b7c"
+    },
+    {
+      "path": "spatial_conditional_tests.csv",
+      "bytes": 17921,
+      "sha256": "4f1719a6b4772dfa61aa58b5304a964bf1aaf44316bbfd002bd716ab8687b909"
+    },
+    {
+      "path": "strict_marker_descriptive_sensitivity.csv",
+      "bytes": 487,
+      "sha256": "6c9fa468797e44646e960045baf4e6b17245f4b432e97712bbffbca730cae9d9"
+    },
+    {
+      "path": "subgroup_names.json",
+      "bytes": 695,
+      "sha256": "46ea8ac1d1dbe703380434a0c9977f459f8e9dbaec78693c39bb11f5e65a19d7"
+    },
+    {
+      "path": "subgroup_neighborhood_counts.csv",
+      "bytes": 9148,
+      "sha256": "1f619a4a07c4397aeebb71789e2ac4da435f1c44796934bc5fcc300c49393ee2"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1564,
+      "sha256": "d696f4f7d46310dadb5f984b3acbd6b632d2aa1175e68b4d87e4a797643bde2b"
+    },
+    {
+      "path": "target_gate_summary.csv",
+      "bytes": 2100,
+      "sha256": "e3e71ec1b5258e642fae15023a5c65d8e9056809b46d8f1068c802750b0074a9"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "Macrophage_core": [
+    "C1QA",
+    "C1QB",
+    "C1QC",
+    "CD68",
+    "CSF1R",
+    "MERTK",
+    "MSR1"
+  ],
+  "Pan_myeloid": [
+    "LST1",
+    "TYROBP",
+    "FCER1G",
+    "AIF1",
+    "LYZ",
+    "CTSS"
+  ],
+  "All_T": [
+    "CD3D",
+    "CD3E",
+    "CD3G",
+    "TRAC",
+    "TRBC1",
+    "TRBC2"
+  ],
+  "T_exhaustion": [
+    "PDCD1",
+    "LAG3",
+    "TIGIT",
+    "CTLA4",
+    "TOX",
+    "CXCL13"
+  ],
+  "T_activation": [
+    "CD69",
+    "IL2RA",
+    "TNFRSF9",
+    "ICOS",
+    "CD40LG",
+    "IL2"
+  ],
+  "CD8_cytotoxic_T": [
+    "IFNG",
+    "PRF1",
+    "GZMB",
+    "GZMA",
+    "CCL5",
+    "TBX21"
+  ],
+  "Naive_memory_T": [
+    "CCR7",
+    "TCF7",
+    "LEF1",
+    "IL7R",
+    "SELL"
+  ],
+  "Treg_related": [
+    "FOXP3",
+    "IL2RA",
+    "IKZF2",
+    "CTLA4",
+    "TIGIT"
+  ],
+  "NK_related": [
+    "NKG7",
+    "GNLY",
+    "KLRD1",
+    "NCR1",
+    "KLRF1",
+    "FCGR3A"
+  ],
+  "B_related": [
+    "MS4A1",
+    "CD79A",
+    "CD79B",
+    "CD19",
+    "CD22"
+  ],
+  "Plasma_related": [
+    "MZB1",
+    "JCHAIN",
+    "SDC1",
+    "IGKC",
+    "DERL3"
+  ],
+  "cDC2_related": [
+    "CD1C",
+    "FCER1A",
+    "CLEC10A",
+    "CD1E"
+  ],
+  "cDC1_related": [
+    "CLEC9A",
+    "XCR1",
+    "BATF3",
+    "CADM1",
+    "IRF8"
+  ],
+  "pDC_related": [
+    "CLEC4C",
+    "IL3RA",
+    "TCF4",
+    "GZMB",
+    "BST2"
+  ],
+  "Inflammatory_monocyte": [
+    "FCN1",
+    "VCAN",
+    "S100A8",
+    "S100A9",
+    "LYZ"
+  ],
+  "Neutrophil_related": [
+    "FCGR3B",
+    "CSF3R",
+    "CXCR2",
+    "S100A8",
+    "S100A9"
+  ],
+  "Mast_related": [
+    "TPSAB1",
+    "TPSB2",
+    "CPA3",
+    "KIT",
+    "MS4A2"
+  ]
+}

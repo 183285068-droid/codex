@@ -1,0 +1,16 @@
+ligand,receptor_complex,pair,database_resources,snapshot
+SPP1,CD44,SPP1--CD44,baccin2019;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+TGFB1,TGFBR1_TGFBR2,TGFB1--TGFBR1_TGFBR2,cellcall;cellchatdb;cellphonedb;consensus;icellnet,LIANA wheel 1.10.0 omni_resource.csv
+IL10,IL10RA_IL10RB,IL10--IL10RA_IL10RB,cellcall;cellchatdb;cellinker;cellphonedb;consensus;icellnet,LIANA wheel 1.10.0 omni_resource.csv
+PVR,TIGIT,PVR--TIGIT,cellchatdb;connectomedb2020;icellnet;lrdb,LIANA wheel 1.10.0 omni_resource.csv
+LGALS9,HAVCR2,LGALS9--HAVCR2,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv
+CD274,PDCD1,CD274--PDCD1,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv
+CD80,CD28,CD80--CD28,cellchatdb;cellinker;connectomedb2020;consensus;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv
+CXCL9,CXCR3,CXCL9--CXCR3,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+CCL2,CCR2,CCL2--CCR2,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+CSF1,CSF1R,CSF1--CSF1R,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;embrace;guide2pharma;hpmr;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+TNF,TNFRSF1A,TNF--TNFRSF1A,baccin2019;cellcall;cellchatdb;cellinker;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+TNF,TNFRSF1B,TNF--TNFRSF1B,baccin2019;cellcall;cellchatdb;cellinker;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+TNFSF13B,TNFRSF13C,TNFSF13B--TNFRSF13C,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+TNFSF13,TNFRSF17,TNFSF13--TNFRSF17,baccin2019;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv
+CXCL12,CXCR4,CXCL12--CXCR4,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv

@@ -1,0 +1,107 @@
+[
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_detected_tissue_image.jpg.gz",
+    "bytes": 1326763,
+    "sha256": "b237a246b874bbf0e6a12bff48f8d3ae447bccb7760f065ec7e5f6cfafb7927a"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_filtered_feature_bc_matrix.h5",
+    "bytes": 17482373,
+    "sha256": "8c353d5418afd752604d61a78c37c1d99aa0f3a32b964bf0d71a3e2c0e35b812"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_scalefactors_json.json.gz",
+    "bytes": 173,
+    "sha256": "a67891aad1c4ce0bc80d68e7ab89236e4fba1a9c6d4f58f6a369181eafc77adf"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_tissue_hires_image.png.gz",
+    "bytes": 3713377,
+    "sha256": "22f5c243e7aed7848314c6e6f39d547ec7df84c667dfd3ff024239fa09c40739"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_tissue_lowres_image.png.gz",
+    "bytes": 341007,
+    "sha256": "f069b13468a081c0382780c34d435212f14e05feeeac13c977548d08f76f993a"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_tissue_positions_list.csv.gz",
+    "bytes": 55332,
+    "sha256": "785dd8a18cb1a7790a0eca1d27c17d29b7eaf830c064941965877096e346dd39"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_detected_tissue_image.jpg.gz",
+    "bytes": 1270788,
+    "sha256": "1c6cee3e148a99036c9edacf765a33aad1205338f724221b622bed2805de2fbd"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_filtered_feature_bc_matrix.h5",
+    "bytes": 13551984,
+    "sha256": "19edbb74e27912814ca894aadedc14e5ac870bc0ce67dfdc1f3ea0e87eb6a135"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_scalefactors_json.json.gz",
+    "bytes": 172,
+    "sha256": "fd4ec60fd524911569f1fbf01fbe2e10f72f3f57eda3809aa6fab79a6a9d9ca4"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_tissue_hires_image.png.gz",
+    "bytes": 3639628,
+    "sha256": "6709a52970611df5eebadfb0db71a9c1284ff883e35b79e384dbc21fb2e6bd0c"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_tissue_lowres_image.png.gz",
+    "bytes": 350054,
+    "sha256": "6f7a98a1eca2831f50f8ae1bb149550fd1ac6a6d7d8ee6d8856a8d04c5a38d3c"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_tissue_positions_list.csv.gz",
+    "bytes": 56699,
+    "sha256": "eb7d98afb4deaf715ffd7665465c55b73765f9f7f0a32f4065341cb9d639a1ed"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/GSE245908_Info_Supp_for_Visium.tsv.gz",
+    "bytes": 128,
+    "sha256": "9ea402cf010bbec3c2f82ca0ffd972ec64aef88b09f3a99674a2f9c49341c917"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/GSE245908_metadata.soft",
+    "bytes": 3857,
+    "sha256": "51c19da13b67f8e1ad3b9b3ab3eb52faf405f74e3945e86e84c66085fcbff757"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/GSM7850822_metadata.soft",
+    "bytes": 4878,
+    "sha256": "d9ce72e9272e447dc53bcf218cdbb1056754d75ef1393afe14958f092bb7271c"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/GSM7850823_metadata.soft",
+    "bytes": 4878,
+    "sha256": "e15e76c85861873be52cbd2d4a03c81f0a0f4a4d3393180355a215ad58f50854"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/CHC20_spot_annotations.csv",
+    "bytes": 1403586,
+    "sha256": "74c4e2e949ca5f16ad8ea126fa383190de49cc88718f41a3973794017eee52f6"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/CHC20_spatial_edges.csv.gz",
+    "bytes": 91495,
+    "sha256": "379edb108822c3c5f3377b05951079471cb08fe7fba8d11c26591e221d8cfc09"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/CHC23_spot_annotations.csv",
+    "bytes": 1160897,
+    "sha256": "38251c95ee7d00eefcd13e5714a6fab4dac6d1ed535ba9364d6726434ff3a631"
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/CHC23_spatial_edges.csv.gz",
+    "bytes": 75023,
+    "sha256": "b8f3f1363b8d9c0e09c7678ea8b76d66d6c52cef87184fe9196ce9164fa93a28"
+  },
+  {
+    "path": "GSE245908_PGAM5_immune_subgroup_neighbors/source_inputs/omni_resource.csv",
+    "bytes": 2004367,
+    "sha256": "b499b56ce084b7afde3462460e25b79c6abc047086833cd95ca42172d78e0b7c"
+  }
+]

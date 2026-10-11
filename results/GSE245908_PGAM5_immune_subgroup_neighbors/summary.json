@@ -1,0 +1,59 @@
+{
+  "dataset": "GSE245908",
+  "samples": [
+    "CHC20",
+    "CHC23"
+  ],
+  "patients": 2,
+  "QC_spots": 4193,
+  "macrophage_RNA_spots": 738,
+  "PGAM5_high_source_spots": 54,
+  "statistical_unit": "source Visium spot, not individual cell",
+  "planned_tests": 90,
+  "tested": 75,
+  "untestable": 15,
+  "primary_min_BH_q": 0.486,
+  "joint_min_BH_q": 0.423,
+  "FDR_significant_tests": 0,
+  "observed_candidates": [
+    {
+      "target": "Inflammatory_monocyte",
+      "name_zh": "FCN1/VCAN炎症单核/髓系相关",
+      "CHC20_high_source_neighbors": 30,
+      "CHC23_high_source_neighbors": 6
+    },
+    {
+      "target": "Plasma_related",
+      "name_zh": "MZB1/JCHAIN浆细胞相关",
+      "CHC20_high_source_neighbors": 14,
+      "CHC23_high_source_neighbors": 7
+    },
+    {
+      "target": "Naive_memory_T",
+      "name_zh": "CCR7/TCF7初始记忆T相关",
+      "CHC20_high_source_neighbors": 11,
+      "CHC23_high_source_neighbors": 1
+    },
+    {
+      "target": "cDC2_related",
+      "name_zh": "CD1C/FCER1A cDC2相关",
+      "CHC20_high_source_neighbors": 8,
+      "CHC23_high_source_neighbors": 1
+    },
+    {
+      "target": "CD8_cytotoxic_T",
+      "name_zh": "CD8/细胞毒T相关",
+      "CHC20_high_source_neighbors": 0,
+      "CHC23_high_source_neighbors": 4
+    },
+    {
+      "target": "T_exhaustion",
+      "name_zh": "耗竭支持T相关",
+      "CHC20_high_source_neighbors": 0,
+      "CHC23_high_source_neighbors": 1
+    }
+  ],
+  "audit_checks": 7596,
+  "causal_interaction_confirmed": false,
+  "resolved_cell_identity_confirmed": false
+}

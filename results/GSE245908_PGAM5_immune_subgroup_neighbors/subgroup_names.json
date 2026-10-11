@@ -1,0 +1,17 @@
+{
+  "All_T": "全部T谱系（基线）",
+  "T_exhaustion": "耗竭支持T相关",
+  "T_activation": "早期活化支持T相关",
+  "CD8_cytotoxic_T": "CD8/细胞毒T相关",
+  "Naive_memory_T": "CCR7/TCF7初始记忆T相关",
+  "Treg_related": "FOXP3/IKZF2调节T相关",
+  "NK_related": "KLRD1/GNLY NK相关",
+  "B_related": "MS4A1/CD79A B相关",
+  "Plasma_related": "MZB1/JCHAIN浆细胞相关",
+  "cDC2_related": "CD1C/FCER1A cDC2相关",
+  "cDC1_related": "CLEC9A/XCR1 cDC1相关",
+  "pDC_related": "CLEC4C/IL3RA pDC相关",
+  "Inflammatory_monocyte": "FCN1/VCAN炎症单核相关",
+  "Neutrophil_related": "FCGR3B/CSF3R粒细胞相关",
+  "Mast_related": "TPSB2/CPA3肥大细胞相关"
+}

@@ -1,0 +1,9 @@
+sample,rule,target_spots,PGAM5_high_sources_with_neighbor,directed_edges,unique_targets,post_hoc_descriptive_only
+CHC20,Treg_add_IKZF2_and_IL2RA_or_CTLA4,0,0,0,0,True
+CHC20,CD8_cytotoxic_require_CD8B,3,0,0,0,True
+CHC20,Monocyte_require_FCN1,30,8,8,6,True
+CHC20,Neutrophil_require_FCGR3B,26,0,0,0,True
+CHC23,Treg_add_IKZF2_and_IL2RA_or_CTLA4,0,0,0,0,True
+CHC23,CD8_cytotoxic_require_CD8B,1,1,1,1,True
+CHC23,Monocyte_require_FCN1,19,1,1,1,True
+CHC23,Neutrophil_require_FCGR3B,1,0,0,0,True

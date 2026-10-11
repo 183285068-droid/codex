@@ -1,0 +1,14 @@
+{
+  "seed": 24590881,
+  "permutations": 4999,
+  "primary": "30 neighbor-fraction tests (2 sections x 15 RNA gates, includes All-T baseline)",
+  "joint": "90 planned tests (fraction, binary adjacency, source-not-target sensitivity); missing p filled with 1 only for BH",
+  "minimum_source_group": 3,
+  "minimum_target_spots": 3,
+  "SPP1_not_required": true,
+  "source": "Unchanged prior Mac-RNA gate / PGAM5-positive Q75 high vs other detected; zeros descriptive",
+  "strata": "3x3 full-section coordinate tiles x within-tile candidate-source UMI median; preserve local high counts",
+  "null": "Exact label enumeration when configuration space <=4999; otherwise 4999 permutations",
+  "p": "Two-sided deviations about exact conditional expectation, not zero",
+  "causal_claim": false
+}
