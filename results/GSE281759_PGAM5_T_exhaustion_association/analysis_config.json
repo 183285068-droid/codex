@@ -1,0 +1,33 @@
+{
+  "seed": 28175942,
+  "permutations": 4999,
+  "covariates": [
+    "source_log_UMI",
+    "source_pct_mt",
+    "source_Macrophage_core",
+    "source_Hepatocyte",
+    "source_Epithelial",
+    "source_T_lineage",
+    "neighbor_T_lineage",
+    "neighbor_log_UMI",
+    "neighbor_pct_mt"
+  ],
+  "programs": [
+    "Exhaustion_core",
+    "Exhaustion_expanded",
+    "Activation_early",
+    "Effector_cytotoxic"
+  ],
+  "source": "prior QC and fixed RNA gates, unchanged",
+  "null": "3x3 full-section array-coordinate tiles x within-analysis-source UMI median; shuffle PGAM5 RNA / high labels only within strata",
+  "p": "two-sided equal-tail randomization p with +1 correction; no zero-centered null assumption",
+  "primary_FDR_family": "16 main exhaustion-core section tests; untestable entry p=1 for BH only",
+  "FDR_family": "96 planned tests (16 sections x 6); untestable entries p=1 for BH only",
+  "minimum_n": 30,
+  "minimum_residual_df": 15,
+  "minimum_high_other": [
+    5,
+    10
+  ],
+  "causal_claim": false
+}

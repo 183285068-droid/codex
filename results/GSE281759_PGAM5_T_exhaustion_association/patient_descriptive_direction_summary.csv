@@ -1,0 +1,17 @@
+patient,program,sections_tested,median_section_partial_rho,positive_sections,negative_sections,q_significant_sections
+A009,Activation_early,5,0.03815171910444602,4,1,0
+A009,Effector_cytotoxic,5,0.04423711013281203,4,1,0
+A009,Exhaustion_core,5,-0.018610826882356407,2,3,0
+A009,Exhaustion_expanded,5,-0.03727878804595638,2,3,0
+B013,Activation_early,5,0.03239094222068101,4,1,0
+B013,Effector_cytotoxic,5,0.08909507585902206,3,2,0
+B013,Exhaustion_core,5,0.03206031022297444,3,2,0
+B013,Exhaustion_expanded,5,0.005000263190987295,3,2,0
+C004,Activation_early,2,-0.058008963647881696,1,1,0
+C004,Effector_cytotoxic,2,-0.0514943065130897,0,2,0
+C004,Exhaustion_core,2,0.08115323630683566,2,0,0
+C004,Exhaustion_expanded,2,0.10260484571016089,2,0,0
+C008,Activation_early,3,0.029265659235260647,2,1,0
+C008,Effector_cytotoxic,3,-0.011333078146483929,1,2,0
+C008,Exhaustion_core,3,-0.02920520307048524,1,2,0
+C008,Exhaustion_expanded,3,0.03834360942227997,2,1,0
