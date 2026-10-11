@@ -1,0 +1,13 @@
+sample,cluster,marker_pair,RNA_program,name_zh,annotation_level
+CHC20,S0,CYP2A6/ALDOB,Metabolic hepatocytic RNA,代谢相关肝细胞RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC20,S1,RBP4/FGA,Secretory hepatocytic RNA,分泌相关肝细胞RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC20,S2,COL1A1/COMP,Matrix / myeloid mixed RNA,基质及髓系混合RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC20,S3,MALAT1/HMGB1,Nuclear / chromatin RNA,核及染色质相关RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC20,S4,LYZ/AGR2,Myeloid / epithelial mixed RNA,髓系及上皮混合RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC20,S5,CD74/C1QA,Antigen-presentation / myeloid RNA,抗原呈递及髓系RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S0,CYP2A6/BHMT,Metabolic hepatocytic RNA,代谢相关肝细胞RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S1,TTR/GSTA1,Secretory / detoxification RNA,分泌及解毒相关RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S2,IGFBP7/CD74,Stromal / immune mixed RNA,基质及免疫混合RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S3,CYP2E1/IGFBP2,Metabolic / MT-high RNA,代谢及线粒体高表达RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S4,MTRNR2L8/SAA1,MT / acute-phase mixed RNA,线粒体及急性期混合RNA区域,provisional mixed-spot region; not a single-cell identity
+CHC23,S5,CRP/ORM1,Acute-phase hepatocytic RNA,急性期肝细胞RNA区域,provisional mixed-spot region; not a single-cell identity

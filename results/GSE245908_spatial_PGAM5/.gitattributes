@@ -1,0 +1,2 @@
+# Preserve the exact downloaded GEO bytes, including CRLF, for SHA256 audits.
+inputs/*_metadata.soft binary

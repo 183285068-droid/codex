@@ -1,0 +1,3 @@
+sample,gsm,input_spots,qc_spots,removed_spots,relaxed_qc_spots,n_genes_matrix,n_clusters,PGAM5_detected_spots,PGAM5_detection_pct,median_UMI,median_genes,median_pct_mt
+CHC20,GSM7850822,2261,2259,2,2259,36601,6,1008,44.6215139442231,34551.0,5883.0,5.849796295166016
+CHC23,GSM7850823,1987,1934,53,1986,36601,6,448,23.164426059979316,26670.5,5018.5,13.018409729003906

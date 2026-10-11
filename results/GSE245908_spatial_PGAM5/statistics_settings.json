@@ -1,0 +1,11 @@
+{
+  "seed": 245908,
+  "null_replicates": 4999,
+  "multiple_testing_family": "all 48 associations (2 slices x 12 programs x 2 relationships)",
+  "covariates": "rank(log1p(total UMI)), rank(n_genes), rank(percent mitochondrial RNA), intercept",
+  "null_model": "independent random sign flips of coefficients in the complete eigenbasis of H W H, W symmetric binary hex first-neighbor adjacency. Preserves target residual graph spectral power, centered norm and Moran I. This is a model-based exploratory null, not an exact distribution-free patient-level test.",
+  "expression": "PGAM5 log1p(CP10k) including zeros; programs average gene log1p(CP10k)",
+  "neighbor": "arithmetic mean over observed QC-passing first-ring hex neighbors; zero-neighbor spots excluded",
+  "not_estimated": "cell-type fractions, validated PGAM5-positive macrophage abundance, cell-cell ligand-receptor interactions",
+  "numerical_ties": "Expression and program values rounded to 12 decimal places before ranking; float64 CSV serialization preserves source values."
+}

@@ -1,0 +1,94 @@
+{
+  "Macrophage_core": [
+    "C1QA",
+    "C1QB",
+    "C1QC",
+    "CD68",
+    "CSF1R",
+    "MERTK",
+    "MSR1"
+  ],
+  "Pan_myeloid": [
+    "LST1",
+    "TYROBP",
+    "FCER1G",
+    "AIF1",
+    "LYZ",
+    "CTSS"
+  ],
+  "T_cell": [
+    "CD3D",
+    "CD3E",
+    "CD3G",
+    "TRAC",
+    "TRBC1",
+    "TRBC2"
+  ],
+  "Cytotoxic_T_NK": [
+    "NKG7",
+    "GNLY",
+    "PRF1",
+    "GZMB",
+    "GZMA",
+    "CTSW"
+  ],
+  "DC": [
+    "CD1C",
+    "FCER1A",
+    "CLEC10A",
+    "CLEC9A",
+    "XCR1",
+    "CST3"
+  ],
+  "Monocyte_inflammatory": [
+    "S100A8",
+    "S100A9",
+    "FCN1",
+    "VCAN",
+    "IL1B"
+  ],
+  "Fibroblast_matrix": [
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "DCN",
+    "LUM",
+    "PDGFRA"
+  ],
+  "Endothelial": [
+    "PECAM1",
+    "VWF",
+    "CDH5",
+    "KDR",
+    "EMCN"
+  ],
+  "Hepatocyte": [
+    "ALB",
+    "APOA1",
+    "APOA2",
+    "TTR",
+    "ASGR1",
+    "CYP2E1"
+  ],
+  "Epithelial": [
+    "EPCAM",
+    "KRT8",
+    "KRT18",
+    "KRT19"
+  ],
+  "Cycling": [
+    "MKI67",
+    "TOP2A",
+    "UBE2C",
+    "CENPF",
+    "BIRC5",
+    "PCNA"
+  ],
+  "THBS1_TREM1_myeloid": [
+    "THBS1",
+    "TREM1",
+    "CD163",
+    "TGFB1",
+    "IL13RA1"
+  ]
+}

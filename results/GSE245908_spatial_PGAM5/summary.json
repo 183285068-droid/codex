@@ -1,0 +1,11 @@
+{
+  "dataset": "GSE245908",
+  "platform": "10x Visium",
+  "QC_spots": 4193,
+  "patients": 2,
+  "PGAM5_detected_spots": 1456,
+  "n_spatial_tests": 48,
+  "n_BH_significant_associations": 0,
+  "n_independent_checks": 968,
+  "interpretation": "Exploratory mixed-spot RNA signals. No validated PGAM5-positive macrophage abundance or cell-cell interaction inferred."
+}
