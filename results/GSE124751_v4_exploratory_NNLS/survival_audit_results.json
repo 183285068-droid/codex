@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Official clinical SHA256 patient",
+      "passed": true
+    },
+    {
+      "check": "Official clinical SHA256 sample",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: coefficients_log2_plus1_primary.csv",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: coefficients_zero_preserving_log2.csv",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: coefficients_unshifted_log2.csv",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: sample_coefficients_and_metadata.csv",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: used_reference.tsv",
+      "passed": true
+    },
+    {
+      "check": "Preclinical frozen file: used_reference_row_scales.csv",
+      "passed": true
+    },
+    {
+      "check": "231 clinical patients and unique source IDs",
+      "passed": true
+    },
+    {
+      "check": "206 audited tumor expression sample IDs",
+      "passed": true
+    },
+    {
+      "check": "Strict IDs and age counts",
+      "passed": true
+    },
+    {
+      "check": "Two specified age conflicts",
+      "passed": true
+    },
+    {
+      "check": "Eight L/H aliases excluded from clinical matching",
+      "passed": true
+    },
+    {
+      "check": "196 main records retain original median split",
+      "passed": true
+    },
+    {
+      "check": "OS exact full ID correspondence",
+      "passed": true
+    },
+    {
+      "check": "OS clinical sample ID agrees",
+      "passed": true
+    },
+    {
+      "check": "OS independent age check",
+      "passed": true
+    },
+    {
+      "check": "OS strict earlier GEO full tumor-title match",
+      "passed": true
+    },
+    {
+      "check": "OS exact unmodified source time and event",
+      "passed": true
+    },
+    {
+      "check": "OS groups and coefficients not retuned",
+      "passed": true
+    },
+    {
+      "check": "OS all-206 coefficient scaling retained",
+      "passed": true
+    },
+    {
+      "check": "OS correct population and events",
+      "passed": true
+    },
+    {
+      "check": "OS 10 exclusions are disjoint",
+      "passed": true
+    },
+    {
+      "check": "OS independently rebuilt tied logrank",
+      "passed": true
+    },
+    {
+      "check": "OS independent Efron-Cox HR and CI",
+      "passed": true
+    },
+    {
+      "check": "OS independent Efron-Cox Wald p",
+      "passed": true
+    },
+    {
+      "check": "OS High full independent KM curve",
+      "passed": true
+    },
+    {
+      "check": "OS High CI within bounds",
+      "passed": true
+    },
+    {
+      "check": "OS High complete plotted risk table",
+      "passed": true
+    },
+    {
+      "check": "OS Low full independent KM curve",
+      "passed": true
+    },
+    {
+      "check": "OS Low CI within bounds",
+      "passed": true
+    },
+    {
+      "check": "OS Low complete plotted risk table",
+      "passed": true
+    },
+    {
+      "check": "DFS exact full ID correspondence",
+      "passed": true
+    },
+    {
+      "check": "DFS clinical sample ID agrees",
+      "passed": true
+    },
+    {
+      "check": "DFS independent age check",
+      "passed": true
+    },
+    {
+      "check": "DFS strict earlier GEO full tumor-title match",
+      "passed": true
+    },
+    {
+      "check": "DFS exact unmodified source time and event",
+      "passed": true
+    },
+    {
+      "check": "DFS groups and coefficients not retuned",
+      "passed": true
+    },
+    {
+      "check": "DFS all-206 coefficient scaling retained",
+      "passed": true
+    },
+    {
+      "check": "DFS correct population and events",
+      "passed": true
+    },
+    {
+      "check": "DFS 10 exclusions are disjoint",
+      "passed": true
+    },
+    {
+      "check": "DFS independently rebuilt tied logrank",
+      "passed": true
+    },
+    {
+      "check": "DFS independent Efron-Cox HR and CI",
+      "passed": true
+    },
+    {
+      "check": "DFS independent Efron-Cox Wald p",
+      "passed": true
+    },
+    {
+      "check": "DFS High full independent KM curve",
+      "passed": true
+    },
+    {
+      "check": "DFS High CI within bounds",
+      "passed": true
+    },
+    {
+      "check": "DFS High complete plotted risk table",
+      "passed": true
+    },
+    {
+      "check": "DFS Low full independent KM curve",
+      "passed": true
+    },
+    {
+      "check": "DFS Low CI within bounds",
+      "passed": true
+    },
+    {
+      "check": "DFS Low complete plotted risk table",
+      "passed": true
+    },
+    {
+      "check": "Primary two-endpoint BH independently rebuilt",
+      "passed": true
+    },
+    {
+      "check": "Eight target Cox tests BH independently rebuilt",
+      "passed": true
+    },
+    {
+      "check": "Both 198-person ID sensitivities are present",
+      "passed": true
+    },
+    {
+      "check": "Living follow-up sensitivity excludes exactly one DFS patient",
+      "passed": true
+    },
+    {
+      "check": "Only H104572T has living follow-up discordance",
+      "passed": true
+    },
+    {
+      "check": "No DFS event beyond known death",
+      "passed": true
+    },
+    {
+      "check": "All erroneous source LIAD labels explicitly flagged",
+      "passed": true
+    },
+    {
+      "check": "Original reference and query still frozen",
+      "passed": true
+    },
+    {
+      "check": "Endpoints are OS / source DFS, never relabelled PFS",
+      "passed": true
+    },
+    {
+      "check": "Both PNG and PDF KM exports exist",
+      "passed": true
+    }
+  ],
+  "note": "Source identity and numerical validation do not validate cellular abundance or retrospectively establish a true PFS endpoint."
+}

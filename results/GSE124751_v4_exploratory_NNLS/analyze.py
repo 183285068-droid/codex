@@ -163,6 +163,9 @@ def main():
     link.to_csv(ROOT / 'earlier_GEO_exact_title_link_candidates.csv', index=False)
     summaries['earlier_GEO_title_matches'] = int(link.earlier_GSM.notna().sum())
     summaries['earlier_GEO_title_matches_by_subtype'] = link.dropna(subset=['earlier_GSM']).subtype.value_counts().to_dict()
+    if (ROOT / 'survival_summary.json').exists():
+        summaries['survival_analysis_performed'] = True
+        summaries['clinical_reason'] = 'Public clinical payloads obtained via user upload and verified; see survival_summary.json and rerun survival.py after this projection.'
     (ROOT / 'summary.json').write_text(json.dumps(summaries, indent=2) + '\n')
     plot(meta, main_cutoff)
     print(json.dumps(summaries, indent=2))
@@ -191,7 +194,7 @@ def plot(meta, cutoff):
     for ax in axes:
         ax.spines[['top','right']].set_visible(False)
     fig.suptitle('GSE124751: fixed 850-gene / 17-component reference', fontsize=14)
-    fig.text(.06,.025,'Exploratory coefficients; not validated cell fractions. Survival follow-up not yet retrieved.',
+    fig.text(.06,.025,'Exploratory coefficients; not validated cell fractions. See separate patient-linked survival analysis.',
              fontsize=10, color='#555555')
     fig.tight_layout(rect=[0,.09,1,.92])
     fig.savefig(ROOT / 'NNLS_distribution_and_sensitivity.png', dpi=220)

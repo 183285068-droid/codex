@@ -1,130 +1,149 @@
-# GSE124751：v4探索性NNLS系数已完成，生存分析待取得临床随访
+# GSE124751：固定v4探索性NNLS系数与OS / 源表DFS生存分析
 
-**本轮已完成206份HCC肿瘤表达样本的固定NNLS投影；尚未完成OS/RFS/PFS生存分析。**
-GEO没有逐患者生存时间与事件状态。已找到同中心早期队列的公开cBioPortal临床文件，
-但其实际Git LFS内容所在域名被当前云环境网络策略拦截。
-这属于访问限制，不能据此判断该队列没有生存随访。当前没有可报告的KM曲线、logrank p值或Cox HR。
+**196例主分析中，非零系数与零系数组的OS和DFS均未发现统计学显著差异。**
+沿用此前固定的850基因×17组分联合参考、原始行权重与NNLS；没有根据随访结果更改基因、系数或分组阈值。
+临床表没有PFS，本报告使用原表的OS和DFS（其中事件标签为复发），不将DFS改称PFS。
+该参考未通过既往丰度验证，结果是探索性RNA参考系数与随访的关联，不能解释为已验证的细胞丰度效应。
 
-## 已完成结果
+## 主结果
 
-| 项目 | 结果 |
-| --- | --- |
-| 纳入表达样本 | 206份肿瘤：195 C-HCC，11 HCC-IS |
-| 平台 | GPL11154，Illumina HiSeq 2000 RNA-seq |
-| 表达矩阵 | 20,501基因 × 206样本，无缺失表达值 |
-| 原参考 | 固定850基因 × 17组分v4联合参考及原行权重 |
-| 本平台实际覆盖 | 763/850基因，包含PGAM5；不填补缺失87基因 |
-| 目标组分 | TAM_PGAM5_detected |
-| 非零目标系数 | 68份 |
-| 目标系数为0 | 138份 |
-| 固定中位数分组 | 中位数=0；High>0（68份），Low=0（138份） |
-| 加权参考秩 / 条件数 | 17 / 10.6528 |
-| 加权相对拟合残差中位数 | 0.7986 |
+| 终点 | 患者数（High / Low） | 事件数（High / Low） | logrank p | BH q（两个主终点） | Cox HR，High / Low（95%CI） |
+| --- | --- | --- | --- | --- | --- |
+| OS | 196（61 / 135） | 29（9 / 20） | 0.849690 | 0.849690 | 0.927（0.422–2.036） |
+| DFS | 196（61 / 135） | 85（23 / 62） | 0.290358 | 0.580716 | 0.772（0.478–1.248） |
 
-上述分组先在全部206份表达样本中固定，再考虑未来临床终点缺失。
-因中位数为0，High/Low实际是非零/零系数的比较；**0不代表组织内没有PGAM5表达巨噬细胞**。
+![OS与DFS Kaplan–Meier曲线，含风险人数、置信区间及检验](KM_OS_DFS.png)
 
-![NNLS分布与转换敏感性](NNLS_distribution_and_sensitivity.png)
+曲线显示95%置信区间、删失标记和各时间点开始时的风险人数。
+主分析OS共29个死亡事件；置信区间较宽，结果不显著不能证明不存在关联。
+OS两组的KM中位生存均未达到；DFS High组未达到中位数，Low组中位数46.1个月。
 
-### 表达值转换敏感性
+## 入组、患者链接与质量核验
 
-GEO明确记录的是RSEM估计后固定上四分位归一化的log2表达值，未明确注明是否加1。
-因此主分析预先假设log2(x+1)，以2^x−1转回线性尺度；不将这些数据称为原始读段计数。
-对全20,501基因进行每样本和归一化至10,000，再按763个共有基因计算NNLS。
-另外固定两种敏感性变换：零值保留为0、正值转为2^x；以及全部直接转为2^x。
+原GSE124751包含206份肿瘤表达样本：195常规HCC（C-HCC）和11免疫细胞丰富型HCC（HCC-IS）。
+矩阵有20,501个基因，包含PGAM5，覆盖原参考的763/850个基因。
+按全部206份表达样本的预设中位数=0分组：High>0（68份），Low=0（138份）。
+临床排除后仍保持原分组，主分析为High 61例、Low 135例。
+**0是模型系数边界解，不代表组织内没有PGAM5表达巨噬细胞。**
 
-| 变换 | 非零系数样本 | 与主分析相比分组变化 | 与主分析的Spearman r | 最大系数绝对差 |
-| --- | --- | --- | --- | --- |
-| log2_plus1_primary | 68 | 0 | 1.000000 | 0.00000000 |
-| zero_preserving_log2 | 68 | 0 | 1.000000 | 0.00025788 |
-| unshifted_log2 | 68 | 0 | 1.000000 | 0.00026543 |
+两份用户上传RTF经严格ASCII正文解析后，转出的字节数和SHA256与官方Git LFS对象完全相同：
 
-变换的选择未利用任何生存结局，也没有改变参考、权重、求解器或筛选额外标志基因。
-数值/分组对该转换假设稳定，不构成生物学丰度验证。
-
-## 临床资料线索及身份核对
-
-1. [GSE124751](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124751)有206份表达样本；未纳入另一系列GSE124752。
-   195份为常规HCC，11份为免疫细胞丰富型HCC（HCC-IS）。
-2. [GSE54504](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54504)为同中心早期可切除HCC队列。
-   原完整肿瘤编号精确对应198份本轮表达样本：195 C-HCC和3 HCC-IS。
-   例如本轮H060664T（GSM3553191）精确对应早期GSM1317251的Tumor (H060664T)。
-   该早期GEO记录中的“early recurrence”仅是状态，不能替代时间和删失信息。
-3. 其余8份HCC-IS在本轮表达矩阵中以L开头，但GEO标题为相同数字后缀的H编号。
-   全部206列的顺序及这8例后缀相符，故已标注为元数据前缀别名，并保留两个原名。
-   **此别名用于整理本轮GEO描述，不用于宣称临床患者身份已经验证。**
-4. [原队列论文（PMID 24798001）](https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24798001&retmode=xml)
-   和[后续论文（PMC5960090）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5960090/)的数据可用性说明指向
-   cBioPortal研究`lihc_amc_prv`。
-   [官方公开datahub目录](https://github.com/cBioPortal/datahub/tree/18763f8eee86d4886d7210068f745f1e509498ee/public/lihc_amc_prv)
-   将其标为“Liver Hepatocellular Carcinoma (AMC, Hepatology 2014)”，231个肿瘤/配对正常患者队列。
-   本轮仅需其中公开临床文件，不需原始受控测序数据或患者私密资料。
-
-### 尚未取得的临床文件
-
-| 文件 | 官方Git LFS对象SHA256 | 实际文件字节数 |
+| 解码表 | 字节数 | 官方SHA256 |
 | --- | --- | --- |
-| data_clinical_patient.txt | 629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1 | 12050 |
-| data_clinical_sample.txt | 5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49 | 20728 |
+| data_clinical_patient.txt | 12050 | 629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1 |
+| data_clinical_sample.txt | 20728 | 5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49 |
 
-`inputs/*lfs_pointer.txt`是130字节的官方指针，**不是临床表**。两张真实表尚未读取，
-因此尚不确定其具体终点字段、有效随访人数，以及与本轮样本的最终匹配人数。
-198个GEO编号对应关系是临床链接机会，不等于198例已有可用随访。
+临床源表各有231条一对一患者记录，无重复患者ID。实际链接过程为：
 
-尝试结果保存在`network_and_clinical_status.json`：GEO及GitHub普通文件可访问，
-公开临床Git LFS实际内容下载所需的`media.githubusercontent.com`被当前代理以CONNECT HTTP403拦截。
-cBioPortal API及其原生Git LFS下载主机也被当前网络策略拦截。
-已保存允许`media.githubusercontent.com`的环境配置草稿，保留此前设置；
-**保存草稿不等于修改当前网络，需在环境设置中保存并发布后再重试。**
+- 206份表达中198份的完整肿瘤编号去掉末尾T后，精确对应临床PATIENT_ID和SAMPLE_ID；
+  同时在同中心早期GSE54504的`Tumor (完整编号T)`记录中逐一核对。
+- 8份HCC-IS在矩阵中以L开头，在GEO标题中以H开头；元数据后缀和顺序相符，
+  已保留两种原名，但没有借此推断临床身份，因缺乏完整编号的精确临床匹配而排除。
+- 其余198份中196份年龄完全相符。H080196T的GEO年龄57、临床年龄49；
+  H080204T的GEO年龄53、临床年龄57。按临床取得前已固定的年龄核验规则，主分析排除这2例。
+- 主分析纳入193例C-HCC和3例HCC-IS。没有将8份缺失HCC-IS的随访或系数当作0补入分析。
+- OS和DFS时间均为有限正值、状态标签有效，没有DFS时间晚于已知死亡时间的情况。
 
-取得真实临床表后的分析要求：核验字段定义和单位，以完整患者编号精确匹配，
-并核对年龄等独立信息；审计重复、缺失和HCC-IS覆盖差异。
-只有实际记录的生存时间/事件对才可计算KM、logrank和Cox。
-原论文出现DSS/RFS等终点时按原定义报告，不改称OS/PFS。
-该数据可能与此前TCGA系数的平台表现不同，不能移用TCGA绝对阈值。
+### 源表字段的限制
 
-## 方法与限制
+OS按原表`OS_MONTHS`（初始诊断后月数）、`0:LIVING / 1:DECEASED`报告。
+DFS按原表`DFS_MONTHS`（初始治疗后月数）、`0:DiseaseFree / 1:Recurred`报告。
+源表中确有死亡但DFS事件为0的患者，因此没有擅自把死亡补写为DFS事件，
+也没有把本终点视作已重新验证的复发或死亡复合终点。所有结论限于源表定义。
 
-参考及行权重与此前v4分析逐字节一致。只取实际覆盖的763个参考基因，
-按原行尺度对参考和查询共同加权；使用SciPy固定NNLS，并以17组分系数之和归一化。
-不能根据本队列结局筛选参考基因、改变权重或选择最佳cutpoint。
+H104572T的OS仍存活随访为26.4个月、DFS复发时间为28.3个月，存在终点随访时间不一致。
+因为OS记录不是已知死亡时间，主分析保留源表两个终点并标记异常，另做剔除该例的DFS敏感性分析。
+没有修改或替换原随访时间。
 
-**该参考先前未通过目标缺失混合物等丰度验证，当前系数不能解释为已验证细胞比例。**
-主分析相对加权拟合残差中位数约79.9%，提示该参考对这些bulk表达的整体解释有限。
-PGAM5本身并非巨噬细胞特异基因，测到PGAM5也不建立bulk中的细胞来源特异性。
-本轮变换稳定和数值审计通过仅说明计算可复现。
+公开临床sample表的所有231行均写成`LIAD / Hepatocellular Adenoma`，与原HCC研究标题、GEO病理范围不一致。
+本轮按原研究及GEO完整编号确定HCC入组，明确记录该字段冲突，没有使用该字段作入组过滤。
+源表还存在18个`IIII`等级值和取1–4的`CIRRHOSIS`字段；均保留原值，未擅自转成分期或二元肝硬化状态。
+年龄之外没有可靠的性别/TNM字段用于本次调整。
 
-## 本轮核验
+## 敏感性分析
 
-87项检查通过。直接由原始发布的log2矩阵重新构建157,178个查询数值；
-对28份样本用独立BVLS有界最小二乘求解复核，
-17组分系数最大差为6.33e-15。
-另外核查输入SHA256、行列顺序、基因覆盖、样本与别名数量、完整编号链接及全局中位数分组。
-PNG/PDF已导出并检查。该审计不涵盖尚未取得的临床资料或生存分析。
+| 分析 | 终点 | 人数 | logrank p | HR（95%CI） |
+| --- | --- | --- | --- | --- |
+| 纳入全部198个精确编号，含2例年龄冲突 | OS | 198 | 0.827181 | 0.916（0.417–2.012） |
+| 纳入全部198个精确编号，含2例年龄冲突 | DFS | 198 | 0.268354 | 0.763（0.472–1.233） |
+| DFS剔除H104572T随访时间不一致例 | DFS | 195 | 0.309029 | 0.780（0.482–1.261） |
 
-## 文件及复现
+这些分析均未发现显著的高低分组差异。两种预设备选表达转换未改变分组，OS/DFS logrank结果与主分析相同。
 
-- `sample_coefficients_and_metadata.csv`：206样本主分析目标系数、GSM、原矩阵名、GEO标题、前缀别名标记、年龄、亚型及预设分组。
-- `coefficients_*.csv`：三种变换的全部17组分系数。
-- `transformation_sensitivity.csv`、`fit_diagnostics_*.csv`：敏感性及拟合诊断。
-- `earlier_GEO_exact_title_link_candidates.csv`：严格保持原矩阵编号的早期GEO对应候选，未填入未观察到的临床终点。
-- `input_manifest.csv`、`analysis_protocol.json`：不可变输入来源、校验和及分析规则。
-- `audit_results.json`：独立核验记录。
-- `inputs/`：公共原表达、官方元数据、固定参考及临床LFS指针。论文正文没有重新分发。
+### 补充Cox模型
 
-在本目录用Python 3.12运行：
+连续系数按原全部206份表达样本的标准差缩放，未按终点或随访子集重新标准化。
+另外提供只调整年龄的Cox模型。以下q对2终点×4模型的8个目标系数检验统一BH校正；
+这一补充检验家族与两个主logrank终点的校正分别报告。
+
+| 终点 | 补充模型 | 目标HR（95%CI） | 未校正p | BH q（8个目标检验） |
+| --- | --- | --- | --- | --- |
+| OS | 连续系数每增加1 SD | 0.860（0.574–1.289） | 0.464938 | 0.619917 |
+| OS | 高低分组，调整年龄 | 0.919（0.418–2.023） | 0.834437 | 0.849580 |
+| OS | 连续系数每增加1 SD，调整年龄 | 0.855（0.570–1.283） | 0.450091 | 0.619917 |
+| DFS | 连续系数每增加1 SD | 0.699（0.519–0.940） | 0.017741 | 0.087546 |
+| DFS | 高低分组，调整年龄 | 0.796（0.491–1.291） | 0.354717 | 0.619917 |
+| DFS | 连续系数每增加1 SD，调整年龄 | 0.707（0.525–0.951） | 0.021887 | 0.087546 |
+
+连续系数与DFS的未校正p约0.0177，调整年龄后约0.0219；但在8个目标检验统一BH校正后q约0.0875，
+只能报告为探索性线索，不能用它替代不显著的预设高低组比较或宣称已确立保护作用。
+OS年龄调整模型中年龄协变量的比例风险检验p约0.030，提示该补充模型的年龄效应假设需谨慎；
+主二元系数的OS/DFS比例风险检验未低于0.05，详见模型表。没有根据结局继续选择其他模型。
+
+## 固定NNLS方法与用途限制
+
+参考和全部三种表达转换的系数在临床数据取得前已发布于Git提交
+`5d1a42f2b4448213c74730d05c7489923baf8d4c`；本轮逐字节核验未改变这些文件。
+原850×17参考和行权重也与更早的v4分析逐字节一致，缺失87个基因不作插补或重新筛选。
+用共同763个基因计算加权NNLS，17组分系数以各自和归一化，目标是`TAM_PGAM5_detected`。
+
+GEO明确发布的是上四分位归一化log2表达，但未明确是否加1。
+主分析按预设log2(x+1)假设，以2^x−1反变换；对全20,501基因归一化至每样本总和10,000后投影。
+敏感性变换为正值2^x/零保留0，以及全部直接2^x；两者都没有改变分组。
+这些不是原始测序读段计数。
+
+**该参考先前未通过丰度验证，且本队列加权相对拟合残差中位数为0.7986。
+不能将系数解释为真实PGAM5⁺巨噬细胞百分比。**
+PGAM5不是巨噬细胞特异表达基因；该bulk关联不证明细胞来源特异性、抗肿瘤功能或因果作用。
+其他病理因素、组间基线差异、临床误标及随访更新差异仍可能影响结果。
+
+## 独立核验与复现
+
+表达及投影共93项检查通过：重建157,178个查询数值，
+28份样本独立BVLS系数最大差6.33e-15。
+生存另有60项独立检查通过：官方临床SHA256、逐患者编号和年龄、原冻结系数、风险人数、
+完整KM乘积估计、带并列事件的logrank、两个主终点BH，以及独立Efron部分似然的Cox HR、CI和Wald p。
+PNG/PDF已导出并检查，ZIP通过CRC和逐文件SHA256核验。数值验证不等于丰度或临床终点重新验证。
+
+在本目录运行：
 
 ```bash
 python -m pip install -r requirements.txt
 export MPLCONFIGDIR=/tmp/pgam5-matplotlib
 export OPENBLAS_NUM_THREADS=4 OMP_NUM_THREADS=4
+python convert_clinical_rtf.py
 python analyze.py
+python survival.py
 python audit.py
+python audit_survival.py
 python build_report.py
 ```
 
-以上完整复现本轮已完成的NNLS与核验。
-网络允许后，运行`python download_clinical.py`取得并核验两张公开临床真实表；
-该脚本只下载源文件，不自动推测终点字段或生成尚未核验的KM分析。
+上传RTF和已验证的解码表都已在`inputs/`，所以本轮复现无需修改云环境网络配置。
+`download_clinical.py`仅是可选公开源下载脚本；云环境原生下载限制仍存在，已通过提供文件解决本轮数据需求。
 
-结果包：`GSE124751_v4_exploratory_NNLS_results.zip`。打开GitHub文件后点击“Download raw file”。
+主要文件：
+
+- `KM_OS_DFS.png / .pdf`：OS/DFS曲线与风险人数。
+- `survival_statistics.csv`、`Cox_binary_continuous_age_adjusted.csv`、`survival_sensitivity.csv`：主比较、补充模型和敏感性结果。
+- `patient_coefficients_clinical.csv`、`OS_analysis_patients.csv`、`DFS_analysis_patients.csv`：患者级表达系数及随访。
+- `clinical_link_audit.csv`、`endpoint_excluded_patients.csv`：全部206样本的链接、冲突及排除原因。
+- `KM_curve_values.csv`、`KM_numbers_at_risk.csv`、`independent_logrank_risk_sets.csv`：可核查的图表与检验数值。
+- `clinical_RTF_conversion_audit.json`、`audit_results.json`、`survival_audit_results.json`：来源与数值核验。
+- `preclinical_frozen_coefficients.csv`、`input_manifest.csv`、`survival_protocol.json`：冻结系数、输入来源及方法。
+- `GSE124751_v4_exploratory_NNLS_results.zip`：完整自包含结果包，GitHub点击“Download raw file”。
+
+官方来源：[GSE124751](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124751)、
+[GSE54504](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54504)、
+[cBioPortal官方研究目录](https://github.com/cBioPortal/datahub/tree/18763f8eee86d4886d7210068f745f1e509498ee/public/lihc_amc_prv)、
+[后续论文数据可用性说明（PMC5960090）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5960090/)。

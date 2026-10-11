@@ -1,0 +1,21 @@
+GSM,sample_id,PATIENT_ID,group,OS_time_months,OS_event,endpoint,exclusion_reason,DFS_time_months,DFS_event
+GSM3553213,L072999T,L072999,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553261,L060617T,L060617,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553302,H080196T,H080196,Low,59.4,0.0,OS,GEO age differs from clinical AGE,,
+GSM3553303,H080204T,H080204,High,59.3,0.0,OS,GEO age differs from clinical AGE,,
+GSM3553329,L090745T,L090745,Low,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553336,L091449T,L091449,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553352,L093624T,L093624,Low,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553355,L093884T,L093884,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553368,L110224T,L110224,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553383,L110772T,L110772,High,,,OS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553213,L072999T,L072999,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553261,L060617T,L060617,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553302,H080196T,H080196,Low,,,DFS,GEO age differs from clinical AGE,54.8,0.0
+GSM3553303,H080204T,H080204,High,,,DFS,GEO age differs from clinical AGE,56.6,0.0
+GSM3553329,L090745T,L090745,Low,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553336,L091449T,L091449,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553352,L093624T,L093624,Low,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553355,L093884T,L093884,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553368,L110224T,L110224,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,
+GSM3553383,L110772T,L110772,High,,,DFS,No exact clinical and earlier GEO tumor-ID link,,

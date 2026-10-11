@@ -1,0 +1,39 @@
+{
+  "source_clinical_patients": 231,
+  "exact_ID_linked": 198,
+  "age_concordant": 196,
+  "age_conflicts": [
+    "H080196T",
+    "H080204T"
+  ],
+  "no_exact_clinical_ID": [
+    "L072999T",
+    "L060617T",
+    "L090745T",
+    "L091449T",
+    "L093624T",
+    "L093884T",
+    "L110224T",
+    "L110772T"
+  ],
+  "main_high": 61,
+  "main_low": 135,
+  "main_OS_patients": 196,
+  "main_DFS_patients": 196,
+  "DFS_later_than_living_OS_followup": [
+    "H104572T"
+  ],
+  "source_LIAD_label_conflicts": 198,
+  "PFS_available": false,
+  "survival_analysis_performed": true,
+  "source_patient_sha256": "629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1",
+  "source_sample_sha256": "5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "lifelines": "0.30.3",
+    "statsmodels": "0.15.0"
+  }
+}

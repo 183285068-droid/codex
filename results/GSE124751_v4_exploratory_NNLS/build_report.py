@@ -147,6 +147,9 @@ python build_report.py
 
 结果包：`GSE124751_v4_exploratory_NNLS_results.zip`。打开GitHub文件后点击“Download raw file”。
 '''
+    if (ROOT/'survival_audit_results.json').exists():
+        from write_survival_report import render
+        text=render(summary,audit)
     (ROOT/'README.md').write_text(text)
     files = [p for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts
              and p.suffix != '.zip' and p.name not in {'package_file_sha256.csv','zip_sha256.txt'}]

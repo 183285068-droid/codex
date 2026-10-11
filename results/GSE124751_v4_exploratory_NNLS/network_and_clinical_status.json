@@ -4,7 +4,7 @@
   "clinical_payload_downloaded": false,
   "public_clinical_source_identified": true,
   "clinical_source_study": "lihc_amc_prv",
-  "actual_endpoint_columns_inspected": false,
+  "actual_endpoint_columns_inspected": true,
   "blocked_domains": [
     "media.githubusercontent.com",
     "www.cbioportal.org",
@@ -15,5 +15,9 @@
   "configuration_draft_saved": true,
   "draft_added_domain": "media.githubusercontent.com",
   "draft_requires_publish": true,
-  "scope": "GSE124751 only; prior LIRI-JP task replaced by user; do not resume canceled cohorts."
+  "scope": "GSE124751 only; frozen prior v4 coefficients and original all-206 cutoff maintained.",
+  "clinical_payload_available": true,
+  "clinical_acquisition_method": "User-uploaded RTF files decoded to exact pinned official clinical bytes",
+  "clinical_tables_exact_official_SHA256": true,
+  "network_configuration_required_for_this_completed_analysis": false
 }

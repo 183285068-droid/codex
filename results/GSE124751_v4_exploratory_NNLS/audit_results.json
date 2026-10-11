@@ -49,6 +49,22 @@
       "passed": true
     },
     {
+      "check": "Input SHA256: inputs/uploaded_data_clinical_patient.rtf",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/lihc_amc_prv_data_clinical_patient.txt",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/uploaded_data_clinical_sample.rtf",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/lihc_amc_prv_data_clinical_sample.txt",
+      "passed": true
+    },
+    {
       "check": "763 measured genes; PGAM5 included",
       "passed": true
     },
@@ -345,7 +361,15 @@
       "passed": true
     },
     {
-      "check": "No fabricated survival statistics",
+      "check": "Survival status agrees with linked analysis",
+      "passed": true
+    },
+    {
+      "check": "Actual official clinical payload: patient",
+      "passed": true
+    },
+    {
+      "check": "Actual official clinical payload: sample",
       "passed": true
     }
   ],

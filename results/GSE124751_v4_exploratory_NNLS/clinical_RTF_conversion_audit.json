@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "patient",
+    "uploaded_RTF_SHA256": "cca1cae91f39a62602ec97bb3617bc44ce5334133a2d652c85bc65d1716f5a82",
+    "decoded_SHA256": "629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1",
+    "decoded_bytes": 12050,
+    "exact_official_LFS_payload_match": true
+  },
+  {
+    "kind": "sample",
+    "uploaded_RTF_SHA256": "53e72d09f149cab6de56ec1ebd72826193bc0b273b2ed5a85a7a8edfaeda695e",
+    "decoded_SHA256": "5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49",
+    "decoded_bytes": 20728,
+    "exact_official_LFS_payload_match": true
+  }
+]

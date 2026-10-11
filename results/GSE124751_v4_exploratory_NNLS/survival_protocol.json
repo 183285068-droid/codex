@@ -1,0 +1,20 @@
+{
+  "reference_and_coefficients": "Unchanged from prior committed 206-sample v4 NNLS results",
+  "cutpoint": "Keep global all-206 median=0; High>0, Low=0; no re-cutting after clinical exclusions",
+  "main_eligibility": "Exact full tumor ID minus final T; clinical SAMPLE_ID equals patient ID; also match an earlier GSE54504 Tumor(full ID) sample; GEO age equals clinical AGE. No inferred L/H alias matching.",
+  "primary_endpoints": {
+    "OS": "Source OS_MONTHS and 0:LIVING / 1:DECEASED",
+    "DFS": "Source DFS_MONTHS and 0:DiseaseFree / 1:Recurred; not PFS; no rewriting deaths as DFS events"
+  },
+  "time_validation": "Finite positive months and valid explicit event labels; no DFS event after a known death; flag OS-living last-follow-up shorter than DFS follow-up instead of substituting times",
+  "comparisons": "Two-sided logrank and High-vs-Low Cox HR with 95% CI; BH across the two primary logrank tests",
+  "continuous_model": "NNLS coefficient z-scored on all 206 original expression samples; HR per SD",
+  "adjustment": "Sensitivity Cox models adjusted for age only; no invented sex/stage covariates. Grade IIII, CIRRHOSIS numeric and incorrect LIAD labels are retained as unmodified source data and not used as adjustment variables.",
+  "sensitivity_analyses": [
+    "Include both age-discordant IDs (198 exact-ID matches)",
+    "Exclude the one living-OS/DFS follow-up discordant sample from DFS only",
+    "Two predeclared expression-transform alternatives; same frozen coefficients and median-based grouping; no outcome-based choice"
+  ],
+  "source_label_conflict": "All 231 source sample rows say LIAD/Hepatocellular Adenoma, in conflict with authoritative GSE and linked original HCC study; scope follows original HCC study and GEO IDs, flag source label issue rather than filtering all patients out.",
+  "secondary_Cox_multiplicity": "BH across all 8 target-coefficient tests (2 endpoints x 4 models), excluding nuisance age-coefficient tests; secondary family explicitly separate from primary logrank family"
+}

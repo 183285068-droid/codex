@@ -12,6 +12,6 @@
   "cutpoint": "Global median across all 206 tumor expression samples; High>median, Low<=median; no survival-based optimization",
   "clinical_join_requirement": "Exact full tumor patient identifiers plus independent age agreement; flagged L/H matrix aliases require additional identity evidence before clinical linkage",
   "endpoints": "Only directly recorded valid time and event pairs; do not relabel DSS as OS, or RFS/DFS as PFS",
-  "survival_plan": "If clinical files are retrieved and verified: Kaplan-Meier with risk tables, logrank test, binary and per-SD continuous Cox; BH correction across the main available endpoints. No p-value exists yet.",
+  "survival_plan": "Completed OS and source-defined DFS using uploaded official clinical tables; see survival_protocol.json. Original projection/cutpoint frozen in Git commit 5d1a42f before clinical data were available.",
   "interpretation": "Exploratory RNA-reference coefficient, not validated cell abundance."
 }

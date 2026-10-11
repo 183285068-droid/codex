@@ -11,3 +11,7 @@ inputs/reference_row_scales.csv,21315,7fc0af49e8047866179944e3d472a389bdf92f810b
 inputs/rna.processed.hcc_I.log2.txt.gz,25150464,b5fd2d8ce0d50c6c76c27a7f6a8bd36014370f9189feab58525488e85ec29d91,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124751/suppl/GSE124751_rna.processed.hcc_I.log2.txt.gz
 inputs/sample_metadata.soft.gz,7249,e2e0c76f0a7e2bf5742bc8a6ef66e02a838df96201fe31b3f4b484bb36c64952,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124751&targ=gsm&form=text&view=brief
 inputs/series.soft.gz,1398,1455e7da732248a26198a5f02c0c8ab8704dd23cf00aef8f4012cc571412c45d,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124751&targ=self&form=text&view=full
+inputs/uploaded_data_clinical_patient.rtf,12690,cca1cae91f39a62602ec97bb3617bc44ce5334133a2d652c85bc65d1716f5a82,sediment://file_00000000e1288206b269d21b908ce931
+inputs/lihc_amc_prv_data_clinical_patient.txt,12050,629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1,https://media.githubusercontent.com/media/cBioPortal/datahub/18763f8eee86d4886d7210068f745f1e509498ee/public/lihc_amc_prv/data_clinical_patient.txt
+inputs/uploaded_data_clinical_sample.rtf,21368,53e72d09f149cab6de56ec1ebd72826193bc0b273b2ed5a85a7a8edfaeda695e,sediment://file_0000000092348209b74bd6869433681a
+inputs/lihc_amc_prv_data_clinical_sample.txt,20728,5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49,https://media.githubusercontent.com/media/cBioPortal/datahub/18763f8eee86d4886d7210068f745f1e509498ee/public/lihc_amc_prv/data_clinical_sample.txt

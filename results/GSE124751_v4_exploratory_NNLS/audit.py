@@ -68,7 +68,15 @@ def main():
     check('Links do not use L/H alias for clinical matching',
           link.loc[matched,'earlier_sample_title'].str.removeprefix('Tumor (').str.removesuffix(')').equals(link.loc[matched,'sample_id']))
     summary = json.loads((ROOT/'summary.json').read_text())
-    check('No fabricated survival statistics', summary['survival_analysis_performed'] is False and not list(ROOT.glob('KM*')))
+    if (ROOT/'survival_summary.json').exists():
+        survival=json.loads((ROOT/'survival_summary.json').read_text())
+        check('Survival status agrees with linked analysis', summary['survival_analysis_performed'] is True and survival['survival_analysis_performed'] is True)
+        for kind,sha in [('patient','629c2d2994250b55f069ddd4a7a5900f5ac0f3ab1d9da37b96686f2c8e8729c1'),
+                         ('sample','5ecf933d8834175841f59efa2f8b9f251531877fd89a58a1da81b8042762ac49')]:
+            check('Actual official clinical payload: '+kind,
+                  hashlib.sha256((inputs/f'lihc_amc_prv_data_clinical_{kind}.txt').read_bytes()).hexdigest()==sha)
+    else:
+        check('No fabricated survival statistics', summary['survival_analysis_performed'] is False and not list(ROOT.glob('KM*')))
     output = {'checks':checks,'passed':all(x['passed'] for x in checks),
               'independent_BVLS_samples':len(indices), 'BVLS_max_coefficient_error':max(errors),
               'reconstructed_query_values':int(saved.size),
