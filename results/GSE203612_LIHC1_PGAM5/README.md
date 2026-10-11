@@ -49,20 +49,20 @@ GSE203612是泛癌研究，其他人类癌种、黑色素瘤PDX及小鼠模型�
 
 | cluster | RNA_annotation | n_cells | PGAM5_detected | PGAM5_detection_pct | PGAM5_mean_log1p_CP10k |
 | --- | --- | --- | --- | --- | --- |
-| C0 | C0: HRG/CYP3A5 | Hepatocyte-like | 214 | 15 | 7.0093 | 0.1058 |
-| C1 | C1: CYP2E1/CYP3A4 | Hepatocyte-like | 316 | 24 | 7.5949 | 0.0987 |
-| C2 | C2: MZB1/JCHAIN | Plasma-cell-related | 103 | 4 | 3.8835 | 0.0889 |
-| C3 | C3: C1QA/CD163 | Macrophage-like | 221 | 4 | 1.81 | 0.0439 |
-| C4 | C4: MKI67/TOP2A | Cycling; lineage unresolved | 45 | 1 | 2.2222 | 0.053 |
-| C5 | C5: FCN1/VCAN | Monocyte/DC-related | 147 | 2 | 1.3605 | 0.0219 |
-| C6 | C6: CD5L/MARCO | Macrophage-like | 104 | 4 | 3.8462 | 0.0449 |
-| C7 | C7: VWF/KDR | Endothelial-like | 112 | 3 | 2.6786 | 0.0492 |
-| C8 | C8: IL7R/CCL5 | T/NK-related | 375 | 7 | 1.8667 | 0.0534 |
-| C9 | C9: FCGR3B/S100A8 | Granulocyte-like | 43 | 0 | 0.0 | 0.0 |
-| C10 | C10: COL1A2/NOTCH3 | Stromal/perivascular-related | 16 | 0 | 0.0 | 0.0 |
-| C11 | C11: FOXP3/IKZF2 | Treg-related | 46 | 1 | 2.1739 | 0.0648 |
-| C12 | C12: MS4A1/CD79A | B-cell-related | 31 | 1 | 3.2258 | 0.0772 |
-| C13 | C13: CPA3/TPSB2 | Mast-cell-related | 10 | 0 | 0.0 | 0.0 |
+| C0 | C0: HRG/CYP3A5 &#124; Hepatocyte-like | 214 | 15 | 7.0093 | 0.1058 |
+| C1 | C1: CYP2E1/CYP3A4 &#124; Hepatocyte-like | 316 | 24 | 7.5949 | 0.0987 |
+| C2 | C2: MZB1/JCHAIN &#124; Plasma-cell-related | 103 | 4 | 3.8835 | 0.0889 |
+| C3 | C3: C1QA/CD163 &#124; Macrophage-like | 221 | 4 | 1.81 | 0.0439 |
+| C4 | C4: MKI67/TOP2A &#124; Cycling; lineage unresolved | 45 | 1 | 2.2222 | 0.053 |
+| C5 | C5: FCN1/VCAN &#124; Monocyte/DC-related | 147 | 2 | 1.3605 | 0.0219 |
+| C6 | C6: CD5L/MARCO &#124; Macrophage-like | 104 | 4 | 3.8462 | 0.0449 |
+| C7 | C7: VWF/KDR &#124; Endothelial-like | 112 | 3 | 2.6786 | 0.0492 |
+| C8 | C8: IL7R/CCL5 &#124; T/NK-related | 375 | 7 | 1.8667 | 0.0534 |
+| C9 | C9: FCGR3B/S100A8 &#124; Granulocyte-like | 43 | 0 | 0.0 | 0.0 |
+| C10 | C10: COL1A2/NOTCH3 &#124; Stromal/perivascular-related | 16 | 0 | 0.0 | 0.0 |
+| C11 | C11: FOXP3/IKZF2 &#124; Treg-related | 46 | 1 | 2.1739 | 0.0648 |
+| C12 | C12: MS4A1/CD79A &#124; B-cell-related | 31 | 1 | 3.2258 | 0.0772 |
+| C13 | C13: CPA3/TPSB2 &#124; Mast-cell-related | 10 | 0 | 0.0 | 0.0 |
 
 C3：C1QA/CD163，C6：CD5L/MARCO，支持巨噬细胞相关身份；C5为FCN1/VCAN单核/DC连续状态。C11具有FOXP3/IKZF2/TIGIT标志，暂定Treg相关；C8为IL7R/CCL5的T/NK相关群，未将该混合群强行全部判为耗竭T细胞。C4虽然MKI67/TOP2A增殖信号明显，但混合谱系信号不能确定来源，**未直接命名为增殖型巨噬细胞**。
 
@@ -74,9 +74,9 @@ C0/C1是肝细胞样RNA群，不因来自肿瘤组织就把每个细胞判为恶
 
 | cluster | RNA_annotation | n_spots | PGAM5_detected | PGAM5_detection_pct | PGAM5_mean_log1p_CP10k |
 | --- | --- | --- | --- | --- | --- |
-| S0 | S0: CYP3A4/TF | Hepatocyte-RNA-rich mixed region | 720 | 13 | 1.8056 | 0.0353 |
-| S1 | S1: DCXR/GLUL | Metabolic hepatocyte-RNA mixed region | 399 | 15 | 3.7594 | 0.0633 |
-| S2 | S2: CD74/HLA-DRB1 | Immune/stromal-RNA mixed region | 515 | 43 | 8.3495 | 0.0935 |
+| S0 | S0: CYP3A4/TF &#124; Hepatocyte-RNA-rich mixed region | 720 | 13 | 1.8056 | 0.0353 |
+| S1 | S1: DCXR/GLUL &#124; Metabolic hepatocyte-RNA mixed region | 399 | 15 | 3.7594 | 0.0633 |
+| S2 | S2: CD74/HLA-DRB1 &#124; Immune/stromal-RNA mixed region | 515 | 43 | 8.3495 | 0.0935 |
 
 S0/S1以肝细胞/代谢RNA为主，S2显示较强CD74/HLA及免疫/间质混合RNA。是真实组织坐标上的表达区域，不能解释为纯细胞群、克隆、确定恶性区域或MVI区域。没有独立病理ROI标签。
 

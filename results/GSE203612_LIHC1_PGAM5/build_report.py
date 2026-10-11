@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parent
 sc=ad.read_h5ad(ROOT/'singlecell_marker_subset.h5ad');sp=ad.read_h5ad(ROOT/'NYU_LIHC1_Vis_spatial_marker_subset.h5ad');audit=json.loads((ROOT/'audit_results.json').read_text());assoc=pd.read_csv(ROOT/'association_statistics.csv');moran=pd.read_csv(ROOT/'PGAM5_spatial_autocorrelation.csv')
 def md(d):
     s=['| '+' | '.join(d.columns)+' |','| '+' | '.join(['---']*len(d.columns))+' |']
-    for row in d.itertuples(index=False,name=None):s.append('| '+' | '.join('—' if pd.isna(v) else str(v) for v in row)+' |')
+    for row in d.itertuples(index=False,name=None):s.append('| '+' | '.join('—' if pd.isna(v) else str(v).replace('|', '&#124;') for v in row)+' |')
     return '\n'.join(s)
 sct=pd.read_csv(ROOT/'singlecell_cluster_profiles.csv');sct=sct.sort_values('cluster',key=lambda x:x.str[1:].astype(int));sct=sct[['cluster','RNA_annotation','n_cells','PGAM5_detected','PGAM5_detection_pct','PGAM5_mean_log1p_CP10k']];sct.iloc[:,4:]=sct.iloc[:,4:].round(4)
 spt=pd.read_csv(ROOT/'NYU_LIHC1_Vis_cluster_profiles.csv')[['cluster','RNA_annotation','n_spots','PGAM5_detected','PGAM5_detection_pct','PGAM5_mean_log1p_CP10k']];spt.iloc[:,4:]=spt.iloc[:,4:].round(4)
