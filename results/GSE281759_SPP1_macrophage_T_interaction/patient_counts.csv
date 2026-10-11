@@ -1,0 +1,5 @@
+patient,qc_spots,SPP1_all_spots,mac_RNA_spots,SPP1_mac_detected,SPP1_mac_undetected,SPP1_mac_high,nonT_mac_RNA_spots,T_RNA_spots,Tex_RNA_spots,Tact_RNA_spots,SPP1_detected_with_T_neighbor,SPP1_detected_with_Tex_neighbor,SPP1_detected_with_Tact_neighbor,sections
+A009,8909,3473,1360,615,745,156,840,1617,305,23,476,189,14,5
+B013,7270,5610,1384,1112,272,280,1036,1164,36,26,715,69,54,5
+C004,2394,272,223,34,189,9,161,300,0,6,23,0,0,2
+C008,6781,3356,1124,530,594,133,797,923,124,19,286,42,13,4

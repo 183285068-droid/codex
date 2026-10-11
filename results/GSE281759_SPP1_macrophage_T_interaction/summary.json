@@ -1,0 +1,21 @@
+{
+  "independent_patients": 4,
+  "sections": 16,
+  "primary_sections": 15,
+  "recurrent_sections": 1,
+  "qc_spots": 25354,
+  "mac_RNA_spots": 4091,
+  "SPP1_detected_mac_RNA_spots": 2291,
+  "SPP1_high_mac_RNA_spots": 578,
+  "SPP1_detected_with_T_neighbor": 1500,
+  "SPP1_detected_with_Tex_neighbor": 300,
+  "SPP1_detected_with_activation_neighbor": 81,
+  "planned_tests": 176,
+  "tested": 145,
+  "not_testable": 31,
+  "joint_q_significant_tests": 0,
+  "joint_min_BH_q": 0.8096,
+  "primary_min_BH_q": 0.2624,
+  "primary_only_min_BH_q": 0.246,
+  "audit_checks": 10240
+}

@@ -1,0 +1,49 @@
+{
+  "seed": 28175981,
+  "permutations": 4999,
+  "SPP1_positive": "raw count >0 in prior Mac-RNA gate; NOT cell-specific expression",
+  "SPP1_high": "within-section Q75 of positive Mac-RNA normalized SPP1, ties included",
+  "strata": "3x3 full-section Visium coordinate tile x source UMI halves x Macrophage-core halves; bins recomputed within each analysis source set",
+  "adjacency": "Difference in % source spots with >=1 directly adjacent target; no self-edges; sources with degree=0 excluded",
+  "correlation": "Partial Spearman on all Mac-RNA sources with >=1 T-RNA neighbor, including SPP1 zeros; neighbor program mean over T-RNA neighbors only",
+  "covariates": [
+    "source_log_UMI",
+    "source_pct_mt",
+    "source_Macrophage_core",
+    "source_Hepatocyte",
+    "source_Epithelial",
+    "source_T_lineage",
+    "neighbor_T_lineage",
+    "neighbor_log_UMI",
+    "neighbor_pct_mt"
+  ],
+  "planned_tests": 176,
+  "minimum_sources": 30,
+  "minimum_group_sizes": [
+    10,
+    10
+  ],
+  "high_group_sizes": [
+    5,
+    10
+  ],
+  "minimum_residual_df": 15,
+  "programs": [
+    "Exhaustion_core",
+    "Exhaustion_expanded",
+    "Activation_early",
+    "Effector_cytotoxic",
+    "Exhaustion_no_CTLA4_TIGIT"
+  ],
+  "no_checkpoint_program": [
+    "PDCD1",
+    "LAG3",
+    "TOX",
+    "CXCL13",
+    "HAVCR2",
+    "ENTPD1"
+  ],
+  "primary_family": "16 main All_T detection-vs-undetected adjacency tests",
+  "joint_FDR": "176 planned tests; untestable p stays missing and contributes 1 only for BH",
+  "causal_claim": false
+}

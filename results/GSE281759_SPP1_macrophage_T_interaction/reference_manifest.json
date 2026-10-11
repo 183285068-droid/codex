@@ -1,0 +1,104 @@
+[
+  {
+    "name": "sample_scope.json",
+    "bytes": 1786,
+    "sha256": "8171bba725569145fff2d0bf179872a0fe916af2c34e0732b67b193de5c6896b",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/sample_scope.json"
+  },
+  {
+    "name": "A009T1_spatial_marker_subset.h5ad",
+    "bytes": 1985168,
+    "sha256": "6b92453abd0166a9fdf69e6566a3d7c07e2f9eaf264dced6d4233022fe3efa19",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/A009T1_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "A009T2_spatial_marker_subset.h5ad",
+    "bytes": 1775914,
+    "sha256": "5ef407c833534001e5b886a6afb1f0f04213651998347976dc99b1d2389b949e",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/A009T2_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "A009T3_spatial_marker_subset.h5ad",
+    "bytes": 1559188,
+    "sha256": "623980a6e70b522fa751cabfc36ff69cd439827c5fba5e63cba16e0342046976",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/A009T3_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "A009T4_spatial_marker_subset.h5ad",
+    "bytes": 2594640,
+    "sha256": "ede8f4fb5d046b05135f023ae4ffbc7c0255b16916858550488dee262974ab26",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/A009T4_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "A009T5_spatial_marker_subset.h5ad",
+    "bytes": 2240229,
+    "sha256": "699c48b16a88af36d92cad519b376dfecdbc0f3c733fa2af948df60ccb588511",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/A009T5_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "B0013T1_spatial_marker_subset.h5ad",
+    "bytes": 1515722,
+    "sha256": "ac4a79073d9de4577d66e45fb6bb5844e31fca6df5e53bb2cea315c5668f8f72",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/B0013T1_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "B0013T2_spatial_marker_subset.h5ad",
+    "bytes": 1729056,
+    "sha256": "63a29a4597b2edca3dcb04755afd20a55fc67c055ecbe1cc5844adb240f1d5cf",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/B0013T2_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "B0013T3_spatial_marker_subset.h5ad",
+    "bytes": 1669579,
+    "sha256": "1519f01e5395667bcb4ca89c9cc67908bcbd2430ada07753400a1b55e89c0bfa",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/B0013T3_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "B0013T4_spatial_marker_subset.h5ad",
+    "bytes": 2107951,
+    "sha256": "66dd8905ec38e92238da6692ffec9adba2874fd3fbd38bb013051805fe58856b",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/B0013T4_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "B013T5_spatial_marker_subset.h5ad",
+    "bytes": 1924469,
+    "sha256": "3ba88aaee1eeabf07b1e7468c67003be0fbcc44d7ba9f819f734f63817acf73b",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/B013T5_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C004T1P_spatial_marker_subset.h5ad",
+    "bytes": 1675081,
+    "sha256": "9a10634e3a5ccaeec5f18ddfde5eee02f7d7d9ea752170b43fef5294ba60a77f",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C004T1P_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C004T1R_spatial_marker_subset.h5ad",
+    "bytes": 1281474,
+    "sha256": "3e03f86eb621e612c7c43807b240069a8e22199caa8ee4d3144104f0f61fc253",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C004T1R_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C008T1_spatial_marker_subset.h5ad",
+    "bytes": 2488249,
+    "sha256": "d3e71efd605b78ceaef26625d48b371179e910984b06f36323fccf9ec357f4a1",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C008T1_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C008T2_spatial_marker_subset.h5ad",
+    "bytes": 1551037,
+    "sha256": "cdc6233cbdca5807fdfc61ca2dbc54b9daf4f112271d91f5b6e3fe523ba436b0",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C008T2_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C008T3_spatial_marker_subset.h5ad",
+    "bytes": 1583544,
+    "sha256": "4e4bbd9915310f272b9998b54ecaf3f9f092509ea1a7e87951800d60f832c111",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C008T3_spatial_marker_subset.h5ad"
+  },
+  {
+    "name": "C008T4_spatial_marker_subset.h5ad",
+    "bytes": 1872136,
+    "sha256": "5e345c7575af6ce5b0313cafd5cdf6f1d3ceb2c83632ac9825cfea2f35ce319e",
+    "url": "https://raw.githubusercontent.com/183285068-droid/codex/6bb037700d74331b25f5ab5c21d167f178927fb3/results/GSE281759_spatial_HCC_PGAM5/C008T4_spatial_marker_subset.h5ad"
+  }
+]

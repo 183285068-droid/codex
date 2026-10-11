@@ -1,0 +1,9 @@
+ligand,receptor_complex,context,database_resources,database_snapshot,pair
+CD274,PDCD1,checkpoint,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv,CD274--PDCD1
+PVR,TIGIT,checkpoint,cellchatdb;connectomedb2020;icellnet;lrdb,LIANA wheel 1.10.0 omni_resource.csv,PVR--TIGIT
+LGALS9,HAVCR2,context-dependent,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv,LGALS9--HAVCR2
+CD80,CD28,costimulation,cellchatdb;cellinker;connectomedb2020;consensus;icellnet;italk;lrdb,LIANA wheel 1.10.0 omni_resource.csv,CD80--CD28
+TGFB1,TGFBR1_TGFBR2,context-dependent,cellcall;cellchatdb;cellphonedb;consensus;icellnet,LIANA wheel 1.10.0 omni_resource.csv,TGFB1--TGFBR1_TGFBR2
+IL10,IL10RA_IL10RB,context-dependent,cellcall;cellchatdb;cellinker;cellphonedb;consensus;icellnet,LIANA wheel 1.10.0 omni_resource.csv,IL10--IL10RA_IL10RB
+CXCL9,CXCR3,chemotaxis,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv,CXCL9--CXCR3
+SPP1,CD44,context-dependent,baccin2019;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;icellnet;italk;lrdb;ramilowski2015,LIANA wheel 1.10.0 omni_resource.csv,SPP1--CD44
