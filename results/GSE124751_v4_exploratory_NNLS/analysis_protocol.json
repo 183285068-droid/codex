@@ -1,0 +1,17 @@
+{
+  "frozen_reference": "850 genes x 17 components; v4",
+  "target": "TAM_PGAM5_detected",
+  "solver": "scipy NNLS; original frozen per-gene row scales; sum-normalized coefficients",
+  "missing_gene_rule": "Intersect available genes; no imputation or new selection",
+  "primary_expression_transform": "Assume log2(x+1), invert as 2^value - 1; normalize all 20501 expression genes to sum 10000",
+  "offset_documented": false,
+  "predeclared_alternatives": [
+    "Zero-preserving 2^value for value>0",
+    "Unshifted 2^value for all values"
+  ],
+  "cutpoint": "Global median across all 206 tumor expression samples; High>median, Low<=median; no survival-based optimization",
+  "clinical_join_requirement": "Exact full tumor patient identifiers plus independent age agreement; flagged L/H matrix aliases require additional identity evidence before clinical linkage",
+  "endpoints": "Only directly recorded valid time and event pairs; do not relabel DSS as OS, or RFS/DFS as PFS",
+  "survival_plan": "If clinical files are retrieved and verified: Kaplan-Meier with risk tables, logrank test, binary and per-SD continuous Cox; BH correction across the main available endpoints. No p-value exists yet.",
+  "interpretation": "Exploratory RNA-reference coefficient, not validated cell abundance."
+}

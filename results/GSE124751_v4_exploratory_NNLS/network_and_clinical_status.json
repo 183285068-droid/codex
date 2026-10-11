@@ -1,0 +1,19 @@
+{
+  "checked_at_UTC": "2026-10-11T04:28:03.599140+00:00",
+  "expression_downloaded": true,
+  "clinical_payload_downloaded": false,
+  "public_clinical_source_identified": true,
+  "clinical_source_study": "lihc_amc_prv",
+  "actual_endpoint_columns_inspected": false,
+  "blocked_domains": [
+    "media.githubusercontent.com",
+    "www.cbioportal.org",
+    "nsssw8k94d.execute-api.us-east-1.amazonaws.com",
+    "cbioportal-datahub.s3.amazonaws.com"
+  ],
+  "block_type": "Current restricted network proxy returns HTTP 403 on CONNECT to these public data hosts. No approval-auto-review rejection occurred.",
+  "configuration_draft_saved": true,
+  "draft_added_domain": "media.githubusercontent.com",
+  "draft_requires_publish": true,
+  "scope": "GSE124751 only; prior LIRI-JP task replaced by user; do not resume canceled cohorts."
+}

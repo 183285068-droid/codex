@@ -1,0 +1,40 @@
+{
+  "samples": 206,
+  "subtypes": {
+    "C-HCC": 195,
+    "HCC-IS": 11
+  },
+  "expression_genes": 20501,
+  "reference_genes": 850,
+  "GEO_exact_title_matches": 198,
+  "GEO_prefix_aliases": 8,
+  "covered_reference_genes": 763,
+  "PGAM5_measured": true,
+  "reference_components": 17,
+  "weighted_reference_rank": 17,
+  "weighted_reference_condition": 10.652815960688061,
+  "primary_transform_assumption": "log2(x+1); invert as 2^value - 1",
+  "transform_offset_documented_by_GEO": false,
+  "primary_cutoff": 0.0,
+  "primary_nonzero": 68,
+  "primary_zero": 138,
+  "primary_high": 68,
+  "primary_low": 138,
+  "primary_median_relative_fit_residual": 0.7985970997562555,
+  "survival_analysis_performed": false,
+  "clinical_reason": "GEO lacks time/event; linked cBioPortal LFS payload blocked by runtime network policy.",
+  "cellular_abundance_validated": false,
+  "source_datahub_commit": "18763f8eee86d4886d7210068f745f1e509498ee",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8"
+  },
+  "earlier_GEO_title_matches": 198,
+  "earlier_GEO_title_matches_by_subtype": {
+    "C-HCC": 195,
+    "HCC-IS": 3
+  }
+}

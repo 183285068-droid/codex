@@ -1,0 +1,4 @@
+variant,median_cutoff,nonzero,high,low,Spearman_r_vs_primary,max_absolute_difference_vs_primary,group_changes_vs_primary,median_relative_fit_residual
+log2_plus1_primary,0.0,68,68,138,1.0,0.0,0,0.7985970997562555
+zero_preserving_log2,0.0,68,68,138,1.0,0.0002578801905166808,0,0.7985087836311211
+unshifted_log2,0.0,68,68,138,1.0,0.0002654331894473977,0,0.7985062303859103

@@ -1,0 +1,358 @@
+{
+  "checks": [
+    {
+      "check": "Input SHA256: inputs/GSE54504.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/GSE54504_sample_metadata.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/GSM1317251.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/lihc_amc_prv_data_clinical_patient.lfs_pointer.txt",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/lihc_amc_prv_data_clinical_sample.lfs_pointer.txt",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/lihc_amc_prv_meta_study.txt",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/prior_reference_validation_result.json",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/reference_850x17.tsv",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/reference_row_scales.csv",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/rna.processed.hcc_I.log2.txt.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/sample_metadata.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "Input SHA256: inputs/series.soft.gz",
+      "passed": true
+    },
+    {
+      "check": "763 measured genes; PGAM5 included",
+      "passed": true
+    },
+    {
+      "check": "No duplicate/missing expression values",
+      "passed": true
+    },
+    {
+      "check": "Rebuild all 157178 used query values",
+      "passed": true
+    },
+    {
+      "check": "Query order preserved",
+      "passed": true
+    },
+    {
+      "check": "All 17 components retained and rank 17",
+      "passed": true
+    },
+    {
+      "check": "Coefficient rows sum to one and are nonnegative",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H060664T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H060664T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H093528T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H093528T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H071380T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H071380T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H110362T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H110362T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H072849T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H072849T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H072056T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H072056T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H050350T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H050350T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H093650T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H093650T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H110773T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H110773T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H050250T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H050250T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H060228T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H060228T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H060203T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H060203T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H060877T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H060877T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H061350T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H061350T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H071859T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H071859T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H072447T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H072447T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H072932T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H072932T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H080212T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H080212T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H080750T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H080750T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H091469T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H091469T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H090866T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H090866T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H091920T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H091920T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H093471T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H093471T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H104362T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H104362T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H110058T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H110058T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H110451T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H110451T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H111720T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H111720T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS convergence: H112562T",
+      "passed": true
+    },
+    {
+      "check": "Independent BVLS coefficient agreement: H112562T",
+      "passed": true
+    },
+    {
+      "check": "206 expression-to-metadata records",
+      "passed": true
+    },
+    {
+      "check": "195 C-HCC and 11 HCC-IS",
+      "passed": true
+    },
+    {
+      "check": "Exact 198 plus flagged 8 prefix aliases",
+      "passed": true
+    },
+    {
+      "check": "Flagged aliases preserve suffix and column order",
+      "passed": true
+    },
+    {
+      "check": "No optimized cutpoint: global median equals zero",
+      "passed": true
+    },
+    {
+      "check": "68 High and 138 Low",
+      "passed": true
+    },
+    {
+      "check": "Group assignments reconstruct",
+      "passed": true
+    },
+    {
+      "check": "PGAM5 observed values independently reconstructed",
+      "passed": true
+    },
+    {
+      "check": "Transform sensitivity group consistency: zero_preserving_log2",
+      "passed": true
+    },
+    {
+      "check": "Transform sensitivity group consistency: unshifted_log2",
+      "passed": true
+    },
+    {
+      "check": "198 exact earlier GEO tumor links",
+      "passed": true
+    },
+    {
+      "check": "Links do not use L/H alias for clinical matching",
+      "passed": true
+    },
+    {
+      "check": "No fabricated survival statistics",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "independent_BVLS_samples": 28,
+  "BVLS_max_coefficient_error": 6.328271240363392e-15,
+  "reconstructed_query_values": 157178,
+  "survival_analysis_audited": false,
+  "note": "Numerical checks do not establish cell-fraction validity or clinical endpoint availability."
+}
