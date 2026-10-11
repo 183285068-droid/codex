@@ -1,0 +1,45 @@
+{
+  "original_reference_genes": 850,
+  "components": 17,
+  "common_measured_reference_genes": 569,
+  "coverage_fraction": 0.6694117647058824,
+  "PGAM5_measured": false,
+  "patients": 247,
+  "global_median": 0.0,
+  "high_patients": 91,
+  "low_patients": 156,
+  "nonzero_coefficients": 91,
+  "min_coefficient": 0.0,
+  "max_coefficient": 0.19738158771735057,
+  "matrix_rank": 17,
+  "condition_number": 10.506245945905247,
+  "platforms": [
+    {
+      "platform": "GPL3921",
+      "samples": 445,
+      "probes": 22268,
+      "RMA_min": 2.46,
+      "RMA_max": 14.248,
+      "mapped_probes": 20429,
+      "mapped_genes": 12742,
+      "PGAM5_any_annotation": false,
+      "PGAM5_measured": false,
+      "clinical_tumor_patients": 225,
+      "measurable_reference_genes": 590
+    },
+    {
+      "platform": "GPL571",
+      "samples": 43,
+      "probes": 22268,
+      "RMA_min": 2.579,
+      "RMA_max": 14.142,
+      "mapped_probes": 19820,
+      "mapped_genes": 12548,
+      "PGAM5_any_annotation": false,
+      "PGAM5_measured": false,
+      "clinical_tumor_patients": 22,
+      "measurable_reference_genes": 646
+    }
+  ],
+  "fit_relative_residual_median": 0.790996793061715
+}

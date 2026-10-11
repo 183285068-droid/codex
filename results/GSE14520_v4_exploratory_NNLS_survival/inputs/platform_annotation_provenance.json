@@ -1,0 +1,12 @@
+{
+  "GPL3921": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL3921&targ=self&form=text&view=full",
+    "raw_SOFT_sha256": "3d30971f7a5be552667e39467418ed54e92eb851d00708dc2911ef6c8f6f6dc9",
+    "annotation_rows": 22277
+  },
+  "GPL571": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL571&targ=self&form=text&view=full",
+    "raw_SOFT_sha256": "75b60ffbe6b582a8eff0e1cbc630028f4b79b3b59baf9dfa8da2b92c15fa2e2d",
+    "annotation_rows": 22277
+  }
+}

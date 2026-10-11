@@ -1,0 +1,523 @@
+{
+  "checks_passed": 91,
+  "checks_failed": 0,
+  "independent_solver_patients": 24,
+  "all_projected_input_values_checked": 140543,
+  "max_query_abs_error": 8.455458555545192e-13,
+  "checks": [
+    {
+      "check": "frozen_reference_projection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_v4_reference_byte_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "common_569_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_17_components",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PGAM5_omitted_not_imputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL3921_no_PGAM5_symbol",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL3921_no_PGAM5_Entrez_or_transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL3921_full_mapped_gene_denominator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL3921_all_gene_sample_values",
+      "passed": true,
+      "detail": {
+        "values": 128025,
+        "max_abs_error": 8.455458555545192e-13
+      }
+    },
+    {
+      "check": "GPL571_no_PGAM5_symbol",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL571_no_PGAM5_Entrez_or_transcript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL571_full_mapped_gene_denominator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "GPL571_all_gene_sample_values",
+      "passed": true,
+      "detail": {
+        "values": 12518,
+        "max_abs_error": 2.7000623958883807e-13
+      }
+    },
+    {
+      "check": "exact_common_reference_gene_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_tumor_patients_247_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_ID",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Survival status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Survival months",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Recurr status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Recurr months",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Gender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_Age",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "clinical_TNM staging",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "outcome_blind_global_median_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "group_assignment_all_patients",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "retained_zero_coefficients_156",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "component_nonnegative_sum_one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "target_component_correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363205",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363205",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363362",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 1.3877787807814457e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363362",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363087",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 3.3306690738754696e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363087",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363102",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363102",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363215",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363215",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363188",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 0.0
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363188",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363085",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363085",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363228",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363228",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363358",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363358",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363239",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.7755575615628914e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363239",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363265",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363081",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 5.551115123125783e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363081",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362952",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362952",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363424",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 0.0
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363424",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363446",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363446",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362947",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 0.0
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362947",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362950",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362950",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363436",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363436",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362954",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 3.2612801348363973e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362954",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362956",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 1.1657341758564144e-15
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362956",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363448",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363448",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM362948",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.7755575615628914e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM362948",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363422",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 3.3480163086352377e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363422",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_BVLS_GSM363428",
+      "passed": true,
+      "detail": {
+        "max_component_abs_error": 2.7755575615628914e-16
+      }
+    },
+    {
+      "check": "sample_scaling_invariance_GSM363428",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_valid_patient_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_independent_logrank",
+      "passed": true,
+      "detail": {
+        "p": 0.19161736037692234
+      }
+    },
+    {
+      "check": "OS_High_KM_steps_and_CI_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_High_risk_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_Low_KM_steps_and_CI_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OS_Low_risk_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_valid_patient_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_group_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_independent_logrank",
+      "passed": true,
+      "detail": {
+        "p": 0.2654174058172374
+      }
+    },
+    {
+      "check": "DFS_High_KM_steps_and_CI_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_High_risk_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_Low_KM_steps_and_CI_bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DFS_Low_risk_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two_endpoint_BH_adjustment",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Implementation audit only. Original reference failed biological/abundance validation; no PGAM5 probe is identified on supplied platform annotations."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "inputs/GPL3921_annotation.tsv.gz",
+    "bytes": 321425,
+    "sha256": "c14270af602c1b580b041ba02119b54cff48b4639d9e7a9e0850447e66690f65",
+    "url": null,
+    "reference_source": null
+  },
+  {
+    "file": "inputs/GPL571_annotation.tsv.gz",
+    "bytes": 545885,
+    "sha256": "26a2934b6a6cda6a74cecf92bfe089ae944bcdbce3ddf9dba5f845a650141d75",
+    "url": null,
+    "reference_source": null
+  },
+  {
+    "file": "inputs/GSE14520_Extra_Supplement.txt.gz",
+    "bytes": 7334,
+    "sha256": "e3fbd984c2667e3656e75b6f8380977b919d0eff2e8949ae3610c45304ecd4bf",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14520/suppl/GSE14520_Extra_Supplement.txt.gz",
+    "reference_source": null
+  },
+  {
+    "file": "inputs/GSE14520_README.txt",
+    "bytes": 2114,
+    "sha256": "8afafefd1a964a59deca5448880b286beb277f53a1e04d3c5ad2adddd696b1be",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14520/suppl/GSE14520_README.txt",
+    "reference_source": null
+  },
+  {
+    "file": "inputs/matrix_GPL3921.txt.gz",
+    "bytes": 21301282,
+    "sha256": "03e1c64abf40f9fd09d52870efdcb23bb4a2ca7582810fe27cacdf83fefe1a60",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14520/matrix/GSE14520-GPL3921_series_matrix.txt.gz",
+    "reference_source": null
+  },
+  {
+    "file": "inputs/matrix_GPL571.txt.gz",
+    "bytes": 2199888,
+    "sha256": "c6a4f10f271da2c71a2ced1077e3e9c6613d6bd6831b27dd4e86a740869fc454",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE14nnn/GSE14520/matrix/GSE14520-GPL571_series_matrix.txt.gz",
+    "reference_source": null
+  },
+  {
+    "file": "inputs/platform_annotation_provenance.json",
+    "bytes": 487,
+    "sha256": "7105f59448886db62d3a0dd6d4a2aa23819a151acd16d63b76e1a35bda9f9321",
+    "url": null,
+    "reference_source": null
+  },
+  {
+    "file": "inputs/prior_reference_validation_result.json",
+    "bytes": 715,
+    "sha256": "88cb90dab8b95b5f551faa6ec2f7fd15f3bbee723dc55d7d0aca1413c937f2d9",
+    "url": null,
+    "reference_source": null
+  },
+  {
+    "file": "inputs/reference_850x17.tsv",
+    "bytes": 272832,
+    "sha256": "d5c7df4eeee3c3f2ef1631a41b699b27842756b11f9c9dd2c1b9c06feaaeba68",
+    "url": null,
+    "reference_source": "results/TCGA_LIHC_PGAM5_exploratory_deconvolution_survival/"
+  },
+  {
+    "file": "inputs/reference_row_scales.csv",
+    "bytes": 21315,
+    "sha256": "7fc0af49e8047866179944e3d472a389bdf92f810bb09a1594384bc60a97abfc",
+    "url": null,
+    "reference_source": "results/TCGA_LIHC_PGAM5_exploratory_deconvolution_survival/"
+  }
+]

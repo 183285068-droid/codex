@@ -1,0 +1,11 @@
+LCS ID,ID,Affy_GSM,Tissue Type,Predicted risk Metastasis Signature,Agilent_GSM,CGH_survival_group,Gender,Age,HBV viral status,ALT(>/<=50U/L),Main Tumor Size (>/<=5 cm),Multinodular,Cirrhosis,TNM staging,BCLC staging,CLIP staging,AFP (>/<=300ng/ml),Survival status,Survival months,Recurr status,Recurr months,platform,sample_title,linear_gene_denominator,target_coefficient,group,endpoint,reason
+LCS_204A,03-225,GSM363228,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue LCS-204A,2040943.4377426226,0.0,Low,OS,missing/nonfinite/nonpositive time or nonbinary event
+LCS_285A,03-468,GSM363334,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue LCS-285A,1930762.944470288,0.0,Low,OS,missing/nonfinite/nonpositive time or nonbinary event
+LCS_393A,LCS-393,GSM363434,Tumor,,GSM358093,G2,,,,,,,,,,,,,,,,GPL571,Liver Tumor Tissue LCS-393A,1499246.8727710445,0.1003245358379284,High,OS,missing/nonfinite/nonpositive time or nonbinary event
+X02_342A,02-342,GSM712532,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue X02-342A,2030540.006427239,0.013340118026479874,High,OS,missing/nonfinite/nonpositive time or nonbinary event
+X02_362A,02-362,GSM712534,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue X02-362A,1619681.0549372644,0.0,Low,OS,missing/nonfinite/nonpositive time or nonbinary event
+LCS_204A,03-225,GSM363228,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue LCS-204A,2040943.4377426226,0.0,Low,DFS,missing/nonfinite/nonpositive time or nonbinary event
+LCS_285A,03-468,GSM363334,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue LCS-285A,1930762.944470288,0.0,Low,DFS,missing/nonfinite/nonpositive time or nonbinary event
+LCS_393A,LCS-393,GSM363434,Tumor,,GSM358093,G2,,,,,,,,,,,,,,,,GPL571,Liver Tumor Tissue LCS-393A,1499246.8727710445,0.1003245358379284,High,DFS,missing/nonfinite/nonpositive time or nonbinary event
+X02_342A,02-342,GSM712532,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue X02-342A,2030540.006427239,0.013340118026479874,High,DFS,missing/nonfinite/nonpositive time or nonbinary event
+X02_362A,02-362,GSM712534,Tumor,,,,,,,,,,,,,,,,,,,GPL3921,Liver Tumor Tissue X02-362A,1619681.0549372644,0.0,Low,DFS,missing/nonfinite/nonpositive time or nonbinary event

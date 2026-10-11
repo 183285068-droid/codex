@@ -1,0 +1,11 @@
+{
+  "operational_RNA_annotation_created": true,
+  "solver_external_gates": {
+    "NNLS": false,
+    "nonnegative_ridge_alpha0.01": false
+  },
+  "reference_validated_for_TCGA_cellular_abundance": false,
+  "TCGA_NOT_RUN": true,
+  "limits": "All cohorts explored previously; retrospective tests. Repeats not biological independent replicates. Passing computational gates still requires bulk platform/abundance-unit calibration and orthogonal biological confirmation before confirmed TCGA cellular abundance. No sequencing-depth matching/covariates, no patient-paired DE",
+  "interpretation": "Annotation labels raw RNA detection, not a validated protein-positive subtype. No actual TCGA patient abundance generated."
+}

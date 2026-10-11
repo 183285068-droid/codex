@@ -1,0 +1,8 @@
+{
+  "test": "Mann-Whitney, descriptive platform/cohort comparison; cannot separate platform and cohort",
+  "p": 0.10418958666161875,
+  "medians": {
+    "GPL3921": 0.0,
+    "GPL571": 0.012880814957835145
+  }
+}
