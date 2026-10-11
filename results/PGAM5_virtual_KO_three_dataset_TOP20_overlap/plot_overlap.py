@@ -56,12 +56,12 @@ def main():
     assert regions['011'] == ['ANXA1'] and not regions['111'] and not regions['101']
     shared = sorted(g for g in set.union(*sets) if sum(g in s for s in sets) >= 2)
     with (OUT / 'shared_genes_rank_table.csv').open('w', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['gene', 'datasets_in_TOP20', *[d + '_rank' for d in names]])
         for gene in shared:
             writer.writerow([gene, sum(gene in s for s in sets), *[ranks[d].get(gene, '') for d in names]])
     with (OUT / 'exclusive_intersections.csv').open('w', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['membership_GSE202642_GSE149614_GSE151530', 'count', 'genes'])
         for mask, genes in regions.items():
             writer.writerow([mask, len(genes), ';'.join(genes)])
