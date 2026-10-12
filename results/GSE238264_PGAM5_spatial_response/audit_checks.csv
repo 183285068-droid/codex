@@ -1,0 +1,322 @@
+check,passed
+SHA HCC1R/data_SME_1541_identity.csv,True
+SHA HCC1R/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC1R/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC1R/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC1R/filtered_feature_bc_matrix.h5,True
+SHA HCC1R/spatial/aligned_fiducials.jpg,True
+SHA HCC1R/spatial/detected_tissue_image.jpg,True
+SHA HCC1R/spatial/scalefactors_json.json,True
+SHA HCC1R/spatial/tissue_hires_image.png,True
+SHA HCC1R/spatial/tissue_lowres_image.png,True
+SHA HCC1R/spatial/tissue_positions_list.csv,True
+SHA HCC2R/data_SME_572_identity.csv,True
+SHA HCC2R/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC2R/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC2R/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC2R/filtered_feature_bc_matrix.h5,True
+SHA HCC2R/spatial/aligned_fiducials.jpg,True
+SHA HCC2R/spatial/detected_tissue_image.jpg,True
+SHA HCC2R/spatial/scalefactors_json.json,True
+SHA HCC2R/spatial/tissue_hires_image.png,True
+SHA HCC2R/spatial/tissue_lowres_image.png,True
+SHA HCC2R/spatial/tissue_positions_list.csv,True
+SHA HCC3R/data_SME_581_identity.csv,True
+SHA HCC3R/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC3R/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC3R/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC3R/filtered_feature_bc_matrix.h5,True
+SHA HCC3R/spatial/aligned_fiducials.jpg,True
+SHA HCC3R/spatial/detected_tissue_image.jpg,True
+SHA HCC3R/spatial/scalefactors_json.json,True
+SHA HCC3R/spatial/tissue_hires_image.png,True
+SHA HCC3R/spatial/tissue_lowres_image.png,True
+SHA HCC3R/spatial/tissue_positions_list.csv,True
+SHA HCC4R/data_SME_584_identity.csv,True
+SHA HCC4R/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC4R/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC4R/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC4R/filtered_feature_bc_matrix.h5,True
+SHA HCC4R/spatial/aligned_fiducials.jpg,True
+SHA HCC4R/spatial/detected_tissue_image.jpg,True
+SHA HCC4R/spatial/scalefactors_json.json,True
+SHA HCC4R/spatial/tissue_hires_image.png,True
+SHA HCC4R/spatial/tissue_lowres_image.png,True
+SHA HCC4R/spatial/tissue_positions_list.csv,True
+SHA HCC5NR/data_SME_1542_identity.csv,True
+SHA HCC5NR/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC5NR/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC5NR/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC5NR/filtered_feature_bc_matrix.h5,True
+SHA HCC5NR/spatial/aligned_fiducials.jpg,True
+SHA HCC5NR/spatial/detected_tissue_image.jpg,True
+SHA HCC5NR/spatial/scalefactors_json.json,True
+SHA HCC5NR/spatial/tissue_hires_image.png,True
+SHA HCC5NR/spatial/tissue_lowres_image.png,True
+SHA HCC5NR/spatial/tissue_positions_list.csv,True
+SHA HCC6NR/data_SME_573_identity.csv,True
+SHA HCC6NR/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC6NR/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC6NR/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC6NR/filtered_feature_bc_matrix.h5,True
+SHA HCC6NR/spatial/aligned_fiducials.jpg,True
+SHA HCC6NR/spatial/detected_tissue_image.jpg,True
+SHA HCC6NR/spatial/scalefactors_json.json,True
+SHA HCC6NR/spatial/tissue_hires_image.png,True
+SHA HCC6NR/spatial/tissue_lowres_image.png,True
+SHA HCC6NR/spatial/tissue_positions_list.csv,True
+SHA HCC7NR/data_SME_574_identity.csv,True
+SHA HCC7NR/filtered_feature_bc_matrix/barcodes.tsv.gz,True
+SHA HCC7NR/filtered_feature_bc_matrix/features.tsv.gz,True
+SHA HCC7NR/filtered_feature_bc_matrix/matrix.mtx.gz,True
+SHA HCC7NR/filtered_feature_bc_matrix.h5,True
+SHA HCC7NR/spatial/aligned_fiducials.jpg,True
+SHA HCC7NR/spatial/detected_tissue_image.jpg,True
+SHA HCC7NR/spatial/scalefactors_json.json,True
+SHA HCC7NR/spatial/tissue_hires_image.png,True
+SHA HCC7NR/spatial/tissue_lowres_image.png,True
+SHA HCC7NR/spatial/tissue_positions_list.csv,True
+HCC1R QC,True
+HCC1R coordinates,True
+HCC1R full-library UMI,True
+HCC1R geometric graph,True
+HCC1RMacrophage normalized program,True
+HCC1RMacrophage detection,True
+HCC1RMyeloid normalized program,True
+HCC1RMyeloid detection,True
+HCC1RT_lineage normalized program,True
+HCC1RT_lineage detection,True
+HCC1RFibroblast normalized program,True
+HCC1RFibroblast detection,True
+HCC1RExhaustion normalized program,True
+HCC1RExhaustion detection,True
+HCC1RActivation normalized program,True
+HCC1RActivation detection,True
+HCC1REffector normalized program,True
+HCC1REffector detection,True
+HCC1RNaive_memory normalized program,True
+HCC1RNaive_memory detection,True
+HCC1RTreg normalized program,True
+HCC1RTreg detection,True
+HCC1R raw PGAM5,True
+HCC1R source gates,True
+HCC1R clinical response,True
+HCC1R patient counts,True
+HCC1R PGAM5 detection metric,True
+HCC1Rmac_fraction per source,True
+HCC1Rmac_fraction patient aggregation,True
+HCC1RT_fraction per source,True
+HCC1RT_fraction patient aggregation,True
+HCC1Rfibroblast_score per source,True
+HCC1Rfibroblast_score patient aggregation,True
+HCC2R QC,True
+HCC2R coordinates,True
+HCC2R full-library UMI,True
+HCC2R geometric graph,True
+HCC2RMacrophage normalized program,True
+HCC2RMacrophage detection,True
+HCC2RMyeloid normalized program,True
+HCC2RMyeloid detection,True
+HCC2RT_lineage normalized program,True
+HCC2RT_lineage detection,True
+HCC2RFibroblast normalized program,True
+HCC2RFibroblast detection,True
+HCC2RExhaustion normalized program,True
+HCC2RExhaustion detection,True
+HCC2RActivation normalized program,True
+HCC2RActivation detection,True
+HCC2REffector normalized program,True
+HCC2REffector detection,True
+HCC2RNaive_memory normalized program,True
+HCC2RNaive_memory detection,True
+HCC2RTreg normalized program,True
+HCC2RTreg detection,True
+HCC2R raw PGAM5,True
+HCC2R source gates,True
+HCC2R clinical response,True
+HCC2R patient counts,True
+HCC2R PGAM5 detection metric,True
+HCC2Rmac_fraction per source,True
+HCC2Rmac_fraction patient aggregation,True
+HCC2RT_fraction per source,True
+HCC2RT_fraction patient aggregation,True
+HCC2Rfibroblast_score per source,True
+HCC2Rfibroblast_score patient aggregation,True
+HCC3R QC,True
+HCC3R coordinates,True
+HCC3R full-library UMI,True
+HCC3R geometric graph,True
+HCC3RMacrophage normalized program,True
+HCC3RMacrophage detection,True
+HCC3RMyeloid normalized program,True
+HCC3RMyeloid detection,True
+HCC3RT_lineage normalized program,True
+HCC3RT_lineage detection,True
+HCC3RFibroblast normalized program,True
+HCC3RFibroblast detection,True
+HCC3RExhaustion normalized program,True
+HCC3RExhaustion detection,True
+HCC3RActivation normalized program,True
+HCC3RActivation detection,True
+HCC3REffector normalized program,True
+HCC3REffector detection,True
+HCC3RNaive_memory normalized program,True
+HCC3RNaive_memory detection,True
+HCC3RTreg normalized program,True
+HCC3RTreg detection,True
+HCC3R raw PGAM5,True
+HCC3R source gates,True
+HCC3R clinical response,True
+HCC3R patient counts,True
+HCC3R PGAM5 detection metric,True
+HCC3Rmac_fraction per source,True
+HCC3Rmac_fraction patient aggregation,True
+HCC3RT_fraction per source,True
+HCC3RT_fraction patient aggregation,True
+HCC3Rfibroblast_score per source,True
+HCC3Rfibroblast_score patient aggregation,True
+HCC4R QC,True
+HCC4R coordinates,True
+HCC4R full-library UMI,True
+HCC4R geometric graph,True
+HCC4RMacrophage normalized program,True
+HCC4RMacrophage detection,True
+HCC4RMyeloid normalized program,True
+HCC4RMyeloid detection,True
+HCC4RT_lineage normalized program,True
+HCC4RT_lineage detection,True
+HCC4RFibroblast normalized program,True
+HCC4RFibroblast detection,True
+HCC4RExhaustion normalized program,True
+HCC4RExhaustion detection,True
+HCC4RActivation normalized program,True
+HCC4RActivation detection,True
+HCC4REffector normalized program,True
+HCC4REffector detection,True
+HCC4RNaive_memory normalized program,True
+HCC4RNaive_memory detection,True
+HCC4RTreg normalized program,True
+HCC4RTreg detection,True
+HCC4R raw PGAM5,True
+HCC4R source gates,True
+HCC4R clinical response,True
+HCC4R patient counts,True
+HCC4R PGAM5 detection metric,True
+HCC4Rmac_fraction per source,True
+HCC4Rmac_fraction patient aggregation,True
+HCC4RT_fraction per source,True
+HCC4RT_fraction patient aggregation,True
+HCC4Rfibroblast_score per source,True
+HCC4Rfibroblast_score patient aggregation,True
+HCC5NR QC,True
+HCC5NR coordinates,True
+HCC5NR full-library UMI,True
+HCC5NR geometric graph,True
+HCC5NRMacrophage normalized program,True
+HCC5NRMacrophage detection,True
+HCC5NRMyeloid normalized program,True
+HCC5NRMyeloid detection,True
+HCC5NRT_lineage normalized program,True
+HCC5NRT_lineage detection,True
+HCC5NRFibroblast normalized program,True
+HCC5NRFibroblast detection,True
+HCC5NRExhaustion normalized program,True
+HCC5NRExhaustion detection,True
+HCC5NRActivation normalized program,True
+HCC5NRActivation detection,True
+HCC5NREffector normalized program,True
+HCC5NREffector detection,True
+HCC5NRNaive_memory normalized program,True
+HCC5NRNaive_memory detection,True
+HCC5NRTreg normalized program,True
+HCC5NRTreg detection,True
+HCC5NR raw PGAM5,True
+HCC5NR source gates,True
+HCC5NR clinical response,True
+HCC5NR patient counts,True
+HCC5NR PGAM5 detection metric,True
+HCC5NRmac_fraction per source,True
+HCC5NRmac_fraction patient aggregation,True
+HCC5NRT_fraction per source,True
+HCC5NRT_fraction patient aggregation,True
+HCC5NRfibroblast_score per source,True
+HCC5NRfibroblast_score patient aggregation,True
+HCC6NR QC,True
+HCC6NR coordinates,True
+HCC6NR full-library UMI,True
+HCC6NR geometric graph,True
+HCC6NRMacrophage normalized program,True
+HCC6NRMacrophage detection,True
+HCC6NRMyeloid normalized program,True
+HCC6NRMyeloid detection,True
+HCC6NRT_lineage normalized program,True
+HCC6NRT_lineage detection,True
+HCC6NRFibroblast normalized program,True
+HCC6NRFibroblast detection,True
+HCC6NRExhaustion normalized program,True
+HCC6NRExhaustion detection,True
+HCC6NRActivation normalized program,True
+HCC6NRActivation detection,True
+HCC6NREffector normalized program,True
+HCC6NREffector detection,True
+HCC6NRNaive_memory normalized program,True
+HCC6NRNaive_memory detection,True
+HCC6NRTreg normalized program,True
+HCC6NRTreg detection,True
+HCC6NR raw PGAM5,True
+HCC6NR source gates,True
+HCC6NR clinical response,True
+HCC6NR patient counts,True
+HCC6NR PGAM5 detection metric,True
+HCC6NRmac_fraction per source,True
+HCC6NRmac_fraction patient aggregation,True
+HCC6NRT_fraction per source,True
+HCC6NRT_fraction patient aggregation,True
+HCC6NRfibroblast_score per source,True
+HCC6NRfibroblast_score patient aggregation,True
+HCC7NR QC,True
+HCC7NR coordinates,True
+HCC7NR full-library UMI,True
+HCC7NR geometric graph,True
+HCC7NRMacrophage normalized program,True
+HCC7NRMacrophage detection,True
+HCC7NRMyeloid normalized program,True
+HCC7NRMyeloid detection,True
+HCC7NRT_lineage normalized program,True
+HCC7NRT_lineage detection,True
+HCC7NRFibroblast normalized program,True
+HCC7NRFibroblast detection,True
+HCC7NRExhaustion normalized program,True
+HCC7NRExhaustion detection,True
+HCC7NRActivation normalized program,True
+HCC7NRActivation detection,True
+HCC7NREffector normalized program,True
+HCC7NREffector detection,True
+HCC7NRNaive_memory normalized program,True
+HCC7NRNaive_memory detection,True
+HCC7NRTreg normalized program,True
+HCC7NRTreg detection,True
+HCC7NR raw PGAM5,True
+HCC7NR source gates,True
+HCC7NR clinical response,True
+HCC7NR patient counts,True
+HCC7NR PGAM5 detection metric,True
+HCC7NRmac_fraction per source,True
+HCC7NRmac_fraction patient aggregation,True
+HCC7NRT_fraction per source,True
+HCC7NRT_fraction patient aggregation,True
+HCC7NRfibroblast_score per source,True
+HCC7NRfibroblast_score patient aggregation,True
+PGAM5_detected_mac_fraction exact 35-label test,True
+high_neighbor_mac_fraction missing p,True
+high_neighbor_T_fraction missing p,True
+high_neighbor_fibroblast_score missing p,True
+high_spot_density exact 35-label test,True
+high_neighbor_Exhaustion_score missing p,True
+high_neighbor_Activation_score missing p,True
+high_neighbor_Effector_score missing p,True
+high_neighbor_Naive_memory_score missing p,True
+high_neighbor_Treg_score missing p,True
+primary BH,True
+secondary BH,True
+4 responder and 3 non-responder patients,True

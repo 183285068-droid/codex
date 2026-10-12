@@ -1,0 +1,100 @@
+{
+  "primary_metrics": [
+    "PGAM5_detected_mac_fraction",
+    "high_neighbor_mac_fraction",
+    "high_neighbor_T_fraction",
+    "high_neighbor_fibroblast_score"
+  ],
+  "secondary_metrics": [
+    "high_spot_density",
+    "high_neighbor_Exhaustion_score",
+    "high_neighbor_Activation_score",
+    "high_neighbor_Effector_score",
+    "high_neighbor_Naive_memory_score",
+    "high_neighbor_Treg_score"
+  ],
+  "panels": {
+    "Macrophage": [
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CSF1R",
+      "MERTK",
+      "MSR1"
+    ],
+    "Myeloid": [
+      "LST1",
+      "TYROBP",
+      "FCER1G",
+      "AIF1",
+      "LYZ",
+      "CTSS"
+    ],
+    "T_lineage": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ],
+    "Exhaustion": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activation": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Effector": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "Naive_memory": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "IL7R"
+    ],
+    "Treg": [
+      "FOXP3",
+      "IKZF2",
+      "IL2RA",
+      "CTLA4"
+    ]
+  },
+  "QC": "UMI>=500, detected_features>=200, MT<=25%, in_tissue=1",
+  "mac_gate": "core Q75, >=3 markers, myeloid >=median, degree>0",
+  "high": "Q75 of PGAM5 detected mac spots within each patient",
+  "minimum_high_sources_for_metrics": 3,
+  "minimum_high_with_T_for_programs": 3,
+  "patients": 7,
+  "responders": 4,
+  "nonresponders": 3,
+  "patient_test": "all 35 assignments, two-sided absolute mean difference",
+  "FDR": "4 primary fixed tests; 6 secondary separately, missing p treated as 1 only for correction",
+  "timepoint": "post-neoadjuvant resection",
+  "RNA_proxy": true
+}

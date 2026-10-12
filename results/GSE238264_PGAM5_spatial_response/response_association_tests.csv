@@ -1,0 +1,11 @@
+family,metric,n_responders,n_nonresponders,mean_responder,mean_nonresponder,difference,p_exact,status,BH_q
+primary,PGAM5_detected_mac_fraction,4,3,0.09822771020245553,0.2489939238791122,-0.15076621367665666,0.22857142857142856,tested,0.9142857142857143
+primary,high_neighbor_mac_fraction,3,2,0.29012077294685995,0.10046296296296295,0.189657809983897,,not_testable: require all 7 patients,
+primary,high_neighbor_T_fraction,3,2,0.2916666666666667,0.06481481481481481,0.22685185185185186,,not_testable: require all 7 patients,
+primary,high_neighbor_fibroblast_score,3,2,0.9626134875463227,0.2645041085044168,0.698109379041906,,not_testable: require all 7 patients,
+secondary,high_spot_density,4,3,0.004222936088819475,0.0060023785543981386,-0.0017794424655786633,0.7714285714285715,tested,1.0
+secondary,high_neighbor_Exhaustion_score,3,0,0.044865488084151334,,,,not_testable: require all 7 patients,
+secondary,high_neighbor_Activation_score,3,0,0.028185821524012805,,,,not_testable: require all 7 patients,
+secondary,high_neighbor_Effector_score,3,0,0.09458071446282479,,,,not_testable: require all 7 patients,
+secondary,high_neighbor_Naive_memory_score,3,0,0.12021882588368511,,,,not_testable: require all 7 patients,
+secondary,high_neighbor_Treg_score,3,0,0.01712110573731218,,,,not_testable: require all 7 patients,

@@ -1,0 +1,80 @@
+[
+  {
+    "sample": "HCC1R",
+    "bytes": 38445225,
+    "sha256": "4605627f83c0d625dcce6ee02ac38013f09bfc3fc6c5fb9bcd480c626924e50f",
+    "parts": [
+      {
+        "name": "GSM7661255_HCC1R.tar.gz.part00",
+        "bytes": 31457280,
+        "sha256": "282f2ec4984f1177465d850a6dff46eef8d8a0fce9687efbb201181c6c88419e"
+      },
+      {
+        "name": "GSM7661255_HCC1R.tar.gz.part01",
+        "bytes": 6987945,
+        "sha256": "8bf1ee3d4eb4c6926b6b5c9997fe3bd8001ee8b3517bdc5714bb000135927df1"
+      }
+    ]
+  },
+  {
+    "sample": "HCC4R",
+    "bytes": 78899705,
+    "sha256": "aaf6f63c810f1659ec282a6009370f8219eb3f32920737b3fae71a6733b6d029",
+    "parts": [
+      {
+        "name": "GSM7661258_HCC4R.tar.gz.part00",
+        "bytes": 31457280,
+        "sha256": "feae341e932030669e8874e811b95b01d5a6c407d1a0cd3a57298c10d6300d32"
+      },
+      {
+        "name": "GSM7661258_HCC4R.tar.gz.part01",
+        "bytes": 31457280,
+        "sha256": "a3cfdc8f3d72fa6d9112698e2615d5ff1feffb5594414d93ae65ed044b80134c"
+      },
+      {
+        "name": "GSM7661258_HCC4R.tar.gz.part02",
+        "bytes": 15985145,
+        "sha256": "5fb579629333f1109bfcef3082ad1bf06e7c293b12172e40156c8ef0fb087d53"
+      }
+    ]
+  },
+  {
+    "sample": "HCC6NR",
+    "bytes": 74150636,
+    "sha256": "f7591772c80f088dae1d8a867e763287be6b4fd01345f228f1b7a32c6cb81a21",
+    "parts": [
+      {
+        "name": "GSM7661260_HCC6NR.tar.gz.part00",
+        "bytes": 31457280,
+        "sha256": "cba8d31aece450772bb270b63e253b9d9b1f5c050274fc8e977e11c21241a2da"
+      },
+      {
+        "name": "GSM7661260_HCC6NR.tar.gz.part01",
+        "bytes": 31457280,
+        "sha256": "6b5ed770b5dbc7ad89393ff7f21b1f043e651ee116291cbfbef9466e776cb8be"
+      },
+      {
+        "name": "GSM7661260_HCC6NR.tar.gz.part02",
+        "bytes": 11236076,
+        "sha256": "c88dbc00ff1f3eea8223d9840c0602202ffbc622e896c13cd091b7feae8eab6c"
+      }
+    ]
+  },
+  {
+    "sample": "HCC7NR",
+    "bytes": 43718156,
+    "sha256": "b83991bbb528515c26e48281a83919f0f077eb883f6f53339ba2b8bb0d19cc52",
+    "parts": [
+      {
+        "name": "GSM7661261_HCC7NR.tar.gz.part00",
+        "bytes": 31457280,
+        "sha256": "b4ab2d4eb5c8c22071ac4171628c933918e4088fb738933e17a698631a1e7d39"
+      },
+      {
+        "name": "GSM7661261_HCC7NR.tar.gz.part01",
+        "bytes": 12260876,
+        "sha256": "439f582950b1d0045126ebb39aef6ae85dd2e79b9bb1e341007a0f8780ff9884"
+      }
+    ]
+  }
+]

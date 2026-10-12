@@ -1,0 +1,464 @@
+[
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/data_SME_1541_identity.csv",
+    "bytes": 63140,
+    "sha256": "c09f64176c1cd1d9c2ec270f814152dcb71a8226d91b921e5a214da9b5eb0b16"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 17302,
+    "sha256": "27897341bb8d606198b3e1a0c804a10203e46ef16463f781630e25cebdd2674d"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "9c51cb4fb9389710f7af5708841c8ff21b5c2a34b19d5cb395074bb19be7820b"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 16586878,
+    "sha256": "531472ed39a580c0ba951c4359a04d75dbccdf0866c0e6fe3be9f38ee81416a5"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/filtered_feature_bc_matrix.h5",
+    "bytes": 6631360,
+    "sha256": "352f83655b9d5fec47f614e55b5d5106da163f339d4235cecd0f5f3cbcdff682"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/aligned_fiducials.jpg",
+    "bytes": 1674125,
+    "sha256": "419cec452ddd529c8c699ae4cc958be58fefbcb830ea2de4894d68464add57d8"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/detected_tissue_image.jpg",
+    "bytes": 2142540,
+    "sha256": "70e842979379d528a61f87a4bc7fb7f5a381450fd61031ed2e20d72546282b85"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/scalefactors_json.json",
+    "bytes": 162,
+    "sha256": "6f9ac0bcfee0c29a8bf5fa05167b40f1eaf729e6f5fbfb24e99de066c49978a2"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/tissue_hires_image.png",
+    "bytes": 9867478,
+    "sha256": "6006f96949ce6b14285e4193dc39e514229749253e1fb0119613da7891fa5c42"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/tissue_lowres_image.png",
+    "bytes": 1209649,
+    "sha256": "62fbdef984a6bbf7cfb8b6517d21e9bd8317b76ed304a6180b11dfea3ae4e42a"
+  },
+  {
+    "sample": "HCC1R",
+    "path": "HCC1R/spatial/tissue_positions_list.csv",
+    "bytes": 179800,
+    "sha256": "05d8e814248dfb3c15ca2492eb35842a07e7c943ad71f262dd08cc373f8243ff"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/data_SME_572_identity.csv",
+    "bytes": 58100,
+    "sha256": "b1a105d72df3b00bfda0b1331893695fbd4db5135b8806050d92b77c9280855a"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 15983,
+    "sha256": "ef1eeefa436815d954abb2e6cbf444b2e1bcba31103a1fd067e6eead44e81cc5"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "aa3fcb6ebe0bf23d98af538a1803f47ebec51a4edf3438f8804c7aad48e5049a"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 5301064,
+    "sha256": "9e819ed957aae6b6a80ac95982f3565d27d910afd680e6e0547b4e91ef9a0063"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/filtered_feature_bc_matrix.h5",
+    "bytes": 2469891,
+    "sha256": "288a3cfcdd83e5a951303be258e39cbd479a4764132db00f78f9daecf91150a4"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/aligned_fiducials.jpg",
+    "bytes": 1768019,
+    "sha256": "a08297d2a68b71b16794a3ed063bb35ca656656c8bd21b5ca73dccfb6b082585"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/detected_tissue_image.jpg",
+    "bytes": 2124202,
+    "sha256": "1567b4ca16a8513539ea009236e0553cd7a4be9e5017494e96c8979e5cfc24ae"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/scalefactors_json.json",
+    "bytes": 163,
+    "sha256": "79eef16329b2b51fdef106108e1e671da94b5d0f5fb3055c7212bbae17a302cc"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/tissue_hires_image.png",
+    "bytes": 10466882,
+    "sha256": "21307597efc937f11d78d8e3c98a9e1236d7fe66c6b1e6be5659bcae92a27bcf"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/tissue_lowres_image.png",
+    "bytes": 1116107,
+    "sha256": "60c00eeee3a53b39d63fb6c876014f8544a1da9e386d32b26fe0fac96d7fd080"
+  },
+  {
+    "sample": "HCC2R",
+    "path": "HCC2R/spatial/tissue_positions_list.csv",
+    "bytes": 182948,
+    "sha256": "8cba9e5e8d5b2d328969e19d0fe7cd8bacd98069b3016c3737207533dfa0aec1"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/data_SME_581_identity.csv",
+    "bytes": 45584,
+    "sha256": "91dd1c58cffe70cda49cb7f8722864fb7dc4be70fd3f4209e47e8f438924059f"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 12615,
+    "sha256": "a9d99dcd8cbec82b65bcc7a9362e7f80e4403fb0fe47c59f96b3436692fa64dc"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "cdcdcad88af03b96bf7b9bee92aeb104743f231f478e4185c1228cf3c12a1926"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 12591709,
+    "sha256": "087b0b55b2e866f6091a61b08668623efb2c008b2b905292f25375b144816777"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/filtered_feature_bc_matrix.h5",
+    "bytes": 5179448,
+    "sha256": "e4fe786bc12e2f3923aedf6bfd0d05feb3befe2741cc2e976bf4c7f0b6190d11"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/aligned_fiducials.jpg",
+    "bytes": 1471056,
+    "sha256": "d172a68ae5ecad522ef057feff8d38b44472791c91fd041ed86ad68b8a38abb7"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/detected_tissue_image.jpg",
+    "bytes": 2093781,
+    "sha256": "fdb6727641fc02a1890dae7703ab3ffd9873b0a98b7feeafc09c73aaf5e47495"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/scalefactors_json.json",
+    "bytes": 164,
+    "sha256": "5e53a605d04e624dd80c69415416b5fcfd14a6a3b53051ba36a73fdc2338bb51"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/tissue_hires_image.png",
+    "bytes": 7239775,
+    "sha256": "628fd1e0131836aadc894f59f2523d1a2324331af262ab15a0140a789ee9d411"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/tissue_lowres_image.png",
+    "bytes": 958165,
+    "sha256": "c06c5225da33d0f7ddd7947a41df2fae076ea06eedb2eb760e45f187c1292b88"
+  },
+  {
+    "sample": "HCC3R",
+    "path": "HCC3R/spatial/tissue_positions_list.csv",
+    "bytes": 179787,
+    "sha256": "6aff186217d5a311c4b6f82f6ef41a9416dd265bdbe5eba2d8d962ea417b0fb4"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/data_SME_584_identity.csv",
+    "bytes": 63056,
+    "sha256": "de884e3f80f8161a84d4c2da39efc49a5bf89ed9b22eeacad217b00937e47e86"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 17243,
+    "sha256": "233388c38bd5e2d197ca6e85604c8b87b8d4cf9e44e39fa69fa6fea90841e776"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "de16a74cc3c002421f6668297d30891e2627220ab9baedcda4a6b5d05226f3d1"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 46660914,
+    "sha256": "41badcbd9c6923375af01e912e296f68915d0fd5c0b1e9c76377dc0c7fae873a"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/filtered_feature_bc_matrix.h5",
+    "bytes": 17522615,
+    "sha256": "1531b0444131327a44ad9e116d97991b0dfd32f4878c5a9f03cd7b9a2f80fe5f"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/aligned_fiducials.jpg",
+    "bytes": 1637434,
+    "sha256": "8a496e8bc2cf4985be71c1fc6dda7d43abfea33a0463452c921add5d90f0a19c"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/detected_tissue_image.jpg",
+    "bytes": 2139056,
+    "sha256": "d30cb10ecee39b93274bb5a347851714f5c149ef20293668e52278ba8aea5084"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/scalefactors_json.json",
+    "bytes": 161,
+    "sha256": "d2129018499066c3197b96b91f65d15991771cc2c7a1910e3fb9b216500cc665"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/tissue_hires_image.png",
+    "bytes": 9534822,
+    "sha256": "127ab30b5c0646e76ca3d3e5c1c8e17219eeb956ce18dcdf8c090c341094fb27"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/tissue_lowres_image.png",
+    "bytes": 1174946,
+    "sha256": "ac3df8c0a21cb7b673c438245fa3e0964f70686b903e5a2a99c6797229f812b5"
+  },
+  {
+    "sample": "HCC4R",
+    "path": "HCC4R/spatial/tissue_positions_list.csv",
+    "bytes": 179813,
+    "sha256": "a074ab708830fc5c54d1014ce8038f597734ace47e6b8e867d48787f6a4d6665"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/data_SME_1542_identity.csv",
+    "bytes": 27734,
+    "sha256": "d992bcabd585d90275bc818c10df94a1e9b031e0be829f063e06c0c1f68a7158"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 7813,
+    "sha256": "2d3e14af9db6e7c82537704d77c42a52a23c4118c2eac3c0a373a47c3c33ac0e"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "dd5dd6fb9a3a8187993de012bd68c7f34c593e41abc2657b70776adfd33c0b1c"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 8734260,
+    "sha256": "9dd1363f954000890525d46af6db308a5a75b043a4d2f583562a3167f511b38c"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/filtered_feature_bc_matrix.h5",
+    "bytes": 3618607,
+    "sha256": "c09d5deb658047c6b316f07e0797f03171cb28a7513c765d3f4d7d0427e00d70"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/aligned_fiducials.jpg",
+    "bytes": 1358643,
+    "sha256": "6a9bc3c15caf27c2b7dcb065c3602a5650c321ba1aec1601d147b565c9dd17e7"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/detected_tissue_image.jpg",
+    "bytes": 2069487,
+    "sha256": "fa05a3ef687f36142440f8084ade717f1970623ebd72845ffe9663e711c1ebd1"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/scalefactors_json.json",
+    "bytes": 161,
+    "sha256": "7cabb49c4738124c5c46e5d2187eee7d3dd73b838889f71bec2c23da7d090759"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/tissue_hires_image.png",
+    "bytes": 6149891,
+    "sha256": "6a79c8a1f9d4cca067e317af92731625d9e1ea27fcf404c753206f0d3b3e958f"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/tissue_lowres_image.png",
+    "bytes": 836928,
+    "sha256": "3ff908d171799a081ce7562978e649657a6c2e436ed95ddfe4b666fd28496138"
+  },
+  {
+    "sample": "HCC5NR",
+    "path": "HCC5NR/spatial/tissue_positions_list.csv",
+    "bytes": 179760,
+    "sha256": "dcd3a3f2ff49d6f429a8826433d955f1ea81549eb4dd0234cd94678e13107c68"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/data_SME_573_identity.csv",
+    "bytes": 54089,
+    "sha256": "11fe6db52ec35f1081b2e5af65d3672602bfb8b0891ebf07e3d6c6307eb16a42"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 14920,
+    "sha256": "939016c4412b5650295269c9c5f7131112556adccc6bd5e796f02cd26adfad1d"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "1a3eef45144ae29e9acb8002e1a21abc2508cab5f15b5347c28534cf67c90de2"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 42369933,
+    "sha256": "52388ceb6d6b31066d44ebd91c5d8d8cecfdc9348c248758285ee46f7fe2de2f"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/filtered_feature_bc_matrix.h5",
+    "bytes": 15967949,
+    "sha256": "3dfce5c125ad3765fd71257f88946fbf6c95d1f22ffab8f74c33c7d04c159c0c"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/aligned_fiducials.jpg",
+    "bytes": 1645663,
+    "sha256": "42be161402855793dad2b6ca01a58d15ccecc88f8225481e820a87ba266bd8c1"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/detected_tissue_image.jpg",
+    "bytes": 2096086,
+    "sha256": "0a83dfe76a77c2884ebbeeb39e160088b216fa4a7c19778b9d7cfbf8309b8b28"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/scalefactors_json.json",
+    "bytes": 163,
+    "sha256": "f34ce2970fd997c750a7a8c2e4f50d7858d65b455e786f05cfd8504bc5184dd8"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/tissue_hires_image.png",
+    "bytes": 10660529,
+    "sha256": "377dec34e4027b92bb321f69764243d8599d77b8f2a48e98bc32843255b8811f"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/tissue_lowres_image.png",
+    "bytes": 1158038,
+    "sha256": "baeb2f16f6fb47b538887edfe4f3c275404dfb13ab0250755996851ff07aed12"
+  },
+  {
+    "sample": "HCC6NR",
+    "path": "HCC6NR/spatial/tissue_positions_list.csv",
+    "bytes": 182909,
+    "sha256": "e47d37d7d21a794c07535b9b1b7774963dcf42be8a186a3f4308e20bb991e672"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/data_SME_574_identity.csv",
+    "bytes": 51527,
+    "sha256": "9c0a50fa29043d79eee12f79952a43e78c8ba4a0920846e074b16b7bd1304d21"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 14211,
+    "sha256": "19659a5633182da6d44cdcc28d7213fa6467b105e84ba8a9000f1c5457544fcf"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 333437,
+    "sha256": "56b4ee9c237af34afeeca8a6ea8e0f13cb7d27e3eccddd95e901d4232c8ad860"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 20144067,
+    "sha256": "6203c4ee38b669b1978a90c7c5a410a30c1a8ee3b08da490c607369e17f1e4c9"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/filtered_feature_bc_matrix.h5",
+    "bytes": 7905278,
+    "sha256": "49c3b817280f66ece034858cba9b45c17bd81132cf8b552f04139fd20d01927f"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/aligned_fiducials.jpg",
+    "bytes": 1610445,
+    "sha256": "ad366f57d45b46ca400ac731fee359f7b9167b30cda50fd01867bb8d518ac663"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/detected_tissue_image.jpg",
+    "bytes": 2076370,
+    "sha256": "6414d88c005c4a21fb79a489a149c950e5e6e304a785d33feb5dc458b4514d16"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/scalefactors_json.json",
+    "bytes": 164,
+    "sha256": "d8e8fe72a63327c980bfa641a8598af3453307880bb558b19acabf015b7e2574"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/tissue_hires_image.png",
+    "bytes": 10531626,
+    "sha256": "81fbd5139aacdc21ea3259462afca7058e25afefd1e21c9686e55f5853d2eb75"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/tissue_lowres_image.png",
+    "bytes": 1110976,
+    "sha256": "f65cea327f6ebe0344dc2df75ed3310561aa2ef7d5ae4504204928341575ef18"
+  },
+  {
+    "sample": "HCC7NR",
+    "path": "HCC7NR/spatial/tissue_positions_list.csv",
+    "bytes": 183041,
+    "sha256": "5c5159799cff8bc64d962ae444c9bad701a3acfd47b62d565eb27c27e76fe4bb"
+  }
+]

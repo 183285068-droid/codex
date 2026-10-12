@@ -1,0 +1,72 @@
+[
+  {
+    "sample": "HCC1R",
+    "scale": 0.99304867,
+    "spot_radius_hires_pixels": 8.161885577334603,
+    "image_dimensions": [
+      2000,
+      1991
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC2R",
+    "scale": 0.48355898,
+    "spot_radius_hires_pixels": 8.023624486555947,
+    "image_dimensions": [
+      2000,
+      1991
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC3R",
+    "scale": 0.98280096,
+    "spot_radius_hires_pixels": 8.071500978943146,
+    "image_dimensions": [
+      2000,
+      1973
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC4R",
+    "scale": 0.9910803,
+    "spot_radius_hires_pixels": 8.1381300679281,
+    "image_dimensions": [
+      2000,
+      1980
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC5NR",
+    "scale": 0.999001,
+    "spot_radius_hires_pixels": 8.212440794240848,
+    "image_dimensions": [
+      2000,
+      1987
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC6NR",
+    "scale": 0.48626307,
+    "spot_radius_hires_pixels": 8.071691486952096,
+    "image_dimensions": [
+      2000,
+      1986
+    ],
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC7NR",
+    "scale": 0.47393364,
+    "spot_radius_hires_pixels": 7.860463073171823,
+    "image_dimensions": [
+      2000,
+      1949
+    ],
+    "all_coordinates_inside_image": true
+  }
+]

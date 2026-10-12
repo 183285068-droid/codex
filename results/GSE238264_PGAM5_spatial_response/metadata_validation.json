@@ -1,0 +1,13 @@
+{
+  "n_samples": 7,
+  "n_named_patients": 7,
+  "responders": 4,
+  "nonresponders": 3,
+  "SOFT_XML_labels_match": true,
+  "series_matrix_expression_rows": 0,
+  "source_data_archives_inspected": false,
+  "trial_summary_response": "5 out of 15; distinct from seven profiled samples",
+  "timepoint": "post-neoadjuvant resection per series summary",
+  "pathologic_response_threshold_available": false,
+  "recurrence_patient_mapping_available": false
+}

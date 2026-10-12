@@ -1,0 +1,8 @@
+sample,matrix_formats_equal,features_barcodes_equal,integer_counts,unique_spot_coordinates
+HCC1R,True,True,True,True
+HCC2R,True,True,True,True
+HCC3R,True,True,True,True
+HCC4R,True,True,True,True
+HCC5NR,True,True,True,True
+HCC6NR,True,True,True,True
+HCC7NR,True,True,True,True
