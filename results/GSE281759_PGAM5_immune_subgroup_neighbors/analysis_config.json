@@ -1,0 +1,87 @@
+{
+  "seed": 281759102,
+  "permutations": 4999,
+  "targets": {
+    "All_T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "Exhausted_T": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activated_T": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Cytotoxic_T": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "B_related": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Plasma_related": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "IGKC"
+    ],
+    "cDC2_related": [
+      "CD1C",
+      "FCER1A",
+      "CLEC10A"
+    ],
+    "cDC1_related": [
+      "CLEC9A",
+      "XCR1"
+    ],
+    "Inflammatory_myeloid": [
+      "FCN1",
+      "VCAN",
+      "S100A8",
+      "S100A9",
+      "IL1B"
+    ]
+  },
+  "comparisons": [
+    "high_vs_other_detected",
+    "high_vs_all_other_mac",
+    "nonT_high_vs_other_detected"
+  ],
+  "planned_tests": 432,
+  "primary_tests": 144,
+  "source": "previous fixed Mac RNA gate and section-specific PGAM5-positive Q75, ties retained",
+  "null": "within 3x3 spatial tiles x source UMI halves x macrophage-core halves; two-sided equal-tail +1 p",
+  "target_overlap": true,
+  "missing_markers": [
+    "NK",
+    "Treg",
+    "naive/memory T",
+    "pDC",
+    "neutrophil",
+    "mast",
+    "CD4/CD8 identity"
+  ],
+  "causal_claim": false
+}
