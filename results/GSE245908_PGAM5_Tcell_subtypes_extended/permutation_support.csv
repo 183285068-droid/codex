@@ -1,0 +1,5 @@
+sample,kind,n_eligible_sources,n_high,n_other_detected,n_strata,movable_sources,distinct_null_assignments,configuration_space,null_rows,mode
+CHC20,subtype_coverage,147,37,110,18,105,4999,3292047360000,4999,Monte_Carlo_conditional_permutation
+CHC20,CD8_neighbor_programs,16,3,13,12,2,2,2,2,exact_conditional_enumeration
+CHC23,subtype_coverage,67,17,50,16,27,4749,44100,4999,Monte_Carlo_conditional_permutation
+CHC23,CD8_neighbor_programs,6,4,2,4,2,2,2,2,exact_conditional_enumeration

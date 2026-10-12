@@ -1,0 +1,170 @@
+{
+  "panels": {
+    "CD8_identity": [
+      "CD8A",
+      "CD8B"
+    ],
+    "CD4_identity": [
+      "CD4"
+    ],
+    "Treg": [
+      "FOXP3",
+      "IKZF2",
+      "IL2RA",
+      "CTLA4"
+    ],
+    "Naive_memory": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "IL7R"
+    ],
+    "Activation_early": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Effector_cytotoxic": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "Exhaustion_core": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ]
+  },
+  "types": [
+    "All_CD8",
+    "CD8_exhaustion",
+    "CD8_activation",
+    "CD8_effector",
+    "CD8_naive_memory",
+    "CD4_other",
+    "Treg",
+    "T_unresolved"
+  ],
+  "seed": 24590842,
+  "permutations": 4999,
+  "multiple_testing": "Single BH family: 2 sections x (8 coverage + 4 continuous CD8 programs) = 24 fixed tests; no LR subtype p-values",
+  "states_nonexclusive": true,
+  "identity_mutually_exclusive": true,
+  "LR_pairs": [
+    [
+      "CD274",
+      "PDCD1",
+      "checkpoint"
+    ],
+    [
+      "PDCD1LG2",
+      "PDCD1",
+      "checkpoint"
+    ],
+    [
+      "PVR",
+      "TIGIT",
+      "checkpoint"
+    ],
+    [
+      "NECTIN2",
+      "TIGIT",
+      "checkpoint"
+    ],
+    [
+      "LGALS9",
+      "HAVCR2",
+      "context-dependent"
+    ],
+    [
+      "CD80",
+      "CTLA4",
+      "checkpoint"
+    ],
+    [
+      "CD86",
+      "CTLA4",
+      "checkpoint"
+    ],
+    [
+      "CD80",
+      "CD28",
+      "costimulation"
+    ],
+    [
+      "CD86",
+      "CD28",
+      "costimulation"
+    ],
+    [
+      "ICOSLG",
+      "ICOS",
+      "costimulation"
+    ],
+    [
+      "TNFSF9",
+      "TNFRSF9",
+      "costimulation"
+    ],
+    [
+      "TNFSF4",
+      "TNFRSF4",
+      "costimulation"
+    ],
+    [
+      "TGFB1",
+      "TGFBR1_TGFBR2",
+      "context-dependent"
+    ],
+    [
+      "IL10",
+      "IL10RA_IL10RB",
+      "context-dependent"
+    ],
+    [
+      "CXCL9",
+      "CXCR3",
+      "chemotaxis"
+    ],
+    [
+      "CXCL10",
+      "CXCR3",
+      "chemotaxis"
+    ],
+    [
+      "CXCL11",
+      "CXCR3",
+      "chemotaxis"
+    ],
+    [
+      "CCL3",
+      "CCR5",
+      "chemotaxis"
+    ],
+    [
+      "CCL4",
+      "CCR5",
+      "chemotaxis"
+    ],
+    [
+      "CCL5",
+      "CCR5",
+      "chemotaxis"
+    ],
+    [
+      "SPP1",
+      "CD44",
+      "context-dependent"
+    ]
+  ]
+}

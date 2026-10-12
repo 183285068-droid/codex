@@ -1,0 +1,182 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 34,
+    "sha256": "1f7cc4c7d858b5e4959f696a00ecc449d373fbf5fe3b8526eb5f2643e752ef08"
+  },
+  {
+    "path": "CHC20_CD8_neighbor_programs_permutation_audit.npz",
+    "bytes": 2041,
+    "sha256": "cb40b8b08d94395fa41159dec27bf42c0bc972b72b8bd0787f0d70b8a6cfcbd5"
+  },
+  {
+    "path": "CHC20_spot_subtypes.csv",
+    "bytes": 2113568,
+    "sha256": "d9f33e48ec512dd28c947c9a4ebd10ea0dec556382b1a693fd460eb9d0523d4b"
+  },
+  {
+    "path": "CHC20_subtype_LR_edges.csv.gz",
+    "bytes": 18482,
+    "sha256": "31496569f227e9e354a8949c1da414f0af151d27e94bd8e9bc44c3603360c80e"
+  },
+  {
+    "path": "CHC20_subtype_coverage_permutation_audit.npz",
+    "bytes": 37483,
+    "sha256": "3c65400642720cb7fd43ecedde5bb6a5370ab300d74ecc084b7964628bf0b9b8"
+  },
+  {
+    "path": "CHC23_spot_subtypes.csv",
+    "bytes": 1735095,
+    "sha256": "fbe342d20285f74bca07e41966c4a3e7890bdf9019c21c7a272220ad2d05345b"
+  },
+  {
+    "path": "CHC23_subtype_LR_edges.csv.gz",
+    "bytes": 5096,
+    "sha256": "0d0537ec5ade3d7eff4e497aef19cf8d9e3007ee26b7ed5356d8d9f2db818f29"
+  },
+  {
+    "path": "CHC23_subtype_coverage_permutation_audit.npz",
+    "bytes": 17554,
+    "sha256": "6f82ac1dd6192acfc3e3dfdef7851f185b8ff3bdc29b1ac8b26e7acf8ebf4ba6"
+  },
+  {
+    "path": "LR_by_subtype.csv",
+    "bytes": 62825,
+    "sha256": "8d6100166790e1ffb3d10db036b1f73dcb4cb1013ed4e4bf2cb0e9a6d632782d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7843,
+    "sha256": "d7cf808fd158a031fb9e94d1860da6d5a47592703fc36faed0ddcd1d3aa90e3e"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 2454,
+    "sha256": "e70007e6e10cd0f8a457939fb8efc2c2194c2b03ee5b03598a42ad7e09c286c2"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 6821,
+    "sha256": "26ffeaf95ed465de908a558de4e25eeec9f273b442bc0b3f69490833a06dbb5d"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 5239,
+    "sha256": "6c077381f1c984df5c3359b9207303a131dcb3d3e74eb91d9be3bfdac7e825c3"
+  },
+  {
+    "path": "audit_checks.csv",
+    "bytes": 69613,
+    "sha256": "1cd63e296ce866dd2ec92420384cad5a287d84b7ecb71e931754f59c44cf892b"
+  },
+  {
+    "path": "build_report.py",
+    "bytes": 9326,
+    "sha256": "3373e459092e615e0a9eb5b94b9f9b726f9b1f9025fdf510e0ea717769e97ebe"
+  },
+  {
+    "path": "figures/LR_subtype_codetection.pdf",
+    "bytes": 27953,
+    "sha256": "035d9d110cf35f5f4d48ac3e0a4e4beebe6da44312e446c7a4322a0a8e975b26"
+  },
+  {
+    "path": "figures/LR_subtype_codetection.png",
+    "bytes": 229427,
+    "sha256": "a7baf48eca3911c61f66050476083c5fe06f6291f7bcb6aac6e2ea4bfae119c8"
+  },
+  {
+    "path": "figures/SPP1_CD44_CD8_spatial_edges.pdf",
+    "bytes": 57127,
+    "sha256": "4ceb0c5d1ba81b6bc25d2961ea0b10566e3180d4b7e2fb0003d522d463b8898c"
+  },
+  {
+    "path": "figures/SPP1_CD44_CD8_spatial_edges.png",
+    "bytes": 152128,
+    "sha256": "5234ed21d70a19d21c8236ce430f39b2449c8d114cb0cb07073d12f04b9c0ee7"
+  },
+  {
+    "path": "figures/spatial_T_subtypes.pdf",
+    "bytes": 185689,
+    "sha256": "5287782d1e15732d1b0fe6d6c4448aa2e6e141db5c4d7613ccf5a3df18318ca2"
+  },
+  {
+    "path": "figures/spatial_T_subtypes.png",
+    "bytes": 405510,
+    "sha256": "473591ac4b0255b2ea61acc7f9523967bd52ff3d7ce522c7e4b33726392f0421"
+  },
+  {
+    "path": "figures/subtype_neighbor_coverage.pdf",
+    "bytes": 19960,
+    "sha256": "fd3ae8d741dd2f9a98efa791c60d99822bc14eb63a996d32f0eea19cbe4e489a"
+  },
+  {
+    "path": "figures/subtype_neighbor_coverage.png",
+    "bytes": 116411,
+    "sha256": "05b0bab078bb4001bdeab667bba6d140dc3ab6995cc74bafc1e9b13b35386739"
+  },
+  {
+    "path": "figures/subtype_spatial_conditional_comparison.pdf",
+    "bytes": 19331,
+    "sha256": "c7119a130f9dd1035396c21e57c3105d8eb5ded33622c534d240b6896076cd18"
+  },
+  {
+    "path": "figures/subtype_spatial_conditional_comparison.png",
+    "bytes": 128392,
+    "sha256": "47b60f5b028fbebb695c99e10ebf8ef928b488ddd9a7a4010ce2f0571739d139"
+  },
+  {
+    "path": "frozen_spatial_methods.py",
+    "bytes": 14631,
+    "sha256": "a8b025232473508c01ad817f81172b5838023a0e2a90c26cfc474c21c850db6a"
+  },
+  {
+    "path": "gate_sensitivity.csv",
+    "bytes": 1296,
+    "sha256": "356bf541d10bf8e6f459f4384d4006e56d7b48357a4db31ffd54b7b404456591"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 3232,
+    "sha256": "f6fcec1a0e03b79d1712ce2d1c776f2f1e1391c9873afde7411bc055cb770334"
+  },
+  {
+    "path": "marker_coverage.csv",
+    "bytes": 663,
+    "sha256": "200c10c934d4c695699fcb7e00097fd33375da28adaa86358e235826dafc4400"
+  },
+  {
+    "path": "permutation_support.csv",
+    "bytes": 483,
+    "sha256": "ea173bcefadc48a7f0c5094665716598eed1625c5b7d1fce29805b68fb63edba"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 5972,
+    "sha256": "3fd38ccf21a246dfa5de09f9b0722685ece9c6ad2b248c31a8cacfcc43c2517a"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 156,
+    "sha256": "9ef8ba499418b0c252be6c9ce8f65d83c4daa4e94b7dc996864868ead75ec60f"
+  },
+  {
+    "path": "selected_LR_pairs.csv",
+    "bytes": 3545,
+    "sha256": "e8767b5fb98d96728a25520c97833db0a25b0794206cdbb245e455782f5da7ce"
+  },
+  {
+    "path": "spatial_subtype_tests.csv",
+    "bytes": 3530,
+    "sha256": "37b2c9109cdc288de2b6425a0507978605b6956982dc67aa753c71ccb37f5884"
+  },
+  {
+    "path": "state_thresholds.csv",
+    "bytes": 359,
+    "sha256": "85ef609f96c6bb6909cfe7f571fdf9af58b8e7802f13b8344fdc173ba16b87a8"
+  },
+  {
+    "path": "subtype_neighbor_summary.csv",
+    "bytes": 2850,
+    "sha256": "a355fb0283a423887cd4a495b4fe40a70d7f5b6ec993db41309b97144e084cbd"
+  }
+]
