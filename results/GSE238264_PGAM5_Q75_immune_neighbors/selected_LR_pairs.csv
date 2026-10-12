@@ -1,0 +1,15 @@
+ligand,receptor,resources,resource_snapshot
+SPP1,CD44,baccin2019;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;icellnet;italk;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+LGALS9,HAVCR2,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;icellnet;italk;lrdb,LIANA 1.10.0 omni_resource.csv
+PVR,TIGIT,cellchatdb;connectomedb2020;icellnet;lrdb,LIANA 1.10.0 omni_resource.csv
+NECTIN2,TIGIT,cellchatdb;connectomedb2020;consensus;icellnet,LIANA 1.10.0 omni_resource.csv
+CD274,PDCD1,cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;lrdb,LIANA 1.10.0 omni_resource.csv
+CXCL9,CXCR3,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+CXCL10,CXCR3,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+CCL5,CCR5,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;icellnet;italk;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+CXCL12,CXCR4,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+CXCL13,CXCR5,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+TNFSF13B,TNFRSF13C,baccin2019;cellcall;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+TNFSF13,TNFRSF17,baccin2019;cellchatdb;cellinker;cellphonedb;celltalkdb;connectomedb2020;consensus;embrace;guide2pharma;hpmr;icellnet;italk;kirouac2010;lrdb;ramilowski2015,LIANA 1.10.0 omni_resource.csv
+TGFB1,TGFBR1_TGFBR2,cellcall;cellchatdb;cellphonedb;consensus;icellnet,LIANA 1.10.0 omni_resource.csv
+IL10,IL10RA_IL10RB,cellcall;cellchatdb;cellinker;cellphonedb;consensus;icellnet,LIANA 1.10.0 omni_resource.csv

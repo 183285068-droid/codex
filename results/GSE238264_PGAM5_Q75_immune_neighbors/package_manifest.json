@@ -1,0 +1,297 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "HCC1R_directed_LR_edges.csv.gz",
+    "bytes": 26134,
+    "sha256": "8b2adc9467a87505c924805a68bfc69474521b22f5574e80130f0467e260b2bf"
+  },
+  {
+    "path": "HCC1R_immune_coverage_permutation_audit.npz",
+    "bytes": 3302,
+    "sha256": "a7d23cba7d91a3fcfd54416c4ad3fbcf0f56206b1b9c2a2b765a2ca7f90c5c84"
+  },
+  {
+    "path": "HCC1R_immune_spots.csv.gz",
+    "bytes": 379367,
+    "sha256": "057ba5dda23062a57762c8e39759788852914ae84d3d7b8691593bb2c5179445"
+  },
+  {
+    "path": "HCC2R_directed_LR_edges.csv.gz",
+    "bytes": 13906,
+    "sha256": "5f8ee98bd5b76403b87de939a2846f7c26e0c1c0ceacaa586292d7af4fabb8a7"
+  },
+  {
+    "path": "HCC2R_immune_spots.csv.gz",
+    "bytes": 170917,
+    "sha256": "80990046a1ab6e6bcc0988820ac708a92aac177035dda7018e7e25a442dd9154"
+  },
+  {
+    "path": "HCC3R_directed_LR_edges.csv.gz",
+    "bytes": 8290,
+    "sha256": "2a12caef1a4065f0fa0770e6f23e99f298798d862a263b8f63687e5276e959cb"
+  },
+  {
+    "path": "HCC3R_immune_coverage_permutation_audit.npz",
+    "bytes": 2266,
+    "sha256": "3bd016b1001ea38f8f9ab6442bafd75832a1af7c4f4b38ff59d1e657df7afa16"
+  },
+  {
+    "path": "HCC3R_immune_spots.csv.gz",
+    "bytes": 209415,
+    "sha256": "1e904c98dc66648491d6d1d974503d9fedd3608dea67f2d1f6bd61e9151ec97c"
+  },
+  {
+    "path": "HCC4R_directed_LR_edges.csv.gz",
+    "bytes": 82290,
+    "sha256": "86e8de4d7d07291a4b4a5dbb88f207ebb5306de5a8dda8e9e7f7267e639ac7ab"
+  },
+  {
+    "path": "HCC4R_immune_coverage_permutation_audit.npz",
+    "bytes": 68624,
+    "sha256": "c0a1df18efd6a8aeca20c220c0c8510cb148e1d27d1a3e812794d54d85639ac0"
+  },
+  {
+    "path": "HCC4R_immune_spots.csv.gz",
+    "bytes": 502103,
+    "sha256": "30d70bd1737bc9b0e1b2bdf795917155539a7402765f44af915b22c09687b8ef"
+  },
+  {
+    "path": "HCC5NR_directed_LR_edges.csv.gz",
+    "bytes": 1152,
+    "sha256": "c771a6bc2535addf8c54b6f73af31c2d17b9c85f5fae949a5c7e702d34ac341d"
+  },
+  {
+    "path": "HCC5NR_immune_coverage_permutation_audit.npz",
+    "bytes": 1909,
+    "sha256": "6db69e2a3e1f29373ea5fd7951a90060e9a1060cd94a678c33591f126fe09f90"
+  },
+  {
+    "path": "HCC5NR_immune_spots.csv.gz",
+    "bytes": 110957,
+    "sha256": "d684b77ff1f2140dab0ea8c23d1b4ae8965e8b4082b3262f544e29ed88e1ccd4"
+  },
+  {
+    "path": "HCC6NR_directed_LR_edges.csv.gz",
+    "bytes": 5499,
+    "sha256": "46ec1819a39241176cba43afb3c8a20ce6fe962d07abe5e786ea5854d79942cd"
+  },
+  {
+    "path": "HCC6NR_immune_coverage_permutation_audit.npz",
+    "bytes": 31829,
+    "sha256": "6de26ccde97d65245437c0e4ad9ed380b113ace6d66e3839c147a25341a5b903"
+  },
+  {
+    "path": "HCC6NR_immune_spots.csv.gz",
+    "bytes": 315688,
+    "sha256": "d62b54f3a45a6e606d3d54f6d9462bf54a550ee23196036ffae8adbd68710612"
+  },
+  {
+    "path": "HCC7NR_directed_LR_edges.csv.gz",
+    "bytes": 1242,
+    "sha256": "ccf81cde864b0b8ddebbb8168e890adc008f8b5969198e3a516692e9d8a9b6cc"
+  },
+  {
+    "path": "HCC7NR_immune_spots.csv.gz",
+    "bytes": 239584,
+    "sha256": "2d34b8d2be6c632ce494ed7011fbd1f95a89f9c9f826bae3bacbfecc590bc329"
+  },
+  {
+    "path": "HE_registration_checks.json",
+    "bytes": 1057,
+    "sha256": "379300cb7c9ccdcbda400ac8a38f34be53c687008b3c0cb68f05b83f387acdd5"
+  },
+  {
+    "path": "LR_by_immune_subtype.csv",
+    "bytes": 155214,
+    "sha256": "afc62d0e06989e86c8651f4b6ec08c97c16c139084485bb6a80afd410fcedf37"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8613,
+    "sha256": "559eafb51ac4ec39c10f48f2e71d947d549cb65f5c8fb0806a7813715a176eb5"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 1791,
+    "sha256": "ceb6fe9f04dec911498d9e4e48932d92b15bd43cd8b8adddc7f728c206ce56ae"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 7545,
+    "sha256": "dc651aa1a63408412f5e7ef4237002330e202a33885373d8a40a1bfedfa97d9e"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 4860,
+    "sha256": "733d374b3032a5049e137b689634c8336c5ab8315a8daece73a1743de4de791f"
+  },
+  {
+    "path": "audit_checks.csv",
+    "bytes": 145924,
+    "sha256": "e6deeefb3c6f78a22600c89ab204361c0ce6fc24b1749355bf70c0e45306084c"
+  },
+  {
+    "path": "figures/HCC1R_HE_immune_neighbors.pdf",
+    "bytes": 1382603,
+    "sha256": "4e53ef389a695d526be49e4344f0f19d18b5ff401fbfeb944a417f7e6a5bdc9d"
+  },
+  {
+    "path": "figures/HCC1R_HE_immune_neighbors.png",
+    "bytes": 1639517,
+    "sha256": "61f7880c1d5f3bf1e79037bd48fcc89e7d536f2f791aa8a9e8d24d1808941303"
+  },
+  {
+    "path": "figures/HCC2R_HE_immune_neighbors.pdf",
+    "bytes": 1521913,
+    "sha256": "155092001c233dfbe0f3ce6167a3b8dab057b312076523c20b4202e4e74bd244"
+  },
+  {
+    "path": "figures/HCC2R_HE_immune_neighbors.png",
+    "bytes": 1846322,
+    "sha256": "8a8f8ce524053e36b0e54bdc89b319c53aab1bc0d0752521bb0f7e6112427a79"
+  },
+  {
+    "path": "figures/HCC3R_HE_immune_neighbors.pdf",
+    "bytes": 942636,
+    "sha256": "4f36bd177d95f574d138546b7e4e6f65330c9969e34e960633e705e47b11c9cd"
+  },
+  {
+    "path": "figures/HCC3R_HE_immune_neighbors.png",
+    "bytes": 1160456,
+    "sha256": "19bebac7aaf744ad68ca751a80af2a0d951687339feda8b0661bd9a6e4fd97ac"
+  },
+  {
+    "path": "figures/HCC4R_HE_immune_neighbors.pdf",
+    "bytes": 1781253,
+    "sha256": "7c809b3787a09f308427b6fee596dcfcc9c4b370c5ebe88a10115dc348534afa"
+  },
+  {
+    "path": "figures/HCC4R_HE_immune_neighbors.png",
+    "bytes": 2063146,
+    "sha256": "4b811365f3eb58999f6917662ad3c9dd69219ca2fd4de3ac5e06594596b884d4"
+  },
+  {
+    "path": "figures/HCC5NR_HE_immune_neighbors.pdf",
+    "bytes": 986689,
+    "sha256": "765710129d473055c0e5ad8590496985fea811a160123c0e1e5733a9ae327727"
+  },
+  {
+    "path": "figures/HCC5NR_HE_immune_neighbors.png",
+    "bytes": 1162128,
+    "sha256": "6b66aaa9c1d19920472941234eaaa44e4bab99c87144e2d2dc5169585190e635"
+  },
+  {
+    "path": "figures/HCC6NR_HE_immune_neighbors.pdf",
+    "bytes": 1444647,
+    "sha256": "a348fb9aa8bdb78b4f5e99fc99ca0ff61f5ac3aa1a1c34fbbc212a272a83b7cd"
+  },
+  {
+    "path": "figures/HCC6NR_HE_immune_neighbors.png",
+    "bytes": 1698781,
+    "sha256": "92b21060c1d6b81d64d1f829d047ec3236dca9cb80a931bea513a679f8ac358c"
+  },
+  {
+    "path": "figures/HCC7NR_HE_immune_neighbors.pdf",
+    "bytes": 1303493,
+    "sha256": "4ada807d0af349bb380cd2c9d9f0410d2fff3b4233b5df3c577152eda3b73c1a"
+  },
+  {
+    "path": "figures/HCC7NR_HE_immune_neighbors.png",
+    "bytes": 1537819,
+    "sha256": "4d897c2247e4fc29353b1b7cac233dd36d10cb5d0d032aee3f8429e27f822a4d"
+  },
+  {
+    "path": "figures/immune_LR_codetection.pdf",
+    "bytes": 37557,
+    "sha256": "a63668518f127747b9dc4b11fe555ff9816ff0fc6f6c2756490cb65ee9c684c7"
+  },
+  {
+    "path": "figures/immune_LR_codetection.png",
+    "bytes": 310319,
+    "sha256": "23e50d1ef3b101c1d1b0959d0b11bdad19a5d84a30ba5748592f841133666c9c"
+  },
+  {
+    "path": "figures/immune_neighborhood_coverage.pdf",
+    "bytes": 27746,
+    "sha256": "c91bd14570b2762410648ff388b3eb11b70600d925f0fb865557bea1924cd476"
+  },
+  {
+    "path": "figures/immune_neighborhood_coverage.png",
+    "bytes": 166068,
+    "sha256": "7c08574c50d710d6efddc3bf12b71817cf3c7f3bbcd1d26208ea989fd6e0973e"
+  },
+  {
+    "path": "figures/spatial_immune_tests.pdf",
+    "bytes": 24018,
+    "sha256": "bcf2668a8240651c68e475a645bac18e388bdc5ece8abb20a9db65339e37499a"
+  },
+  {
+    "path": "figures/spatial_immune_tests.png",
+    "bytes": 233011,
+    "sha256": "9da7d123aef1d606204bc8344e325343c76f7d0f8f33502b1d4ebad08f187334"
+  },
+  {
+    "path": "frozen_spatial_methods.py",
+    "bytes": 14631,
+    "sha256": "a8b025232473508c01ad817f81172b5838023a0e2a90c26cfc474c21c850db6a"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 4376,
+    "sha256": "a13d0d4a4c707366819ac753cb2b5e8ce2223b9a15e89f957bc5f1be8a7cb677"
+  },
+  {
+    "path": "marker_coverage.csv",
+    "bytes": 2604,
+    "sha256": "f1eeb98e0187fce08274e8e7392d6362735b6f790da7e76a4e6730b13d57b277"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 9471,
+    "sha256": "85e65b26c5a8b88f216cf70b285d914b882f2bf7c839ec44a652de147b6e66ef"
+  },
+  {
+    "path": "permutation_support.csv",
+    "bytes": 705,
+    "sha256": "0217fb81e4762bc3a126fdc4400c815dafe46dfa85a5b7dfc48e2cbe0e80aba3"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 4390,
+    "sha256": "a4de1b2bcced0d16af4dd782f281a82f065fe8d5422ec79fcb6ac5ee6b1b6241"
+  },
+  {
+    "path": "plot_he.py",
+    "bytes": 2280,
+    "sha256": "3956440b21f83f4f2acc88f806a63c69a90ac8f880888c5d34f00773e26cb59a"
+  },
+  {
+    "path": "plot_statistics.py",
+    "bytes": 1422,
+    "sha256": "9f252bce1a6563e3312919dae166dd0ba890442dd4fa574df73303ce117689c5"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 156,
+    "sha256": "9ef8ba499418b0c252be6c9ce8f65d83c4daa4e94b7dc996864868ead75ec60f"
+  },
+  {
+    "path": "selected_LR_pairs.csv",
+    "bytes": 2276,
+    "sha256": "aadc303cb4888419f434971d4f32e299b1878c96a6bce81566d916544a0da876"
+  },
+  {
+    "path": "source_immune_neighborhoods.csv",
+    "bytes": 11506,
+    "sha256": "33d0bb418d5175efc86c4b39f8e2841ea9597bdc6907e9c28aec52a2edd68d54"
+  },
+  {
+    "path": "spatial_conditional_tests.csv",
+    "bytes": 7485,
+    "sha256": "1d49eef5027b0a0f66c34d8b6508b5ae3c5d39edbde55a40bd4f82459d2e863c"
+  }
+]

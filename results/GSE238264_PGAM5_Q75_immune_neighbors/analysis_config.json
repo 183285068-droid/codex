@@ -1,0 +1,113 @@
+{
+  "PGAM5_quantile": 0.75,
+  "source_gates": "original frozen baseline",
+  "panels": {
+    "T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "B": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Plasma": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "XBP1",
+      "DERL3"
+    ],
+    "NK": [
+      "NKG7",
+      "GNLY",
+      "KLRD1",
+      "KLRF1",
+      "NCR1"
+    ],
+    "cDC1": [
+      "CLEC9A",
+      "XCR1",
+      "BATF3",
+      "IRF8",
+      "CADM1"
+    ],
+    "cDC2": [
+      "CD1C",
+      "FCER1A",
+      "CLEC10A",
+      "CD1E"
+    ],
+    "pDC": [
+      "CLEC4C",
+      "IL3RA",
+      "TCF4",
+      "GZMB"
+    ],
+    "Monocyte": [
+      "FCN1",
+      "VCAN",
+      "S100A8",
+      "S100A9",
+      "LYZ"
+    ],
+    "Neutrophil": [
+      "FCGR3B",
+      "CSF3R",
+      "CXCR2",
+      "S100A8",
+      "S100A9"
+    ]
+  },
+  "anchors": {
+    "B": [
+      "MS4A1",
+      "CD79A"
+    ],
+    "Plasma": [
+      "MZB1",
+      "JCHAIN"
+    ],
+    "NK": [
+      "GNLY",
+      "KLRD1",
+      "NCR1"
+    ],
+    "cDC1": [
+      "CLEC9A",
+      "XCR1"
+    ],
+    "cDC2": [
+      "CD1C",
+      "FCER1A"
+    ],
+    "pDC": [
+      "CLEC4C",
+      "IL3RA"
+    ],
+    "Monocyte": [
+      "FCN1",
+      "VCAN"
+    ],
+    "Neutrophil": [
+      "FCGR3B",
+      "CSF3R",
+      "CXCR2"
+    ]
+  },
+  "Plasma_requires_both_MZB1_JCHAIN": true,
+  "immune_labels_nonexclusive": true,
+  "minimum_high_other_for_test": 3,
+  "permutations": 4999,
+  "seed": 23826475,
+  "FDR_family": 63,
+  "LR": "14 resource-supported candidates; descriptive only",
+  "space": "hexagonal first ring; 3x3 tiles and per-tile depth median stratification",
+  "clinical_response": "labels retained for context, no new response-group tests"
+}

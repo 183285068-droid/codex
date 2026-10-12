@@ -1,0 +1,3222 @@
+check,passed
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC1R_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC1R_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC1R/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC2R_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC2R_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC2R/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC3R_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC3R_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC3R/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC4R_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC4R_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC4R/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC5NR_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC5NR_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC5NR/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC6NR_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC6NR_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC6NR/filtered_feature_bc_matrix.h5,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC7NR_spot_annotations.csv.gz,True
+SHA /workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC7NR_spatial_edges.csv.gz,True
+SHA /workspace/scratch/GSE238264/inputs/HCC7NR/filtered_feature_bc_matrix.h5,True
+HCC1R frozen Q75 sources,True
+HCC1R whole-library normalization,True
+HCC1RT score,True
+HCC1RT gate,True
+HCC1RT geometry/coverage,True
+HCC1RTPGAM5_high summary,True
+HCC1RTOther_detected summary,True
+HCC1RTUndetected summary,True
+HCC1RB score,True
+HCC1RB gate,True
+HCC1RB geometry/coverage,True
+HCC1RBPGAM5_high summary,True
+HCC1RBOther_detected summary,True
+HCC1RBUndetected summary,True
+HCC1RPlasma score,True
+HCC1RPlasma gate,True
+HCC1RPlasma geometry/coverage,True
+HCC1RPlasmaPGAM5_high summary,True
+HCC1RPlasmaOther_detected summary,True
+HCC1RPlasmaUndetected summary,True
+HCC1RNK score,True
+HCC1RNK gate,True
+HCC1RNK geometry/coverage,True
+HCC1RNKPGAM5_high summary,True
+HCC1RNKOther_detected summary,True
+HCC1RNKUndetected summary,True
+HCC1RcDC1 score,True
+HCC1RcDC1 gate,True
+HCC1RcDC1 geometry/coverage,True
+HCC1RcDC1PGAM5_high summary,True
+HCC1RcDC1Other_detected summary,True
+HCC1RcDC1Undetected summary,True
+HCC1RcDC2 score,True
+HCC1RcDC2 gate,True
+HCC1RcDC2 geometry/coverage,True
+HCC1RcDC2PGAM5_high summary,True
+HCC1RcDC2Other_detected summary,True
+HCC1RcDC2Undetected summary,True
+HCC1RpDC score,True
+HCC1RpDC gate,True
+HCC1RpDC geometry/coverage,True
+HCC1RpDCPGAM5_high summary,True
+HCC1RpDCOther_detected summary,True
+HCC1RpDCUndetected summary,True
+HCC1RMonocyte score,True
+HCC1RMonocyte gate,True
+HCC1RMonocyte geometry/coverage,True
+HCC1RMonocytePGAM5_high summary,True
+HCC1RMonocyteOther_detected summary,True
+HCC1RMonocyteUndetected summary,True
+HCC1RNeutrophil score,True
+HCC1RNeutrophil gate,True
+HCC1RNeutrophil geometry/coverage,True
+HCC1RNeutrophilPGAM5_high summary,True
+HCC1RNeutrophilOther_detected summary,True
+HCC1RNeutrophilUndetected summary,True
+HCC1R eligible edge set,True
+HCC1RSPP1CD44 raw LR,True
+HCC1RSPP1CD44TPGAM5_high LR count,True
+HCC1RSPP1CD44TOther_detected LR count,True
+HCC1RSPP1CD44TUndetected LR count,True
+HCC1RSPP1CD44BPGAM5_high LR count,True
+HCC1RSPP1CD44BOther_detected LR count,True
+HCC1RSPP1CD44BUndetected LR count,True
+HCC1RSPP1CD44PlasmaPGAM5_high LR count,True
+HCC1RSPP1CD44PlasmaOther_detected LR count,True
+HCC1RSPP1CD44PlasmaUndetected LR count,True
+HCC1RSPP1CD44NKPGAM5_high LR count,True
+HCC1RSPP1CD44NKOther_detected LR count,True
+HCC1RSPP1CD44NKUndetected LR count,True
+HCC1RSPP1CD44cDC1PGAM5_high LR count,True
+HCC1RSPP1CD44cDC1Other_detected LR count,True
+HCC1RSPP1CD44cDC1Undetected LR count,True
+HCC1RSPP1CD44cDC2PGAM5_high LR count,True
+HCC1RSPP1CD44cDC2Other_detected LR count,True
+HCC1RSPP1CD44cDC2Undetected LR count,True
+HCC1RSPP1CD44pDCPGAM5_high LR count,True
+HCC1RSPP1CD44pDCOther_detected LR count,True
+HCC1RSPP1CD44pDCUndetected LR count,True
+HCC1RSPP1CD44MonocytePGAM5_high LR count,True
+HCC1RSPP1CD44MonocyteOther_detected LR count,True
+HCC1RSPP1CD44MonocyteUndetected LR count,True
+HCC1RSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC1RSPP1CD44NeutrophilOther_detected LR count,True
+HCC1RSPP1CD44NeutrophilUndetected LR count,True
+HCC1RLGALS9HAVCR2 raw LR,True
+HCC1RLGALS9HAVCR2TPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2TOther_detected LR count,True
+HCC1RLGALS9HAVCR2TUndetected LR count,True
+HCC1RLGALS9HAVCR2BPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2BOther_detected LR count,True
+HCC1RLGALS9HAVCR2BUndetected LR count,True
+HCC1RLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC1RLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC1RLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2NKOther_detected LR count,True
+HCC1RLGALS9HAVCR2NKUndetected LR count,True
+HCC1RLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC1RLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC1RLGALS9HAVCR2cDC1Undetected LR count,True
+HCC1RLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC1RLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC1RLGALS9HAVCR2cDC2Undetected LR count,True
+HCC1RLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2pDCOther_detected LR count,True
+HCC1RLGALS9HAVCR2pDCUndetected LR count,True
+HCC1RLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC1RLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC1RLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC1RLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC1RLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC1RLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC1RPVRTIGIT raw LR,True
+HCC1RPVRTIGITTPGAM5_high LR count,True
+HCC1RPVRTIGITTOther_detected LR count,True
+HCC1RPVRTIGITTUndetected LR count,True
+HCC1RPVRTIGITBPGAM5_high LR count,True
+HCC1RPVRTIGITBOther_detected LR count,True
+HCC1RPVRTIGITBUndetected LR count,True
+HCC1RPVRTIGITPlasmaPGAM5_high LR count,True
+HCC1RPVRTIGITPlasmaOther_detected LR count,True
+HCC1RPVRTIGITPlasmaUndetected LR count,True
+HCC1RPVRTIGITNKPGAM5_high LR count,True
+HCC1RPVRTIGITNKOther_detected LR count,True
+HCC1RPVRTIGITNKUndetected LR count,True
+HCC1RPVRTIGITcDC1PGAM5_high LR count,True
+HCC1RPVRTIGITcDC1Other_detected LR count,True
+HCC1RPVRTIGITcDC1Undetected LR count,True
+HCC1RPVRTIGITcDC2PGAM5_high LR count,True
+HCC1RPVRTIGITcDC2Other_detected LR count,True
+HCC1RPVRTIGITcDC2Undetected LR count,True
+HCC1RPVRTIGITpDCPGAM5_high LR count,True
+HCC1RPVRTIGITpDCOther_detected LR count,True
+HCC1RPVRTIGITpDCUndetected LR count,True
+HCC1RPVRTIGITMonocytePGAM5_high LR count,True
+HCC1RPVRTIGITMonocyteOther_detected LR count,True
+HCC1RPVRTIGITMonocyteUndetected LR count,True
+HCC1RPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC1RPVRTIGITNeutrophilOther_detected LR count,True
+HCC1RPVRTIGITNeutrophilUndetected LR count,True
+HCC1RNECTIN2TIGIT raw LR,True
+HCC1RNECTIN2TIGITTPGAM5_high LR count,True
+HCC1RNECTIN2TIGITTOther_detected LR count,True
+HCC1RNECTIN2TIGITTUndetected LR count,True
+HCC1RNECTIN2TIGITBPGAM5_high LR count,True
+HCC1RNECTIN2TIGITBOther_detected LR count,True
+HCC1RNECTIN2TIGITBUndetected LR count,True
+HCC1RNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC1RNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC1RNECTIN2TIGITPlasmaUndetected LR count,True
+HCC1RNECTIN2TIGITNKPGAM5_high LR count,True
+HCC1RNECTIN2TIGITNKOther_detected LR count,True
+HCC1RNECTIN2TIGITNKUndetected LR count,True
+HCC1RNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC1RNECTIN2TIGITcDC1Other_detected LR count,True
+HCC1RNECTIN2TIGITcDC1Undetected LR count,True
+HCC1RNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC1RNECTIN2TIGITcDC2Other_detected LR count,True
+HCC1RNECTIN2TIGITcDC2Undetected LR count,True
+HCC1RNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC1RNECTIN2TIGITpDCOther_detected LR count,True
+HCC1RNECTIN2TIGITpDCUndetected LR count,True
+HCC1RNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC1RNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC1RNECTIN2TIGITMonocyteUndetected LR count,True
+HCC1RNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC1RNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC1RNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC1RCD274PDCD1 raw LR,True
+HCC1RCD274PDCD1TPGAM5_high LR count,True
+HCC1RCD274PDCD1TOther_detected LR count,True
+HCC1RCD274PDCD1TUndetected LR count,True
+HCC1RCD274PDCD1BPGAM5_high LR count,True
+HCC1RCD274PDCD1BOther_detected LR count,True
+HCC1RCD274PDCD1BUndetected LR count,True
+HCC1RCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC1RCD274PDCD1PlasmaOther_detected LR count,True
+HCC1RCD274PDCD1PlasmaUndetected LR count,True
+HCC1RCD274PDCD1NKPGAM5_high LR count,True
+HCC1RCD274PDCD1NKOther_detected LR count,True
+HCC1RCD274PDCD1NKUndetected LR count,True
+HCC1RCD274PDCD1cDC1PGAM5_high LR count,True
+HCC1RCD274PDCD1cDC1Other_detected LR count,True
+HCC1RCD274PDCD1cDC1Undetected LR count,True
+HCC1RCD274PDCD1cDC2PGAM5_high LR count,True
+HCC1RCD274PDCD1cDC2Other_detected LR count,True
+HCC1RCD274PDCD1cDC2Undetected LR count,True
+HCC1RCD274PDCD1pDCPGAM5_high LR count,True
+HCC1RCD274PDCD1pDCOther_detected LR count,True
+HCC1RCD274PDCD1pDCUndetected LR count,True
+HCC1RCD274PDCD1MonocytePGAM5_high LR count,True
+HCC1RCD274PDCD1MonocyteOther_detected LR count,True
+HCC1RCD274PDCD1MonocyteUndetected LR count,True
+HCC1RCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC1RCD274PDCD1NeutrophilOther_detected LR count,True
+HCC1RCD274PDCD1NeutrophilUndetected LR count,True
+HCC1RCXCL9CXCR3 raw LR,True
+HCC1RCXCL9CXCR3TPGAM5_high LR count,True
+HCC1RCXCL9CXCR3TOther_detected LR count,True
+HCC1RCXCL9CXCR3TUndetected LR count,True
+HCC1RCXCL9CXCR3BPGAM5_high LR count,True
+HCC1RCXCL9CXCR3BOther_detected LR count,True
+HCC1RCXCL9CXCR3BUndetected LR count,True
+HCC1RCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC1RCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC1RCXCL9CXCR3PlasmaUndetected LR count,True
+HCC1RCXCL9CXCR3NKPGAM5_high LR count,True
+HCC1RCXCL9CXCR3NKOther_detected LR count,True
+HCC1RCXCL9CXCR3NKUndetected LR count,True
+HCC1RCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC1RCXCL9CXCR3cDC1Other_detected LR count,True
+HCC1RCXCL9CXCR3cDC1Undetected LR count,True
+HCC1RCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC1RCXCL9CXCR3cDC2Other_detected LR count,True
+HCC1RCXCL9CXCR3cDC2Undetected LR count,True
+HCC1RCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC1RCXCL9CXCR3pDCOther_detected LR count,True
+HCC1RCXCL9CXCR3pDCUndetected LR count,True
+HCC1RCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC1RCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC1RCXCL9CXCR3MonocyteUndetected LR count,True
+HCC1RCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC1RCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC1RCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC1RCXCL10CXCR3 raw LR,True
+HCC1RCXCL10CXCR3TPGAM5_high LR count,True
+HCC1RCXCL10CXCR3TOther_detected LR count,True
+HCC1RCXCL10CXCR3TUndetected LR count,True
+HCC1RCXCL10CXCR3BPGAM5_high LR count,True
+HCC1RCXCL10CXCR3BOther_detected LR count,True
+HCC1RCXCL10CXCR3BUndetected LR count,True
+HCC1RCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC1RCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC1RCXCL10CXCR3PlasmaUndetected LR count,True
+HCC1RCXCL10CXCR3NKPGAM5_high LR count,True
+HCC1RCXCL10CXCR3NKOther_detected LR count,True
+HCC1RCXCL10CXCR3NKUndetected LR count,True
+HCC1RCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC1RCXCL10CXCR3cDC1Other_detected LR count,True
+HCC1RCXCL10CXCR3cDC1Undetected LR count,True
+HCC1RCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC1RCXCL10CXCR3cDC2Other_detected LR count,True
+HCC1RCXCL10CXCR3cDC2Undetected LR count,True
+HCC1RCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC1RCXCL10CXCR3pDCOther_detected LR count,True
+HCC1RCXCL10CXCR3pDCUndetected LR count,True
+HCC1RCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC1RCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC1RCXCL10CXCR3MonocyteUndetected LR count,True
+HCC1RCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC1RCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC1RCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC1RCCL5CCR5 raw LR,True
+HCC1RCCL5CCR5TPGAM5_high LR count,True
+HCC1RCCL5CCR5TOther_detected LR count,True
+HCC1RCCL5CCR5TUndetected LR count,True
+HCC1RCCL5CCR5BPGAM5_high LR count,True
+HCC1RCCL5CCR5BOther_detected LR count,True
+HCC1RCCL5CCR5BUndetected LR count,True
+HCC1RCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC1RCCL5CCR5PlasmaOther_detected LR count,True
+HCC1RCCL5CCR5PlasmaUndetected LR count,True
+HCC1RCCL5CCR5NKPGAM5_high LR count,True
+HCC1RCCL5CCR5NKOther_detected LR count,True
+HCC1RCCL5CCR5NKUndetected LR count,True
+HCC1RCCL5CCR5cDC1PGAM5_high LR count,True
+HCC1RCCL5CCR5cDC1Other_detected LR count,True
+HCC1RCCL5CCR5cDC1Undetected LR count,True
+HCC1RCCL5CCR5cDC2PGAM5_high LR count,True
+HCC1RCCL5CCR5cDC2Other_detected LR count,True
+HCC1RCCL5CCR5cDC2Undetected LR count,True
+HCC1RCCL5CCR5pDCPGAM5_high LR count,True
+HCC1RCCL5CCR5pDCOther_detected LR count,True
+HCC1RCCL5CCR5pDCUndetected LR count,True
+HCC1RCCL5CCR5MonocytePGAM5_high LR count,True
+HCC1RCCL5CCR5MonocyteOther_detected LR count,True
+HCC1RCCL5CCR5MonocyteUndetected LR count,True
+HCC1RCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC1RCCL5CCR5NeutrophilOther_detected LR count,True
+HCC1RCCL5CCR5NeutrophilUndetected LR count,True
+HCC1RCXCL12CXCR4 raw LR,True
+HCC1RCXCL12CXCR4TPGAM5_high LR count,True
+HCC1RCXCL12CXCR4TOther_detected LR count,True
+HCC1RCXCL12CXCR4TUndetected LR count,True
+HCC1RCXCL12CXCR4BPGAM5_high LR count,True
+HCC1RCXCL12CXCR4BOther_detected LR count,True
+HCC1RCXCL12CXCR4BUndetected LR count,True
+HCC1RCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC1RCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC1RCXCL12CXCR4PlasmaUndetected LR count,True
+HCC1RCXCL12CXCR4NKPGAM5_high LR count,True
+HCC1RCXCL12CXCR4NKOther_detected LR count,True
+HCC1RCXCL12CXCR4NKUndetected LR count,True
+HCC1RCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC1RCXCL12CXCR4cDC1Other_detected LR count,True
+HCC1RCXCL12CXCR4cDC1Undetected LR count,True
+HCC1RCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC1RCXCL12CXCR4cDC2Other_detected LR count,True
+HCC1RCXCL12CXCR4cDC2Undetected LR count,True
+HCC1RCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC1RCXCL12CXCR4pDCOther_detected LR count,True
+HCC1RCXCL12CXCR4pDCUndetected LR count,True
+HCC1RCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC1RCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC1RCXCL12CXCR4MonocyteUndetected LR count,True
+HCC1RCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC1RCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC1RCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC1RCXCL13CXCR5 raw LR,True
+HCC1RCXCL13CXCR5TPGAM5_high LR count,True
+HCC1RCXCL13CXCR5TOther_detected LR count,True
+HCC1RCXCL13CXCR5TUndetected LR count,True
+HCC1RCXCL13CXCR5BPGAM5_high LR count,True
+HCC1RCXCL13CXCR5BOther_detected LR count,True
+HCC1RCXCL13CXCR5BUndetected LR count,True
+HCC1RCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC1RCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC1RCXCL13CXCR5PlasmaUndetected LR count,True
+HCC1RCXCL13CXCR5NKPGAM5_high LR count,True
+HCC1RCXCL13CXCR5NKOther_detected LR count,True
+HCC1RCXCL13CXCR5NKUndetected LR count,True
+HCC1RCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC1RCXCL13CXCR5cDC1Other_detected LR count,True
+HCC1RCXCL13CXCR5cDC1Undetected LR count,True
+HCC1RCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC1RCXCL13CXCR5cDC2Other_detected LR count,True
+HCC1RCXCL13CXCR5cDC2Undetected LR count,True
+HCC1RCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC1RCXCL13CXCR5pDCOther_detected LR count,True
+HCC1RCXCL13CXCR5pDCUndetected LR count,True
+HCC1RCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC1RCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC1RCXCL13CXCR5MonocyteUndetected LR count,True
+HCC1RCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC1RCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC1RCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13C raw LR,True
+HCC1RTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC1RTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC1RTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC1RTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC1RTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC1RTNFSF13TNFRSF17 raw LR,True
+HCC1RTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17TOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17TUndetected LR count,True
+HCC1RTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17BOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17BUndetected LR count,True
+HCC1RTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC1RTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17NKUndetected LR count,True
+HCC1RTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC1RTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC1RTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC1RTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC1RTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC1RTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC1RTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC1RTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC1RTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC1RTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC1RTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC1RIL10IL10RA_IL10RB raw LR,True
+HCC1RIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBTUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBBUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC1RIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC1RIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC1RIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC1RIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC1RIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC1RIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC1RIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC1R test outcomes,True
+HCC1R test delta,True
+HCC1RT permutation p,True
+HCC1RB permutation p,True
+HCC1RPlasma permutation p,True
+HCC1RNK permutation p,True
+HCC1RcDC1 permutation p,True
+HCC1RcDC2 permutation p,True
+HCC1RpDC permutation p,True
+HCC1RMonocyte permutation p,True
+HCC1RNeutrophil permutation p,True
+HCC2R frozen Q75 sources,True
+HCC2R whole-library normalization,True
+HCC2RT score,True
+HCC2RT gate,True
+HCC2RT geometry/coverage,True
+HCC2RTPGAM5_high summary,True
+HCC2RTOther_detected summary,True
+HCC2RTUndetected summary,True
+HCC2RB score,True
+HCC2RB gate,True
+HCC2RB geometry/coverage,True
+HCC2RBPGAM5_high summary,True
+HCC2RBOther_detected summary,True
+HCC2RBUndetected summary,True
+HCC2RPlasma score,True
+HCC2RPlasma gate,True
+HCC2RPlasma geometry/coverage,True
+HCC2RPlasmaPGAM5_high summary,True
+HCC2RPlasmaOther_detected summary,True
+HCC2RPlasmaUndetected summary,True
+HCC2RNK score,True
+HCC2RNK gate,True
+HCC2RNK geometry/coverage,True
+HCC2RNKPGAM5_high summary,True
+HCC2RNKOther_detected summary,True
+HCC2RNKUndetected summary,True
+HCC2RcDC1 score,True
+HCC2RcDC1 gate,True
+HCC2RcDC1 geometry/coverage,True
+HCC2RcDC1PGAM5_high summary,True
+HCC2RcDC1Other_detected summary,True
+HCC2RcDC1Undetected summary,True
+HCC2RcDC2 score,True
+HCC2RcDC2 gate,True
+HCC2RcDC2 geometry/coverage,True
+HCC2RcDC2PGAM5_high summary,True
+HCC2RcDC2Other_detected summary,True
+HCC2RcDC2Undetected summary,True
+HCC2RpDC score,True
+HCC2RpDC gate,True
+HCC2RpDC geometry/coverage,True
+HCC2RpDCPGAM5_high summary,True
+HCC2RpDCOther_detected summary,True
+HCC2RpDCUndetected summary,True
+HCC2RMonocyte score,True
+HCC2RMonocyte gate,True
+HCC2RMonocyte geometry/coverage,True
+HCC2RMonocytePGAM5_high summary,True
+HCC2RMonocyteOther_detected summary,True
+HCC2RMonocyteUndetected summary,True
+HCC2RNeutrophil score,True
+HCC2RNeutrophil gate,True
+HCC2RNeutrophil geometry/coverage,True
+HCC2RNeutrophilPGAM5_high summary,True
+HCC2RNeutrophilOther_detected summary,True
+HCC2RNeutrophilUndetected summary,True
+HCC2R eligible edge set,True
+HCC2RSPP1CD44 raw LR,True
+HCC2RSPP1CD44TPGAM5_high LR count,True
+HCC2RSPP1CD44TOther_detected LR count,True
+HCC2RSPP1CD44TUndetected LR count,True
+HCC2RSPP1CD44BPGAM5_high LR count,True
+HCC2RSPP1CD44BOther_detected LR count,True
+HCC2RSPP1CD44BUndetected LR count,True
+HCC2RSPP1CD44PlasmaPGAM5_high LR count,True
+HCC2RSPP1CD44PlasmaOther_detected LR count,True
+HCC2RSPP1CD44PlasmaUndetected LR count,True
+HCC2RSPP1CD44NKPGAM5_high LR count,True
+HCC2RSPP1CD44NKOther_detected LR count,True
+HCC2RSPP1CD44NKUndetected LR count,True
+HCC2RSPP1CD44cDC1PGAM5_high LR count,True
+HCC2RSPP1CD44cDC1Other_detected LR count,True
+HCC2RSPP1CD44cDC1Undetected LR count,True
+HCC2RSPP1CD44cDC2PGAM5_high LR count,True
+HCC2RSPP1CD44cDC2Other_detected LR count,True
+HCC2RSPP1CD44cDC2Undetected LR count,True
+HCC2RSPP1CD44pDCPGAM5_high LR count,True
+HCC2RSPP1CD44pDCOther_detected LR count,True
+HCC2RSPP1CD44pDCUndetected LR count,True
+HCC2RSPP1CD44MonocytePGAM5_high LR count,True
+HCC2RSPP1CD44MonocyteOther_detected LR count,True
+HCC2RSPP1CD44MonocyteUndetected LR count,True
+HCC2RSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC2RSPP1CD44NeutrophilOther_detected LR count,True
+HCC2RSPP1CD44NeutrophilUndetected LR count,True
+HCC2RLGALS9HAVCR2 raw LR,True
+HCC2RLGALS9HAVCR2TPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2TOther_detected LR count,True
+HCC2RLGALS9HAVCR2TUndetected LR count,True
+HCC2RLGALS9HAVCR2BPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2BOther_detected LR count,True
+HCC2RLGALS9HAVCR2BUndetected LR count,True
+HCC2RLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC2RLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC2RLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2NKOther_detected LR count,True
+HCC2RLGALS9HAVCR2NKUndetected LR count,True
+HCC2RLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC2RLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC2RLGALS9HAVCR2cDC1Undetected LR count,True
+HCC2RLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC2RLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC2RLGALS9HAVCR2cDC2Undetected LR count,True
+HCC2RLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2pDCOther_detected LR count,True
+HCC2RLGALS9HAVCR2pDCUndetected LR count,True
+HCC2RLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC2RLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC2RLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC2RLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC2RLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC2RLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC2RPVRTIGIT raw LR,True
+HCC2RPVRTIGITTPGAM5_high LR count,True
+HCC2RPVRTIGITTOther_detected LR count,True
+HCC2RPVRTIGITTUndetected LR count,True
+HCC2RPVRTIGITBPGAM5_high LR count,True
+HCC2RPVRTIGITBOther_detected LR count,True
+HCC2RPVRTIGITBUndetected LR count,True
+HCC2RPVRTIGITPlasmaPGAM5_high LR count,True
+HCC2RPVRTIGITPlasmaOther_detected LR count,True
+HCC2RPVRTIGITPlasmaUndetected LR count,True
+HCC2RPVRTIGITNKPGAM5_high LR count,True
+HCC2RPVRTIGITNKOther_detected LR count,True
+HCC2RPVRTIGITNKUndetected LR count,True
+HCC2RPVRTIGITcDC1PGAM5_high LR count,True
+HCC2RPVRTIGITcDC1Other_detected LR count,True
+HCC2RPVRTIGITcDC1Undetected LR count,True
+HCC2RPVRTIGITcDC2PGAM5_high LR count,True
+HCC2RPVRTIGITcDC2Other_detected LR count,True
+HCC2RPVRTIGITcDC2Undetected LR count,True
+HCC2RPVRTIGITpDCPGAM5_high LR count,True
+HCC2RPVRTIGITpDCOther_detected LR count,True
+HCC2RPVRTIGITpDCUndetected LR count,True
+HCC2RPVRTIGITMonocytePGAM5_high LR count,True
+HCC2RPVRTIGITMonocyteOther_detected LR count,True
+HCC2RPVRTIGITMonocyteUndetected LR count,True
+HCC2RPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC2RPVRTIGITNeutrophilOther_detected LR count,True
+HCC2RPVRTIGITNeutrophilUndetected LR count,True
+HCC2RNECTIN2TIGIT raw LR,True
+HCC2RNECTIN2TIGITTPGAM5_high LR count,True
+HCC2RNECTIN2TIGITTOther_detected LR count,True
+HCC2RNECTIN2TIGITTUndetected LR count,True
+HCC2RNECTIN2TIGITBPGAM5_high LR count,True
+HCC2RNECTIN2TIGITBOther_detected LR count,True
+HCC2RNECTIN2TIGITBUndetected LR count,True
+HCC2RNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC2RNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC2RNECTIN2TIGITPlasmaUndetected LR count,True
+HCC2RNECTIN2TIGITNKPGAM5_high LR count,True
+HCC2RNECTIN2TIGITNKOther_detected LR count,True
+HCC2RNECTIN2TIGITNKUndetected LR count,True
+HCC2RNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC2RNECTIN2TIGITcDC1Other_detected LR count,True
+HCC2RNECTIN2TIGITcDC1Undetected LR count,True
+HCC2RNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC2RNECTIN2TIGITcDC2Other_detected LR count,True
+HCC2RNECTIN2TIGITcDC2Undetected LR count,True
+HCC2RNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC2RNECTIN2TIGITpDCOther_detected LR count,True
+HCC2RNECTIN2TIGITpDCUndetected LR count,True
+HCC2RNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC2RNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC2RNECTIN2TIGITMonocyteUndetected LR count,True
+HCC2RNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC2RNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC2RNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC2RCD274PDCD1 raw LR,True
+HCC2RCD274PDCD1TPGAM5_high LR count,True
+HCC2RCD274PDCD1TOther_detected LR count,True
+HCC2RCD274PDCD1TUndetected LR count,True
+HCC2RCD274PDCD1BPGAM5_high LR count,True
+HCC2RCD274PDCD1BOther_detected LR count,True
+HCC2RCD274PDCD1BUndetected LR count,True
+HCC2RCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC2RCD274PDCD1PlasmaOther_detected LR count,True
+HCC2RCD274PDCD1PlasmaUndetected LR count,True
+HCC2RCD274PDCD1NKPGAM5_high LR count,True
+HCC2RCD274PDCD1NKOther_detected LR count,True
+HCC2RCD274PDCD1NKUndetected LR count,True
+HCC2RCD274PDCD1cDC1PGAM5_high LR count,True
+HCC2RCD274PDCD1cDC1Other_detected LR count,True
+HCC2RCD274PDCD1cDC1Undetected LR count,True
+HCC2RCD274PDCD1cDC2PGAM5_high LR count,True
+HCC2RCD274PDCD1cDC2Other_detected LR count,True
+HCC2RCD274PDCD1cDC2Undetected LR count,True
+HCC2RCD274PDCD1pDCPGAM5_high LR count,True
+HCC2RCD274PDCD1pDCOther_detected LR count,True
+HCC2RCD274PDCD1pDCUndetected LR count,True
+HCC2RCD274PDCD1MonocytePGAM5_high LR count,True
+HCC2RCD274PDCD1MonocyteOther_detected LR count,True
+HCC2RCD274PDCD1MonocyteUndetected LR count,True
+HCC2RCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC2RCD274PDCD1NeutrophilOther_detected LR count,True
+HCC2RCD274PDCD1NeutrophilUndetected LR count,True
+HCC2RCXCL9CXCR3 raw LR,True
+HCC2RCXCL9CXCR3TPGAM5_high LR count,True
+HCC2RCXCL9CXCR3TOther_detected LR count,True
+HCC2RCXCL9CXCR3TUndetected LR count,True
+HCC2RCXCL9CXCR3BPGAM5_high LR count,True
+HCC2RCXCL9CXCR3BOther_detected LR count,True
+HCC2RCXCL9CXCR3BUndetected LR count,True
+HCC2RCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC2RCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC2RCXCL9CXCR3PlasmaUndetected LR count,True
+HCC2RCXCL9CXCR3NKPGAM5_high LR count,True
+HCC2RCXCL9CXCR3NKOther_detected LR count,True
+HCC2RCXCL9CXCR3NKUndetected LR count,True
+HCC2RCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC2RCXCL9CXCR3cDC1Other_detected LR count,True
+HCC2RCXCL9CXCR3cDC1Undetected LR count,True
+HCC2RCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC2RCXCL9CXCR3cDC2Other_detected LR count,True
+HCC2RCXCL9CXCR3cDC2Undetected LR count,True
+HCC2RCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC2RCXCL9CXCR3pDCOther_detected LR count,True
+HCC2RCXCL9CXCR3pDCUndetected LR count,True
+HCC2RCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC2RCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC2RCXCL9CXCR3MonocyteUndetected LR count,True
+HCC2RCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC2RCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC2RCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC2RCXCL10CXCR3 raw LR,True
+HCC2RCXCL10CXCR3TPGAM5_high LR count,True
+HCC2RCXCL10CXCR3TOther_detected LR count,True
+HCC2RCXCL10CXCR3TUndetected LR count,True
+HCC2RCXCL10CXCR3BPGAM5_high LR count,True
+HCC2RCXCL10CXCR3BOther_detected LR count,True
+HCC2RCXCL10CXCR3BUndetected LR count,True
+HCC2RCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC2RCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC2RCXCL10CXCR3PlasmaUndetected LR count,True
+HCC2RCXCL10CXCR3NKPGAM5_high LR count,True
+HCC2RCXCL10CXCR3NKOther_detected LR count,True
+HCC2RCXCL10CXCR3NKUndetected LR count,True
+HCC2RCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC2RCXCL10CXCR3cDC1Other_detected LR count,True
+HCC2RCXCL10CXCR3cDC1Undetected LR count,True
+HCC2RCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC2RCXCL10CXCR3cDC2Other_detected LR count,True
+HCC2RCXCL10CXCR3cDC2Undetected LR count,True
+HCC2RCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC2RCXCL10CXCR3pDCOther_detected LR count,True
+HCC2RCXCL10CXCR3pDCUndetected LR count,True
+HCC2RCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC2RCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC2RCXCL10CXCR3MonocyteUndetected LR count,True
+HCC2RCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC2RCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC2RCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC2RCCL5CCR5 raw LR,True
+HCC2RCCL5CCR5TPGAM5_high LR count,True
+HCC2RCCL5CCR5TOther_detected LR count,True
+HCC2RCCL5CCR5TUndetected LR count,True
+HCC2RCCL5CCR5BPGAM5_high LR count,True
+HCC2RCCL5CCR5BOther_detected LR count,True
+HCC2RCCL5CCR5BUndetected LR count,True
+HCC2RCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC2RCCL5CCR5PlasmaOther_detected LR count,True
+HCC2RCCL5CCR5PlasmaUndetected LR count,True
+HCC2RCCL5CCR5NKPGAM5_high LR count,True
+HCC2RCCL5CCR5NKOther_detected LR count,True
+HCC2RCCL5CCR5NKUndetected LR count,True
+HCC2RCCL5CCR5cDC1PGAM5_high LR count,True
+HCC2RCCL5CCR5cDC1Other_detected LR count,True
+HCC2RCCL5CCR5cDC1Undetected LR count,True
+HCC2RCCL5CCR5cDC2PGAM5_high LR count,True
+HCC2RCCL5CCR5cDC2Other_detected LR count,True
+HCC2RCCL5CCR5cDC2Undetected LR count,True
+HCC2RCCL5CCR5pDCPGAM5_high LR count,True
+HCC2RCCL5CCR5pDCOther_detected LR count,True
+HCC2RCCL5CCR5pDCUndetected LR count,True
+HCC2RCCL5CCR5MonocytePGAM5_high LR count,True
+HCC2RCCL5CCR5MonocyteOther_detected LR count,True
+HCC2RCCL5CCR5MonocyteUndetected LR count,True
+HCC2RCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC2RCCL5CCR5NeutrophilOther_detected LR count,True
+HCC2RCCL5CCR5NeutrophilUndetected LR count,True
+HCC2RCXCL12CXCR4 raw LR,True
+HCC2RCXCL12CXCR4TPGAM5_high LR count,True
+HCC2RCXCL12CXCR4TOther_detected LR count,True
+HCC2RCXCL12CXCR4TUndetected LR count,True
+HCC2RCXCL12CXCR4BPGAM5_high LR count,True
+HCC2RCXCL12CXCR4BOther_detected LR count,True
+HCC2RCXCL12CXCR4BUndetected LR count,True
+HCC2RCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC2RCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC2RCXCL12CXCR4PlasmaUndetected LR count,True
+HCC2RCXCL12CXCR4NKPGAM5_high LR count,True
+HCC2RCXCL12CXCR4NKOther_detected LR count,True
+HCC2RCXCL12CXCR4NKUndetected LR count,True
+HCC2RCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC2RCXCL12CXCR4cDC1Other_detected LR count,True
+HCC2RCXCL12CXCR4cDC1Undetected LR count,True
+HCC2RCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC2RCXCL12CXCR4cDC2Other_detected LR count,True
+HCC2RCXCL12CXCR4cDC2Undetected LR count,True
+HCC2RCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC2RCXCL12CXCR4pDCOther_detected LR count,True
+HCC2RCXCL12CXCR4pDCUndetected LR count,True
+HCC2RCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC2RCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC2RCXCL12CXCR4MonocyteUndetected LR count,True
+HCC2RCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC2RCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC2RCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC2RCXCL13CXCR5 raw LR,True
+HCC2RCXCL13CXCR5TPGAM5_high LR count,True
+HCC2RCXCL13CXCR5TOther_detected LR count,True
+HCC2RCXCL13CXCR5TUndetected LR count,True
+HCC2RCXCL13CXCR5BPGAM5_high LR count,True
+HCC2RCXCL13CXCR5BOther_detected LR count,True
+HCC2RCXCL13CXCR5BUndetected LR count,True
+HCC2RCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC2RCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC2RCXCL13CXCR5PlasmaUndetected LR count,True
+HCC2RCXCL13CXCR5NKPGAM5_high LR count,True
+HCC2RCXCL13CXCR5NKOther_detected LR count,True
+HCC2RCXCL13CXCR5NKUndetected LR count,True
+HCC2RCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC2RCXCL13CXCR5cDC1Other_detected LR count,True
+HCC2RCXCL13CXCR5cDC1Undetected LR count,True
+HCC2RCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC2RCXCL13CXCR5cDC2Other_detected LR count,True
+HCC2RCXCL13CXCR5cDC2Undetected LR count,True
+HCC2RCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC2RCXCL13CXCR5pDCOther_detected LR count,True
+HCC2RCXCL13CXCR5pDCUndetected LR count,True
+HCC2RCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC2RCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC2RCXCL13CXCR5MonocyteUndetected LR count,True
+HCC2RCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC2RCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC2RCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13C raw LR,True
+HCC2RTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC2RTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC2RTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC2RTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC2RTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC2RTNFSF13TNFRSF17 raw LR,True
+HCC2RTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17TOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17TUndetected LR count,True
+HCC2RTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17BOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17BUndetected LR count,True
+HCC2RTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC2RTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17NKUndetected LR count,True
+HCC2RTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC2RTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC2RTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC2RTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC2RTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC2RTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC2RTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC2RTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC2RTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC2RTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC2RTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC2RIL10IL10RA_IL10RB raw LR,True
+HCC2RIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBTUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBBUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC2RIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC2RIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC2RIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC2RIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC2RIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC2RIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC2RIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC3R frozen Q75 sources,True
+HCC3R whole-library normalization,True
+HCC3RT score,True
+HCC3RT gate,True
+HCC3RT geometry/coverage,True
+HCC3RTPGAM5_high summary,True
+HCC3RTOther_detected summary,True
+HCC3RTUndetected summary,True
+HCC3RB score,True
+HCC3RB gate,True
+HCC3RB geometry/coverage,True
+HCC3RBPGAM5_high summary,True
+HCC3RBOther_detected summary,True
+HCC3RBUndetected summary,True
+HCC3RPlasma score,True
+HCC3RPlasma gate,True
+HCC3RPlasma geometry/coverage,True
+HCC3RPlasmaPGAM5_high summary,True
+HCC3RPlasmaOther_detected summary,True
+HCC3RPlasmaUndetected summary,True
+HCC3RNK score,True
+HCC3RNK gate,True
+HCC3RNK geometry/coverage,True
+HCC3RNKPGAM5_high summary,True
+HCC3RNKOther_detected summary,True
+HCC3RNKUndetected summary,True
+HCC3RcDC1 score,True
+HCC3RcDC1 gate,True
+HCC3RcDC1 geometry/coverage,True
+HCC3RcDC1PGAM5_high summary,True
+HCC3RcDC1Other_detected summary,True
+HCC3RcDC1Undetected summary,True
+HCC3RcDC2 score,True
+HCC3RcDC2 gate,True
+HCC3RcDC2 geometry/coverage,True
+HCC3RcDC2PGAM5_high summary,True
+HCC3RcDC2Other_detected summary,True
+HCC3RcDC2Undetected summary,True
+HCC3RpDC score,True
+HCC3RpDC gate,True
+HCC3RpDC geometry/coverage,True
+HCC3RpDCPGAM5_high summary,True
+HCC3RpDCOther_detected summary,True
+HCC3RpDCUndetected summary,True
+HCC3RMonocyte score,True
+HCC3RMonocyte gate,True
+HCC3RMonocyte geometry/coverage,True
+HCC3RMonocytePGAM5_high summary,True
+HCC3RMonocyteOther_detected summary,True
+HCC3RMonocyteUndetected summary,True
+HCC3RNeutrophil score,True
+HCC3RNeutrophil gate,True
+HCC3RNeutrophil geometry/coverage,True
+HCC3RNeutrophilPGAM5_high summary,True
+HCC3RNeutrophilOther_detected summary,True
+HCC3RNeutrophilUndetected summary,True
+HCC3R eligible edge set,True
+HCC3RSPP1CD44 raw LR,True
+HCC3RSPP1CD44TPGAM5_high LR count,True
+HCC3RSPP1CD44TOther_detected LR count,True
+HCC3RSPP1CD44TUndetected LR count,True
+HCC3RSPP1CD44BPGAM5_high LR count,True
+HCC3RSPP1CD44BOther_detected LR count,True
+HCC3RSPP1CD44BUndetected LR count,True
+HCC3RSPP1CD44PlasmaPGAM5_high LR count,True
+HCC3RSPP1CD44PlasmaOther_detected LR count,True
+HCC3RSPP1CD44PlasmaUndetected LR count,True
+HCC3RSPP1CD44NKPGAM5_high LR count,True
+HCC3RSPP1CD44NKOther_detected LR count,True
+HCC3RSPP1CD44NKUndetected LR count,True
+HCC3RSPP1CD44cDC1PGAM5_high LR count,True
+HCC3RSPP1CD44cDC1Other_detected LR count,True
+HCC3RSPP1CD44cDC1Undetected LR count,True
+HCC3RSPP1CD44cDC2PGAM5_high LR count,True
+HCC3RSPP1CD44cDC2Other_detected LR count,True
+HCC3RSPP1CD44cDC2Undetected LR count,True
+HCC3RSPP1CD44pDCPGAM5_high LR count,True
+HCC3RSPP1CD44pDCOther_detected LR count,True
+HCC3RSPP1CD44pDCUndetected LR count,True
+HCC3RSPP1CD44MonocytePGAM5_high LR count,True
+HCC3RSPP1CD44MonocyteOther_detected LR count,True
+HCC3RSPP1CD44MonocyteUndetected LR count,True
+HCC3RSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC3RSPP1CD44NeutrophilOther_detected LR count,True
+HCC3RSPP1CD44NeutrophilUndetected LR count,True
+HCC3RLGALS9HAVCR2 raw LR,True
+HCC3RLGALS9HAVCR2TPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2TOther_detected LR count,True
+HCC3RLGALS9HAVCR2TUndetected LR count,True
+HCC3RLGALS9HAVCR2BPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2BOther_detected LR count,True
+HCC3RLGALS9HAVCR2BUndetected LR count,True
+HCC3RLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC3RLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC3RLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2NKOther_detected LR count,True
+HCC3RLGALS9HAVCR2NKUndetected LR count,True
+HCC3RLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC3RLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC3RLGALS9HAVCR2cDC1Undetected LR count,True
+HCC3RLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC3RLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC3RLGALS9HAVCR2cDC2Undetected LR count,True
+HCC3RLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2pDCOther_detected LR count,True
+HCC3RLGALS9HAVCR2pDCUndetected LR count,True
+HCC3RLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC3RLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC3RLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC3RLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC3RLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC3RLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC3RPVRTIGIT raw LR,True
+HCC3RPVRTIGITTPGAM5_high LR count,True
+HCC3RPVRTIGITTOther_detected LR count,True
+HCC3RPVRTIGITTUndetected LR count,True
+HCC3RPVRTIGITBPGAM5_high LR count,True
+HCC3RPVRTIGITBOther_detected LR count,True
+HCC3RPVRTIGITBUndetected LR count,True
+HCC3RPVRTIGITPlasmaPGAM5_high LR count,True
+HCC3RPVRTIGITPlasmaOther_detected LR count,True
+HCC3RPVRTIGITPlasmaUndetected LR count,True
+HCC3RPVRTIGITNKPGAM5_high LR count,True
+HCC3RPVRTIGITNKOther_detected LR count,True
+HCC3RPVRTIGITNKUndetected LR count,True
+HCC3RPVRTIGITcDC1PGAM5_high LR count,True
+HCC3RPVRTIGITcDC1Other_detected LR count,True
+HCC3RPVRTIGITcDC1Undetected LR count,True
+HCC3RPVRTIGITcDC2PGAM5_high LR count,True
+HCC3RPVRTIGITcDC2Other_detected LR count,True
+HCC3RPVRTIGITcDC2Undetected LR count,True
+HCC3RPVRTIGITpDCPGAM5_high LR count,True
+HCC3RPVRTIGITpDCOther_detected LR count,True
+HCC3RPVRTIGITpDCUndetected LR count,True
+HCC3RPVRTIGITMonocytePGAM5_high LR count,True
+HCC3RPVRTIGITMonocyteOther_detected LR count,True
+HCC3RPVRTIGITMonocyteUndetected LR count,True
+HCC3RPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC3RPVRTIGITNeutrophilOther_detected LR count,True
+HCC3RPVRTIGITNeutrophilUndetected LR count,True
+HCC3RNECTIN2TIGIT raw LR,True
+HCC3RNECTIN2TIGITTPGAM5_high LR count,True
+HCC3RNECTIN2TIGITTOther_detected LR count,True
+HCC3RNECTIN2TIGITTUndetected LR count,True
+HCC3RNECTIN2TIGITBPGAM5_high LR count,True
+HCC3RNECTIN2TIGITBOther_detected LR count,True
+HCC3RNECTIN2TIGITBUndetected LR count,True
+HCC3RNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC3RNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC3RNECTIN2TIGITPlasmaUndetected LR count,True
+HCC3RNECTIN2TIGITNKPGAM5_high LR count,True
+HCC3RNECTIN2TIGITNKOther_detected LR count,True
+HCC3RNECTIN2TIGITNKUndetected LR count,True
+HCC3RNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC3RNECTIN2TIGITcDC1Other_detected LR count,True
+HCC3RNECTIN2TIGITcDC1Undetected LR count,True
+HCC3RNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC3RNECTIN2TIGITcDC2Other_detected LR count,True
+HCC3RNECTIN2TIGITcDC2Undetected LR count,True
+HCC3RNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC3RNECTIN2TIGITpDCOther_detected LR count,True
+HCC3RNECTIN2TIGITpDCUndetected LR count,True
+HCC3RNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC3RNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC3RNECTIN2TIGITMonocyteUndetected LR count,True
+HCC3RNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC3RNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC3RNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC3RCD274PDCD1 raw LR,True
+HCC3RCD274PDCD1TPGAM5_high LR count,True
+HCC3RCD274PDCD1TOther_detected LR count,True
+HCC3RCD274PDCD1TUndetected LR count,True
+HCC3RCD274PDCD1BPGAM5_high LR count,True
+HCC3RCD274PDCD1BOther_detected LR count,True
+HCC3RCD274PDCD1BUndetected LR count,True
+HCC3RCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC3RCD274PDCD1PlasmaOther_detected LR count,True
+HCC3RCD274PDCD1PlasmaUndetected LR count,True
+HCC3RCD274PDCD1NKPGAM5_high LR count,True
+HCC3RCD274PDCD1NKOther_detected LR count,True
+HCC3RCD274PDCD1NKUndetected LR count,True
+HCC3RCD274PDCD1cDC1PGAM5_high LR count,True
+HCC3RCD274PDCD1cDC1Other_detected LR count,True
+HCC3RCD274PDCD1cDC1Undetected LR count,True
+HCC3RCD274PDCD1cDC2PGAM5_high LR count,True
+HCC3RCD274PDCD1cDC2Other_detected LR count,True
+HCC3RCD274PDCD1cDC2Undetected LR count,True
+HCC3RCD274PDCD1pDCPGAM5_high LR count,True
+HCC3RCD274PDCD1pDCOther_detected LR count,True
+HCC3RCD274PDCD1pDCUndetected LR count,True
+HCC3RCD274PDCD1MonocytePGAM5_high LR count,True
+HCC3RCD274PDCD1MonocyteOther_detected LR count,True
+HCC3RCD274PDCD1MonocyteUndetected LR count,True
+HCC3RCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC3RCD274PDCD1NeutrophilOther_detected LR count,True
+HCC3RCD274PDCD1NeutrophilUndetected LR count,True
+HCC3RCXCL9CXCR3 raw LR,True
+HCC3RCXCL9CXCR3TPGAM5_high LR count,True
+HCC3RCXCL9CXCR3TOther_detected LR count,True
+HCC3RCXCL9CXCR3TUndetected LR count,True
+HCC3RCXCL9CXCR3BPGAM5_high LR count,True
+HCC3RCXCL9CXCR3BOther_detected LR count,True
+HCC3RCXCL9CXCR3BUndetected LR count,True
+HCC3RCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC3RCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC3RCXCL9CXCR3PlasmaUndetected LR count,True
+HCC3RCXCL9CXCR3NKPGAM5_high LR count,True
+HCC3RCXCL9CXCR3NKOther_detected LR count,True
+HCC3RCXCL9CXCR3NKUndetected LR count,True
+HCC3RCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC3RCXCL9CXCR3cDC1Other_detected LR count,True
+HCC3RCXCL9CXCR3cDC1Undetected LR count,True
+HCC3RCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC3RCXCL9CXCR3cDC2Other_detected LR count,True
+HCC3RCXCL9CXCR3cDC2Undetected LR count,True
+HCC3RCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC3RCXCL9CXCR3pDCOther_detected LR count,True
+HCC3RCXCL9CXCR3pDCUndetected LR count,True
+HCC3RCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC3RCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC3RCXCL9CXCR3MonocyteUndetected LR count,True
+HCC3RCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC3RCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC3RCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC3RCXCL10CXCR3 raw LR,True
+HCC3RCXCL10CXCR3TPGAM5_high LR count,True
+HCC3RCXCL10CXCR3TOther_detected LR count,True
+HCC3RCXCL10CXCR3TUndetected LR count,True
+HCC3RCXCL10CXCR3BPGAM5_high LR count,True
+HCC3RCXCL10CXCR3BOther_detected LR count,True
+HCC3RCXCL10CXCR3BUndetected LR count,True
+HCC3RCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC3RCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC3RCXCL10CXCR3PlasmaUndetected LR count,True
+HCC3RCXCL10CXCR3NKPGAM5_high LR count,True
+HCC3RCXCL10CXCR3NKOther_detected LR count,True
+HCC3RCXCL10CXCR3NKUndetected LR count,True
+HCC3RCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC3RCXCL10CXCR3cDC1Other_detected LR count,True
+HCC3RCXCL10CXCR3cDC1Undetected LR count,True
+HCC3RCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC3RCXCL10CXCR3cDC2Other_detected LR count,True
+HCC3RCXCL10CXCR3cDC2Undetected LR count,True
+HCC3RCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC3RCXCL10CXCR3pDCOther_detected LR count,True
+HCC3RCXCL10CXCR3pDCUndetected LR count,True
+HCC3RCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC3RCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC3RCXCL10CXCR3MonocyteUndetected LR count,True
+HCC3RCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC3RCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC3RCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC3RCCL5CCR5 raw LR,True
+HCC3RCCL5CCR5TPGAM5_high LR count,True
+HCC3RCCL5CCR5TOther_detected LR count,True
+HCC3RCCL5CCR5TUndetected LR count,True
+HCC3RCCL5CCR5BPGAM5_high LR count,True
+HCC3RCCL5CCR5BOther_detected LR count,True
+HCC3RCCL5CCR5BUndetected LR count,True
+HCC3RCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC3RCCL5CCR5PlasmaOther_detected LR count,True
+HCC3RCCL5CCR5PlasmaUndetected LR count,True
+HCC3RCCL5CCR5NKPGAM5_high LR count,True
+HCC3RCCL5CCR5NKOther_detected LR count,True
+HCC3RCCL5CCR5NKUndetected LR count,True
+HCC3RCCL5CCR5cDC1PGAM5_high LR count,True
+HCC3RCCL5CCR5cDC1Other_detected LR count,True
+HCC3RCCL5CCR5cDC1Undetected LR count,True
+HCC3RCCL5CCR5cDC2PGAM5_high LR count,True
+HCC3RCCL5CCR5cDC2Other_detected LR count,True
+HCC3RCCL5CCR5cDC2Undetected LR count,True
+HCC3RCCL5CCR5pDCPGAM5_high LR count,True
+HCC3RCCL5CCR5pDCOther_detected LR count,True
+HCC3RCCL5CCR5pDCUndetected LR count,True
+HCC3RCCL5CCR5MonocytePGAM5_high LR count,True
+HCC3RCCL5CCR5MonocyteOther_detected LR count,True
+HCC3RCCL5CCR5MonocyteUndetected LR count,True
+HCC3RCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC3RCCL5CCR5NeutrophilOther_detected LR count,True
+HCC3RCCL5CCR5NeutrophilUndetected LR count,True
+HCC3RCXCL12CXCR4 raw LR,True
+HCC3RCXCL12CXCR4TPGAM5_high LR count,True
+HCC3RCXCL12CXCR4TOther_detected LR count,True
+HCC3RCXCL12CXCR4TUndetected LR count,True
+HCC3RCXCL12CXCR4BPGAM5_high LR count,True
+HCC3RCXCL12CXCR4BOther_detected LR count,True
+HCC3RCXCL12CXCR4BUndetected LR count,True
+HCC3RCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC3RCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC3RCXCL12CXCR4PlasmaUndetected LR count,True
+HCC3RCXCL12CXCR4NKPGAM5_high LR count,True
+HCC3RCXCL12CXCR4NKOther_detected LR count,True
+HCC3RCXCL12CXCR4NKUndetected LR count,True
+HCC3RCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC3RCXCL12CXCR4cDC1Other_detected LR count,True
+HCC3RCXCL12CXCR4cDC1Undetected LR count,True
+HCC3RCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC3RCXCL12CXCR4cDC2Other_detected LR count,True
+HCC3RCXCL12CXCR4cDC2Undetected LR count,True
+HCC3RCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC3RCXCL12CXCR4pDCOther_detected LR count,True
+HCC3RCXCL12CXCR4pDCUndetected LR count,True
+HCC3RCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC3RCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC3RCXCL12CXCR4MonocyteUndetected LR count,True
+HCC3RCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC3RCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC3RCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC3RCXCL13CXCR5 raw LR,True
+HCC3RCXCL13CXCR5TPGAM5_high LR count,True
+HCC3RCXCL13CXCR5TOther_detected LR count,True
+HCC3RCXCL13CXCR5TUndetected LR count,True
+HCC3RCXCL13CXCR5BPGAM5_high LR count,True
+HCC3RCXCL13CXCR5BOther_detected LR count,True
+HCC3RCXCL13CXCR5BUndetected LR count,True
+HCC3RCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC3RCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC3RCXCL13CXCR5PlasmaUndetected LR count,True
+HCC3RCXCL13CXCR5NKPGAM5_high LR count,True
+HCC3RCXCL13CXCR5NKOther_detected LR count,True
+HCC3RCXCL13CXCR5NKUndetected LR count,True
+HCC3RCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC3RCXCL13CXCR5cDC1Other_detected LR count,True
+HCC3RCXCL13CXCR5cDC1Undetected LR count,True
+HCC3RCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC3RCXCL13CXCR5cDC2Other_detected LR count,True
+HCC3RCXCL13CXCR5cDC2Undetected LR count,True
+HCC3RCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC3RCXCL13CXCR5pDCOther_detected LR count,True
+HCC3RCXCL13CXCR5pDCUndetected LR count,True
+HCC3RCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC3RCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC3RCXCL13CXCR5MonocyteUndetected LR count,True
+HCC3RCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC3RCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC3RCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13C raw LR,True
+HCC3RTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC3RTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC3RTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC3RTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC3RTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC3RTNFSF13TNFRSF17 raw LR,True
+HCC3RTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17TOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17TUndetected LR count,True
+HCC3RTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17BOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17BUndetected LR count,True
+HCC3RTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC3RTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17NKUndetected LR count,True
+HCC3RTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC3RTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC3RTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC3RTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC3RTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC3RTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC3RTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC3RTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC3RTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC3RTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC3RTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC3RIL10IL10RA_IL10RB raw LR,True
+HCC3RIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBTUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBBUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC3RIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC3RIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC3RIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC3RIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC3RIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC3RIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC3RIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC3R test outcomes,True
+HCC3R test delta,True
+HCC3RT permutation p,True
+HCC3RB permutation p,True
+HCC3RPlasma permutation p,True
+HCC3RNK permutation p,True
+HCC3RcDC1 permutation p,True
+HCC3RcDC2 permutation p,True
+HCC3RpDC permutation p,True
+HCC3RMonocyte permutation p,True
+HCC3RNeutrophil permutation p,True
+HCC4R frozen Q75 sources,True
+HCC4R whole-library normalization,True
+HCC4RT score,True
+HCC4RT gate,True
+HCC4RT geometry/coverage,True
+HCC4RTPGAM5_high summary,True
+HCC4RTOther_detected summary,True
+HCC4RTUndetected summary,True
+HCC4RB score,True
+HCC4RB gate,True
+HCC4RB geometry/coverage,True
+HCC4RBPGAM5_high summary,True
+HCC4RBOther_detected summary,True
+HCC4RBUndetected summary,True
+HCC4RPlasma score,True
+HCC4RPlasma gate,True
+HCC4RPlasma geometry/coverage,True
+HCC4RPlasmaPGAM5_high summary,True
+HCC4RPlasmaOther_detected summary,True
+HCC4RPlasmaUndetected summary,True
+HCC4RNK score,True
+HCC4RNK gate,True
+HCC4RNK geometry/coverage,True
+HCC4RNKPGAM5_high summary,True
+HCC4RNKOther_detected summary,True
+HCC4RNKUndetected summary,True
+HCC4RcDC1 score,True
+HCC4RcDC1 gate,True
+HCC4RcDC1 geometry/coverage,True
+HCC4RcDC1PGAM5_high summary,True
+HCC4RcDC1Other_detected summary,True
+HCC4RcDC1Undetected summary,True
+HCC4RcDC2 score,True
+HCC4RcDC2 gate,True
+HCC4RcDC2 geometry/coverage,True
+HCC4RcDC2PGAM5_high summary,True
+HCC4RcDC2Other_detected summary,True
+HCC4RcDC2Undetected summary,True
+HCC4RpDC score,True
+HCC4RpDC gate,True
+HCC4RpDC geometry/coverage,True
+HCC4RpDCPGAM5_high summary,True
+HCC4RpDCOther_detected summary,True
+HCC4RpDCUndetected summary,True
+HCC4RMonocyte score,True
+HCC4RMonocyte gate,True
+HCC4RMonocyte geometry/coverage,True
+HCC4RMonocytePGAM5_high summary,True
+HCC4RMonocyteOther_detected summary,True
+HCC4RMonocyteUndetected summary,True
+HCC4RNeutrophil score,True
+HCC4RNeutrophil gate,True
+HCC4RNeutrophil geometry/coverage,True
+HCC4RNeutrophilPGAM5_high summary,True
+HCC4RNeutrophilOther_detected summary,True
+HCC4RNeutrophilUndetected summary,True
+HCC4R eligible edge set,True
+HCC4RSPP1CD44 raw LR,True
+HCC4RSPP1CD44TPGAM5_high LR count,True
+HCC4RSPP1CD44TOther_detected LR count,True
+HCC4RSPP1CD44TUndetected LR count,True
+HCC4RSPP1CD44BPGAM5_high LR count,True
+HCC4RSPP1CD44BOther_detected LR count,True
+HCC4RSPP1CD44BUndetected LR count,True
+HCC4RSPP1CD44PlasmaPGAM5_high LR count,True
+HCC4RSPP1CD44PlasmaOther_detected LR count,True
+HCC4RSPP1CD44PlasmaUndetected LR count,True
+HCC4RSPP1CD44NKPGAM5_high LR count,True
+HCC4RSPP1CD44NKOther_detected LR count,True
+HCC4RSPP1CD44NKUndetected LR count,True
+HCC4RSPP1CD44cDC1PGAM5_high LR count,True
+HCC4RSPP1CD44cDC1Other_detected LR count,True
+HCC4RSPP1CD44cDC1Undetected LR count,True
+HCC4RSPP1CD44cDC2PGAM5_high LR count,True
+HCC4RSPP1CD44cDC2Other_detected LR count,True
+HCC4RSPP1CD44cDC2Undetected LR count,True
+HCC4RSPP1CD44pDCPGAM5_high LR count,True
+HCC4RSPP1CD44pDCOther_detected LR count,True
+HCC4RSPP1CD44pDCUndetected LR count,True
+HCC4RSPP1CD44MonocytePGAM5_high LR count,True
+HCC4RSPP1CD44MonocyteOther_detected LR count,True
+HCC4RSPP1CD44MonocyteUndetected LR count,True
+HCC4RSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC4RSPP1CD44NeutrophilOther_detected LR count,True
+HCC4RSPP1CD44NeutrophilUndetected LR count,True
+HCC4RLGALS9HAVCR2 raw LR,True
+HCC4RLGALS9HAVCR2TPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2TOther_detected LR count,True
+HCC4RLGALS9HAVCR2TUndetected LR count,True
+HCC4RLGALS9HAVCR2BPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2BOther_detected LR count,True
+HCC4RLGALS9HAVCR2BUndetected LR count,True
+HCC4RLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC4RLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC4RLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2NKOther_detected LR count,True
+HCC4RLGALS9HAVCR2NKUndetected LR count,True
+HCC4RLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC4RLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC4RLGALS9HAVCR2cDC1Undetected LR count,True
+HCC4RLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC4RLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC4RLGALS9HAVCR2cDC2Undetected LR count,True
+HCC4RLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2pDCOther_detected LR count,True
+HCC4RLGALS9HAVCR2pDCUndetected LR count,True
+HCC4RLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC4RLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC4RLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC4RLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC4RLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC4RLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC4RPVRTIGIT raw LR,True
+HCC4RPVRTIGITTPGAM5_high LR count,True
+HCC4RPVRTIGITTOther_detected LR count,True
+HCC4RPVRTIGITTUndetected LR count,True
+HCC4RPVRTIGITBPGAM5_high LR count,True
+HCC4RPVRTIGITBOther_detected LR count,True
+HCC4RPVRTIGITBUndetected LR count,True
+HCC4RPVRTIGITPlasmaPGAM5_high LR count,True
+HCC4RPVRTIGITPlasmaOther_detected LR count,True
+HCC4RPVRTIGITPlasmaUndetected LR count,True
+HCC4RPVRTIGITNKPGAM5_high LR count,True
+HCC4RPVRTIGITNKOther_detected LR count,True
+HCC4RPVRTIGITNKUndetected LR count,True
+HCC4RPVRTIGITcDC1PGAM5_high LR count,True
+HCC4RPVRTIGITcDC1Other_detected LR count,True
+HCC4RPVRTIGITcDC1Undetected LR count,True
+HCC4RPVRTIGITcDC2PGAM5_high LR count,True
+HCC4RPVRTIGITcDC2Other_detected LR count,True
+HCC4RPVRTIGITcDC2Undetected LR count,True
+HCC4RPVRTIGITpDCPGAM5_high LR count,True
+HCC4RPVRTIGITpDCOther_detected LR count,True
+HCC4RPVRTIGITpDCUndetected LR count,True
+HCC4RPVRTIGITMonocytePGAM5_high LR count,True
+HCC4RPVRTIGITMonocyteOther_detected LR count,True
+HCC4RPVRTIGITMonocyteUndetected LR count,True
+HCC4RPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC4RPVRTIGITNeutrophilOther_detected LR count,True
+HCC4RPVRTIGITNeutrophilUndetected LR count,True
+HCC4RNECTIN2TIGIT raw LR,True
+HCC4RNECTIN2TIGITTPGAM5_high LR count,True
+HCC4RNECTIN2TIGITTOther_detected LR count,True
+HCC4RNECTIN2TIGITTUndetected LR count,True
+HCC4RNECTIN2TIGITBPGAM5_high LR count,True
+HCC4RNECTIN2TIGITBOther_detected LR count,True
+HCC4RNECTIN2TIGITBUndetected LR count,True
+HCC4RNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC4RNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC4RNECTIN2TIGITPlasmaUndetected LR count,True
+HCC4RNECTIN2TIGITNKPGAM5_high LR count,True
+HCC4RNECTIN2TIGITNKOther_detected LR count,True
+HCC4RNECTIN2TIGITNKUndetected LR count,True
+HCC4RNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC4RNECTIN2TIGITcDC1Other_detected LR count,True
+HCC4RNECTIN2TIGITcDC1Undetected LR count,True
+HCC4RNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC4RNECTIN2TIGITcDC2Other_detected LR count,True
+HCC4RNECTIN2TIGITcDC2Undetected LR count,True
+HCC4RNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC4RNECTIN2TIGITpDCOther_detected LR count,True
+HCC4RNECTIN2TIGITpDCUndetected LR count,True
+HCC4RNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC4RNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC4RNECTIN2TIGITMonocyteUndetected LR count,True
+HCC4RNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC4RNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC4RNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC4RCD274PDCD1 raw LR,True
+HCC4RCD274PDCD1TPGAM5_high LR count,True
+HCC4RCD274PDCD1TOther_detected LR count,True
+HCC4RCD274PDCD1TUndetected LR count,True
+HCC4RCD274PDCD1BPGAM5_high LR count,True
+HCC4RCD274PDCD1BOther_detected LR count,True
+HCC4RCD274PDCD1BUndetected LR count,True
+HCC4RCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC4RCD274PDCD1PlasmaOther_detected LR count,True
+HCC4RCD274PDCD1PlasmaUndetected LR count,True
+HCC4RCD274PDCD1NKPGAM5_high LR count,True
+HCC4RCD274PDCD1NKOther_detected LR count,True
+HCC4RCD274PDCD1NKUndetected LR count,True
+HCC4RCD274PDCD1cDC1PGAM5_high LR count,True
+HCC4RCD274PDCD1cDC1Other_detected LR count,True
+HCC4RCD274PDCD1cDC1Undetected LR count,True
+HCC4RCD274PDCD1cDC2PGAM5_high LR count,True
+HCC4RCD274PDCD1cDC2Other_detected LR count,True
+HCC4RCD274PDCD1cDC2Undetected LR count,True
+HCC4RCD274PDCD1pDCPGAM5_high LR count,True
+HCC4RCD274PDCD1pDCOther_detected LR count,True
+HCC4RCD274PDCD1pDCUndetected LR count,True
+HCC4RCD274PDCD1MonocytePGAM5_high LR count,True
+HCC4RCD274PDCD1MonocyteOther_detected LR count,True
+HCC4RCD274PDCD1MonocyteUndetected LR count,True
+HCC4RCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC4RCD274PDCD1NeutrophilOther_detected LR count,True
+HCC4RCD274PDCD1NeutrophilUndetected LR count,True
+HCC4RCXCL9CXCR3 raw LR,True
+HCC4RCXCL9CXCR3TPGAM5_high LR count,True
+HCC4RCXCL9CXCR3TOther_detected LR count,True
+HCC4RCXCL9CXCR3TUndetected LR count,True
+HCC4RCXCL9CXCR3BPGAM5_high LR count,True
+HCC4RCXCL9CXCR3BOther_detected LR count,True
+HCC4RCXCL9CXCR3BUndetected LR count,True
+HCC4RCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC4RCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC4RCXCL9CXCR3PlasmaUndetected LR count,True
+HCC4RCXCL9CXCR3NKPGAM5_high LR count,True
+HCC4RCXCL9CXCR3NKOther_detected LR count,True
+HCC4RCXCL9CXCR3NKUndetected LR count,True
+HCC4RCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC4RCXCL9CXCR3cDC1Other_detected LR count,True
+HCC4RCXCL9CXCR3cDC1Undetected LR count,True
+HCC4RCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC4RCXCL9CXCR3cDC2Other_detected LR count,True
+HCC4RCXCL9CXCR3cDC2Undetected LR count,True
+HCC4RCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC4RCXCL9CXCR3pDCOther_detected LR count,True
+HCC4RCXCL9CXCR3pDCUndetected LR count,True
+HCC4RCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC4RCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC4RCXCL9CXCR3MonocyteUndetected LR count,True
+HCC4RCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC4RCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC4RCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC4RCXCL10CXCR3 raw LR,True
+HCC4RCXCL10CXCR3TPGAM5_high LR count,True
+HCC4RCXCL10CXCR3TOther_detected LR count,True
+HCC4RCXCL10CXCR3TUndetected LR count,True
+HCC4RCXCL10CXCR3BPGAM5_high LR count,True
+HCC4RCXCL10CXCR3BOther_detected LR count,True
+HCC4RCXCL10CXCR3BUndetected LR count,True
+HCC4RCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC4RCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC4RCXCL10CXCR3PlasmaUndetected LR count,True
+HCC4RCXCL10CXCR3NKPGAM5_high LR count,True
+HCC4RCXCL10CXCR3NKOther_detected LR count,True
+HCC4RCXCL10CXCR3NKUndetected LR count,True
+HCC4RCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC4RCXCL10CXCR3cDC1Other_detected LR count,True
+HCC4RCXCL10CXCR3cDC1Undetected LR count,True
+HCC4RCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC4RCXCL10CXCR3cDC2Other_detected LR count,True
+HCC4RCXCL10CXCR3cDC2Undetected LR count,True
+HCC4RCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC4RCXCL10CXCR3pDCOther_detected LR count,True
+HCC4RCXCL10CXCR3pDCUndetected LR count,True
+HCC4RCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC4RCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC4RCXCL10CXCR3MonocyteUndetected LR count,True
+HCC4RCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC4RCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC4RCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC4RCCL5CCR5 raw LR,True
+HCC4RCCL5CCR5TPGAM5_high LR count,True
+HCC4RCCL5CCR5TOther_detected LR count,True
+HCC4RCCL5CCR5TUndetected LR count,True
+HCC4RCCL5CCR5BPGAM5_high LR count,True
+HCC4RCCL5CCR5BOther_detected LR count,True
+HCC4RCCL5CCR5BUndetected LR count,True
+HCC4RCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC4RCCL5CCR5PlasmaOther_detected LR count,True
+HCC4RCCL5CCR5PlasmaUndetected LR count,True
+HCC4RCCL5CCR5NKPGAM5_high LR count,True
+HCC4RCCL5CCR5NKOther_detected LR count,True
+HCC4RCCL5CCR5NKUndetected LR count,True
+HCC4RCCL5CCR5cDC1PGAM5_high LR count,True
+HCC4RCCL5CCR5cDC1Other_detected LR count,True
+HCC4RCCL5CCR5cDC1Undetected LR count,True
+HCC4RCCL5CCR5cDC2PGAM5_high LR count,True
+HCC4RCCL5CCR5cDC2Other_detected LR count,True
+HCC4RCCL5CCR5cDC2Undetected LR count,True
+HCC4RCCL5CCR5pDCPGAM5_high LR count,True
+HCC4RCCL5CCR5pDCOther_detected LR count,True
+HCC4RCCL5CCR5pDCUndetected LR count,True
+HCC4RCCL5CCR5MonocytePGAM5_high LR count,True
+HCC4RCCL5CCR5MonocyteOther_detected LR count,True
+HCC4RCCL5CCR5MonocyteUndetected LR count,True
+HCC4RCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC4RCCL5CCR5NeutrophilOther_detected LR count,True
+HCC4RCCL5CCR5NeutrophilUndetected LR count,True
+HCC4RCXCL12CXCR4 raw LR,True
+HCC4RCXCL12CXCR4TPGAM5_high LR count,True
+HCC4RCXCL12CXCR4TOther_detected LR count,True
+HCC4RCXCL12CXCR4TUndetected LR count,True
+HCC4RCXCL12CXCR4BPGAM5_high LR count,True
+HCC4RCXCL12CXCR4BOther_detected LR count,True
+HCC4RCXCL12CXCR4BUndetected LR count,True
+HCC4RCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC4RCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC4RCXCL12CXCR4PlasmaUndetected LR count,True
+HCC4RCXCL12CXCR4NKPGAM5_high LR count,True
+HCC4RCXCL12CXCR4NKOther_detected LR count,True
+HCC4RCXCL12CXCR4NKUndetected LR count,True
+HCC4RCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC4RCXCL12CXCR4cDC1Other_detected LR count,True
+HCC4RCXCL12CXCR4cDC1Undetected LR count,True
+HCC4RCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC4RCXCL12CXCR4cDC2Other_detected LR count,True
+HCC4RCXCL12CXCR4cDC2Undetected LR count,True
+HCC4RCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC4RCXCL12CXCR4pDCOther_detected LR count,True
+HCC4RCXCL12CXCR4pDCUndetected LR count,True
+HCC4RCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC4RCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC4RCXCL12CXCR4MonocyteUndetected LR count,True
+HCC4RCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC4RCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC4RCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC4RCXCL13CXCR5 raw LR,True
+HCC4RCXCL13CXCR5TPGAM5_high LR count,True
+HCC4RCXCL13CXCR5TOther_detected LR count,True
+HCC4RCXCL13CXCR5TUndetected LR count,True
+HCC4RCXCL13CXCR5BPGAM5_high LR count,True
+HCC4RCXCL13CXCR5BOther_detected LR count,True
+HCC4RCXCL13CXCR5BUndetected LR count,True
+HCC4RCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC4RCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC4RCXCL13CXCR5PlasmaUndetected LR count,True
+HCC4RCXCL13CXCR5NKPGAM5_high LR count,True
+HCC4RCXCL13CXCR5NKOther_detected LR count,True
+HCC4RCXCL13CXCR5NKUndetected LR count,True
+HCC4RCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC4RCXCL13CXCR5cDC1Other_detected LR count,True
+HCC4RCXCL13CXCR5cDC1Undetected LR count,True
+HCC4RCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC4RCXCL13CXCR5cDC2Other_detected LR count,True
+HCC4RCXCL13CXCR5cDC2Undetected LR count,True
+HCC4RCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC4RCXCL13CXCR5pDCOther_detected LR count,True
+HCC4RCXCL13CXCR5pDCUndetected LR count,True
+HCC4RCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC4RCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC4RCXCL13CXCR5MonocyteUndetected LR count,True
+HCC4RCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC4RCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC4RCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13C raw LR,True
+HCC4RTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC4RTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC4RTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC4RTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC4RTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC4RTNFSF13TNFRSF17 raw LR,True
+HCC4RTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17TOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17TUndetected LR count,True
+HCC4RTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17BOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17BUndetected LR count,True
+HCC4RTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC4RTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17NKUndetected LR count,True
+HCC4RTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC4RTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC4RTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC4RTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC4RTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC4RTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC4RTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC4RTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC4RTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC4RTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC4RTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC4RIL10IL10RA_IL10RB raw LR,True
+HCC4RIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBTUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBBUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC4RIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC4RIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC4RIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC4RIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC4RIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC4RIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC4RIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC4R test outcomes,True
+HCC4R test delta,True
+HCC4RT permutation p,True
+HCC4RB permutation p,True
+HCC4RPlasma permutation p,True
+HCC4RNK permutation p,True
+HCC4RcDC1 permutation p,True
+HCC4RcDC2 permutation p,True
+HCC4RpDC permutation p,True
+HCC4RMonocyte permutation p,True
+HCC4RNeutrophil permutation p,True
+HCC5NR frozen Q75 sources,True
+HCC5NR whole-library normalization,True
+HCC5NRT score,True
+HCC5NRT gate,True
+HCC5NRT geometry/coverage,True
+HCC5NRTPGAM5_high summary,True
+HCC5NRTOther_detected summary,True
+HCC5NRTUndetected summary,True
+HCC5NRB score,True
+HCC5NRB gate,True
+HCC5NRB geometry/coverage,True
+HCC5NRBPGAM5_high summary,True
+HCC5NRBOther_detected summary,True
+HCC5NRBUndetected summary,True
+HCC5NRPlasma score,True
+HCC5NRPlasma gate,True
+HCC5NRPlasma geometry/coverage,True
+HCC5NRPlasmaPGAM5_high summary,True
+HCC5NRPlasmaOther_detected summary,True
+HCC5NRPlasmaUndetected summary,True
+HCC5NRNK score,True
+HCC5NRNK gate,True
+HCC5NRNK geometry/coverage,True
+HCC5NRNKPGAM5_high summary,True
+HCC5NRNKOther_detected summary,True
+HCC5NRNKUndetected summary,True
+HCC5NRcDC1 score,True
+HCC5NRcDC1 gate,True
+HCC5NRcDC1 geometry/coverage,True
+HCC5NRcDC1PGAM5_high summary,True
+HCC5NRcDC1Other_detected summary,True
+HCC5NRcDC1Undetected summary,True
+HCC5NRcDC2 score,True
+HCC5NRcDC2 gate,True
+HCC5NRcDC2 geometry/coverage,True
+HCC5NRcDC2PGAM5_high summary,True
+HCC5NRcDC2Other_detected summary,True
+HCC5NRcDC2Undetected summary,True
+HCC5NRpDC score,True
+HCC5NRpDC gate,True
+HCC5NRpDC geometry/coverage,True
+HCC5NRpDCPGAM5_high summary,True
+HCC5NRpDCOther_detected summary,True
+HCC5NRpDCUndetected summary,True
+HCC5NRMonocyte score,True
+HCC5NRMonocyte gate,True
+HCC5NRMonocyte geometry/coverage,True
+HCC5NRMonocytePGAM5_high summary,True
+HCC5NRMonocyteOther_detected summary,True
+HCC5NRMonocyteUndetected summary,True
+HCC5NRNeutrophil score,True
+HCC5NRNeutrophil gate,True
+HCC5NRNeutrophil geometry/coverage,True
+HCC5NRNeutrophilPGAM5_high summary,True
+HCC5NRNeutrophilOther_detected summary,True
+HCC5NRNeutrophilUndetected summary,True
+HCC5NR eligible edge set,True
+HCC5NRSPP1CD44 raw LR,True
+HCC5NRSPP1CD44TPGAM5_high LR count,True
+HCC5NRSPP1CD44TOther_detected LR count,True
+HCC5NRSPP1CD44TUndetected LR count,True
+HCC5NRSPP1CD44BPGAM5_high LR count,True
+HCC5NRSPP1CD44BOther_detected LR count,True
+HCC5NRSPP1CD44BUndetected LR count,True
+HCC5NRSPP1CD44PlasmaPGAM5_high LR count,True
+HCC5NRSPP1CD44PlasmaOther_detected LR count,True
+HCC5NRSPP1CD44PlasmaUndetected LR count,True
+HCC5NRSPP1CD44NKPGAM5_high LR count,True
+HCC5NRSPP1CD44NKOther_detected LR count,True
+HCC5NRSPP1CD44NKUndetected LR count,True
+HCC5NRSPP1CD44cDC1PGAM5_high LR count,True
+HCC5NRSPP1CD44cDC1Other_detected LR count,True
+HCC5NRSPP1CD44cDC1Undetected LR count,True
+HCC5NRSPP1CD44cDC2PGAM5_high LR count,True
+HCC5NRSPP1CD44cDC2Other_detected LR count,True
+HCC5NRSPP1CD44cDC2Undetected LR count,True
+HCC5NRSPP1CD44pDCPGAM5_high LR count,True
+HCC5NRSPP1CD44pDCOther_detected LR count,True
+HCC5NRSPP1CD44pDCUndetected LR count,True
+HCC5NRSPP1CD44MonocytePGAM5_high LR count,True
+HCC5NRSPP1CD44MonocyteOther_detected LR count,True
+HCC5NRSPP1CD44MonocyteUndetected LR count,True
+HCC5NRSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC5NRSPP1CD44NeutrophilOther_detected LR count,True
+HCC5NRSPP1CD44NeutrophilUndetected LR count,True
+HCC5NRLGALS9HAVCR2 raw LR,True
+HCC5NRLGALS9HAVCR2TPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2TOther_detected LR count,True
+HCC5NRLGALS9HAVCR2TUndetected LR count,True
+HCC5NRLGALS9HAVCR2BPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2BOther_detected LR count,True
+HCC5NRLGALS9HAVCR2BUndetected LR count,True
+HCC5NRLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC5NRLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC5NRLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2NKOther_detected LR count,True
+HCC5NRLGALS9HAVCR2NKUndetected LR count,True
+HCC5NRLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC5NRLGALS9HAVCR2cDC1Undetected LR count,True
+HCC5NRLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC5NRLGALS9HAVCR2cDC2Undetected LR count,True
+HCC5NRLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2pDCOther_detected LR count,True
+HCC5NRLGALS9HAVCR2pDCUndetected LR count,True
+HCC5NRLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC5NRLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC5NRLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC5NRLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC5NRLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC5NRPVRTIGIT raw LR,True
+HCC5NRPVRTIGITTPGAM5_high LR count,True
+HCC5NRPVRTIGITTOther_detected LR count,True
+HCC5NRPVRTIGITTUndetected LR count,True
+HCC5NRPVRTIGITBPGAM5_high LR count,True
+HCC5NRPVRTIGITBOther_detected LR count,True
+HCC5NRPVRTIGITBUndetected LR count,True
+HCC5NRPVRTIGITPlasmaPGAM5_high LR count,True
+HCC5NRPVRTIGITPlasmaOther_detected LR count,True
+HCC5NRPVRTIGITPlasmaUndetected LR count,True
+HCC5NRPVRTIGITNKPGAM5_high LR count,True
+HCC5NRPVRTIGITNKOther_detected LR count,True
+HCC5NRPVRTIGITNKUndetected LR count,True
+HCC5NRPVRTIGITcDC1PGAM5_high LR count,True
+HCC5NRPVRTIGITcDC1Other_detected LR count,True
+HCC5NRPVRTIGITcDC1Undetected LR count,True
+HCC5NRPVRTIGITcDC2PGAM5_high LR count,True
+HCC5NRPVRTIGITcDC2Other_detected LR count,True
+HCC5NRPVRTIGITcDC2Undetected LR count,True
+HCC5NRPVRTIGITpDCPGAM5_high LR count,True
+HCC5NRPVRTIGITpDCOther_detected LR count,True
+HCC5NRPVRTIGITpDCUndetected LR count,True
+HCC5NRPVRTIGITMonocytePGAM5_high LR count,True
+HCC5NRPVRTIGITMonocyteOther_detected LR count,True
+HCC5NRPVRTIGITMonocyteUndetected LR count,True
+HCC5NRPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC5NRPVRTIGITNeutrophilOther_detected LR count,True
+HCC5NRPVRTIGITNeutrophilUndetected LR count,True
+HCC5NRNECTIN2TIGIT raw LR,True
+HCC5NRNECTIN2TIGITTPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITTOther_detected LR count,True
+HCC5NRNECTIN2TIGITTUndetected LR count,True
+HCC5NRNECTIN2TIGITBPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITBOther_detected LR count,True
+HCC5NRNECTIN2TIGITBUndetected LR count,True
+HCC5NRNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC5NRNECTIN2TIGITPlasmaUndetected LR count,True
+HCC5NRNECTIN2TIGITNKPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITNKOther_detected LR count,True
+HCC5NRNECTIN2TIGITNKUndetected LR count,True
+HCC5NRNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC5NRNECTIN2TIGITcDC1Other_detected LR count,True
+HCC5NRNECTIN2TIGITcDC1Undetected LR count,True
+HCC5NRNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC5NRNECTIN2TIGITcDC2Other_detected LR count,True
+HCC5NRNECTIN2TIGITcDC2Undetected LR count,True
+HCC5NRNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITpDCOther_detected LR count,True
+HCC5NRNECTIN2TIGITpDCUndetected LR count,True
+HCC5NRNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC5NRNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC5NRNECTIN2TIGITMonocyteUndetected LR count,True
+HCC5NRNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC5NRNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC5NRNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC5NRCD274PDCD1 raw LR,True
+HCC5NRCD274PDCD1TPGAM5_high LR count,True
+HCC5NRCD274PDCD1TOther_detected LR count,True
+HCC5NRCD274PDCD1TUndetected LR count,True
+HCC5NRCD274PDCD1BPGAM5_high LR count,True
+HCC5NRCD274PDCD1BOther_detected LR count,True
+HCC5NRCD274PDCD1BUndetected LR count,True
+HCC5NRCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC5NRCD274PDCD1PlasmaOther_detected LR count,True
+HCC5NRCD274PDCD1PlasmaUndetected LR count,True
+HCC5NRCD274PDCD1NKPGAM5_high LR count,True
+HCC5NRCD274PDCD1NKOther_detected LR count,True
+HCC5NRCD274PDCD1NKUndetected LR count,True
+HCC5NRCD274PDCD1cDC1PGAM5_high LR count,True
+HCC5NRCD274PDCD1cDC1Other_detected LR count,True
+HCC5NRCD274PDCD1cDC1Undetected LR count,True
+HCC5NRCD274PDCD1cDC2PGAM5_high LR count,True
+HCC5NRCD274PDCD1cDC2Other_detected LR count,True
+HCC5NRCD274PDCD1cDC2Undetected LR count,True
+HCC5NRCD274PDCD1pDCPGAM5_high LR count,True
+HCC5NRCD274PDCD1pDCOther_detected LR count,True
+HCC5NRCD274PDCD1pDCUndetected LR count,True
+HCC5NRCD274PDCD1MonocytePGAM5_high LR count,True
+HCC5NRCD274PDCD1MonocyteOther_detected LR count,True
+HCC5NRCD274PDCD1MonocyteUndetected LR count,True
+HCC5NRCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC5NRCD274PDCD1NeutrophilOther_detected LR count,True
+HCC5NRCD274PDCD1NeutrophilUndetected LR count,True
+HCC5NRCXCL9CXCR3 raw LR,True
+HCC5NRCXCL9CXCR3TPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3TOther_detected LR count,True
+HCC5NRCXCL9CXCR3TUndetected LR count,True
+HCC5NRCXCL9CXCR3BPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3BOther_detected LR count,True
+HCC5NRCXCL9CXCR3BUndetected LR count,True
+HCC5NRCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC5NRCXCL9CXCR3PlasmaUndetected LR count,True
+HCC5NRCXCL9CXCR3NKPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3NKOther_detected LR count,True
+HCC5NRCXCL9CXCR3NKUndetected LR count,True
+HCC5NRCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC5NRCXCL9CXCR3cDC1Other_detected LR count,True
+HCC5NRCXCL9CXCR3cDC1Undetected LR count,True
+HCC5NRCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC5NRCXCL9CXCR3cDC2Other_detected LR count,True
+HCC5NRCXCL9CXCR3cDC2Undetected LR count,True
+HCC5NRCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3pDCOther_detected LR count,True
+HCC5NRCXCL9CXCR3pDCUndetected LR count,True
+HCC5NRCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC5NRCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC5NRCXCL9CXCR3MonocyteUndetected LR count,True
+HCC5NRCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC5NRCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC5NRCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC5NRCXCL10CXCR3 raw LR,True
+HCC5NRCXCL10CXCR3TPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3TOther_detected LR count,True
+HCC5NRCXCL10CXCR3TUndetected LR count,True
+HCC5NRCXCL10CXCR3BPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3BOther_detected LR count,True
+HCC5NRCXCL10CXCR3BUndetected LR count,True
+HCC5NRCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC5NRCXCL10CXCR3PlasmaUndetected LR count,True
+HCC5NRCXCL10CXCR3NKPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3NKOther_detected LR count,True
+HCC5NRCXCL10CXCR3NKUndetected LR count,True
+HCC5NRCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC5NRCXCL10CXCR3cDC1Other_detected LR count,True
+HCC5NRCXCL10CXCR3cDC1Undetected LR count,True
+HCC5NRCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC5NRCXCL10CXCR3cDC2Other_detected LR count,True
+HCC5NRCXCL10CXCR3cDC2Undetected LR count,True
+HCC5NRCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3pDCOther_detected LR count,True
+HCC5NRCXCL10CXCR3pDCUndetected LR count,True
+HCC5NRCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC5NRCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC5NRCXCL10CXCR3MonocyteUndetected LR count,True
+HCC5NRCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC5NRCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC5NRCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC5NRCCL5CCR5 raw LR,True
+HCC5NRCCL5CCR5TPGAM5_high LR count,True
+HCC5NRCCL5CCR5TOther_detected LR count,True
+HCC5NRCCL5CCR5TUndetected LR count,True
+HCC5NRCCL5CCR5BPGAM5_high LR count,True
+HCC5NRCCL5CCR5BOther_detected LR count,True
+HCC5NRCCL5CCR5BUndetected LR count,True
+HCC5NRCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC5NRCCL5CCR5PlasmaOther_detected LR count,True
+HCC5NRCCL5CCR5PlasmaUndetected LR count,True
+HCC5NRCCL5CCR5NKPGAM5_high LR count,True
+HCC5NRCCL5CCR5NKOther_detected LR count,True
+HCC5NRCCL5CCR5NKUndetected LR count,True
+HCC5NRCCL5CCR5cDC1PGAM5_high LR count,True
+HCC5NRCCL5CCR5cDC1Other_detected LR count,True
+HCC5NRCCL5CCR5cDC1Undetected LR count,True
+HCC5NRCCL5CCR5cDC2PGAM5_high LR count,True
+HCC5NRCCL5CCR5cDC2Other_detected LR count,True
+HCC5NRCCL5CCR5cDC2Undetected LR count,True
+HCC5NRCCL5CCR5pDCPGAM5_high LR count,True
+HCC5NRCCL5CCR5pDCOther_detected LR count,True
+HCC5NRCCL5CCR5pDCUndetected LR count,True
+HCC5NRCCL5CCR5MonocytePGAM5_high LR count,True
+HCC5NRCCL5CCR5MonocyteOther_detected LR count,True
+HCC5NRCCL5CCR5MonocyteUndetected LR count,True
+HCC5NRCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC5NRCCL5CCR5NeutrophilOther_detected LR count,True
+HCC5NRCCL5CCR5NeutrophilUndetected LR count,True
+HCC5NRCXCL12CXCR4 raw LR,True
+HCC5NRCXCL12CXCR4TPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4TOther_detected LR count,True
+HCC5NRCXCL12CXCR4TUndetected LR count,True
+HCC5NRCXCL12CXCR4BPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4BOther_detected LR count,True
+HCC5NRCXCL12CXCR4BUndetected LR count,True
+HCC5NRCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC5NRCXCL12CXCR4PlasmaUndetected LR count,True
+HCC5NRCXCL12CXCR4NKPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4NKOther_detected LR count,True
+HCC5NRCXCL12CXCR4NKUndetected LR count,True
+HCC5NRCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC5NRCXCL12CXCR4cDC1Other_detected LR count,True
+HCC5NRCXCL12CXCR4cDC1Undetected LR count,True
+HCC5NRCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC5NRCXCL12CXCR4cDC2Other_detected LR count,True
+HCC5NRCXCL12CXCR4cDC2Undetected LR count,True
+HCC5NRCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4pDCOther_detected LR count,True
+HCC5NRCXCL12CXCR4pDCUndetected LR count,True
+HCC5NRCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC5NRCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC5NRCXCL12CXCR4MonocyteUndetected LR count,True
+HCC5NRCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC5NRCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC5NRCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC5NRCXCL13CXCR5 raw LR,True
+HCC5NRCXCL13CXCR5TPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5TOther_detected LR count,True
+HCC5NRCXCL13CXCR5TUndetected LR count,True
+HCC5NRCXCL13CXCR5BPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5BOther_detected LR count,True
+HCC5NRCXCL13CXCR5BUndetected LR count,True
+HCC5NRCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC5NRCXCL13CXCR5PlasmaUndetected LR count,True
+HCC5NRCXCL13CXCR5NKPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5NKOther_detected LR count,True
+HCC5NRCXCL13CXCR5NKUndetected LR count,True
+HCC5NRCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC5NRCXCL13CXCR5cDC1Other_detected LR count,True
+HCC5NRCXCL13CXCR5cDC1Undetected LR count,True
+HCC5NRCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC5NRCXCL13CXCR5cDC2Other_detected LR count,True
+HCC5NRCXCL13CXCR5cDC2Undetected LR count,True
+HCC5NRCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5pDCOther_detected LR count,True
+HCC5NRCXCL13CXCR5pDCUndetected LR count,True
+HCC5NRCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC5NRCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC5NRCXCL13CXCR5MonocyteUndetected LR count,True
+HCC5NRCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC5NRCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC5NRCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13C raw LR,True
+HCC5NRTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC5NRTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC5NRTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC5NRTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17 raw LR,True
+HCC5NRTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17TOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17TUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17BOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17BUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17NKUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC5NRTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC5NRTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC5NRTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC5NRTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC5NRTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC5NRTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC5NRTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC5NRTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC5NRTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RB raw LR,True
+HCC5NRIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBTUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBBUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC5NRIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC5NRIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC5NRIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC5NRIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC5NR test outcomes,True
+HCC5NR test delta,True
+HCC5NRT permutation p,True
+HCC5NRB permutation p,True
+HCC5NRPlasma permutation p,True
+HCC5NRNK permutation p,True
+HCC5NRcDC1 permutation p,True
+HCC5NRcDC2 permutation p,True
+HCC5NRpDC permutation p,True
+HCC5NRMonocyte permutation p,True
+HCC5NRNeutrophil permutation p,True
+HCC6NR frozen Q75 sources,True
+HCC6NR whole-library normalization,True
+HCC6NRT score,True
+HCC6NRT gate,True
+HCC6NRT geometry/coverage,True
+HCC6NRTPGAM5_high summary,True
+HCC6NRTOther_detected summary,True
+HCC6NRTUndetected summary,True
+HCC6NRB score,True
+HCC6NRB gate,True
+HCC6NRB geometry/coverage,True
+HCC6NRBPGAM5_high summary,True
+HCC6NRBOther_detected summary,True
+HCC6NRBUndetected summary,True
+HCC6NRPlasma score,True
+HCC6NRPlasma gate,True
+HCC6NRPlasma geometry/coverage,True
+HCC6NRPlasmaPGAM5_high summary,True
+HCC6NRPlasmaOther_detected summary,True
+HCC6NRPlasmaUndetected summary,True
+HCC6NRNK score,True
+HCC6NRNK gate,True
+HCC6NRNK geometry/coverage,True
+HCC6NRNKPGAM5_high summary,True
+HCC6NRNKOther_detected summary,True
+HCC6NRNKUndetected summary,True
+HCC6NRcDC1 score,True
+HCC6NRcDC1 gate,True
+HCC6NRcDC1 geometry/coverage,True
+HCC6NRcDC1PGAM5_high summary,True
+HCC6NRcDC1Other_detected summary,True
+HCC6NRcDC1Undetected summary,True
+HCC6NRcDC2 score,True
+HCC6NRcDC2 gate,True
+HCC6NRcDC2 geometry/coverage,True
+HCC6NRcDC2PGAM5_high summary,True
+HCC6NRcDC2Other_detected summary,True
+HCC6NRcDC2Undetected summary,True
+HCC6NRpDC score,True
+HCC6NRpDC gate,True
+HCC6NRpDC geometry/coverage,True
+HCC6NRpDCPGAM5_high summary,True
+HCC6NRpDCOther_detected summary,True
+HCC6NRpDCUndetected summary,True
+HCC6NRMonocyte score,True
+HCC6NRMonocyte gate,True
+HCC6NRMonocyte geometry/coverage,True
+HCC6NRMonocytePGAM5_high summary,True
+HCC6NRMonocyteOther_detected summary,True
+HCC6NRMonocyteUndetected summary,True
+HCC6NRNeutrophil score,True
+HCC6NRNeutrophil gate,True
+HCC6NRNeutrophil geometry/coverage,True
+HCC6NRNeutrophilPGAM5_high summary,True
+HCC6NRNeutrophilOther_detected summary,True
+HCC6NRNeutrophilUndetected summary,True
+HCC6NR eligible edge set,True
+HCC6NRSPP1CD44 raw LR,True
+HCC6NRSPP1CD44TPGAM5_high LR count,True
+HCC6NRSPP1CD44TOther_detected LR count,True
+HCC6NRSPP1CD44TUndetected LR count,True
+HCC6NRSPP1CD44BPGAM5_high LR count,True
+HCC6NRSPP1CD44BOther_detected LR count,True
+HCC6NRSPP1CD44BUndetected LR count,True
+HCC6NRSPP1CD44PlasmaPGAM5_high LR count,True
+HCC6NRSPP1CD44PlasmaOther_detected LR count,True
+HCC6NRSPP1CD44PlasmaUndetected LR count,True
+HCC6NRSPP1CD44NKPGAM5_high LR count,True
+HCC6NRSPP1CD44NKOther_detected LR count,True
+HCC6NRSPP1CD44NKUndetected LR count,True
+HCC6NRSPP1CD44cDC1PGAM5_high LR count,True
+HCC6NRSPP1CD44cDC1Other_detected LR count,True
+HCC6NRSPP1CD44cDC1Undetected LR count,True
+HCC6NRSPP1CD44cDC2PGAM5_high LR count,True
+HCC6NRSPP1CD44cDC2Other_detected LR count,True
+HCC6NRSPP1CD44cDC2Undetected LR count,True
+HCC6NRSPP1CD44pDCPGAM5_high LR count,True
+HCC6NRSPP1CD44pDCOther_detected LR count,True
+HCC6NRSPP1CD44pDCUndetected LR count,True
+HCC6NRSPP1CD44MonocytePGAM5_high LR count,True
+HCC6NRSPP1CD44MonocyteOther_detected LR count,True
+HCC6NRSPP1CD44MonocyteUndetected LR count,True
+HCC6NRSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC6NRSPP1CD44NeutrophilOther_detected LR count,True
+HCC6NRSPP1CD44NeutrophilUndetected LR count,True
+HCC6NRLGALS9HAVCR2 raw LR,True
+HCC6NRLGALS9HAVCR2TPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2TOther_detected LR count,True
+HCC6NRLGALS9HAVCR2TUndetected LR count,True
+HCC6NRLGALS9HAVCR2BPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2BOther_detected LR count,True
+HCC6NRLGALS9HAVCR2BUndetected LR count,True
+HCC6NRLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC6NRLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC6NRLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2NKOther_detected LR count,True
+HCC6NRLGALS9HAVCR2NKUndetected LR count,True
+HCC6NRLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC6NRLGALS9HAVCR2cDC1Undetected LR count,True
+HCC6NRLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC6NRLGALS9HAVCR2cDC2Undetected LR count,True
+HCC6NRLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2pDCOther_detected LR count,True
+HCC6NRLGALS9HAVCR2pDCUndetected LR count,True
+HCC6NRLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC6NRLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC6NRLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC6NRLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC6NRLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC6NRPVRTIGIT raw LR,True
+HCC6NRPVRTIGITTPGAM5_high LR count,True
+HCC6NRPVRTIGITTOther_detected LR count,True
+HCC6NRPVRTIGITTUndetected LR count,True
+HCC6NRPVRTIGITBPGAM5_high LR count,True
+HCC6NRPVRTIGITBOther_detected LR count,True
+HCC6NRPVRTIGITBUndetected LR count,True
+HCC6NRPVRTIGITPlasmaPGAM5_high LR count,True
+HCC6NRPVRTIGITPlasmaOther_detected LR count,True
+HCC6NRPVRTIGITPlasmaUndetected LR count,True
+HCC6NRPVRTIGITNKPGAM5_high LR count,True
+HCC6NRPVRTIGITNKOther_detected LR count,True
+HCC6NRPVRTIGITNKUndetected LR count,True
+HCC6NRPVRTIGITcDC1PGAM5_high LR count,True
+HCC6NRPVRTIGITcDC1Other_detected LR count,True
+HCC6NRPVRTIGITcDC1Undetected LR count,True
+HCC6NRPVRTIGITcDC2PGAM5_high LR count,True
+HCC6NRPVRTIGITcDC2Other_detected LR count,True
+HCC6NRPVRTIGITcDC2Undetected LR count,True
+HCC6NRPVRTIGITpDCPGAM5_high LR count,True
+HCC6NRPVRTIGITpDCOther_detected LR count,True
+HCC6NRPVRTIGITpDCUndetected LR count,True
+HCC6NRPVRTIGITMonocytePGAM5_high LR count,True
+HCC6NRPVRTIGITMonocyteOther_detected LR count,True
+HCC6NRPVRTIGITMonocyteUndetected LR count,True
+HCC6NRPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC6NRPVRTIGITNeutrophilOther_detected LR count,True
+HCC6NRPVRTIGITNeutrophilUndetected LR count,True
+HCC6NRNECTIN2TIGIT raw LR,True
+HCC6NRNECTIN2TIGITTPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITTOther_detected LR count,True
+HCC6NRNECTIN2TIGITTUndetected LR count,True
+HCC6NRNECTIN2TIGITBPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITBOther_detected LR count,True
+HCC6NRNECTIN2TIGITBUndetected LR count,True
+HCC6NRNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC6NRNECTIN2TIGITPlasmaUndetected LR count,True
+HCC6NRNECTIN2TIGITNKPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITNKOther_detected LR count,True
+HCC6NRNECTIN2TIGITNKUndetected LR count,True
+HCC6NRNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC6NRNECTIN2TIGITcDC1Other_detected LR count,True
+HCC6NRNECTIN2TIGITcDC1Undetected LR count,True
+HCC6NRNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC6NRNECTIN2TIGITcDC2Other_detected LR count,True
+HCC6NRNECTIN2TIGITcDC2Undetected LR count,True
+HCC6NRNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITpDCOther_detected LR count,True
+HCC6NRNECTIN2TIGITpDCUndetected LR count,True
+HCC6NRNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC6NRNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC6NRNECTIN2TIGITMonocyteUndetected LR count,True
+HCC6NRNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC6NRNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC6NRNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC6NRCD274PDCD1 raw LR,True
+HCC6NRCD274PDCD1TPGAM5_high LR count,True
+HCC6NRCD274PDCD1TOther_detected LR count,True
+HCC6NRCD274PDCD1TUndetected LR count,True
+HCC6NRCD274PDCD1BPGAM5_high LR count,True
+HCC6NRCD274PDCD1BOther_detected LR count,True
+HCC6NRCD274PDCD1BUndetected LR count,True
+HCC6NRCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC6NRCD274PDCD1PlasmaOther_detected LR count,True
+HCC6NRCD274PDCD1PlasmaUndetected LR count,True
+HCC6NRCD274PDCD1NKPGAM5_high LR count,True
+HCC6NRCD274PDCD1NKOther_detected LR count,True
+HCC6NRCD274PDCD1NKUndetected LR count,True
+HCC6NRCD274PDCD1cDC1PGAM5_high LR count,True
+HCC6NRCD274PDCD1cDC1Other_detected LR count,True
+HCC6NRCD274PDCD1cDC1Undetected LR count,True
+HCC6NRCD274PDCD1cDC2PGAM5_high LR count,True
+HCC6NRCD274PDCD1cDC2Other_detected LR count,True
+HCC6NRCD274PDCD1cDC2Undetected LR count,True
+HCC6NRCD274PDCD1pDCPGAM5_high LR count,True
+HCC6NRCD274PDCD1pDCOther_detected LR count,True
+HCC6NRCD274PDCD1pDCUndetected LR count,True
+HCC6NRCD274PDCD1MonocytePGAM5_high LR count,True
+HCC6NRCD274PDCD1MonocyteOther_detected LR count,True
+HCC6NRCD274PDCD1MonocyteUndetected LR count,True
+HCC6NRCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC6NRCD274PDCD1NeutrophilOther_detected LR count,True
+HCC6NRCD274PDCD1NeutrophilUndetected LR count,True
+HCC6NRCXCL9CXCR3 raw LR,True
+HCC6NRCXCL9CXCR3TPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3TOther_detected LR count,True
+HCC6NRCXCL9CXCR3TUndetected LR count,True
+HCC6NRCXCL9CXCR3BPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3BOther_detected LR count,True
+HCC6NRCXCL9CXCR3BUndetected LR count,True
+HCC6NRCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC6NRCXCL9CXCR3PlasmaUndetected LR count,True
+HCC6NRCXCL9CXCR3NKPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3NKOther_detected LR count,True
+HCC6NRCXCL9CXCR3NKUndetected LR count,True
+HCC6NRCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC6NRCXCL9CXCR3cDC1Other_detected LR count,True
+HCC6NRCXCL9CXCR3cDC1Undetected LR count,True
+HCC6NRCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC6NRCXCL9CXCR3cDC2Other_detected LR count,True
+HCC6NRCXCL9CXCR3cDC2Undetected LR count,True
+HCC6NRCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3pDCOther_detected LR count,True
+HCC6NRCXCL9CXCR3pDCUndetected LR count,True
+HCC6NRCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC6NRCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC6NRCXCL9CXCR3MonocyteUndetected LR count,True
+HCC6NRCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC6NRCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC6NRCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC6NRCXCL10CXCR3 raw LR,True
+HCC6NRCXCL10CXCR3TPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3TOther_detected LR count,True
+HCC6NRCXCL10CXCR3TUndetected LR count,True
+HCC6NRCXCL10CXCR3BPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3BOther_detected LR count,True
+HCC6NRCXCL10CXCR3BUndetected LR count,True
+HCC6NRCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC6NRCXCL10CXCR3PlasmaUndetected LR count,True
+HCC6NRCXCL10CXCR3NKPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3NKOther_detected LR count,True
+HCC6NRCXCL10CXCR3NKUndetected LR count,True
+HCC6NRCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC6NRCXCL10CXCR3cDC1Other_detected LR count,True
+HCC6NRCXCL10CXCR3cDC1Undetected LR count,True
+HCC6NRCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC6NRCXCL10CXCR3cDC2Other_detected LR count,True
+HCC6NRCXCL10CXCR3cDC2Undetected LR count,True
+HCC6NRCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3pDCOther_detected LR count,True
+HCC6NRCXCL10CXCR3pDCUndetected LR count,True
+HCC6NRCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC6NRCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC6NRCXCL10CXCR3MonocyteUndetected LR count,True
+HCC6NRCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC6NRCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC6NRCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC6NRCCL5CCR5 raw LR,True
+HCC6NRCCL5CCR5TPGAM5_high LR count,True
+HCC6NRCCL5CCR5TOther_detected LR count,True
+HCC6NRCCL5CCR5TUndetected LR count,True
+HCC6NRCCL5CCR5BPGAM5_high LR count,True
+HCC6NRCCL5CCR5BOther_detected LR count,True
+HCC6NRCCL5CCR5BUndetected LR count,True
+HCC6NRCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC6NRCCL5CCR5PlasmaOther_detected LR count,True
+HCC6NRCCL5CCR5PlasmaUndetected LR count,True
+HCC6NRCCL5CCR5NKPGAM5_high LR count,True
+HCC6NRCCL5CCR5NKOther_detected LR count,True
+HCC6NRCCL5CCR5NKUndetected LR count,True
+HCC6NRCCL5CCR5cDC1PGAM5_high LR count,True
+HCC6NRCCL5CCR5cDC1Other_detected LR count,True
+HCC6NRCCL5CCR5cDC1Undetected LR count,True
+HCC6NRCCL5CCR5cDC2PGAM5_high LR count,True
+HCC6NRCCL5CCR5cDC2Other_detected LR count,True
+HCC6NRCCL5CCR5cDC2Undetected LR count,True
+HCC6NRCCL5CCR5pDCPGAM5_high LR count,True
+HCC6NRCCL5CCR5pDCOther_detected LR count,True
+HCC6NRCCL5CCR5pDCUndetected LR count,True
+HCC6NRCCL5CCR5MonocytePGAM5_high LR count,True
+HCC6NRCCL5CCR5MonocyteOther_detected LR count,True
+HCC6NRCCL5CCR5MonocyteUndetected LR count,True
+HCC6NRCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC6NRCCL5CCR5NeutrophilOther_detected LR count,True
+HCC6NRCCL5CCR5NeutrophilUndetected LR count,True
+HCC6NRCXCL12CXCR4 raw LR,True
+HCC6NRCXCL12CXCR4TPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4TOther_detected LR count,True
+HCC6NRCXCL12CXCR4TUndetected LR count,True
+HCC6NRCXCL12CXCR4BPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4BOther_detected LR count,True
+HCC6NRCXCL12CXCR4BUndetected LR count,True
+HCC6NRCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC6NRCXCL12CXCR4PlasmaUndetected LR count,True
+HCC6NRCXCL12CXCR4NKPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4NKOther_detected LR count,True
+HCC6NRCXCL12CXCR4NKUndetected LR count,True
+HCC6NRCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC6NRCXCL12CXCR4cDC1Other_detected LR count,True
+HCC6NRCXCL12CXCR4cDC1Undetected LR count,True
+HCC6NRCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC6NRCXCL12CXCR4cDC2Other_detected LR count,True
+HCC6NRCXCL12CXCR4cDC2Undetected LR count,True
+HCC6NRCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4pDCOther_detected LR count,True
+HCC6NRCXCL12CXCR4pDCUndetected LR count,True
+HCC6NRCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC6NRCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC6NRCXCL12CXCR4MonocyteUndetected LR count,True
+HCC6NRCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC6NRCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC6NRCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC6NRCXCL13CXCR5 raw LR,True
+HCC6NRCXCL13CXCR5TPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5TOther_detected LR count,True
+HCC6NRCXCL13CXCR5TUndetected LR count,True
+HCC6NRCXCL13CXCR5BPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5BOther_detected LR count,True
+HCC6NRCXCL13CXCR5BUndetected LR count,True
+HCC6NRCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC6NRCXCL13CXCR5PlasmaUndetected LR count,True
+HCC6NRCXCL13CXCR5NKPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5NKOther_detected LR count,True
+HCC6NRCXCL13CXCR5NKUndetected LR count,True
+HCC6NRCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC6NRCXCL13CXCR5cDC1Other_detected LR count,True
+HCC6NRCXCL13CXCR5cDC1Undetected LR count,True
+HCC6NRCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC6NRCXCL13CXCR5cDC2Other_detected LR count,True
+HCC6NRCXCL13CXCR5cDC2Undetected LR count,True
+HCC6NRCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5pDCOther_detected LR count,True
+HCC6NRCXCL13CXCR5pDCUndetected LR count,True
+HCC6NRCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC6NRCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC6NRCXCL13CXCR5MonocyteUndetected LR count,True
+HCC6NRCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC6NRCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC6NRCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13C raw LR,True
+HCC6NRTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC6NRTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC6NRTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC6NRTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17 raw LR,True
+HCC6NRTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17TOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17TUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17BOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17BUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17NKUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC6NRTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC6NRTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC6NRTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC6NRTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC6NRTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC6NRTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC6NRTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC6NRTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC6NRTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RB raw LR,True
+HCC6NRIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBTUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBBUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC6NRIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC6NRIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC6NRIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC6NRIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+HCC6NR test outcomes,True
+HCC6NR test delta,True
+HCC6NRT permutation p,True
+HCC6NRB permutation p,True
+HCC6NRPlasma permutation p,True
+HCC6NRNK permutation p,True
+HCC6NRcDC1 permutation p,True
+HCC6NRcDC2 permutation p,True
+HCC6NRpDC permutation p,True
+HCC6NRMonocyte permutation p,True
+HCC6NRNeutrophil permutation p,True
+HCC7NR frozen Q75 sources,True
+HCC7NR whole-library normalization,True
+HCC7NRT score,True
+HCC7NRT gate,True
+HCC7NRT geometry/coverage,True
+HCC7NRTPGAM5_high summary,True
+HCC7NRTOther_detected summary,True
+HCC7NRTUndetected summary,True
+HCC7NRB score,True
+HCC7NRB gate,True
+HCC7NRB geometry/coverage,True
+HCC7NRBPGAM5_high summary,True
+HCC7NRBOther_detected summary,True
+HCC7NRBUndetected summary,True
+HCC7NRPlasma score,True
+HCC7NRPlasma gate,True
+HCC7NRPlasma geometry/coverage,True
+HCC7NRPlasmaPGAM5_high summary,True
+HCC7NRPlasmaOther_detected summary,True
+HCC7NRPlasmaUndetected summary,True
+HCC7NRNK score,True
+HCC7NRNK gate,True
+HCC7NRNK geometry/coverage,True
+HCC7NRNKPGAM5_high summary,True
+HCC7NRNKOther_detected summary,True
+HCC7NRNKUndetected summary,True
+HCC7NRcDC1 score,True
+HCC7NRcDC1 gate,True
+HCC7NRcDC1 geometry/coverage,True
+HCC7NRcDC1PGAM5_high summary,True
+HCC7NRcDC1Other_detected summary,True
+HCC7NRcDC1Undetected summary,True
+HCC7NRcDC2 score,True
+HCC7NRcDC2 gate,True
+HCC7NRcDC2 geometry/coverage,True
+HCC7NRcDC2PGAM5_high summary,True
+HCC7NRcDC2Other_detected summary,True
+HCC7NRcDC2Undetected summary,True
+HCC7NRpDC score,True
+HCC7NRpDC gate,True
+HCC7NRpDC geometry/coverage,True
+HCC7NRpDCPGAM5_high summary,True
+HCC7NRpDCOther_detected summary,True
+HCC7NRpDCUndetected summary,True
+HCC7NRMonocyte score,True
+HCC7NRMonocyte gate,True
+HCC7NRMonocyte geometry/coverage,True
+HCC7NRMonocytePGAM5_high summary,True
+HCC7NRMonocyteOther_detected summary,True
+HCC7NRMonocyteUndetected summary,True
+HCC7NRNeutrophil score,True
+HCC7NRNeutrophil gate,True
+HCC7NRNeutrophil geometry/coverage,True
+HCC7NRNeutrophilPGAM5_high summary,True
+HCC7NRNeutrophilOther_detected summary,True
+HCC7NRNeutrophilUndetected summary,True
+HCC7NR eligible edge set,True
+HCC7NRSPP1CD44 raw LR,True
+HCC7NRSPP1CD44TPGAM5_high LR count,True
+HCC7NRSPP1CD44TOther_detected LR count,True
+HCC7NRSPP1CD44TUndetected LR count,True
+HCC7NRSPP1CD44BPGAM5_high LR count,True
+HCC7NRSPP1CD44BOther_detected LR count,True
+HCC7NRSPP1CD44BUndetected LR count,True
+HCC7NRSPP1CD44PlasmaPGAM5_high LR count,True
+HCC7NRSPP1CD44PlasmaOther_detected LR count,True
+HCC7NRSPP1CD44PlasmaUndetected LR count,True
+HCC7NRSPP1CD44NKPGAM5_high LR count,True
+HCC7NRSPP1CD44NKOther_detected LR count,True
+HCC7NRSPP1CD44NKUndetected LR count,True
+HCC7NRSPP1CD44cDC1PGAM5_high LR count,True
+HCC7NRSPP1CD44cDC1Other_detected LR count,True
+HCC7NRSPP1CD44cDC1Undetected LR count,True
+HCC7NRSPP1CD44cDC2PGAM5_high LR count,True
+HCC7NRSPP1CD44cDC2Other_detected LR count,True
+HCC7NRSPP1CD44cDC2Undetected LR count,True
+HCC7NRSPP1CD44pDCPGAM5_high LR count,True
+HCC7NRSPP1CD44pDCOther_detected LR count,True
+HCC7NRSPP1CD44pDCUndetected LR count,True
+HCC7NRSPP1CD44MonocytePGAM5_high LR count,True
+HCC7NRSPP1CD44MonocyteOther_detected LR count,True
+HCC7NRSPP1CD44MonocyteUndetected LR count,True
+HCC7NRSPP1CD44NeutrophilPGAM5_high LR count,True
+HCC7NRSPP1CD44NeutrophilOther_detected LR count,True
+HCC7NRSPP1CD44NeutrophilUndetected LR count,True
+HCC7NRLGALS9HAVCR2 raw LR,True
+HCC7NRLGALS9HAVCR2TPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2TOther_detected LR count,True
+HCC7NRLGALS9HAVCR2TUndetected LR count,True
+HCC7NRLGALS9HAVCR2BPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2BOther_detected LR count,True
+HCC7NRLGALS9HAVCR2BUndetected LR count,True
+HCC7NRLGALS9HAVCR2PlasmaPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2PlasmaOther_detected LR count,True
+HCC7NRLGALS9HAVCR2PlasmaUndetected LR count,True
+HCC7NRLGALS9HAVCR2NKPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2NKOther_detected LR count,True
+HCC7NRLGALS9HAVCR2NKUndetected LR count,True
+HCC7NRLGALS9HAVCR2cDC1PGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2cDC1Other_detected LR count,True
+HCC7NRLGALS9HAVCR2cDC1Undetected LR count,True
+HCC7NRLGALS9HAVCR2cDC2PGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2cDC2Other_detected LR count,True
+HCC7NRLGALS9HAVCR2cDC2Undetected LR count,True
+HCC7NRLGALS9HAVCR2pDCPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2pDCOther_detected LR count,True
+HCC7NRLGALS9HAVCR2pDCUndetected LR count,True
+HCC7NRLGALS9HAVCR2MonocytePGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2MonocyteOther_detected LR count,True
+HCC7NRLGALS9HAVCR2MonocyteUndetected LR count,True
+HCC7NRLGALS9HAVCR2NeutrophilPGAM5_high LR count,True
+HCC7NRLGALS9HAVCR2NeutrophilOther_detected LR count,True
+HCC7NRLGALS9HAVCR2NeutrophilUndetected LR count,True
+HCC7NRPVRTIGIT raw LR,True
+HCC7NRPVRTIGITTPGAM5_high LR count,True
+HCC7NRPVRTIGITTOther_detected LR count,True
+HCC7NRPVRTIGITTUndetected LR count,True
+HCC7NRPVRTIGITBPGAM5_high LR count,True
+HCC7NRPVRTIGITBOther_detected LR count,True
+HCC7NRPVRTIGITBUndetected LR count,True
+HCC7NRPVRTIGITPlasmaPGAM5_high LR count,True
+HCC7NRPVRTIGITPlasmaOther_detected LR count,True
+HCC7NRPVRTIGITPlasmaUndetected LR count,True
+HCC7NRPVRTIGITNKPGAM5_high LR count,True
+HCC7NRPVRTIGITNKOther_detected LR count,True
+HCC7NRPVRTIGITNKUndetected LR count,True
+HCC7NRPVRTIGITcDC1PGAM5_high LR count,True
+HCC7NRPVRTIGITcDC1Other_detected LR count,True
+HCC7NRPVRTIGITcDC1Undetected LR count,True
+HCC7NRPVRTIGITcDC2PGAM5_high LR count,True
+HCC7NRPVRTIGITcDC2Other_detected LR count,True
+HCC7NRPVRTIGITcDC2Undetected LR count,True
+HCC7NRPVRTIGITpDCPGAM5_high LR count,True
+HCC7NRPVRTIGITpDCOther_detected LR count,True
+HCC7NRPVRTIGITpDCUndetected LR count,True
+HCC7NRPVRTIGITMonocytePGAM5_high LR count,True
+HCC7NRPVRTIGITMonocyteOther_detected LR count,True
+HCC7NRPVRTIGITMonocyteUndetected LR count,True
+HCC7NRPVRTIGITNeutrophilPGAM5_high LR count,True
+HCC7NRPVRTIGITNeutrophilOther_detected LR count,True
+HCC7NRPVRTIGITNeutrophilUndetected LR count,True
+HCC7NRNECTIN2TIGIT raw LR,True
+HCC7NRNECTIN2TIGITTPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITTOther_detected LR count,True
+HCC7NRNECTIN2TIGITTUndetected LR count,True
+HCC7NRNECTIN2TIGITBPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITBOther_detected LR count,True
+HCC7NRNECTIN2TIGITBUndetected LR count,True
+HCC7NRNECTIN2TIGITPlasmaPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITPlasmaOther_detected LR count,True
+HCC7NRNECTIN2TIGITPlasmaUndetected LR count,True
+HCC7NRNECTIN2TIGITNKPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITNKOther_detected LR count,True
+HCC7NRNECTIN2TIGITNKUndetected LR count,True
+HCC7NRNECTIN2TIGITcDC1PGAM5_high LR count,True
+HCC7NRNECTIN2TIGITcDC1Other_detected LR count,True
+HCC7NRNECTIN2TIGITcDC1Undetected LR count,True
+HCC7NRNECTIN2TIGITcDC2PGAM5_high LR count,True
+HCC7NRNECTIN2TIGITcDC2Other_detected LR count,True
+HCC7NRNECTIN2TIGITcDC2Undetected LR count,True
+HCC7NRNECTIN2TIGITpDCPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITpDCOther_detected LR count,True
+HCC7NRNECTIN2TIGITpDCUndetected LR count,True
+HCC7NRNECTIN2TIGITMonocytePGAM5_high LR count,True
+HCC7NRNECTIN2TIGITMonocyteOther_detected LR count,True
+HCC7NRNECTIN2TIGITMonocyteUndetected LR count,True
+HCC7NRNECTIN2TIGITNeutrophilPGAM5_high LR count,True
+HCC7NRNECTIN2TIGITNeutrophilOther_detected LR count,True
+HCC7NRNECTIN2TIGITNeutrophilUndetected LR count,True
+HCC7NRCD274PDCD1 raw LR,True
+HCC7NRCD274PDCD1TPGAM5_high LR count,True
+HCC7NRCD274PDCD1TOther_detected LR count,True
+HCC7NRCD274PDCD1TUndetected LR count,True
+HCC7NRCD274PDCD1BPGAM5_high LR count,True
+HCC7NRCD274PDCD1BOther_detected LR count,True
+HCC7NRCD274PDCD1BUndetected LR count,True
+HCC7NRCD274PDCD1PlasmaPGAM5_high LR count,True
+HCC7NRCD274PDCD1PlasmaOther_detected LR count,True
+HCC7NRCD274PDCD1PlasmaUndetected LR count,True
+HCC7NRCD274PDCD1NKPGAM5_high LR count,True
+HCC7NRCD274PDCD1NKOther_detected LR count,True
+HCC7NRCD274PDCD1NKUndetected LR count,True
+HCC7NRCD274PDCD1cDC1PGAM5_high LR count,True
+HCC7NRCD274PDCD1cDC1Other_detected LR count,True
+HCC7NRCD274PDCD1cDC1Undetected LR count,True
+HCC7NRCD274PDCD1cDC2PGAM5_high LR count,True
+HCC7NRCD274PDCD1cDC2Other_detected LR count,True
+HCC7NRCD274PDCD1cDC2Undetected LR count,True
+HCC7NRCD274PDCD1pDCPGAM5_high LR count,True
+HCC7NRCD274PDCD1pDCOther_detected LR count,True
+HCC7NRCD274PDCD1pDCUndetected LR count,True
+HCC7NRCD274PDCD1MonocytePGAM5_high LR count,True
+HCC7NRCD274PDCD1MonocyteOther_detected LR count,True
+HCC7NRCD274PDCD1MonocyteUndetected LR count,True
+HCC7NRCD274PDCD1NeutrophilPGAM5_high LR count,True
+HCC7NRCD274PDCD1NeutrophilOther_detected LR count,True
+HCC7NRCD274PDCD1NeutrophilUndetected LR count,True
+HCC7NRCXCL9CXCR3 raw LR,True
+HCC7NRCXCL9CXCR3TPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3TOther_detected LR count,True
+HCC7NRCXCL9CXCR3TUndetected LR count,True
+HCC7NRCXCL9CXCR3BPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3BOther_detected LR count,True
+HCC7NRCXCL9CXCR3BUndetected LR count,True
+HCC7NRCXCL9CXCR3PlasmaPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3PlasmaOther_detected LR count,True
+HCC7NRCXCL9CXCR3PlasmaUndetected LR count,True
+HCC7NRCXCL9CXCR3NKPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3NKOther_detected LR count,True
+HCC7NRCXCL9CXCR3NKUndetected LR count,True
+HCC7NRCXCL9CXCR3cDC1PGAM5_high LR count,True
+HCC7NRCXCL9CXCR3cDC1Other_detected LR count,True
+HCC7NRCXCL9CXCR3cDC1Undetected LR count,True
+HCC7NRCXCL9CXCR3cDC2PGAM5_high LR count,True
+HCC7NRCXCL9CXCR3cDC2Other_detected LR count,True
+HCC7NRCXCL9CXCR3cDC2Undetected LR count,True
+HCC7NRCXCL9CXCR3pDCPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3pDCOther_detected LR count,True
+HCC7NRCXCL9CXCR3pDCUndetected LR count,True
+HCC7NRCXCL9CXCR3MonocytePGAM5_high LR count,True
+HCC7NRCXCL9CXCR3MonocyteOther_detected LR count,True
+HCC7NRCXCL9CXCR3MonocyteUndetected LR count,True
+HCC7NRCXCL9CXCR3NeutrophilPGAM5_high LR count,True
+HCC7NRCXCL9CXCR3NeutrophilOther_detected LR count,True
+HCC7NRCXCL9CXCR3NeutrophilUndetected LR count,True
+HCC7NRCXCL10CXCR3 raw LR,True
+HCC7NRCXCL10CXCR3TPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3TOther_detected LR count,True
+HCC7NRCXCL10CXCR3TUndetected LR count,True
+HCC7NRCXCL10CXCR3BPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3BOther_detected LR count,True
+HCC7NRCXCL10CXCR3BUndetected LR count,True
+HCC7NRCXCL10CXCR3PlasmaPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3PlasmaOther_detected LR count,True
+HCC7NRCXCL10CXCR3PlasmaUndetected LR count,True
+HCC7NRCXCL10CXCR3NKPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3NKOther_detected LR count,True
+HCC7NRCXCL10CXCR3NKUndetected LR count,True
+HCC7NRCXCL10CXCR3cDC1PGAM5_high LR count,True
+HCC7NRCXCL10CXCR3cDC1Other_detected LR count,True
+HCC7NRCXCL10CXCR3cDC1Undetected LR count,True
+HCC7NRCXCL10CXCR3cDC2PGAM5_high LR count,True
+HCC7NRCXCL10CXCR3cDC2Other_detected LR count,True
+HCC7NRCXCL10CXCR3cDC2Undetected LR count,True
+HCC7NRCXCL10CXCR3pDCPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3pDCOther_detected LR count,True
+HCC7NRCXCL10CXCR3pDCUndetected LR count,True
+HCC7NRCXCL10CXCR3MonocytePGAM5_high LR count,True
+HCC7NRCXCL10CXCR3MonocyteOther_detected LR count,True
+HCC7NRCXCL10CXCR3MonocyteUndetected LR count,True
+HCC7NRCXCL10CXCR3NeutrophilPGAM5_high LR count,True
+HCC7NRCXCL10CXCR3NeutrophilOther_detected LR count,True
+HCC7NRCXCL10CXCR3NeutrophilUndetected LR count,True
+HCC7NRCCL5CCR5 raw LR,True
+HCC7NRCCL5CCR5TPGAM5_high LR count,True
+HCC7NRCCL5CCR5TOther_detected LR count,True
+HCC7NRCCL5CCR5TUndetected LR count,True
+HCC7NRCCL5CCR5BPGAM5_high LR count,True
+HCC7NRCCL5CCR5BOther_detected LR count,True
+HCC7NRCCL5CCR5BUndetected LR count,True
+HCC7NRCCL5CCR5PlasmaPGAM5_high LR count,True
+HCC7NRCCL5CCR5PlasmaOther_detected LR count,True
+HCC7NRCCL5CCR5PlasmaUndetected LR count,True
+HCC7NRCCL5CCR5NKPGAM5_high LR count,True
+HCC7NRCCL5CCR5NKOther_detected LR count,True
+HCC7NRCCL5CCR5NKUndetected LR count,True
+HCC7NRCCL5CCR5cDC1PGAM5_high LR count,True
+HCC7NRCCL5CCR5cDC1Other_detected LR count,True
+HCC7NRCCL5CCR5cDC1Undetected LR count,True
+HCC7NRCCL5CCR5cDC2PGAM5_high LR count,True
+HCC7NRCCL5CCR5cDC2Other_detected LR count,True
+HCC7NRCCL5CCR5cDC2Undetected LR count,True
+HCC7NRCCL5CCR5pDCPGAM5_high LR count,True
+HCC7NRCCL5CCR5pDCOther_detected LR count,True
+HCC7NRCCL5CCR5pDCUndetected LR count,True
+HCC7NRCCL5CCR5MonocytePGAM5_high LR count,True
+HCC7NRCCL5CCR5MonocyteOther_detected LR count,True
+HCC7NRCCL5CCR5MonocyteUndetected LR count,True
+HCC7NRCCL5CCR5NeutrophilPGAM5_high LR count,True
+HCC7NRCCL5CCR5NeutrophilOther_detected LR count,True
+HCC7NRCCL5CCR5NeutrophilUndetected LR count,True
+HCC7NRCXCL12CXCR4 raw LR,True
+HCC7NRCXCL12CXCR4TPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4TOther_detected LR count,True
+HCC7NRCXCL12CXCR4TUndetected LR count,True
+HCC7NRCXCL12CXCR4BPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4BOther_detected LR count,True
+HCC7NRCXCL12CXCR4BUndetected LR count,True
+HCC7NRCXCL12CXCR4PlasmaPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4PlasmaOther_detected LR count,True
+HCC7NRCXCL12CXCR4PlasmaUndetected LR count,True
+HCC7NRCXCL12CXCR4NKPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4NKOther_detected LR count,True
+HCC7NRCXCL12CXCR4NKUndetected LR count,True
+HCC7NRCXCL12CXCR4cDC1PGAM5_high LR count,True
+HCC7NRCXCL12CXCR4cDC1Other_detected LR count,True
+HCC7NRCXCL12CXCR4cDC1Undetected LR count,True
+HCC7NRCXCL12CXCR4cDC2PGAM5_high LR count,True
+HCC7NRCXCL12CXCR4cDC2Other_detected LR count,True
+HCC7NRCXCL12CXCR4cDC2Undetected LR count,True
+HCC7NRCXCL12CXCR4pDCPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4pDCOther_detected LR count,True
+HCC7NRCXCL12CXCR4pDCUndetected LR count,True
+HCC7NRCXCL12CXCR4MonocytePGAM5_high LR count,True
+HCC7NRCXCL12CXCR4MonocyteOther_detected LR count,True
+HCC7NRCXCL12CXCR4MonocyteUndetected LR count,True
+HCC7NRCXCL12CXCR4NeutrophilPGAM5_high LR count,True
+HCC7NRCXCL12CXCR4NeutrophilOther_detected LR count,True
+HCC7NRCXCL12CXCR4NeutrophilUndetected LR count,True
+HCC7NRCXCL13CXCR5 raw LR,True
+HCC7NRCXCL13CXCR5TPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5TOther_detected LR count,True
+HCC7NRCXCL13CXCR5TUndetected LR count,True
+HCC7NRCXCL13CXCR5BPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5BOther_detected LR count,True
+HCC7NRCXCL13CXCR5BUndetected LR count,True
+HCC7NRCXCL13CXCR5PlasmaPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5PlasmaOther_detected LR count,True
+HCC7NRCXCL13CXCR5PlasmaUndetected LR count,True
+HCC7NRCXCL13CXCR5NKPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5NKOther_detected LR count,True
+HCC7NRCXCL13CXCR5NKUndetected LR count,True
+HCC7NRCXCL13CXCR5cDC1PGAM5_high LR count,True
+HCC7NRCXCL13CXCR5cDC1Other_detected LR count,True
+HCC7NRCXCL13CXCR5cDC1Undetected LR count,True
+HCC7NRCXCL13CXCR5cDC2PGAM5_high LR count,True
+HCC7NRCXCL13CXCR5cDC2Other_detected LR count,True
+HCC7NRCXCL13CXCR5cDC2Undetected LR count,True
+HCC7NRCXCL13CXCR5pDCPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5pDCOther_detected LR count,True
+HCC7NRCXCL13CXCR5pDCUndetected LR count,True
+HCC7NRCXCL13CXCR5MonocytePGAM5_high LR count,True
+HCC7NRCXCL13CXCR5MonocyteOther_detected LR count,True
+HCC7NRCXCL13CXCR5MonocyteUndetected LR count,True
+HCC7NRCXCL13CXCR5NeutrophilPGAM5_high LR count,True
+HCC7NRCXCL13CXCR5NeutrophilOther_detected LR count,True
+HCC7NRCXCL13CXCR5NeutrophilUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13C raw LR,True
+HCC7NRTNFSF13BTNFRSF13CTPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CTOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CTUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CBPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CBOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CBUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CPlasmaPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CPlasmaOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CPlasmaUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CNKPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CNKOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CNKUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC1PGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC1Other_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC1Undetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC2PGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC2Other_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CcDC2Undetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CpDCPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CpDCOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CpDCUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CMonocytePGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CMonocyteOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CMonocyteUndetected LR count,True
+HCC7NRTNFSF13BTNFRSF13CNeutrophilPGAM5_high LR count,True
+HCC7NRTNFSF13BTNFRSF13CNeutrophilOther_detected LR count,True
+HCC7NRTNFSF13BTNFRSF13CNeutrophilUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17 raw LR,True
+HCC7NRTNFSF13TNFRSF17TPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17TOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17TUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17BPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17BOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17BUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17PlasmaPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17PlasmaOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17PlasmaUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17NKPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17NKOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17NKUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17cDC1PGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17cDC1Other_detected LR count,True
+HCC7NRTNFSF13TNFRSF17cDC1Undetected LR count,True
+HCC7NRTNFSF13TNFRSF17cDC2PGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17cDC2Other_detected LR count,True
+HCC7NRTNFSF13TNFRSF17cDC2Undetected LR count,True
+HCC7NRTNFSF13TNFRSF17pDCPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17pDCOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17pDCUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17MonocytePGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17MonocyteOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17MonocyteUndetected LR count,True
+HCC7NRTNFSF13TNFRSF17NeutrophilPGAM5_high LR count,True
+HCC7NRTNFSF13TNFRSF17NeutrophilOther_detected LR count,True
+HCC7NRTNFSF13TNFRSF17NeutrophilUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2 raw LR,True
+HCC7NRTGFB1TGFBR1_TGFBR2TPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2TOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2TUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2BPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2BOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2BUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2PlasmaPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2PlasmaOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2PlasmaUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NKPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NKOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NKUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC1PGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC1Other_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC1Undetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC2PGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC2Other_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2cDC2Undetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2pDCPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2pDCOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2pDCUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2MonocytePGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2MonocyteOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2MonocyteUndetected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NeutrophilPGAM5_high LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NeutrophilOther_detected LR count,True
+HCC7NRTGFB1TGFBR1_TGFBR2NeutrophilUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RB raw LR,True
+HCC7NRIL10IL10RA_IL10RBTPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBTOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBTUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBBPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBBOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBBUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBPlasmaPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBPlasmaOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBPlasmaUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBNKPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBNKOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBNKUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC1PGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC1Other_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC1Undetected LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC2PGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC2Other_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBcDC2Undetected LR count,True
+HCC7NRIL10IL10RA_IL10RBpDCPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBpDCOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBpDCUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBMonocytePGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBMonocyteOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBMonocyteUndetected LR count,True
+HCC7NRIL10IL10RA_IL10RBNeutrophilPGAM5_high LR count,True
+HCC7NRIL10IL10RA_IL10RBNeutrophilOther_detected LR count,True
+HCC7NRIL10IL10RA_IL10RBNeutrophilUndetected LR count,True
+63 planned tests,True
+BH planned family,True
