@@ -1,0 +1,6 @@
+,CD8_exhaustion,CD8_activation,CD8_memory,CD8_effector,Treg_supported
+CD8_exhaustion,19,2,9,5,3
+CD8_activation,2,8,6,1,2
+CD8_memory,9,6,51,18,2
+CD8_effector,5,1,18,32,2
+Treg_supported,3,2,2,2,126

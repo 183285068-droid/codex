@@ -1,0 +1,162 @@
+[
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/A009T1_CD8_fine_markers.h5ad",
+    "bytes": 899135,
+    "sha256": "d9c38d0bee89a5f32b67095f3f2e0d9c2656d4219597d6602bcb2225f75f3cbc"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T1_supplemental_T_markers.h5ad",
+    "bytes": 643672,
+    "sha256": "8953b43761774b145a44dcc163b0c33c7c576d981ce708b1f79fe1207437076c"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/A009T2_CD8_fine_markers.h5ad",
+    "bytes": 767405,
+    "sha256": "7a3487e4a8fad3fae08bb388ab7240c0143d9d290ac524a4c82def161ecc3031"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T2_supplemental_T_markers.h5ad",
+    "bytes": 560054,
+    "sha256": "537a7510f5ff366f331c68ef1359ad33597cc3f0ad27ce303b94a92cb191d49d"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/A009T3_CD8_fine_markers.h5ad",
+    "bytes": 720561,
+    "sha256": "468ee2fbca251c3a69015e8447537cb66a2e8461d59633d7e27214408f1e7c23"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T3_supplemental_T_markers.h5ad",
+    "bytes": 529204,
+    "sha256": "1254e4799549527c1542e0421879e00e2b41529027111dcf4f549e7d7ee07329"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/A009T4_CD8_fine_markers.h5ad",
+    "bytes": 1137329,
+    "sha256": "0f1d82b7376940911ed6050d25de61c8cac6e88196218d287deefc4efdaaccb0"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T4_supplemental_T_markers.h5ad",
+    "bytes": 779815,
+    "sha256": "569c4ac701d11308fa9183c6c50e17027afdfbc694b4c9db3aca4c72623f5d56"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/A009T5_CD8_fine_markers.h5ad",
+    "bytes": 1016209,
+    "sha256": "b0bc16d916d482ed53a6b135c3e886b5031c5d4a1c5faca32f6976370ff3ccd6"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T5_supplemental_T_markers.h5ad",
+    "bytes": 697364,
+    "sha256": "624631c9b527c95e419ec5705f6012c3c9ce697fdcd9a89d76c9660b203fcb58"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/B0013T1_CD8_fine_markers.h5ad",
+    "bytes": 705688,
+    "sha256": "d6cbb7236750db5f0dd504be146d9205783d4508409dc63cad69b98855bb5fa6"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T1_supplemental_T_markers.h5ad",
+    "bytes": 525845,
+    "sha256": "9109eab7540c8d1decbc7e1960eb4c5fb76e6e1f6366a8e923ddeec56b24b185"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/B0013T2_CD8_fine_markers.h5ad",
+    "bytes": 799658,
+    "sha256": "c6020c9b40bccede04567d7e7a054217a41ef0563f8eaa4fa4078ce53fc91bcb"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T2_supplemental_T_markers.h5ad",
+    "bytes": 565013,
+    "sha256": "7a7e9a811960164d635006cbb6074f7ff9e025d4c5b22bf32b4f15809fbc597f"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/B0013T3_CD8_fine_markers.h5ad",
+    "bytes": 772678,
+    "sha256": "673178f5bf92b2ae049dda8a9da6a7b88e59178679316df96de11110f145001e"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T3_supplemental_T_markers.h5ad",
+    "bytes": 572267,
+    "sha256": "8053b6740aa93257ade2a7592f5015bfee65a638c67e07cefde9e4be3b7b41ca"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/B0013T4_CD8_fine_markers.h5ad",
+    "bytes": 922960,
+    "sha256": "54dfa5a74bea6f9123f7f8b4a8243f32f589f1b3c145d61814ac2a59532f6847"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T4_supplemental_T_markers.h5ad",
+    "bytes": 688460,
+    "sha256": "22433384b456966967ab55e949e6bc69a127aa6dbc360fd801e35716580f4f5c"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/B013T5_CD8_fine_markers.h5ad",
+    "bytes": 905470,
+    "sha256": "603dc052a2619062b5e741fe0cc0586094d24a966722bd66164431fc4803eced"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B013T5_supplemental_T_markers.h5ad",
+    "bytes": 620721,
+    "sha256": "16befbdf2b1bf9a2e34cc17681f61b844833cd4d05178b85cf05d449fb3804fd"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C004T1P_CD8_fine_markers.h5ad",
+    "bytes": 736176,
+    "sha256": "02b62aef0611267574142d3928876648d578137dc40c4c7ab9cb8dc056c3d736"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C004T1P_supplemental_T_markers.h5ad",
+    "bytes": 561770,
+    "sha256": "a826fbf8d4b7b600b7b90ced0d91f4aa8f450e3bad3460ca39dcc23a97391bbf"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C004T1R_CD8_fine_markers.h5ad",
+    "bytes": 650729,
+    "sha256": "154926578605801ab13456cda7fa200858ea0b63e606fb8142296928f25d8729"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C004T1R_supplemental_T_markers.h5ad",
+    "bytes": 498315,
+    "sha256": "f9114498e218ac4fd166f9286611d63d22cc558b30f3180a1ca8fb37f8a0e156"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C008T1_CD8_fine_markers.h5ad",
+    "bytes": 1125426,
+    "sha256": "9a5a067d651da077eb8fd4312d331b7cdaaaa47ae9cbf0bc09c135d4d4ae5f0d"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T1_supplemental_T_markers.h5ad",
+    "bytes": 777314,
+    "sha256": "d3b043b38517a1bd0be42d39ec4c7d159c684342d6a115bbc78f3fc5cc132073"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C008T2_CD8_fine_markers.h5ad",
+    "bytes": 731094,
+    "sha256": "ddebc5474d40656e3b182ad362d106a69fcd97f483bfa68b1e18e47ee3ad1f69"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T2_supplemental_T_markers.h5ad",
+    "bytes": 537605,
+    "sha256": "13beb9f868560eef4b1bbd19fd4a86b505a86074846a2739d6a640cabe936e54"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C008T3_CD8_fine_markers.h5ad",
+    "bytes": 713197,
+    "sha256": "84df322352e555f2c544fe2646f704e5e2b5d3ff2f9c6365231a72d39d5233cf"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T3_supplemental_T_markers.h5ad",
+    "bytes": 532089,
+    "sha256": "a58cfb3aa3cb8d1041dfab6e7d789c671f3732d6e2b9bb3be1599a674448023e"
+  },
+  {
+    "path": "GSE281759_PGAM5_CD8_fine_programs/C008T4_CD8_fine_markers.h5ad",
+    "bytes": 859014,
+    "sha256": "6615891c1a68226009166da254835aac388009d7fcfa6f9409c1d53407f5276b"
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T4_supplemental_T_markers.h5ad",
+    "bytes": 605104,
+    "sha256": "65ef3f25f7b3ebab420293b6d9dc66498f7c548812020b75c235402549103c8a"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "CD8_union_rules": {
+    "CD8_exhaustion": [
+      "Exhaustion_supported",
+      "Progenitor_exhaustion_like",
+      "Terminal_exhaustion_like"
+    ],
+    "CD8_activation": [
+      "Early_activation"
+    ],
+    "CD8_memory": [
+      "Central_memory_like",
+      "GZMK_memory_like",
+      "Resident_memory_like"
+    ],
+    "CD8_effector": [
+      "Cytotoxic_effector",
+      "Terminal_effector_like"
+    ]
+  },
+  "Treg": "fixed T-lineage gate, FOXP3 positive, >=2 of FOXP3 IL2RA CTLA4 IKZF2 TIGIT, score>=T-gate Q75 and >0",
+  "overlapping": true,
+  "seed": 281759502,
+  "permutations": 4999,
+  "primary_tests": 80,
+  "joint_tests": 240,
+  "primary_only_tests": 75,
+  "activation_does_not_use_cycling_or_IFN_gate": true,
+  "memory_union_does_not_use_naive_gate": true
+}

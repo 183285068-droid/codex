@@ -1,0 +1,13 @@
+signature,n_CD8_targets,n_high_near_targets
+CD8_activation,2,0
+CD8_activation+CD8_memory,3,0
+CD8_activation+CD8_memory+CD8_effector,1,0
+CD8_effector,13,3
+CD8_exhaustion,9,1
+CD8_exhaustion+CD8_activation+CD8_memory,2,0
+CD8_exhaustion+CD8_effector,1,1
+CD8_exhaustion+CD8_memory,3,1
+CD8_exhaustion+CD8_memory+CD8_effector,4,2
+CD8_memory,25,5
+CD8_memory+CD8_effector,13,5
+No_four_program_supported,117,31

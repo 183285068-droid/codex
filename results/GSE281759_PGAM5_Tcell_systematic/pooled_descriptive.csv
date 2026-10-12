@@ -1,0 +1,6 @@
+target,n_sources,with_neighbor,n_targets,coverage_pct
+CD8_activation,382,0,8,0.0
+CD8_effector,382,13,32,3.4031413612565444
+CD8_exhaustion,382,5,19,1.3089005235602094
+CD8_memory,382,14,51,3.6649214659685865
+Treg_supported,382,17,126,4.450261780104712
