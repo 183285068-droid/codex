@@ -1,0 +1,133 @@
+{
+  "targets": {
+    "Naive_like": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "MAL"
+    ],
+    "Central_memory_like": [
+      "CCR7",
+      "IL7R",
+      "LTB",
+      "TCF7"
+    ],
+    "GZMK_memory_like": [
+      "GZMK",
+      "IL7R",
+      "CCL5"
+    ],
+    "Cytotoxic_effector": [
+      "NKG7",
+      "PRF1",
+      "GZMB",
+      "GNLY",
+      "CTSW",
+      "CCL5"
+    ],
+    "Terminal_effector_like": [
+      "FGFBP2",
+      "CX3CR1",
+      "GZMH",
+      "PRF1",
+      "NKG7",
+      "KLRG1"
+    ],
+    "Exhaustion_supported": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "HAVCR2",
+      "TOX",
+      "ENTPD1",
+      "CXCL13",
+      "CTLA4"
+    ],
+    "Progenitor_exhaustion_like": [
+      "TCF7",
+      "SLAMF6",
+      "PDCD1",
+      "TOX"
+    ],
+    "Terminal_exhaustion_like": [
+      "HAVCR2",
+      "ENTPD1",
+      "CXCL13",
+      "TOX",
+      "LAG3",
+      "PDCD1"
+    ],
+    "Resident_memory_like": [
+      "CD69",
+      "ITGAE",
+      "CXCR6",
+      "ZNF683",
+      "ITGA1",
+      "RGS1"
+    ],
+    "Early_activation": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Cycling": [
+      "MKI67",
+      "TOP2A",
+      "STMN1",
+      "TYMS",
+      "PCNA"
+    ],
+    "IFN_response": [
+      "STAT1",
+      "ISG15",
+      "IFIT1",
+      "IFIT3",
+      "MX1",
+      "OAS1",
+      "IFI6"
+    ]
+  },
+  "minimum_detected": {
+    "Naive_like": 3,
+    "Central_memory_like": 3,
+    "GZMK_memory_like": 2,
+    "Cytotoxic_effector": 3,
+    "Terminal_effector_like": 3,
+    "Exhaustion_supported": 3,
+    "Progenitor_exhaustion_like": 3,
+    "Terminal_exhaustion_like": 3,
+    "Resident_memory_like": 3,
+    "Early_activation": 2,
+    "Cycling": 3,
+    "IFN_response": 3
+  },
+  "anchors": {
+    "Naive_like": "(CCR7 OR SELL) AND (TCF7 OR LEF1)",
+    "Central_memory_like": "CCR7 AND IL7R",
+    "GZMK_memory_like": "GZMK AND (IL7R OR CCL5)",
+    "Cytotoxic_effector": "PRF1 OR GZMB",
+    "Terminal_effector_like": "FGFBP2 OR CX3CR1",
+    "Exhaustion_supported": "PDCD1 OR TOX",
+    "Progenitor_exhaustion_like": "TCF7 AND PDCD1",
+    "Terminal_exhaustion_like": "(HAVCR2 OR ENTPD1) AND (TOX OR PDCD1)",
+    "Resident_memory_like": "ITGAE OR ZNF683 OR ITGA1",
+    "Early_activation": "CD69 OR IL2RA OR TNFRSF9 OR ICOS",
+    "Cycling": "MKI67 OR TOP2A",
+    "IFN_response": "IFIT1 OR IFIT3 OR MX1"
+  },
+  "quantile": 0.75,
+  "quantile_population": "fixed CD8-supported gate in each section",
+  "score": "mean log1p(CP10k), full-library denominator, zeros included",
+  "cd8": "previous fixed T-lineage gate AND CD8A>0 AND CD8B>0, CD8A/B mean>=T-gate Q75 and >0",
+  "seed": 281759302,
+  "permutations": 4999,
+  "primary_tests": 192,
+  "joint_tests": 576,
+  "primary_only_tests": 180,
+  "labels_overlap": true,
+  "signature_inference": false
+}

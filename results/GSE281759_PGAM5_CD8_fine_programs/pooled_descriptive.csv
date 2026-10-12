@@ -1,0 +1,14 @@
+target,n_sources,with_neighbor,n_target_spots,coverage_pct
+All_CD8_reference,382,49,193,12.827225130890053
+Central_memory_like,382,4,8,1.0471204188481675
+Cycling,382,13,47,3.4031413612565444
+Cytotoxic_effector,382,12,29,3.141361256544503
+Early_activation,382,0,8,0.0
+Exhaustion_supported,382,4,17,1.0471204188481675
+GZMK_memory_like,382,5,24,1.3089005235602094
+IFN_response,382,12,50,3.141361256544503
+Naive_like,382,1,3,0.2617801047120419
+Progenitor_exhaustion_like,382,1,2,0.2617801047120419
+Resident_memory_like,382,7,26,1.8324607329842932
+Terminal_effector_like,382,2,6,0.5235602094240838
+Terminal_exhaustion_like,382,1,9,0.2617801047120419

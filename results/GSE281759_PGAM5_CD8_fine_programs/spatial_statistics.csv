@@ -1,0 +1,577 @@
+gsm,sample,patient,tumor_status,comparison,n_high,n_comparator,target,status,reason,delta_pp,high_pct,comparator_pct,null_mean_pp,p,joint_q_576,primary_q_192,primary_only_q_180
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,GZMK_memory_like,tested,,1.931075460487225,2.941176470588235,1.0101010101010102,1.2687088814078915,1.0,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Resident_memory_like,tested,,-1.0101010101010102,0.0,1.0101010101010102,-0.4765718443748168,1.0,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Cycling,not_testable,constant conditional null,-1.0101010101010102,0.0,1.0101010101010102,-1.0101010101010104,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,IFN_response,tested,,1.8419489007724297,5.88235294117647,4.040404040404041,3.521577755836373,1.0,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,GZMK_memory_like,tested,,1.8175809649702577,2.941176470588235,1.1235955056179776,0.9891513442587172,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Cytotoxic_effector,not_testable,constant conditional null,-0.37453183520599254,0.0,0.37453183520599254,-0.37453183520599254,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Exhaustion_supported,tested,,-1.1235955056179776,0.0,1.1235955056179776,-0.3687893339848847,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Terminal_exhaustion_like,tested,,-1.1235955056179776,0.0,1.1235955056179776,-0.3687893339848847,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Resident_memory_like,tested,,-0.7490636704119851,0.0,0.7490636704119851,-0.49635615600758404,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Early_activation,tested,,-0.37453183520599254,0.0,0.37453183520599254,0.35241681515417417,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Cycling,tested,,-2.247191011235955,0.0,2.247191011235955,-1.2681981207874093,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,IFN_response,tested,,1.3879709187045606,5.88235294117647,4.49438202247191,0.2511187410427669,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,GZMK_memory_like,tested,,3.888888888888889,5.555555555555555,1.6666666666666667,2.101753684070147,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Cycling,not_testable,constant conditional null,-1.6666666666666667,0.0,1.6666666666666667,-1.6666666666666665,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,IFN_response,tested,,0.5555555555555549,5.555555555555555,5.0,3.5432642083972348,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,GZMK_memory_like,tested,,-1.9607843137254901,0.0,1.9607843137254901,0.08197717974967532,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Cytotoxic_effector,tested,,-1.9607843137254901,0.0,1.9607843137254901,0.08197717974967532,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,IFN_response,tested,,-1.9607843137254901,0.0,1.9607843137254901,0.08197717974967532,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,GZMK_memory_like,tested,,-0.9009009009009009,0.0,0.9009009009009009,0.2918336714507713,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Cytotoxic_effector,tested,,-0.9009009009009009,0.0,0.9009009009009009,0.2918336714507713,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Cycling,not_testable,constant conditional null,-0.9009009009009009,0.0,0.9009009009009009,-0.9009009009009008,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,IFN_response,tested,,-0.9009009009009009,0.0,0.9009009009009009,0.2918336714507713,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,GZMK_memory_like,not_testable,constant conditional null,-2.272727272727273,0.0,2.272727272727273,-2.2727272727272734,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Cytotoxic_effector,not_testable,constant conditional null,-2.272727272727273,0.0,2.272727272727273,-2.2727272727272734,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,IFN_response,not_testable,constant conditional null,-2.272727272727273,0.0,2.272727272727273,-2.2727272727272734,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Central_memory_like,tested,,1.7543859649122806,2.631578947368421,0.8771929824561403,0.46289959746335224,0.7504,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,GZMK_memory_like,tested,,-2.631578947368421,0.0,2.631578947368421,-0.7052287650512558,0.5416,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Cytotoxic_effector,tested,,3.070175438596491,7.894736842105263,4.824561403508771,-0.9036017729861763,0.2676,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Terminal_effector_like,tested,,-1.3157894736842104,0.0,1.3157894736842104,-0.6307401831243441,1.0,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Exhaustion_supported,tested,,-3.070175438596491,1.3157894736842104,4.385964912280701,-0.7188279761215399,0.538,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Progenitor_exhaustion_like,tested,,-1.3157894736842104,0.0,1.3157894736842104,-0.3355934344763689,1.0,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Terminal_exhaustion_like,tested,,-0.8771929824561403,0.0,0.8771929824561403,0.23881969376331402,0.9448,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Resident_memory_like,tested,,-5.701754385964912,1.3157894736842104,7.017543859649122,-0.9534363012953466,0.1404,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Early_activation,tested,,-0.8771929824561403,0.0,0.8771929824561403,-0.1454676900292339,1.0,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Cycling,tested,,-6.140350877192982,7.894736842105263,14.035087719298245,-1.0038849875238207,0.2984,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,IFN_response,tested,,-5.263157894736842,5.263157894736842,10.526315789473683,-2.2583464061233296,0.5648,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Central_memory_like,tested,,1.1961722488038276,2.631578947368421,1.4354066985645932,0.0663769117459854,0.7424,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,GZMK_memory_like,tested,,-2.631578947368421,0.0,2.631578947368421,-0.31195234262163446,0.4,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Cytotoxic_effector,tested,,4.0669856459330145,7.894736842105263,3.827751196172249,-0.4963672160269375,0.122,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Terminal_effector_like,tested,,-0.9569377990430622,0.0,0.9569377990430622,-0.45736420011274975,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Exhaustion_supported,tested,,-3.7081339712918657,1.3157894736842104,5.023923444976076,-0.339278381992188,0.2648,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Progenitor_exhaustion_like,tested,,-0.7177033492822966,0.0,0.7177033492822966,-0.1173440429712737,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Terminal_exhaustion_like,tested,,-1.674641148325359,0.0,1.674641148325359,0.23126634896357254,0.4948,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Resident_memory_like,tested,,-4.186602870813397,1.3157894736842104,5.502392344497608,-0.4674858416659411,0.2208,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Early_activation,tested,,-1.1961722488038278,0.0,1.1961722488038278,-0.18520450501583574,0.9796,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Cycling,tested,,-4.0669856459330145,7.894736842105263,11.961722488038278,-2.2382227641700596,0.796,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,IFN_response,tested,,-5.502392344497609,5.263157894736842,10.76555023923445,0.22652855930037633,0.1712,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Central_memory_like,tested,,2.5,2.5,0.0,0.4573345861832917,0.8048,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,GZMK_memory_like,tested,,-4.587155963302752,0.0,4.587155963302752,-1.5293104492458125,0.5624,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Cytotoxic_effector,tested,,-0.2522935779816514,2.5,2.7522935779816518,1.1511843653134295,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Exhaustion_supported,tested,,-1.834862385321101,0.0,1.834862385321101,0.14490971588813178,0.9612,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Progenitor_exhaustion_like,tested,,-2.7522935779816518,0.0,2.7522935779816518,0.3055519360752884,0.5624,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Resident_memory_like,tested,,-7.339449541284404,0.0,7.339449541284404,1.633785472690868,0.0444,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Cycling,tested,,-7.591743119266056,2.5,10.091743119266056,-1.054940345867339,0.2624,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,IFN_response,tested,,1.3302752293577982,5.0,3.669724770642202,0.8770332048060987,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,GZMK_memory_like,tested,,2.538964303670186,3.8461538461538463,1.3071895424836601,0.5004092824598102,0.704,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Cytotoxic_effector,tested,,1.1940673705379594,5.769230769230769,4.57516339869281,0.891505601271084,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Terminal_effector_like,tested,,1.9230769230769231,1.9230769230769231,0.0,-0.06548066777759773,0.4568,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Exhaustion_supported,tested,,-1.3448969331322274,1.9230769230769231,3.2679738562091507,-0.9181147441152384,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Progenitor_exhaustion_like,tested,,0.615887380593263,1.9230769230769231,1.3071895424836601,-0.9819686410887004,0.76,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Terminal_exhaustion_like,tested,,-2.6143790849673203,0.0,2.6143790849673203,-1.1634227297948276,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Resident_memory_like,tested,,-5.304172951231774,3.8461538461538463,9.15032679738562,-3.3996316608721444,0.8956,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Early_activation,tested,,-3.9215686274509802,0.0,3.9215686274509802,-2.396904720310578,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Cycling,tested,,0.4273504273504286,11.538461538461538,11.11111111111111,-4.083757928056199,0.4116,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,IFN_response,tested,,-0.11312217194570096,5.769230769230769,5.88235294117647,-3.72840028035773,0.3808,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,GZMK_memory_like,tested,,2.133825079030559,3.8461538461538463,1.7123287671232876,-0.053314140172607515,0.554,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Cytotoxic_effector,tested,,0.2897787144362493,5.769230769230769,5.47945205479452,1.100098839578243,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Terminal_effector_like,tested,,1.2381454162276082,1.9230769230769231,0.684931506849315,-0.31587455531148373,0.5808,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Exhaustion_supported,tested,,0.2107481559536356,1.9230769230769231,1.7123287671232876,-0.59549317661214,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Progenitor_exhaustion_like,tested,,0.8956796628029506,1.9230769230769231,1.0273972602739725,0.24352604978319178,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Terminal_exhaustion_like,tested,,-1.36986301369863,0.0,1.36986301369863,-0.6433847359566749,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Resident_memory_like,tested,,-3.3456269757639614,3.8461538461538463,7.191780821917808,-0.5444028742524052,0.6628,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Early_activation,tested,,-3.0821917808219177,0.0,3.0821917808219177,-1.2675822835800035,0.8064,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Cycling,tested,,2.6343519494204437,11.538461538461538,8.904109589041095,0.8238212447547474,0.85,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,IFN_response,tested,,1.3171759747102219,5.769230769230769,4.4520547945205475,-1.4314770224856348,0.5144,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,GZMK_memory_like,tested,,4.840686274509804,5.88235294117647,1.0416666666666665,0.9598243178047375,0.474,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Cytotoxic_effector,tested,,2.7573529411764706,5.88235294117647,3.125,0.6906405790962116,0.936,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Terminal_effector_like,tested,,2.941176470588235,2.941176470588235,0.0,-0.13977060117905923,0.4532,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Exhaustion_supported,tested,,-1.2254901960784312,2.941176470588235,4.166666666666666,-1.7624848499111587,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Progenitor_exhaustion_like,not_testable,constant conditional null,-1.0416666666666665,0.0,1.0416666666666665,-1.0416666666666663,,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Terminal_exhaustion_like,tested,,-3.125,0.0,3.125,-0.5045616966530562,0.8888,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Resident_memory_like,tested,,-5.3921568627450975,2.941176470588235,8.333333333333332,-4.597022345645599,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Early_activation,tested,,-3.125,0.0,3.125,-2.338629490604003,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Cycling,tested,,-1.5931372549019607,8.823529411764707,10.416666666666668,-2.3173629824004016,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,IFN_response,tested,,-2.2671568627450984,2.941176470588235,5.208333333333334,-1.8456877650039811,1.0,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Naive_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Central_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,GZMK_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Cytotoxic_effector,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Terminal_effector_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Exhaustion_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Progenitor_exhaustion_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Terminal_exhaustion_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Resident_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Early_activation,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Cycling,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,IFN_response,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Naive_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Central_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,GZMK_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Cytotoxic_effector,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Terminal_effector_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Exhaustion_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Progenitor_exhaustion_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Terminal_exhaustion_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Resident_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Early_activation,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Cycling,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,IFN_response,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Cytotoxic_effector,tested,,-2.083333333333333,0.0,2.083333333333333,0.6855537774221514,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,IFN_response,tested,,2.0833333333333335,6.25,4.166666666666666,2.750133360005335,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Central_memory_like,tested,,-1.1976047904191618,0.0,1.1976047904191618,-0.12852869975192646,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,GZMK_memory_like,tested,,-1.1976047904191618,0.0,1.1976047904191618,-0.12852869975192646,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Cytotoxic_effector,tested,,-3.592814371257485,0.0,3.592814371257485,0.345473286274021,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Resident_memory_like,tested,,-0.5988023952095809,0.0,0.5988023952095809,0.5777053614315676,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,IFN_response,tested,,2.956586826347305,6.25,3.293413173652695,1.0673616759279998,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Cytotoxic_effector,tested,,-3.0303030303030303,0.0,3.0303030303030303,1.9217479859608282,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,IFN_response,tested,,-6.0606060606060606,0.0,6.0606060606060606,-1.108555044342202,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,GZMK_memory_like,tested,,-0.9523809523809524,0.0,0.9523809523809524,-0.02786271540022298,1.0,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Early_activation,tested,,-0.9523809523809524,0.0,0.9523809523809524,-0.02786271540022298,1.0,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Cycling,tested,,-0.9523809523809524,0.0,0.9523809523809524,-0.02786271540022298,1.0,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,IFN_response,tested,,1.8253968253968251,2.7777777777777777,0.9523809523809524,-0.24301685733972211,0.7996,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,GZMK_memory_like,tested,,-0.3115264797507788,0.0,0.3115264797507788,-0.056298902563482585,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Early_activation,tested,,-0.3115264797507788,0.0,0.3115264797507788,-0.056298902563482585,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Cycling,tested,,-0.3115264797507788,0.0,0.3115264797507788,-0.056298902563482585,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,IFN_response,tested,,1.8431983385254411,2.7777777777777777,0.9345794392523363,-0.4569397784022017,0.4808,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,GZMK_memory_like,tested,,-1.3333333333333335,0.0,1.3333333333333335,-0.8226075322591403,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Early_activation,tested,,-1.3333333333333335,0.0,1.3333333333333335,-0.8226075322591403,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Cycling,tested,,-1.3333333333333335,0.0,1.3333333333333335,-0.8226075322591403,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,IFN_response,tested,,1.8924731182795695,3.225806451612903,1.3333333333333335,-0.6392676384739316,0.812,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Naive_like,tested,,1.2037037037037033,3.7037037037037033,2.5,2.8902817600557142,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Central_memory_like,tested,,6.157407407407407,7.4074074074074066,1.25,7.148346335933852,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,GZMK_memory_like,tested,,1.157407407407407,7.4074074074074066,6.25,2.148346335933853,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Cytotoxic_effector,tested,,3.6111111111111107,11.11111111111111,7.5,6.60572855311803,0.9132,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Terminal_effector_like,tested,,3.7037037037037033,3.7037037037037033,0.0,1.7991190830758739,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Exhaustion_supported,tested,,3.657407407407407,7.4074074074074066,3.75,6.652024849414326,0.9132,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Terminal_exhaustion_like,tested,,1.2037037037037033,3.7037037037037033,2.5,2.194642632230149,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Resident_memory_like,tested,,13.564814814814813,14.814814814814813,1.25,1.9906481296259244,0.0576,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Cycling,tested,,-1.2962962962962967,3.7037037037037033,5.0,1.0988030939521232,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,IFN_response,tested,,-0.04629629629629636,3.7037037037037033,3.75,0.9446426322301493,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Naive_like,tested,,2.3674008083807636,3.7037037037037033,1.3363028953229399,1.0455031697587556,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Central_memory_like,tested,,5.402953064422997,7.4074074074074066,2.0044543429844097,2.9186023627228117,0.8324,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,GZMK_memory_like,tested,,4.957518765982018,7.4074074074074066,2.4498886414253898,2.3671334943388906,0.8152,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Cytotoxic_effector,tested,,7.9930710220242505,11.11111111111111,3.11804008908686,2.4093691129548187,0.3592,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Terminal_effector_like,tested,,2.5901179576012536,3.7037037037037033,1.1135857461024499,-0.18013336231545582,0.54,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Exhaustion_supported,tested,,4.957518765982018,7.4074074074074066,2.4498886414253898,3.429050076285982,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Terminal_exhaustion_like,tested,,1.9219665099397838,3.7037037037037033,1.7817371937639197,1.8764109169272603,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Resident_memory_like,tested,,12.587643322609916,14.814814814814813,2.2271714922048997,-0.4844555482077197,0.0028,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Cycling,tested,,0.5856636146168437,3.7037037037037033,3.11804008908686,0.7144759810660471,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,IFN_response,tested,,0.8083807638373339,3.7037037037037033,2.89532293986637,1.172825507937519,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Naive_like,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Terminal_effector_like,tested,,7.6923076923076925,7.6923076923076925,0.0,2.3063747364857585,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Exhaustion_supported,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Terminal_exhaustion_like,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Cycling,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,IFN_response,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Cycling,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,IFN_response,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Cycling,not_testable,constant conditional null,-0.49261083743842365,0.0,0.49261083743842365,-0.49261083743842354,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,IFN_response,not_testable,constant conditional null,-0.49261083743842365,0.0,0.49261083743842365,-0.49261083743842354,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Cycling,not_testable,constant conditional null,-5.88235294117647,0.0,5.88235294117647,-5.882352941176469,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,IFN_response,not_testable,constant conditional null,-5.88235294117647,0.0,5.88235294117647,-5.882352941176469,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,GZMK_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Cytotoxic_effector,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Terminal_effector_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Exhaustion_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Progenitor_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Terminal_exhaustion_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Resident_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Early_activation,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Cycling,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,IFN_response,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
