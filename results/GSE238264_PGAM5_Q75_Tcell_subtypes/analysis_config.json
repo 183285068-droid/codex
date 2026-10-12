@@ -1,0 +1,82 @@
+{
+  "PGAM5_Q": 0.75,
+  "source": "frozen original baseline",
+  "panels": {
+    "CD8_identity": [
+      "CD8A",
+      "CD8B"
+    ],
+    "CD4_identity": [
+      "CD4"
+    ],
+    "Treg_program": [
+      "FOXP3",
+      "IKZF2",
+      "IL2RA",
+      "CTLA4"
+    ],
+    "Exhaustion": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activation": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Effector": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "Naive_memory": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "IL7R"
+    ],
+    "Exhaustion_sensitivity": [
+      "PDCD1",
+      "LAG3",
+      "TOX",
+      "CXCL13",
+      "HAVCR2",
+      "ENTPD1"
+    ]
+  },
+  "states": {
+    "CD8_exhaustion": "Exhaustion",
+    "CD8_activation": "Activation",
+    "CD8_effector": "Effector",
+    "CD8_naive_memory": "Naive_memory"
+  },
+  "types": [
+    "All_T",
+    "All_CD8",
+    "CD8_exhaustion",
+    "CD8_activation",
+    "CD8_effector",
+    "CD8_naive_memory",
+    "CD4_other",
+    "Treg",
+    "T_unresolved"
+  ],
+  "states_overlap": true,
+  "Treg_FOXP3_required": true,
+  "statistics": "7*(9 coverage+4 continuous CD8 programs)=91 jointly corrected planned tests",
+  "seed": 238264751,
+  "permutations": 4999,
+  "LR": "22 resource-defined pairs, descriptive only; no LIANA algorithm",
+  "minimum_sources_per_group": 3
+}

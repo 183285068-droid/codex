@@ -1,0 +1,44 @@
+[
+  {
+    "sample": "HCC1R",
+    "official_hires_scale": 0.99304867,
+    "spot_radius": 8.161885577334603,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC2R",
+    "official_hires_scale": 0.48355898,
+    "spot_radius": 8.023624486555947,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC3R",
+    "official_hires_scale": 0.98280096,
+    "spot_radius": 8.071500978943146,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC4R",
+    "official_hires_scale": 0.9910803,
+    "spot_radius": 8.1381300679281,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC5NR",
+    "official_hires_scale": 0.999001,
+    "spot_radius": 8.212440794240848,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC6NR",
+    "official_hires_scale": 0.48626307,
+    "spot_radius": 8.071691486952096,
+    "all_coordinates_inside_image": true
+  },
+  {
+    "sample": "HCC7NR",
+    "official_hires_scale": 0.47393364,
+    "spot_radius": 7.860463073171823,
+    "all_coordinates_inside_image": true
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC1R_spot_annotations.csv.gz",
+    "bytes": 274475,
+    "sha256": "55744a305f4ecace541572acf58a8ded579c6efd014f569bc3f0723c1783b0c4"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC1R_spatial_edges.csv.gz",
+    "bytes": 105713,
+    "sha256": "a3e57b6bba75b1d796b7a15458db24ed3a789916942190b85766db36a00df234"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC1R/filtered_feature_bc_matrix.h5",
+    "bytes": 6631360,
+    "sha256": "352f83655b9d5fec47f614e55b5d5106da163f339d4235cecd0f5f3cbcdff682"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC2R_spot_annotations.csv.gz",
+    "bytes": 124350,
+    "sha256": "ae65ea9cfa1906031beee188f7b64ee0fa1b2a8989c6a7f858266580a77b4b5d"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC2R_spatial_edges.csv.gz",
+    "bytes": 37651,
+    "sha256": "e5de0e5b1fd1df85e9cf2becd16fa4834fed04d81e1201cf8fe5d8bae4e14724"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC2R/filtered_feature_bc_matrix.h5",
+    "bytes": 2469891,
+    "sha256": "288a3cfcdd83e5a951303be258e39cbd479a4764132db00f78f9daecf91150a4"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC3R_spot_annotations.csv.gz",
+    "bytes": 158235,
+    "sha256": "d55f8785ea2af47a7ca2cf998624864fba77765e63c048f2f746604c4c1033b1"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC3R_spatial_edges.csv.gz",
+    "bytes": 68073,
+    "sha256": "04d894979e53406a555fa317828664ddf388d858446752047719648c4d520771"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC3R/filtered_feature_bc_matrix.h5",
+    "bytes": 5179448,
+    "sha256": "e4fe786bc12e2f3923aedf6bfd0d05feb3befe2741cc2e976bf4c7f0b6190d11"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC4R_spot_annotations.csv.gz",
+    "bytes": 351877,
+    "sha256": "6cd783934e33c4b6d5b97cd51fae9fd36e0b8ebfde6a271cbb292ba435b9d7b9"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC4R_spatial_edges.csv.gz",
+    "bytes": 122675,
+    "sha256": "056f379858e875f66f0ac6d4367a2d0e621344b3cda196e629d50b9165fbf34d"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC4R/filtered_feature_bc_matrix.h5",
+    "bytes": 17522615,
+    "sha256": "1531b0444131327a44ad9e116d97991b0dfd32f4878c5a9f03cd7b9a2f80fe5f"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC5NR_spot_annotations.csv.gz",
+    "bytes": 79622,
+    "sha256": "a691065889dddbbdac5cc90948b781a74a4d931d89bd3b89e94f9061efd04788"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC5NR_spatial_edges.csv.gz",
+    "bytes": 43364,
+    "sha256": "d99a044b7be3fc10adf5e4228540f98f7bf71e9b48d0fc19a38aea9fa6cca268"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC5NR/filtered_feature_bc_matrix.h5",
+    "bytes": 3618607,
+    "sha256": "c09d5deb658047c6b316f07e0797f03171cb28a7513c765d3f4d7d0427e00d70"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC6NR_spot_annotations.csv.gz",
+    "bytes": 224473,
+    "sha256": "10e8925bd7e9eecfa565a6857e530f00b33eab3577b5ab46bf3fae36ba8ed227"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC6NR_spatial_edges.csv.gz",
+    "bytes": 103943,
+    "sha256": "a8c5e34c7bedbdcc871645fe56bb802ef2fff5d0d8b724ec086f983a90f4c0e5"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC6NR/filtered_feature_bc_matrix.h5",
+    "bytes": 15967949,
+    "sha256": "3dfce5c125ad3765fd71257f88946fbf6c95d1f22ffab8f74c33c7d04c159c0c"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC7NR_spot_annotations.csv.gz",
+    "bytes": 165709,
+    "sha256": "4868c94d382feaf99640df3579cc2ee38c015e22018d0d507ea778c8f954454b"
+  },
+  {
+    "path": "/workspace/codex/results/GSE238264_PGAM5_spatial_response/HCC7NR_spatial_edges.csv.gz",
+    "bytes": 94666,
+    "sha256": "f25b837c62b31f9e60b06d6e63f198c9814d961a95464cf1f462e047c7942cdc"
+  },
+  {
+    "path": "/workspace/scratch/GSE238264/inputs/HCC7NR/filtered_feature_bc_matrix.h5",
+    "bytes": 7905278,
+    "sha256": "49c3b817280f66ece034858cba9b45c17bd81132cf8b552f04139fd20d01927f"
+  }
+]

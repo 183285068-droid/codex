@@ -1,0 +1,15 @@
+sample,kind,n_eligible_sources,n_high,n_other_detected,n_strata,movable_sources,distinct_null_assignments,configuration_space,null_rows,mode
+HCC1R,T_subtype_coverage,32,8,24,15,13,168,168,168,exact_conditional_enumeration
+HCC1R,CD8_neighbor_programs,9,2,7,9,0,1,1,1,exact_conditional_enumeration
+HCC2R,T_subtype_coverage,3,1,2,3,0,1,1,1,exact_conditional_enumeration
+HCC2R,CD8_neighbor_programs,2,0,2,2,0,1,1,1,exact_conditional_enumeration
+HCC3R,T_subtype_coverage,39,10,29,14,8,12,12,12,exact_conditional_enumeration
+HCC3R,CD8_neighbor_programs,2,1,1,2,0,1,1,1,exact_conditional_enumeration
+HCC4R,T_subtype_coverage,90,23,67,14,51,4999,719147520,4999,Monte_Carlo_conditional_permutation
+HCC4R,CD8_neighbor_programs,17,6,11,8,2,2,2,2,exact_conditional_enumeration
+HCC5NR,T_subtype_coverage,15,4,11,11,2,2,2,2,exact_conditional_enumeration
+HCC5NR,CD8_neighbor_programs,0,0,0,0,0,1,1,1,exact_conditional_enumeration
+HCC6NR,T_subtype_coverage,144,36,108,17,105,4999,294172246716713164800,4999,Monte_Carlo_conditional_permutation
+HCC6NR,CD8_neighbor_programs,0,0,0,0,0,1,1,1,exact_conditional_enumeration
+HCC7NR,T_subtype_coverage,7,2,5,7,0,1,1,1,exact_conditional_enumeration
+HCC7NR,CD8_neighbor_programs,0,0,0,0,0,1,1,1,exact_conditional_enumeration

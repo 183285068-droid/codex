@@ -1,0 +1,92 @@
+sample,kind,feature,n_high,n_other_detected,mean_high,mean_other_detected,delta_high_minus_other,conditional_null_expected_delta,delta_minus_conditional_expectation,spatial_conditional_p,status,BH_q_91_planned
+HCC1R,T_subtype_coverage,All_T,8,24,0.16666666666666666,0.2902777777777778,-0.12361111111111114,0.02519841269841272,-0.14880952380952386,0.05357142857142857,tested,1.0
+HCC1R,T_subtype_coverage,All_CD8,8,24,0.041666666666666664,0.05694444444444444,-0.015277777777777772,-0.007341269841269843,-0.007936507936507929,1.0,tested,1.0
+HCC1R,T_subtype_coverage,CD8_exhaustion,8,24,0.0,0.006944444444444444,-0.006944444444444444,0.006944444444444444,-0.013888888888888888,1.0,tested,1.0
+HCC1R,T_subtype_coverage,CD8_activation,8,24,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC1R,T_subtype_coverage,CD8_effector,8,24,0.0,0.008333333333333333,-0.008333333333333333,-0.008333333333333333,0.0,1.0,tested,1.0
+HCC1R,T_subtype_coverage,CD8_naive_memory,8,24,0.0,0.020833333333333332,-0.020833333333333332,0.006944444444444444,-0.027777777777777776,0.5,tested,1.0
+HCC1R,T_subtype_coverage,CD4_other,8,24,0.041666666666666664,0.07916666666666666,-0.03750000000000001,0.006150793650793643,-0.043650793650793655,0.13095238095238096,tested,1.0
+HCC1R,T_subtype_coverage,Treg,8,24,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC1R,T_subtype_coverage,T_unresolved,8,24,0.08333333333333333,0.15416666666666667,-0.07083333333333332,0.02638888888888885,-0.09722222222222217,0.09523809523809523,tested,1.0
+HCC1R,CD8_neighbor_programs,Exhaustion,2,7,,,,,,,not_testable: no exchangeable labels,
+HCC1R,CD8_neighbor_programs,Activation,2,7,,,,,,,not_testable: no exchangeable labels,
+HCC1R,CD8_neighbor_programs,Effector,2,7,,,,,,,not_testable: no exchangeable labels,
+HCC1R,CD8_neighbor_programs,Naive_memory,2,7,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,All_T,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,All_CD8,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,CD8_exhaustion,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,CD8_activation,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,CD8_effector,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,CD8_naive_memory,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,CD4_other,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,Treg,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,T_subtype_coverage,T_unresolved,1,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,CD8_neighbor_programs,Exhaustion,0,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,CD8_neighbor_programs,Activation,0,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,CD8_neighbor_programs,Effector,0,2,,,,,,,not_testable: no exchangeable labels,
+HCC2R,CD8_neighbor_programs,Naive_memory,0,2,,,,,,,not_testable: no exchangeable labels,
+HCC3R,T_subtype_coverage,All_T,10,29,0.07499999999999998,0.14770114942528736,-0.07270114942528733,-0.07083333333333332,-0.0018678160919540082,1.0,tested,1.0
+HCC3R,T_subtype_coverage,All_CD8,10,29,0.016666666666666666,0.011494252873563218,0.005172413793103448,0.005172413793103448,0.0,1.0,tested,1.0
+HCC3R,T_subtype_coverage,CD8_exhaustion,10,29,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC3R,T_subtype_coverage,CD8_activation,10,29,0.0,0.005747126436781609,-0.005747126436781609,-0.005747126436781609,0.0,1.0,tested,1.0
+HCC3R,T_subtype_coverage,CD8_effector,10,29,0.0,0.011494252873563218,-0.011494252873563218,-0.011494252873563218,0.0,1.0,tested,1.0
+HCC3R,T_subtype_coverage,CD8_naive_memory,10,29,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC3R,T_subtype_coverage,CD4_other,10,29,0.0,0.05,-0.05,-0.03879310344827586,-0.01120689655172414,1.0,tested,1.0
+HCC3R,T_subtype_coverage,Treg,10,29,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC3R,T_subtype_coverage,T_unresolved,10,29,0.05833333333333333,0.08620689655172414,-0.027873563218390816,-0.03721264367816092,0.009339080459770104,0.9166666666666666,tested,1.0
+HCC3R,CD8_neighbor_programs,Exhaustion,1,1,,,,,,,not_testable: no exchangeable labels,
+HCC3R,CD8_neighbor_programs,Activation,1,1,,,,,,,not_testable: no exchangeable labels,
+HCC3R,CD8_neighbor_programs,Effector,1,1,,,,,,,not_testable: no exchangeable labels,
+HCC3R,CD8_neighbor_programs,Naive_memory,1,1,,,,,,,not_testable: no exchangeable labels,
+HCC4R,T_subtype_coverage,All_T,23,67,0.6333333333333334,0.395771144278607,0.2375621890547262,0.20255091004604286,0.03501127900868334,0.5076,tested,1.0
+HCC4R,T_subtype_coverage,All_CD8,23,67,0.05072463768115942,0.029850746268656712,0.0208738914125027,0.03487608541145205,-0.014002193998949346,0.5254,tested,1.0
+HCC4R,T_subtype_coverage,CD8_exhaustion,23,67,0.014492753623188404,0.009950248756218905,0.004542504866969499,0.008173418621179814,-0.0036309137542103152,1.0,tested,1.0
+HCC4R,T_subtype_coverage,CD8_activation,23,67,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC4R,T_subtype_coverage,CD8_effector,23,67,0.0,0.007462686567164179,-0.007462686567164179,0.001035196687370601,-0.00849788325453478,0.5334,tested,1.0
+HCC4R,T_subtype_coverage,CD8_naive_memory,23,67,0.007246376811594202,0.0024875621890547263,0.004758814622539476,0.011711628194431568,-0.006952813571892092,0.2864,tested,1.0
+HCC4R,T_subtype_coverage,CD4_other,23,67,0.28550724637681163,0.19999999999999996,0.08550724637681159,0.024534934025524563,0.06097231235128703,0.1194,tested,1.0
+HCC4R,T_subtype_coverage,Treg,23,67,0.007246376811594202,0.004975124378109453,0.0022712524334847495,0.0008806897191063322,0.0013905627143784172,1.0,tested,1.0
+HCC4R,T_subtype_coverage,T_unresolved,23,67,0.28985507246376807,0.1609452736318408,0.12890979883192735,0.14225920088996005,-0.0133494020580327,0.72,tested,1.0
+HCC4R,CD8_neighbor_programs,Exhaustion,6,11,0.08943729045129924,0.11299891464206592,-0.023561624190766683,0.010178359628980033,-0.033739983819746716,1.0,tested,1.0
+HCC4R,CD8_neighbor_programs,Activation,6,11,0.07788737090494446,0.052354929508879426,0.025532441396065066,0.025532441396065066,0.0,1.0,tested,1.0
+HCC4R,CD8_neighbor_programs,Effector,6,11,0.11766124952093023,0.15879347634741878,-0.04113222682648855,-5.026593918794342e-05,-0.04108196088730061,1.0,tested,1.0
+HCC4R,CD8_neighbor_programs,Naive_memory,6,11,0.25282930615766147,0.12456660841957569,0.12826269773808585,0.09167810599855933,0.03658459173952652,1.0,tested,1.0
+HCC5NR,T_subtype_coverage,All_T,4,11,0.125,0.09242424242424242,0.03257575757575758,0.004166666666666652,0.028409090909090925,1.0,tested,1.0
+HCC5NR,T_subtype_coverage,All_CD8,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,CD8_exhaustion,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,CD8_activation,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,CD8_effector,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,CD8_naive_memory,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,CD4_other,4,11,0.041666666666666664,0.022727272727272728,0.018939393939393936,0.018939393939393936,0.0,1.0,tested,1.0
+HCC5NR,T_subtype_coverage,Treg,4,11,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC5NR,T_subtype_coverage,T_unresolved,4,11,0.08333333333333333,0.06969696969696969,0.013636363636363641,-0.01477272727272727,0.02840909090909091,1.0,tested,1.0
+HCC5NR,CD8_neighbor_programs,Exhaustion,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC5NR,CD8_neighbor_programs,Activation,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC5NR,CD8_neighbor_programs,Effector,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC5NR,CD8_neighbor_programs,Naive_memory,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC6NR,T_subtype_coverage,All_T,36,108,0.004629629629629629,0.006481481481481481,-0.001851851851851852,-0.0007642563198118763,-0.0010875955320399757,1.0,tested,1.0
+HCC6NR,T_subtype_coverage,All_CD8,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,CD8_exhaustion,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,CD8_activation,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,CD8_effector,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,CD8_naive_memory,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,CD4_other,36,108,0.0,0.001851851851851852,-0.001851851851851852,-0.001851851851851852,0.0,1.0,tested,1.0
+HCC6NR,T_subtype_coverage,Treg,36,108,0.0,0.0,0.0,0.0,0.0,1.0,all scores zero,1.0
+HCC6NR,T_subtype_coverage,T_unresolved,36,108,0.004629629629629629,0.004629629629629629,0.0,0.0010875955320399765,-0.0010875955320399765,1.0,tested,1.0
+HCC6NR,CD8_neighbor_programs,Exhaustion,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC6NR,CD8_neighbor_programs,Activation,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC6NR,CD8_neighbor_programs,Effector,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC6NR,CD8_neighbor_programs,Naive_memory,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,All_T,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,All_CD8,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,CD8_exhaustion,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,CD8_activation,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,CD8_effector,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,CD8_naive_memory,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,CD4_other,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,Treg,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,T_subtype_coverage,T_unresolved,2,5,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,CD8_neighbor_programs,Exhaustion,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,CD8_neighbor_programs,Activation,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,CD8_neighbor_programs,Effector,0,0,,,,,,,not_testable: no exchangeable labels,
+HCC7NR,CD8_neighbor_programs,Naive_memory,0,0,,,,,,,not_testable: no exchangeable labels,
