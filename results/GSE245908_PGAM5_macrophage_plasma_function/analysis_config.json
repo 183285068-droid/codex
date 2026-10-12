@@ -1,0 +1,178 @@
+{
+  "seed": 245908105,
+  "permutations": 4999,
+  "programs": {
+    "Plasma_differentiation": [
+      "PRDM1",
+      "XBP1",
+      "IRF4",
+      "TNFRSF17"
+    ],
+    "Secretory_ER": [
+      "HSPA5",
+      "HSP90B1",
+      "SEC11C",
+      "SSR1",
+      "SSR2",
+      "SEC61A1",
+      "FKBP11",
+      "P4HB"
+    ],
+    "UPR_stress": [
+      "ERN1",
+      "ATF4",
+      "ATF6",
+      "DDIT3",
+      "DNAJB9",
+      "HERPUD1"
+    ],
+    "Antibody_heavy_chain": [
+      "IGHG1",
+      "IGHG2",
+      "IGHG3",
+      "IGHG4",
+      "IGHA1",
+      "IGHA2",
+      "IGHM",
+      "IGHD",
+      "IGHE"
+    ],
+    "MHCII_presentation": [
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CD74"
+    ],
+    "Immunoregulation": [
+      "IL10",
+      "TGFB1",
+      "CD274",
+      "PDCD1LG2"
+    ],
+    "Survival": [
+      "MCL1",
+      "BCL2",
+      "BCL2L1",
+      "TNFRSF17"
+    ],
+    "Trafficking_adhesion": [
+      "CXCR4",
+      "ITGA4",
+      "ITGB1",
+      "CD44"
+    ],
+    "Cycling": [
+      "MKI67",
+      "TOP2A",
+      "UBE2C",
+      "CENPF",
+      "BIRC5",
+      "PCNA"
+    ],
+    "Hypoxia": [
+      "CA9",
+      "VEGFA",
+      "SLC2A1",
+      "LDHA",
+      "BNIP3",
+      "ADM"
+    ],
+    "IFN_response": [
+      "STAT1",
+      "ISG15",
+      "IFIT1",
+      "IFIT2",
+      "IFIT3",
+      "MX1",
+      "IFI6",
+      "OAS1"
+    ]
+  },
+  "primary": "high_only_vs_other_detected_only",
+  "comparisons": [
+    "high_only_vs_other_detected_only",
+    "high_any_vs_no_high",
+    "strict_high_only_vs_other_detected_only"
+  ],
+  "planned_primary_tests": 22,
+  "planned_joint_tests": 66,
+  "statistical_unit": "plasma-related Visium target spot, not plasma cell",
+  "covariates": {
+    "Plasma_identity": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "IGKC",
+      "DERL3"
+    ],
+    "Macrophage": [
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CSF1R",
+      "MERTK",
+      "MSR1"
+    ],
+    "T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "B": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Hepatocyte": [
+      "ALB",
+      "APOA1",
+      "APOA2",
+      "TTR",
+      "ASGR1",
+      "CYP2E1"
+    ],
+    "Epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT19"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "CDH5",
+      "KDR",
+      "EMCN"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ]
+  },
+  "other_covariates": [
+    "log UMI",
+    "MT percent",
+    "3x3 spatial tile"
+  ],
+  "adjusted_effect": "difference in mean nuisance-regression residual scores; regression fitted to all fixed plasma-related targets without group label",
+  "null": "permute source high labels among PGAM5-detected Mac-RNA sources inside 3x3 tile x UMI halves x Mac-core halves, then recompute target adjacency groups on the SAME graph",
+  "minimum_groups": [
+    5,
+    10
+  ],
+  "minimum_valid_permutations": 1000,
+  "invalid_permutations": "group sizes below minimum => NaN; conditional inference given analyzable groups, valid denominator reported",
+  "strict_gate": "original plasma gate plus MZB1,JCHAIN,DERL3 all raw count>0",
+  "causal_claim": false
+}

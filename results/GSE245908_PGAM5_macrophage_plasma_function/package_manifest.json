@@ -1,0 +1,237 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "CHC20_high_any_vs_no_high_audit.npz",
+    "bytes": 266906,
+    "sha256": "858048e0530ce8877d7733aed142266be15dcd89f480d5e0230ad95547bee3ab"
+  },
+  {
+    "path": "CHC20_high_only_vs_other_detected_only_audit.npz",
+    "bytes": 267114,
+    "sha256": "c347db5a9048f45f12834aa6c8f9ccae77abe697d517cd7acd2387009f3851ef"
+  },
+  {
+    "path": "CHC20_plasma_target_scores.csv.gz",
+    "bytes": 42305,
+    "sha256": "0d9f10f30a3af9506316680393e3dcbc906aa1ffb908dc90778026d6d50088d2"
+  },
+  {
+    "path": "CHC20_strict_high_only_vs_other_detected_only_audit.npz",
+    "bytes": 16414,
+    "sha256": "fbddebf116174658a65690cebc8839b9fc38255b078043be104c1da2bdcc2026"
+  },
+  {
+    "path": "CHC20_target_isotype_counts.csv.gz",
+    "bytes": 1304,
+    "sha256": "fd7dead454923b6ebf2ba4449d4d4f77fe287254fc1d237fbcdf6522fda2d279"
+  },
+  {
+    "path": "CHC23_high_any_vs_no_high_audit.npz",
+    "bytes": 29958,
+    "sha256": "bf32b0066e17b1e8cbb5b6cf5633d9427e77f76a0bc5ef30859dbe49b0ea2942"
+  },
+  {
+    "path": "CHC23_high_only_vs_other_detected_only_audit.npz",
+    "bytes": 29106,
+    "sha256": "74117541e6330f097194207eb7186fe30f5dacffe07ee35c7895016205384a0c"
+  },
+  {
+    "path": "CHC23_plasma_target_scores.csv.gz",
+    "bytes": 60066,
+    "sha256": "b385beeb47d8747375a63107af08f1694562fefeb8eff7f69be8a15363719f4f"
+  },
+  {
+    "path": "CHC23_strict_high_only_vs_other_detected_only_audit.npz",
+    "bytes": 17394,
+    "sha256": "d794fd6157c6ebd9d2d72968ec6a818787cdda2307b7077e452899b078c40e44"
+  },
+  {
+    "path": "CHC23_target_isotype_counts.csv.gz",
+    "bytes": 1820,
+    "sha256": "ef3d0c987d1f5a811c976971038e2a06618f228f1bf284b2d61b308ab7d2d718"
+  },
+  {
+    "path": "README.md",
+    "bytes": 10997,
+    "sha256": "3b8e3025260ea2bde5479efb2bfd00184cbb09bb94cae40909b6657fe3796bda"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 3281,
+    "sha256": "8b26ce94e24d3b59aa4769c57d5cdd5e1a68b80b0fd90a5da164af5757a45cab"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 11659,
+    "sha256": "3b54c4545cd9c4f3a019da22cc97335185b1ac305ebfcf71c4692faf9aeac19d"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 5901,
+    "sha256": "a8eca4813b57fbf5ee0c043819335f0da176d76f856f021bf6d12dd3f8bcb2ae"
+  },
+  {
+    "path": "audit_results.json",
+    "bytes": 84689,
+    "sha256": "9ffc1dc2cbe77ca6066dbf0b72447928ac0844aae32757d8fa8323348a62a9fe"
+  },
+  {
+    "path": "figures/CHC20_plasma_spatial_profiles.pdf",
+    "bytes": 406582,
+    "sha256": "73a55a552cd7f0e4871b20a7d2b166b96fef88a253d0d0ec97804b4b36a9641c"
+  },
+  {
+    "path": "figures/CHC20_plasma_spatial_profiles.png",
+    "bytes": 956643,
+    "sha256": "ed0ed40166e4ec1ce4ff7c22f73c895f2406c0ca00fd99169e55676a07b90d91"
+  },
+  {
+    "path": "figures/CHC23_plasma_spatial_profiles.pdf",
+    "bytes": 394892,
+    "sha256": "7971130768e73f1eb4f733b0c6a71cefd6cf8ba839921bb1394310ca31389403"
+  },
+  {
+    "path": "figures/CHC23_plasma_spatial_profiles.png",
+    "bytes": 921726,
+    "sha256": "07b0366bfb6334985ab8120564424515bd0b4ae557e4772efb1fe6ee520106e8"
+  },
+  {
+    "path": "figures/adjusted_program_contrasts.pdf",
+    "bytes": 21169,
+    "sha256": "529cc95f652ebc6d781ab3665205c73741f6c31b146c9c521fc47620c5deca4d"
+  },
+  {
+    "path": "figures/adjusted_program_contrasts.png",
+    "bytes": 146030,
+    "sha256": "8304ac588eb5052f04113c299c369c339bce36b30055f25b347930c45d12233b"
+  },
+  {
+    "path": "figures/functional_program_profiles.pdf",
+    "bytes": 17276,
+    "sha256": "5d5b5319aec9c788bd76a98aa38d793f8e01f6362296922f86198779985f120b"
+  },
+  {
+    "path": "figures/functional_program_profiles.png",
+    "bytes": 109839,
+    "sha256": "604daf6f6631f4b3b11649b4bdeb7e00065cf73ffb14d4409e8211d9f832a450"
+  },
+  {
+    "path": "figures/immunoglobulin_isotype_composition.pdf",
+    "bytes": 15777,
+    "sha256": "22bc1b3ff7a7062bb89320bf421e96c900992239425bca4c876cfa4852d22727"
+  },
+  {
+    "path": "figures/immunoglobulin_isotype_composition.png",
+    "bytes": 96696,
+    "sha256": "d5e0f725211c64117d0a9826779e8fec2f16a7d17f44cbf7a64c977eece3df09"
+  },
+  {
+    "path": "figures/isotype_count_concentration_sensitivity.pdf",
+    "bytes": 17776,
+    "sha256": "3f3b9c7976f8b64c0711a05e3e9071a8c4eb26206160db5d159b0c859dea75a1"
+  },
+  {
+    "path": "figures/isotype_count_concentration_sensitivity.png",
+    "bytes": 67531,
+    "sha256": "771c2e5400560d23e82835deb76468288a871870501dabb9e689b3484fb51f50"
+  },
+  {
+    "path": "figures/plasma_marker_profiles.pdf",
+    "bytes": 25316,
+    "sha256": "0c4e673344b66e04664e5a2de6f1ab57c16cdbb4d44441417a325d4378025a57"
+  },
+  {
+    "path": "figures/plasma_marker_profiles.png",
+    "bytes": 110752,
+    "sha256": "ab97cc49e875a282290fc3bb19679365cb0391a0ea16f6fb41ccb3997b1faeeb"
+  },
+  {
+    "path": "figures/target_group_and_strict_support.pdf",
+    "bytes": 13870,
+    "sha256": "7bb9cc444d7621e3c42e1ad08ce48917c52184597b83a073bfee33550627f4ea"
+  },
+  {
+    "path": "figures/target_group_and_strict_support.png",
+    "bytes": 66143,
+    "sha256": "d8f41e2a616d551cff8f8517e4875c0a9b61bbb2636f62485130ac720791c054"
+  },
+  {
+    "path": "immunoglobulin_isotype_counts.csv",
+    "bytes": 2093,
+    "sha256": "fd6ace10363919d6d1a15843f3d746546d68e3d30a9543e701f4619a7fa3fc78"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 343,
+    "sha256": "85523b3068a173fd26e507e4210183ee5d38b1e0d281a4b3a798c97d155867be"
+  },
+  {
+    "path": "inputs/CHC20_functional_marker_inputs.h5ad",
+    "bytes": 2238233,
+    "sha256": "44c1d713db389792b1d74fbc4ef134ffcb1c772c256ef2872dd4e35fec4e682f"
+  },
+  {
+    "path": "inputs/CHC23_functional_marker_inputs.h5ad",
+    "bytes": 1846391,
+    "sha256": "d657155cfe5e10a0923741f09876e0ce06a91dacb9f94129e836d63a8bcae1e5"
+  },
+  {
+    "path": "isotype_count_concentration.csv",
+    "bytes": 447,
+    "sha256": "bfa14a5e9b41c59129036800512161d59b32f45cb56c005b35f1286b45022f23"
+  },
+  {
+    "path": "isotype_leave_largest_out.csv",
+    "bytes": 3061,
+    "sha256": "759ccd2a2848af8a2785dc2d85f369fe20b7f6e30c530913b7d672dd8b7f6542"
+  },
+  {
+    "path": "isotype_sensitivity.py",
+    "bytes": 3069,
+    "sha256": "d2b4de27940a7af94e5088318293698b98cdca286dfccd4b83a2351620d29d9d"
+  },
+  {
+    "path": "marker_gene_descriptive_profiles.csv",
+    "bytes": 10720,
+    "sha256": "537d08def3622bdf4321e06f6d0c9bd8aec8fda936814efb14e93032df8a12c3"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 937,
+    "sha256": "d81f3071d35979a3eeed8e3c53af36027c01b794c374db8bfc6116cfde4f875b"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 6791,
+    "sha256": "c209ca935ce13c15527df4fa7c0cb40652892eb9de738c270ed41f1fb6a9f6f3"
+  },
+  {
+    "path": "program_group_profiles.csv",
+    "bytes": 6615,
+    "sha256": "4f277917d6c84bb9dbea88094445e7e836964c33ada1bcd42ef9140a7f072478"
+  },
+  {
+    "path": "program_statistics.csv",
+    "bytes": 13271,
+    "sha256": "509ed383818640f51aa06b477d7d33df02df1e0525aa2285a488db773f65eeeb"
+  },
+  {
+    "path": "raw_source_manifest.json",
+    "bytes": 483,
+    "sha256": "9e5dd5ba93fc6eb35cb0e38680699d93427d0ec302877cb3059cc3f9e9c8ecbb"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 89,
+    "sha256": "13e69cd7643fd7ae96acf97b5a831f04cebfa1e8c965bf7873169f0fb20da867"
+  },
+  {
+    "path": "target_group_summary.csv",
+    "bytes": 198,
+    "sha256": "2087ef92899902d383f5cf581371415cb8667391883675e07a9db3a61bfe0496"
+  }
+]

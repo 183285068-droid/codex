@@ -1,0 +1,12 @@
+[
+  {
+    "path": "inputs/CHC20_functional_marker_inputs.h5ad",
+    "bytes": 2238233,
+    "sha256": "44c1d713db389792b1d74fbc4ef134ffcb1c772c256ef2872dd4e35fec4e682f"
+  },
+  {
+    "path": "inputs/CHC23_functional_marker_inputs.h5ad",
+    "bytes": 1846391,
+    "sha256": "d657155cfe5e10a0923741f09876e0ce06a91dacb9f94129e836d63a8bcae1e5"
+  }
+]

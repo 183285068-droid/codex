@@ -1,0 +1,2902 @@
+{
+  "checks": 724,
+  "passed": 724,
+  "details": [
+    {
+      "check": "inputs/CHC20_functional_marker_inputs.h5ad SHA",
+      "passed": true
+    },
+    {
+      "check": "inputs/CHC23_functional_marker_inputs.h5ad SHA",
+      "passed": true
+    },
+    {
+      "check": "CHC20 original 36601 feature library",
+      "passed": true
+    },
+    {
+      "check": "CHC20 expanded raw gene counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20 full-library normalized values",
+      "passed": true
+    },
+    {
+      "check": "CHC20 independent hex graph",
+      "passed": true
+    },
+    {
+      "check": "CHC20 explicit high neighbors",
+      "passed": true
+    },
+    {
+      "check": "CHC20 explicit other neighbors",
+      "passed": true
+    },
+    {
+      "check": "CHC20 strict plasma",
+      "passed": true
+    },
+    {
+      "check": "CHC20 four target groups",
+      "passed": true
+    },
+    {
+      "check": "CHC20Plasma_differentiation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Secretory_ER program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20UPR_stress program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Antibody_heavy_chain program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20MHCII_presentation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Immunoregulation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Survival program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Trafficking_adhesion program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Cycling program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20Hypoxia program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20IFN_response program score",
+      "passed": true
+    },
+    {
+      "check": "CHC20High_onlyIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20High_onlyIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20High_onlyIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20High_onlyIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20High_onlyIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Shared_high_otherIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Shared_high_otherIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Shared_high_otherIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Shared_high_otherIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Shared_high_otherIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Other_detected_onlyIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Other_detected_onlyIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Other_detected_onlyIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Other_detected_onlyIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20Other_detected_onlyIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20No_detected_mac_neighborIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20No_detected_mac_neighborIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20No_detected_mac_neighborIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20No_detected_mac_neighborIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20No_detected_mac_neighborIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only30 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only31 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only32 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only33 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_only34 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyPlasma_differentiation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySecretory_ER adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyUPR_stress adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyAntibody_heavy_chain adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyMHCII_presentation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyImmunoregulation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlySurvival adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyTrafficking_adhesion adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyCycling adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyHypoxia adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_only_vs_other_detected_onlyIFN_response adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high30 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high31 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high32 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high33 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_high34 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highPlasma_differentiation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSecretory_ER adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highUPR_stress adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highAntibody_heavy_chain adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highMHCII_presentation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highImmunoregulation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highSurvival adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highTrafficking_adhesion adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highCycling adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highHypoxia adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20high_any_vs_no_highIFN_response adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only30 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only31 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only32 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only33 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_only34 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlySurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC20strict_high_only_vs_other_detected_onlyIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23 original 36601 feature library",
+      "passed": true
+    },
+    {
+      "check": "CHC23 expanded raw gene counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23 full-library normalized values",
+      "passed": true
+    },
+    {
+      "check": "CHC23 independent hex graph",
+      "passed": true
+    },
+    {
+      "check": "CHC23 explicit high neighbors",
+      "passed": true
+    },
+    {
+      "check": "CHC23 explicit other neighbors",
+      "passed": true
+    },
+    {
+      "check": "CHC23 strict plasma",
+      "passed": true
+    },
+    {
+      "check": "CHC23 four target groups",
+      "passed": true
+    },
+    {
+      "check": "CHC23Plasma_differentiation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Secretory_ER program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23UPR_stress program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Antibody_heavy_chain program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23MHCII_presentation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Immunoregulation program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Survival program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Trafficking_adhesion program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Cycling program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23Hypoxia program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23IFN_response program score",
+      "passed": true
+    },
+    {
+      "check": "CHC23High_onlyIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23High_onlyIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23High_onlyIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23High_onlyIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23High_onlyIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Shared_high_otherIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Shared_high_otherIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Shared_high_otherIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Shared_high_otherIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Shared_high_otherIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Other_detected_onlyIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Other_detected_onlyIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Other_detected_onlyIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Other_detected_onlyIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23Other_detected_onlyIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23No_detected_mac_neighborIgG constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23No_detected_mac_neighborIgA constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23No_detected_mac_neighborIgM constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23No_detected_mac_neighborIgD constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23No_detected_mac_neighborIgE constant RNA counts",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_only29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyPlasma_differentiation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySecretory_ER adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyUPR_stress adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyAntibody_heavy_chain adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyMHCII_presentation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyImmunoregulation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlySurvival adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyTrafficking_adhesion adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyCycling adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyHypoxia adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_only_vs_other_detected_onlyIFN_response adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_high29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highPlasma_differentiation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSecretory_ER adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highUPR_stress adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highAntibody_heavy_chain adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highMHCII_presentation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highImmunoregulation adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highSurvival adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highTrafficking_adhesion adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highCycling adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highHypoxia adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response0 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response1 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response2 source-graph null",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23high_any_vs_no_highIFN_response adjusted effect/p",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only graph reassignment",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only0 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only1 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only2 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only3 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only4 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only5 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only6 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only7 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only8 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only9 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only10 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only11 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only12 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only13 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only14 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only15 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only16 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only17 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only18 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only19 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only20 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only21 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only22 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only23 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only24 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only25 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only26 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only27 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only28 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_only29 source group conservation",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyPlasma_differentiation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySecretory_ER valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyUPR_stress valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyAntibody_heavy_chain valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyMHCII_presentation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyImmunoregulation valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlySurvival valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyTrafficking_adhesion valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyCycling valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyHypoxia valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response full OLS residual",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response observed group sizes",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response0 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response1 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response2 invalid permutation missing",
+      "passed": true
+    },
+    {
+      "check": "CHC23strict_high_only_vs_other_detected_onlyIFN_response valid null denominator",
+      "passed": true
+    },
+    {
+      "check": "66 planned tests",
+      "passed": true
+    },
+    {
+      "check": "joint BH66",
+      "passed": true
+    },
+    {
+      "check": "primary BH22",
+      "passed": true
+    }
+  ]
+}

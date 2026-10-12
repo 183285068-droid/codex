@@ -1,0 +1,14 @@
+[
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC20/GSM7850822_CHC20_filtered_feature_bc_matrix.h5",
+    "bytes": 17482373,
+    "sha256": "8c353d5418afd752604d61a78c37c1d99aa0f3a32b964bf0d71a3e2c0e35b812",
+    "full_features": 36601
+  },
+  {
+    "path": "GSE245908_spatial_PGAM5/inputs/CHC23/GSM7850823_CHC23_filtered_feature_bc_matrix.h5",
+    "bytes": 13551984,
+    "sha256": "19edbb74e27912814ca894aadedc14e5ac870bc0ce67dfdc1f3ea0e87eb6a135",
+    "full_features": 36601
+  }
+]

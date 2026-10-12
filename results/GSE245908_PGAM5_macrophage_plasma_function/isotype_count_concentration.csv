@@ -1,0 +1,5 @@
+sample,group,n_targets,IgM_total,IgM_max,IgM_max_fraction,largest_total_barcode,largest_total_heavy_counts,total_heavy_counts,post_hoc_descriptive_only
+CHC20,High_only,11,1,1,1.0,AGACAGGCATCTCAGC-1,32,55,True
+CHC20,Other_detected_only,25,1099,1093,0.9945404913557779,CAATGGATCTCTACCA-1,1093,1951,True
+CHC23,High_only,14,10,3,0.3,AGGATCACGCGATCTG-1,76,179,True
+CHC23,Other_detected_only,22,81,39,0.48148148148148145,AGAACCCTCAATTGGG-1,273,495,True
