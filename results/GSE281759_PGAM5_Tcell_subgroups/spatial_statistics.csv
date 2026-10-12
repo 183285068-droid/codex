@@ -1,0 +1,193 @@
+gsm,sample,patient,tumor_status,comparison,n_high,n_comparator,target,status,reason,delta_pp,high_pct,comparator_pct,null_mean_pp,p,joint_q_432,primary_q_144,primary_only_q_135
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,All_T,tested,,1.455733808674986,85.29411764705883,83.83838383838383,7.65652833478163,0.4204,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Exhausted_T,tested,,2.9708853238265,35.294117647058826,32.323232323232325,7.406686328353013,0.7088,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Activated_T,not_testable,constant conditional null,-1.0101010101010102,0.0,1.0101010101010102,-1.0101010101010104,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Cytotoxic_T,tested,,-8.972073677956027,29.411764705882355,38.38383838383838,-1.283720796446871,0.3728,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,All_T,tested,,1.7735183961224863,85.29411764705883,83.52059925093633,6.854862931167415,0.4856,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Exhausted_T,tested,,1.2117206433135077,35.294117647058826,34.08239700374532,5.892447491481112,0.6924,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Activated_T,tested,,-0.7490636704119851,0.0,0.7490636704119851,0.0103854214332621,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Cytotoxic_T,tested,,-5.419695968274951,29.411764705882355,34.831460674157306,10.264088508382445,0.0632,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,All_T,tested,,-2.222222222222225,77.77777777777779,80.0,7.591851703674066,0.396,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Exhausted_T,tested,,6.111111111111112,27.77777777777778,21.666666666666668,11.093996577093195,0.8692,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Activated_T,not_testable,constant conditional null,-1.6666666666666667,0.0,1.6666666666666667,-1.6666666666666663,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Cytotoxic_T,tested,,-5.555555555555553,27.77777777777778,33.33333333333333,-6.637660865506433,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,All_T,tested,,-15.68627450980392,41.17647058823529,56.86274509803921,-14.159694684034848,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Exhausted_T,tested,,-11.76470588235294,0.0,11.76470588235294,-9.852166511733715,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Cytotoxic_T,tested,,-15.68627450980392,0.0,15.68627450980392,-13.747063138117822,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,All_T,tested,,-8.373078961314256,41.17647058823529,49.549549549549546,-14.210558062857936,0.828,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Exhausted_T,tested,,-10.81081081081081,0.0,10.81081081081081,-7.400865440708703,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Cytotoxic_T,tested,,-9.90990990990991,0.0,9.90990990990991,-8.728030714781008,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,All_T,tested,,-10.79545454545454,43.75,54.54545454545454,-8.753000600120023,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Exhausted_T,tested,,-11.363636363636363,0.0,11.363636363636363,-7.13722289912528,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Cytotoxic_T,tested,,-15.909090909090908,0.0,15.909090909090908,-13.713197184891524,1.0,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,All_T,tested,,-9.29411764705882,64.70588235294117,74.0,-0.618641375333887,0.51,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Exhausted_T,tested,,-0.1176470588235292,5.88235294117647,6.0,6.530082487085653,0.65,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Cytotoxic_T,tested,,-10.23529411764706,11.76470588235294,22.0,-5.027170139910335,0.826,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,All_T,tested,,-6.346749226006187,64.70588235294117,71.05263157894737,1.9025322092282253,0.64,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Exhausted_T,tested,,-0.6965944272445818,5.88235294117647,6.578947368421052,3.742668038251614,0.9132,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Cytotoxic_T,tested,,-5.340557275541796,11.76470588235294,17.105263157894736,-4.55868263435969,1.0,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,All_T,tested,,-10.83333333333334,66.66666666666666,77.5,-3.577882243115292,0.8852,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Exhausted_T,tested,,0.8333333333333331,8.333333333333332,7.5,7.978262319130492,0.8976,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Cytotoxic_T,tested,,-5.833333333333335,16.666666666666664,22.5,-2.0647462825898524,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,All_T,tested,,-5.701754385964919,84.21052631578947,89.91228070175438,-2.8159140600049835,0.564,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Exhausted_T,tested,,-6.140350877192985,36.84210526315789,42.98245614035088,-4.8379851408878265,0.9316,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Activated_T,tested,,-3.947368421052632,1.3157894736842104,5.263157894736842,-0.1813520598856613,0.2496,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Cytotoxic_T,tested,,2.631578947368424,44.73684210526316,42.10526315789473,-3.5345665624352947,0.362,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,All_T,tested,,-6.220095693779904,84.21052631578947,90.43062200956938,-3.270558417903676,0.5528,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Exhausted_T,tested,,-5.263157894736842,36.84210526315789,42.10526315789473,-3.842825981464236,0.9152,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Activated_T,tested,,-4.425837320574163,1.3157894736842104,5.741626794258373,0.680638520048507,0.094,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Cytotoxic_T,tested,,-2.631578947368418,44.73684210526316,47.368421052631575,-3.463994234253549,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,All_T,tested,,-8.738532110091747,77.5,86.23853211009175,-7.082797293403637,0.9952,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Exhausted_T,tested,,-8.944954128440369,25.0,33.94495412844037,-8.17724554085129,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Activated_T,tested,,-2.0871559633027523,2.5,4.587155963302752,1.8511959272588463,0.5468,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Cytotoxic_T,tested,,-7.110091743119268,25.0,32.11009174311927,-2.733537533194714,0.7212,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,All_T,tested,,-11.199095022624428,71.15384615384616,82.35294117647058,0.7451364581614149,0.0684,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Exhausted_T,tested,,-7.642031171442936,23.07692307692308,30.71895424836601,-6.685894745565504,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Activated_T,tested,,-3.959276018099547,1.9230769230769231,5.88235294117647,-3.0593222716941577,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Cytotoxic_T,tested,,-8.333333333333332,25.0,33.33333333333333,-1.0795824323235688,0.41,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,All_T,tested,,-5.558482613277127,71.15384615384616,76.71232876712328,0.980728284750732,0.3504,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Exhausted_T,tested,,-2.6080084299262394,23.07692307692308,25.68493150684932,-1.661728552243642,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Activated_T,tested,,-3.8988408851422554,1.9230769230769231,5.821917808219178,-0.6398856167440016,0.4968,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Cytotoxic_T,tested,,-6.849315068493151,25.0,31.84931506849315,0.8500857178811942,0.3172,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,All_T,tested,,-10.661764705882348,70.58823529411765,81.25,-0.5871394867208753,0.2664,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Exhausted_T,tested,,-4.779411764705882,26.47058823529412,31.25,-7.996599319863972,0.8584,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Activated_T,tested,,-2.2671568627450984,2.941176470588235,5.208333333333334,-4.781630345676978,0.6628,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Cytotoxic_T,tested,,-2.8799019607843146,29.411764705882355,32.29166666666667,0.6663342472416056,0.8536,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,All_T,not_testable,constant conditional null,26.66666666666667,80.0,53.333333333333336,26.666666666666675,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Activated_T,not_testable,constant conditional null,20.0,20.0,0.0,20.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Cytotoxic_T,not_testable,constant conditional null,-6.666666666666667,0.0,6.666666666666667,-6.666666666666666,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,All_T,tested,,10.412371134020626,80.0,69.58762886597938,-12.306894368564434,0.494,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Exhausted_T,tested,,-1.0309278350515465,0.0,1.0309278350515465,1.3985889961497455,1.0,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Activated_T,tested,,16.90721649484536,20.0,3.0927835051546397,0.5079778842366411,0.4016,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Cytotoxic_T,tested,,-14.948453608247425,0.0,14.948453608247425,-5.636673726497876,1.0,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,All_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Exhausted_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Activated_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Cytotoxic_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,All_T,tested,,-35.10452961672474,39.285714285714285,74.39024390243902,-17.749229288366383,0.0784,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Exhausted_T,tested,,-8.710801393728223,7.142857142857142,15.853658536585366,-9.450670621929262,1.0,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Activated_T,tested,,-9.75609756097561,0.0,9.75609756097561,-7.4473605522498225,1.0,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Cytotoxic_T,tested,,-12.543554006968645,14.285714285714285,26.82926829268293,-1.8547437710538628,0.2316,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,All_T,tested,,-23.496240601503764,39.285714285714285,62.78195488721805,-3.29351584602635,0.032,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Exhausted_T,tested,,-6.015037593984962,7.142857142857142,13.157894736842104,-2.4877531897356917,0.8356,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Activated_T,tested,,-6.7669172932330826,0.0,6.7669172932330826,-0.0716308675268889,0.2708,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Cytotoxic_T,tested,,-6.7669172932330826,14.285714285714285,21.052631578947366,1.3726053481372975,0.414,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,All_T,tested,,-35.41666666666667,33.33333333333333,68.75,-16.73240898179636,0.0948,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Exhausted_T,tested,,-7.291666666666667,8.333333333333332,15.625,-9.731633826765352,1.0,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Activated_T,tested,,-6.25,0.0,6.25,-3.365360572114423,1.0,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Cytotoxic_T,tested,,-15.104166666666668,8.333333333333332,23.4375,-2.922667866906715,0.218,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,All_T,tested,,70.58823529411764,100.0,29.411764705882355,57.24237284431676,0.6768,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Cytotoxic_T,tested,,28.57142857142857,28.57142857142857,0.0,21.850084302574796,1.0,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,All_T,tested,,46.24277456647399,100.0,53.75722543352601,23.202328326937067,0.242,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Exhausted_T,not_testable,constant conditional null,-0.5780346820809248,0.0,0.5780346820809248,-0.5780346820809248,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Cytotoxic_T,tested,,25.681255161023948,28.57142857142857,2.8901734104046244,3.268184603064296,0.1416,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,All_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Exhausted_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Activated_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Cytotoxic_T,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,All_T,tested,,0.0,68.75,68.75,7.643195305727814,0.5876,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Exhausted_T,tested,,-4.166666666666667,6.25,10.416666666666668,0.632626525305061,0.9112,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Activated_T,tested,,4.166666666666667,6.25,2.083333333333333,2.167933586717344,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Cytotoxic_T,tested,,-10.416666666666668,25.0,35.41666666666667,4.826381943055278,0.2484,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,All_T,tested,,0.4865269461077792,68.75,68.26347305389223,5.036651042783406,0.8812,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Exhausted_T,tested,,-3.929640718562874,6.25,10.179640718562874,-3.519566188686838,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Activated_T,tested,,4.453592814371257,6.25,1.7964071856287425,0.3921517836501432,0.6764,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Cytotoxic_T,tested,,-8.233532934131738,25.0,33.23353293413174,2.476880106560233,0.5264,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,All_T,tested,,-13.636363636363637,50.0,63.63636363636363,4.491125497826835,0.3444,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Exhausted_T,tested,,-6.0606060606060606,0.0,6.0606060606060606,7.021631599047083,0.6632,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Activated_T,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Cytotoxic_T,tested,,-11.742424242424242,12.5,24.24242424242424,1.3398134172288998,0.6632,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,All_T,tested,,-28.09523809523809,50.0,78.0952380952381,-7.844632418547204,0.0056,1.0,0.8064,0.756
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Exhausted_T,tested,,-3.8095238095238098,0.0,3.8095238095238098,-0.5524438220977531,0.7132,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Activated_T,tested,,-9.523809523809524,0.0,9.523809523809524,-2.523885729526858,0.1684,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Cytotoxic_T,tested,,-11.984126984126982,19.444444444444446,31.428571428571427,-1.799502757694396,0.2568,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,All_T,tested,,-19.470404984423677,50.0,69.47040498442367,-10.476877306925555,0.2912,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Exhausted_T,tested,,-4.361370716510903,0.0,4.361370716510903,-0.7968364181662915,0.5612,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Activated_T,tested,,-7.476635514018691,0.0,7.476635514018691,-0.6633569704595123,0.176,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Cytotoxic_T,tested,,-5.7892004153686365,19.444444444444446,25.233644859813083,-2.245059603821075,0.786,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,All_T,tested,,-28.172043010752684,45.16129032258064,73.33333333333333,-7.91082087385219,0.0152,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Exhausted_T,tested,,-4.0,0.0,4.0,-0.4805520243833715,0.7612,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Activated_T,tested,,-5.333333333333334,0.0,5.333333333333334,-0.2242513018732781,0.3188,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Cytotoxic_T,tested,,-7.311827956989248,19.35483870967742,26.666666666666668,3.6587446521562375,0.262,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,All_T,tested,,-7.857142857142863,57.14285714285714,65.0,1.7915011573743311,0.9996,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Activated_T,not_testable,constant conditional null,-5.0,0.0,5.0,-5.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Cytotoxic_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,All_T,tested,,-4.008221993833505,57.14285714285714,61.15107913669065,-7.868315698083091,1.0,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Activated_T,not_testable,constant conditional null,-0.7194244604316548,0.0,0.7194244604316548,-0.7194244604316546,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Cytotoxic_T,not_testable,constant conditional null,-1.4388489208633095,0.0,1.4388489208633095,-1.4388489208633093,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,All_T,tested,,-9.999999999999998,50.0,60.0,1.692338467693538,0.998,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Activated_T,not_testable,constant conditional null,-6.666666666666667,0.0,6.666666666666667,-6.666666666666666,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Cytotoxic_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,All_T,tested,,-40.47619047619048,42.85714285714285,83.33333333333334,-27.310858997196267,0.6732,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Activated_T,not_testable,constant conditional null,-5.555555555555555,0.0,5.555555555555555,-5.555555555555556,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Cytotoxic_T,tested,,-2.380952380952381,14.285714285714285,16.666666666666664,4.27910979021201,1.0,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,All_T,tested,,-27.142857142857142,42.85714285714285,70.0,-15.923756179807391,0.7804,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Activated_T,not_testable,constant conditional null,-1.4285714285714286,0.0,1.4285714285714286,-1.4285714285714288,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Cytotoxic_T,tested,,1.428571428571429,14.285714285714285,12.857142857142856,-6.288686308690308,1.0,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,All_T,not_testable,constant conditional null,-29.87012987012988,42.85714285714285,72.72727272727273,-29.87012987012988,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Activated_T,not_testable,constant conditional null,-9.090909090909092,0.0,9.090909090909092,-9.090909090909092,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Cytotoxic_T,not_testable,constant conditional null,5.194805194805194,14.285714285714285,9.090909090909092,5.194805194805194,,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,All_T,tested,,3.842592592592597,92.5925925925926,88.75,6.783699332459082,0.7348,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Exhausted_T,tested,,5.462962962962969,62.96296296296296,57.49999999999999,7.798606017499797,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Activated_T,tested,,-6.342592592592594,7.4074074074074066,13.750000000000002,-5.344717091566463,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Cytotoxic_T,tested,,19.120370370370377,70.37037037037037,51.24999999999999,7.3866625176887215,0.1832,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,All_T,tested,,6.178338695042484,92.5925925925926,86.41425389755011,-2.793756804648072,0.2836,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Exhausted_T,tested,,18.19681596964448,62.96296296296296,44.766146993318486,4.550559538617282,0.202,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Activated_T,tested,,-2.392147158294152,7.4074074074074066,9.79955456570156,0.0168011825577187,0.9792,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Cytotoxic_T,tested,,26.27237482471336,70.37037037037037,44.09799554565701,2.803390010675564,0.0164,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,All_T,tested,,11.057692307692314,92.3076923076923,81.25,7.456972163663506,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Exhausted_T,tested,,14.663461538461542,61.53846153846154,46.875,8.353545709141828,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Activated_T,tested,,4.5673076923076925,7.6923076923076925,3.125,-0.7623640112637908,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Cytotoxic_T,tested,,16.346153846153843,53.84615384615385,37.5,1.0192903965408484,0.3288,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,All_T,tested,,-9.090909090909092,72.72727272727273,81.81818181818183,-5.053738020331338,1.0,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Exhausted_T,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Cytotoxic_T,tested,,30.303030303030297,45.45454545454545,15.151515151515152,16.07230537016494,0.4704,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,All_T,tested,,-6.583072100313481,72.72727272727273,79.3103448275862,-7.852183961198868,1.0,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Exhausted_T,tested,,-4.433497536945813,0.0,4.433497536945813,-2.587342367712236,1.0,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Cytotoxic_T,tested,,25.25750111957008,45.45454545454545,20.19704433497537,-3.109641184842433,0.0376,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,All_T,tested,,-15.68627450980392,66.66666666666666,82.35294117647058,-7.18104405194764,0.9992,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Exhausted_T,not_testable,constant conditional null,-5.88235294117647,0.0,5.88235294117647,-5.882352941176469,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Cytotoxic_T,tested,,32.6797385620915,44.44444444444444,11.76470588235294,24.099721905165342,0.9904,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,All_T,not_testable,constant conditional null,-5.0,0.0,5.0,-5.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Cytotoxic_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,All_T,tested,,-13.846153846153848,0.0,13.846153846153848,-1.5324823206399532,0.2624,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Cytotoxic_T,tested,,-1.5384615384615383,0.0,1.5384615384615383,0.6583734329283437,1.0,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,All_T,not_testable,constant conditional null,-5.263157894736842,0.0,5.263157894736842,-5.263157894736842,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Exhausted_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Activated_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Cytotoxic_T,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,All_T,tested,,-9.079173838209986,53.57142857142857,62.65060240963856,-15.595279124671748,0.5904,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Exhausted_T,tested,,-4.862306368330464,3.571428571428571,8.433734939759036,-4.093176638770095,1.0,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Activated_T,not_testable,constant conditional null,-1.2048192771084338,0.0,1.2048192771084338,-1.204819277108434,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Cytotoxic_T,tested,,-11.058519793459553,17.857142857142858,28.915662650602407,-9.748610651562329,1.0,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,All_T,tested,,-1.254826254826258,53.57142857142857,54.826254826254825,-8.400386641034771,0.5504,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Exhausted_T,tested,,-1.8339768339768343,3.571428571428571,5.405405405405405,-2.9557648981533764,1.0,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Activated_T,tested,,-1.1583011583011582,0.0,1.1583011583011582,-0.7624690961358296,1.0,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Cytotoxic_T,tested,,-4.150579150579151,17.857142857142858,22.00772200772201,-4.999243091861616,1.0,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,All_T,tested,,-7.303077725612939,51.85185185185185,59.15492957746479,-18.819997698026828,0.2268,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Exhausted_T,tested,,-4.747000521648409,3.7037037037037033,8.450704225352112,-6.004842074309489,1.0,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Activated_T,not_testable,constant conditional null,-1.4084507042253522,0.0,1.4084507042253522,-1.4084507042253522,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Cytotoxic_T,tested,,-5.425143453312467,18.51851851851852,23.943661971830984,-10.469803924269463,0.6864,1.0,,

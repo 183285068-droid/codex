@@ -1,0 +1,177 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7503,
+    "sha256": "bf63b9404f19e542ad63475ed641914e092543c22b3a6cf88afce2d2bae33b05"
+  },
+  {
+    "path": "RESTORE_FULL_MATRIX.md",
+    "bytes": 2734,
+    "sha256": "36015583ce115c227152cedc25b825a1f91a05467066e71d1f1c5feb4dda781c"
+  },
+  {
+    "path": "analyze_visualize.py",
+    "bytes": 7921,
+    "sha256": "f2586f25c368b0ca4e881ba45f43f105d7787299c5ba3a8f5e6eab9384011251"
+  },
+  {
+    "path": "audit_results.json",
+    "bytes": 13235,
+    "sha256": "f6314392f5963ac9a96c44013f60462e1d9c5f3d9850bcc63f0ea124416ccf70"
+  },
+  {
+    "path": "candidate_LR_codetection.csv",
+    "bytes": 105477,
+    "sha256": "c0ae90bbb0dec03d432417360d9e346155aaf801fc4a03cd778e6bc4cd94b3a7"
+  },
+  {
+    "path": "exclusive_T_program_combinations.csv",
+    "bytes": 7471,
+    "sha256": "c60bb1097ce2ddc84db25e1d0acd5be236720677137c51551adf8e97de15cc02"
+  },
+  {
+    "path": "figures/A009_T_spatial_maps.pdf",
+    "bytes": 4490047,
+    "sha256": "5c7a213380df386f9c79456b0e50f2d83177d70cf351f45b5e0d2afafaac8ab5"
+  },
+  {
+    "path": "figures/A009_T_spatial_maps.png",
+    "bytes": 2310571,
+    "sha256": "2b4b3b2f6df69b640c9c543354bcf37f31f7a34fd475329987c536eb4f182018"
+  },
+  {
+    "path": "figures/B013_T_spatial_maps.pdf",
+    "bytes": 4180915,
+    "sha256": "0d4ccb6d548ad77379150de5cbcc0b5c05a8c2f228668d2df037c7b75fe88e7f"
+  },
+  {
+    "path": "figures/B013_T_spatial_maps.png",
+    "bytes": 2004055,
+    "sha256": "f73057f1c6a48ca9b023e61f6ff6251783f7c2cde7341e04cdb5da5a0baaf16e"
+  },
+  {
+    "path": "figures/C004_T_spatial_maps.pdf",
+    "bytes": 1505992,
+    "sha256": "42a47cbf248c217ea312f5686064df1804c69d734473faba887293991fbc3990"
+  },
+  {
+    "path": "figures/C004_T_spatial_maps.png",
+    "bytes": 701425,
+    "sha256": "73b6d605a0bf6602c475e0ffa8f7c12d8c6e568f0957a361babe97f0c4a13bf5"
+  },
+  {
+    "path": "figures/C008_T_spatial_maps.pdf",
+    "bytes": 3359278,
+    "sha256": "faca17f731fabb57a86c202474d9a7053f775ca7dabcf85b714e1905c7ee862a"
+  },
+  {
+    "path": "figures/C008_T_spatial_maps.png",
+    "bytes": 1643135,
+    "sha256": "28990db7087676074a7e211650b36a163ccdc5b108716211932b611abec5b46b"
+  },
+  {
+    "path": "figures/T_candidate_LR_codetection.pdf",
+    "bytes": 28462,
+    "sha256": "773d84bc62c0275e19aea7f4f4c06c7d3ecde37f2f6a7fbbbf97c17dd0934fb5"
+  },
+  {
+    "path": "figures/T_candidate_LR_codetection.png",
+    "bytes": 197694,
+    "sha256": "46dfa369880ee921cd3d0025c7faa6f5906757dd3137797929872df662f5bd78"
+  },
+  {
+    "path": "figures/T_program_overlap.pdf",
+    "bytes": 12858,
+    "sha256": "6ed492a90c9079da6399824bb9b8f2b025b4af999ad70cb3578a1e8bdaacf209"
+  },
+  {
+    "path": "figures/T_program_overlap.png",
+    "bytes": 87227,
+    "sha256": "9d816d98e6e182eade8910084ec53f2a9aa72326606608e33e5c5a77c240178a"
+  },
+  {
+    "path": "figures/patient_T_program_coverage.pdf",
+    "bytes": 14801,
+    "sha256": "650964ebc4d7b45d793334b96f109ccae29b32c8162128538d1b17726ee9f3f9"
+  },
+  {
+    "path": "figures/patient_T_program_coverage.png",
+    "bytes": 90012,
+    "sha256": "1a20e26c70a1622b6b7d6d84e4d066d25cf2306f7eae2ac19b23fd5a9490e07a"
+  },
+  {
+    "path": "figures/section_T_program_difference.pdf",
+    "bytes": 29404,
+    "sha256": "cf8612d29474e35feab00de7a8be4182b2568398b1c536bb248b70e1006e22f8"
+  },
+  {
+    "path": "figures/section_T_program_difference.png",
+    "bytes": 192718,
+    "sha256": "fe97d2a82c8340ebcf71d823907f46012a76f5a1e5b720a05dd2eedb0bfd0129"
+  },
+  {
+    "path": "high_source_T_neighbor_edges.csv.gz",
+    "bytes": 2963,
+    "sha256": "5f73b78937dce4822a0d39c3222995fcd61749b6d385c2b31fa210424dc9a8ab"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 6670,
+    "sha256": "df329ce40e85d702db04330ff3b66ec35ca1024d7d4941955ead52ed86311561"
+  },
+  {
+    "path": "neighborhood_counts.csv",
+    "bytes": 14746,
+    "sha256": "1a22129fde2f3ae1ce7258022a32e25d353e9017e21732b3d13415d6d44b7aeb"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 790,
+    "sha256": "d5aeb05f02295305a2072cee81ada9a06cd5c1c110f8641e1c94cfe0fd2a0e70"
+  },
+  {
+    "path": "patient_equal_section_effects.csv",
+    "bytes": 2552,
+    "sha256": "b1abcdfd2a95403517a2e952124cbba113dddbb0748e5ead1354676026ba28d7"
+  },
+  {
+    "path": "patient_neighborhood_descriptive.csv",
+    "bytes": 2650,
+    "sha256": "365e10f90d43de0a40bdaad84452c54c3fa0fbe66565dd28bf767e5a652ddcf6"
+  },
+  {
+    "path": "pooled_LR_descriptive.csv",
+    "bytes": 3627,
+    "sha256": "b9140b242ee30931cd2586eacdaa2c864168aad5dd64b1a03fddb418ce60f5bf"
+  },
+  {
+    "path": "pooled_descriptive.csv",
+    "bytes": 218,
+    "sha256": "c540c2e7ff77530d932c8ed664b8c65d487c30f595f150fd90706ced7cf69faf"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "9eabac933bc32b5db1791ca5fff63880c1b9d07bb3462554d064c2333d8e92a5"
+  },
+  {
+    "path": "source_analysis_config.json",
+    "bytes": 1506,
+    "sha256": "a4834b5672bcdf177ebb4d9f0375c741dd337be5d3c87b41ed7e3bb9a955524e"
+  },
+  {
+    "path": "source_audit_results.json",
+    "bytes": 398385,
+    "sha256": "70bc94685fb6e61c15af3bfc9e3bb8c8500e54c2032e1c30e9994a471d5c7845"
+  },
+  {
+    "path": "spatial_statistics.csv",
+    "bytes": 30462,
+    "sha256": "831c56d86e55e56b566b906286e5a0e2051857f4f80845ef0c22ca409888c877"
+  }
+]

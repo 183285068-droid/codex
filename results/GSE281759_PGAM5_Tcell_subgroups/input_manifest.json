@@ -1,0 +1,158 @@
+[
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/neighborhood_counts.csv",
+    "sha256": "ed79523960a82c88fe77729e94f38626b1339f3fac09b03efc29239ffae8366c"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/spatial_statistics.csv",
+    "sha256": "dc1c6db73c7e75f46616111475e4840d6066cbeee440e3569ec5579293aab9f1"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/candidate_LR_codetection.csv",
+    "sha256": "922cecce6ed36da367619082408dbc10473b1c8ecd4927c2e5eab7e5ae432b0d"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/patient_neighborhood_descriptive.csv",
+    "sha256": "ec9d3b3a6118e1772cea30e90439fbffb0ebb99f5a057e8e725f6fbea5a7e577"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/patient_equal_section_effects.csv",
+    "sha256": "e1a686034ea96fa85e4a25500d354ecf9d699da450123702462728e54f190b9c"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/analysis_config.json",
+    "sha256": "a4834b5672bcdf177ebb4d9f0375c741dd337be5d3c87b41ed7e3bb9a955524e"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/audit_results.json",
+    "sha256": "70bc94685fb6e61c15af3bfc9e3bb8c8500e54c2032e1c30e9994a471d5c7845"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T1_spatial_marker_subset.h5ad",
+    "sha256": "6b92453abd0166a9fdf69e6566a3d7c07e2f9eaf264dced6d4233022fe3efa19"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T1_annotations.csv.gz",
+    "sha256": "fb64315fa65ee68a995d32398ecd3c15eef881799614617cf76ee4053549c4a0"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T2_spatial_marker_subset.h5ad",
+    "sha256": "5ef407c833534001e5b886a6afb1f0f04213651998347976dc99b1d2389b949e"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T2_annotations.csv.gz",
+    "sha256": "38915aa168a5a20833c3bd90654af640527fedbb47ce0b67a56cf62ccc6b3b7a"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T3_spatial_marker_subset.h5ad",
+    "sha256": "623980a6e70b522fa751cabfc36ff69cd439827c5fba5e63cba16e0342046976"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T3_annotations.csv.gz",
+    "sha256": "54844331db5d9b2906bb4b85bbab727aa8c1bd8382b151cfaef25d9970bf5e19"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T4_spatial_marker_subset.h5ad",
+    "sha256": "ede8f4fb5d046b05135f023ae4ffbc7c0255b16916858550488dee262974ab26"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T4_annotations.csv.gz",
+    "sha256": "779fd6436e75cc9e4a3361f96c621bf3c64b13297ebbfdaff5fd409f4563bf9d"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T5_spatial_marker_subset.h5ad",
+    "sha256": "699c48b16a88af36d92cad519b376dfecdbc0f3c733fa2af948df60ccb588511"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T5_annotations.csv.gz",
+    "sha256": "ef4a0aecaf7bf7a9d5b357681c51abff7cadc1e56cdf6033752663ff9a54caa1"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T1_spatial_marker_subset.h5ad",
+    "sha256": "ac4a79073d9de4577d66e45fb6bb5844e31fca6df5e53bb2cea315c5668f8f72"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T1_annotations.csv.gz",
+    "sha256": "57f157ed4d98763d1a80af80cc50dfc255f5d449875410988ff9839991fd48d7"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T2_spatial_marker_subset.h5ad",
+    "sha256": "63a29a4597b2edca3dcb04755afd20a55fc67c055ecbe1cc5844adb240f1d5cf"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T2_annotations.csv.gz",
+    "sha256": "72df931f53ace7ea8667b15c3574ebdcbc7dd3868dff527d89a1d4ece8eae011"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T3_spatial_marker_subset.h5ad",
+    "sha256": "1519f01e5395667bcb4ca89c9cc67908bcbd2430ada07753400a1b55e89c0bfa"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T3_annotations.csv.gz",
+    "sha256": "a054a00538bbab9d485aefd659b557a48d5223b7701832e497fb3698a8105af1"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T4_spatial_marker_subset.h5ad",
+    "sha256": "66dd8905ec38e92238da6692ffec9adba2874fd3fbd38bb013051805fe58856b"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T4_annotations.csv.gz",
+    "sha256": "21d25cd1ac4a8cf344ebfa27ecb11ab6258a65b447f3141dd9b280d549ff4de4"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B013T5_spatial_marker_subset.h5ad",
+    "sha256": "3ba88aaee1eeabf07b1e7468c67003be0fbcc44d7ba9f819f734f63817acf73b"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B013T5_annotations.csv.gz",
+    "sha256": "1456c06fe44ddcb73797db4fc551109b56dddf2071fa77890c380edede446dd4"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C004T1P_spatial_marker_subset.h5ad",
+    "sha256": "9a10634e3a5ccaeec5f18ddfde5eee02f7d7d9ea752170b43fef5294ba60a77f"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C004T1P_annotations.csv.gz",
+    "sha256": "93f6822abff528c01fe94f6316ee8823cf26ccd3ade0bbb6da8b0fde45cac624"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C004T1R_spatial_marker_subset.h5ad",
+    "sha256": "3e03f86eb621e612c7c43807b240069a8e22199caa8ee4d3144104f0f61fc253"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C004T1R_annotations.csv.gz",
+    "sha256": "1bb55a80b0d4c03071525641db13d70f844fd901030357f35f6aa8a0d3eb7be9"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T1_spatial_marker_subset.h5ad",
+    "sha256": "d3e71efd605b78ceaef26625d48b371179e910984b06f36323fccf9ec357f4a1"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T1_annotations.csv.gz",
+    "sha256": "42da80fc7bba22c16879ce2907796de2c9aafdb8b6c60c4bd3bdf81bf7bcec75"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T2_spatial_marker_subset.h5ad",
+    "sha256": "cdc6233cbdca5807fdfc61ca2dbc54b9daf4f112271d91f5b6e3fe523ba436b0"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T2_annotations.csv.gz",
+    "sha256": "05ca63640889d6cffd5c81c5650d28caf0a4fb5680d39c827f239ede8bbd7b27"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T3_spatial_marker_subset.h5ad",
+    "sha256": "4e4bbd9915310f272b9998b54ecaf3f9f092509ea1a7e87951800d60f832c111"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T3_annotations.csv.gz",
+    "sha256": "4b88b5579e8e8bfcc64a1c80e7f31a0f1cfc89d14847cd4b956c6f4f7fa9ff36"
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T4_spatial_marker_subset.h5ad",
+    "sha256": "5e345c7575af6ce5b0313cafd5cdf6f1d3ceb2c83632ac9825cfea2f35ce319e"
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T4_annotations.csv.gz",
+    "sha256": "acaf30b379abd2a66c178af7866c55a815dc2313329174818e9fbf1c4fdb2597"
+  }
+]

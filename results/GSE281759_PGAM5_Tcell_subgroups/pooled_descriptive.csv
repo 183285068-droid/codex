@@ -1,0 +1,5 @@
+target,n_sources,with_neighbor,n_target_spots,neighbor_pct
+All_T,382,254,4004,66.49214659685863
+Cytotoxic_T,382,106,733,27.74869109947644
+Exhausted_T,382,74,465,19.3717277486911
+Activated_T,382,6,74,1.5706806282722514
