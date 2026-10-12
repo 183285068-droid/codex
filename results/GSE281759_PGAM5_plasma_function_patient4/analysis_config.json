@@ -1,0 +1,124 @@
+{
+  "unit": "one independent paired effect per patient; four patients",
+  "panels": {
+    "MHCII": [
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CD74"
+    ],
+    "Regulatory_mediators": [
+      "IL10",
+      "TGFB1",
+      "LGALS9"
+    ],
+    "Checkpoint_ligands": [
+      "CD274",
+      "PDCD1LG2",
+      "PVR",
+      "NECTIN2"
+    ],
+    "Costimulation": [
+      "CD80",
+      "CD86",
+      "ICOSLG",
+      "TNFSF9",
+      "TNFSF4"
+    ],
+    "Inflammatory_chemokines": [
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "CCL8",
+      "CXCL8"
+    ],
+    "CXCR3_ligands": [
+      "CXCL9",
+      "CXCL10",
+      "CXCL11"
+    ],
+    "Cycling": [
+      "MKI67",
+      "TOP2A",
+      "UBE2C",
+      "CENPF",
+      "BIRC5",
+      "PCNA"
+    ],
+    "Hypoxia": [
+      "CA9",
+      "VEGFA",
+      "SLC2A1",
+      "LDHA",
+      "BNIP3",
+      "ADM"
+    ]
+  },
+  "primary_comparison": "high_only_vs_other_detected_only",
+  "primary_estimator": "raw mean log1p(CP10k) difference, equal section means within each patient using the same eligible sections on both sides",
+  "primary_tests": 8,
+  "minimum_targets_per_group_per_section": 3,
+  "adjusted": "mean nuisance-residual contrasts, fit to all fixed plasma targets per section",
+  "covariates": {
+    "Plasma": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "IGKC"
+    ],
+    "Mac": [
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CSF1R",
+      "MERTK",
+      "MSR1"
+    ],
+    "T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "B": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT19"
+    ],
+    "Hepatocyte": [
+      "ALB",
+      "APOA1",
+      "APOA2",
+      "TTR",
+      "ASGR1",
+      "CYP2E1"
+    ]
+  },
+  "other_covariates": [
+    "log UMI",
+    "MT percent",
+    "3x3 spatial tile"
+  ],
+  "sensitivity": [
+    "any-high vs no-high",
+    "MZB1 and JCHAIN co-detected targets",
+    "primary tumors only (exclude C004 recurrence)"
+  ],
+  "patient_test": "exact two-sided sign-flip of patient paired differences, 2^n assignments, no pooled-spot p",
+  "minimum_patient_n_for_test": 4,
+  "minimum_two_sided_p_n4": 0.125,
+  "causal_claim": false,
+  "cell_subtypes": "JCHAIN/MZB1 co-detection RNA states are not IgA/IgG or resolved plasma-cell subtypes"
+}

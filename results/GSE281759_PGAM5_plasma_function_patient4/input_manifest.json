@@ -1,0 +1,82 @@
+[
+  {
+    "path": "inputs/A009T1_plasma_marker_inputs.h5ad",
+    "bytes": 2003238,
+    "sha256": "106311fcc1c89818ddcb51966c08ddc955fd4350fcfd04ac660f7116732eb5f8"
+  },
+  {
+    "path": "inputs/A009T2_plasma_marker_inputs.h5ad",
+    "bytes": 1789904,
+    "sha256": "c1cec968e376e4210968e62d42fb2a29dc6db932bd8eed70381e8a43779c3f05"
+  },
+  {
+    "path": "inputs/A009T3_plasma_marker_inputs.h5ad",
+    "bytes": 1575183,
+    "sha256": "2a1f5bb3d5333e1677fec350e2b8c6ecf81dd22366e7f9cfd8824e0dfd84943a"
+  },
+  {
+    "path": "inputs/A009T4_plasma_marker_inputs.h5ad",
+    "bytes": 2610632,
+    "sha256": "075d9425f0348ae30a0497b16ac2641fce87308d318213ebf0214d0029f3cd64"
+  },
+  {
+    "path": "inputs/A009T5_plasma_marker_inputs.h5ad",
+    "bytes": 2254174,
+    "sha256": "6d2940be88bdd8253ad34dd7b8cec2a56b1972c3420e675f22b9d9de5f2e6d09"
+  },
+  {
+    "path": "inputs/B0013T1_plasma_marker_inputs.h5ad",
+    "bytes": 1529739,
+    "sha256": "4ff0f322546201f1cbbb1771dbd2c5580d8412dd25561dae4e9c35d4e30be99f"
+  },
+  {
+    "path": "inputs/B0013T2_plasma_marker_inputs.h5ad",
+    "bytes": 1743015,
+    "sha256": "53d0f146f35ddea2adbacb8c092ead8dd2801a1d572c652857ddced1209877fa"
+  },
+  {
+    "path": "inputs/B0013T3_plasma_marker_inputs.h5ad",
+    "bytes": 1683604,
+    "sha256": "d3968956463c43e48cf9b060ac21e04b397f84e3db84f4d426887ce27c3c3f6e"
+  },
+  {
+    "path": "inputs/B0013T4_plasma_marker_inputs.h5ad",
+    "bytes": 2121876,
+    "sha256": "a7dacd2c00b6f491b346b574d24df695929ac90fdf6b03d81d6c4b672329e448"
+  },
+  {
+    "path": "inputs/B013T5_plasma_marker_inputs.h5ad",
+    "bytes": 1938425,
+    "sha256": "269755480fdf2d07b2d582ee898e9515e73a3c280dca4147c92475b3de2add88"
+  },
+  {
+    "path": "inputs/C004T1P_plasma_marker_inputs.h5ad",
+    "bytes": 1687389,
+    "sha256": "5d74d4a43fab1f7735703aef51a0173218b8f88d0a83cb2f9cd46304442ed358"
+  },
+  {
+    "path": "inputs/C004T1R_plasma_marker_inputs.h5ad",
+    "bytes": 1295426,
+    "sha256": "3832352b6c34d5fca206f7be1e5e69a787e13e9828f0791b48c709a2adab8512"
+  },
+  {
+    "path": "inputs/C008T1_plasma_marker_inputs.h5ad",
+    "bytes": 2502133,
+    "sha256": "762b519afe89042150757ab0e6fc49001cf09e7b776032c97c7e3fd2898b097c"
+  },
+  {
+    "path": "inputs/C008T2_plasma_marker_inputs.h5ad",
+    "bytes": 1565064,
+    "sha256": "d35cb04ff028c14aa99d6098c2abbb6a62b7d5558e706cef7d50abad849f7649"
+  },
+  {
+    "path": "inputs/C008T3_plasma_marker_inputs.h5ad",
+    "bytes": 1597522,
+    "sha256": "1b1a5e35cb6d0cb9be62b753cdd745f3f896fc33342aa68dd357b0dd91918b01"
+  },
+  {
+    "path": "inputs/C008T4_plasma_marker_inputs.h5ad",
+    "bytes": 1885587,
+    "sha256": "a98edf1943d20865a3cbbbc149da2f5afb732eb66247b8057db979350a27875e"
+  }
+]
