@@ -1,0 +1,317 @@
+{
+  "targets": {
+    "All_T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "CD4_related": [
+      "CD4",
+      "IL7R",
+      "LTB"
+    ],
+    "CD8_supported": [
+      "CD8A",
+      "CD8B"
+    ],
+    "Treg_supported": [
+      "FOXP3",
+      "IL2RA",
+      "CTLA4",
+      "IKZF2",
+      "TIGIT"
+    ],
+    "Naive_T_like": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "MAL"
+    ],
+    "Central_memory_T_like": [
+      "CCR7",
+      "IL7R",
+      "LTB",
+      "TCF7"
+    ],
+    "GZMK_memory_T_like": [
+      "GZMK",
+      "CCL5",
+      "IL7R"
+    ],
+    "Exhausted_T": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activated_T": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Cytotoxic_T": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "NK_related": [
+      "NCR1",
+      "NCR3",
+      "NCAM1",
+      "KLRD1",
+      "NKG7",
+      "GNLY"
+    ],
+    "Cytotoxic_NK_like": [
+      "FGFBP2",
+      "FCGR3A",
+      "PRF1",
+      "GNLY",
+      "NKG7",
+      "KLRD1"
+    ],
+    "XCL_NK_like": [
+      "XCL1",
+      "XCL2",
+      "KLRC1",
+      "NCAM1",
+      "KLRD1"
+    ],
+    "B_related": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Naive_B_like": [
+      "TCL1A",
+      "IGHD",
+      "IL4R",
+      "FCER2",
+      "BANK1"
+    ],
+    "Memory_B_like": [
+      "CD27",
+      "TNFRSF13B",
+      "CD37",
+      "AIM2",
+      "MS4A1",
+      "CD79A"
+    ],
+    "Plasma_related": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "IGKC"
+    ],
+    "IgA_plasma_related": [
+      "IGHA1",
+      "IGHA2",
+      "JCHAIN",
+      "MZB1"
+    ],
+    "IgG_plasma_related": [
+      "IGHG1",
+      "IGHG2",
+      "IGHG3",
+      "IGHG4",
+      "MZB1"
+    ],
+    "IgM_plasma_related": [
+      "IGHM",
+      "JCHAIN",
+      "MZB1"
+    ],
+    "cDC1_related": [
+      "CLEC9A",
+      "XCR1"
+    ],
+    "cDC2_related": [
+      "CD1C",
+      "FCER1A",
+      "CLEC10A"
+    ],
+    "pDC_related": [
+      "TCF4",
+      "IL3RA",
+      "CLEC4C",
+      "IRF7",
+      "LILRA4",
+      "GZMB"
+    ],
+    "Classical_monocyte_related": [
+      "FCN1",
+      "CD14",
+      "VCAN",
+      "S100A8",
+      "S100A9",
+      "LST1"
+    ],
+    "FCGR3A_myeloid_related": [
+      "FCGR3A",
+      "MS4A7",
+      "LILRB1",
+      "LST1",
+      "CTSS"
+    ],
+    "Neutrophil_related": [
+      "FCGR3B",
+      "CSF3R",
+      "CXCR2",
+      "FPR1",
+      "S100A8",
+      "S100A9",
+      "S100A12"
+    ],
+    "Mast_related": [
+      "KIT",
+      "TPSAB1",
+      "TPSB2",
+      "CPA3",
+      "MS4A2",
+      "HDC"
+    ],
+    "Mac_RNA_reference": [
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CSF1R",
+      "MERTK",
+      "MSR1"
+    ],
+    "SPP1_mac_related": [
+      "SPP1",
+      "TREM2",
+      "APOE",
+      "LPL",
+      "GPNMB",
+      "LGALS3"
+    ],
+    "TREM2_mac_related": [
+      "TREM2",
+      "APOE",
+      "LPL",
+      "GPNMB",
+      "CST7"
+    ]
+  },
+  "new_rules": {
+    "NK_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "NCR1 OR NCR3 OR NCAM1"
+    },
+    "Cytotoxic_NK_like": {
+      "parent": "NK_related",
+      "minimum": 3,
+      "anchor": "PRF1 OR GNLY"
+    },
+    "XCL_NK_like": {
+      "parent": "NK_related",
+      "minimum": 2,
+      "anchor": "XCL1 OR XCL2"
+    },
+    "Naive_B_like": {
+      "parent": "B_related",
+      "minimum": 2,
+      "anchor": "TCL1A OR IGHD"
+    },
+    "Memory_B_like": {
+      "parent": "B_related",
+      "minimum": 3,
+      "anchor": "CD27 AND TNFRSF13B"
+    },
+    "IgA_plasma_related": {
+      "parent": "Plasma_related",
+      "minimum": 2,
+      "anchor": "IGHA1 OR IGHA2"
+    },
+    "IgG_plasma_related": {
+      "parent": "Plasma_related",
+      "minimum": 2,
+      "anchor": "IGHG1 OR IGHG2 OR IGHG3 OR IGHG4"
+    },
+    "IgM_plasma_related": {
+      "parent": "Plasma_related",
+      "minimum": 2,
+      "anchor": "IGHM"
+    },
+    "pDC_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "(CLEC4C OR LILRA4) AND (TCF4 OR IL3RA)"
+    },
+    "Classical_monocyte_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "(FCN1 OR CD14) AND Pan-myeloid >= QC median"
+    },
+    "FCGR3A_myeloid_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "FCGR3A AND (MS4A7 OR LILRB1) AND Pan-myeloid >= QC median"
+    },
+    "Neutrophil_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "FCGR3B OR CSF3R OR CXCR2"
+    },
+    "Mast_related": {
+      "parent": "all_QC",
+      "minimum": 3,
+      "anchor": "(TPSAB1 OR TPSB2) AND (CPA3 OR KIT)"
+    },
+    "SPP1_mac_related": {
+      "parent": "Mac_RNA_reference",
+      "minimum": 3,
+      "anchor": "SPP1"
+    },
+    "TREM2_mac_related": {
+      "parent": "Mac_RNA_reference",
+      "minimum": 3,
+      "anchor": "TREM2"
+    }
+  },
+  "reused_T_mapping": {
+    "CD4_related": "CD4_related",
+    "CD8_supported": "CD8_supported",
+    "Treg_supported": "Treg_supported",
+    "Naive_T_like": "Naive_like",
+    "Central_memory_T_like": "Central_memory_like",
+    "GZMK_memory_T_like": "Effector_memory_like"
+  },
+  "reused_original_gates": [
+    "All_T",
+    "Exhausted_T",
+    "Activated_T",
+    "Cytotoxic_T",
+    "B_related",
+    "Plasma_related",
+    "cDC1_related",
+    "cDC2_related"
+  ],
+  "quantile": 0.75,
+  "quantile_population": "new target parent gate or all QC per new_rules",
+  "score": "mean log1p(CP10k), full-library denominator, zeros included",
+  "seed": 281759402,
+  "permutations": 4999,
+  "primary_tests": 480,
+  "joint_tests": 1440,
+  "primary_only_tests": 450,
+  "labels_overlap": true,
+  "single_cell_identity": false
+}

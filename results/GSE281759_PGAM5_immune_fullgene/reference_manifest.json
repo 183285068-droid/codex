@@ -1,0 +1,242 @@
+[
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T1_spatial_marker_subset.h5ad",
+    "sha256": "6b92453abd0166a9fdf69e6566a3d7c07e2f9eaf264dced6d4233022fe3efa19",
+    "bytes": 1985168
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T1_annotations.csv.gz",
+    "sha256": "fb64315fa65ee68a995d32398ecd3c15eef881799614617cf76ee4053549c4a0",
+    "bytes": 362442
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T1_supplemental_T_markers.h5ad",
+    "sha256": "8953b43761774b145a44dcc163b0c33c7c576d981ce708b1f79fe1207437076c",
+    "bytes": 643672
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T2_spatial_marker_subset.h5ad",
+    "sha256": "5ef407c833534001e5b886a6afb1f0f04213651998347976dc99b1d2389b949e",
+    "bytes": 1775914
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T2_annotations.csv.gz",
+    "sha256": "38915aa168a5a20833c3bd90654af640527fedbb47ce0b67a56cf62ccc6b3b7a",
+    "bytes": 269152
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T2_supplemental_T_markers.h5ad",
+    "sha256": "537a7510f5ff366f331c68ef1359ad33597cc3f0ad27ce303b94a92cb191d49d",
+    "bytes": 560054
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T3_spatial_marker_subset.h5ad",
+    "sha256": "623980a6e70b522fa751cabfc36ff69cd439827c5fba5e63cba16e0342046976",
+    "bytes": 1559188
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T3_annotations.csv.gz",
+    "sha256": "54844331db5d9b2906bb4b85bbab727aa8c1bd8382b151cfaef25d9970bf5e19",
+    "bytes": 231071
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T3_supplemental_T_markers.h5ad",
+    "sha256": "1254e4799549527c1542e0421879e00e2b41529027111dcf4f549e7d7ee07329",
+    "bytes": 529204
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T4_spatial_marker_subset.h5ad",
+    "sha256": "ede8f4fb5d046b05135f023ae4ffbc7c0255b16916858550488dee262974ab26",
+    "bytes": 2594640
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T4_annotations.csv.gz",
+    "sha256": "779fd6436e75cc9e4a3361f96c621bf3c64b13297ebbfdaff5fd409f4563bf9d",
+    "bytes": 526907
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T4_supplemental_T_markers.h5ad",
+    "sha256": "569c4ac701d11308fa9183c6c50e17027afdfbc694b4c9db3aca4c72623f5d56",
+    "bytes": 779815
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/A009T5_spatial_marker_subset.h5ad",
+    "sha256": "699c48b16a88af36d92cad519b376dfecdbc0f3c733fa2af948df60ccb588511",
+    "bytes": 2240229
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/A009T5_annotations.csv.gz",
+    "sha256": "ef4a0aecaf7bf7a9d5b357681c51abff7cadc1e56cdf6033752663ff9a54caa1",
+    "bytes": 429673
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/A009T5_supplemental_T_markers.h5ad",
+    "sha256": "624631c9b527c95e419ec5705f6012c3c9ce697fdcd9a89d76c9660b203fcb58",
+    "bytes": 697364
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T1_spatial_marker_subset.h5ad",
+    "sha256": "ac4a79073d9de4577d66e45fb6bb5844e31fca6df5e53bb2cea315c5668f8f72",
+    "bytes": 1515722
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T1_annotations.csv.gz",
+    "sha256": "57f157ed4d98763d1a80af80cc50dfc255f5d449875410988ff9839991fd48d7",
+    "bytes": 222756
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T1_supplemental_T_markers.h5ad",
+    "sha256": "9109eab7540c8d1decbc7e1960eb4c5fb76e6e1f6366a8e923ddeec56b24b185",
+    "bytes": 525845
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T2_spatial_marker_subset.h5ad",
+    "sha256": "63a29a4597b2edca3dcb04755afd20a55fc67c055ecbe1cc5844adb240f1d5cf",
+    "bytes": 1729056
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T2_annotations.csv.gz",
+    "sha256": "72df931f53ace7ea8667b15c3574ebdcbc7dd3868dff527d89a1d4ece8eae011",
+    "bytes": 277880
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T2_supplemental_T_markers.h5ad",
+    "sha256": "7a7e9a811960164d635006cbb6074f7ff9e025d4c5b22bf32b4f15809fbc597f",
+    "bytes": 565013
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T3_spatial_marker_subset.h5ad",
+    "sha256": "1519f01e5395667bcb4ca89c9cc67908bcbd2430ada07753400a1b55e89c0bfa",
+    "bytes": 1669579
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T3_annotations.csv.gz",
+    "sha256": "a054a00538bbab9d485aefd659b557a48d5223b7701832e497fb3698a8105af1",
+    "bytes": 281217
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T3_supplemental_T_markers.h5ad",
+    "sha256": "8053b6740aa93257ade2a7592f5015bfee65a638c67e07cefde9e4be3b7b41ca",
+    "bytes": 572267
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B0013T4_spatial_marker_subset.h5ad",
+    "sha256": "66dd8905ec38e92238da6692ffec9adba2874fd3fbd38bb013051805fe58856b",
+    "bytes": 2107951
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B0013T4_annotations.csv.gz",
+    "sha256": "21d25cd1ac4a8cf344ebfa27ecb11ab6258a65b447f3141dd9b280d549ff4de4",
+    "bytes": 410758
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B0013T4_supplemental_T_markers.h5ad",
+    "sha256": "22433384b456966967ab55e949e6bc69a127aa6dbc360fd801e35716580f4f5c",
+    "bytes": 688460
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/B013T5_spatial_marker_subset.h5ad",
+    "sha256": "3ba88aaee1eeabf07b1e7468c67003be0fbcc44d7ba9f819f734f63817acf73b",
+    "bytes": 1924469
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/B013T5_annotations.csv.gz",
+    "sha256": "1456c06fe44ddcb73797db4fc551109b56dddf2071fa77890c380edede446dd4",
+    "bytes": 355401
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/B013T5_supplemental_T_markers.h5ad",
+    "sha256": "16befbdf2b1bf9a2e34cc17681f61b844833cd4d05178b85cf05d449fb3804fd",
+    "bytes": 620721
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C004T1P_spatial_marker_subset.h5ad",
+    "sha256": "9a10634e3a5ccaeec5f18ddfde5eee02f7d7d9ea752170b43fef5294ba60a77f",
+    "bytes": 1675081
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C004T1P_annotations.csv.gz",
+    "sha256": "93f6822abff528c01fe94f6316ee8823cf26ccd3ade0bbb6da8b0fde45cac624",
+    "bytes": 262391
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C004T1P_supplemental_T_markers.h5ad",
+    "sha256": "a826fbf8d4b7b600b7b90ced0d91f4aa8f450e3bad3460ca39dcc23a97391bbf",
+    "bytes": 561770
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C004T1R_spatial_marker_subset.h5ad",
+    "sha256": "3e03f86eb621e612c7c43807b240069a8e22199caa8ee4d3144104f0f61fc253",
+    "bytes": 1281474
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C004T1R_annotations.csv.gz",
+    "sha256": "1bb55a80b0d4c03071525641db13d70f844fd901030357f35f6aa8a0d3eb7be9",
+    "bytes": 166280
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C004T1R_supplemental_T_markers.h5ad",
+    "sha256": "f9114498e218ac4fd166f9286611d63d22cc558b30f3180a1ca8fb37f8a0e156",
+    "bytes": 498315
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T1_spatial_marker_subset.h5ad",
+    "sha256": "d3e71efd605b78ceaef26625d48b371179e910984b06f36323fccf9ec357f4a1",
+    "bytes": 2488249
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T1_annotations.csv.gz",
+    "sha256": "42da80fc7bba22c16879ce2907796de2c9aafdb8b6c60c4bd3bdf81bf7bcec75",
+    "bytes": 533939
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T1_supplemental_T_markers.h5ad",
+    "sha256": "d3b043b38517a1bd0be42d39ec4c7d159c684342d6a115bbc78f3fc5cc132073",
+    "bytes": 777314
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T2_spatial_marker_subset.h5ad",
+    "sha256": "cdc6233cbdca5807fdfc61ca2dbc54b9daf4f112271d91f5b6e3fe523ba436b0",
+    "bytes": 1551037
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T2_annotations.csv.gz",
+    "sha256": "05ca63640889d6cffd5c81c5650d28caf0a4fb5680d39c827f239ede8bbd7b27",
+    "bytes": 248142
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T2_supplemental_T_markers.h5ad",
+    "sha256": "13beb9f868560eef4b1bbd19fd4a86b505a86074846a2739d6a640cabe936e54",
+    "bytes": 537605
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T3_spatial_marker_subset.h5ad",
+    "sha256": "4e4bbd9915310f272b9998b54ecaf3f9f092509ea1a7e87951800d60f832c111",
+    "bytes": 1583544
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T3_annotations.csv.gz",
+    "sha256": "4b88b5579e8e8bfcc64a1c80e7f31a0f1cfc89d14847cd4b956c6f4f7fa9ff36",
+    "bytes": 229505
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T3_supplemental_T_markers.h5ad",
+    "sha256": "a58cfb3aa3cb8d1041dfab6e7d789c671f3732d6e2b9bb3be1599a674448023e",
+    "bytes": 532089
+  },
+  {
+    "path": "GSE281759_spatial_HCC_PGAM5/C008T4_spatial_marker_subset.h5ad",
+    "sha256": "5e345c7575af6ce5b0313cafd5cdf6f1d3ceb2c83632ac9825cfea2f35ce319e",
+    "bytes": 1872136
+  },
+  {
+    "path": "GSE281759_PGAM5_immune_subgroup_neighbors/C008T4_annotations.csv.gz",
+    "sha256": "acaf30b379abd2a66c178af7866c55a815dc2313329174818e9fbf1c4fdb2597",
+    "bytes": 322368
+  },
+  {
+    "path": "GSE281759_PGAM5_Tcell_extended/C008T4_supplemental_T_markers.h5ad",
+    "sha256": "65ef3f25f7b3ebab420293b6d9dc66498f7c548812020b75c235402549103c8a",
+    "bytes": 605104
+  }
+]
