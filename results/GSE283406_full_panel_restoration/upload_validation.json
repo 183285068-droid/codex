@@ -1,0 +1,117 @@
+[
+  {
+    "sample": "GSM8661790",
+    "genes": 18085,
+    "barcodes": 3923,
+    "nonzero": 7220860,
+    "missing_markers": [
+      "CD8B",
+      "ITGAE"
+    ],
+    "files": {
+      "matrix": {
+        "path": "/workspace/attachments/5f858e77-262d-4815-9105-58a4e2dfdc3b/GSM8661790_J259X.matrix.mtx.gz",
+        "bytes": 25384711,
+        "sha256": "f633fcc80cccfc7c57d98f40a87af4dc2be953b699c0d5b14050e689077bcaf7"
+      },
+      "features": {
+        "path": "/workspace/attachments/57306848-8dc4-4167-bfb6-33213f72175c/GSM8661790_J259X.features.tsv.gz",
+        "bytes": 156435,
+        "sha256": "232d1fb0d3586c39088f18ca787784d2195894826b08a32b898146459983acea"
+      },
+      "barcodes": {
+        "path": "/workspace/attachments/71f0ccd8-a042-48cb-b519-44976192893e/GSM8661790_J259X.barcodes.tsv.gz",
+        "bytes": 21675,
+        "sha256": "a063c232283a508f1b8556c53defea53e47e0ba5372c1f77940d237be88ceb17"
+      }
+    }
+  },
+  {
+    "sample": "GSM8661791",
+    "genes": 18085,
+    "barcodes": 2397,
+    "nonzero": 9043457,
+    "missing_markers": [
+      "CD8B",
+      "ITGAE"
+    ],
+    "files": {
+      "matrix": {
+        "path": "/workspace/attachments/1cef2117-1dff-4068-8302-772033e18c4e/GSM8661791_J259B.matrix.mtx.gz",
+        "bytes": 30757136,
+        "sha256": "b9cb521a25564dd77795c6eb0676d0f8862184800b1c3429a41a01a534a85089"
+      },
+      "features": {
+        "path": "/workspace/attachments/1f7b7a5e-cbe0-4baa-b8c0-314a44d1a7fc/GSM8661791_J259B.features.tsv.gz",
+        "bytes": 156435,
+        "sha256": "1abea8a288c9c326b0880b8eb5edaefb57380f68f0cf87eec65832d37168f081"
+      },
+      "barcodes": {
+        "path": "/workspace/attachments/f45f8a73-6111-4006-bc27-589c1220ec1c/GSM8661791_J259B.barcodes.tsv.gz",
+        "bytes": 13474,
+        "sha256": "7e2c173f94487eca5227423c64ab1b849e797c34118f8d99d5177186d1d2ef94"
+      }
+    }
+  },
+  {
+    "sample": "GSM8661792",
+    "genes": 18085,
+    "barcodes": 3923,
+    "nonzero": 7925678,
+    "missing_markers": [
+      "CD8B",
+      "ITGAE"
+    ],
+    "files": {
+      "matrix": {
+        "path": "/workspace/attachments/b0de59d3-c6e4-4391-bc2b-b35d453194ab/GSM8661792_J259X.matrix.mtx.gz",
+        "bytes": 27885133,
+        "sha256": "a168201832ec0ad328fd5dc380196569719a2591c905a7f42a128226f2da0871"
+      },
+      "features": {
+        "path": "/workspace/attachments/bcbdb308-89da-4521-acb5-28104663eb60/GSM8661792_J259X.features.tsv.gz",
+        "bytes": 156435,
+        "sha256": "039f0b11cea5d4fdce30f53c27177fb7d3791f9dddb3c246df53166c99554a47"
+      },
+      "barcodes": {
+        "path": "/workspace/attachments/6bb0e3a1-9250-420e-ad3c-7fc4d4d10338/GSM8661792_J259X.barcodes.tsv.gz",
+        "bytes": 21675,
+        "sha256": "927d824a4cda18cd773bdb6adf1f36373f57021dd2480cd2dcddaa8d45ea157c"
+      }
+    },
+    "previous_subset_counts_match": true,
+    "QC_barcodes": 3922,
+    "marker_detection_QC": {
+      "PGAM5": 484,
+      "CD3D": 329,
+      "CD3E": 367,
+      "CD3G": 204,
+      "TRAC": 855,
+      "CD8A": 289,
+      "CD4": 750,
+      "FOXP3": 174,
+      "IKZF2": 179,
+      "IL2RA": 70,
+      "CTLA4": 110,
+      "TIGIT": 218,
+      "PDCD1": 176,
+      "LAG3": 241,
+      "HAVCR2": 275,
+      "TOX": 66,
+      "CXCL13": 154,
+      "CD69": 389,
+      "TNFRSF9": 84,
+      "ICOS": 111,
+      "CCR7": 232,
+      "SELL": 374,
+      "TCF7": 275,
+      "LEF1": 277,
+      "IL7R": 965,
+      "GZMK": 325,
+      "ZNF683": 99,
+      "PRF1": 297,
+      "GZMB": 219,
+      "CCL5": 924
+    }
+  }
+]
