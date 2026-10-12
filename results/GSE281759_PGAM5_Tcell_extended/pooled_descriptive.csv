@@ -1,0 +1,7 @@
+target,n_sources,with_neighbor,n_target_spots,coverage_pct
+CD4_related,382,41,346,10.732984293193716
+CD8_supported,382,49,193,12.827225130890053
+Central_memory_like,382,5,48,1.3089005235602094
+Effector_memory_like,382,38,296,9.947643979057592
+Naive_like,382,5,26,1.3089005235602094
+Treg_supported,382,17,126,4.450261780104712

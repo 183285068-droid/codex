@@ -1,0 +1,289 @@
+gsm,sample,patient,tumor_status,comparison,n_high,n_comparator,target,status,reason,delta_pp,high_pct,comparator_pct,null_mean_pp,p,joint_q_288,primary_q_96,primary_only_q_90
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,CD4_related,tested,,-2.109328579916815,2.941176470588235,5.05050505050505,-2.9637656586575782,1.0,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,CD8_supported,tested,,-5.22875816993464,5.88235294117647,11.11111111111111,0.5515363322218815,0.3192,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Treg_supported,tested,,1.752822341057636,8.823529411764707,7.07070707070707,-3.693917630822659,0.2288,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_other_detected,34,99,Effector_memory_like,tested,,5.704099821746881,11.76470588235294,6.0606060606060606,9.58661132107586,0.7076,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,CD4_related,tested,,-4.923992068737607,2.941176470588235,7.865168539325842,-0.36796079198214565,0.5036,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,CD8_supported,tested,,-7.975324961445253,5.88235294117647,13.857677902621724,-0.505529614404925,0.3068,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Treg_supported,tested,,2.0819563780568413,8.823529411764707,6.741573033707865,-2.1656523417483675,0.4644,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,high_vs_all_other_mac,34,267,Effector_memory_like,tested,,5.7721965190570605,11.76470588235294,5.992509363295881,6.135007569921123,1.0,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,CD4_related,not_testable,constant conditional null,-1.6666666666666667,0.0,1.6666666666666667,-1.6666666666666665,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,CD8_supported,tested,,-6.111111111111112,5.555555555555555,11.666666666666666,-1.2149096485963868,0.816,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Treg_supported,tested,,6.11111111111111,11.11111111111111,5.0,-1.106776910937743,0.5032,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627602,A009T1,A009,primary,nonT_high_vs_other_detected,18,60,Effector_memory_like,tested,,7.777777777777778,11.11111111111111,3.3333333333333335,7.170989753506254,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,CD4_related,not_testable,constant conditional null,-1.9607843137254901,0.0,1.9607843137254901,-1.9607843137254901,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,CD8_supported,tested,,0.0,5.88235294117647,5.88235294117647,-1.873315839638516,1.0,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Treg_supported,not_testable,constant conditional null,-1.9607843137254901,0.0,1.9607843137254901,-1.9607843137254901,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_other_detected,17,51,Effector_memory_like,tested,,-7.8431372549019605,0.0,7.8431372549019605,0.034516707263021223,0.4932,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,CD4_related,not_testable,constant conditional null,-0.9009009009009009,0.0,0.9009009009009009,-0.9009009009009008,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,CD8_supported,tested,,2.278749337572867,5.88235294117647,3.6036036036036037,-1.1610483198918533,0.8772,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Treg_supported,not_testable,constant conditional null,-0.9009009009009009,0.0,0.9009009009009009,-0.9009009009009008,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,high_vs_all_other_mac,17,111,Effector_memory_like,tested,,-4.504504504504505,0.0,4.504504504504505,-1.5708388100513584,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,CD4_related,not_testable,constant conditional null,-2.272727272727273,0.0,2.272727272727273,-2.2727272727272734,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,CD8_supported,tested,,-0.5681818181818177,6.25,6.8181818181818175,-4.728104711851461,1.0,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Treg_supported,not_testable,constant conditional null,-2.272727272727273,0.0,2.272727272727273,-2.2727272727272734,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627603,A009T2,A009,primary,nonT_high_vs_other_detected,16,44,Effector_memory_like,tested,,-9.090909090909092,0.0,9.090909090909092,-4.750268235465275,1.0,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,CD4_related,tested,,-4.0,0.0,4.0,-2.066860430909711,1.0,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_other_detected,17,50,Effector_memory_like,tested,,5.88235294117647,5.88235294117647,0.0,3.9507901580316065,1.0,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,CD4_related,tested,,-5.263157894736842,0.0,5.263157894736842,-0.9419685794744084,0.9644,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,high_vs_all_other_mac,17,76,Effector_memory_like,tested,,5.88235294117647,5.88235294117647,0.0,1.5280455471899332,0.7904,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,CD4_related,not_testable,constant conditional null,-2.5,0.0,2.5,-2.5,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627604,A009T3,A009,primary,nonT_high_vs_other_detected,12,40,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,CD4_related,tested,,-5.263157894736842,18.421052631578945,23.684210526315788,-5.69763075422102,1.0,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,CD8_supported,tested,,-1.7543859649122806,31.57894736842105,33.33333333333333,-1.227964891223859,1.0,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Treg_supported,tested,,-4.824561403508771,5.263157894736842,10.087719298245613,-3.2688116570682553,0.842,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Central_memory_like,tested,,1.7543859649122806,2.631578947368421,0.8771929824561403,0.4625486500808933,0.7412,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_other_detected,76,228,Effector_memory_like,tested,,-11.403508771929824,10.526315789473683,21.929824561403507,-7.330062503728816,0.4552,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,CD4_related,tested,,-4.066985645933016,18.421052631578945,22.48803827751196,-3.7646285237908823,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,CD8_supported,tested,,-1.9138755980861288,31.57894736842105,33.49282296650718,-0.7753703850818013,0.9524,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Treg_supported,tested,,-3.8277511961722492,5.263157894736842,9.090909090909092,-1.4938155095133865,0.6148,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Central_memory_like,tested,,1.1961722488038276,2.631578947368421,1.4354066985645932,0.07010971572304875,0.746,1.0,,
+GSM8627605,A009T4,A009,primary,high_vs_all_other_mac,76,418,Effector_memory_like,tested,,-9.80861244019139,10.526315789473683,20.334928229665074,-4.3767605195680295,0.2656,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,CD4_related,tested,,-6.7660550458715605,12.5,19.26605504587156,-5.203976575131541,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,CD8_supported,tested,,-0.4357798165137622,22.5,22.93577981651376,4.15269751197946,0.6884,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Treg_supported,tested,,-4.839449541284404,2.5,7.339449541284404,-4.9816431176143485,1.0,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Central_memory_like,tested,,2.5,2.5,0.0,0.42725517580580336,0.7872,1.0,,
+GSM8627605,A009T4,A009,primary,nonT_high_vs_other_detected,40,109,Effector_memory_like,tested,,-5.596330275229358,10.0,15.59633027522936,-9.170311126445474,0.6592,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,CD4_related,tested,,-3.3056812468577177,1.9230769230769231,5.228758169934641,-1.9160619454207581,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,CD8_supported,tested,,-2.4132730015082924,23.076923076923077,25.49019607843137,-2.6112009732263193,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Treg_supported,tested,,-8.107088989441932,13.461538461538462,21.568627450980394,-6.820041735848427,1.0,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_other_detected,52,153,Effector_memory_like,tested,,-0.26395173453997167,13.461538461538462,13.725490196078432,-3.0040170930113623,0.7512,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,CD4_related,tested,,-2.871443624868282,1.9230769230769231,4.794520547945205,0.5388801680251756,0.4748,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,CD8_supported,tested,,0.8166491043203383,23.076923076923077,22.26027397260274,2.0924047823263288,0.986,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Treg_supported,tested,,-3.661749209694415,13.461538461538462,17.123287671232877,-2.5627412099912075,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,high_vs_all_other_mac,52,292,Effector_memory_like,tested,,1.8177028451001054,13.461538461538462,11.643835616438356,-0.3662639798771126,0.782,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,CD4_related,tested,,-2.083333333333333,0.0,2.083333333333333,0.05189763442884675,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,CD8_supported,tested,,0.42892156862744946,26.47058823529412,26.041666666666668,1.3666703929021102,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Treg_supported,tested,,-6.127450980392157,14.705882352941178,20.833333333333336,-5.295666976532561,1.0,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627606,A009T5,A009,primary,nonT_high_vs_other_detected,34,96,Effector_memory_like,tested,,2.205882352941177,14.705882352941178,12.5,-2.7625132869711186,0.6052,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,CD4_related,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_other_detected,5,15,Effector_memory_like,not_testable,constant conditional null,-6.666666666666667,0.0,6.666666666666667,-6.666666666666666,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,CD4_related,tested,,-8.24742268041237,0.0,8.24742268041237,-3.651039486247765,1.0,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627607,B0013T1,B013,primary,high_vs_all_other_mac,5,194,Effector_memory_like,tested,,-8.24742268041237,0.0,8.24742268041237,-3.503298597863902,1.0,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,CD4_related,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,CD8_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Treg_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Naive_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Central_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627607,B0013T1,B013,primary,nonT_high_vs_other_detected,4,12,Effector_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,CD4_related,tested,,-22.125435540069684,7.142857142857142,29.268292682926827,-14.979755532988133,0.4836,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Treg_supported,not_testable,constant conditional null,-1.2195121951219512,0.0,1.2195121951219512,-1.2195121951219512,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Central_memory_like,tested,,-3.6585365853658534,0.0,3.6585365853658534,-1.2587534928588504,1.0,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_other_detected,28,82,Effector_memory_like,tested,,-2.5261324041811846,3.571428571428571,6.097560975609756,0.10366184735204867,1.0,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,CD4_related,tested,,-11.278195488721805,7.142857142857142,18.421052631578945,-4.937453656144762,0.5128,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Treg_supported,tested,,-2.631578947368421,0.0,2.631578947368421,-1.09574546488245,1.0,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Central_memory_like,tested,,-3.007518796992481,0.0,3.007518796992481,-1.151884512240794,1.0,1.0,,
+GSM8627608,B0013T2,B013,primary,high_vs_all_other_mac,28,266,Effector_memory_like,tested,,-0.9398496240601504,3.571428571428571,4.511278195488721,1.6888340074029844,0.9548,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,CD4_related,tested,,-22.395833333333336,4.166666666666666,26.5625,-9.147350303394013,0.162,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Treg_supported,not_testable,constant conditional null,-1.5625,0.0,1.5625,-1.5625,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Central_memory_like,tested,,-3.125,0.0,3.125,-1.0861547309461894,1.0,1.0,,
+GSM8627608,B0013T2,B013,primary,nonT_high_vs_other_detected,24,64,Effector_memory_like,tested,,-4.6875,0.0,4.6875,-2.016028205641128,1.0,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,CD4_related,tested,,14.285714285714285,14.285714285714285,0.0,7.447371827306636,1.0,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_other_detected,7,17,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,CD4_related,tested,,9.08340214698596,14.285714285714285,5.202312138728324,3.6005549582253353,1.0,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627609,B0013T3,B013,primary,high_vs_all_other_mac,7,173,Effector_memory_like,tested,,-4.624277456647398,0.0,4.624277456647398,6.638751367119006,0.842,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,CD4_related,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,CD8_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Treg_supported,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Naive_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Central_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627609,B0013T3,B013,primary,nonT_high_vs_other_detected,4,15,Effector_memory_like,not_testable,high<5 or comparator<10,,,,,,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,CD4_related,tested,,-12.5,12.5,25.0,-4.051643662065746,0.5856,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,CD8_supported,tested,,-2.083333333333333,6.25,8.333333333333332,-1.461542308461692,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Treg_supported,tested,,6.25,6.25,0.0,4.167916916716676,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Naive_like,not_testable,constant conditional null,-2.083333333333333,0.0,2.083333333333333,-2.0833333333333326,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Central_memory_like,tested,,-4.166666666666666,0.0,4.166666666666666,0.017503500700140506,0.996,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_other_detected,16,48,Effector_memory_like,tested,,-4.166666666666666,18.75,22.916666666666664,-2.0679135827165434,1.0,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,CD4_related,tested,,-10.254491017964071,12.5,22.75449101796407,2.1302838411993776,0.3988,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,CD8_supported,tested,,-3.929640718562874,6.25,10.179640718562874,0.09380618638697802,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Treg_supported,tested,,5.651197604790419,6.25,0.5988023952095809,1.2884238524351574,0.63,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Naive_like,tested,,-3.8922155688622757,0.0,3.8922155688622757,-1.0767198349849616,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Central_memory_like,tested,,-4.191616766467066,0.0,4.191616766467066,1.0738450085226625,0.818,1.0,,
+GSM8627610,B0013T4,B013,primary,high_vs_all_other_mac,16,334,Effector_memory_like,tested,,-5.202095808383234,18.75,23.952095808383234,-3.1242101713755925,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,CD4_related,tested,,-5.6818181818181825,12.5,18.181818181818183,2.364488049124976,0.964,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,CD8_supported,tested,,-12.121212121212121,0.0,12.121212121212121,-6.9299465953796835,1.0,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Central_memory_like,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,,
+GSM8627610,B0013T4,B013,primary,nonT_high_vs_other_detected,8,33,Effector_memory_like,tested,,-9.090909090909092,0.0,9.090909090909092,-1.0446028599659334,0.964,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,CD4_related,tested,,-6.190476190476191,16.666666666666664,22.857142857142858,-4.995840437928856,1.0,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,CD8_supported,tested,,1.8253968253968251,2.7777777777777777,0.9523809523809524,-0.30196515493574927,0.7656,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Treg_supported,tested,,1.8253968253968251,2.7777777777777777,0.9523809523809524,0.19797610315713918,1.0,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Naive_like,not_testable,constant conditional null,-0.9523809523809524,0.0,0.9523809523809524,-0.9523809523809523,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Central_memory_like,not_testable,constant conditional null,-0.9523809523809524,0.0,0.9523809523809524,-0.9523809523809523,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_other_detected,36,105,Effector_memory_like,tested,,-10.476190476190476,0.0,10.476190476190476,-4.264979980123009,0.2608,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,CD4_related,tested,,-6.6978193146417455,16.666666666666664,23.364485981308412,-3.867450540990857,0.8676,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,CD8_supported,tested,,1.8431983385254411,2.7777777777777777,0.9345794392523363,-0.427276524879223,0.4972,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Treg_supported,tested,,0.9086188992731049,2.7777777777777777,1.8691588785046727,-1.8037148447342635,0.2444,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Naive_like,not_testable,constant conditional null,-0.6230529595015576,0.0,0.6230529595015576,-0.6230529595015576,,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Central_memory_like,tested,,-1.8691588785046727,0.0,1.8691588785046727,-1.0935883957684578,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,high_vs_all_other_mac,36,321,Effector_memory_like,tested,,-6.853582554517133,0.0,6.853582554517133,-1.5932989297755709,0.3116,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,CD4_related,tested,,-12.989247311827956,9.67741935483871,22.666666666666664,-1.3255468297960677,0.16,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,CD8_supported,tested,,1.8924731182795695,3.225806451612903,1.3333333333333335,-0.6483877420645423,0.8112,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Treg_supported,tested,,1.8924731182795695,3.225806451612903,1.3333333333333335,2.810867549854056,1.0,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627611,B013T5,B013,primary,nonT_high_vs_other_detected,31,75,Effector_memory_like,tested,,-8.0,0.0,8.0,-3.2265377806744144,0.5844,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,CD4_related,not_testable,constant conditional null,-20.0,0.0,20.0,-20.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_other_detected,7,20,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,CD4_related,tested,,-8.633093525179856,0.0,8.633093525179856,-3.7704560439323225,1.0,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Naive_like,not_testable,constant conditional null,-0.7194244604316548,0.0,0.7194244604316548,-0.7194244604316546,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Central_memory_like,not_testable,constant conditional null,-2.158273381294964,0.0,2.158273381294964,-2.1582733812949644,,1.0,,
+GSM8627612,C004T1P,C004,primary,high_vs_all_other_mac,7,139,Effector_memory_like,not_testable,constant conditional null,-3.597122302158273,0.0,3.597122302158273,-3.597122302158272,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,CD4_related,not_testable,constant conditional null,-13.333333333333334,0.0,13.333333333333334,-13.333333333333332,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627612,C004T1P,C004,primary,nonT_high_vs_other_detected,6,15,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,CD4_related,tested,,8.73015873015873,14.285714285714285,5.555555555555555,15.290994706877882,1.0,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Central_memory_like,tested,,-5.555555555555555,0.0,5.555555555555555,1.0052804211635973,1.0,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_other_detected,7,18,Effector_memory_like,not_testable,constant conditional null,14.285714285714285,14.285714285714285,0.0,14.28571428571428,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,CD4_related,not_testable,constant conditional null,10.0,14.285714285714285,4.285714285714286,10.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Naive_like,tested,,-2.857142857142857,0.0,2.857142857142857,1.6851941816934815,1.0,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Central_memory_like,tested,,-5.714285714285714,0.0,5.714285714285714,-1.171948675449376,1.0,1.0,,
+GSM8627613,C004T1R,C004,recurrent,high_vs_all_other_mac,7,70,Effector_memory_like,tested,,7.142857142857142,14.285714285714285,7.142857142857142,-0.7567227731260538,0.9948,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,CD4_related,not_testable,constant conditional null,14.285714285714285,14.285714285714285,0.0,14.28571428571428,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,nonT_high_vs_other_detected,7,11,Effector_memory_like,not_testable,constant conditional null,14.285714285714285,14.285714285714285,0.0,14.28571428571428,,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,CD4_related,tested,,4.398148148148145,48.148148148148145,43.75,-6.482361287072232,0.2308,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,CD8_supported,tested,,15.879629629629626,29.629629629629626,13.750000000000002,11.712731435175922,0.7432,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Treg_supported,tested,,-10.046296296296298,3.7037037037037033,13.750000000000002,-5.221414653301032,0.6816,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Naive_like,tested,,-1.4814814814814836,18.51851851851852,20.0,-5.016160639535315,0.7432,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Central_memory_like,tested,,-6.388888888888888,11.11111111111111,17.5,-0.9516069880642802,0.5072,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_other_detected,27,80,Effector_memory_like,tested,,5.648148148148147,48.148148148148145,42.5,3.421508375749222,1.0,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,CD4_related,tested,,9.39536418378289,48.148148148148145,38.75278396436526,-1.3345488531839855,0.2992,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,CD8_supported,tested,,19.1619236162666,29.629629629629626,10.46770601336303,3.9707042291078025,0.046,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Treg_supported,tested,,-7.877588055761775,3.7037037037037033,11.58129175946548,-4.112182660899086,0.7748,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Naive_like,tested,,7.828095355934998,18.51851851851852,10.690423162583519,-1.1031571982960484,0.188,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Central_memory_like,tested,,-0.024746349913389032,11.11111111111111,11.1358574610245,0.8023232956415575,1.0,1.0,,
+GSM8627614,C008T1,C008,primary,high_vs_all_other_mac,27,449,Effector_memory_like,tested,,16.29959580961808,48.148148148148145,31.848552338530066,-0.45465168262556405,0.086,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,CD4_related,tested,,-6.490384615384615,15.384615384615385,21.875,-11.908775985966424,0.9984,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,CD8_supported,tested,,1.4423076923076927,7.6923076923076925,6.25,-3.976083678274116,0.9984,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Treg_supported,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Naive_like,not_testable,constant conditional null,-12.5,0.0,12.5,-12.5,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Central_memory_like,not_testable,constant conditional null,-3.125,0.0,3.125,-3.125,,1.0,,
+GSM8627614,C008T1,C008,primary,nonT_high_vs_other_detected,13,32,Effector_memory_like,tested,,5.769230769230771,30.76923076923077,25.0,3.0513795066705667,1.0,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,CD4_related,tested,,-9.090909090909092,0.0,9.090909090909092,-5.102232567725666,1.0,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,CD8_supported,not_testable,constant conditional null,-3.0303030303030303,0.0,3.0303030303030303,-3.030303030303031,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_other_detected,11,33,Effector_memory_like,tested,,-12.121212121212121,0.0,12.121212121212121,-4.090515072711512,0.6752,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,CD4_related,tested,,-7.389162561576355,0.0,7.389162561576355,-5.000471657251289,1.0,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,CD8_supported,not_testable,constant conditional null,-0.49261083743842365,0.0,0.49261083743842365,-0.49261083743842354,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,high_vs_all_other_mac,11,203,Effector_memory_like,tested,,-7.8817733990147785,0.0,7.8817733990147785,-1.1278744777168601,0.8624,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,CD4_related,not_testable,constant conditional null,-11.76470588235294,0.0,11.76470588235294,-11.764705882352938,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,CD8_supported,not_testable,constant conditional null,-5.88235294117647,0.0,5.88235294117647,-5.882352941176469,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627615,C008T2,C008,primary,nonT_high_vs_other_detected,9,17,Effector_memory_like,not_testable,constant conditional null,-5.88235294117647,0.0,5.88235294117647,-5.882352941176469,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,CD4_related,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_other_detected,14,40,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,CD4_related,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,high_vs_all_other_mac,14,130,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,CD4_related,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627616,C008T3,C008,primary,nonT_high_vs_other_detected,13,38,Effector_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,CD4_related,tested,,-7.228915662650602,0.0,7.228915662650602,1.1923382955420687,0.168,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_other_detected,28,83,Effector_memory_like,tested,,-6.024096385542169,0.0,6.024096385542169,1.3347075611335688,0.2376,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,CD4_related,tested,,-4.247104247104247,0.0,4.247104247104247,-0.10670087685490755,0.636,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,high_vs_all_other_mac,28,259,Effector_memory_like,tested,,-3.861003861003861,0.0,3.861003861003861,0.37756586066247977,0.5892,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,CD4_related,tested,,-7.042253521126761,0.0,7.042253521126761,-0.10367227331747038,0.3036,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,CD8_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Treg_supported,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Naive_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Central_memory_like,not_testable,constant conditional null,0.0,0.0,0.0,0.0,,1.0,,
+GSM8627617,C008T4,C008,primary,nonT_high_vs_other_detected,27,71,Effector_memory_like,tested,,-2.8169014084507045,0.0,2.8169014084507045,-0.22349801206981126,0.9856,1.0,,

@@ -1,0 +1,60 @@
+{
+  "targets": {
+    "CD4_related": [
+      "CD4",
+      "IL7R",
+      "LTB"
+    ],
+    "CD8_supported": [
+      "CD8A",
+      "CD8B"
+    ],
+    "Treg_supported": [
+      "FOXP3",
+      "IL2RA",
+      "CTLA4",
+      "IKZF2",
+      "TIGIT"
+    ],
+    "Naive_like": [
+      "CCR7",
+      "SELL",
+      "TCF7",
+      "LEF1",
+      "MAL"
+    ],
+    "Central_memory_like": [
+      "CCR7",
+      "IL7R",
+      "LTB",
+      "TCF7"
+    ],
+    "Effector_memory_like": [
+      "GZMK",
+      "CCL5",
+      "IL7R"
+    ]
+  },
+  "permutations": 4999,
+  "seed": 281759202,
+  "primary_planned_tests": 96,
+  "joint_planned_tests": 288,
+  "labels_overlap": true,
+  "primary_only_tests": 90,
+  "source_gate_unchanged": true,
+  "minimum_detected": {
+    "Naive_like": 3,
+    "Central_memory_like": 3,
+    "others": 2
+  },
+  "anchors": {
+    "CD4_related": "CD4",
+    "CD8_supported": "CD8A AND CD8B",
+    "Treg_supported": "FOXP3",
+    "Naive_like": "(CCR7 OR SELL) AND (TCF7 OR LEF1)",
+    "Central_memory_like": "CCR7 AND IL7R",
+    "Effector_memory_like": "GZMK AND (CCL5 OR IL7R)"
+  },
+  "T_state_cutoff": "within existing T gate Q75, score>0",
+  "not_resolved_cell_identity": true
+}
