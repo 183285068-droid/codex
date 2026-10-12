@@ -1,0 +1,30 @@
+[
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC1R_spot_annotations.csv.gz",
+    "sha256": "55744a305f4ecace541572acf58a8ded579c6efd014f569bc3f0723c1783b0c4"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC2R_spot_annotations.csv.gz",
+    "sha256": "ae65ea9cfa1906031beee188f7b64ee0fa1b2a8989c6a7f858266580a77b4b5d"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC3R_spot_annotations.csv.gz",
+    "sha256": "d55f8785ea2af47a7ca2cf998624864fba77765e63c048f2f746604c4c1033b1"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC4R_spot_annotations.csv.gz",
+    "sha256": "6cd783934e33c4b6d5b97cd51fae9fd36e0b8ebfde6a271cbb292ba435b9d7b9"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC5NR_spot_annotations.csv.gz",
+    "sha256": "a691065889dddbbdac5cc90948b781a74a4d931d89bd3b89e94f9061efd04788"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC6NR_spot_annotations.csv.gz",
+    "sha256": "10e8925bd7e9eecfa565a6857e530f00b33eab3577b5ab46bf3fae36ba8ed227"
+  },
+  {
+    "path": "GSE238264_PGAM5_spatial_response/HCC7NR_spot_annotations.csv.gz",
+    "sha256": "4868c94d382feaf99640df3579cc2ee38c015e22018d0d507ea778c8f954454b"
+  }
+]

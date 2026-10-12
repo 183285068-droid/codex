@@ -1,0 +1,18 @@
+{
+  "adopted_quantile": 0.25,
+  "reference_quantiles": [
+    0.5,
+    0.6,
+    0.75
+  ],
+  "population": "PGAM5 detected macrophage RNA sources within each slice",
+  "lower_boundary_included": true,
+  "minimum_sources": 1,
+  "low_support_flag_n_less_than": 3,
+  "independent_units": "7 slices, one patient per slice",
+  "responders": 4,
+  "nonresponders": 3,
+  "BH_family": 12,
+  "analysis_role": "exploratory supplement requested after sparse baseline",
+  "primary_source_labels": "high_Q25 in threshold_labels.csv.gz"
+}
