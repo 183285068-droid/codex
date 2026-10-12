@@ -1,0 +1,42 @@
+[
+  {
+    "path": "subgroup_neighborhood_counts.csv",
+    "sha256": "1f619a4a07c4397aeebb71789e2ac4da435f1c44796934bc5fcc300c49393ee2",
+    "bytes": 9148
+  },
+  {
+    "path": "strict_marker_descriptive_sensitivity.csv",
+    "sha256": "6c9fa468797e44646e960045baf4e6b17245f4b432e97712bbffbca730cae9d9",
+    "bytes": 487
+  },
+  {
+    "path": "spatial_conditional_tests.csv",
+    "sha256": "4f1719a6b4772dfa61aa58b5304a964bf1aaf44316bbfd002bd716ab8687b909",
+    "bytes": 17921
+  },
+  {
+    "path": "source_group_summary.csv",
+    "sha256": "88c4df5d7945c930a8fc880f3b3544cb26e5ec41d55c89921ce5455a40bb506c",
+    "bytes": 204
+  },
+  {
+    "path": "candidate_LR_by_immune_subgroup.csv",
+    "sha256": "895cd62a6b33d6d6d6dc727bfc976ef1f32b7e8e53190692d4a2aaa91c681bbd",
+    "bytes": 100722
+  },
+  {
+    "path": "audit_results.json",
+    "sha256": "51c19ac60b912c20060f91c1c4b8f45de573bcbbebea6d0cde9ae47431132c88",
+    "bytes": 602099
+  },
+  {
+    "path": "CHC20_immune_marker_subset.h5ad",
+    "sha256": "743cb3908f803dcb5725bf19d9a4e864c57f7513a8a1080ae12d2d656089af1f",
+    "bytes": 1583899
+  },
+  {
+    "path": "CHC23_immune_marker_subset.h5ad",
+    "sha256": "5e51319116e80403df0568d7080aab4ef617f06b23a4a2e0412d372b09d6a175",
+    "bytes": 1407395
+  }
+]

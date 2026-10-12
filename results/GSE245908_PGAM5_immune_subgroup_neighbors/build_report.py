@@ -99,12 +99,14 @@ def main():
         '## 数据定义与可复现执行',
         '17套固定程序包含2套来源谱系程序、全部T基线及14个候选目标标签。所有标志均可在原始矩阵中找到。T状态要求全部T门限：CD3D/CD3E/CD3G/TRAC/TRBC1/TRBC2平均≥样本Q75且至少2个检出；状态程序≥T门限内Q75且至少2个状态标志检出，CD8/细胞毒额外要求CD8A或CD8B，Treg额外要求FOXP3。非T目标程序≥全样本Q75且>0，至少2个标志检出（浆细胞、pDC至少3个），并要求相应锚定标志。NK排除全部T门限；炎症单核门限额外要求泛髓系程序≥中位数。完整程序在[programs.json](programs.json)，锚定规则在[analyze.py](analyze.py)，统计契约在[analysis_config.json](analysis_config.json)。',
         f'独立核验脚本通过{audit["checks"]:,}项检查，涵盖原始HDF5计数/特征ID、库大小、门限、真实坐标、独立重建六角邻接、置换分层与标签数、精确条件期望、p/BH重算、配体–受体各亚基及来源/目标分母、严格标志复核、PNG/PDF文件。部分与此前发布文件的同一性检查仅在此前结果目录存在时执行；单独下载后有效检查数可略有不同。图形布局已人工查看。详见[audit_results.json](audit_results.json)。',
-        '下载包包含代码、全部7套PNG/PDF、CSV、标志子集AnnData对象（原始标志计数、全库归一化值、注释、邻接及低分辨率病理图）、置换审计数组与固定配体–受体资源。未重复打包全部官方HDF5；prepare_inputs.py从已发布基础分析的固定提交下载缺失依赖并逐项验证SHA256。子集对象不可按子集库大小重新归一化。',
+        '下载包包含代码、全部已发布PNG/PDF、CSV、标志子集AnnData对象（原始标志计数、全库归一化值、注释、邻接及低分辨率病理图）、置换审计数组与固定配体–受体资源。未重复打包全部官方HDF5；prepare_inputs.py从已发布基础分析的固定提交下载缺失依赖并逐项验证SHA256。子集对象不可按子集库大小重新归一化。',
         '解压后在此目录执行（本轮运行Python 3.12.14；完整复算会下载原始依赖）：\n\n```bash\npython -m venv .venv\n. .venv/bin/activate\npip install -r requirements.txt\npython prepare_inputs.py\nOPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python analyze.py\nOPENBLAS_NUM_THREADS=1 python marker_specificity.py\nOPENBLAS_NUM_THREADS=1 python plot.py\nOPENBLAS_NUM_THREADS=1 python audit.py\npython build_report.py\npython package_results.py\n```',
         '已保存当前运行版本和随机种子；统计含Monte Carlo，跨平台数值细节可能有微小差异。绘图不需要重跑统计，可直接读取下载包中的结果与子集对象执行plot.py。',
         '## 来源',
         '- [GSE245908官方GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245908)；GSM7850822、GSM7850823官方表达、坐标、比例因子及组织图。\n- 基础分析固定提交：`9cccc00079d26e55eb9d4f1d746cca9394366b76`；[依赖清单](source_inputs/base_requirements.json)、[输入SHA256](input_manifest.json)。\n- 关联单细胞GSE245906采用CD45+、panTCRαβ−、CD19−先天免疫分选，不能提供完整T/B竞争参考，因此本轮使用透明的固定RNA门限，不宣称完成单细胞分辨率映射。\n- 配体–受体数据库固定快照：LIANA 1.10.0 omni_resource.csv；已保存本地快照与SHA256。',
         '[下载完整结果包](GSE245908_PGAM5_immune_subgroup_neighbors_results.zip)（在GitHub文件页点击Download raw file；或使用聊天中的直接下载链接）。']
+    if (ROOT / 'review_20261012/review_checks.json').exists():
+        sections.insert(2, '## 本轮复核与候选概要图\n\n[2026-10-12复核说明与严格标志对照](review_20261012/README.md)提供两套新增PNG/PDF：\n\n- [候选免疫RNA邻域概要](review_20261012/candidate_neighborhood_overview.png)\n- [严格标志要求对邻接支持的影响](review_20261012/strict_marker_comparison.png)\n\n本轮从原始HDF5重新执行独立审核，另核对38项概要计数。完整结果包保留原有7套图，并增加这2套概要图。原来源分组、固定亚群门限和90项计划检验不变。')
     (ROOT / 'README.md').write_text('\n\n'.join(sections) + '\n')
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 

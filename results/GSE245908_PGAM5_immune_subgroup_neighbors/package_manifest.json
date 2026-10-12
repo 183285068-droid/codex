@@ -1,10 +1,10 @@
 {
   "archive": "GSE245908_PGAM5_immune_subgroup_neighbors_results.zip",
-  "bytes": 14083349,
-  "MiB": 13.430928230285645,
-  "sha256": "18bc2796883c25dacd2f2b8a0233b567303e49e3e75b8e96e9097ea5e8a1e6f1",
+  "bytes": 14347998,
+  "MiB": 13.683317184448242,
+  "sha256": "6115ea9c83bc750543f5e31f59ce3897040da4daac7f63a2a793d1e45aca7114",
   "ZIP_CRC_verified": true,
-  "files_verified": 82,
+  "files_verified": 92,
   "files": [
     {
       "path": "CHC20_directed_immune_LR_edges.csv.gz",
@@ -218,8 +218,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12752,
-      "sha256": "876eff152f03eb9ee68d888ffb63e8c289b5048e2e2e1786f09e38b553b102ef"
+      "bytes": 13280,
+      "sha256": "55d98f06342877dbdbb69958acffcd497db465759991a220247cd420afa2cbf0"
     },
     {
       "path": "analysis_config.json",
@@ -239,12 +239,12 @@
     {
       "path": "audit_results.json",
       "bytes": 602099,
-      "sha256": "5809eeaf54f04b568a75586834df70e17d2c1055ba34f201a727bb39a314ffac"
+      "sha256": "51c19ac60b912c20060f91c1c4b8f45de573bcbbebea6d0cde9ae47431132c88"
     },
     {
       "path": "build_report.py",
-      "bytes": 15747,
-      "sha256": "89aa8cdf68f13f04c345a48b9019ca8806e69a6eacd64ae571c2a5498d1443dc"
+      "bytes": 16374,
+      "sha256": "9718f3cdad85875218e326ee080fa77026cc12b89d08cc5b82ed6b6fd385691d"
     },
     {
       "path": "candidate_LR_by_immune_subgroup.csv",
@@ -365,6 +365,56 @@
       "path": "requirements.txt",
       "bytes": 156,
       "sha256": "9ef8ba499418b0c252be6c9ce8f65d83c4daa4e94b7dc996864868ead75ec60f"
+    },
+    {
+      "path": "review_20261012/README.md",
+      "bytes": 4175,
+      "sha256": "f5a09c5aff2f898e653129882df1b04ff50633f1a6257051ca931f660571ac41"
+    },
+    {
+      "path": "review_20261012/candidate_neighborhood_overview.pdf",
+      "bytes": 17906,
+      "sha256": "8a4adc86f6ed59f662d08944403d0635af74dda81e45c23101c6c28ebccb1c74"
+    },
+    {
+      "path": "review_20261012/candidate_neighborhood_overview.png",
+      "bytes": 178209,
+      "sha256": "557b990de7d40e665510b616a188272f89525be73a586586d43088bcb2af796d"
+    },
+    {
+      "path": "review_20261012/high_source_neighborhood_counts.csv",
+      "bytes": 3049,
+      "sha256": "0519cad7cc5d7c054847f43540bb1b8d73548ee5ff005c999d12accdfb15c64c"
+    },
+    {
+      "path": "review_20261012/marker_sensitivity_source_counts.csv",
+      "bytes": 592,
+      "sha256": "123704177e48100993d0d4191bfc517286fe1c0b57f9247795adc111754aa074"
+    },
+    {
+      "path": "review_20261012/reference_manifest.json",
+      "bytes": 1253,
+      "sha256": "137702672e80bbda0ac375054e2c09d4e10d534f3723e70e9ed3b6a198dbb9f8"
+    },
+    {
+      "path": "review_20261012/review.py",
+      "bytes": 6735,
+      "sha256": "5b8972095b4a1125359785e1ef1264f0ca6eb8b478ac536adbb362a4d1b42315"
+    },
+    {
+      "path": "review_20261012/review_checks.json",
+      "bytes": 2371,
+      "sha256": "f130fe9a2c7f03c4fbfddf3d66c549e77ccad691ef8c1cf2f7fd1abe62e37d89"
+    },
+    {
+      "path": "review_20261012/strict_marker_comparison.pdf",
+      "bytes": 16975,
+      "sha256": "29c730c5a4266448a8ee19b35a94f95691e14e138a7fc496c7f9b7670d86af6b"
+    },
+    {
+      "path": "review_20261012/strict_marker_comparison.png",
+      "bytes": 101503,
+      "sha256": "66762660229f7ed52eb924221696b61f3c3df3505e4cb5355ff89b715aa03bc6"
     },
     {
       "path": "selected_candidate_LR_pairs.csv",

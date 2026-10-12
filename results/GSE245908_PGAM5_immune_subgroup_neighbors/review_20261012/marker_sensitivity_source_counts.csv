@@ -1,0 +1,9 @@
+sample,target,strict_rule,n_high,broad_sources,strict_sources,post_hoc_descriptive_only
+CHC20,Inflammatory_monocyte,Monocyte_require_FCN1,37,30,8,True
+CHC20,CD8_cytotoxic_T,CD8_cytotoxic_require_CD8B,37,0,0,True
+CHC20,Treg_related,Treg_add_IKZF2_and_IL2RA_or_CTLA4,37,0,0,True
+CHC20,Neutrophil_related,Neutrophil_require_FCGR3B,37,12,0,True
+CHC23,Inflammatory_monocyte,Monocyte_require_FCN1,17,6,1,True
+CHC23,CD8_cytotoxic_T,CD8_cytotoxic_require_CD8B,17,4,1,True
+CHC23,Treg_related,Treg_add_IKZF2_and_IL2RA_or_CTLA4,17,2,0,True
+CHC23,Neutrophil_related,Neutrophil_require_FCGR3B,17,4,0,True
