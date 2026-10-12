@@ -1,0 +1,161 @@
+gsm,sample,patient,tumor_status,null_kind,metric,direction,n_high,n_other_detected,observed,null_mean,null_q025,null_q975,permutation_p,status,reason,joint_q_160,primary_q_80,primary_only_q_75
+GSM8627602,A009T1,A009,primary,quality_stratified,high_high_undirected_edges,greater,34,99,5.0,3.157231446289258,0.0,7.0,0.2012,tested,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,quality_stratified,median_nearest_high_spacing,less,34,99,2.3228756555322945,2.9928686335757377,1.9999999999999996,3.802775637731995,0.1344,tested,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,quality_stratified,largest_component_fraction,greater,34,99,0.11764705882352941,0.06998458515232459,0.029411764705882353,0.11764705882352941,0.0608,tested,,1.0,0.8106666666666666,0.76
+GSM8627602,A009T1,A009,primary,quality_stratified,regional_heterogeneity,greater,34,99,15.743655584364141,6.03251133946938,1.3538987430754368,13.456212657621974,0.009,tested,,0.8400000000000001,0.42000000000000004,0.39375000000000004
+GSM8627602,A009T1,A009,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,34,99,2.0,0.3966793358671734,-2.0,3.0,0.4876,tested,,1.0,1.0,1.0
+GSM8627602,A009T1,A009,primary,spatial_quality_stratified,high_high_undirected_edges,greater,34,99,5.0,4.525705141028205,2.0,8.0,0.4928,tested,,1.0,,
+GSM8627602,A009T1,A009,primary,spatial_quality_stratified,median_nearest_high_spacing,less,34,99,2.3228756555322945,2.7020039122079735,1.8660254037844384,3.6055512754639887,0.2764,tested,,1.0,,
+GSM8627602,A009T1,A009,primary,spatial_quality_stratified,largest_component_fraction,greater,34,99,0.11764705882352941,0.08894720120494688,0.058823529411764705,0.17647058823529413,0.248,tested,,1.0,,
+GSM8627602,A009T1,A009,primary,spatial_quality_stratified,regional_heterogeneity,greater,34,99,15.743655584364141,15.743655584364147,15.743655584364141,15.743655584364141,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627602,A009T1,A009,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,34,99,2.0,0.6805361072214443,-1.0,3.0,0.578,tested,,1.0,,
+GSM8627603,A009T2,A009,primary,quality_stratified,high_high_undirected_edges,greater,17,51,0.0,0.9715943188637728,0.0,3.0,1.0,tested,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,quality_stratified,median_nearest_high_spacing,less,17,51,4.582575694955842,4.136581269982679,2.6457513110645903,6.0827625302982185,0.8154,tested,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,quality_stratified,largest_component_fraction,greater,17,51,0.058823529411764705,0.10137321581963452,0.058823529411764705,0.17647058823529413,1.0,tested,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,quality_stratified,regional_heterogeneity,greater,17,51,12.555756661639014,7.881058524424844,1.9614881850175967,17.215962795374566,0.1288,tested,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,17,51,-2.0,-0.2454490898179636,-3.0,2.0,0.4292,tested,,1.0,1.0,1.0
+GSM8627603,A009T2,A009,primary,spatial_quality_stratified,high_high_undirected_edges,greater,17,51,0.0,0.08621724344868974,0.0,1.0,1.0,tested,,1.0,,
+GSM8627603,A009T2,A009,primary,spatial_quality_stratified,median_nearest_high_spacing,less,17,51,4.582575694955842,4.4112121291234505,3.605551275463989,6.244997998398397,0.825,tested,,1.0,,
+GSM8627603,A009T2,A009,primary,spatial_quality_stratified,largest_component_fraction,greater,17,51,0.058823529411764705,0.06389513196756998,0.058823529411764705,0.11764705882352941,1.0,tested,,1.0,,
+GSM8627603,A009T2,A009,primary,spatial_quality_stratified,regional_heterogeneity,greater,17,51,12.555756661639014,12.55575666163901,12.555756661639014,12.555756661639014,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627603,A009T2,A009,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,17,51,-2.0,-1.6773354670934186,-4.0,1.0,1.0,tested,,1.0,,
+GSM8627604,A009T3,A009,primary,quality_stratified,high_high_undirected_edges,greater,17,50,0.0,0.8959791958391679,0.0,3.0,1.0,tested,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,quality_stratified,median_nearest_high_spacing,less,17,50,3.605551275463989,3.379958635125692,1.999999999999998,5.2915026221291805,0.7854,tested,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,quality_stratified,largest_component_fraction,greater,17,50,0.058823529411764705,0.10042008401680336,0.058823529411764705,0.17647058823529413,1.0,tested,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,quality_stratified,regional_heterogeneity,greater,17,50,9.272280454263154,7.596337976245768,1.9335958654955194,17.05916805518588,0.2882,tested,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,17,50,1.0,0.7893578715743149,0.0,1.0,1.0,tested,,1.0,1.0,1.0
+GSM8627604,A009T3,A009,primary,spatial_quality_stratified,high_high_undirected_edges,greater,17,50,0.0,1.1382276455291058,0.0,2.0,1.0,tested,,1.0,,
+GSM8627604,A009T3,A009,primary,spatial_quality_stratified,median_nearest_high_spacing,less,17,50,3.605551275463989,3.8009107296521076,1.999999999999998,5.291502622129183,0.6234,tested,,1.0,,
+GSM8627604,A009T3,A009,primary,spatial_quality_stratified,largest_component_fraction,greater,17,50,0.058823529411764705,0.10675076191708929,0.058823529411764705,0.11764705882352941,1.0,tested,,1.0,,
+GSM8627604,A009T3,A009,primary,spatial_quality_stratified,regional_heterogeneity,greater,17,50,9.272280454263154,9.272280454263154,9.272280454263154,9.272280454263154,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627604,A009T3,A009,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,17,50,1.0,0.9481896379275855,0.0,2.0,1.0,tested,,1.0,,
+GSM8627605,A009T4,A009,primary,quality_stratified,high_high_undirected_edges,greater,76,228,11.0,15.44628925785157,9.0,23.0,0.9144,tested,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,quality_stratified,median_nearest_high_spacing,less,76,228,2.0000000000000004,1.8339440715682493,1.732050807568875,2.0000000000000027,0.984,tested,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,quality_stratified,largest_component_fraction,greater,76,228,0.05263157894736842,0.04958360093071246,0.02631578947368421,0.07894736842105263,0.5226,tested,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,quality_stratified,regional_heterogeneity,greater,76,228,15.270587944153881,6.0231524486220485,1.3079935111868881,14.14970781567471,0.0166,tested,,0.8400000000000001,0.42000000000000004,0.39375000000000004
+GSM8627605,A009T4,A009,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,76,228,0.5,0.07561512302460492,-1.0,1.0,0.5404,tested,,1.0,1.0,1.0
+GSM8627605,A009T4,A009,primary,spatial_quality_stratified,high_high_undirected_edges,greater,76,228,11.0,13.855971194238847,8.0,21.0,0.8416,tested,,1.0,,
+GSM8627605,A009T4,A009,primary,spatial_quality_stratified,median_nearest_high_spacing,less,76,228,2.0000000000000004,1.9249767753266795,1.7320508075688767,2.645751311064589,0.9352,tested,,1.0,,
+GSM8627605,A009T4,A009,primary,spatial_quality_stratified,largest_component_fraction,greater,76,228,0.05263157894736842,0.04652246238721429,0.02631578947368421,0.07894736842105263,0.4476,tested,,1.0,,
+GSM8627605,A009T4,A009,primary,spatial_quality_stratified,regional_heterogeneity,greater,76,228,15.270587944153881,15.270587944153878,15.270587944153881,15.270587944153881,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627605,A009T4,A009,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,76,228,0.5,0.13242648529705942,-1.0,1.0,0.5968,tested,,1.0,,
+GSM8627606,A009T5,A009,primary,quality_stratified,high_high_undirected_edges,greater,52,153,2.0,6.346869373874775,2.0,11.0,0.9894,tested,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,quality_stratified,median_nearest_high_spacing,less,52,153,2.6457513110645907,2.495335658100293,1.8660254037844393,3.0,0.9372,tested,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,quality_stratified,largest_component_fraction,greater,52,153,0.038461538461538464,0.05244125748226569,0.038461538461538464,0.07692307692307693,0.9984,tested,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,quality_stratified,regional_heterogeneity,greater,52,153,6.894655315560136,7.188761524208168,1.6250041394547117,16.751640746368587,0.4582,tested,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,52,153,0.0,0.40078015603120626,-1.0,2.0,1.0,tested,,1.0,1.0,1.0
+GSM8627606,A009T5,A009,primary,spatial_quality_stratified,high_high_undirected_edges,greater,52,153,2.0,5.920384076815363,2.0,10.0,0.9886,tested,,1.0,,
+GSM8627606,A009T5,A009,primary,spatial_quality_stratified,median_nearest_high_spacing,less,52,153,2.6457513110645907,2.5980121884436205,1.9999999999999991,3.000000000000003,0.9074,tested,,1.0,,
+GSM8627606,A009T5,A009,primary,spatial_quality_stratified,largest_component_fraction,greater,52,153,0.038461538461538464,0.05360302829796729,0.038461538461538464,0.07692307692307693,0.999,tested,,1.0,,
+GSM8627606,A009T5,A009,primary,spatial_quality_stratified,regional_heterogeneity,greater,52,153,6.894655315560136,6.894655315560137,6.894655315560136,6.894655315560136,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627606,A009T5,A009,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,52,153,0.0,0.9391878375675135,-0.5,2.5,0.7636,tested,,1.0,,
+GSM8627607,B0013T1,B013,primary,quality_stratified,high_high_undirected_edges,greater,5,15,0.0,0.0,0.0,0.0,,not_testable,small groups or constant conditional null,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,quality_stratified,median_nearest_high_spacing,less,5,15,9.539392014169458,8.34836545892559,5.2915026221291805,11.135528725660048,0.8142,tested,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,quality_stratified,largest_component_fraction,greater,5,15,0.2,0.19999999999999996,0.2,0.2,,not_testable,small groups or constant conditional null,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,quality_stratified,regional_heterogeneity,greater,5,15,6.158730158730158,7.935898290769265,1.8920634920634918,15.733333333333334,0.6556,tested,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,5,15,-2.0,-1.6573314662932586,-2.0,0.0,1.0,tested,,1.0,1.0,1.0
+GSM8627607,B0013T1,B013,primary,spatial_quality_stratified,high_high_undirected_edges,greater,5,15,0.0,0.0,0.0,0.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627607,B0013T1,B013,primary,spatial_quality_stratified,median_nearest_high_spacing,less,5,15,9.539392014169458,9.539392014169458,9.539392014169458,9.539392014169458,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627607,B0013T1,B013,primary,spatial_quality_stratified,largest_component_fraction,greater,5,15,0.2,0.19999999999999996,0.2,0.2,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627607,B0013T1,B013,primary,spatial_quality_stratified,regional_heterogeneity,greater,5,15,6.158730158730158,6.158730158730159,6.158730158730158,6.158730158730158,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627607,B0013T1,B013,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,5,15,-2.0,-2.0,-2.0,-2.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627608,B0013T2,B013,primary,quality_stratified,high_high_undirected_edges,greater,28,82,2.0,4.594118823764753,1.0,9.0,0.9678,tested,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,quality_stratified,median_nearest_high_spacing,less,28,82,1.999999999999998,2.0101365697049625,1.3660254037844402,2.6457513110645907,0.7954,tested,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,quality_stratified,largest_component_fraction,greater,28,82,0.07142857142857142,0.09011087931872086,0.07142857142857142,0.14285714285714285,0.9954,tested,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,quality_stratified,regional_heterogeneity,greater,28,82,3.5009338049769942,5.585470974477033,1.5865820676462346,12.74817023108655,0.7486,tested,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,28,82,-2.0,-0.5021004200840168,-3.0,2.5,0.368,tested,,1.0,1.0,1.0
+GSM8627608,B0013T2,B013,primary,spatial_quality_stratified,high_high_undirected_edges,greater,28,82,2.0,3.874774954990998,1.0,8.0,0.9186,tested,,1.0,,
+GSM8627608,B0013T2,B013,primary,spatial_quality_stratified,median_nearest_high_spacing,less,28,82,1.999999999999998,2.0810647819997548,1.7320508075688767,2.6457513110645903,0.7644,tested,,1.0,,
+GSM8627608,B0013T2,B013,primary,spatial_quality_stratified,largest_component_fraction,greater,28,82,0.07142857142857142,0.08653873631869229,0.07142857142857142,0.14285714285714285,0.989,tested,,1.0,,
+GSM8627608,B0013T2,B013,primary,spatial_quality_stratified,regional_heterogeneity,greater,28,82,3.5009338049769942,3.5009338049769942,3.5009338049769942,3.5009338049769942,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627608,B0013T2,B013,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,28,82,-2.0,-1.5397079415883177,-2.5,-1.0,0.626,tested,,1.0,,
+GSM8627609,B0013T3,B013,primary,quality_stratified,high_high_undirected_edges,greater,7,18,0.0,0.0,0.0,0.0,,not_testable,small groups or constant conditional null,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,quality_stratified,median_nearest_high_spacing,less,7,18,3.4641016151377535,5.018859725483232,2.000000000000001,7.810249675906651,0.2772,tested,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,quality_stratified,largest_component_fraction,greater,7,18,0.14285714285714285,0.1428571428571428,0.14285714285714285,0.14285714285714285,,not_testable,small groups or constant conditional null,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,quality_stratified,regional_heterogeneity,greater,7,18,2.981701940035273,5.950522115005012,2.0998677248677247,11.359126984126986,0.9052,tested,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,18,7.0,4.732146429285857,-3.5,8.5,0.9824,tested,,1.0,1.0,1.0
+GSM8627609,B0013T3,B013,primary,spatial_quality_stratified,high_high_undirected_edges,greater,7,18,0.0,0.0,0.0,0.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627609,B0013T3,B013,primary,spatial_quality_stratified,median_nearest_high_spacing,less,7,18,3.4641016151377535,5.4014607862450035,3.4641016151377535,6.999999999999999,0.1952,tested,,1.0,,
+GSM8627609,B0013T3,B013,primary,spatial_quality_stratified,largest_component_fraction,greater,7,18,0.14285714285714285,0.1428571428571428,0.14285714285714285,0.14285714285714285,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627609,B0013T3,B013,primary,spatial_quality_stratified,regional_heterogeneity,greater,7,18,2.981701940035273,2.9817019400352724,2.981701940035273,2.981701940035273,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627609,B0013T3,B013,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,18,7.0,7.447689537907581,7.0,8.5,0.8068,tested,,1.0,,
+GSM8627610,B0013T4,B013,primary,quality_stratified,high_high_undirected_edges,greater,16,48,0.0,0.5601120224044809,0.0,2.0,1.0,tested,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,quality_stratified,median_nearest_high_spacing,less,16,48,4.582575694955839,4.27699779340991,2.0,7.105551275463987,0.6532,tested,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,quality_stratified,largest_component_fraction,greater,16,48,0.0625,0.09349369873974794,0.0625,0.1875,1.0,tested,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,quality_stratified,regional_heterogeneity,greater,16,48,13.37037037037037,9.427226185977938,3.4740740740740743,18.25925925925926,0.1534,tested,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,16,48,0.5,0.16503300660132025,-2.0,3.5,0.9832,tested,,1.0,1.0,1.0
+GSM8627610,B0013T4,B013,primary,spatial_quality_stratified,high_high_undirected_edges,greater,16,48,0.0,0.2902580516103221,0.0,1.0,1.0,tested,,1.0,,
+GSM8627610,B0013T4,B013,primary,spatial_quality_stratified,median_nearest_high_spacing,less,16,48,4.582575694955839,4.301487791364229,2.64575131106459,6.541381265149109,0.7094,tested,,1.0,,
+GSM8627610,B0013T4,B013,primary,spatial_quality_stratified,largest_component_fraction,greater,16,48,0.0625,0.08064112822564513,0.0625,0.125,1.0,tested,,1.0,,
+GSM8627610,B0013T4,B013,primary,spatial_quality_stratified,regional_heterogeneity,greater,16,48,13.37037037037037,13.370370370370367,13.37037037037037,13.37037037037037,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627610,B0013T4,B013,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,16,48,0.5,0.8737747549509902,-1.0,3.0,1.0,tested,,1.0,,
+GSM8627611,B013T5,B013,primary,quality_stratified,high_high_undirected_edges,greater,36,105,6.0,5.483296659331867,2.0,10.0,0.4658,tested,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,quality_stratified,median_nearest_high_spacing,less,36,105,2.3228756555322967,2.235498418503488,1.7320508075688767,2.822875655532296,0.6288,tested,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,quality_stratified,largest_component_fraction,greater,36,105,0.05555555555555555,0.07861572314462893,0.05555555555555555,0.1388888888888889,0.9972,tested,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,quality_stratified,regional_heterogeneity,greater,36,105,16.316839620838586,7.722124729793043,2.649952312308939,15.831645167813715,0.021,tested,,0.8400000000000001,0.42000000000000004,0.39375000000000004
+GSM8627611,B013T5,B013,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,36,105,1.0,0.6559311862372474,-2.0,3.0,0.894,tested,,1.0,1.0,1.0
+GSM8627611,B013T5,B013,primary,spatial_quality_stratified,high_high_undirected_edges,greater,36,105,6.0,5.560912182436487,2.0,10.0,0.475,tested,,1.0,,
+GSM8627611,B013T5,B013,primary,spatial_quality_stratified,median_nearest_high_spacing,less,36,105,2.3228756555322967,2.2582707337611376,1.7320508075688776,2.6457513110645916,0.6266,tested,,1.0,,
+GSM8627611,B013T5,B013,primary,spatial_quality_stratified,largest_component_fraction,greater,36,105,0.05555555555555555,0.07507612633637839,0.05555555555555555,0.1111111111111111,1.0,tested,,1.0,,
+GSM8627611,B013T5,B013,primary,spatial_quality_stratified,regional_heterogeneity,greater,36,105,16.316839620838586,16.316839620838582,16.316839620838586,16.316839620838586,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627611,B013T5,B013,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,36,105,1.0,0.1759351870374075,-1.5,1.5,0.352,tested,,1.0,,
+GSM8627612,C004T1P,C004,primary,quality_stratified,high_high_undirected_edges,greater,7,20,0.0,0.0612122424484897,0.0,1.0,1.0,tested,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,quality_stratified,median_nearest_high_spacing,less,7,20,4.358898943540673,6.5167552743574335,1.999999999999998,11.000000000000002,0.279,tested,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,quality_stratified,largest_component_fraction,greater,7,20,0.14285714285714285,0.15160174892121278,0.14285714285714285,0.2857142857142857,1.0,tested,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,quality_stratified,regional_heterogeneity,greater,7,20,8.558035714285715,6.4760060940759585,1.3982142857142863,14.560714285714285,0.2262,tested,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,20,5.0,3.5738147629525905,-1.0,6.0,1.0,tested,,1.0,1.0,1.0
+GSM8627612,C004T1P,C004,primary,spatial_quality_stratified,high_high_undirected_edges,greater,7,20,0.0,0.0,0.0,0.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627612,C004T1P,C004,primary,spatial_quality_stratified,median_nearest_high_spacing,less,7,20,4.358898943540673,4.358898943540673,4.358898943540673,4.358898943540673,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627612,C004T1P,C004,primary,spatial_quality_stratified,largest_component_fraction,greater,7,20,0.14285714285714285,0.1428571428571428,0.14285714285714285,0.14285714285714285,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627612,C004T1P,C004,primary,spatial_quality_stratified,regional_heterogeneity,greater,7,20,8.558035714285715,8.558035714285715,8.558035714285715,8.558035714285715,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627612,C004T1P,C004,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,20,5.0,5.0,5.0,5.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627613,C004T1R,C004,recurrent,quality_stratified,high_high_undirected_edges,greater,7,18,0.0,0.36767353470694136,0.0,2.0,1.0,tested,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,quality_stratified,median_nearest_high_spacing,less,7,18,5.0,5.710921290820975,2.000000000000001,11.269427669584644,0.4656,tested,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,quality_stratified,largest_component_fraction,greater,7,18,0.14285714285714285,0.19401023061755204,0.14285714285714285,0.42857142857142855,1.0,tested,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,quality_stratified,regional_heterogeneity,greater,7,18,13.576238576238577,8.442876646517375,2.4155242905242904,16.770382395382395,0.0978,tested,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,18,3.0,1.2399479895979195,-1.0,4.0,0.52,tested,,1.0,1.0,
+GSM8627613,C004T1R,C004,recurrent,spatial_quality_stratified,high_high_undirected_edges,greater,7,18,0.0,0.16143228645729146,0.0,1.0,1.0,tested,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,spatial_quality_stratified,median_nearest_high_spacing,less,7,18,5.0,6.133648319579818,2.645751311064589,7.937253933193772,0.3242,tested,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,spatial_quality_stratified,largest_component_fraction,greater,7,18,0.14285714285714285,0.1659188980653273,0.14285714285714285,0.2857142857142857,1.0,tested,,1.0,,
+GSM8627613,C004T1R,C004,recurrent,spatial_quality_stratified,regional_heterogeneity,greater,7,18,13.576238576238577,13.57623857623858,13.576238576238577,13.576238576238577,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627613,C004T1R,C004,recurrent,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,7,18,3.0,3.0,3.0,3.0,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627614,C008T1,C008,primary,quality_stratified,high_high_undirected_edges,greater,27,80,1.0,2.1794358871774353,0.0,5.0,0.9192,tested,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,quality_stratified,median_nearest_high_spacing,less,27,80,3.4641016151377544,2.9915507079296053,1.999999999999998,4.000000000000002,0.8188,tested,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,quality_stratified,largest_component_fraction,greater,27,80,0.07407407407407407,0.07703762974817185,0.037037037037037035,0.1111111111111111,0.9192,tested,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,quality_stratified,regional_heterogeneity,greater,27,80,10.44724852693603,6.6823725816992825,1.7575008943602688,16.012734638047142,0.1398,tested,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,27,80,-2.0,-0.9504900980196039,-4.0,2.0,0.6388,tested,,1.0,1.0,1.0
+GSM8627614,C008T1,C008,primary,spatial_quality_stratified,high_high_undirected_edges,greater,27,80,1.0,2.4552910582116425,1.0,5.0,0.9784,tested,,1.0,,
+GSM8627614,C008T1,C008,primary,spatial_quality_stratified,median_nearest_high_spacing,less,27,80,3.4641016151377544,3.0604367289209033,2.000000000000001,3.6055512754639882,0.9452,tested,,1.0,,
+GSM8627614,C008T1,C008,primary,spatial_quality_stratified,largest_component_fraction,greater,27,80,0.07407407407407407,0.09512272824935358,0.07407407407407407,0.14814814814814814,0.9784,tested,,1.0,,
+GSM8627614,C008T1,C008,primary,spatial_quality_stratified,regional_heterogeneity,greater,27,80,10.44724852693603,10.447248526936027,10.44724852693603,10.44724852693603,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627614,C008T1,C008,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,27,80,-2.0,-0.7666533306661333,-2.0,1.0,0.402,tested,,1.0,,
+GSM8627615,C008T2,C008,primary,quality_stratified,high_high_undirected_edges,greater,11,33,1.0,0.3644728945789158,0.0,2.0,0.3354,tested,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,quality_stratified,median_nearest_high_spacing,less,11,33,6.0827625302982185,5.09567448697076,2.645751311064589,8.000000000000004,0.789,tested,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,quality_stratified,largest_component_fraction,greater,11,33,0.18181818181818182,0.12138791394642563,0.09090909090909091,0.18181818181818182,0.3354,tested,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,quality_stratified,regional_heterogeneity,greater,11,33,10.044444444444444,10.085359294081039,2.9333333333333336,20.266666666666666,0.4678,tested,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,11,33,-3.0,-1.7883576715343068,-4.0,1.0,0.8352,tested,,1.0,1.0,1.0
+GSM8627615,C008T2,C008,primary,spatial_quality_stratified,high_high_undirected_edges,greater,11,33,1.0,0.33346669333866774,0.0,1.0,0.3336,tested,,1.0,,
+GSM8627615,C008T2,C008,primary,spatial_quality_stratified,median_nearest_high_spacing,less,11,33,6.0827625302982185,5.798613382389153,5.196152422706632,6.0827625302982185,1.0,tested,,1.0,,
+GSM8627615,C008T2,C008,primary,spatial_quality_stratified,largest_component_fraction,greater,11,33,0.18181818181818182,0.12122424484896979,0.09090909090909091,0.18181818181818182,0.3336,tested,,1.0,,
+GSM8627615,C008T2,C008,primary,spatial_quality_stratified,regional_heterogeneity,greater,11,33,10.044444444444444,10.044444444444446,10.044444444444444,10.044444444444444,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627615,C008T2,C008,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,11,33,-3.0,-1.582116423284657,-3.0,1.0,0.5516,tested,,1.0,,
+GSM8627616,C008T3,C008,primary,quality_stratified,high_high_undirected_edges,greater,14,40,1.0,0.5885177035407081,0.0,2.0,0.5178,tested,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,quality_stratified,median_nearest_high_spacing,less,14,40,6.0827625302982185,4.857296594024449,3.4641016151377553,6.5574385243019995,0.9018,tested,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,quality_stratified,largest_component_fraction,greater,14,40,0.14285714285714285,0.10840739576486724,0.07142857142857142,0.14285714285714285,0.5178,tested,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,quality_stratified,regional_heterogeneity,greater,14,40,18.846150278293134,15.094521381085123,9.874536178107608,23.5461038961039,0.163,tested,,1.0,1.0,1.0
+GSM8627616,C008T3,C008,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,14,40,-3.0,0.22124424884976995,-2.5,4.0,0.014,tested,,0.8400000000000001,0.42000000000000004,0.39375000000000004
+GSM8627616,C008T3,C008,primary,spatial_quality_stratified,high_high_undirected_edges,greater,14,40,1.0,0.9389877975595119,0.0,2.0,0.7972,tested,,1.0,,
+GSM8627616,C008T3,C008,primary,spatial_quality_stratified,median_nearest_high_spacing,less,14,40,6.0827625302982185,5.5962691294489835,4.358898943540671,6.4012182613501984,0.8484,tested,,1.0,,
+GSM8627616,C008T3,C008,primary,spatial_quality_stratified,largest_component_fraction,greater,14,40,0.14285714285714285,0.1283685308490269,0.07142857142857142,0.14285714285714285,0.7972,tested,,1.0,,
+GSM8627616,C008T3,C008,primary,spatial_quality_stratified,regional_heterogeneity,greater,14,40,18.846150278293134,18.846150278293134,18.846150278293134,18.846150278293134,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627616,C008T3,C008,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,14,40,-3.0,-1.2750550110022005,-3.0,0.0,0.0824,tested,,1.0,,
+GSM8627617,C008T4,C008,primary,quality_stratified,high_high_undirected_edges,greater,28,83,2.0,2.364472894578916,0.0,5.0,0.736,tested,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,quality_stratified,median_nearest_high_spacing,less,28,83,3.605551275463989,2.929636755671068,1.999999999999998,3.8027756377319952,0.958,tested,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,quality_stratified,largest_component_fraction,greater,28,83,0.07142857142857142,0.07330037436058638,0.03571428571428571,0.10714285714285714,0.9484,tested,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,quality_stratified,regional_heterogeneity,greater,28,83,10.653643595102952,5.581383954138768,1.6625665047867981,11.620883856349664,0.0408,tested,,1.0,0.6528,0.6120000000000001
+GSM8627617,C008T4,C008,primary,quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,28,83,-2.0,-0.5690138027605521,-3.0,2.5,0.4432,tested,,1.0,1.0,1.0
+GSM8627617,C008T4,C008,primary,spatial_quality_stratified,high_high_undirected_edges,greater,28,83,2.0,1.7343468693738748,0.0,4.0,0.5474,tested,,1.0,,
+GSM8627617,C008T4,C008,primary,spatial_quality_stratified,median_nearest_high_spacing,less,28,83,3.605551275463989,3.4689033045941686,2.6457513110645907,4.1794494717703365,0.8424,tested,,1.0,,
+GSM8627617,C008T4,C008,primary,spatial_quality_stratified,largest_component_fraction,greater,28,83,0.07142857142857142,0.07056411282256449,0.03571428571428571,0.10714285714285714,0.872,tested,,1.0,,
+GSM8627617,C008T4,C008,primary,spatial_quality_stratified,regional_heterogeneity,greater,28,83,10.653643595102952,10.65364359510295,10.653643595102952,10.653643595102952,,not_testable,small groups or constant conditional null,1.0,,
+GSM8627617,C008T4,C008,primary,spatial_quality_stratified,boundary_proxy_median_difference,two_sided_equal_tail,28,83,-2.0,-1.5677135427085418,-3.0,0.5,0.9868,tested,,1.0,,

@@ -1,0 +1,17 @@
+{
+  "seed": 281759602,
+  "permutations": 4999,
+  "metrics": {
+    "high_high_undirected_edges": "greater",
+    "median_nearest_high_spacing": "less",
+    "largest_component_fraction": "greater",
+    "regional_heterogeneity": "greater",
+    "boundary_proxy_median_difference": "two_sided_equal_tail"
+  },
+  "primary_null": "label shuffle within global source UMI half x macrophage-core half; detected Mac-RNA candidates only",
+  "sensitivity_null": "same quality strata x full-section 3x3 spatial bins",
+  "primary_tests": 80,
+  "joint_tests": 160,
+  "coordinate_units": "nearest grid spacing; array x=col/2, y=sqrt(3)*row/2",
+  "boundary": "shortest lattice hops to degree<6 boundary of pre-QC matrix-available in_tissue coordinates; not histological tumor margin"
+}

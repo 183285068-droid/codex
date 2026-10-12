@@ -1,0 +1,402 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "A009T1_annotations.csv.gz",
+    "bytes": 333922,
+    "sha256": "b73c8238999e37b9708c42e7519347d6466584f542375f8b331edb28c181795c"
+  },
+  {
+    "path": "A009T1_quality_stratified_audit.npz",
+    "bytes": 58790,
+    "sha256": "88cd4e6ab66628d73eebd604477e26b20e6234e29343df727655c839ae27a1fd"
+  },
+  {
+    "path": "A009T1_spatial_quality_stratified_audit.npz",
+    "bytes": 23208,
+    "sha256": "9f7f9989eebcf5f43d74ced79425bbc70d31029a9f10e0e0b676906b0c4c1ef5"
+  },
+  {
+    "path": "A009T2_annotations.csv.gz",
+    "bytes": 251790,
+    "sha256": "8521cf6f916f797447e9a49f108eb902e40d83a1c90831a135ebe08ca2b179bc"
+  },
+  {
+    "path": "A009T2_quality_stratified_audit.npz",
+    "bytes": 43991,
+    "sha256": "0d3332fa246d34c35ea3ed0c07294da7b7287e00f2b167a5e60d26e7e0dc6a36"
+  },
+  {
+    "path": "A009T2_spatial_quality_stratified_audit.npz",
+    "bytes": 12904,
+    "sha256": "fdb1c86cd466aefd82bba93dbd73b67023f63583a942a05c7ef460975103e861"
+  },
+  {
+    "path": "A009T3_annotations.csv.gz",
+    "bytes": 215985,
+    "sha256": "3b6b1aa76488a55614cc56165bac8f91b91f9d251c7aba21d68f769945ceda19"
+  },
+  {
+    "path": "A009T3_quality_stratified_audit.npz",
+    "bytes": 42505,
+    "sha256": "8f40d0b0ed181e67ec4de143d3bddbf690459e627b591c933b028be09c666312"
+  },
+  {
+    "path": "A009T3_spatial_quality_stratified_audit.npz",
+    "bytes": 12766,
+    "sha256": "0e6c009d8aaf70eceb93b22a07966ee8eaf5aa756ad69db2b428b7c6e9868c67"
+  },
+  {
+    "path": "A009T4_annotations.csv.gz",
+    "bytes": 485092,
+    "sha256": "b222627035911d349cfbe9fdc9a39562c088030139e046a99b0d83b299e59065"
+  },
+  {
+    "path": "A009T4_quality_stratified_audit.npz",
+    "bytes": 63573,
+    "sha256": "97701b7c133e526b62f31626329f32fe714df14727b29f5149013cc6bd0e6dbb"
+  },
+  {
+    "path": "A009T4_spatial_quality_stratified_audit.npz",
+    "bytes": 22732,
+    "sha256": "a432510cf1e18275a189548e5c6cd9190e36398cdbc4c2519cb8731ac940388a"
+  },
+  {
+    "path": "A009T5_annotations.csv.gz",
+    "bytes": 395558,
+    "sha256": "4c548073744b6278dc674e9fe12de9db688154a188a4ee67f1e24ec9b846e256"
+  },
+  {
+    "path": "A009T5_quality_stratified_audit.npz",
+    "bytes": 62336,
+    "sha256": "207659e833bceaef28a262a33490b0c6100cf0f20bec7fc98208f33954f195c8"
+  },
+  {
+    "path": "A009T5_spatial_quality_stratified_audit.npz",
+    "bytes": 20685,
+    "sha256": "ee4b19e477468d1d687267da5d0043734d217b10220b8a1195e5e24ba1742f6f"
+  },
+  {
+    "path": "B0013T1_annotations.csv.gz",
+    "bytes": 203813,
+    "sha256": "a8fbdcca8e99e692db015c17cfd78807492a9c6a48a97926562c855e78c94da3"
+  },
+  {
+    "path": "B0013T1_quality_stratified_audit.npz",
+    "bytes": 13557,
+    "sha256": "4f8e07a636630a660f5511592133e3e6631acc0e6add8f874cd47f3bd438317b"
+  },
+  {
+    "path": "B0013T1_spatial_quality_stratified_audit.npz",
+    "bytes": 2575,
+    "sha256": "241999b560033108c6ec37aed82ae0ffaa098f4a26d1755777caaeca81120032"
+  },
+  {
+    "path": "B0013T2_annotations.csv.gz",
+    "bytes": 251292,
+    "sha256": "b9bf3080feb021b15e7a7e49c4feb78bebc963041adffebcd60cf021ed00633c"
+  },
+  {
+    "path": "B0013T2_quality_stratified_audit.npz",
+    "bytes": 38720,
+    "sha256": "3f094f7330b6e2f74dc3e8f49d693db082b621a4c9a41bbbb2d6f471c8e63b21"
+  },
+  {
+    "path": "B0013T2_spatial_quality_stratified_audit.npz",
+    "bytes": 17121,
+    "sha256": "9cc19c4580634e3256df33d1a646900603021c1062b975818cdb5e69da4a3de3"
+  },
+  {
+    "path": "B0013T3_annotations.csv.gz",
+    "bytes": 258177,
+    "sha256": "455f321fe3fec0e0fdcd493adfe6be8aa5b1a9910b39630b88e7818b13408a98"
+  },
+  {
+    "path": "B0013T3_quality_stratified_audit.npz",
+    "bytes": 12885,
+    "sha256": "c484c8def82c04ac019ced6d01b633de874dd577724500a78548ce3eef4eae2f"
+  },
+  {
+    "path": "B0013T3_spatial_quality_stratified_audit.npz",
+    "bytes": 7396,
+    "sha256": "f250c778e850e4da0b5b7bc7be335ab409f4bfae320d5464ac4234f0d4d4f685"
+  },
+  {
+    "path": "B0013T4_annotations.csv.gz",
+    "bytes": 370211,
+    "sha256": "2deec04d46ffa107674d83f0941b30aefc7517abe8f0cbd140d2a9dcc7691979"
+  },
+  {
+    "path": "B0013T4_quality_stratified_audit.npz",
+    "bytes": 36392,
+    "sha256": "d6c07b1df70c46dc326d9cccbfa993a3adfa21e1b3c5c63a72ac99999bf9273d"
+  },
+  {
+    "path": "B0013T4_spatial_quality_stratified_audit.npz",
+    "bytes": 18530,
+    "sha256": "fb672411f589358eb1a302b1b7cae17f15638251a179dfd7136c7120db8425d8"
+  },
+  {
+    "path": "B013T5_annotations.csv.gz",
+    "bytes": 321333,
+    "sha256": "fc507a61067428eea1612734c0263002bb278b05abcef7fd0ab3351d01091d33"
+  },
+  {
+    "path": "B013T5_quality_stratified_audit.npz",
+    "bytes": 59740,
+    "sha256": "ec2b87ab6c37ad45f35206e654fa2a54901f3da1dd470821c0eed389aefc2fa1"
+  },
+  {
+    "path": "B013T5_spatial_quality_stratified_audit.npz",
+    "bytes": 20283,
+    "sha256": "feac5dc4b613bab23f2ca64bec625c56b80d34009528d739b2074dee9188c7b4"
+  },
+  {
+    "path": "C004T1P_annotations.csv.gz",
+    "bytes": 242968,
+    "sha256": "df93f4d15d0c8ac62f2c7cde884c8f6728345a0a9c301a6f520d9858b6434810"
+  },
+  {
+    "path": "C004T1P_quality_stratified_audit.npz",
+    "bytes": 16655,
+    "sha256": "8a74be06c01c1e6da697355c73380fb3434390418af766393984fb562bfa0a3d"
+  },
+  {
+    "path": "C004T1P_spatial_quality_stratified_audit.npz",
+    "bytes": 2658,
+    "sha256": "4e83acff051816377dce04125d0ab98cf4a9263c6ab7702c9af704c48a96ee6e"
+  },
+  {
+    "path": "C004T1R_annotations.csv.gz",
+    "bytes": 154109,
+    "sha256": "5a18be784efd222e4e50525640555b6b5f3082000e69a37ca90e8c31a86a778d"
+  },
+  {
+    "path": "C004T1R_quality_stratified_audit.npz",
+    "bytes": 23221,
+    "sha256": "d50c6ab19d7298ffd1c0ce8c9a4644ed9afeb7829ea06a66f654996bc887b6a8"
+  },
+  {
+    "path": "C004T1R_spatial_quality_stratified_audit.npz",
+    "bytes": 5997,
+    "sha256": "1b7b13c01ef9e3fc97d7cd60608583b3839539f785e9f705a6a75d862248e123"
+  },
+  {
+    "path": "C008T1_annotations.csv.gz",
+    "bytes": 482172,
+    "sha256": "4fe74ddb28b2fe5ce55d710cd7994277e0e83e85eb2cc3216fa837cb5eb853dd"
+  },
+  {
+    "path": "C008T1_quality_stratified_audit.npz",
+    "bytes": 45980,
+    "sha256": "06d33ebf9f986ad293d2edbb898992cc3b5a6e5bab2a41f7ff511f9ac31bdcc5"
+  },
+  {
+    "path": "C008T1_spatial_quality_stratified_audit.npz",
+    "bytes": 17301,
+    "sha256": "5f9375c5edf2622bb128a6622f7bb86d1556a0217f7eb6348d43724e636068d7"
+  },
+  {
+    "path": "C008T2_annotations.csv.gz",
+    "bytes": 229190,
+    "sha256": "fd309e6de44d65538d716f329c82cfc6db96c013ce81d4fb2a461cef95538928"
+  },
+  {
+    "path": "C008T2_quality_stratified_audit.npz",
+    "bytes": 26847,
+    "sha256": "bac662b0cd559f983b810a6bc8138c913dcdf90190639f1df563987843e09a7f"
+  },
+  {
+    "path": "C008T2_spatial_quality_stratified_audit.npz",
+    "bytes": 8962,
+    "sha256": "b1851ab50a44e30dc1e6fc3c93f7164016a6a6ab6bdc9641e6e06f4f94b3ba7e"
+  },
+  {
+    "path": "C008T3_annotations.csv.gz",
+    "bytes": 216610,
+    "sha256": "4c6c2657fc1be49c23f38d6e345f2657310103bf0004528803c1f9184a6bfcc5"
+  },
+  {
+    "path": "C008T3_quality_stratified_audit.npz",
+    "bytes": 34090,
+    "sha256": "f79682c8ca5845f6a88d8524a970afaf83336b95e2e9f73eb3f831f0d22a951a"
+  },
+  {
+    "path": "C008T3_spatial_quality_stratified_audit.npz",
+    "bytes": 13403,
+    "sha256": "4b0bb90e231b358b488b666026d683e8043289096fcafa225b2da7d83a276b1e"
+  },
+  {
+    "path": "C008T4_annotations.csv.gz",
+    "bytes": 299382,
+    "sha256": "2bad760fef9029a6ec456b55bd7db40fc1a12681cbc686c9bac9ea25b6b255c8"
+  },
+  {
+    "path": "C008T4_quality_stratified_audit.npz",
+    "bytes": 45247,
+    "sha256": "ef75b57600662c6547703173b816c7cb384fc1b1329b3ec9523acde3b0045992"
+  },
+  {
+    "path": "C008T4_spatial_quality_stratified_audit.npz",
+    "bytes": 19042,
+    "sha256": "4f3ddfb32cf9f917a2c6ec7bcebba59ad729ce8bc252c8a7a937cd7f6ecd1cce"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8013,
+    "sha256": "5a4e4d3ef8839ab5076c8dad1c2c844822c2ebc43459ab7ddb5f66b535fa324f"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 766,
+    "sha256": "d3fd14dc779dc55cb3897dc38a1b87771b9c022204e42ea3e333b11233ad7f16"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 8429,
+    "sha256": "9814be870c23121d784a5f83e6ea374bb8209ba660de67b4d11106091f4e5d1e"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 5277,
+    "sha256": "6f5da57e6839bb18a0cd7a3a77a651f67e6b405a85080b7c52e3063ea4552e6f"
+  },
+  {
+    "path": "audit_results.json",
+    "bytes": 650,
+    "sha256": "56c596836bcdb1dd88c264e44dce54256b5cfee0bd35de5fee51c70ce32d2e0f"
+  },
+  {
+    "path": "figures/A009_high_distribution_spatial_maps.pdf",
+    "bytes": 4226862,
+    "sha256": "4d707c513fb8b825b8d530cb253aee4cfcf8b386e8a6c7f7154bb4622c4746e2"
+  },
+  {
+    "path": "figures/A009_high_distribution_spatial_maps.png",
+    "bytes": 2389541,
+    "sha256": "47bdff42720af7cf9d88fa220f5f0c09ac3c055db1bb25fca0b69d769e9836bd"
+  },
+  {
+    "path": "figures/B013_high_distribution_spatial_maps.pdf",
+    "bytes": 3941351,
+    "sha256": "5fdef63afd0f53c9aa2a3c78648034f362fb1d7a09bc2b844ccdf66094fe414d"
+  },
+  {
+    "path": "figures/B013_high_distribution_spatial_maps.png",
+    "bytes": 2159212,
+    "sha256": "045a4901245ed8038237b41cefb10dfcd554f18c6525c757827cdc7b131cc535"
+  },
+  {
+    "path": "figures/C004_high_distribution_spatial_maps.pdf",
+    "bytes": 1427655,
+    "sha256": "8f6c3bdc4ae98449394e684d772b5c721d2b26ecb7acff340ad27b8c6f3212f9"
+  },
+  {
+    "path": "figures/C004_high_distribution_spatial_maps.png",
+    "bytes": 779442,
+    "sha256": "fa6b356bfd12094a66a5661fe512466aa0cf533e9ec1956a4041b21dc6f9a58f"
+  },
+  {
+    "path": "figures/C008_high_distribution_spatial_maps.pdf",
+    "bytes": 3166337,
+    "sha256": "9ed60413966d2d45890491e33a4f7a99ae33934725eb1f98b6d1587d1d63c2a4"
+  },
+  {
+    "path": "figures/C008_high_distribution_spatial_maps.png",
+    "bytes": 1767730,
+    "sha256": "919ee3fb089824cc28a2566d0c00c4549cffdef9bd6bf32ff3f02019634366f2"
+  },
+  {
+    "path": "figures/high_component_size_distribution.pdf",
+    "bytes": 11740,
+    "sha256": "acaa1f71bbaedd71c635a220fdfe106bafee617e746fb5dbba71f7798c45c26f"
+  },
+  {
+    "path": "figures/high_component_size_distribution.png",
+    "bytes": 53328,
+    "sha256": "1b74a43c31bb219b730ea46f56237f4445cf27a34de5a01f86d2b756c2fa497f"
+  },
+  {
+    "path": "figures/section_high_distribution_summary.pdf",
+    "bytes": 17591,
+    "sha256": "90b4bf6ef044841dce52696a655cd67aad20856162726b6fc52048f4a65e27b5"
+  },
+  {
+    "path": "figures/section_high_distribution_summary.png",
+    "bytes": 104423,
+    "sha256": "ffe365625951af0f76a07ed8e6d4700dceba7a5da6f036915c129e53ee022336"
+  },
+  {
+    "path": "figures/spatial_distribution_FDR.pdf",
+    "bytes": 22704,
+    "sha256": "8b25da9eb86be5e010c9e75bc139852110edf53bfa806e6796bee75831f59db2"
+  },
+  {
+    "path": "figures/spatial_distribution_FDR.png",
+    "bytes": 170312,
+    "sha256": "a99e315335749c7bcef99d59d2ebc303e91926152703ad26681ec1dce8a479ba"
+  },
+  {
+    "path": "figures/spatial_metrics_vs_conditional_null.pdf",
+    "bytes": 28488,
+    "sha256": "6a067f2ae198805aaab65403dcc5e28e04c3e4be7baadc3387d7278bf45b71a2"
+  },
+  {
+    "path": "figures/spatial_metrics_vs_conditional_null.png",
+    "bytes": 145463,
+    "sha256": "a68ff8e063d579efee3704a40e33105720d0815643df6b2d3f6c66c2e352b091"
+  },
+  {
+    "path": "high_connected_components.csv",
+    "bytes": 12632,
+    "sha256": "4e60ee94a78cc269759da41b80f9e3eefc24146e1379e9b352f2ba9d27da32ff"
+  },
+  {
+    "path": "independent_audit_results.json",
+    "bytes": 108160,
+    "sha256": "d8bc47c2713aaf94e77e3d1cc11674758b72efde3c8b0cf3dd6f30ef5e4c4e18"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 815,
+    "sha256": "d533368fe25729c53ab4d334d27b7a01855cf9e1942087855cc46d80cf4d79e4"
+  },
+  {
+    "path": "patient_descriptive.csv",
+    "bytes": 549,
+    "sha256": "6ec6f310d7c88300b4e0e1184f423dea7402cb9f955fd7eb18a5aacdbb9b1ef4"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 7231,
+    "sha256": "72ac4b4f6d9faad6390eb7ad6ddcda8868e2cb3c9d177bad93c8b2a2c82380de"
+  },
+  {
+    "path": "reference_manifest.json",
+    "bytes": 5870,
+    "sha256": "e21a94c52ac96dc27eb4e71d8e08e1d79659f81be4616c4de0152deba451c586"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "9eabac933bc32b5db1791ca5fff63880c1b9d07bb3462554d064c2333d8e92a5"
+  },
+  {
+    "path": "section_summary.csv",
+    "bytes": 2896,
+    "sha256": "495ec949c0b1be9f5038870baa98fa457b13b28be1bbc299ef97306ec4c01184"
+  },
+  {
+    "path": "spatial_bin_counts.csv",
+    "bytes": 6418,
+    "sha256": "6d8a2df4f1d594f24d4fdec52e72cae6e6c2fe2fe1f05d4abbcf1264ddd1079f"
+  },
+  {
+    "path": "spatial_distribution_statistics.csv",
+    "bytes": 30090,
+    "sha256": "100d5b2ac7f08c8d80799e15ad5fd913e4aa5870fa748a363d980d8daf9ce666"
+  }
+]

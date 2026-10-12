@@ -1,0 +1,21 @@
+{
+  "passed": 16,
+  "checks": [
+    "A009T1 symmetric no-self graph",
+    "A009T2 symmetric no-self graph",
+    "A009T3 symmetric no-self graph",
+    "A009T4 symmetric no-self graph",
+    "A009T5 symmetric no-self graph",
+    "B0013T1 symmetric no-self graph",
+    "B0013T2 symmetric no-self graph",
+    "B0013T3 symmetric no-self graph",
+    "B0013T4 symmetric no-self graph",
+    "B013T5 symmetric no-self graph",
+    "C004T1P symmetric no-self graph",
+    "C004T1R symmetric no-self graph",
+    "C008T1 symmetric no-self graph",
+    "C008T2 symmetric no-self graph",
+    "C008T3 symmetric no-self graph",
+    "C008T4 symmetric no-self graph"
+  ]
+}
