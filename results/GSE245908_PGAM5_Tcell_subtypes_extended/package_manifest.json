@@ -40,14 +40,19 @@
     "sha256": "6f82ac1dd6192acfc3e3dfdef7851f185b8ff3bdc29b1ac8b26e7acf8ebf4ba6"
   },
   {
+    "path": "HE_registration_checks.json",
+    "bytes": 1676,
+    "sha256": "f555d1f313f40580ed325839a201a9a6567b722b3eae78f572e5b3fc943fbf3a"
+  },
+  {
     "path": "LR_by_subtype.csv",
     "bytes": 62825,
     "sha256": "8d6100166790e1ffb3d10db036b1f73dcb4cb1013ed4e4bf2cb0e9a6d632782d"
   },
   {
     "path": "README.md",
-    "bytes": 7843,
-    "sha256": "d7cf808fd158a031fb9e94d1860da6d5a47592703fc36faed0ddcd1d3aa90e3e"
+    "bytes": 9072,
+    "sha256": "69c5193b76b2048684bdb8c053791b6e79441ef6ec034ebaa0d9b355b31e8f29"
   },
   {
     "path": "analysis_config.json",
@@ -71,8 +76,48 @@
   },
   {
     "path": "build_report.py",
-    "bytes": 9326,
-    "sha256": "3373e459092e615e0a9eb5b94b9f9b726f9b1f9025fdf510e0ea717769e97ebe"
+    "bytes": 10570,
+    "sha256": "14031fa9c0155e38ad8650cdd362cf6c76201aca837a27392f30c7fe4862e9b6"
+  },
+  {
+    "path": "figures/CHC20_HE_T_subtypes.pdf",
+    "bytes": 1460638,
+    "sha256": "282e28d0fe6e379cefa3acc63c358d6f2712985a52fbbad5b8c6bb9332eb443d"
+  },
+  {
+    "path": "figures/CHC20_HE_T_subtypes.png",
+    "bytes": 1902320,
+    "sha256": "acb8caca25fa15b27b317185478de947a2a2364596567cb83a1be7d2ba31695f"
+  },
+  {
+    "path": "figures/CHC23_HE_T_subtypes.pdf",
+    "bytes": 1168380,
+    "sha256": "f080f1268c33f8de95f7aff95b786e98191e7ba58bf4a8e6bdc2f0c387534aef"
+  },
+  {
+    "path": "figures/CHC23_HE_T_subtypes.png",
+    "bytes": 1510130,
+    "sha256": "838a7b207a97f82d94ef0450f8bf07f0877961539af10819a12ae48a1fc935c8"
+  },
+  {
+    "path": "figures/HE_CD8_candidate_LR_edges.pdf",
+    "bytes": 1048838,
+    "sha256": "b35dc009ebd1ee300b5523e800c056ccf4f1de1422a1913038684fd4db15056a"
+  },
+  {
+    "path": "figures/HE_CD8_candidate_LR_edges.png",
+    "bytes": 2380023,
+    "sha256": "43302e2b9acf35ee8f74866f187f71cbb4d665145a331e6adc313a1375ef0fbd"
+  },
+  {
+    "path": "figures/HE_PGAM5_source_groups.pdf",
+    "bytes": 1206034,
+    "sha256": "7730e79d558d81d4ac17fe2110dafc059c3b5441f2fc200d468931baacd678de"
+  },
+  {
+    "path": "figures/HE_PGAM5_source_groups.png",
+    "bytes": 2753371,
+    "sha256": "2f7d87fa608548f37c752746b638e0e935820c91ecced5a921bfc50a16cec5b9"
   },
   {
     "path": "figures/LR_subtype_codetection.pdf",
@@ -153,6 +198,11 @@
     "path": "plot.py",
     "bytes": 5972,
     "sha256": "3fd38ccf21a246dfa5de09f9b0722685ece9c6ad2b248c31a8cacfcc43c2517a"
+  },
+  {
+    "path": "plot_he.py",
+    "bytes": 5731,
+    "sha256": "bd6dcd1baf94adcbe1ecf07e6d02144bfb57665f5707c76763e5bec8f75ace69"
   },
   {
     "path": "requirements.txt",

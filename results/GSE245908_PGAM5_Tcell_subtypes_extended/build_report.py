@@ -81,6 +81,19 @@ python build_report.py
 
 本轮扩展没有确认细胞层面的机制或患者总体差异。需要含T细胞的匹配单细胞参考、更高空间分辨率或功能实验验证；同研究先天免疫分选单细胞数据不构成完整T细胞参考。
 '''
+body += """
+
+## HE组织图像融合（补充）
+
+已新增官方高分辨率组织图像叠加。读取各切片原始tissue_positions_list.csv，逐条形码核对pixel_row/col；采用各自官方tissue_hires_scalef将原始坐标转换到高分辨率图像，使用官方spot_diameter_fullres设置点覆盖范围。两张切片所有质控坐标与原始位置一致，且均在对应图像范围内；没有手动旋转、镜像或平移。HE_registration_checks.json记录参数和输入SHA256。
+
+- [CHC20 HE融合：8类T候选](figures/CHC20_HE_T_subtypes.png)
+- [CHC23 HE融合：8类T候选](figures/CHC23_HE_T_subtypes.png)
+- [HE原图与PGAM5源分组](figures/HE_PGAM5_source_groups.png)
+- [HE融合：SPP1–CD44和PVR–TIGIT候选CD8边](figures/HE_CD8_candidate_LR_edges.png)
+
+蓝色半透明点显示T亚群RNA候选范围，橙色空心圈显示PGAM5高表达髓系源区域，青色线为实际相邻且配体/受体共检出的候选边。各图提供PNG和PDF。多个RNA标签可覆盖同一混合组织点；组织形态不能替代细胞来源验证，未新增肿瘤/间质或TLS病理注释。此次只补充图像融合，不改变统计结果。复现时在python build_report.py前执行python plot_he.py。
+"""
 body=body.replace('TABLE','\n'.join(lines)).replace('AUDIT',str(len(audit)));(R/'README.md').write_text(body)
 z=R/'GSE245908_PGAM5_Tcell_subtypes_all_results.zip';files=[p for p in sorted(R.rglob('*')) if p.is_file() and p!=z and p.name!='package_manifest.json' and '__pycache__' not in p.parts];manifest=[dict(path=str(p.relative_to(R)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files];(R/'package_manifest.json').write_text(json.dumps(manifest,indent=2))
 with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED) as f:
