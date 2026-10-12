@@ -1,0 +1,39 @@
+{
+  "seed": 281759104,
+  "permutations": 4999,
+  "tiers": [
+    "TB_aggregate",
+    "TB_CXCL13_MHCII",
+    "Strict_separate_TB_CXCL13"
+  ],
+  "comparisons": [
+    "high_vs_other_detected",
+    "high_vs_all_other_mac",
+    "nonTB_high_vs_other_detected"
+  ],
+  "endpoints": [
+    "within_patch",
+    "adjacent_outside_patch"
+  ],
+  "planned_tests": 288,
+  "primary_tests": 32,
+  "primary": "CXCL13/MHCII-supported patches, high vs other detected, both endpoints",
+  "candidate": "B-gated center; radius-2 hex neighborhood incl center; >=2 B spots, >=3 T spots, >=5 unique B|T spots, >=1 B-only and T-only; direct B-only/T-only contact inside patch",
+  "CXCL13_support": ">=1 CXCL13-detected spot and >=1 MHCII spot with >=3 of 5 markers detected",
+  "strict": ">=2 B-only, >=3 T-only, >=2 CXCL13-detected spots; MHCII support",
+  "region": "union of radius-2 patches around qualifying centers; not measured TLS boundaries",
+  "adjacent": "first-ring adjacency to region, only outside-region sources; self-edges absent",
+  "thresholds_frozen_before_results": true,
+  "pathological_TLS_confirmed": false,
+  "minimum_groups": [
+    5,
+    10
+  ],
+  "null": "high labels within 3x3 spatial tile x UMI halves x macrophage-core halves; +1 two-sided equal-tail p",
+  "limits": [
+    "missing canonical TLS/FDC/HEV genes",
+    "no TLS histology/IHC annotations",
+    "mixed spots cannot attribute PGAM5 to macrophages",
+    "two-ring cutoff is exploratory, not validated TLS classifier"
+  ]
+}

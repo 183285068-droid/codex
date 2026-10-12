@@ -1,0 +1,1692 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4619,
+    "sha256": "106793a0233bb75edb8ae36b0acf393823e1c46c6c06dbb3ec106dd8a2f2a40d"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3061,
+    "sha256": "9fd88aacf30229215e913e3eb123153e28cce2456a7e7fb8c4815dbe9561816f"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2433,
+    "sha256": "10439f2c8e7ed88f6d9eb1953e5dee39a3e9f1b3f0eabe89f2c1bab9cbf94904"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4619,
+    "sha256": "75968f20ef51629f11bc708eba183dba5aa18a59f5856cc33578133b3d5642c0"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3071,
+    "sha256": "e6bc60015713884363cff0a2f198e78afa9448f8687517fdda3a61a6c5cc4591"
+  },
+  {
+    "path": "A009T1_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2435,
+    "sha256": "efd2180ec679c3a29ed8ef2c042b18eb3fadf4fc05d053753e99169ba75f5c6b"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6448,
+    "sha256": "e601f7e301903bc4f6c233621b86f7659f52712fd1d63e8c97a5d78b5143f26c"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4412,
+    "sha256": "4e4dffc646d11863dbac066b743880d629840efa6406dd50aa7f16de3c177fc0"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2416,
+    "sha256": "a8990e0c7bbac4aeed860aa4fd0fe1ef332a29ec18d117820188708550b68577"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 7451,
+    "sha256": "e3d7269b404f02ceac346f06c3b758b1e6c492b1bf4312368071e44d77c53024"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4161,
+    "sha256": "89bf4a98b592c760f79fa55263db98d9b09f7e3b86e4b5a2fde644c9fc10b6da"
+  },
+  {
+    "path": "A009T1_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2476,
+    "sha256": "3f1140c23c104d528d0b42464987f9b3c1b15f29a26df3482a8c1a7a58a8a929"
+  },
+  {
+    "path": "A009T1_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6474,
+    "sha256": "a827448074ff4d5abf9c0b7929ba7eec8470510762a0ba4907ddfb7aa8a2dadb"
+  },
+  {
+    "path": "A009T1_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4386,
+    "sha256": "cb538eac4d76abebce8c0b9f287dff49007a542b42b4e827cfe48bb277fa9544"
+  },
+  {
+    "path": "A009T1_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2412,
+    "sha256": "bde4723bdd80620b0df4080e62a5e5adafb52ba66546714aa4a512f049dae66b"
+  },
+  {
+    "path": "A009T1_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 7438,
+    "sha256": "aebaf9bf48b1d6a9fed2394326b62c37a8487ef018b6e8d60973b1bffa6094fe"
+  },
+  {
+    "path": "A009T1_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4158,
+    "sha256": "b403676182d01388abd244b4b55109fb6dcaadf2f2c461a316946c9128055dd7"
+  },
+  {
+    "path": "A009T1_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2476,
+    "sha256": "a4e921276aabe632b56cd9d906da88392530d2c93569cad7d8480e81d5f83041"
+  },
+  {
+    "path": "A009T1_TLS_proxy_annotations.csv.gz",
+    "bytes": 344502,
+    "sha256": "739b8241c1fc2bb9edfb360701d81fbb3737304ba2ea2f3a2597308f70755222"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2935,
+    "sha256": "47a604079716bba784ca156df89b241d2ff042029188c373095a9e41337dc033"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2346,
+    "sha256": "9a4306dd9b9380ae5cef5f04414e14cfaf3add1011d0b07a419fa61db1d35923"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2237,
+    "sha256": "2142e8fc6ae1e6ac42397606c06ea8ee0a6323d8141e2056203ef089012535a0"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2931,
+    "sha256": "12ddcfae15b851ad594969fb1060f9d14a136119a7bc60ed172ae2e6da2ed356"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2342,
+    "sha256": "71ab155e8d5ff7510e08a05ebab4ba273081052fe67d7705fcf8bec9985cfc08"
+  },
+  {
+    "path": "A009T2_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2242,
+    "sha256": "f44a3093e9b134d0f07476782238b51c6deb152c086419bc75e898a8fba86d14"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2932,
+    "sha256": "7b2eb1174ea4f71011f573c5d77e1d88e36bfb46aef6976c7c3bf628b2cb9728"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2352,
+    "sha256": "ee63cc61a14e321ca37f3702b00969c18499039b31a10965aa0771f5382b6889"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2243,
+    "sha256": "7dd44d7b15d6ba65555eaa7b46ce202ed11b566b55085144f310fd07c4b844f5"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2934,
+    "sha256": "929d4e2408b2e81196cb30cfb1c48a98df7034258aac6e227a330ee6261ea5d0"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2336,
+    "sha256": "40fc494c24951b80c71c633e68a508d5d8e7410c6a987fe6abbbff8cb856862d"
+  },
+  {
+    "path": "A009T2_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2247,
+    "sha256": "821eb4b3d08430967b5c4561f4c320ea9665c5acb7bdde6ee64372be797905c8"
+  },
+  {
+    "path": "A009T2_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2940,
+    "sha256": "bf2c770495d96a36a34c9500cc5166b191ebce545729425ae6550d221b50c817"
+  },
+  {
+    "path": "A009T2_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2345,
+    "sha256": "52e9f2c6cf8c3c8f8d26c7b78d98c0d899186a055814de21be47f1477fa89d7b"
+  },
+  {
+    "path": "A009T2_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2250,
+    "sha256": "8932557050cd1c81ebb6051a3e6b1c0ab487e4a4f7ebde2d9e5b668c9e7e7f6d"
+  },
+  {
+    "path": "A009T2_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2938,
+    "sha256": "469f364987ff3934e157c0c2e908846d1a07d1751b16c2c0aa7f66783aaf5094"
+  },
+  {
+    "path": "A009T2_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2348,
+    "sha256": "2265eb897fc197c9caf696645107ca9b0019564388c2e19ba7a2782390fc1f0f"
+  },
+  {
+    "path": "A009T2_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2255,
+    "sha256": "9c728eb55f297ef926461a1cdccf0a62dc87ad20c6040e9c7a28885771253cc8"
+  },
+  {
+    "path": "A009T2_TLS_proxy_annotations.csv.gz",
+    "bytes": 259390,
+    "sha256": "d5fcbcd0574f5e51ba9a7df02782c051c5bbd677d0e23107c1cc2ff026902a19"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2607,
+    "sha256": "19da86345642dd320d4dbee4571160e9da9f168244eb2bdeb4026bccd5939b9b"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2326,
+    "sha256": "88b74b62ca72de8e806c506ded84291c16335f19c70206635ab4ae81e9367bab"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2139,
+    "sha256": "5552741d074b80d5d547ba752f0359fd9c8ae2e6a7dc507ee6fcaa234bc5f6ac"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2608,
+    "sha256": "96d6e012587bf956c97b178d8f5e5a6d140245acd91830631f7258c123b0ffe6"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2330,
+    "sha256": "2045cc50545f6f4facc4514fcdf311dbb20ed6339a8030a60219bccf411acf6b"
+  },
+  {
+    "path": "A009T3_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2135,
+    "sha256": "7b977f6f1e33cc612f22c4e785859875800cba57d844ef738f61a4f83ad282e9"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2612,
+    "sha256": "fdee28d45f78ce7e5e3dbbf725f0578e06142f21a8986aec040f50b7d77cc017"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2333,
+    "sha256": "504cd0ee5377eec334ad36129643673efb4e70514e4c558c9ca2c2178bcec0b2"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2132,
+    "sha256": "a4f2386471de7bbfd014a932fee062cb92a0c6c291c2d417894d4d2ecf69ceb2"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2609,
+    "sha256": "f8e31aaf8f75f1c8b9fc14295086315c855a3d23f08a64503d14f821d3609bfa"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2329,
+    "sha256": "7c07b43e88a2f152f5b856b3fc606fadcd349bc21ce910444005d1ae17a53173"
+  },
+  {
+    "path": "A009T3_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2126,
+    "sha256": "428a0dc1202f60c76e919a1fefd55445f8a60ceaaac907f572973bfc0639e28e"
+  },
+  {
+    "path": "A009T3_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2610,
+    "sha256": "f3961d899aa71aeab1f171f07d659490c4ec8ddbdeb04239036c2cc5e23a3731"
+  },
+  {
+    "path": "A009T3_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2323,
+    "sha256": "a929ee1a5e1428a4170cad707d5f93b367cfaa1651ee17fc28f597783dbafb8b"
+  },
+  {
+    "path": "A009T3_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2134,
+    "sha256": "48c3a5d1991cb7d1465b7fa04cfe563ba04392ee59d0460924ea05eb4a10f404"
+  },
+  {
+    "path": "A009T3_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2616,
+    "sha256": "59f2c9174fbdaedd0dc97d58f476343a640925379fd764f1e3ca50c6bb5c7bcf"
+  },
+  {
+    "path": "A009T3_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2332,
+    "sha256": "de1dcd8401240f50c40b7e84d2d1050a72b534f604217d61b6ca99153bbc5058"
+  },
+  {
+    "path": "A009T3_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2122,
+    "sha256": "f18ca4167c89b5115d22cbc6c91620e331d0f3ea1788e7409b92679f2ecc9dfd"
+  },
+  {
+    "path": "A009T3_TLS_proxy_annotations.csv.gz",
+    "bytes": 222790,
+    "sha256": "bd6ecf22aeb6e6f26010d6082ed085180b8f64fccc46b3f7efdf5585364ca2f9"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6579,
+    "sha256": "0efdc804cfc71a0436e3e74eb12ce28ce6dcff125d228015bd6f6d6eb2897b35"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4832,
+    "sha256": "f962898a7827f6404a33a2d64d91e34b0a4ed22027c6761e72b2818ae7454088"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3216,
+    "sha256": "54d7c7f65fe779af993f88a993bd6552b58c94a185508cd6d7a5c617a9dad539"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6582,
+    "sha256": "df74fd48da5cc54642f0aef27af6bc06f587f1e18db128259cd48015b538ad4e"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4836,
+    "sha256": "8c6bc9523e5c3342e95c78edfb38ebe2587a7b3697b8f65c4e2c90cdee2d912d"
+  },
+  {
+    "path": "A009T4_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3209,
+    "sha256": "be603230d717882b6517e13d4db118edddc0b8e60a8bdf8a416c6753620f91c4"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6589,
+    "sha256": "d35e58a76838c7e0e58416fe51ff3e71845dabaeeca9fa9ec09b64efc3c59df7"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4838,
+    "sha256": "9ad99aeb18f0aaf43581ed1c06a5cdb0c80675cb29b8f4decfbc10a6249c5aa2"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3208,
+    "sha256": "b5c434c7d0bbd550948a51ebaabeb05a963b4ca01ba5541c504425a5283a89f5"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6588,
+    "sha256": "acf5cba90f02922750b4a295b03044fcf7b4a389713438d09a5b2c422066922a"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4840,
+    "sha256": "c686721175034984b60da70be52b2b2d64a114a66bee23276480fdb2bdc9ec3e"
+  },
+  {
+    "path": "A009T4_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3212,
+    "sha256": "6c9d30c937c2a24c876eba120a9b2d374177deb6c6059290e83dbf049a55fc19"
+  },
+  {
+    "path": "A009T4_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6578,
+    "sha256": "6309cb8ed56b4e00069e8812e4300c3f0d85152a526c10fcf86da9acbb5db2ab"
+  },
+  {
+    "path": "A009T4_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4844,
+    "sha256": "a8b49f7ec29398bebc6c192d84c45f71d5648e5a7f467db04c0a6215b6683feb"
+  },
+  {
+    "path": "A009T4_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3217,
+    "sha256": "09358f4e2f22c87d79df3e6b921012cad0584213f9e97bf70a9044fa2fbd9528"
+  },
+  {
+    "path": "A009T4_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6578,
+    "sha256": "c0ac59d54a001107de02e0cd6803f1eddacdbf20933b2cc608eaa42caacb5601"
+  },
+  {
+    "path": "A009T4_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4842,
+    "sha256": "3107f22afd3c88121bb9ae9b61fea471d4cbca3a5b7f35c86775862ebf74d16e"
+  },
+  {
+    "path": "A009T4_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3213,
+    "sha256": "1c0112e272946316a52be1976239366e1f57a90ebeb1aa84a346a7e76d9611c9"
+  },
+  {
+    "path": "A009T4_TLS_proxy_annotations.csv.gz",
+    "bytes": 498932,
+    "sha256": "31826684403a4e621b9bb84b405e3db18245bfabf31ca85d91ec213d2f72f524"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5125,
+    "sha256": "1d8a03f4a4529280c1c6ac6a8bf6d83511c6bd894e118fe934537713abc8316e"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3817,
+    "sha256": "284de886f000b5becc1c117f0eda14ba1fa94867aedc280e45158cc532336f80"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3013,
+    "sha256": "3c4f8a90e787ca7f9127cdc42ecabd70772e3cca3ea5b40d49cfec19c57cea49"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5126,
+    "sha256": "6cb0fb08d4cce44ed208e55e648393de98939d99c55d690891f4c6c9ab098afd"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3818,
+    "sha256": "48a24b8e760da7a3ea4c2996b0a1bb0d2620b3527405bddda4112c4f3e10b8c7"
+  },
+  {
+    "path": "A009T5_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3010,
+    "sha256": "931e410f228c6ba68e82d05283b5d7e4ebefb9273ba0e7e444bcfefbeaa86890"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5118,
+    "sha256": "994f0c0cd4e76e3f277cbac73cd737d46c6b02e3bf52bb506915bfabc23c588a"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3819,
+    "sha256": "531dfb2d42d1522c124bf5498bf9816b080373f328b0cde289d15728f49321c3"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3013,
+    "sha256": "8cf700a64283798210087d208658709ef7c3eb920ecb7b256f734abb934b5acd"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5124,
+    "sha256": "1d8cf23ef72cde55bfaec026d516708a76ba6b4d5959eb0b3c37f9399200621e"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3816,
+    "sha256": "689be11614273e6eafb2bc7fe11b4151def6bc85eab6e08a57b6c557c62deb49"
+  },
+  {
+    "path": "A009T5_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3014,
+    "sha256": "ba0a75d261393de44dcec02a0b1bfeb010b1278789edc0577e317e8715a062e1"
+  },
+  {
+    "path": "A009T5_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5117,
+    "sha256": "1f23f180ac7f1f7401b7bb20eea695c65ef70e3beb9507b09fea50087cd7cebc"
+  },
+  {
+    "path": "A009T5_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3822,
+    "sha256": "63b135510aa4391b5c2cc5ed3189b3ac84f1cb062ea143d95dc5450bddb4ed35"
+  },
+  {
+    "path": "A009T5_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3013,
+    "sha256": "3f23b243b3cd249e08decffa3cbb8a4a325fc43561d62bfb1bfe6fd216b15c6b"
+  },
+  {
+    "path": "A009T5_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5132,
+    "sha256": "938a5b6b3522224ed470aed663a6faca1a2832b475049c6b221e96b02ad2800e"
+  },
+  {
+    "path": "A009T5_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3821,
+    "sha256": "e5839523c228dce809a48be262ec450ba020968906c943bebbed6acf4dfaa5ff"
+  },
+  {
+    "path": "A009T5_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 3019,
+    "sha256": "7f6636c01c17f5a94d13419ce204f4a4ebde1e7babcf17398c3e303de2abf569"
+  },
+  {
+    "path": "A009T5_TLS_proxy_annotations.csv.gz",
+    "bytes": 406278,
+    "sha256": "c98aed6f5a67ba8cf0742093ea7b23de694df771a9551cf6b48ef288e0163c90"
+  },
+  {
+    "path": "B0013T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3462,
+    "sha256": "f0aae36408bf89a25e79c13f288ee400e979694d667780c9bc31b24592a73a66"
+  },
+  {
+    "path": "B0013T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1730,
+    "sha256": "304cdb1dfbe97a5f1c00ef768d1a790cf24f48d00fa887e2e64bab85b304a065"
+  },
+  {
+    "path": "B0013T1_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3462,
+    "sha256": "c9c1d73ce698770fc912ac9cc5ccb3ff0b850c7929ffb46bec2699d108ec954c"
+  },
+  {
+    "path": "B0013T1_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1730,
+    "sha256": "304cdb1dfbe97a5f1c00ef768d1a790cf24f48d00fa887e2e64bab85b304a065"
+  },
+  {
+    "path": "B0013T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3463,
+    "sha256": "fca0a8cafdda9bd4b8876224737877a36819288896bf0a66fb61117b46d662e1"
+  },
+  {
+    "path": "B0013T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1730,
+    "sha256": "304cdb1dfbe97a5f1c00ef768d1a790cf24f48d00fa887e2e64bab85b304a065"
+  },
+  {
+    "path": "B0013T1_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3470,
+    "sha256": "be5479a1a6d0a40ee3a827d3ef49e45abcad0ab5d7abcbfcdd20975b096fa1f7"
+  },
+  {
+    "path": "B0013T1_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1730,
+    "sha256": "304cdb1dfbe97a5f1c00ef768d1a790cf24f48d00fa887e2e64bab85b304a065"
+  },
+  {
+    "path": "B0013T1_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4278,
+    "sha256": "c7a7b837ee06832076d9b740edf5a844a482ee297a3b89ac3adf70e02a0f5f63"
+  },
+  {
+    "path": "B0013T1_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1765,
+    "sha256": "901f61c63fbbdc6ba28a70f7c72182f7e011c05dae0edbaccef909d953beabda"
+  },
+  {
+    "path": "B0013T1_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4610,
+    "sha256": "01115e81de8ca68bb6d0e2d259cba380fc829531b21f97c4b2cb54e7fd075b50"
+  },
+  {
+    "path": "B0013T1_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1730,
+    "sha256": "304cdb1dfbe97a5f1c00ef768d1a790cf24f48d00fa887e2e64bab85b304a065"
+  },
+  {
+    "path": "B0013T1_TLS_proxy_annotations.csv.gz",
+    "bytes": 209438,
+    "sha256": "fe61b726af34ac787729a1ae1d3abafc4bc038f280846a94f17d322c85e1efc1"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4482,
+    "sha256": "9c3cc83199d510bb77f885aefca1ff92924a93bda25ae2f3eeba155734d6b39a"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2782,
+    "sha256": "f706057dece23c1ac7981a8618e34a662392e56d6bc3abc0ba23ab3af4955ac1"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2554,
+    "sha256": "6a78647f44101488f6d3033a78cdbb47b44df696a1effe210118cf7434ac8133"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4477,
+    "sha256": "d123ce79dde8902d1520a3757f74eec7b66a66bea1734bdfa439ff7a2987d709"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2789,
+    "sha256": "9336f23e58033532b154e67020cce95be40b2525abebe34c043d15f87975c969"
+  },
+  {
+    "path": "B0013T2_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2554,
+    "sha256": "35852e681d32477ecd932ec91d2c6d4a8963726161e010556c39c07ff971811a"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4481,
+    "sha256": "e1842e26887772f25d4a8ef2967edcd5b067dda71e79e1cf8005ed525c241f8e"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2792,
+    "sha256": "3d5e29c2446d73cd208f1c4668af04683e18bb172b77304888aa5c1223f72513"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2556,
+    "sha256": "de6cf30ca84cfa59f70bc2106d9b369e58eaebb3ff4a55d5a0b9683e4ecbd7b0"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4480,
+    "sha256": "9bdcd891ae8a0f7e334816fcc7fc9fea8fd27685b1801a05d5b8166cffd47fd4"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2791,
+    "sha256": "0c61e41d014d200fade3b6f90849ccca729a56daf417e494ce80662419409a6d"
+  },
+  {
+    "path": "B0013T2_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2560,
+    "sha256": "831aeedc54ed1c69a61f127b7bade29ce9298f8a892384dbb4fcb613aa96b9f5"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4472,
+    "sha256": "eeed38c511dffd5df62083d58de34f50c1d034589aaf6adcfd58c39b945c750f"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2790,
+    "sha256": "423eb5d5146ac98bffb3ec04ac5bfe85f2a222d6ea75cadf100ae5d56eae7ff3"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2560,
+    "sha256": "a19f9aa777cdaab3227dc27de119b383e06481c24434e161e1b5924a08cabc5c"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4481,
+    "sha256": "e259cee404418e0426cbced64686b8b97e94c24c1210c15aa8b29d78610c93f7"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2790,
+    "sha256": "7d99112f82e393cd217ef63ba107ce87f657c55b0ea7f033f0d84de81c598a38"
+  },
+  {
+    "path": "B0013T2_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2561,
+    "sha256": "e0baeccdcd221009fd4fff103f48bdd60f29902f7230c461903ea20012c826d8"
+  },
+  {
+    "path": "B0013T2_TLS_proxy_annotations.csv.gz",
+    "bytes": 256112,
+    "sha256": "dfef236fc0646577c83516548b64e5d01dbed203b4766e198b6a309b10a555db"
+  },
+  {
+    "path": "B0013T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3326,
+    "sha256": "7dcba4ceccb5eaebca51b2ccccae887c974f38da241daa34cb502057c489a224"
+  },
+  {
+    "path": "B0013T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1802,
+    "sha256": "b5e020b2034064d7a13e0f1039498a48d577df245c114359db5c052e853d964d"
+  },
+  {
+    "path": "B0013T3_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3327,
+    "sha256": "694bfa845f1e09d5c1484477358c99e887d6fae6514b295c5a8cf7258997da29"
+  },
+  {
+    "path": "B0013T3_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1802,
+    "sha256": "aa544f70ab728cef8bc756b93c9700fa3bd777f3ba10b546bc7c6b51642f048c"
+  },
+  {
+    "path": "B0013T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3330,
+    "sha256": "970dca9ed42f849390bd38c09f511b3a2817f8758e3fc04394608003b6c6151a"
+  },
+  {
+    "path": "B0013T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1805,
+    "sha256": "55371dd31370e867a6f10345969de74cb94a49a7aeef25bff5ba94fd5d8a8c57"
+  },
+  {
+    "path": "B0013T3_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3325,
+    "sha256": "2f163a59c82135ce33e25338438c003345abe94a00afa04fd95fc986bd6dfd6d"
+  },
+  {
+    "path": "B0013T3_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1799,
+    "sha256": "5f902529086f52a03d7d00cc5e164699f950034a4d875b93ce8e89de0aefd9a0"
+  },
+  {
+    "path": "B0013T3_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3331,
+    "sha256": "4ee59b5a1a95d878705761e405aa711c728f44f677c0cdf5717bda9e6229d2df"
+  },
+  {
+    "path": "B0013T3_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1803,
+    "sha256": "8504f43fc280ea17cac77328125f4ae2e3ea1173e1ebf3c4a8bd183a45e23b82"
+  },
+  {
+    "path": "B0013T3_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3332,
+    "sha256": "59c55a1fd0b29334d6dffc2d0e758a81a939bdcfe026ee839ed735e683a22a71"
+  },
+  {
+    "path": "B0013T3_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1805,
+    "sha256": "3e5b95e7fe7a098c47e4479190ae43dcbf59151f83a642e79872d6491b6a08db"
+  },
+  {
+    "path": "B0013T3_TLS_proxy_annotations.csv.gz",
+    "bytes": 264002,
+    "sha256": "9c7187e2b0e7b918ff2ecf856be1a181af19488b56cf5dae02b79318836397c2"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4890,
+    "sha256": "1a46cfa86a9a128d3f0513218c078837705196fc0aefac3835b67249ce29b7ad"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2279,
+    "sha256": "bb7b740b0793be1bcd1cac3ca05f7a38cb728d2a6f180322e1d9711f6de9692b"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1965,
+    "sha256": "a434486c8cf9fdc3c65406b9a5ce385ffe9deb8a7d17f056b750a6bc73f62720"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4892,
+    "sha256": "c4d65fee2d62a20a8cc5de51a364ae5d167899e61b161adf3a0466afa5d1cd92"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2283,
+    "sha256": "0ac25daa8c61928a787d26a4bdb6202bfc339851e668bc368b03ea231c50df2f"
+  },
+  {
+    "path": "B0013T4_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1957,
+    "sha256": "1f561155c4e42e583c03de4da53a6e9968937a59e3ca670c6a9cb8c35579a0e3"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4885,
+    "sha256": "3920863bf71fca739c925f789d75c47952c660b13f759df46ee2ad2e9fa4bdda"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2276,
+    "sha256": "9e30e260bd8d62e5a77ac41ed97ab407569b2c350bb8785fa2c9192969d66d94"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1967,
+    "sha256": "a5659fac7f2615a03316d6917bb6ea85a9351f2905e4cf388f2e42c1e4791f96"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4893,
+    "sha256": "d34d49548307640e2223e69716c95f901de1281284c39631ad61bfa02f9cb857"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2272,
+    "sha256": "0fd713b58d1bfd16de71c18e113d5bb7a3465d2069d4a8ce2d86844025ddd5bf"
+  },
+  {
+    "path": "B0013T4_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1956,
+    "sha256": "d0aabcb3192d69b6e56b8cfd435dbafc6a5de78928b0c61da479db461cce610c"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6288,
+    "sha256": "64d0973b1cc16dd029730fe9db7ab9f72c50c66bfc345bc46146995ffdf08a0d"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2320,
+    "sha256": "1ff0e5d4789d36ea0c5fb89b4d6427d79a11194c73ae26a50c805b95bd3f1fde"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1959,
+    "sha256": "8a7ad9b9e666381f489308a5cf1565a9603202c2347fd9995e0fe10ec5d2a9a9"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6574,
+    "sha256": "4bba3f36a611a65b78bfaf2e27d91358bedf7ca1716043b157a07b16054a7436"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2313,
+    "sha256": "6c0dd511728dfb2837efa5be2dd038207fa9d052fc64a14e2bb3a729b3991953"
+  },
+  {
+    "path": "B0013T4_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1997,
+    "sha256": "f8458939350738ddd0df1ee64e6a3d04bb814bdd9a0ef1cce3f676379097b3a1"
+  },
+  {
+    "path": "B0013T4_TLS_proxy_annotations.csv.gz",
+    "bytes": 381337,
+    "sha256": "e4f32711651d96617a3e98c914e4c7cfd7f3dbf1ce1f173f700ab01fd7f3d5f2"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5134,
+    "sha256": "109a20bfb22aa2f5d9b68a5da68ca6df38a7f00adca01a14b77665a1497ffc4e"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3170,
+    "sha256": "e0cfff5b9737bad6cd12410d3ef2079b88855d7b8c4a93a927e240a8a546eca9"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2791,
+    "sha256": "555ff20b5633095b3ad9e14ef42208dc4c27e35f541e2dbcfabf8d4d4636b23e"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5130,
+    "sha256": "5abe7101f5d36310eecad95e5cb381a42c50f4820901e1fe683ba26982af916a"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3161,
+    "sha256": "3c642a650223fc861ca2fec39e77d2a7355f60914acfa598f5841a3f14a27346"
+  },
+  {
+    "path": "B013T5_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2794,
+    "sha256": "485549571fbbd33fce6e159cf283ebbb20b39a4384524c4edfd16596a406a3ee"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5121,
+    "sha256": "846c9a6905751f3e9b1212ef836d77d3bc5151c47d1aea279d5b5fe5da6787c1"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3168,
+    "sha256": "4f4c39c0cc3c9c1e17f3f335241797501daa4fbd74756d5f90ee468de2cc3279"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2797,
+    "sha256": "b595ae798567da048454bf6875b2cdba514bbfda2658ca8e9a3ef0eead0f051e"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5135,
+    "sha256": "fb647749d74a5143e3aedca2d6ea10618c817cc69307f0bfe841d17c83f0b9a5"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3167,
+    "sha256": "530b64a31c8d4e9c1f6c0e0aad0a91cc905c2fc2ce54e52846694ac74adc8ffb"
+  },
+  {
+    "path": "B013T5_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2792,
+    "sha256": "25df721cfa521c5b5c2d36f5a73aed7927dc781abf3d9438015be0f6e3a682fd"
+  },
+  {
+    "path": "B013T5_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5130,
+    "sha256": "f38cacf3dfed86bc60fa395e101b16d9241fd8d265d6d1a037dc28d790108959"
+  },
+  {
+    "path": "B013T5_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3171,
+    "sha256": "82bdc0977af30088568e48b5d29cf1857626c1383ce5909e510c74e44969bbc6"
+  },
+  {
+    "path": "B013T5_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2794,
+    "sha256": "2b7930f508df5d8c469d3a5eee9832f716f88153e55aeb6f064996d04ea26569"
+  },
+  {
+    "path": "B013T5_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 5135,
+    "sha256": "018a6faaf72a1bcca429bc34e50eba15fa3dcab13b0c1f0884d4fe6d44e41960"
+  },
+  {
+    "path": "B013T5_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3167,
+    "sha256": "9f6d2ac58e8686800b9ad576b6e49e5f75138e4894647202a2575d585bf263fb"
+  },
+  {
+    "path": "B013T5_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2794,
+    "sha256": "8fabf460b441dcbbbb3d2e3ea8784d42e700ce2b7669b86a845171c3859a66cd"
+  },
+  {
+    "path": "B013T5_TLS_proxy_annotations.csv.gz",
+    "bytes": 327131,
+    "sha256": "9bd97b42a8ecd75cad89db6b7b608b5c69ecc08af2e9433fa545c4b960b4f02f"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3007,
+    "sha256": "b53d0f686abe6ce215448242bd04d8cf07d2e00b7daf6f9ff6be7f93fea96e50"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1810,
+    "sha256": "704ce7151347c18157895ea8b663c282da1709be068ddea09af2f49d76c24d9d"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1742,
+    "sha256": "624a58c7b165109847350a11491a6a84d988eed98b64e1eb559fee2253f62332"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3004,
+    "sha256": "5ef1a3bb9d40693a7c7da4c6b892907da3e9f7dc6f823dbf05f009c46234c795"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1810,
+    "sha256": "c2dea45cc49845b2dab2779d046e19a2112719d58184915d27c5b9012522c0e1"
+  },
+  {
+    "path": "C004T1P_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1745,
+    "sha256": "7f19a83aa8e94a32e049dd28863ebe2ccd5bec34d2d39f2ba65454e9ff244a15"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3007,
+    "sha256": "b3dea842b38c455bb26b497e938a1d6757b133e69520c2715daf4492628d5db5"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1809,
+    "sha256": "2b67e0cc594c6c8228e0da42235db3d1370e875926b2cc0e24e9e1f62f9642a7"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1743,
+    "sha256": "266acf266860f446fb09c9d5fb71a7fca8baeb55d046c7f70617be9b2404e8b8"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3008,
+    "sha256": "f89e8aa19c8757331b0ebb85a24930d57b247398e47196418a264705b88a5263"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1809,
+    "sha256": "b2ae8da750f45d0f27acd493b8416a0f4ded51940a658e8ea480fdf95614ea11"
+  },
+  {
+    "path": "C004T1P_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1746,
+    "sha256": "03c76c14c6bacc52c62295c5240db2d06ffc61de56bfdaf42e6a28868f5fb8d2"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3008,
+    "sha256": "26e47a17fc6f8459731cba0775b66acdf08bcf1ec2f0ca1c93abbac4d43af082"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1807,
+    "sha256": "5ee1a8748608fcc682743ba9157b87cb055be0afa535cefbdb49417bf804d18b"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1750,
+    "sha256": "2583edc228aff42fb1f62b4878d986e0286548e6ef1deab86a3b7f4a8fe4a5f2"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3014,
+    "sha256": "9e60dfb5532b93ab1e57a604762d7b55dfdb2b9ec3ab3251728cb95caed079b9"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1807,
+    "sha256": "a5545e055f10f8b2fefac9972ea196653b79e408a8bf8ba15efa41f7bfc3442b"
+  },
+  {
+    "path": "C004T1P_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1749,
+    "sha256": "ece516a84224d5da0cb677367c9e3b8efa0e74bd50fc7cb8532f167021363775"
+  },
+  {
+    "path": "C004T1P_TLS_proxy_annotations.csv.gz",
+    "bytes": 249901,
+    "sha256": "6ce36937e7b903f7bca92362ff1b406d02fe507e351678bfa1ad6a7112834ef8"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2350,
+    "sha256": "8fe88bcccd7a090432676fbcadde9c1c606634d5efc2423258b6aac5ba77556e"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1809,
+    "sha256": "7cd3bdcc0b11367e0d16cb9d259d80c46d07e603b0c40c2f6ef6660d5b1f0fae"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1680,
+    "sha256": "66b4c9cae1549404ca99d376126d88d8326f72b7a274aec07a0602497528f1bd"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2360,
+    "sha256": "19fe75576d1ac495f74841f8199c43058d9753b955e04f165630a414d348c0ff"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1816,
+    "sha256": "9ea27951230fa488b87dd07a77de00e4a3452a804e4fad70b744dda5887155ea"
+  },
+  {
+    "path": "C004T1R_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1680,
+    "sha256": "66b4c9cae1549404ca99d376126d88d8326f72b7a274aec07a0602497528f1bd"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2354,
+    "sha256": "4f1a0d7203d2b337874b5107d667a4245f162e1c3c1fc1926bb82af90e8acad8"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1818,
+    "sha256": "625841e9db9ff5d89007f4b30c86e8c029a6b23912bbce5f90ddf7d15ad038ce"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1680,
+    "sha256": "66b4c9cae1549404ca99d376126d88d8326f72b7a274aec07a0602497528f1bd"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2357,
+    "sha256": "cf8fcca6a9ed21133a215e90536d5f1106ce76758f9090b9c692ad74981fd0f6"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1814,
+    "sha256": "74d28830a321a1ccf5070950c156e2ee3bc7c91119214d4026e376e2b90e0ac0"
+  },
+  {
+    "path": "C004T1R_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1680,
+    "sha256": "66b4c9cae1549404ca99d376126d88d8326f72b7a274aec07a0602497528f1bd"
+  },
+  {
+    "path": "C004T1R_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2264,
+    "sha256": "34e32ddd128fb3c0abc4817a0258609dea741ae54d1aa4bb6429185a44523a4a"
+  },
+  {
+    "path": "C004T1R_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1795,
+    "sha256": "e42c4beb20c06250b90d8aa129541dbdfb8706d468ee98418023f1b87146f2d9"
+  },
+  {
+    "path": "C004T1R_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 2414,
+    "sha256": "cc8de4ab92e13ec511a7a80bb759d6b11c8f616c313a1001f870dadf452e2ca8"
+  },
+  {
+    "path": "C004T1R_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 1849,
+    "sha256": "d2bdb9f7d3b8b936eba759db93f255fb6eea20a8df9825befb963bb168f550fb"
+  },
+  {
+    "path": "C004T1R_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1716,
+    "sha256": "97dfd7d7183b41197e8f7e4c4f732f0f4dde5865a78e48ecf71975f40845d64d"
+  },
+  {
+    "path": "C004T1R_TLS_proxy_annotations.csv.gz",
+    "bytes": 159298,
+    "sha256": "bfd57d8d003cac31e4ed3893e0edb081d64a3cd7a1788c96c06f223aac59f3c8"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6117,
+    "sha256": "70862ee460f1f72679781293d9ff8082670dba62beef76d95363b7e3e09c0b2d"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2762,
+    "sha256": "287e49ed7cf68515cd8a460a3cd7b7a43f49fcadc9dbb92e0ea3cb28f2c9c890"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2024,
+    "sha256": "620f4c84146c3edc6c34c44c2211d77849dadf61e69abd4412a024631fc6de51"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 6118,
+    "sha256": "e3d6fae1c08e392ecfc278ed964b358deb94849976c56f54fd19a3a6ca2e8203"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2757,
+    "sha256": "fa800c6d0ace6882b34199d58ff0b753932b147fe2eca6b6d788e46bc4e90f88"
+  },
+  {
+    "path": "C008T1_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2035,
+    "sha256": "ff12f203dca738165277314df5b375f751f79399b1e01edeab80ff0bc897eb5f"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 7629,
+    "sha256": "1a6b4e0023dcb07957b7bd67868d728e748db8eb610550a71f9630e356e47ba8"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3915,
+    "sha256": "e2bcec3d09a504b26f13a071402e47708bb434f5452afde8b091a69275eebb44"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2062,
+    "sha256": "bfb237e49bef6db479a8763ac379dd1cc116dab83a03617b1e6ae1342f886499"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 8320,
+    "sha256": "7e4488bcb78b857f31fab7992050cd157b5d422cea346370bc8957a7ed3535f5"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4581,
+    "sha256": "dfe334445c153fda4d668c5546844ef0a1d460920388ca5234fbd0547295cfda"
+  },
+  {
+    "path": "C008T1_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2084,
+    "sha256": "dc84258633a084c18562baa0d1102772d26defc98ce229e0d159898c49980d75"
+  },
+  {
+    "path": "C008T1_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 7664,
+    "sha256": "76017b7e53551b9e4fe175226cf74ae73f11552508ae4e15809303769533bdda"
+  },
+  {
+    "path": "C008T1_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 3900,
+    "sha256": "d405abb0e419cfc26e190fbc763049df38fe418b18549687542bd0e9f1a8a883"
+  },
+  {
+    "path": "C008T1_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2066,
+    "sha256": "f658b398ca8147fad1b94c7a18f45846b52e65e66401564c317210417829014c"
+  },
+  {
+    "path": "C008T1_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 8324,
+    "sha256": "d4d10b8f0c34c742d0a42cc0fefb6011fba8710fd5d9fdf34f9516dab1cc90f1"
+  },
+  {
+    "path": "C008T1_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 4571,
+    "sha256": "42bbcffda769841b34d2bb9d276001583774a1121cce78cf728430924a3460c9"
+  },
+  {
+    "path": "C008T1_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2081,
+    "sha256": "968d91b0366b5ddabd9424725b85c3f212e15b199adf9e5473f50adbee45bdea"
+  },
+  {
+    "path": "C008T1_TLS_proxy_annotations.csv.gz",
+    "bytes": 495594,
+    "sha256": "b02df21cb50f381ee165acd9fd3f1554799aa77727bde46e756e9e3db52f02cb"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3678,
+    "sha256": "435d1485e5e313477fcae9cd6669e777faff84b1282e657a24200effe0e86a31"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2027,
+    "sha256": "5f9ecca474d1884bde6970fcdf1f3768485a513e6ba514d9c414aaaf22e9c5f1"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1816,
+    "sha256": "98aa7084a5e363f1fab8856ca053f454fee6d2bdcba49d626b5fe348a5d35453"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3672,
+    "sha256": "644564930d51b885ce4c3890fd5dfce0ccb88ca3cffe2677c665c2104a277724"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2044,
+    "sha256": "6dbd4471d073c17904e35046c5f5ba1ebb722c8516a48a6af76516d97f6c6354"
+  },
+  {
+    "path": "C008T2_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1817,
+    "sha256": "d33fa25b53f2d71ff9c0b8080e25da1096c54d51105603ec956168618cbe9bbd"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3672,
+    "sha256": "f343ea177bab88764ae2b118be0da381323bfc0494ee97c365feefb8d7ac692a"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2036,
+    "sha256": "d544ef83bd0d7a9f05ac7f428e4c83a52b53196591a7c6db361a7f87c69d4c6a"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1816,
+    "sha256": "189faab1d26140ec1d9e6d3d7d0824dc65c5a07abe05af2b9a1b5b1d1c746098"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3682,
+    "sha256": "9ba5d1d9a5dc2d9937d8dc1d484c3fdaef377f3c9073478e38d9f868b4a5a381"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2038,
+    "sha256": "de3276df93b121422b9aaa8a39756fa20e36fe35239d3fd89d5da6291c683bba"
+  },
+  {
+    "path": "C008T2_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1813,
+    "sha256": "caaaf352672637b2f619143f4ac1a69066a3b417ed4e0c55d421104e4324c4fb"
+  },
+  {
+    "path": "C008T2_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3680,
+    "sha256": "9e1a78a9f00bcaaf0a9ccf0535e515d980c5773f8e1215e8fc9a2d317c8ac14c"
+  },
+  {
+    "path": "C008T2_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2028,
+    "sha256": "651645ce7dc839482b66d10645f16f02164570ddebd6a3511adaa8ed980b0835"
+  },
+  {
+    "path": "C008T2_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1815,
+    "sha256": "fa01148f8b090703416c6eda3e3438bb529b811ee9d5bbf5b03d98c712bc3473"
+  },
+  {
+    "path": "C008T2_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3679,
+    "sha256": "c714d7e7e70bcbb398ab15030d917e9346e8008f3aba9906c3290e8942b65175"
+  },
+  {
+    "path": "C008T2_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2038,
+    "sha256": "9a14acaf03517067be5bdfbf28e99fade0283059cd96fc2d1b1e9419cd78332d"
+  },
+  {
+    "path": "C008T2_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 1810,
+    "sha256": "887b06d8d91103097fe6bab782cb9a639a50775f5ba4a95179a8384bf24200a1"
+  },
+  {
+    "path": "C008T2_TLS_proxy_annotations.csv.gz",
+    "bytes": 234762,
+    "sha256": "63e46a8ba07fbe90f7b0739d2749ef07d9c0a8428ca91c1a1d4c0c553d92419b"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3062,
+    "sha256": "a731d0a784d7c37efd91cf7773607b0a937c26de17195f11e6edb178aa37d1a6"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2129,
+    "sha256": "f7dca7766056d83ae80423bab2c710b037a5a157fb1fbae9ad5738b6704cddc5"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2081,
+    "sha256": "fd4e40c842e975a772db8d0209ca5750d722ad47938b096b48f019eb6225fa6e"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3068,
+    "sha256": "fffda8bceeb9568899a49ce2b5aa1a0ebc004fe08e8738d9cf8dc1e1e954bfc5"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2130,
+    "sha256": "1ab716906f6f04bd16aa4c7064a569827cf8baf0890096352886dc079f9fff91"
+  },
+  {
+    "path": "C008T3_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2089,
+    "sha256": "bf25b56c58d692e6855bfbd646ca2b5bcdf8f4306f9c98db897b484444500784"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3066,
+    "sha256": "bde42548ba7556470f0c863c5fc18809445082fdf320f459fd1764e4918ab20d"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2142,
+    "sha256": "24e497ed2db190839b4ce949a7d461becf5b4c6d37746c019a6bd2213981cbc0"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2085,
+    "sha256": "46fb335080e841b354eff5eb41e2224f26b53392eb24afb2e9d32d1f517f3466"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3068,
+    "sha256": "c62198a94f7d08a0f11a67e67fb6bf43e94e95f6f8cae4954065ddb8dd99eaed"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2128,
+    "sha256": "218d0f9dffe49395977e0d73229cd36d7b898d56ee844aec63ca97222fed3b92"
+  },
+  {
+    "path": "C008T3_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2092,
+    "sha256": "0ff8cf4f35e00264444dea8089d47ac48e5c80d16e8c6fbb436afeb41a40b638"
+  },
+  {
+    "path": "C008T3_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3069,
+    "sha256": "30d1ba193d3de8280bcfdf6a2874dae96f0df4b0ee2ebe797170c931153ca970"
+  },
+  {
+    "path": "C008T3_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2127,
+    "sha256": "c1bb5f0f3df481dbb66bc766b1bb8b8796311dcec9c6902dc6157392c5154ecf"
+  },
+  {
+    "path": "C008T3_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2090,
+    "sha256": "31c181f9f8dc6d25bcfa717459fa8ce5a84ca9686d753839f9cd710e55d2dfe3"
+  },
+  {
+    "path": "C008T3_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 3069,
+    "sha256": "a01599025ebbc39e50283863ecb98d8ce1fe103bad3051881482d75befa4d5d0"
+  },
+  {
+    "path": "C008T3_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2138,
+    "sha256": "043b61b7edad838343f771946dabdf3586d0a4e2dc92334a2c8d0baeab8a03b8"
+  },
+  {
+    "path": "C008T3_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2088,
+    "sha256": "240fe9c04105c7b3752343c36c5bdca3877badf7776fc4f5fab0b3df53936353"
+  },
+  {
+    "path": "C008T3_TLS_proxy_annotations.csv.gz",
+    "bytes": 221044,
+    "sha256": "e1ceac7694b606bd395263dd3994bac0524d722e821d04fa609e28f3c44cd0c7"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4432,
+    "sha256": "6231f300b71e1bf760c04cab9d23d200aa888111cd77d331af419893c211df50"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2807,
+    "sha256": "cfea4c0dc71ca04f9225054eccd900b5cde89fad5ec8484e6b460360b56424c9"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2670,
+    "sha256": "a0aca999b33ee00a8e590a892f0d7793ca92e17663739241320b4bdef599660e"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4435,
+    "sha256": "1fc6076616c4e56edeec753dc38ba9108427cb18b102ab3efd5ee5782d48c8e4"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2808,
+    "sha256": "f78d6b40607c3fccf01abb801b82fe5a48eed51af920a5c8cef61aeb7391a28b"
+  },
+  {
+    "path": "C008T4_Strict_separate_TB_CXCL13_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2669,
+    "sha256": "92a7a6540ba2b72f5c3fcd017ab6c6f45d0b9400ced68d9498734b5a39e40392"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4436,
+    "sha256": "74ebeae00b9c7f98a612e370b10ac8f5fad5b2cce5d44fd6e2bfd0dd0900e75b"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2807,
+    "sha256": "cdef29e641f8088229f4b79bd417c680e52286ef8a96a19e882a4f5e26ba99f9"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2674,
+    "sha256": "dd9506653b3f0951e2f101c410475c0a248452fba274975ff3ccffe2ec26306a"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4426,
+    "sha256": "2e6cfb304513fc8e983f8045deecb3bb400574b7ee843a58fd1a807165bf6727"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2807,
+    "sha256": "baee8f13b6c06e2f744b1e8b20a900a3530b8974487c6db40e43eebc0ffb2a95"
+  },
+  {
+    "path": "C008T4_TB_CXCL13_MHCII_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2668,
+    "sha256": "ddd235c836dd9615c04969416f88c88ffbe0801fee31bb63ea789663ab49efad"
+  },
+  {
+    "path": "C008T4_TB_aggregate_adjacent_outside_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4431,
+    "sha256": "a5eca588a78ec75cbbcba6259fd5f98d19abe923034b90f97ca36ec515f639ae"
+  },
+  {
+    "path": "C008T4_TB_aggregate_adjacent_outside_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2805,
+    "sha256": "fa603a08b5e0bc9e27c245744df02a3a732e606e5b58e62d2348cac165048bb2"
+  },
+  {
+    "path": "C008T4_TB_aggregate_adjacent_outside_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2675,
+    "sha256": "5d5baee85f0cc81a36f7eb6dad37d2d5f2b9fd6261ea7b9feab666f680bd2fc1"
+  },
+  {
+    "path": "C008T4_TB_aggregate_within_patch_high_vs_all_other_mac_audit.npz",
+    "bytes": 4434,
+    "sha256": "f7edcb2fcd8fc8e7f416e527a2d0cbc941199d466242804f34175ab07aa6518b"
+  },
+  {
+    "path": "C008T4_TB_aggregate_within_patch_high_vs_other_detected_audit.npz",
+    "bytes": 2804,
+    "sha256": "987af790204d747cace69ca8c03c8c495068daa83c4904b713f75e321a2d4aea"
+  },
+  {
+    "path": "C008T4_TB_aggregate_within_patch_nonTB_high_vs_other_detected_audit.npz",
+    "bytes": 2675,
+    "sha256": "4c92d10d8d061665d42418b8bf8ae45065a6c6f4a2b6e597494db1a6decd9b0b"
+  },
+  {
+    "path": "C008T4_TLS_proxy_annotations.csv.gz",
+    "bytes": 306692,
+    "sha256": "571527584ffc06379452c54958405e1e56b3fe3a773e0285cd5f4c894448678f"
+  },
+  {
+    "path": "README.md",
+    "bytes": 10326,
+    "sha256": "5d974d9912af5064ad8d8dff20b25ccae714f6754c6b868a04ace2c869f28021"
+  },
+  {
+    "path": "TLS_marker_coverage.csv",
+    "bytes": 28294,
+    "sha256": "321c0d58eef9b12937146cd12a7a736f358ce605b0f0e1d1a72d3f51cac57ad0"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 1484,
+    "sha256": "9253117ed2d08427fbebb7c202af1bfa8eac646d1bdfd44e9ee2bf84e64548a2"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 9518,
+    "sha256": "b767b7240cd1b5eab56b2d25936c4aa79ba8ec0b428e93f67c063b16d06bec27"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 5922,
+    "sha256": "8e7fa61323b6d40ac966bf2d301ab046ec36aff1f8cb4164af167cbb9293d51f"
+  },
+  {
+    "path": "audit_results.json",
+    "bytes": 1294830,
+    "sha256": "105b9a9546b6bd65b103fe743d6fef4b1974c074b1592b21881eada2f904151a"
+  },
+  {
+    "path": "candidate_patch_components.csv",
+    "bytes": 1125,
+    "sha256": "3dc949ae6d6c6dd1d366e66225f41495ccdc840f5722965136ef845b64aaf477"
+  },
+  {
+    "path": "figures/A009_TLS_proxy_spatial_maps.pdf",
+    "bytes": 1995071,
+    "sha256": "2da6b153adb7b3903556c4783ca2355e8a0ebf9eb814d7494680431c49c3c93c"
+  },
+  {
+    "path": "figures/A009_TLS_proxy_spatial_maps.png",
+    "bytes": 5559760,
+    "sha256": "b9b3ec0d7072a7db847f5f8d3b09cebb15b973279899dfc986a33bba9d2d4f7e"
+  },
+  {
+    "path": "figures/B013_TLS_proxy_spatial_maps.pdf",
+    "bytes": 1873756,
+    "sha256": "f78370dda749287ed4827911b21313f146b5d237fcae93d9e3c552314f9899fc"
+  },
+  {
+    "path": "figures/B013_TLS_proxy_spatial_maps.png",
+    "bytes": 5102286,
+    "sha256": "55dbffd1f8fe1e745ea52ef140fe71f445f0a64cdfdf025cf41efd0d202f8763"
+  },
+  {
+    "path": "figures/C004_TLS_proxy_spatial_maps.pdf",
+    "bytes": 688649,
+    "sha256": "3cad5de80dfa3a8b376d673b31822641ac540f582a5ec97077b90a92a50d4cc9"
+  },
+  {
+    "path": "figures/C004_TLS_proxy_spatial_maps.png",
+    "bytes": 2096903,
+    "sha256": "084aca72df372ddad2a2dda50b000b000d4bb88070c8bccc8b1eea65964a0cf2"
+  },
+  {
+    "path": "figures/C008_TLS_proxy_spatial_maps.pdf",
+    "bytes": 1513586,
+    "sha256": "7ba8accf77cd90ed4fdac1c4519d2a6449dbfe41e792b79c1c8ca8b8f2d52631"
+  },
+  {
+    "path": "figures/C008_TLS_proxy_spatial_maps.png",
+    "bytes": 4582981,
+    "sha256": "98d320b19c3affb477b6a09ec8afc5ccb9f36ef2daf4319f240a2ab1df3a2714"
+  },
+  {
+    "path": "figures/TLS_marker_coverage.pdf",
+    "bytes": 18961,
+    "sha256": "5493f7a63780d2e1868a4d176ae72d0bcbb1ca22778da561a36ffb4f1d736465"
+  },
+  {
+    "path": "figures/TLS_marker_coverage.png",
+    "bytes": 59927,
+    "sha256": "0d8f047bd4854f167492563e940575c48e67d9db5aea740a3fa86597819d826e"
+  },
+  {
+    "path": "figures/candidate_patch_overview.pdf",
+    "bytes": 23267,
+    "sha256": "e961c55ec76605cf67b7989634e98199dd35f4061030b1143cec8d2eba07e5da"
+  },
+  {
+    "path": "figures/candidate_patch_overview.png",
+    "bytes": 176593,
+    "sha256": "75fad2374daf4d7afecb48f6c61271ec9c1dcee93df30e88254799091b7a53e8"
+  },
+  {
+    "path": "figures/primary_spatial_contrasts.pdf",
+    "bytes": 20138,
+    "sha256": "d45a4951ac9529c6ba2d8c5bd3c68c9acb202fc4112064457134d6434d344d54"
+  },
+  {
+    "path": "figures/primary_spatial_contrasts.png",
+    "bytes": 122179,
+    "sha256": "c7ef34db596ed81be65dd30e2869aca6dbdbb7baa4d69e2f455629815925fa32"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 2697,
+    "sha256": "18d5b3579c79a764d4694787a4f910bc4a4910094d3f004c7f95999f2a3c3318"
+  },
+  {
+    "path": "inputs/A009T1_spatial_marker_subset.h5ad",
+    "bytes": 1985168,
+    "sha256": "6b92453abd0166a9fdf69e6566a3d7c07e2f9eaf264dced6d4233022fe3efa19"
+  },
+  {
+    "path": "inputs/A009T2_spatial_marker_subset.h5ad",
+    "bytes": 1775914,
+    "sha256": "5ef407c833534001e5b886a6afb1f0f04213651998347976dc99b1d2389b949e"
+  },
+  {
+    "path": "inputs/A009T3_spatial_marker_subset.h5ad",
+    "bytes": 1559188,
+    "sha256": "623980a6e70b522fa751cabfc36ff69cd439827c5fba5e63cba16e0342046976"
+  },
+  {
+    "path": "inputs/A009T4_spatial_marker_subset.h5ad",
+    "bytes": 2594640,
+    "sha256": "ede8f4fb5d046b05135f023ae4ffbc7c0255b16916858550488dee262974ab26"
+  },
+  {
+    "path": "inputs/A009T5_spatial_marker_subset.h5ad",
+    "bytes": 2240229,
+    "sha256": "699c48b16a88af36d92cad519b376dfecdbc0f3c733fa2af948df60ccb588511"
+  },
+  {
+    "path": "inputs/B0013T1_spatial_marker_subset.h5ad",
+    "bytes": 1515722,
+    "sha256": "ac4a79073d9de4577d66e45fb6bb5844e31fca6df5e53bb2cea315c5668f8f72"
+  },
+  {
+    "path": "inputs/B0013T2_spatial_marker_subset.h5ad",
+    "bytes": 1729056,
+    "sha256": "63a29a4597b2edca3dcb04755afd20a55fc67c055ecbe1cc5844adb240f1d5cf"
+  },
+  {
+    "path": "inputs/B0013T3_spatial_marker_subset.h5ad",
+    "bytes": 1669579,
+    "sha256": "1519f01e5395667bcb4ca89c9cc67908bcbd2430ada07753400a1b55e89c0bfa"
+  },
+  {
+    "path": "inputs/B0013T4_spatial_marker_subset.h5ad",
+    "bytes": 2107951,
+    "sha256": "66dd8905ec38e92238da6692ffec9adba2874fd3fbd38bb013051805fe58856b"
+  },
+  {
+    "path": "inputs/B013T5_spatial_marker_subset.h5ad",
+    "bytes": 1924469,
+    "sha256": "3ba88aaee1eeabf07b1e7468c67003be0fbcc44d7ba9f819f734f63817acf73b"
+  },
+  {
+    "path": "inputs/C004T1P_spatial_marker_subset.h5ad",
+    "bytes": 1675081,
+    "sha256": "9a10634e3a5ccaeec5f18ddfde5eee02f7d7d9ea752170b43fef5294ba60a77f"
+  },
+  {
+    "path": "inputs/C004T1R_spatial_marker_subset.h5ad",
+    "bytes": 1281474,
+    "sha256": "3e03f86eb621e612c7c43807b240069a8e22199caa8ee4d3144104f0f61fc253"
+  },
+  {
+    "path": "inputs/C008T1_spatial_marker_subset.h5ad",
+    "bytes": 2488249,
+    "sha256": "d3e71efd605b78ceaef26625d48b371179e910984b06f36323fccf9ec357f4a1"
+  },
+  {
+    "path": "inputs/C008T2_spatial_marker_subset.h5ad",
+    "bytes": 1551037,
+    "sha256": "cdc6233cbdca5807fdfc61ca2dbc54b9daf4f112271d91f5b6e3fe523ba436b0"
+  },
+  {
+    "path": "inputs/C008T3_spatial_marker_subset.h5ad",
+    "bytes": 1583544,
+    "sha256": "4e4bbd9915310f272b9998b54ecaf3f9f092509ea1a7e87951800d60f832c111"
+  },
+  {
+    "path": "inputs/C008T4_spatial_marker_subset.h5ad",
+    "bytes": 1872136,
+    "sha256": "5e345c7575af6ce5b0313cafd5cdf6f1d3ceb2c83632ac9825cfea2f35ce319e"
+  },
+  {
+    "path": "mixed_source_review.json",
+    "bytes": 656,
+    "sha256": "6e15006606eb47d5cf8aeb2fed169f938d62aef1085de60f81034ebe5596ab0b"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 961,
+    "sha256": "316a9e472b2596e39a8387573199fc689198c1239b2b7d3e7b0d4a13a8631c08"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 4664,
+    "sha256": "73f670142bb0cb51065172b88573e3a4087824305ba77d965ed25fb862672f38"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "48a6012fd84bb130f11e8a10528ac8890aeb3ec1ab9ad403d6f7be150fc08902"
+  },
+  {
+    "path": "sample_scope.json",
+    "bytes": 1786,
+    "sha256": "8171bba725569145fff2d0bf179872a0fe916af2c34e0732b67b193de5c6896b"
+  },
+  {
+    "path": "section_candidate_summary.csv",
+    "bytes": 3691,
+    "sha256": "063eebad946c5a3c91199ab629458802134f37beefb7c05fe5f59495b3b26d4f"
+  },
+  {
+    "path": "source_candidate_counts.csv",
+    "bytes": 10096,
+    "sha256": "d3e772313f1b9585a5fbd3d8ab0055c52f8f6f5414441f9d790f7db6ae5a5ddc"
+  },
+  {
+    "path": "spatial_statistics.csv",
+    "bytes": 54127,
+    "sha256": "f0cfdef9f31a54fa479b3b73418bf818bb11b2967aca710037293ff5a0d960df"
+  }
+]

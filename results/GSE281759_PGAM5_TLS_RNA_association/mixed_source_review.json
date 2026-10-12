@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "raw_PGAM5_checked_against_input_layers": true,
+  "within_supported_patch_high_sources": 3,
+  "all_sources_T_or_B_gate_positive": true,
+  "nonTB_high_within_supported_patch": 0,
+  "sources": [
+    {
+      "sample": "A009T1",
+      "barcode": "TCTCCAACGTAGGTTA-1",
+      "PGAM5_raw": 1,
+      "T_gate": false,
+      "B_gate": true
+    },
+    {
+      "sample": "C008T1",
+      "barcode": "CCTGTCACCCGGGCTC-1",
+      "PGAM5_raw": 2,
+      "T_gate": true,
+      "B_gate": false
+    },
+    {
+      "sample": "C008T1",
+      "barcode": "GGCAGCGGTAATCCTA-1",
+      "PGAM5_raw": 1,
+      "T_gate": true,
+      "B_gate": false
+    }
+  ]
+}
