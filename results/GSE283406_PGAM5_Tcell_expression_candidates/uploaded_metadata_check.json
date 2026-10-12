@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-12",
+  "sample_supplementary_urls": [
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661789/suppl/GSM8661789_J259B.barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661789/suppl/GSM8661789_J259B.features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661789/suppl/GSM8661789_J259B.matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661789/suppl/GSM8661789_J259B.tissue_hires_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661789/suppl/GSM8661789_J259B.tissue_lowres_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661790/suppl/GSM8661790_J259X.barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661790/suppl/GSM8661790_J259X.features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661790/suppl/GSM8661790_J259X.matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661790/suppl/GSM8661790_J259X.tissue_hires_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661790/suppl/GSM8661790_J259X.tissue_lowres_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661791/suppl/GSM8661791_J259B.barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661791/suppl/GSM8661791_J259B.features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661791/suppl/GSM8661791_J259B.matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661791/suppl/GSM8661791_J259B.tissue_hires_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661791/suppl/GSM8661791_J259B.tissue_lowres_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.tissue_hires_image.png.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.tissue_lowres_image.png.gz"
+  ],
+  "series_matrix_expression_tables_empty": true,
+  "coordinates_or_scalefactors_listed": false,
+  "raw_archive_inspected": false,
+  "raw_archive_blocker": "Uploaded archive exceeds 32 MiB executor transfer limit. Metadata listings do not establish actual archive contents."
+}

@@ -1,0 +1,13 @@
+target,source_group,n_T_coexpressing_sources,state_supported,state_pct
+All_T,PGAM5_high,7,7,100.0
+All_T,Other_detected,24,24,100.0
+All_T,Undetected,94,94,100.0
+Exhaustion_T,PGAM5_high,7,1,14.285714285714286
+Exhaustion_T,Other_detected,24,5,20.833333333333332
+Exhaustion_T,Undetected,94,5,5.319148936170213
+Activation_T,PGAM5_high,7,0,0.0
+Activation_T,Other_detected,24,4,16.666666666666668
+Activation_T,Undetected,94,8,8.51063829787234
+Cytotoxic_T,PGAM5_high,7,0,0.0
+Cytotoxic_T,Other_detected,24,3,12.5
+Cytotoxic_T,Undetected,94,16,17.02127659574468

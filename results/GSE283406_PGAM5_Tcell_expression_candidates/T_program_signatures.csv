@@ -1,0 +1,9 @@
+signature,n_T_targets,high_same_barcode,other_same_barcode,undetected_same_barcode
+Activation_T,24,0,3,4
+Activation_T+Cytotoxic_T,5,0,0,1
+Cytotoxic_T,58,0,3,13
+Exhaustion_T,21,1,4,1
+Exhaustion_T+Activation_T,6,0,1,2
+Exhaustion_T+Activation_T+Cytotoxic_T,1,0,0,1
+Exhaustion_T+Cytotoxic_T,9,0,0,1
+No_supported_state,451,6,13,71

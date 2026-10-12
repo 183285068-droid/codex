@@ -1,0 +1,47 @@
+{
+  "primary": "J259X tumor section AVITI GSM8661792",
+  "patients": 1,
+  "QC": "UMI>=500 and detected genes>=200, FFPE probe panel; no polyA MT25 gate",
+  "panels": {
+    "All_T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "Exhaustion_T": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activation_T": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Cytotoxic_T": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ]
+  },
+  "source_gate_fixed": true,
+  "high_Q75_among_detected_Mac_RNA": true,
+  "state_cutoff": "T-gate Q75, score>0, >=2 state genes",
+  "coordinates_available": false,
+  "cell_pairing": false,
+  "LR": "separate source ligand and target receptor expression only",
+  "no_p_values": true,
+  "context_J259B_excluded_from_tumor_primary": true
+}

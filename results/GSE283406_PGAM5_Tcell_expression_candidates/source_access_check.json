@@ -1,0 +1,10 @@
+{
+  "author_repository": "https://github.com/SilviaLiu12345/Spatial_transcriptomics_deep_vs_standard",
+  "current_remote_HEAD": "e9fcbdca77c9f0fad02618bbe54ca4e3591dbd5c",
+  "matches_prior_snapshot": true,
+  "NCBI_feature_URL": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8661nnn/GSM8661792/suppl/GSM8661792_J259X.features.tsv.gz",
+  "NCBI_access_result": "CONNECT tunnel 403 Forbidden; no new download",
+  "local_full_matrix_or_coordinates_found": false,
+  "saved_GEO_listing": "GSE283406_PGAM5_immune_expression_candidates/provenance/filelist.txt",
+  "listing_freshly_downloaded": false
+}
