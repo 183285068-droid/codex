@@ -246,7 +246,7 @@
   },
   {
     "path": "sample_response_manifest.csv",
-    "bytes": 1897,
-    "sha256": "a6768281a5e0e031811cb8a99eb59187ecc97688816a762496a098ccfd4656f1"
+    "bytes": 1889,
+    "sha256": "3be44a293f7608c8050bcba824b8b129a3a96fbc6f777ae1a66be52e05db03d8"
   }
 ]
