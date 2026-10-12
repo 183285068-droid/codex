@@ -1,0 +1,187 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 20,
+    "sha256": "e99f6ee4eb88882ea6589ecb717e10a41401763241b246b6821bc091cfe2227e"
+  },
+  {
+    "path": "J259B_immune_candidate_annotations.csv.gz",
+    "bytes": 495750,
+    "sha256": "25b04ac80969af02adc508f14e58d9149e0b2010e6cd26cf613c549154b0de1b"
+  },
+  {
+    "path": "J259X_immune_candidate_annotations.csv.gz",
+    "bytes": 650233,
+    "sha256": "61ebde90bf31187440543ca98aee665eb6ee33925931dc8de60f9e7ac228a0b4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9552,
+    "sha256": "586fae4dcef36914307bf0cde5fa7064e8ec5542220b2018a40387beb8c3bbaa"
+  },
+  {
+    "path": "analysis_config.json",
+    "bytes": 1831,
+    "sha256": "03d935eec9941557593afb60427f17c49231a8370e8f7255c0c61dca86235d5e"
+  },
+  {
+    "path": "analyze.py",
+    "bytes": 6208,
+    "sha256": "df5ae33e67bf429749cc580c5747036c8219fa9444bbef0b7e9077fed120a705"
+  },
+  {
+    "path": "audit.py",
+    "bytes": 3858,
+    "sha256": "51268e5689ec7577720c7c7e69ca3d19084277d76edbd5c91f9bd67c5c4ecbc8"
+  },
+  {
+    "path": "audit_results.json",
+    "bytes": 20806,
+    "sha256": "51b0895ccf7a7d591a0bd6baf3debcc2f9722151637a0973ed7af7f942c70e3a"
+  },
+  {
+    "path": "candidate_LR_independent_expression.csv",
+    "bytes": 11439,
+    "sha256": "e63f0529288092d3c8804eae761babc62a216e1203422bf315a70ef7840a25d5"
+  },
+  {
+    "path": "candidate_LR_resource_snapshot.csv",
+    "bytes": 1705,
+    "sha256": "6436a31e5fe1850ce7e9e82d1690bc16300c2e937ff389d4c7a9b3cddd4d9f15"
+  },
+  {
+    "path": "figures/J259B_immune_expression_UMAP.pdf",
+    "bytes": 329494,
+    "sha256": "329614833b2755748de54ac55e8c9051416f13891a8b28c4c77bb903c842eb98"
+  },
+  {
+    "path": "figures/J259B_immune_expression_UMAP.png",
+    "bytes": 870790,
+    "sha256": "a9924922ef79f226abf73a0d9be5b5bd34349a2077ee9419089a6d56ace2dddd"
+  },
+  {
+    "path": "figures/J259X_immune_expression_UMAP.pdf",
+    "bytes": 446347,
+    "sha256": "d092e1566be79823096bf01de0e2420073bb7ddab59cb3a3b260f0fa4bf12ca2"
+  },
+  {
+    "path": "figures/J259X_immune_expression_UMAP.png",
+    "bytes": 985855,
+    "sha256": "1d9ccfbce8e16291b0ce9993160b4df470dfd0a0f3bc4a952e87b079f774c934"
+  },
+  {
+    "path": "figures/J259X_marker_gate_evidence.pdf",
+    "bytes": 23008,
+    "sha256": "3b8303671f76f568d6cde7384d4824e5c741a4060861624db0421c0b435a42c7"
+  },
+  {
+    "path": "figures/J259X_marker_gate_evidence.png",
+    "bytes": 147420,
+    "sha256": "af75296d4167e3a9f765178c7b3f099c63dbb1a4fad81d8bee70c104a61d72fa"
+  },
+  {
+    "path": "figures/candidate_LR_independent_expression.pdf",
+    "bytes": 20616,
+    "sha256": "2380520fe3c5d9bec5e204202c13f298df9d3793f100e685591ede776867b983"
+  },
+  {
+    "path": "figures/candidate_LR_independent_expression.png",
+    "bytes": 181283,
+    "sha256": "d76e913a9bae9ea3522473ba2d960bf9fa778547a8b7f70b61f50ae4c46becc0"
+  },
+  {
+    "path": "figures/same_spot_immune_RNA_overlap.pdf",
+    "bytes": 17659,
+    "sha256": "4d9ce0bfd75cbe951dcec32b544ee3fce5db3227dc46693af8cb0586e8ff6f62"
+  },
+  {
+    "path": "figures/same_spot_immune_RNA_overlap.png",
+    "bytes": 149890,
+    "sha256": "54536644d810c6d661d6b7a751efd609b3a7fd4d686a658e48d9e5ba3a2c40e4"
+  },
+  {
+    "path": "input_manifest.json",
+    "bytes": 355,
+    "sha256": "2ab74cd466826d4f1871459191b14f6182c35d98dbeebf91e168ea081f86b93a"
+  },
+  {
+    "path": "inputs/J259B_AVITI_expression_marker_subset.h5ad",
+    "bytes": 1775068,
+    "sha256": "549698c415902e0ca4b3ae287c68a06069da0c2faa3d534563522ef78406ff0d"
+  },
+  {
+    "path": "inputs/J259X_AVITI_expression_marker_subset.h5ad",
+    "bytes": 2232104,
+    "sha256": "abde0250092543762bdcd22a0f63896dab444af0b092704f15ce14c5952050bb"
+  },
+  {
+    "path": "marker_coverage.csv",
+    "bytes": 3694,
+    "sha256": "c445e4f9f08e2479482fc46ec70c80738c06b440c3e9d06f2226495a60fb4223"
+  },
+  {
+    "path": "package_results.py",
+    "bytes": 919,
+    "sha256": "b6aff1ed4b83bfd3537248fee3939388af46bcfb8c256bb6b044f0585fb04ba4"
+  },
+  {
+    "path": "plot.py",
+    "bytes": 5210,
+    "sha256": "fa517cdae2695fe71b31fd6d5ddca0a3976ca46b5258d1e77fb263191be3b41a"
+  },
+  {
+    "path": "provenance/GSE283406.soft",
+    "bytes": 1440,
+    "sha256": "62831f1d33d656d59ccbd36a511455af1357e7f2464148fc0d6570ee004133a8"
+  },
+  {
+    "path": "provenance/GSM8661792.soft",
+    "bytes": 3515,
+    "sha256": "d76769fa6a4595b77d2287dd2a9c12499817855212a44bd4f643cdcaf0c03be1"
+  },
+  {
+    "path": "provenance/author_Immune.R",
+    "bytes": 12520,
+    "sha256": "8fa860a73fd317d65a27461bcc6666b3f24c3ad0d66dc2a1a0dc51985d0ac8f0"
+  },
+  {
+    "path": "provenance/author_README.md",
+    "bytes": 371,
+    "sha256": "4303878c79cbb09b08c450e1599f02bbb1c28787847405d64d927655b580c24d"
+  },
+  {
+    "path": "provenance/author_Seurat.R",
+    "bytes": 11538,
+    "sha256": "babd0ca05f47a771f814dfd90a086b07d6248a77c85d16d73c04ea049804e679"
+  },
+  {
+    "path": "provenance/author_repository_check.json",
+    "bytes": 438,
+    "sha256": "0c3a08d480e190a530869321d3786248cbbb7aacf081b6d2aaacb810212b2549"
+  },
+  {
+    "path": "provenance/filelist.txt",
+    "bytes": 1558,
+    "sha256": "6ad22b83e022ba599691548b55fe0584df0b09a84ab6207f5f5259dfea2fe072"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "9eabac933bc32b5db1791ca5fff63880c1b9d07bb3462554d064c2333d8e92a5"
+  },
+  {
+    "path": "same_spot_RNA_overlap.csv",
+    "bytes": 5449,
+    "sha256": "fc088ded0da9c8c149676dfe52898a653b54346cee6acd32dfdd11110d40cd14"
+  },
+  {
+    "path": "section_summary.csv",
+    "bytes": 218,
+    "sha256": "7480f4337da35c9449f6d8840fe50e92860fb2b080b6e2aed409f38adae8a712"
+  },
+  {
+    "path": "target_marker_evidence.csv",
+    "bytes": 4664,
+    "sha256": "02e2c47bbfef295f8495512f70773a8d23597adc3b78fa83e6bf430f294b3105"
+  }
+]

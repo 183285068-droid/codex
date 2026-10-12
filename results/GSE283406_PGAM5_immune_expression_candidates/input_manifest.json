@@ -1,0 +1,12 @@
+[
+  {
+    "path": "inputs/J259X_AVITI_expression_marker_subset.h5ad",
+    "bytes": 2232104,
+    "sha256": "abde0250092543762bdcd22a0f63896dab444af0b092704f15ce14c5952050bb"
+  },
+  {
+    "path": "inputs/J259B_AVITI_expression_marker_subset.h5ad",
+    "bytes": 1775068,
+    "sha256": "549698c415902e0ca4b3ae287c68a06069da0c2faa3d534563522ef78406ff0d"
+  }
+]

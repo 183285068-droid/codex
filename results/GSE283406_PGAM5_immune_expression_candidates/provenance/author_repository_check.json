@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/SilviaLiu12345/Spatial_transcriptomics_deep_vs_standard",
+  "commit": "e9fcbdca77c9f0fad02618bbe54ca4e3591dbd5c",
+  "tracked_files": [
+    "Immune.R",
+    "README.md",
+    "Seurat.R",
+    "cell_interaction.R",
+    "deconvolution.R",
+    "genes.gtf",
+    "newUMAP.R",
+    "newUMAP.V2.R",
+    "newUMAP.V3.R",
+    "newUMAP.V4.R"
+  ],
+  "coordinate_files_found": [],
+  "source_scripts_executed": false
+}

@@ -1,0 +1,104 @@
+{
+  "kind": "expression-only proxy analysis, not spatial interaction",
+  "primary": "J259X tumor section AVITI",
+  "context": "J259B mixed tumor/adjacent section, not tumor ROI confirmed",
+  "biological_patients": 1,
+  "coordinates_available": false,
+  "subgroup_panels": {
+    "All_T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "Exhaustion_T": [
+      "PDCD1",
+      "LAG3",
+      "TIGIT",
+      "CTLA4",
+      "TOX",
+      "CXCL13"
+    ],
+    "Activation_T": [
+      "CD69",
+      "IL2RA",
+      "TNFRSF9",
+      "ICOS",
+      "CD40LG",
+      "IL2"
+    ],
+    "Cytotoxic_T": [
+      "IFNG",
+      "PRF1",
+      "GZMB",
+      "GZMA",
+      "CCL5",
+      "TBX21"
+    ],
+    "B_related": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD19",
+      "CD22"
+    ],
+    "Plasma_related": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "IGKC"
+    ],
+    "cDC2_related": [
+      "CD1C",
+      "FCER1A",
+      "CLEC10A"
+    ],
+    "cDC1_related": [
+      "CLEC9A",
+      "XCR1"
+    ],
+    "Inflammatory_myeloid": [
+      "S100A8",
+      "S100A9",
+      "VCAN",
+      "IL1B"
+    ]
+  },
+  "missing_subgroup_markers": [
+    "NK",
+    "Treg",
+    "naive/memory T",
+    "CD4/CD8 identity",
+    "pDC",
+    "granulocyte",
+    "mast"
+  ],
+  "LR_pairs": [
+    [
+      "SPP1",
+      "CD44"
+    ],
+    [
+      "PVR",
+      "TIGIT"
+    ],
+    [
+      "NECTIN2",
+      "TIGIT"
+    ],
+    [
+      "LGALS9",
+      "HAVCR2"
+    ],
+    [
+      "CD274",
+      "PDCD1"
+    ]
+  ],
+  "LR_method": "source ligand and target receptor detected/mean RNA independently summarized, no source-target pairing, no interaction score/p",
+  "cooccurrence": "immune gate overlaps PGAM5-high Mac RNA SAME barcode; mixed RNA not cell neighbors",
+  "no_UMAP_adjacency": true,
+  "no_patient_p_values": true
+}

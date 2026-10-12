@@ -1,0 +1,798 @@
+{
+  "checks": 198,
+  "passed": 198,
+  "details": [
+    {
+      "check": "inputs/J259X_AVITI_expression_marker_subset.h5ad SHA",
+      "passed": true
+    },
+    {
+      "check": "inputs/J259B_AVITI_expression_marker_subset.h5ad SHA",
+      "passed": true
+    },
+    {
+      "check": "SPP1CD44 resource definition",
+      "passed": true
+    },
+    {
+      "check": "PVRTIGIT resource definition",
+      "passed": true
+    },
+    {
+      "check": "NECTIN2TIGIT resource definition",
+      "passed": true
+    },
+    {
+      "check": "LGALS9HAVCR2 resource definition",
+      "passed": true
+    },
+    {
+      "check": "CD274PDCD1 resource definition",
+      "passed": true
+    },
+    {
+      "check": "J259X full panel normalization",
+      "passed": true
+    },
+    {
+      "check": "J259X no invented spatial geometry",
+      "passed": true
+    },
+    {
+      "check": "J259X original PGAM5 raw",
+      "passed": true
+    },
+    {
+      "check": "J259X fixed high Q75",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XAll_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XExhaustion_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XActivation_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XCytotoxic_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XB_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XB_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XPlasma_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC2_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XcDC1_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloid score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloid independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259XInflammatory_myeloidCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259B full panel normalization",
+      "passed": true
+    },
+    {
+      "check": "J259B no invented spatial geometry",
+      "passed": true
+    },
+    {
+      "check": "J259B original PGAM5 raw",
+      "passed": true
+    },
+    {
+      "check": "J259B fixed high Q75",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BAll_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BExhaustion_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BActivation_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_T score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_T independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BCytotoxic_TCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BB_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BB_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BPlasma_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC2_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_related score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_related independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BcDC1_relatedCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloid score and detection",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloid independently reconstructed target gate",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidPGAM5_high same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidOther_detected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidUndetected same-spot counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidSPP1CD44 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidPVRTIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidNECTIN2TIGIT independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidLGALS9HAVCR2 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "J259BInflammatory_myeloidCD274PDCD1 independent ligand/receptor counts",
+      "passed": true
+    },
+    {
+      "check": "no spatial pairs claimed",
+      "passed": true
+    },
+    {
+      "check": "9 candidate classes per section",
+      "passed": true
+    },
+    {
+      "check": "1 biological patient documented",
+      "passed": true
+    }
+  ]
+}
