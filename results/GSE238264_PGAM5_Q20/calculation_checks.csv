@@ -1,0 +1,29 @@
+sample,check,passed
+HCC1R,independent spatial aggregation T_fraction,True
+HCC1R,independent spatial aggregation mac_fraction,True
+HCC1R,independent spatial aggregation fibroblast_score,True
+HCC1R,Q25 sources nested in Q20,True
+HCC2R,independent spatial aggregation T_fraction,True
+HCC2R,independent spatial aggregation mac_fraction,True
+HCC2R,independent spatial aggregation fibroblast_score,True
+HCC2R,Q25 sources nested in Q20,True
+HCC3R,independent spatial aggregation T_fraction,True
+HCC3R,independent spatial aggregation mac_fraction,True
+HCC3R,independent spatial aggregation fibroblast_score,True
+HCC3R,Q25 sources nested in Q20,True
+HCC4R,independent spatial aggregation T_fraction,True
+HCC4R,independent spatial aggregation mac_fraction,True
+HCC4R,independent spatial aggregation fibroblast_score,True
+HCC4R,Q25 sources nested in Q20,True
+HCC5NR,independent spatial aggregation T_fraction,True
+HCC5NR,independent spatial aggregation mac_fraction,True
+HCC5NR,independent spatial aggregation fibroblast_score,True
+HCC5NR,Q25 sources nested in Q20,True
+HCC6NR,independent spatial aggregation T_fraction,True
+HCC6NR,independent spatial aggregation mac_fraction,True
+HCC6NR,independent spatial aggregation fibroblast_score,True
+HCC6NR,Q25 sources nested in Q20,True
+HCC7NR,independent spatial aggregation T_fraction,True
+HCC7NR,independent spatial aggregation mac_fraction,True
+HCC7NR,independent spatial aggregation fibroblast_score,True
+HCC7NR,Q25 sources nested in Q20,True
