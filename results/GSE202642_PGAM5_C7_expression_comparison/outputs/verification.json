@@ -1,0 +1,43 @@
+{
+  "cells": 12135,
+  "patients": 7,
+  "clusters": 15,
+  "PGAM5_detected_cells": 868,
+  "raw_counts_and_library_totals_recomputed": true,
+  "all_previous_cluster_statistics_match": true,
+  "source_UMAP_mean_metric_preserved": true,
+  "primary_macrophage_related_groups": [
+    "C0",
+    "C2",
+    "C3",
+    "C4",
+    "C6",
+    "C7",
+    "C9",
+    "C11",
+    "C12",
+    "C13"
+  ],
+  "unresolved_mixed_groups": [
+    "C1",
+    "C5",
+    "C8",
+    "C10",
+    "C14"
+  ],
+  "C7_cell_comparisons_planned": 14,
+  "C7_primary_bar_brackets": 9,
+  "cell_significant_macrophage_comparisons": 8,
+  "cell_significant_all15_comparisons": 12,
+  "patient_testable_comparisons": 2,
+  "patient_significant_comparisons": 0,
+  "patient_minimum_q": 0.4375,
+  "exact_test_independently_checked": true,
+  "BH_independently_checked": true,
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "183285068-droid/codex",
+  "source_commit": "7a1ac2a0940b26df8fcfb5309eb47689dd20c145",
+  "source_directory": "results/GSE202642_PGAM5_subpopulation_assessment",
+  "reference_figure": "PGAM5_cluster_mean_expression_UMAP.pdf",
+  "source_cell_file_git_sha": "96ddb713febde32ba59c359de854361fa161020e",
+  "input_sha256": {
+    "PGAM5_UMAP_expression_values.csv.gz": "9b17deb293e7a1e220b0b9dfb9c8ca6e6729f70a1383d7789f8d79a402db14da",
+    "functional_subgroup_names.csv": "8421042fbdfec91bdd6bdfe17d5ca81f34c94ebcae5cc51ee88d0e41d620dac4",
+    "PGAM5_expression_by_cluster.csv": "d8a377eaee3fb56c13e6f282688cf757066c3292ae81729386df2927ac1b7686"
+  },
+  "patient_identity": "Seven sample labels treated as seven independent patients, following the archived user-confirmed mapping.",
+  "analysis_date": "2026-10-19",
+  "all_zero_values_retained": true,
+  "no_reclustering": true,
+  "no_imputation": true
+}

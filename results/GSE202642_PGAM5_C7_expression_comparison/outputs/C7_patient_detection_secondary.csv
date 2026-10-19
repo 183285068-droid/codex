@@ -1,0 +1,15 @@
+target,comparator,comparator_number,comparator_scope,endpoint,min_cells_per_patient_cluster,paired_patients,mean_difference_C7_minus_comparator,median_difference_C7_minus_comparator,p_value,status,q_BH_14,significance
+C7,C0,0,macrophage_related,detection_percent,10,2,22.646970729792816,22.646970729792816,,insufficient_paired_patients,,NT
+C7,C1,1,unresolved_mixed_RNA,detection_percent,10,1,18.51851851851852,18.51851851851852,,insufficient_paired_patients,,NT
+C7,C2,2,macrophage_related,detection_percent,10,1,11.139143219942524,11.139143219942524,,insufficient_paired_patients,,NT
+C7,C3,3,macrophage_related,detection_percent,10,5,21.10019277985195,20.87585034013605,0.0625,tested,0.4375,ns
+C7,C4,4,macrophage_related,detection_percent,10,3,17.78058133053935,17.307692307692307,,insufficient_paired_patients,,NT
+C7,C5,5,unresolved_mixed_RNA,detection_percent,10,3,7.096072990743042,12.18274111675127,,insufficient_paired_patients,,NT
+C7,C6,6,macrophage_related,detection_percent,10,1,6.508638303948167,6.508638303948167,,insufficient_paired_patients,,NT
+C7,C8,8,unresolved_mixed_RNA,detection_percent,10,5,10.560123721925752,7.291666666666664,0.0625,tested,0.4375,ns
+C7,C9,9,macrophage_related,detection_percent,10,2,12.400464465888911,12.400464465888911,,insufficient_paired_patients,,NT
+C7,C10,10,unresolved_mixed_RNA,detection_percent,10,1,22.916666666666664,22.916666666666664,,insufficient_paired_patients,,NT
+C7,C11,11,macrophage_related,detection_percent,10,2,15.205366043702949,15.205366043702949,,insufficient_paired_patients,,NT
+C7,C12,12,macrophage_related,detection_percent,10,2,16.343900522050127,16.343900522050127,,insufficient_paired_patients,,NT
+C7,C13,13,macrophage_related,detection_percent,10,1,17.322097378277153,17.322097378277153,,insufficient_paired_patients,,NT
+C7,C14,14,unresolved_mixed_RNA,detection_percent,10,1,-9.965034965034963,-9.965034965034963,,insufficient_paired_patients,,NT
