@@ -1,0 +1,24 @@
+{
+  "input_sha256": "068e7ce434dc5b9cbec3fd9282eacd1c58747f2c3e0698ed92c26eeccba95a2c",
+  "cells": 5605,
+  "samples": 10,
+  "PGAM5_detected_cells": 136,
+  "primary_planned_pairs": 36,
+  "primary_testable_pairs": 12,
+  "primary_significant_pairs_q_lt_0_05": 0,
+  "primary_smallest_q": 0.5625,
+  "exploratory_cell_significant_pairs": 6,
+  "exploratory_Kruskal_Wallis_H": 45.59387601700211,
+  "exploratory_Kruskal_Wallis_P": 2.8391370763067835e-07,
+  "previous_statistics_reconciled": true,
+  "exact_test_checked_against_scipy": true,
+  "missing_sample_clusters_not_filled_as_zero": true,
+  "all_cell_zeros_retained": true,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

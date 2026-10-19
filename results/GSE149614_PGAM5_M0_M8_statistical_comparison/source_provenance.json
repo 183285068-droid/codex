@@ -1,0 +1,16 @@
+{
+  "repository": "183285068-droid/codex",
+  "source_ref": "bda570211d44b7849274298a2824fdb73851df00",
+  "source_directory": "results/GSE149614_PGAM5_M0_M8_expression_supplement",
+  "source_cell_file_git_blob_sha": "762fdcb408348b0aa96339676bf7069f64139838",
+  "source_cell_file_sha256": "068e7ce434dc5b9cbec3fd9282eacd1c58747f2c3e0698ed92c26eeccba95a2c",
+  "data_origin": "Saved real single-cell counts, library totals, original cluster labels and sample IDs; no synthetic data",
+  "analysis_date": "2026-10-19",
+  "thresholds": {
+    "min_cells_per_sample_cluster_primary": 10,
+    "min_shared_samples_per_pair": 5
+  },
+  "sample_unit": "HCC01T-HCC10T tumor sample",
+  "primary_multiplicity_family": 36,
+  "purpose": "PGAM5 abundance comparison across M0-M8; sample-aware main and cell-level exploratory analyses"
+}
