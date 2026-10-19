@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.8.0",
+    "openpyxl": "3.1.5"
+  },
+  "checks": [
+    "CSV read/write",
+    "Excel read/write",
+    "Welch t-test",
+    "linear regression",
+    "headless PNG plotting"
+  ],
+  "welch_t": -1.0,
+  "welch_p": 0.34659350708733416,
+  "limitations": [
+    "R and Rscript are not installed.",
+    "Cloud workspace is temporary; use setup.sh to restore.",
+    "External network access is governed by the host."
+  ]
+}
