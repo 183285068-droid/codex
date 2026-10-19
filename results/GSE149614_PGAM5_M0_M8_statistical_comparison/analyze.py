@@ -66,6 +66,23 @@ def save(fig, stem):
         fig.savefig(OUT / f'{stem}.{ext}', dpi=210, facecolor='white')
     plt.close(fig)
 
+def annotate_bar_comparisons(ax, table, summary):
+    """Label all eight M1 comparisons; q values retain the full 36-pair BH family."""
+    comparisons = table[(table.group_a == 'M1') | (table.group_b == 'M1')].copy()
+    comparisons['span'] = comparisons.apply(lambda r: abs(GROUPS.index(r.group_a)-GROUPS.index(r.group_b)), axis=1)
+    comparisons = comparisons.sort_values(['span', 'group_a', 'group_b'])
+    base = float(summary.mean_CP10k.max()) + .015
+    step, height = .015, .003
+    for level, r in enumerate(comparisons.itertuples()):
+        left, right = sorted([GROUPS.index(r.group_a), GROUPS.index(r.group_b)])
+        y = base + level * step
+        ax.plot([left,left,right,right], [y,y+height,y+height,y], color='#293541', lw=.8, clip_on=False)
+        label = f'{stars(r.q_BH)}  q={r.q_BH:.2g}'
+        ax.text((left+right)/2, y+height+.001, label, ha='center', va='bottom', fontsize=8,
+                color='#293541', bbox={'facecolor':'white','edgecolor':'none','pad':.5})
+    ax.set_ylim(0, base + (len(comparisons)-1)*step + .023)
+    return len(comparisons)
+
 def significance_matrix(ax, table, sample_level):
     ax.set_xlim(-.5, 8.5); ax.set_ylim(8.5, -.5); ax.set_aspect('equal')
     ax.set_xticks(range(9), GROUPS); ax.set_yticks(range(9), GROUPS)
@@ -192,15 +209,31 @@ def main():
     for i,c in enumerate(GROUPS):
         axs[0].text(i,summary.loc[c,'mean_CP10k']+.002,f'{summary.loc[c,"mean_CP10k"]:.4f}',ha='center',fontsize=9)
     axs[0].set_xticks(range(9),[f'{c}\nn={summary.loc[c,"cells"]}' for c in GROUPS],fontsize=9)
-    axs[0].set_ylim(0,summary.mean_CP10k.max()*1.22);axs[0].set_ylabel('Pooled cell mean PGAM5 CP10k, zeros included')
+    bar_annotation_count = annotate_bar_comparisons(axs[0], cell, summary)
+    axs[0].set_ylabel('Pooled cell mean PGAM5 CP10k, zeros included')
     axs[0].set_xlabel('Cluster | cell count');axs[0].grid(axis='y',color='#e8e8e8');axs[0].set_axisbelow(True)
-    axs[0].set_title('A  Pooled descriptive abundance\nBars are cell-weighted; no biological-replicate error bars',loc='left',fontsize=12)
+    axs[0].set_title('A  Pooled abundance | M1 vs other clusters\nBrackets: BH-adjusted q across all 36 comparisons',loc='left',fontsize=12)
     significance_matrix(axs[1],cell,False)
     fig.suptitle('PGAM5 | exploratory cell-level comparisons',fontsize=16,y=.98)
     fig.text(.07,.06,f'Two-sided Mann-Whitney U tests with tie/continuity correction; BH over 36 pairs. Kruskal-Wallis P={kw.pvalue:.2g}.\n'
         'Heatmap tests cell-level distributions of log1p(CP10k); the bar panel shows arithmetic mean CP10k.\n'
         'Cells from the same sample are correlated. These stars are exploratory and do not establish sample-level significance.',fontsize=10)
     fig.tight_layout(rect=[.025,.17,.99,.94]);save(fig,'02_exploratory_cell_expression_significance')
+
+    fig, ax = plt.subplots(figsize=(11.5,8))
+    ax.bar(range(9), summary.mean_CP10k, color=colors, width=.65)
+    for i,c in enumerate(GROUPS):
+        ax.text(i,summary.loc[c,'mean_CP10k']+.002,f'{summary.loc[c,"mean_CP10k"]:.4f}',ha='center',fontsize=10)
+    assert annotate_bar_comparisons(ax, cell, summary) == 8
+    ax.set_xticks(range(9), [f'{c}\nn={summary.loc[c,"cells"]}' for c in GROUPS])
+    ax.set_xlabel('Macrophage-enriched cluster | cell count')
+    ax.set_ylabel('Pooled mean PGAM5 CP10k, zeros included')
+    ax.grid(axis='y',color='#e8e8e8'); ax.set_axisbelow(True)
+    ax.set_title('PGAM5 expression abundance across M0-M8\nM1 comparisons annotated on bars | exploratory cell-level analysis',fontsize=15,pad=15)
+    fig.text(.09,.055,'Two-sided Mann-Whitney U; BH adjustment over all 36 pairwise tests. Brackets show M1 vs each other cluster.\n'
+        '* q<0.05; ** q<0.01; *** q<0.001; **** q<0.0001; ns: q>=0.05.\n'
+        'Pooled bars have no biological-replicate error bars. Sample-level primary comparisons were not significant.',fontsize=9.5)
+    fig.tight_layout(rect=[.02,.15,.99,.99]);save(fig,'03_barplot_with_significance')
 
     tested = primary[primary.status.eq('tested')]
     verification = {'input_sha256':expected_sha,'cells':len(d),'samples':d.Sample.nunique(),
@@ -210,6 +243,8 @@ def main():
         'exploratory_Kruskal_Wallis_H':float(kw.statistic),'exploratory_Kruskal_Wallis_P':float(kw.pvalue),
         'previous_statistics_reconciled':True,'exact_test_checked_against_scipy':True,
         'missing_sample_clusters_not_filled_as_zero':True,'all_cell_zeros_retained':True,
+        'barplot_M1_comparisons_annotated':bar_annotation_count,
+        'barplot_q_adjustment_family':36,
         'python':platform.python_version(),'packages':{p:metadata.version(p) for p in ['numpy','pandas','scipy','matplotlib']}}
     (OUT/'verification.json').write_text(json.dumps(verification,indent=2)+'\n')
     sig = cell[cell.q_BH < .05]
@@ -226,6 +261,7 @@ def main():
 
 - [主图：样本表达分布和全部两两比较显著性](outputs/01_sample_aware_expression_significance.png) · [SVG](outputs/01_sample_aware_expression_significance.svg)
 - [补充图：合并表达丰度和细胞层面显著性](outputs/02_exploratory_cell_expression_significance.png) · [SVG](outputs/02_exploratory_cell_expression_significance.svg)
+- [柱状图：直接标注显著性括号、星号与q值](outputs/03_barplot_with_significance.png) · [SVG](outputs/03_barplot_with_significance.svg)
 - [主分析完整36对统计](outputs/primary_sample_paired_comparisons.csv)
 - [细胞层面完整36对统计](outputs/exploratory_cell_MannWhitney_comparisons.csv)
 - [各样本各亚群统计](outputs/sample_cluster_statistics.csv) · [样本细胞数](outputs/sample_cluster_cell_counts.csv)
@@ -245,6 +281,7 @@ PGAM5 在136/5605个细胞中检出。M0–M8是聚类编号，M1编号不代表
 5. 图中的 `*`、`**`、`***`、`****` 分别指 q<0.05、0.01、0.001、0.0001；`ns`指 q>=0.05；`NT`指合格配对样本不足。主图同时标明配对样本数。
 6. 敏感性分析：最小细胞数1/10/20；主要终点、算术平均CP10k、按计数汇总的pseudobulk CP10k。每个终点和阈值组合分别对36对做BH，不据此挑选显著结果。检出率的样本级比较另列为次要分析，单独校正。
 7. 细胞层面为补充探索：双侧Mann–Whitney U（渐近法，校正并列值及连续性）比较表达分布，36对BH校正；列出秩二列相关效应量。另保存Fisher精确检验的检出率比较。合并Kruskal–Wallis H={kw.statistic:.4g}，P={kw.pvalue:.4g}，亦不调整样本内相关性。
+8. 柱状图直接标注M1与其余8群的比较（含不显著结果），q值仍来自全部36对比较的BH校正，没有缩小比较族。其余群之间的两两比较保留在完整热图和CSV中。括号检验的是细胞表达分布，柱高描述算术平均CP10k；星号不应解读为样本层面的均值检验。
 
 ## 细胞层面探索性显著比较
 

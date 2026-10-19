@@ -9,6 +9,7 @@
 
 - [主图：样本表达分布和全部两两比较显著性](outputs/01_sample_aware_expression_significance.png) · [SVG](outputs/01_sample_aware_expression_significance.svg)
 - [补充图：合并表达丰度和细胞层面显著性](outputs/02_exploratory_cell_expression_significance.png) · [SVG](outputs/02_exploratory_cell_expression_significance.svg)
+- [柱状图：直接标注显著性括号、星号与q值](outputs/03_barplot_with_significance.png) · [SVG](outputs/03_barplot_with_significance.svg)
 - [主分析完整36对统计](outputs/primary_sample_paired_comparisons.csv)
 - [细胞层面完整36对统计](outputs/exploratory_cell_MannWhitney_comparisons.csv)
 - [各样本各亚群统计](outputs/sample_cluster_statistics.csv) · [样本细胞数](outputs/sample_cluster_cell_counts.csv)
@@ -28,6 +29,7 @@ PGAM5 在136/5605个细胞中检出。M0–M8是聚类编号，M1编号不代表
 5. 图中的 `*`、`**`、`***`、`****` 分别指 q<0.05、0.01、0.001、0.0001；`ns`指 q>=0.05；`NT`指合格配对样本不足。主图同时标明配对样本数。
 6. 敏感性分析：最小细胞数1/10/20；主要终点、算术平均CP10k、按计数汇总的pseudobulk CP10k。每个终点和阈值组合分别对36对做BH，不据此挑选显著结果。检出率的样本级比较另列为次要分析，单独校正。
 7. 细胞层面为补充探索：双侧Mann–Whitney U（渐近法，校正并列值及连续性）比较表达分布，36对BH校正；列出秩二列相关效应量。另保存Fisher精确检验的检出率比较。合并Kruskal–Wallis H=45.59，P=2.839e-07，亦不调整样本内相关性。
+8. 柱状图直接标注M1与其余8群的比较（含不显著结果），q值仍来自全部36对比较的BH校正，没有缩小比较族。其余群之间的两两比较保留在完整热图和CSV中。括号检验的是细胞表达分布，柱高描述算术平均CP10k；星号不应解读为样本层面的均值检验。
 
 ## 细胞层面探索性显著比较
 
